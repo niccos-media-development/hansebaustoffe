@@ -550,9 +550,9 @@
         "expandable_JYCzJd": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Wie viel Flächenkleber brauche ich?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>Der <strong>Verbrauch des Flächenklebers BlueTek</strong> hängt vom <strong>Klebeverfahren</strong> ab:</p><p><strong>Verbrauch je Quadratmeter (m²):</strong><br/>🔹 <strong>Nassklebeverfahren:</strong> ca. <strong>0,2 l/m²</strong><br/>🔹 <strong>Kontaktklebeverfahren:</strong> ca. <strong>0,3 – 0,5 l/m²</strong></p><p>💡 <strong>Tipp:</strong> Planen Sie je nach Untergrund und Auftragstechnik <strong>etwas Reserve</strong> ein, um eine gleichmäßige und sichere Verklebung zu gewährleisten! ✅🏠</p>",
             "expanded": false
           }
         }
