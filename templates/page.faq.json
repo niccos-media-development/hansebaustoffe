@@ -24,7 +24,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Banner_FAQ_Holzbloecke_Fragen_Antworten_1920x600px.jpg",
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "overlay_background": "",
             "heading": "Image slide",
             "heading_size": "md",
             "subheading": "",
