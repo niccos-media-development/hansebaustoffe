@@ -1,1 +1,1089 @@
-{"sections":{"video_background_9MdCGY":{"type":"video-background","custom_css":[],"settings":{"full_width":true,"box_align":"bottom-left","height":"small","overlay_background":"","heading":"","heading_size":"sm","text":"","text_size":"md","button_label":"","button_type_link":false,"button_color_scheme":"accent-1","button_link":"shopify:\/\/collections\/epdm-folien","secondary_button_label":"","secondary_button_type_link":false,"secondary_button_color_scheme":"accent-1","secondary_button_link":"","custom_video":"shopify:\/\/files\/videos\/HSS_Frontpage_Product Promo_Test_2025_1_8 (komprMore).mp4","video_url":"","video_href_link":"shopify:\/\/products\/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt","video_description":"","mobile_heading_size":"lg","mobile_box_align":"middle-center","color_scheme":"accent-2","spacing_top":0,"spacing_bottom":0}},"niccos_promotional_cards_T8Rk68":{"type":"niccos-promotional-cards","blocks":{"promotion_PLEwFE":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg","background_image_position":"middle-center","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"EPDM Folie","link":"shopify:\/\/collections\/epdm-folien","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"background-1","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"promotion_YMKkXN":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg","background_image_position":"bottom-left","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"Kleb- & Dichtstoffe","link":"shopify:\/\/collections\/kleb-dichtstoffe","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"promotion_gm84ph":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg","background_image_position":"bottom-left","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"EPDM Zubehör","link":"shopify:\/\/collections\/epdm-zubehor","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"promotion_8YQ8JT":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg","background_image_position":"bottom-left","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"Garantie-Gullys","link":"","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}}},"block_order":["promotion_PLEwFE","promotion_YMKkXN","promotion_gm84ph","promotion_8YQ8JT"],"settings":{"image_heights":180,"heading":"Kategorien","subheading":"","link_title":"","link_url":"","columns":4,"stack_on_mobile":false,"card_clickable_desktop":true,"box_radius":0,"heading_outline_color":"#333333","color_scheme":"background-1","spacing_top":20,"spacing_bottom":20}},"niccos_promotional_cards_Awg6pr":{"type":"niccos-promotional-cards","blocks":{"promotion_tWAhnd":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg","background_image_position":"bottom-left","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"Be- & Entlüftung","link":"shopify:\/\/collections\/be-entluftung","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"promotion_gVJ6An":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg","background_image_position":"bottom-left","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"Kabeldurchführungen","link":"shopify:\/\/collections\/kabeldurchfuhrungen","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"promotion_MX6Qw7":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg","background_image_position":"bottom-left","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"Dachrandprofile","link":"shopify:\/\/collections\/dachrandprofile","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"promotion_Ycr93H":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg","background_image_position":"bottom-left","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"Wandanschluss","link":"shopify:\/\/collections\/wandanschluss","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}}},"block_order":["promotion_tWAhnd","promotion_gVJ6An","promotion_MX6Qw7","promotion_Ycr93H"],"settings":{"image_heights":180,"heading":"","subheading":"","link_title":"","link_url":"","columns":4,"stack_on_mobile":false,"card_clickable_desktop":true,"box_radius":0,"heading_outline_color":"#333333","color_scheme":"background-1","spacing_top":20,"spacing_bottom":60}},"hero_banner_aGwybE":{"type":"hero-banner","blocks":{"title_HwirRp":{"type":"title","settings":{"title_text":"Dachprotect EPDM Folien"}},"content_GBtAQY":{"type":"content","settings":{"content_text":"<p>Die EPDM Folien von DACHPROTECT sind die ideale Lösung für eine professionelle und langlebige Dachabdichtung. Dank ihrer hohen Flexibilität und Widerstandsfähigkeit bieten sie optimalen Schutz vor Witterungseinflüssen, UV- und Ozonstrahlung sowie extremen Temperaturen. Die robusten EPDM Folien lassen sich einfach verlegen, passen sich perfekt an jede Dachgeometrie an und sorgen für eine dauerhaft dichte Oberfläche.<\/p>"}},"bullet_gKyHNV":{"type":"bullet","disabled":true,"settings":{"bullet_text":"50+ Jahre Lebensdauer"}},"bullet_6dAEJp":{"type":"bullet","disabled":true,"settings":{"bullet_text":"20 Jahre Materialgarantie"}},"bullet_HPTMKM":{"type":"bullet","disabled":true,"settings":{"bullet_text":"Professionelle Beratung"}},"bullet_3kVJnc":{"type":"bullet","disabled":true,"settings":{"bullet_text":"300.000m² EPDM Folie ständig auf Lager"}},"spacing_DTXGzq":{"type":"spacing","disabled":true,"settings":{}},"button_xLUP9B":{"type":"button","settings":{"button_text":"EPDM Folie schwarz","button_link":"shopify:\/\/products\/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt","button_background_color":"#ffaa32","button_border":true,"button_text_color":"#ffffff"}},"button_i3yAwz":{"type":"button","settings":{"button_text":"Weitere EPDM Folien","button_link":"shopify:\/\/collections\/epdm-folien","button_background_color":"#ffffff","button_border":true,"button_text_color":"#000000"}}},"block_order":["title_HwirRp","content_GBtAQY","bullet_gKyHNV","bullet_6dAEJp","bullet_HPTMKM","bullet_3kVJnc","spacing_DTXGzq","button_xLUP9B","button_i3yAwz"],"disabled":true,"custom_css":[],"settings":{"desktop_image":"shopify:\/\/shop_images\/Teaser_EPDM_Folie_1000x800px.jpg","content_position":"left","background_color":"#fafafa","title_color":"#333333","content_color":"#000000","title_font_size":"30","title_font_size_mobile":"--font-h3-size","content_font_size":"--font-body1-size","content_font_size_mobile":"--font-body2-size","bullet_font_size":"--font-body1-size","bullet_font_size_mobile":"--font-body2-size","custom_bullet_icon":"shopify:\/\/shop_images\/Icon_88b0198f-8d5f-40c9-82ae-cf7734a862c7.svg","bullet_icon_size":22,"bullet_icon_size_mobile":20,"section_padding_desktop":60,"section_padding_mobile":20}},"features_NDeL76":{"type":"features","blocks":{"feature_K9yKcp":{"type":"feature","settings":{"icon":"check","image":"shopify:\/\/shop_images\/Group.svg","title":"Einfache Montage","text":"<p>für Heimwerker und Profis<\/p>"}},"feature_EhJNJG":{"type":"feature","settings":{"icon":"check","image":"shopify:\/\/shop_images\/Group_1_5b2c870e-ca0f-4f07-b6c6-29ab24399084.svg","title":"Individuelle Beratung","text":"<p>durch geschulte Anwendungstechniker<\/p>"}},"feature_8x8CdQ":{"type":"feature","settings":{"icon":"check","image":"shopify:\/\/shop_images\/Group_21.svg","title":"Versandbereit","text":"<p>innerhalb 48 Stunden<\/p>"}}},"block_order":["feature_K9yKcp","feature_EhJNJG","feature_8x8CdQ"],"settings":{"inline":true,"stack_on_mobile":false,"auto_rotate":false,"icon_size":"small","color_scheme":"accent-3","background_color":"#f3f3f3","text_color":"#000000","spacing_top":30,"spacing_top_mobile":14,"spacing_bottom":30,"spacing_bottom_mobile":14,"heading_font_size":"--font-h5-size","heading_font_size_mobile":"--font-h6-size","text_font_size":"--font-body1-size","text_font_size_mobile":"--font-body2-size","icon_size_desktop":48,"icon_size_mobile":36}},"niccos_promotional_cards_WnDXcV":{"type":"niccos-promotional-cards","blocks":{"promotion_xCdEG7":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Kategorieteaser_Trainingscenter_390x175px.jpg","background_image_position":"top-right","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"HSS Trainingscenter","link":"shopify:\/\/pages\/hss-trainingscenter","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"middle-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"promotion_GNLBWP":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Kategorieteaser_Abholungen_390x175px.jpg","background_image_position":"top-right","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"Werksabholung","link":"shopify:\/\/pages\/abholung","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"middle-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"promotion_cJtLMj":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Kategorieteaser_Gewerbekunden_Registrierung_390x175px.jpg","background_image_position":"top-right","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"Gewerbekunden","link":"shopify:\/\/pages\/gewerbekunden-registrierung","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"middle-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"promotion_bDMbPY":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Kategorieteaser_Ansprechpartner_390x175px.jpg","background_image_position":"top-right","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"Unsere Ansprechpartner","link":"shopify:\/\/pages\/contact","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"middle-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"promotion_EbcwtF":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Kategorieteaser_Unsere_Shops_390x175px.jpg","background_image_position":"top-right","background_color":"rgba(0,0,0,0)","overlay_background":"","background_image_offset_x":0,"background_image_offset_y":0,"title":"Unsere Shops","link":"shopify:\/\/pages\/unsere-shops","heading_size":"md","description":"","text_color":"#ffffff","button_color_scheme":"button-primary","box_align":"middle-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}}},"block_order":["promotion_xCdEG7","promotion_GNLBWP","promotion_cJtLMj","promotion_bDMbPY","promotion_EbcwtF"],"settings":{"image_heights":174,"heading":"","subheading":"","link_title":"","link_url":"","columns":3,"stack_on_mobile":false,"card_clickable_desktop":false,"box_radius":6,"heading_outline_color":"#333333","color_scheme":"background-1","spacing_top":60,"spacing_bottom":60}},"featured-collection-2":{"type":"featured-collection","custom_css":[],"settings":{"collection":"","products_to_show":4,"products":["dachprotect-epdm-dachfolie-schwarz-im-zuschnitt","dachprotect-epdm-flachenkleber-bluetek","epdm-garantie-gully-garantie-gully-sets","dachrandprofil-isos-anthrazit-ral-7016-1-95-meter","doppelseitiges-dichtband-anschlussband-5-meter","hss-dichtstoff-transparent-290ml"],"hide_placeholders":false,"heading":"BESTSELLER","subheading":"","show_vendor":false,"show_stock":true,"show_rating":true,"show_collection":false,"collection_overlay_background":"linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)","collection_title":"","collection_description":"","collection_text_color":"#ffffff","collection_button_text":"","collection_box_align":"top-right","layout":"slider","columns":"4","stack_on_mobile":false,"spacing_top":40,"spacing_bottom":40,"navigation_text":"Alle ansehen","title_font_size":"--font-h2-size","title_font_size_mobile":"--font-h4-size","section_background":"#ffffff","mobile_spacing_top":50,"mobile_spacing_bottom":20}},"collections-1":{"type":"collection-list","blocks":{"collection-0":{"type":"collection","settings":{"collection":"kleb-dichtstoffe","title_font_size":"--font-h4-size","title_font_size_mobile":"--font-h4-size","image":"shopify:\/\/shop_images\/Kategoriebanner_300x450px_Klebstoffe_Dichtstoffe.jpg","overlay_background":"linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)","button_text":"Kategorie 1","button_type_link":false,"button_color_scheme":"button-primary","text_color":"#ffffff","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"collection-1":{"type":"collection","settings":{"collection":"epdm-folien","title_font_size":"--font-h4-size","title_font_size_mobile":"--font-h4-size","image":"shopify:\/\/shop_images\/D12-090-010_EPDM_Dachfolie_schwarz_Produktbild_1000x1000px_1_09a38da4-4b01-4be8-9d38-f4fec84ea4b1.jpg","overlay_background":"linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)","button_text":"Shop now","button_type_link":false,"button_color_scheme":"button-primary","text_color":"#ffffff","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}},"collection-2":{"type":"collection","settings":{"collection":"aktivierung","title_font_size":"--font-h4-size","title_font_size_mobile":"--font-h4-size","image":"shopify:\/\/shop_images\/Kategoriebanner_300x450px_Aktivierung.jpg","overlay_background":"linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)","button_text":"Shop now","button_type_link":false,"button_color_scheme":"button-primary","text_color":"#ffffff","box_align":"bottom-left","mobile_heading_size":"md","mobile_box_align":"bottom-left"}}},"block_order":["collection-0","collection-1","collection-2"],"settings":{"heading":"","subheading":"","link_title":"All collections","link_url":"","card_ratio":"auto","show_title":true,"show_description":false,"show_button":false,"card_clickable_desktop":true,"layout":"mosaic","columns":3,"stack_on_mobile":true,"color_scheme":"background-1","section_padding_desktop":60,"section_padding_mobile":40,"background_color":"#ffffff"}},"media_with_text_QNgpeD":{"type":"media-with-text","blocks":{"heading_dL8Xp6":{"type":"heading","settings":{"heading":"DACHPROTECT EPDM Dachfolien","heading_font_size":"--font-h2-size","heading_font_size_mobile":"--font-h3-size"}},"text_8PgWkg":{"type":"text","settings":{"text":"<p>Mit einer <strong>EPDM Dachfolie<\/strong> von DACHPROTECT setzen Sie auf ein Abdichtungssystem, dem viele Menschen seit Jahrzehnten vertrauen. Im Gegensatz zu vielen anderen Abdichtungssystemen besitzt die EPDM Dachfolie von DACHPROTECT aufgrund ihrer <strong>speziellen Materialeigenschaften<\/strong> eine <strong>Lebensdauer von über 50 Jahren<\/strong>. EPDM Folien von DACHPROTECT sind <strong>wartungsfrei, UV- und Ozonbeständig <\/strong>und behalten Ihre hohe Dehnfähigkeit von über 350% über Ihre gesamte Lebensdauer nahezu bei.<br\/><br\/>In der Regel muss die Folie bei einer <strong>fachgerechten Verarbeitung<\/strong> nur einmal im Leben während der Installation der Dachabdichtung montiert werden. Dieses macht die DACHPROTECT EPDM Dachfolie zu einer <strong>kosteneffizienten Lösung<\/strong>, da sie nicht ersetzt oder repariert werden muss. Zudem besitzen DACHPROTECT EPDM Folien eine <strong>Vielzahl an Zulassungen<\/strong> für den deutschen Markt. <\/p>","text_font_size":"--font-body-scale","text_font_size_mobile":"--font-body-scale"}},"button_FmCYqn":{"type":"button","settings":{"button_label":"Informationen zum System DACHPROTECT","button_link":"shopify:\/\/pages\/systemubersicht"}}},"block_order":["heading_dL8Xp6","text_8PgWkg","button_FmCYqn"],"settings":{"image":"shopify:\/\/shop_images\/EPDM_Dachfolie_schwarz_Anwendung_Kegeldach.jpg","video_url":"","layout":"media_first","desktop_content_alignment":"left","spacing_top":22,"spacing_bottom":22,"blocks_gap":20,"content_padding":20,"text_background":"#fafafa","vertical_alignment":"center","heading_font_size":"40","heading_font_size_mobile":"--font-h3-size","content_font_size":"--font-body2-size","content_font_size_mobile":"--font-body1-size","section_background":"#ffffff","mobile_spacing_top":20,"mobile_spacing_bottom":22}},"media_with_text_aM36B3":{"type":"media-with-text","blocks":{"heading_gY7nPU":{"type":"heading","settings":{"heading":"EPDM Folie - Die dichte Wahl für Ihr Dach","heading_font_size":"--font-h2-size","heading_font_size_mobile":"--font-h3-size"}},"text_aXrTgj":{"type":"text","settings":{"text":"<p>Wir von HANSE SYNTEC SYSTEMS lieben dichte Dächer und das möchten wir mit unseren Kunden teilen. Spätestens, wenn es um die Errichtung eines <strong>Carports, einer Garage oder eines Gartenhauses<\/strong> geht, sollte man sich die Frage stellen, welche Dachabdichtung für das Vorhaben geeignet ist. Denn nur wenn das Dach dauerhaft dicht ist, kann das Objekt auch <strong>langfristig vor Umwelt- und Witterungseinflüssen geschützt<\/strong> werden.<br\/><br\/>Mit einer <strong>DACHPROTECT EPDM <\/strong>Dachfolie sind Sie mit Sicherheit auf der dichten Seite, denn unsere EPDM Dachfolien haben eine <strong>Lebensdauer von über 50 Jahren<\/strong>. Das zeigen nicht nur die Erfahrungen aus dem realen Leben, sondern wurde auch in einer <strong>Studie vom SKZ Würzburg<\/strong> bestätigt. Das schont nicht nur die Umwelt, sondern auch den Geldbeutel. Denn wer seine EPDM Dachfolie von DACHPROTECT korrekt verarbeitet, muss sich eine lange Zeit, keine Sorgen um sein Dach machen. Sollte dennoch Ihr Dach einmal mechanisch beschädigt werden, lässt sich diese mithilfe von Nahtmaterialien wieder reparieren. Es findet hierbei keine Verklebung im eigentlichen Sinne statt, sondern eine <strong>Verbindung auf molekularer Ebene<\/strong>.<\/p>","text_font_size":"--font-body-scale","text_font_size_mobile":"--font-body-scale"}},"button_gWYTfJ":{"type":"button","settings":{"button_label":"Jetzt informieren!","button_link":"shopify:\/\/products\/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt"}}},"block_order":["heading_gY7nPU","text_aXrTgj","button_gWYTfJ"],"settings":{"image":"shopify:\/\/shop_images\/EPDM_Dachfolie_schwarz_Anwendung_Gartenhaus.jpg","video_url":"","layout":"text_first","desktop_content_alignment":"left","spacing_top":22,"spacing_bottom":22,"blocks_gap":20,"content_padding":20,"text_background":"#fafafa","vertical_alignment":"center","heading_font_size":"40","heading_font_size_mobile":"--font-h3-size","content_font_size":"--font-body2-size","content_font_size_mobile":"--font-body1-size","section_background":"#ffffff","mobile_spacing_top":40,"mobile_spacing_bottom":40}},"slideshow_UD8Rfe":{"type":"slideshow","blocks":{"slide_bUTdAW":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/EPDM_Folie_Halle_Bad_Oldesloe_1920x1080px.jpg","overlay_background":"linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)","heading":"Individuelle Konfektionierung der EPDM Folien ohne Zusatzkosten","heading_size":"md","subheading":"","text_color":"#ffffff","box_align":"top-left","content_width":80,"button_label":"Zu den EPDM Folien","button_type_link":false,"button_color_scheme":"button-primary","link":"shopify:\/\/collections\/epdm-folien","secondary_button_label":"","secondary_button_type_link":false,"secondary_button_color_scheme":"button-secondary","secondary_link":"","mobile_heading_size":"md","mobile_box_align":"bottom-left"}}},"block_order":["slide_bUTdAW"],"settings":{"full_width":false,"slide_height":"adapt_image","auto_rotate":false,"change_slides_speed":5,"animation_type":"slide","accessibility_info":"","color_scheme":"background-1","spacing_top":60,"spacing_bottom":60}},"niccos_testimonials_F3WRTd":{"type":"niccos-testimonials","blocks":{"testimonial_yt6HWP":{"type":"testimonial","settings":{"citation":"Oliver S.","description":"<p>Super Dachfolie, das beste Produkt dass ich bis jetzt für das Dach meiner Gartenhütte benutzt habe. Einfach zu verarbeiten, sieht gut aus und hält bis jetzt absolut dicht.<\/p>","rating":5}},"testimonial_AeDH9V":{"type":"testimonial","settings":{"citation":"David T.","description":"<p>Ist das 2. mal das ich Produkte von Hanse Baustoffe erworben habe. Wie auch beim 1. mal die Produkte sind qualitativ hervorragend. Der Kleber ist einfach und sicher zu verarbeiten und hat hohe Klebeeigenschaften. Die Dachprotectfolie ist schnell und einfach zu verlegen und ist von hoher Qualität.<\/p>","rating":5}},"testimonial_a6rTfm":{"type":"testimonial","settings":{"citation":"Patrick F.","description":"<p>Wie beschrieben, Qualität kann ich erst nach Garantiezeit von 20 Jahren bewerten. Auf jeden Fall gut zu verarbeiten<\/p>","rating":5}},"testimonial_RdrLe4":{"type":"testimonial","settings":{"citation":"Sebastian H.","description":"<p>Habe die Folie für meine Freiflug Voliere bestellt, bin sehr zufrieden damit. Super Qualität und leicht zu Verarbeiten. Das erste Unwetter hat sie schon überstanden. Jederzeit wieder, werde die Folie weiterempfehlen.<\/p>","rating":5}},"testimonial_8M6qHK":{"type":"testimonial","settings":{"citation":"Anonymous","description":"<p>Ich habe vor 2 Jahren diese Folie schon einmal gekauft und konnte sie einfach und erfolgreich verlegen. Ideal zur sicheren Abdichtung von Flächen. Ich einen undicht gewordenen Balkon flächig abgedichtet und anschließend WPC-Terrassendielen darüber verlegt. Ist dicht und sieht gut aus. Jetzt habe ich die gleiche Anwendung wieder gehabt. Die Abwicklung der Bestellung und Lieferung war, wie beim ersten Mal einfach, zügig und pünktlich.<\/p>","rating":5}}},"block_order":["testimonial_yt6HWP","testimonial_AeDH9V","testimonial_a6rTfm","testimonial_RdrLe4","testimonial_8M6qHK"],"settings":{"heading":"Das sagen unsere Kunden","subheading":"Erfahren Sie aus erster Hand, wie zufrieden unsere Kunden mit der DACHPROTECT EPDM Folie und dem passenden Zubehör sind. Hier teilen Nutzer ihre Erfahrungen zur einfachen Verarbeitung, zur Langlebigkeit und zur herausragenden Qualität der EPDM Folie. Die hohe Lebensdauer und Zuverlässigkeit machen die EPDM Dachabdichtung zur optimalen Lösung für jedes Flachdach. Lassen Sie sich von den Bewertungen überzeugen und profitieren Sie von echten Meinungen rund um die DACHPROTECT EPDM Folie – für dauerhaften Schutz und beste Ergebnisse.","call_to_action":"","layout":"slider","columns":3,"stack_on_mobile":false,"color_scheme":"background-1","spacing_top":60,"spacing_bottom":60,"title_alignment":"center"}},"rich_text_LaKbak":{"type":"rich-text","blocks":{"heading_dnUMMa":{"type":"heading","settings":{"heading":"Sie haben Rückfragen? Hier sind einige Antworten.","heading_size":"md"}}},"block_order":["heading_dnUMMa"],"disabled":true,"settings":{"narrow":false,"overlay_background":"","alignment":"center","color_scheme":"accent-3","spacing_top":60,"spacing_bottom":0}},"niccos_collapsible_grid_qxT3wC":{"type":"niccos-collapsible-grid","blocks":{"expandable_group_DCKbGC":{"type":"expandable_group","settings":{"group_heading":"Fragen zu Produkte","heading_1":"Für welche Einsatzbereiche eignen sich EPDM Folien?","content_1":"<p>Die DACHPROTECT EPDM Folie bietet eine zuverlässige Lösung für die <strong>Abdichtung von Flachdächern, Gründächern und Terrassen, <\/strong>während die BAUDICHT EPDM Folie optimal für die Abdichtung von Bauwerken wie <strong>Kellerwänden und Fundamenten <\/strong>geeignet ist. Beide Folien überzeugen durch ihre geprüfte Qualität, Langlebigkeit und optimale Anpassung an den jeweiligen Einsatzbereich.<\/p><p>Im Gegensatz dazu sind Teichfolien aufgrund ihrer Zusammensetzung für Dach- und Bauwerksabdichtungen ungeeignet und bieten nicht die notwendige Sicherheit und Zulassung. <\/p>","expanded_1":false,"heading_2":"Muss die DACHPROTECT EPDM Folie verklebt werden?","content_2":"<p>Im DACHPROTECT-System empfehlen wir grundsätzlich eine Verklebung der EPDM Folie mit dem Untergrund, um eine <strong>optimale Windsogsicherheit<\/strong> zu gewährleisten. Durch die Verklebung wird die Folie fest mit dem Untergrund verbunden, was sie besonders widerstandsfähig gegenüber starken Windlasten macht und zusätzliche Sicherheit bietet.<\/p><p>Bitte beachten Sie hierzu die Hinweise der FDRL (Flachdachrichtlinie) oder der DIN18531.<\/p>","expanded_2":false,"heading_3":"Ist die EPDM Folie wurzelfest?","content_3":"<p>Unsere 1,2 mm EPDM Folien sowie unsere Nahtbänder wurden in einem aufwendigen, zweijährigen Verfahren nach dem FLL-Verfahren (Forschungsgesellschaft Landschaftsentwicklung Landschaftsbau e.V.) auf <strong>Wurzelfestigkeit geprüft<\/strong> und zertifiziert. Bei außerordentlicher Belastung, wie sie beispielsweise bei Dachbegrünungen oder bei der Installation von Solar- und Photovoltaikanlagen auftritt, empfehlen sowohl die Flachdachrichtlinien als auch wir die Verwendung der 1,5 mm EPDM Folie.<br\/><br\/>Den entsprechenden Prüfbericht sowie das Zertifikat zur FLL Wurzelfestigkeit finden Sie in unserem Downloadbereich.<\/p>","expanded_3":false,"heading_4":"Sind EPDM Folien Umweltfreundlich?","content_4":"<p>Unsere EPDM Folien überzeugen nicht nur durch ihre Langlebigkeit und Zuverlässigkeit, sondern auch durch ihre Umweltfreundlichkeit. Sie sind frei von schädlichen Weichmachern, vollständig recycelbar und tragen zu einer nachhaltigen Bauweise bei. Dank ihrer hohen <strong>Lebensdauer von bis zu 50 Jahren <\/strong>reduzieren sie den Materialeinsatz und minimieren Abfall. Die Energieeffizienz von Flachdächern, insbesondere bei Gründächern oder Photovoltaikanlagen, wird durch den Einsatz von EPDM Folien zusätzlich gefördert – eine umweltbewusste Wahl für moderne Bauprojekte.<\/p><p>Weitere Hinweise finden Sie unter Downloads.<\/p>","expanded_4":false,"heading_5":"","content_5":"","expanded_5":false,"heading_6":"","content_6":"","expanded_6":false,"heading_7":"","content_7":"","expanded_7":false,"heading_8":"","content_8":"","expanded_8":false,"heading_9":"","content_9":"","expanded_9":false,"heading_10":"","content_10":"","expanded_10":false}},"expandable_group_rLxVy8":{"type":"expandable_group","settings":{"group_heading":"Sonstige Fragen","heading_1":"Wie werden Nähte im System DACHPROTECT ausgeführt?","content_1":"<p>Im DACHPROTECT-System werden Nähte durch die <strong>Kaltnahtfügung <\/strong>sicher und dauerhaft verbunden. Mithilfe von Nahtbändern, Form- & Abdeckbänder sowie einer Aktivierung entsteht eine zuverlässige <strong>molekulare Verbindung<\/strong>, die eine dichte und langlebige Abdichtung gewährleistet.<br\/><br\/>Dank der großen Auswahl an Längen und Breiten der EPDM Folien können jedoch die meisten Dachflächen völlig nahtfrei ausgeführt werden. Nähte sind lediglich dann erforderlich, wenn das Gewicht der Folien das Handling auf der Baustelle begrenzt. So wird die Anzahl der Verbindungen minimiert und eine besonders effiziente, sichere Abdichtung erreicht.<\/p>","expanded_1":false,"heading_2":"Wie schwer sind die DACHPROTECT EPDM Folien?","content_2":"<p>Je nach Stärke der Folie gibt es ein anderes Gewicht. Die 1,2mm dicke Folie wiegt pro Quadratmeter ca. 1,6 kg. Bei der 1,5mm dicken Folie sind es ca. 1,9 kg pro Quadratmeter.<\/p>","expanded_2":false,"heading_3":"Wer steckt hinter DACHPROTECT?","content_3":"<p>Unter der Marke DACHPROTECT vertreibt die Hanse Baustoffe Handelsges. mbH & Co. KG hochwertige EPDM Folien, die <strong>exklusiv von Carlisle Syntec Systems aus den USA<\/strong> importiert werden. Als Spezialist für zugelassene Dach- und Bauwerksabdichtungen bieten wir Architekten, Planern, Verarbeitern und Bauherren zuverlässige Produkte, die für Langlebigkeit, geprüfte Qualität und höchste Standards stehen.<br\/><br\/>Mit <strong>HANSE SYNTEC SYSTEMS<\/strong> und der Marke DACHPROTECT setzen Sie auf <strong>EPDM Abdichtungslösungen<\/strong>, die in Deutschland <strong>nur bei uns und ausgewählten Händlern<\/strong> erhältlich sind!<\/p>","expanded_3":false,"heading_4":"","content_4":"","expanded_4":false,"heading_5":"","content_5":"","expanded_5":false,"heading_6":"","content_6":"","expanded_6":false,"heading_7":"","content_7":"","expanded_7":false,"heading_8":"","content_8":"","expanded_8":false,"heading_9":"","content_9":"","expanded_9":false,"heading_10":"","content_10":"","expanded_10":false}}},"block_order":["expandable_group_DCKbGC","expandable_group_rLxVy8"],"settings":{"narrow":false,"heading":"Sie haben Rückfragen? Hier sind einige Antworten.","subheading":"","heading_alignment":"center","spacing_top":40,"spacing_bottom":30,"title_font_size":"--font-h3-size","title_font_size_mobile":"--font-h4-size","background_color":"#fafafa"}},"expandable_emK489":{"type":"expandable","blocks":{"expandable_9W8tUt":{"type":"expandable","settings":{"heading":"Für welche Einsatzbereiche eignen sich EPDM Folien?","icon":"arrow-right","text":"<p>Die DACHPROTECT EPDM Folie bietet eine zuverlässige Lösung für die <strong>Abdichtung von Flachdächern, Gründächern und Terrassen, <\/strong>während die BAUDICHT EPDM Folie optimal für die Abdichtung von Bauwerken wie <strong>Kellerwänden und Fundamenten <\/strong>geeignet ist. Beide Folien überzeugen durch ihre geprüfte Qualität, Langlebigkeit und optimale Anpassung an den jeweiligen Einsatzbereich.<\/p><p>Im Gegensatz dazu sind Teichfolien aufgrund ihrer Zusammensetzung für Dach- und Bauwerksabdichtungen ungeeignet und bieten nicht die notwendige Sicherheit und Zulassung. <\/p>","expanded":false}},"expandable_LAGJEG":{"type":"expandable","settings":{"heading":"Muss die DACHPROTECT EPDM Folie verklebt werden?","icon":"arrow-right","text":"<p>Im DACHPROTECT-System empfehlen wir grundsätzlich eine Verklebung der EPDM Folie mit dem Untergrund, um eine <strong>optimale Windsogsicherheit<\/strong> zu gewährleisten. Durch die Verklebung wird die Folie fest mit dem Untergrund verbunden, was sie besonders widerstandsfähig gegenüber starken Windlasten macht und zusätzliche Sicherheit bietet.<\/p><p>Bitte beachten Sie hierzu die Hinweise der FDRL (Flachdachrichtlinie) oder der DIN18531.<\/p>","expanded":false}},"expandable_D8NXi8":{"type":"expandable","settings":{"heading":"Ist die EPDM Folie wurzelfest?","icon":"arrow-right","text":"<p>Unsere 1,2 mm EPDM Folien sowie unsere Nahtbänder wurden in einem aufwendigen, zweijährigen Verfahren nach dem FLL-Verfahren (Forschungsgesellschaft Landschaftsentwicklung Landschaftsbau e.V.) auf <strong>Wurzelfestigkeit geprüft<\/strong> und zertifiziert. Bei außerordentlicher Belastung, wie sie beispielsweise bei Dachbegrünungen oder bei der Installation von Solar- und Photovoltaikanlagen auftritt, empfehlen sowohl die Flachdachrichtlinien als auch wir die Verwendung der 1,5 mm EPDM Folie.<br\/><br\/>Den entsprechenden Prüfbericht sowie das Zertifikat zur FLL Wurzelfestigkeit finden Sie in unserem Downloadbereich.<\/p>","expanded":false}},"expandable_axkY6p":{"type":"expandable","settings":{"heading":"Sind EPDM Folien Umweltfreundlich?","icon":"arrow-right","text":"<p>Unsere EPDM Folien überzeugen nicht nur durch ihre Langlebigkeit und Zuverlässigkeit, sondern auch durch ihre Umweltfreundlichkeit. Sie sind frei von schädlichen Weichmachern, vollständig recycelbar und tragen zu einer nachhaltigen Bauweise bei. Dank ihrer hohen <strong>Lebensdauer von bis zu 50 Jahren <\/strong>reduzieren sie den Materialeinsatz und minimieren Abfall. Die Energieeffizienz von Flachdächern, insbesondere bei Gründächern oder Photovoltaikanlagen, wird durch den Einsatz von EPDM Folien zusätzlich gefördert – eine umweltbewusste Wahl für moderne Bauprojekte.<\/p><p>Weitere Hinweise finden Sie unter Downloads.<\/p>","expanded":false}},"expandable_ycGMfD":{"type":"expandable","settings":{"heading":"Wie werden Nähte im System DACHPROTECT ausgeführt?","icon":"arrow-right","text":"<p>Im DACHPROTECT-System werden Nähte durch die <strong>Kaltnahtfügung <\/strong>sicher und dauerhaft verbunden. Mithilfe von Nahtbändern, Form- & Abdeckbänder sowie einer Aktivierung entsteht eine zuverlässige <strong>molekulare Verbindung<\/strong>, die eine dichte und langlebige Abdichtung gewährleistet.<br\/><br\/>Dank der großen Auswahl an Längen und Breiten der EPDM Folien können jedoch die meisten Dachflächen völlig nahtfrei ausgeführt werden. Nähte sind lediglich dann erforderlich, wenn das Gewicht der Folien das Handling auf der Baustelle begrenzt. So wird die Anzahl der Verbindungen minimiert und eine besonders effiziente, sichere Abdichtung erreicht.<\/p>","expanded":false}},"expandable_MDX8RQ":{"type":"expandable","settings":{"heading":"Wie schwer sind die DACHPROTECT EPDM Folien?","icon":"arrow-right","text":"<p>Je nach Stärke der Folie gibt es ein anderes Gewicht. Die 1,2mm dicke Folie wiegt pro Quadratmeter ca. 1,6 kg. Bei der 1,5mm dicken Folie sind es ca. 1,9 kg pro Quadratmeter.<\/p>","expanded":false}},"expandable_YqwVHU":{"type":"expandable","settings":{"heading":"Wer steckt hinter DACHPROTECT?","icon":"arrow-right","text":"<p>Unter der Marke DACHPROTECT vertreibt die Hanse Baustoffe Handelsges. mbH & Co. KG hochwertige EPDM Folien, die <strong>exklusiv von Carlisle Syntec Systems aus den USA<\/strong> importiert werden. Als Spezialist für zugelassene Dach- und Bauwerksabdichtungen bieten wir Architekten, Planern, Verarbeitern und Bauherren zuverlässige Produkte, die für Langlebigkeit, geprüfte Qualität und höchste Standards stehen.<br\/><br\/>Mit <strong>HANSE SYNTEC SYSTEMS<\/strong> und der Marke DACHPROTECT setzen Sie auf <strong>EPDM Abdichtungslösungen<\/strong>, die in Deutschland <strong>nur bei uns und ausgewählten Händlern<\/strong> erhältlich sind!<\/p>","expanded":false}}},"block_order":["expandable_9W8tUt","expandable_LAGJEG","expandable_D8NXi8","expandable_axkY6p","expandable_ycGMfD","expandable_MDX8RQ","expandable_YqwVHU"],"disabled":true,"settings":{"narrow":true,"heading":"Fragen zu Produkte","subheading":"","heading_alignment":"center","color_scheme":"accent-3","spacing_top":76,"spacing_bottom":72}}},"order":["video_background_9MdCGY","niccos_promotional_cards_T8Rk68","niccos_promotional_cards_Awg6pr","hero_banner_aGwybE","features_NDeL76","niccos_promotional_cards_WnDXcV","featured-collection-2","collections-1","media_with_text_QNgpeD","media_with_text_aM36B3","slideshow_UD8Rfe","niccos_testimonials_F3WRTd","rich_text_LaKbak","niccos_collapsible_grid_qxT3wC","expandable_emK489"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "video_background_9MdCGY": {
+      "type": "video-background",
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "box_align": "bottom-left",
+        "height": "small",
+        "overlay_background": "",
+        "heading": "",
+        "heading_size": "sm",
+        "text": "",
+        "text_size": "md",
+        "button_label": "",
+        "button_type_link": false,
+        "button_color_scheme": "accent-1",
+        "button_link": "shopify://collections/epdm-folien",
+        "secondary_button_label": "",
+        "secondary_button_type_link": false,
+        "secondary_button_color_scheme": "accent-1",
+        "secondary_button_link": "",
+        "custom_video": "shopify://files/videos/HSS_Frontpage_Product Promo_Test_2025_1_8 (komprMore).mp4",
+        "video_url": "",
+        "video_href_link": "shopify://products/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt",
+        "video_description": "",
+        "mobile_heading_size": "lg",
+        "mobile_box_align": "middle-center",
+        "color_scheme": "accent-2",
+        "spacing_top": 0,
+        "spacing_bottom": 0
+      }
+    },
+    "niccos_promotional_cards_T8Rk68": {
+      "type": "niccos-promotional-cards",
+      "blocks": {
+        "promotion_PLEwFE": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "middle-center",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "EPDM Folie",
+            "link": "shopify://collections/epdm-folien",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "background-1",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_YMKkXN": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Kleb- & Dichtstoffe",
+            "link": "shopify://collections/kleb-dichtstoffe",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_gm84ph": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "EPDM Zubehör",
+            "link": "shopify://collections/epdm-zubehor",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_8YQ8JT": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Garantie-Gullys",
+            "link": "",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_PLEwFE",
+        "promotion_YMKkXN",
+        "promotion_gm84ph",
+        "promotion_8YQ8JT"
+      ],
+      "settings": {
+        "image_heights": 180,
+        "heading": "Kategorien",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "columns": 4,
+        "stack_on_mobile": false,
+        "card_clickable_desktop": true,
+        "box_radius": 0,
+        "heading_outline_color": "#333333",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
+    "niccos_promotional_cards_Awg6pr": {
+      "type": "niccos-promotional-cards",
+      "blocks": {
+        "promotion_tWAhnd": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Be- & Entlüftung",
+            "link": "shopify://collections/be-entluftung",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_gVJ6An": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Kabeldurchführungen",
+            "link": "shopify://collections/kabeldurchfuhrungen",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_MX6Qw7": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Dachrandprofile",
+            "link": "shopify://collections/dachrandprofile",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_Ycr93H": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Wandanschluss",
+            "link": "shopify://collections/wandanschluss",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_tWAhnd",
+        "promotion_gVJ6An",
+        "promotion_MX6Qw7",
+        "promotion_Ycr93H"
+      ],
+      "settings": {
+        "image_heights": 180,
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "columns": 4,
+        "stack_on_mobile": false,
+        "card_clickable_desktop": true,
+        "box_radius": 0,
+        "heading_outline_color": "#333333",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 60
+      }
+    },
+    "hero_banner_aGwybE": {
+      "type": "hero-banner",
+      "blocks": {
+        "title_HwirRp": {
+          "type": "title",
+          "settings": {
+            "title_text": "Dachprotect EPDM Folien"
+          }
+        },
+        "content_GBtAQY": {
+          "type": "content",
+          "settings": {
+            "content_text": "<p>Die EPDM Folien von DACHPROTECT sind die ideale Lösung für eine professionelle und langlebige Dachabdichtung. Dank ihrer hohen Flexibilität und Widerstandsfähigkeit bieten sie optimalen Schutz vor Witterungseinflüssen, UV- und Ozonstrahlung sowie extremen Temperaturen. Die robusten EPDM Folien lassen sich einfach verlegen, passen sich perfekt an jede Dachgeometrie an und sorgen für eine dauerhaft dichte Oberfläche.</p>"
+          }
+        },
+        "bullet_gKyHNV": {
+          "type": "bullet",
+          "disabled": true,
+          "settings": {
+            "bullet_text": "50+ Jahre Lebensdauer"
+          }
+        },
+        "bullet_6dAEJp": {
+          "type": "bullet",
+          "disabled": true,
+          "settings": {
+            "bullet_text": "20 Jahre Materialgarantie"
+          }
+        },
+        "bullet_HPTMKM": {
+          "type": "bullet",
+          "disabled": true,
+          "settings": {
+            "bullet_text": "Professionelle Beratung"
+          }
+        },
+        "bullet_3kVJnc": {
+          "type": "bullet",
+          "disabled": true,
+          "settings": {
+            "bullet_text": "300.000m² EPDM Folie ständig auf Lager"
+          }
+        },
+        "spacing_DTXGzq": {
+          "type": "spacing",
+          "disabled": true,
+          "settings": {}
+        },
+        "button_xLUP9B": {
+          "type": "button",
+          "settings": {
+            "button_text": "EPDM Folie schwarz",
+            "button_link": "shopify://products/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt",
+            "button_background_color": "#ffaa32",
+            "button_border": true,
+            "button_text_color": "#ffffff"
+          }
+        },
+        "button_i3yAwz": {
+          "type": "button",
+          "settings": {
+            "button_text": "Weitere EPDM Folien",
+            "button_link": "shopify://collections/epdm-folien",
+            "button_background_color": "#ffffff",
+            "button_border": true,
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "title_HwirRp",
+        "content_GBtAQY",
+        "bullet_gKyHNV",
+        "bullet_6dAEJp",
+        "bullet_HPTMKM",
+        "bullet_3kVJnc",
+        "spacing_DTXGzq",
+        "button_xLUP9B",
+        "button_i3yAwz"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "desktop_image": "shopify://shop_images/Teaser_EPDM_Folie_1000x800px.jpg",
+        "content_position": "left",
+        "background_color": "#fafafa",
+        "title_color": "#333333",
+        "content_color": "#000000",
+        "title_font_size": "30",
+        "title_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body1-size",
+        "content_font_size_mobile": "--font-body2-size",
+        "bullet_font_size": "--font-body1-size",
+        "bullet_font_size_mobile": "--font-body2-size",
+        "custom_bullet_icon": "shopify://shop_images/Icon_88b0198f-8d5f-40c9-82ae-cf7734a862c7.svg",
+        "bullet_icon_size": 22,
+        "bullet_icon_size_mobile": 20,
+        "section_padding_desktop": 60,
+        "section_padding_mobile": 20
+      }
+    },
+    "features_NDeL76": {
+      "type": "features",
+      "blocks": {
+        "feature_K9yKcp": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "image": "shopify://shop_images/Group.svg",
+            "title": "Einfache Montage",
+            "text": "<p>für Heimwerker und Profis</p>"
+          }
+        },
+        "feature_EhJNJG": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "image": "shopify://shop_images/Group_1_5b2c870e-ca0f-4f07-b6c6-29ab24399084.svg",
+            "title": "Individuelle Beratung",
+            "text": "<p>durch geschulte Anwendungstechniker</p>"
+          }
+        },
+        "feature_8x8CdQ": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "image": "shopify://shop_images/Group_21.svg",
+            "title": "Versandbereit",
+            "text": "<p>innerhalb 48 Stunden</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_K9yKcp",
+        "feature_EhJNJG",
+        "feature_8x8CdQ"
+      ],
+      "settings": {
+        "inline": true,
+        "stack_on_mobile": false,
+        "auto_rotate": false,
+        "icon_size": "small",
+        "color_scheme": "accent-3",
+        "background_color": "#f3f3f3",
+        "text_color": "#000000",
+        "spacing_top": 30,
+        "spacing_top_mobile": 14,
+        "spacing_bottom": 30,
+        "spacing_bottom_mobile": 14,
+        "heading_font_size": "--font-h5-size",
+        "heading_font_size_mobile": "--font-h6-size",
+        "text_font_size": "--font-body1-size",
+        "text_font_size_mobile": "--font-body2-size",
+        "icon_size_desktop": 48,
+        "icon_size_mobile": 36
+      }
+    },
+    "niccos_promotional_cards_WnDXcV": {
+      "type": "niccos-promotional-cards",
+      "blocks": {
+        "promotion_xCdEG7": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Trainingscenter_390x175px.jpg",
+            "background_image_position": "top-right",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "HSS Trainingscenter",
+            "link": "shopify://pages/hss-trainingscenter",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "middle-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_GNLBWP": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Abholungen_390x175px.jpg",
+            "background_image_position": "top-right",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Werksabholung",
+            "link": "shopify://pages/abholung",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "middle-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_cJtLMj": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Gewerbekunden_Registrierung_390x175px.jpg",
+            "background_image_position": "top-right",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Gewerbekunden",
+            "link": "shopify://pages/gewerbekunden-registrierung",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "middle-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_bDMbPY": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Ansprechpartner_390x175px.jpg",
+            "background_image_position": "top-right",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Unsere Ansprechpartner",
+            "link": "shopify://pages/contact",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "middle-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_EbcwtF": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Unsere_Shops_390x175px.jpg",
+            "background_image_position": "top-right",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Unsere Shops",
+            "link": "shopify://pages/unsere-shops",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "middle-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_xCdEG7",
+        "promotion_GNLBWP",
+        "promotion_cJtLMj",
+        "promotion_bDMbPY",
+        "promotion_EbcwtF"
+      ],
+      "settings": {
+        "image_heights": 174,
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "card_clickable_desktop": false,
+        "box_radius": 6,
+        "heading_outline_color": "#333333",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "featured-collection-2": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "collection": "",
+        "products_to_show": 4,
+        "products": [
+          "dachprotect-epdm-dachfolie-schwarz-im-zuschnitt",
+          "dachprotect-epdm-flachenkleber-bluetek",
+          "epdm-garantie-gully-garantie-gully-sets",
+          "dachrandprofil-isos-anthrazit-ral-7016-1-95-meter",
+          "doppelseitiges-dichtband-anschlussband-5-meter",
+          "hss-dichtstoff-transparent-290ml"
+        ],
+        "hide_placeholders": false,
+        "heading": "BESTSELLER",
+        "subheading": "",
+        "show_vendor": false,
+        "show_stock": true,
+        "show_rating": true,
+        "show_collection": false,
+        "collection_overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+        "collection_title": "",
+        "collection_description": "",
+        "collection_text_color": "#ffffff",
+        "collection_button_text": "",
+        "collection_box_align": "top-right",
+        "layout": "slider",
+        "columns": "4",
+        "stack_on_mobile": false,
+        "spacing_top": 40,
+        "spacing_bottom": 40,
+        "navigation_text": "Alle ansehen",
+        "title_font_size": "--font-h2-size",
+        "title_font_size_mobile": "--font-h4-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 50,
+        "mobile_spacing_bottom": 20
+      }
+    },
+    "collections-1": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "kleb-dichtstoffe",
+            "title_font_size": "--font-h4-size",
+            "title_font_size_mobile": "--font-h4-size",
+            "image": "shopify://shop_images/Kategoriebanner_300x450px_Klebstoffe_Dichtstoffe.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)",
+            "button_text": "Kategorie 1",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#ffffff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "epdm-folien",
+            "title_font_size": "--font-h4-size",
+            "title_font_size_mobile": "--font-h4-size",
+            "image": "shopify://shop_images/D12-090-010_EPDM_Dachfolie_schwarz_Produktbild_1000x1000px_1_09a38da4-4b01-4be8-9d38-f4fec84ea4b1.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)",
+            "button_text": "Shop now",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#ffffff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "aktivierung",
+            "title_font_size": "--font-h4-size",
+            "title_font_size_mobile": "--font-h4-size",
+            "image": "shopify://shop_images/Kategoriebanner_300x450px_Aktivierung.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 100%)",
+            "button_text": "Shop now",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#ffffff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "collection-1",
+        "collection-2"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "link_title": "All collections",
+        "link_url": "",
+        "card_ratio": "auto",
+        "show_title": true,
+        "show_description": false,
+        "show_button": false,
+        "card_clickable_desktop": true,
+        "layout": "mosaic",
+        "columns": 3,
+        "stack_on_mobile": true,
+        "color_scheme": "background-1",
+        "section_padding_desktop": 60,
+        "section_padding_mobile": 40,
+        "background_color": "#ffffff"
+      }
+    },
+    "media_with_text_QNgpeD": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_dL8Xp6": {
+          "type": "heading",
+          "settings": {
+            "heading": "DACHPROTECT EPDM Dachfolien",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_8PgWkg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit einer <strong>EPDM Dachfolie</strong> von DACHPROTECT setzen Sie auf ein Abdichtungssystem, dem viele Menschen seit Jahrzehnten vertrauen. Im Gegensatz zu vielen anderen Abdichtungssystemen besitzt die EPDM Dachfolie von DACHPROTECT aufgrund ihrer <strong>speziellen Materialeigenschaften</strong> eine <strong>Lebensdauer von über 50 Jahren</strong>. EPDM Folien von DACHPROTECT sind <strong>wartungsfrei, UV- und Ozonbeständig </strong>und behalten Ihre hohe Dehnfähigkeit von über 350% über Ihre gesamte Lebensdauer nahezu bei.<br/><br/>In der Regel muss die Folie bei einer <strong>fachgerechten Verarbeitung</strong> nur einmal im Leben während der Installation der Dachabdichtung montiert werden. Dieses macht die DACHPROTECT EPDM Dachfolie zu einer <strong>kosteneffizienten Lösung</strong>, da sie nicht ersetzt oder repariert werden muss. Zudem besitzen DACHPROTECT EPDM Folien eine <strong>Vielzahl an Zulassungen</strong> für den deutschen Markt. </p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        },
+        "button_FmCYqn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Informationen zum System DACHPROTECT",
+            "button_link": "shopify://pages/systemubersicht"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dL8Xp6",
+        "text_8PgWkg",
+        "button_FmCYqn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/EPDM_Dachfolie_schwarz_Anwendung_Kegeldach.jpg",
+        "video_url": "",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 22,
+        "spacing_bottom": 22,
+        "blocks_gap": 20,
+        "content_padding": 20,
+        "text_background": "#fafafa",
+        "vertical_alignment": "center",
+        "heading_font_size": "40",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 20,
+        "mobile_spacing_bottom": 22
+      }
+    },
+    "media_with_text_aM36B3": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_gY7nPU": {
+          "type": "heading",
+          "settings": {
+            "heading": "EPDM Folie - Die dichte Wahl für Ihr Dach",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_aXrTgj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir von HANSE SYNTEC SYSTEMS lieben dichte Dächer und das möchten wir mit unseren Kunden teilen. Spätestens, wenn es um die Errichtung eines <strong>Carports, einer Garage oder eines Gartenhauses</strong> geht, sollte man sich die Frage stellen, welche Dachabdichtung für das Vorhaben geeignet ist. Denn nur wenn das Dach dauerhaft dicht ist, kann das Objekt auch <strong>langfristig vor Umwelt- und Witterungseinflüssen geschützt</strong> werden.<br/><br/>Mit einer <strong>DACHPROTECT EPDM </strong>Dachfolie sind Sie mit Sicherheit auf der dichten Seite, denn unsere EPDM Dachfolien haben eine <strong>Lebensdauer von über 50 Jahren</strong>. Das zeigen nicht nur die Erfahrungen aus dem realen Leben, sondern wurde auch in einer <strong>Studie vom SKZ Würzburg</strong> bestätigt. Das schont nicht nur die Umwelt, sondern auch den Geldbeutel. Denn wer seine EPDM Dachfolie von DACHPROTECT korrekt verarbeitet, muss sich eine lange Zeit, keine Sorgen um sein Dach machen. Sollte dennoch Ihr Dach einmal mechanisch beschädigt werden, lässt sich diese mithilfe von Nahtmaterialien wieder reparieren. Es findet hierbei keine Verklebung im eigentlichen Sinne statt, sondern eine <strong>Verbindung auf molekularer Ebene</strong>.</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        },
+        "button_gWYTfJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "! Jetzt informieren",
+            "button_link": "shopify://products/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gY7nPU",
+        "text_aXrTgj",
+        "button_gWYTfJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/EPDM_Dachfolie_schwarz_Anwendung_Gartenhaus.jpg",
+        "video_url": "",
+        "layout": "text_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 22,
+        "spacing_bottom": 22,
+        "blocks_gap": 20,
+        "content_padding": 20,
+        "text_background": "#fafafa",
+        "vertical_alignment": "center",
+        "heading_font_size": "40",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "slideshow_UD8Rfe": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_bUTdAW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Folie_Halle_Bad_Oldesloe_1920x1080px.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Individuelle Konfektionierung der EPDM Folien ohne Zusatzkosten",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#ffffff",
+            "box_align": "top-left",
+            "content_width": 80,
+            "button_label": "Zu den EPDM Folien",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "shopify://collections/epdm-folien",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "slide_bUTdAW"
+      ],
+      "settings": {
+        "full_width": false,
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "animation_type": "slide",
+        "accessibility_info": "",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "niccos_testimonials_F3WRTd": {
+      "type": "niccos-testimonials",
+      "blocks": {
+        "testimonial_yt6HWP": {
+          "type": "testimonial",
+          "settings": {
+            "citation": "Oliver S.",
+            "description": "<p>Super Dachfolie, das beste Produkt dass ich bis jetzt für das Dach meiner Gartenhütte benutzt habe. Einfach zu verarbeiten, sieht gut aus und hält bis jetzt absolut dicht.</p>",
+            "rating": 5
+          }
+        },
+        "testimonial_AeDH9V": {
+          "type": "testimonial",
+          "settings": {
+            "citation": "David T.",
+            "description": "<p>Ist das 2. mal das ich Produkte von Hanse Baustoffe erworben habe. Wie auch beim 1. mal die Produkte sind qualitativ hervorragend. Der Kleber ist einfach und sicher zu verarbeiten und hat hohe Klebeeigenschaften. Die Dachprotectfolie ist schnell und einfach zu verlegen und ist von hoher Qualität.</p>",
+            "rating": 5
+          }
+        },
+        "testimonial_a6rTfm": {
+          "type": "testimonial",
+          "settings": {
+            "citation": "Patrick F.",
+            "description": "<p>Wie beschrieben, Qualität kann ich erst nach Garantiezeit von 20 Jahren bewerten. Auf jeden Fall gut zu verarbeiten</p>",
+            "rating": 5
+          }
+        },
+        "testimonial_RdrLe4": {
+          "type": "testimonial",
+          "settings": {
+            "citation": "Sebastian H.",
+            "description": "<p>Habe die Folie für meine Freiflug Voliere bestellt, bin sehr zufrieden damit. Super Qualität und leicht zu Verarbeiten. Das erste Unwetter hat sie schon überstanden. Jederzeit wieder, werde die Folie weiterempfehlen.</p>",
+            "rating": 5
+          }
+        },
+        "testimonial_8M6qHK": {
+          "type": "testimonial",
+          "settings": {
+            "citation": "Anonymous",
+            "description": "<p>Ich habe vor 2 Jahren diese Folie schon einmal gekauft und konnte sie einfach und erfolgreich verlegen. Ideal zur sicheren Abdichtung von Flächen. Ich einen undicht gewordenen Balkon flächig abgedichtet und anschließend WPC-Terrassendielen darüber verlegt. Ist dicht und sieht gut aus. Jetzt habe ich die gleiche Anwendung wieder gehabt. Die Abwicklung der Bestellung und Lieferung war, wie beim ersten Mal einfach, zügig und pünktlich.</p>",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_yt6HWP",
+        "testimonial_AeDH9V",
+        "testimonial_a6rTfm",
+        "testimonial_RdrLe4",
+        "testimonial_8M6qHK"
+      ],
+      "settings": {
+        "heading": "Das sagen unsere Kunden",
+        "subheading": "Erfahren Sie aus erster Hand, wie zufrieden unsere Kunden mit der DACHPROTECT EPDM Folie und dem passenden Zubehör sind. Hier teilen Nutzer ihre Erfahrungen zur einfachen Verarbeitung, zur Langlebigkeit und zur herausragenden Qualität der EPDM Folie. Die hohe Lebensdauer und Zuverlässigkeit machen die EPDM Dachabdichtung zur optimalen Lösung für jedes Flachdach. Lassen Sie sich von den Bewertungen überzeugen und profitieren Sie von echten Meinungen rund um die DACHPROTECT EPDM Folie – für dauerhaften Schutz und beste Ergebnisse.",
+        "call_to_action": "",
+        "layout": "slider",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_LaKbak": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dnUMMa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sie haben Rückfragen? Hier sind einige Antworten.",
+            "heading_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dnUMMa"
+      ],
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "accent-3",
+        "spacing_top": 60,
+        "spacing_bottom": 0
+      }
+    },
+    "niccos_collapsible_grid_qxT3wC": {
+      "type": "niccos-collapsible-grid",
+      "blocks": {
+        "expandable_group_DCKbGC": {
+          "type": "expandable_group",
+          "settings": {
+            "group_heading": "Fragen zu Produkte",
+            "heading_1": "Für welche Einsatzbereiche eignen sich EPDM Folien?",
+            "content_1": "<p>Die DACHPROTECT EPDM Folie bietet eine zuverlässige Lösung für die <strong>Abdichtung von Flachdächern, Gründächern und Terrassen, </strong>während die BAUDICHT EPDM Folie optimal für die Abdichtung von Bauwerken wie <strong>Kellerwänden und Fundamenten </strong>geeignet ist. Beide Folien überzeugen durch ihre geprüfte Qualität, Langlebigkeit und optimale Anpassung an den jeweiligen Einsatzbereich.</p><p>Im Gegensatz dazu sind Teichfolien aufgrund ihrer Zusammensetzung für Dach- und Bauwerksabdichtungen ungeeignet und bieten nicht die notwendige Sicherheit und Zulassung. </p>",
+            "expanded_1": false,
+            "heading_2": "Muss die DACHPROTECT EPDM Folie verklebt werden?",
+            "content_2": "<p>Im DACHPROTECT-System empfehlen wir grundsätzlich eine Verklebung der EPDM Folie mit dem Untergrund, um eine <strong>optimale Windsogsicherheit</strong> zu gewährleisten. Durch die Verklebung wird die Folie fest mit dem Untergrund verbunden, was sie besonders widerstandsfähig gegenüber starken Windlasten macht und zusätzliche Sicherheit bietet.</p><p>Bitte beachten Sie hierzu die Hinweise der FDRL (Flachdachrichtlinie) oder der DIN18531.</p>",
+            "expanded_2": false,
+            "heading_3": "Ist die EPDM Folie wurzelfest?",
+            "content_3": "<p>Unsere 1,2 mm EPDM Folien sowie unsere Nahtbänder wurden in einem aufwendigen, zweijährigen Verfahren nach dem FLL-Verfahren (Forschungsgesellschaft Landschaftsentwicklung Landschaftsbau e.V.) auf <strong>Wurzelfestigkeit geprüft</strong> und zertifiziert. Bei außerordentlicher Belastung, wie sie beispielsweise bei Dachbegrünungen oder bei der Installation von Solar- und Photovoltaikanlagen auftritt, empfehlen sowohl die Flachdachrichtlinien als auch wir die Verwendung der 1,5 mm EPDM Folie.<br/><br/>Den entsprechenden Prüfbericht sowie das Zertifikat zur FLL Wurzelfestigkeit finden Sie in unserem Downloadbereich.</p>",
+            "expanded_3": false,
+            "heading_4": "Sind EPDM Folien Umweltfreundlich?",
+            "content_4": "<p>Unsere EPDM Folien überzeugen nicht nur durch ihre Langlebigkeit und Zuverlässigkeit, sondern auch durch ihre Umweltfreundlichkeit. Sie sind frei von schädlichen Weichmachern, vollständig recycelbar und tragen zu einer nachhaltigen Bauweise bei. Dank ihrer hohen <strong>Lebensdauer von bis zu 50 Jahren </strong>reduzieren sie den Materialeinsatz und minimieren Abfall. Die Energieeffizienz von Flachdächern, insbesondere bei Gründächern oder Photovoltaikanlagen, wird durch den Einsatz von EPDM Folien zusätzlich gefördert – eine umweltbewusste Wahl für moderne Bauprojekte.</p><p>Weitere Hinweise finden Sie unter Downloads.</p>",
+            "expanded_4": false,
+            "heading_5": "",
+            "content_5": "",
+            "expanded_5": false,
+            "heading_6": "",
+            "content_6": "",
+            "expanded_6": false,
+            "heading_7": "",
+            "content_7": "",
+            "expanded_7": false,
+            "heading_8": "",
+            "content_8": "",
+            "expanded_8": false,
+            "heading_9": "",
+            "content_9": "",
+            "expanded_9": false,
+            "heading_10": "",
+            "content_10": "",
+            "expanded_10": false
+          }
+        },
+        "expandable_group_rLxVy8": {
+          "type": "expandable_group",
+          "settings": {
+            "group_heading": "Sonstige Fragen",
+            "heading_1": "Wie werden Nähte im System DACHPROTECT ausgeführt?",
+            "content_1": "<p>Im DACHPROTECT-System werden Nähte durch die <strong>Kaltnahtfügung </strong>sicher und dauerhaft verbunden. Mithilfe von Nahtbändern, Form- & Abdeckbänder sowie einer Aktivierung entsteht eine zuverlässige <strong>molekulare Verbindung</strong>, die eine dichte und langlebige Abdichtung gewährleistet.<br/><br/>Dank der großen Auswahl an Längen und Breiten der EPDM Folien können jedoch die meisten Dachflächen völlig nahtfrei ausgeführt werden. Nähte sind lediglich dann erforderlich, wenn das Gewicht der Folien das Handling auf der Baustelle begrenzt. So wird die Anzahl der Verbindungen minimiert und eine besonders effiziente, sichere Abdichtung erreicht.</p>",
+            "expanded_1": false,
+            "heading_2": "Wie schwer sind die DACHPROTECT EPDM Folien?",
+            "content_2": "<p>Je nach Stärke der Folie gibt es ein anderes Gewicht. Die 1,2mm dicke Folie wiegt pro Quadratmeter ca. 1,6 kg. Bei der 1,5mm dicken Folie sind es ca. 1,9 kg pro Quadratmeter.</p>",
+            "expanded_2": false,
+            "heading_3": "Wer steckt hinter DACHPROTECT?",
+            "content_3": "<p>Unter der Marke DACHPROTECT vertreibt die Hanse Baustoffe Handelsges. mbH & Co. KG hochwertige EPDM Folien, die <strong>exklusiv von Carlisle Syntec Systems aus den USA</strong> importiert werden. Als Spezialist für zugelassene Dach- und Bauwerksabdichtungen bieten wir Architekten, Planern, Verarbeitern und Bauherren zuverlässige Produkte, die für Langlebigkeit, geprüfte Qualität und höchste Standards stehen.<br/><br/>Mit <strong>HANSE SYNTEC SYSTEMS</strong> und der Marke DACHPROTECT setzen Sie auf <strong>EPDM Abdichtungslösungen</strong>, die in Deutschland <strong>nur bei uns und ausgewählten Händlern</strong> erhältlich sind!</p>",
+            "expanded_3": false,
+            "heading_4": "",
+            "content_4": "",
+            "expanded_4": false,
+            "heading_5": "",
+            "content_5": "",
+            "expanded_5": false,
+            "heading_6": "",
+            "content_6": "",
+            "expanded_6": false,
+            "heading_7": "",
+            "content_7": "",
+            "expanded_7": false,
+            "heading_8": "",
+            "content_8": "",
+            "expanded_8": false,
+            "heading_9": "",
+            "content_9": "",
+            "expanded_9": false,
+            "heading_10": "",
+            "content_10": "",
+            "expanded_10": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_group_DCKbGC",
+        "expandable_group_rLxVy8"
+      ],
+      "settings": {
+        "narrow": false,
+        "heading": "Sie haben Rückfragen? Hier sind einige Antworten.",
+        "subheading": "",
+        "heading_alignment": "center",
+        "spacing_top": 40,
+        "spacing_bottom": 30,
+        "title_font_size": "--font-h3-size",
+        "title_font_size_mobile": "--font-h4-size",
+        "background_color": "#fafafa"
+      }
+    },
+    "expandable_emK489": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_9W8tUt": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Für welche Einsatzbereiche eignen sich EPDM Folien?",
+            "icon": "arrow-right",
+            "text": "<p>Die DACHPROTECT EPDM Folie bietet eine zuverlässige Lösung für die <strong>Abdichtung von Flachdächern, Gründächern und Terrassen, </strong>während die BAUDICHT EPDM Folie optimal für die Abdichtung von Bauwerken wie <strong>Kellerwänden und Fundamenten </strong>geeignet ist. Beide Folien überzeugen durch ihre geprüfte Qualität, Langlebigkeit und optimale Anpassung an den jeweiligen Einsatzbereich.</p><p>Im Gegensatz dazu sind Teichfolien aufgrund ihrer Zusammensetzung für Dach- und Bauwerksabdichtungen ungeeignet und bieten nicht die notwendige Sicherheit und Zulassung. </p>",
+            "expanded": false
+          }
+        },
+        "expandable_LAGJEG": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Muss die DACHPROTECT EPDM Folie verklebt werden?",
+            "icon": "arrow-right",
+            "text": "<p>Im DACHPROTECT-System empfehlen wir grundsätzlich eine Verklebung der EPDM Folie mit dem Untergrund, um eine <strong>optimale Windsogsicherheit</strong> zu gewährleisten. Durch die Verklebung wird die Folie fest mit dem Untergrund verbunden, was sie besonders widerstandsfähig gegenüber starken Windlasten macht und zusätzliche Sicherheit bietet.</p><p>Bitte beachten Sie hierzu die Hinweise der FDRL (Flachdachrichtlinie) oder der DIN18531.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_D8NXi8": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Ist die EPDM Folie wurzelfest?",
+            "icon": "arrow-right",
+            "text": "<p>Unsere 1,2 mm EPDM Folien sowie unsere Nahtbänder wurden in einem aufwendigen, zweijährigen Verfahren nach dem FLL-Verfahren (Forschungsgesellschaft Landschaftsentwicklung Landschaftsbau e.V.) auf <strong>Wurzelfestigkeit geprüft</strong> und zertifiziert. Bei außerordentlicher Belastung, wie sie beispielsweise bei Dachbegrünungen oder bei der Installation von Solar- und Photovoltaikanlagen auftritt, empfehlen sowohl die Flachdachrichtlinien als auch wir die Verwendung der 1,5 mm EPDM Folie.<br/><br/>Den entsprechenden Prüfbericht sowie das Zertifikat zur FLL Wurzelfestigkeit finden Sie in unserem Downloadbereich.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_axkY6p": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Sind EPDM Folien Umweltfreundlich?",
+            "icon": "arrow-right",
+            "text": "<p>Unsere EPDM Folien überzeugen nicht nur durch ihre Langlebigkeit und Zuverlässigkeit, sondern auch durch ihre Umweltfreundlichkeit. Sie sind frei von schädlichen Weichmachern, vollständig recycelbar und tragen zu einer nachhaltigen Bauweise bei. Dank ihrer hohen <strong>Lebensdauer von bis zu 50 Jahren </strong>reduzieren sie den Materialeinsatz und minimieren Abfall. Die Energieeffizienz von Flachdächern, insbesondere bei Gründächern oder Photovoltaikanlagen, wird durch den Einsatz von EPDM Folien zusätzlich gefördert – eine umweltbewusste Wahl für moderne Bauprojekte.</p><p>Weitere Hinweise finden Sie unter Downloads.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_ycGMfD": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie werden Nähte im System DACHPROTECT ausgeführt?",
+            "icon": "arrow-right",
+            "text": "<p>Im DACHPROTECT-System werden Nähte durch die <strong>Kaltnahtfügung </strong>sicher und dauerhaft verbunden. Mithilfe von Nahtbändern, Form- & Abdeckbänder sowie einer Aktivierung entsteht eine zuverlässige <strong>molekulare Verbindung</strong>, die eine dichte und langlebige Abdichtung gewährleistet.<br/><br/>Dank der großen Auswahl an Längen und Breiten der EPDM Folien können jedoch die meisten Dachflächen völlig nahtfrei ausgeführt werden. Nähte sind lediglich dann erforderlich, wenn das Gewicht der Folien das Handling auf der Baustelle begrenzt. So wird die Anzahl der Verbindungen minimiert und eine besonders effiziente, sichere Abdichtung erreicht.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_MDX8RQ": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie schwer sind die DACHPROTECT EPDM Folien?",
+            "icon": "arrow-right",
+            "text": "<p>Je nach Stärke der Folie gibt es ein anderes Gewicht. Die 1,2mm dicke Folie wiegt pro Quadratmeter ca. 1,6 kg. Bei der 1,5mm dicken Folie sind es ca. 1,9 kg pro Quadratmeter.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_YqwVHU": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wer steckt hinter DACHPROTECT?",
+            "icon": "arrow-right",
+            "text": "<p>Unter der Marke DACHPROTECT vertreibt die Hanse Baustoffe Handelsges. mbH & Co. KG hochwertige EPDM Folien, die <strong>exklusiv von Carlisle Syntec Systems aus den USA</strong> importiert werden. Als Spezialist für zugelassene Dach- und Bauwerksabdichtungen bieten wir Architekten, Planern, Verarbeitern und Bauherren zuverlässige Produkte, die für Langlebigkeit, geprüfte Qualität und höchste Standards stehen.<br/><br/>Mit <strong>HANSE SYNTEC SYSTEMS</strong> und der Marke DACHPROTECT setzen Sie auf <strong>EPDM Abdichtungslösungen</strong>, die in Deutschland <strong>nur bei uns und ausgewählten Händlern</strong> erhältlich sind!</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_9W8tUt",
+        "expandable_LAGJEG",
+        "expandable_D8NXi8",
+        "expandable_axkY6p",
+        "expandable_ycGMfD",
+        "expandable_MDX8RQ",
+        "expandable_YqwVHU"
+      ],
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "heading": "Fragen zu Produkte",
+        "subheading": "",
+        "heading_alignment": "center",
+        "color_scheme": "accent-3",
+        "spacing_top": 76,
+        "spacing_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "video_background_9MdCGY",
+    "niccos_promotional_cards_T8Rk68",
+    "niccos_promotional_cards_Awg6pr",
+    "hero_banner_aGwybE",
+    "features_NDeL76",
+    "niccos_promotional_cards_WnDXcV",
+    "featured-collection-2",
+    "collections-1",
+    "media_with_text_QNgpeD",
+    "media_with_text_aM36B3",
+    "slideshow_UD8Rfe",
+    "niccos_testimonials_F3WRTd",
+    "rich_text_LaKbak",
+    "niccos_collapsible_grid_qxT3wC",
+    "expandable_emK489"
+  ]
+}
