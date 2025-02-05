@@ -525,6 +525,57 @@
         "spacing_top": 20,
         "spacing_bottom": 20
       }
+    },
+    "expandable_KxRhJV": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_pyhBGq": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Was ist der Flächenkleber BlueTek?",
+            "icon": "arrow-right",
+            "text": "<p>Der <strong>BlueTek EPDM Flächenkleber</strong> ist ein <strong>wasserbasierter Spezialkleber</strong>, der speziell für die <strong>Verklebung von EPDM Folien</strong> auf geeigneten Untergründen entwickelt wurde.</p><p>📌 <strong>Eigenschaften & Vorteile:</strong><br/>✅ <strong>Für viele Untergründe geeignet</strong> – Ideal für <strong>Holz, Beton, Metall</strong> und zugelassene Dämmungen.<br/>✅ <strong>Flexibel einsetzbar</strong> – Kann im <strong>Nass- oder Kontaktklebeverfahren</strong> verarbeitet werden.<br/>✅ <strong>Umweltfreundlich & sparsam</strong> – <strong>Geringer Verbrauch</strong>, hohe Ergiebigkeit.<br/>✅ <strong>Einfache Verarbeitung</strong> – Am besten mit einer <strong>Kurzflor-Walze</strong> für einen gleichmäßigen Auftrag auftragen.</p><p>💡 <strong>Mit BlueTek sparen Sie Material & Zeit – für eine sichere und langlebige EPDM-Verklebung!</strong> ✅🏠</p>",
+            "expanded": false
+          }
+        },
+        "expandable_ni4qft": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_JYCzJd": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_pyhBGq",
+        "expandable_ni4qft",
+        "expandable_JYCzJd"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Klebstoffe",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
     }
   },
   "order": [
@@ -536,6 +587,7 @@
     "expandable_7UEV7P",
     "expandable_XTjAFj",
     "expandable_MQUfzD",
-    "expandable_A4kH4n"
+    "expandable_A4kH4n",
+    "expandable_KxRhJV"
   ]
 }
