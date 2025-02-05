@@ -573,6 +573,15 @@
             "text": "<p><strong>Der Flächenkleber SprayBond hat eine Haltbarkeit von 12 Monaten nach dem Lieferdatum.</strong></p><p>✅ <strong>Tipp zur optimalen Lagerung:</strong></p><ul><li><strong>Kühl, trocken und frostfrei lagern</strong> ❄️</li><li><strong>Vor direkter Sonneneinstrahlung schützen</strong> ☀️</li><li><strong>Behälter gut verschließen</strong> 🔒</li></ul>",
             "expanded": false
           }
+        },
+        "expandable_BwFhMR": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wofür ist der EPDM Anschluss- & Flächenkleber?",
+            "icon": "arrow-right",
+            "text": "<p><strong>Bitumen</strong> sowie zur <strong>Versiegelung von Anschlüssen</strong> entwickelt.</p><p><strong>Einsatzbereiche:</strong><br/>✅ <strong>Haftung auf Alt-Bitumen</strong> – Sichere Verklebung auf bestehenden Bitumenschichten<br/><br/>✅ <strong>Versiegelung von Anschlüssen</strong> – Perfekt für Dachränder, Hochzüge & Detailausbildungen<br/><br/>✅ <strong>Zuverlässige Abdichtung</strong> – Langlebig und widerstandsfähig gegen Witterungseinflüsse</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -580,7 +589,8 @@
         "expandable_ni4qft",
         "expandable_JYCzJd",
         "expandable_qBjQat",
-        "expandable_DTG4GN"
+        "expandable_DTG4GN",
+        "expandable_BwFhMR"
       ],
       "custom_css": [
         "* {color: #000000;}",
