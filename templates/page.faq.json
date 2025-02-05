@@ -459,6 +459,15 @@
             "text": "<p>✅ <strong>EPDM kann auf nahezu jedem Untergrund verwendet werden!</strong> Die richtige Vorbereitung und Auswahl der Verlegeart sind dabei entscheidend.</p><p>📌 <strong>Für detaillierte Informationen zu den einzelnen Untergründen</strong> und deren Anforderungen werfen Sie einen Blick in unser <strong>Handbuch für Dachaufbauten</strong>.</p>",
             "expanded": false
           }
+        },
+        "expandable_XrWgeC": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Was bedeuten die milchigen Flecken bzw. die schwarzen Schatten auf der Plane?",
+            "icon": "arrow-right",
+            "text": "<p>🔎 <strong>Keine Sorge – diese Verfärbungen sind völlig normal!</strong></p><p>📌 <strong>Ursache:</strong><br/>Die <strong>milchigen Flecken oder schwarzen Schatten</strong> entstehen <strong>produktionsbedingt</strong> und sind derzeit nicht vollständig vermeidbar. Der Hersteller arbeitet jedoch kontinuierlich an Verbesserungen.</p><p>📌 <strong>Wichtige Hinweise:</strong><br/>✅ <strong>Kein Qualitätsmangel</strong> – Die Verfärbungen beeinflussen <strong>nicht die Funktionalität</strong> oder Haltbarkeit der Folie.<br/>✅ <strong>Verschwinden mit der Zeit</strong> – Durch <strong>Sonneneinstrahlung und Regen</strong> lösen sich die Flecken nach und nach von selbst.<br/>✅ <strong>Manuelle Reinigung möglich</strong> – Mit einer <strong>einfachen Bürste und Wasser</strong> können die Flecken größtenteils entfernt werden.<br/>✅ <strong>Weiße Bahnen werden mit der Zeit heller</strong> – Durch Witterungseinflüsse hellt die Folie auf und wird optisch gleichmäßiger.</p><p>💡 <strong>Die Funktion der EPDM Folie bleibt uneingeschränkt erhalten – es handelt sich lediglich um einen optischen Effekt!</strong> ✅🌦️</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -469,7 +478,8 @@
         "expandable_wH7VAJ",
         "expandable_eKh7UU",
         "expandable_dXXgcN",
-        "expandable_FUt7iN"
+        "expandable_FUt7iN",
+        "expandable_XrWgeC"
       ],
       "custom_css": [
         "* {color: #000000;}",
