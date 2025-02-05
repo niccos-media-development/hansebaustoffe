@@ -49,7 +49,7 @@
       ],
       "settings": {
         "full_width": true,
-        "slide_height": "small",
+        "slide_height": "two-thirds",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "animation_type": "slide",
