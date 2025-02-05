@@ -182,7 +182,7 @@
           "settings": {
             "heading": "Wann erhalte ich meine Rechnung?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>📌 <strong>Ihre Rechnung wird automatisch per E-Mail verschickt, sobald die Ware versendet wurde.</strong></p><p>Falls Sie <strong>keine Rechnung erhalten haben</strong>, prüfen Sie bitte auch Ihren <strong>Spam-Ordner</strong>. Sollte sie dort nicht zu finden sein, <strong>kontaktieren Sie uns gerne</strong>:</p><p>📧 <strong>Per E-Mail</strong><br/>📝 <strong>Über das Kontaktformular</strong><br/>📞 <strong>Telefonisch</strong></p>",
             "expanded": false
           }
         }
