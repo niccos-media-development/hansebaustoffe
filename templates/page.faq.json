@@ -409,9 +409,9 @@
         "expandable_erBRej": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Für welche Einsatzbereiche ist die BAUDICHT EPDM Folie geeignet?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>Die <strong>BAUDICHT EPDM Folie</strong> ist eine zuverlässige Lösung für die <strong>Bauwerksabdichtung</strong> und schützt dauerhaft vor Feuchtigkeit und Witterungseinflüssen.</p><p>✅ <strong>Typische Einsatzbereiche:</strong><br/>🏡 <strong>Balkon & Terrasse</strong> – Wasserdichte Abdichtung für langlebige Außenbereiche<br/>🏗 <strong>Sockelabdichtung</strong> – Schutz gegen aufsteigende Feuchtigkeit<br/>🪟 <strong>Fensteranschlüsse</strong> – Flexible Lösung für dichte und sichere Fensterabdichtungen<br/>🏠 <strong>Kellerabdichtung</strong> – Verhindert das Eindringen von Feuchtigkeit in erdberührte Bauteile<br/>🛠 <strong>Sohlenabdichtung</strong> – Schutz der Bodenplatte gegen Feuchtigkeit und Wasser</p><p>💡 <strong>BAUDICHT EPDM Folie – die sichere Wahl für dauerhafte und flexible Bauwerksabdichtung!</strong> ✅🔝</p>",
             "expanded": false
           }
         },
