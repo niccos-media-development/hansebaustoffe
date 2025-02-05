@@ -606,6 +606,57 @@
         "spacing_top": 20,
         "spacing_bottom": 20
       }
+    },
+    "expandable_yHmbjf": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_rgCwUX": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_LpA3jn": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_9Mzi8z": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_rgCwUX",
+        "expandable_LpA3jn",
+        "expandable_9Mzi8z"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Lieferung",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
     }
   },
   "order": [
@@ -618,6 +669,7 @@
     "expandable_XTjAFj",
     "expandable_MQUfzD",
     "expandable_A4kH4n",
-    "expandable_KxRhJV"
+    "expandable_KxRhJV",
+    "expandable_yHmbjf"
   ]
 }
