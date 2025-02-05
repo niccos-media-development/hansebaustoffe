@@ -477,6 +477,15 @@
             "text": "<p>✅ <strong>Ja, grundsätzlich empfehlen wir die Verklebung der EPDM Folie</strong> für eine sichere und langlebige Abdichtung.</p><p>📌 <strong>Ausnahmen:</strong><br/>In bestimmten Fällen kann auf eine Verklebung verzichtet werden – dies hängt von den <strong>individuellen baulichen Gegebenheiten</strong> ab.</p><p>🔎 <strong>Mehr Informationen dazu finden Sie in unserem Handbuch für Dachaufbauten.</strong> 📖✅</p>",
             "expanded": false
           }
+        },
+        "expandable_rkkmq7": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Ist EPDM Folie wurzelfest?",
+            "icon": "arrow-right",
+            "text": "<h3><strong>Dachbegrünung mit EPDM Folie – Sicher, langlebig und FLL-zertifiziert</strong> 🌱🏠</h3><p>Eine <strong>Dachbegrünung</strong> ist nicht nur optisch ansprechend, sondern bietet auch zahlreiche Vorteile: Sie verbessert das <strong>Raumklima</strong>, reduziert den Regenwasserabfluss und schützt die Dachabdichtung vor Witterungseinflüssen. Damit Ihr <strong>Gründach</strong> langfristig dicht bleibt, ist eine zuverlässige Abdichtung entscheidend – hier kommt unsere <strong>DACHPROTECT EPDM Folie</strong> ins Spiel.</p><h3><strong>Warum DACHPROTECT EPDM Folie für Dachbegrünung?</strong> ✅</h3><p>🌿 <strong>FLL-zertifizierte Wurzelfestigkeit</strong> – Unsere EPDM Folie ist nach <strong>FLL-Standard geprüft</strong> und widersteht dauerhaft Wurzel- und Rhizomdurchdringungen.</p><p>🔗 <strong>Nahtfreie Abdichtung möglich</strong> – Die meisten Dächer können mit einer <strong>nahtfreien EPDM Folie</strong> ausgeführt werden, was die Sicherheit und Langlebigkeit der Abdichtung zusätzlich erhöht.</p><p>🔍 <strong>Geprüfte Nahtverbindungen</strong> – Falls Nähte erforderlich sind, wurden auch diese auf <strong>Wurzelfestigkeit geprüft</strong>. Sie müssen mit <strong>Nahtband</strong> und <strong>Form- & Nahtabdeckband</strong> ausgeführt werden, um eine durchgängige Sicherheit zu gewährleisten.</p><p>☔ <strong>Dauerhaft wasserdicht</strong> – Dank ihrer hohen <strong>Elastizität</strong> bleibt die EPDM Folie auch nach Jahrzehnten flexibel und zuverlässig dicht.</p><p>🌡 <strong>Extreme Temperaturbeständigkeit</strong> – Widersteht Temperaturen von <strong>-40 °C bis +120 °C</strong>, ideal für alle Arten von Dachbegrünungen.</p><p>🔄 <strong>Bewegungsausgleichend</strong> – Passt sich den natürlichen Bewegungen des Gebäudes an, ohne Risse oder Materialermüdung.</p><p>♻ <strong>Nachhaltig & langlebig</strong> – Mit einer Lebensdauer von über <strong>50 Jahren</strong> trägt EPDM zur umweltfreundlichen Bauweise bei und reduziert Wartungskosten.</p><h3><strong>Die perfekte Lösung für Ihr Gründach</strong> 🌱</h3><p>Unsere <strong>DACHPROTECT EPDM Folie</strong> eignet sich ideal für <strong>intensive und extensive Dachbegrünungen</strong> auf <strong>Garagen, Carports, Gartenhäusern oder Flachdächern</strong>. Dank der <strong>FLL-geprüften Wurzelfestigkeit</strong> und der Möglichkeit einer <strong>nahtfreien Verlegung</strong> erhalten Sie eine <strong>dauerhaft sichere und nachhaltige Abdichtung</strong>.</p><p>Setzen Sie auf <strong>FLL-zertifizierte Qualität</strong> – mit <strong>DACHPROTECT EPDM Folie</strong> für Ihr Gründach! 🚀🏡</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -489,7 +498,8 @@
         "expandable_dXXgcN",
         "expandable_FUt7iN",
         "expandable_XrWgeC",
-        "expandable_NgETya"
+        "expandable_NgETya",
+        "expandable_rkkmq7"
       ],
       "custom_css": [
         "* {color: #000000;}",
