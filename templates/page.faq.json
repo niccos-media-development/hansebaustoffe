@@ -96,9 +96,9 @@
         "expandable_yxGg49": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "document",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "heading": "Kann ich mir ein Angebot einholen?",
+            "icon": "arrow-right",
+            "text": "<p>Für <strong>Privatkunden</strong> gibt es keine klassischen Angebote. Aber keine Sorge – wir unterstützen Sie gerne bei der <strong>Zusammenstellung Ihres Warenkorbs</strong> und helfen Ihnen, die passenden Produkte für Ihr Projekt zu finden.</p><p><strong>Gewerbekunden</strong> haben die Möglichkeit, <strong>individuelle Angebote anzufragen</strong>. Je nach <strong>Projektgröße</strong> wird die Anfrage entsprechend bearbeitet, um Ihnen die besten Konditionen zu bieten.</p><p>💡 <strong>Sie haben Fragen? Kontaktieren Sie uns – wir beraten Sie gerne!</strong> 📞✅</p>",
             "expanded": false
           }
         },
