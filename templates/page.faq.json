@@ -400,9 +400,9 @@
         "expandable_WUhnBU": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Für welche Einsatzbereiche ist die DACHPROTECT EPDM Folie geeignet?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>Die <strong>DACHPROTECT EPDM Dachfolie</strong> ist eine vielseitige Lösung für <strong>Neubau und Sanierung</strong> und eignet sich für zahlreiche Dachkonstruktionen.</p><p>✅ <strong>Typische Einsatzbereiche:</strong><br/>🏡 <strong>Wohnhäuser</strong> – Langlebige Abdichtung für Flachdächer und Anbauten<br/>🚗 <strong>Carports & Garagen</strong> – Zuverlässiger Schutz vor Witterungseinflüssen<br/>🌳 <strong>Gartenhäuser</strong> – Perfekte Lösung für kleine Dächer<br/>🏭 <strong>Hallen & Industriegebäude</strong> – Widerstandsfähig für große Flächen<br/>🏗 <strong>Anbauten & Gauben</strong> – Sicher und flexibel einsetzbar</p><p>💡 <strong>Ob privat oder gewerblich – DACHPROTECT EPDM sorgt für eine wasserdichte, langlebige Dachabdichtung!</strong> 🔝✅</p>",
             "expanded": false
           }
         },
