@@ -48,15 +48,15 @@
         "slide_wiKzFd"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "slide_height": "small",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "animation_type": "slide",
         "accessibility_info": "",
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 0,
+        "spacing_bottom": 20
       }
     },
     "rich_text_p3r9Ue": {
