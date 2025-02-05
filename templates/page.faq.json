@@ -541,9 +541,9 @@
         "expandable_ni4qft": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Wie lange ist der Flächenkleber BlueTek haltbar?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>📌 <strong>Der Flächenkleber BlueTek hat eine Haltbarkeit von 6 Monaten ab dem Lieferdatum.</strong></p><p><strong>Lagerung:</strong></p><ul><li><strong>Kühl, trocken und frostfrei lagern</strong> ❄️</li><li><strong>Vor direkter Sonneneinstrahlung schützen</strong> ☀️</li><li><strong>Behälter immer gut verschließen</strong> 🏠</li></ul><p>💡 <strong>So bleibt der Kleber in einwandfreiem Zustand und sorgt für eine sichere EPDM-Verklebung!</strong> ✅🔩</p>",
             "expanded": false
           }
         },
