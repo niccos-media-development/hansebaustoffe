@@ -128,13 +128,23 @@
             "text": "<p>Sie möchten Ihre Bestellung direkt bei uns abholen? Kein Problem! Bitte beachten Sie die <strong>Abholzeiten</strong>, den Abholort sowie den Ablauf.</p><p>⏰ <strong>Abholzeiten:</strong><br/>👨‍👩‍👧 <strong>Für Privatkunden:</strong><br/>🕐 Montag, Mittwoch & Freitag: <strong>11:00 – 14:00 Uhr</strong></p><p>🏢 <strong>Für Gewerbekunden:</strong><br/>🕘 Montag – Freitag: <strong>07:00 – 14:30 Uhr</strong></p><p>🛒 <strong>Abholort:</strong><br/> <strong>Hanse Baustoffe Handelsges. mbH & Co. KG</strong><br/><strong>Teichkoppel 8, 23843 Bad Oldesloe</strong></p><p>📌 <strong>Wichtige Hinweise zur Abholung:<br/></strong>✅ <strong>Bei der Bestellung muss die Option \"Werksabholung\" ausgewählt werden.<br/></strong><br/>✅ <strong>Sie erhalten eine Benachrichtigung, sobald Ihre Ware abholbereit ist</strong> (i.d.R. innerhalb von <strong>24-48 Stunden).</strong><br/><br/>⛔ <strong>Ohne Benachrichtigung ist die Ware noch nicht abholbereit!</strong></p>",
             "expanded": false
           }
+        },
+        "expandable_UJKzQb": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Kann ich meine Bestellugn stornieren?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Ja, Stornierungen sind möglich – solange der Auftrag noch nicht bearbeitet wurde.</strong></p><p>⚠️ <strong>Wichtig:</strong> Da die Bearbeitung oft sehr schnell erfolgt, ist eine Stornierung in vielen Fällen nur innerhalb kürzester Zeit machbar.</p><p>📌 <strong>So stornieren Sie Ihre Bestellung:</strong><br/>📧 <strong>Per E-Mail</strong><br/>📝 <strong>Über das Kontaktformular</strong><br/>📞 <strong>Telefonisch direkt bei uns</strong></p><p>💡 <strong>Tipp:</strong> Melden Sie sich <strong>so schnell wie möglich</strong>, wenn Sie Ihre Bestellung stornieren möchten! 🚀</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_yxGg49",
         "expandable_WTyHA6",
         "expandable_EaF3CR",
-        "expandable_LFkGeX"
+        "expandable_LFkGeX",
+        "expandable_UJKzQb"
       ],
       "settings": {
         "narrow": true,
