@@ -155,12 +155,59 @@
         "spacing_top": 20,
         "spacing_bottom": 20
       }
+    },
+    "expandable_8yk6VQ": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_V4pHX3": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Fehler bei der Zahlung. Was tun?",
+            "icon": "arrow-right",
+            "text": "<p>Falls Ihre Zahlung im Onlineshop <strong>fehlgeschlagen</strong> ist, helfen wir Ihnen gerne weiter!</p><p>📌 <strong>Was tun bei einer fehlgeschlagenen Zahlung?</strong><br/>🔹 Überprüfen Sie Ihre Zahlungsdaten und wiederholen Sie den Vorgang.<br/>🔹 Falls das Problem weiterhin besteht, <strong>wenden Sie sich direkt an unsere zuständigen Ansprechpartner</strong>.</p><p>📞 <strong>Kontakt:</strong> 👉 <a href=\"https://www.hansesyntec.de/pages/contact\" title=\"https://www.hansesyntec.de/pages/contact\">Ansprechpartner</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_n4jViA": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_pJxJ8D": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_V4pHX3",
+        "expandable_n4jViA",
+        "expandable_pJxJ8D"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Bezahlung",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
     }
   },
   "order": [
     "main",
     "slideshow_LcaCBV",
     "rich_text_V3dJVj",
-    "expandable_mr4yPh"
+    "expandable_mr4yPh",
+    "expandable_8yk6VQ"
   ]
 }
