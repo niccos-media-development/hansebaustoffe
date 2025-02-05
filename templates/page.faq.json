@@ -423,13 +423,43 @@
             "text": "<p>Das <strong>Gewicht der EPDM Folie</strong> hängt von der <strong>Materialstärke</strong> ab:</p><p>📌 <strong>Gewicht pro Quadratmeter:</strong><br/>🔹 <strong>1,2 mm Stärke</strong> → ca. <strong>1,6 kg/m²</strong><br/>🔹 <strong>1,5 mm Stärke</strong> → ca. <strong>1,9 kg/m²</strong></p><p>💡 <strong>Je dicker die Folie, desto robuster und widerstandsfähiger ist sie – ideal für langlebige Dach- und Bauwerksabdichtungen!</strong> ✅🔩</p>",
             "expanded": false
           }
+        },
+        "expandable_wH7VAJ": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Hat die EPDM Plane eine Ober- oder Unterseite?",
+            "icon": "arrow-right",
+            "text": "<p>Die <strong>EPDM Folie ist homogen</strong> gefertigt, sodass <strong>Ober- und Unterseite identisch</strong> sind.</p><p><strong>Das bedeutet:<br/></strong><br/>🔹 <strong>Kein Verwechslungsrisiko</strong> – Die Folie kann in jeder Richtung verlegt werden.<br/><br/>🔹 <strong>Gleichmäßige Qualität</strong> – Durchgängige Materialeigenschaften für maximale Langlebigkeit.<br/><br/>🔹 <strong>Einfache Verarbeitung</strong> – Kein Unterschied bei Verklebung oder Abdichtung.</p><p>💡 <strong>Egal, wie Sie die EPDM Folie verlegen – sie bietet immer den gleichen zuverlässigen Schutz!</strong> 🏠🔒</p>",
+            "expanded": false
+          }
+        },
+        "expandable_dXXgcN": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Welche Folienstärken gibt es?",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_eKh7UU": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Welche Folienstärken gibt es?",
+            "icon": "arrow-right",
+            "text": "<p>Wir führen <strong>zwei verschiedene Stärken</strong> unserer EPDM Folie, die sich in <strong>Dicke und Zertifizierung</strong> unterscheiden:</p><p>📌 <strong>Verfügbare Stärken:</strong><br/>🔹 <strong>1,2 mm EPDM Folie</strong> – Flexibel & leicht, ideal für vielseitige Abdichtungsprojekte<br/>🔹 <strong>1,5 mm EPDM Folie</strong> – <strong>Zertifiziert nach DIN 18531 und Flachdachrichtlinie</strong>, besonders robust & langlebig</p><p>⚪ <strong>Wichtiger Hinweis:</strong><br/>Die <strong>weiße EPDM Folie</strong> ist <strong>ausschließlich in 1,5 mm Stärke erhältlich</strong>.</p><p>💡 <strong>Beide Folien sind nahezu identisch in ihrer Beschaffenheit, doch die 1,5 mm Variante bietet zusätzliche Widerstandsfähigkeit für normgerechte Flachdachabdichtungen!</strong> ✅🔩</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_UkagiR",
         "expandable_WUhnBU",
         "expandable_erBRej",
-        "expandable_mC3d3b"
+        "expandable_mC3d3b",
+        "expandable_wH7VAJ",
+        "expandable_dXXgcN",
+        "expandable_eKh7UU"
       ],
       "custom_css": [
         "* {color: #000000;}",
