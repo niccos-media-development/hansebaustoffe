@@ -356,9 +356,9 @@
         "expandable_Tg4g6i": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Müssen die Wetterschutzhauben verklebt werden?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>✅ <strong>Einfache Montage ohne großen Aufwand!</strong></p><p>Die <strong>Wetterschutzhauben</strong> werden <strong>einfach auf den Lüfter gesteckt</strong> – eine schnelle und unkomplizierte Lösung zum Schutz Ihres Lüftungssystems.</p><p>📌 <strong>Optional:</strong> Falls erforderlich, kann die Haube <strong>zusätzlich verklebt</strong> werden, um eine noch festere Verbindung zu gewährleisten.</p><p>💡 <strong>So bleibt Ihr Lüfter optimal geschützt – gegen Regen, Schnee und Schmutz!</strong> 🌧️✅</p>",
             "expanded": false
           }
         }
