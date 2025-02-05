@@ -623,7 +623,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Enter a descriptive title for this block",
-            "icon": "gift-wrap",
+            "icon": "arrow-right",
             "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
             "expanded": false
           }
@@ -632,7 +632,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Enter a descriptive title for this block",
-            "icon": "globe",
+            "icon": "arrow-right",
             "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
             "expanded": false
           }
