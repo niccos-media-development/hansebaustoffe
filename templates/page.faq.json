@@ -468,6 +468,15 @@
             "text": "<p>🔎 <strong>Keine Sorge – diese Verfärbungen sind völlig normal!</strong></p><p>📌 <strong>Ursache:</strong><br/>Die <strong>milchigen Flecken oder schwarzen Schatten</strong> entstehen <strong>produktionsbedingt</strong> und sind derzeit nicht vollständig vermeidbar. Der Hersteller arbeitet jedoch kontinuierlich an Verbesserungen.</p><p>📌 <strong>Wichtige Hinweise:</strong><br/>✅ <strong>Kein Qualitätsmangel</strong> – Die Verfärbungen beeinflussen <strong>nicht die Funktionalität</strong> oder Haltbarkeit der Folie.<br/>✅ <strong>Verschwinden mit der Zeit</strong> – Durch <strong>Sonneneinstrahlung und Regen</strong> lösen sich die Flecken nach und nach von selbst.<br/>✅ <strong>Manuelle Reinigung möglich</strong> – Mit einer <strong>einfachen Bürste und Wasser</strong> können die Flecken größtenteils entfernt werden.<br/>✅ <strong>Weiße Bahnen werden mit der Zeit heller</strong> – Durch Witterungseinflüsse hellt die Folie auf und wird optisch gleichmäßiger.</p><p>💡 <strong>Die Funktion der EPDM Folie bleibt uneingeschränkt erhalten – es handelt sich lediglich um einen optischen Effekt!</strong> ✅🌦️</p>",
             "expanded": false
           }
+        },
+        "expandable_NgETya": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Muss die EPDM Folie verklebt werden?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Ja, grundsätzlich empfehlen wir die Verklebung der EPDM Folie</strong> für eine sichere und langlebige Abdichtung.</p><p>📌 <strong>Ausnahmen:</strong><br/>In bestimmten Fällen kann auf eine Verklebung verzichtet werden – dies hängt von den <strong>individuellen baulichen Gegebenheiten</strong> ab.</p><p>🔎 <strong>Mehr Informationen dazu finden Sie in unserem Handbuch für Dachaufbauten.</strong> 📖✅</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -479,7 +488,8 @@
         "expandable_eKh7UU",
         "expandable_dXXgcN",
         "expandable_FUt7iN",
-        "expandable_XrWgeC"
+        "expandable_XrWgeC",
+        "expandable_NgETya"
       ],
       "custom_css": [
         "* {color: #000000;}",
