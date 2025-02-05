@@ -564,13 +564,23 @@
             "text": "<p>Der <strong>EPDM Flächenkleber SprayBond</strong> ist ein <strong>Hochleistungsklebstoff</strong>, speziell für die <strong>Verklebung von EPDM Folien</strong> entwickelt.</p><p>📌 <strong>Besonders geeignet für:</strong><br/>✅ <strong>Kleinflächige Detailausbildungen</strong> – Perfekt für präzise Arbeiten<br/><br/>✅ <strong>Dachrandbereiche</strong> – Sichere Verklebung an schwierigen Stellen<br/><br/>✅ <strong>Hochzüge & Anschlüsse</strong> – Optimal für Wandanschlüsse und Ecken</p><p>💡 <strong>Mit SprayBond lassen sich selbst komplizierte Bereiche schnell, sauber und zuverlässig verkleben!</strong> ✅🏠</p>",
             "expanded": false
           }
+        },
+        "expandable_DTG4GN": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie lange hält der Flächenkleber SprayBond?",
+            "icon": "arrow-right",
+            "text": "<p><strong>Der Flächenkleber SprayBond hat eine Haltbarkeit von 12 Monaten nach dem Lieferdatum.</strong></p><p>✅ <strong>Tipp zur optimalen Lagerung:</strong></p><ul><li><strong>Kühl, trocken und frostfrei lagern</strong> ❄️</li><li><strong>Vor direkter Sonneneinstrahlung schützen</strong> ☀️</li><li><strong>Behälter gut verschließen</strong> 🔒</li></ul>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_pyhBGq",
         "expandable_ni4qft",
         "expandable_JYCzJd",
-        "expandable_qBjQat"
+        "expandable_qBjQat",
+        "expandable_DTG4GN"
       ],
       "custom_css": [
         "* {color: #000000;}",
