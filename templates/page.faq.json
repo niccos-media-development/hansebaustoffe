@@ -105,9 +105,9 @@
         "expandable_WTyHA6": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "gift-wrap",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "heading": "Kann ich auch aus dem Ausland bestellen?",
+            "icon": "arrow-right",
+            "text": "<p>Grundsätzlich ist eine <strong>Bestellung aus dem Ausland möglich</strong>. Allerdings liefern wir nicht in jedes Land. Die verfügbaren <strong>Lieferländer</strong> sowie weitere Details zu Versandoptionen und Kosten finden Sie unter dem Punkt <strong>Lieferung</strong>.</p><p>💡 <strong>Sie sind unsicher, ob Ihr Land beliefert wird?</strong> Kontaktieren Sie uns – wir helfen Ihnen gerne weiter! 📞✉️✅</p>",
             "expanded": false
           }
         },
