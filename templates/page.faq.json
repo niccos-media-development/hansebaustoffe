@@ -11,13 +11,144 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "hide_heading": false
       }
+    },
+    "slideshow_LcaCBV": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_wiKzFd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_FAQ_Holzbloecke_Fragen_Antworten_1920x600px.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Image slide",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "Button label",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "slide_wiKzFd"
+      ],
+      "settings": {
+        "full_width": false,
+        "slide_height": "small",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "animation_type": "slide",
+        "accessibility_info": "",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "rich_text_p3r9Ue": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9fMVxC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "md"
+          }
+        },
+        "text_pAA8hq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text_size": "md"
+          }
+        },
+        "button_DizJzX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_9fMVxC",
+        "text_pAA8hq",
+        "button_DizJzX"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "expandable_mr4yPh": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_yxGg49": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "document",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_WTyHA6": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_EaF3CR": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_yxGg49",
+        "expandable_WTyHA6",
+        "expandable_EaF3CR"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Expandable",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "slideshow_LcaCBV",
+    "rich_text_p3r9Ue",
+    "expandable_mr4yPh"
   ]
 }
