@@ -555,12 +555,22 @@
             "text": "<p>Der <strong>Verbrauch des Flächenklebers BlueTek</strong> hängt vom <strong>Klebeverfahren</strong> ab:</p><p><strong>Verbrauch je Quadratmeter (m²):</strong><br/>🔹 <strong>Nassklebeverfahren:</strong> ca. <strong>0,2 l/m²</strong><br/>🔹 <strong>Kontaktklebeverfahren:</strong> ca. <strong>0,3 – 0,5 l/m²</strong></p><p>💡 <strong>Tipp:</strong> Planen Sie je nach Untergrund und Auftragstechnik <strong>etwas Reserve</strong> ein, um eine gleichmäßige und sichere Verklebung zu gewährleisten! ✅🏠</p>",
             "expanded": false
           }
+        },
+        "expandable_qBjQat": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wofür verwende ich den Kontaktkleber SprayBond?",
+            "icon": "arrow-right",
+            "text": "<p>Der <strong>EPDM Flächenkleber SprayBond</strong> ist ein <strong>Hochleistungsklebstoff</strong>, speziell für die <strong>Verklebung von EPDM Folien</strong> entwickelt.</p><p>📌 <strong>Besonders geeignet für:</strong><br/>✅ <strong>Kleinflächige Detailausbildungen</strong> – Perfekt für präzise Arbeiten<br/><br/>✅ <strong>Dachrandbereiche</strong> – Sichere Verklebung an schwierigen Stellen<br/><br/>✅ <strong>Hochzüge & Anschlüsse</strong> – Optimal für Wandanschlüsse und Ecken</p><p>💡 <strong>Mit SprayBond lassen sich selbst komplizierte Bereiche schnell, sauber und zuverlässig verkleben!</strong> ✅🏠</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_pyhBGq",
         "expandable_ni4qft",
-        "expandable_JYCzJd"
+        "expandable_JYCzJd",
+        "expandable_qBjQat"
       ],
       "custom_css": [
         "* {color: #000000;}",
