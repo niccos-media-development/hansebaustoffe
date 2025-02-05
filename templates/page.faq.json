@@ -433,21 +433,21 @@
             "expanded": false
           }
         },
-        "expandable_dXXgcN": {
-          "type": "expandable",
-          "settings": {
-            "heading": "Welche Folienstärken gibt es?",
-            "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
-            "expanded": false
-          }
-        },
         "expandable_eKh7UU": {
           "type": "expandable",
           "settings": {
             "heading": "Welche Folienstärken gibt es?",
             "icon": "arrow-right",
             "text": "<p>Wir führen <strong>zwei verschiedene Stärken</strong> unserer EPDM Folie, die sich in <strong>Dicke und Zertifizierung</strong> unterscheiden:</p><p>📌 <strong>Verfügbare Stärken:</strong><br/>🔹 <strong>1,2 mm EPDM Folie</strong> – Flexibel & leicht, ideal für vielseitige Abdichtungsprojekte<br/>🔹 <strong>1,5 mm EPDM Folie</strong> – <strong>Zertifiziert nach DIN 18531 und Flachdachrichtlinie</strong>, besonders robust & langlebig</p><p>⚪ <strong>Wichtiger Hinweis:</strong><br/>Die <strong>weiße EPDM Folie</strong> ist <strong>ausschließlich in 1,5 mm Stärke erhältlich</strong>.</p><p>💡 <strong>Beide Folien sind nahezu identisch in ihrer Beschaffenheit, doch die 1,5 mm Variante bietet zusätzliche Widerstandsfähigkeit für normgerechte Flachdachabdichtungen!</strong> ✅🔩</p>",
+            "expanded": false
+          }
+        },
+        "expandable_dXXgcN": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Kann eine beschädigte EPDM Folie repariert werden?",
+            "icon": "arrow-right",
+            "text": "<p><strong>EPDM Folie kann problemlos repariert werden!</strong> Je nach Größe der Beschädigung gibt es zwei effektive Methoden:</p><p>🔹 <strong>Größere Schäden:</strong> Ein passendes Stück <strong>EPDM Folie mit Nahtband</strong> verbinden.<br/>🔹 <strong>Kleine Beschädigungen:</strong> Die Stelle mit <strong>Form- & Nahtabdeckband</strong> abdichten.</p><p><strong>So geht’s:</strong><br/>1️⃣ <strong>Reinigung</strong> – Die Oberfläche mit Wasser und Spülmittel gründlich säubern und abspülen und trocknen.<br/>2️⃣ <strong>Vorbehandlung</strong> – Die <strong>EPDM Aktivierung</strong> auf die Fläche mit einem oberflächenaufrauenden Schwamm auftragen.<br/>3️⃣ <strong>Reparatur ausführen</strong> – Je nach Schaden das passende Nahtmaterial aufbringen.</p><p>💡 <strong>Auch ältere EPDM Folien lassen sich auf diese Weise zuverlässig reparieren!</strong> ✅</p>",
             "expanded": false
           }
         }
@@ -458,8 +458,8 @@
         "expandable_erBRej",
         "expandable_mC3d3b",
         "expandable_wH7VAJ",
-        "expandable_dXXgcN",
-        "expandable_eKh7UU"
+        "expandable_eKh7UU",
+        "expandable_dXXgcN"
       ],
       "custom_css": [
         "* {color: #000000;}",
