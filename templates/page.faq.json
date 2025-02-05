@@ -418,9 +418,9 @@
         "expandable_mC3d3b": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Wie viel wiegt die EPDM Folie?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>Das <strong>Gewicht der EPDM Folie</strong> hängt von der <strong>Materialstärke</strong> ab:</p><p>📌 <strong>Gewicht pro Quadratmeter:</strong><br/>🔹 <strong>1,2 mm Stärke</strong> → ca. <strong>1,6 kg/m²</strong><br/>🔹 <strong>1,5 mm Stärke</strong> → ca. <strong>1,9 kg/m²</strong></p><p>💡 <strong>Je dicker die Folie, desto robuster und widerstandsfähiger ist sie – ideal für langlebige Dach- und Bauwerksabdichtungen!</strong> ✅🔩</p>",
             "expanded": false
           }
         }
