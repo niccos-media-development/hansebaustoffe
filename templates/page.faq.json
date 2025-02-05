@@ -265,7 +265,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Haben wir eine Datenschutzerklärung?",
-            "icon": "document",
+            "icon": "arrow-right",
             "text": "<p>✅ <strong>Ja!</strong> Unsere <strong>Datenschutzerklärung</strong> finden Sie unten auf unserer Webseite. Dort erfahren Sie alles über den Umgang mit Ihren Daten, Speicherung, Verarbeitung und Schutz Ihrer Privatsphäre.</p><p>📌 <strong>Direkt zur Datenschutzerklärung:</strong><br/>👉 <a href=\"https://www.hansesyntec.de\"><strong>www.hansesyntec.de</strong></a> (ganz unten auf der Seite)</p>",
             "expanded": false
           }
@@ -274,7 +274,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Werden meine Daten an Dritte weitergegeben?",
-            "icon": "gift-wrap",
+            "icon": "arrow-right",
             "text": "<p>✅ <strong>Wir geben Ihre Daten nur dann weiter, wenn es für die Vertragserfüllung notwendig ist.</strong></p><p>📦 <strong>Für die Lieferung:</strong><br/>➡ Ihre Daten werden an das <strong>beauftragte Versandunternehmen</strong> übermittelt, damit die bestellte Ware zugestellt werden kann.</p><p>💳 <strong>Für die Zahlungsabwicklung:</strong><br/>➡ Je nach gewählter Zahlungsart werden die <strong>notwendigen Zahlungsdaten</strong> an das zuständige <strong>Kreditinstitut oder den beauftragten Zahlungsdienstleister</strong> weitergegeben.</p><p>📌 <strong>Weitere Details zum Datenschutz finden Sie in unserer Datenschutzerklärung.</strong><br/>👉 <a href=\"#\"><strong>Hier einsehen</strong></a> (Am Seitenende unserer Webseite)</p>",
             "expanded": false
           }
