@@ -59,43 +59,35 @@
         "spacing_bottom": 20
       }
     },
-    "rich_text_p3r9Ue": {
+    "rich_text_V3dJVj": {
       "type": "rich-text",
       "blocks": {
-        "heading_9fMVxC": {
+        "heading_paakE3": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "FAQ – Ihre Fragen rund um EPDM Folie, Bestellung & Verarbeitung ❓🏠",
             "heading_size": "md"
           }
         },
-        "text_pAA8hq": {
+        "text_fENKNk": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text": "<p>Hier finden Sie <strong>alle wichtigen Antworten</strong> rund um <strong>EPDM Folie, Systemzubehör, Bestellung und Verarbeitung</strong>. Egal, ob es um <strong>Produktdetails, Verlegung, Bezahlung, Lieferung oder Reklamation</strong> geht – wir haben die häufigsten Fragen für Sie zusammengefasst!</p>",
             "text_size": "md"
-          }
-        },
-        "button_DizJzX": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_9fMVxC",
-        "text_pAA8hq",
-        "button_DizJzX"
+        "heading_paakE3",
+        "text_fENKNk"
       ],
       "settings": {
         "narrow": true,
         "overlay_background": "",
         "alignment": "center",
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     },
     "expandable_mr4yPh": {
@@ -136,19 +128,19 @@
       ],
       "settings": {
         "narrow": true,
-        "heading": "Expandable",
+        "heading": "Bestellung",
         "subheading": "",
         "heading_alignment": "left",
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     }
   },
   "order": [
     "main",
     "slideshow_LcaCBV",
-    "rich_text_p3r9Ue",
+    "rich_text_V3dJVj",
     "expandable_mr4yPh"
   ]
 }
