@@ -729,7 +729,7 @@
         "button_gWYTfJ": {
           "type": "button",
           "settings": {
-            "button_label": "! Jetzt informieren",
+            "button_label": "Jetzt informieren!",
             "button_link": "shopify://products/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt"
           }
         }
@@ -740,7 +740,7 @@
         "button_gWYTfJ"
       ],
       "custom_css": [
-        ".media-with-text-content-left a {margin-right:auto;}"
+        ".media-with-text-content-left a {margin-right: auto;}"
       ],
       "settings": {
         "image": "shopify://shop_images/EPDM_Dachfolie_schwarz_Anwendung_Gartenhaus.jpg",
