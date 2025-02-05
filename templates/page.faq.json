@@ -344,6 +344,15 @@
             "expanded": false
           }
         },
+        "expandable_Tg4g6i": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
         "expandable_NjNL7m": {
           "type": "expandable",
           "settings": {
@@ -358,6 +367,7 @@
         "expandable_XRMm6q",
         "expandable_eMn4GD",
         "expandable_kkPPpr",
+        "expandable_Tg4g6i",
         "expandable_NjNL7m"
       ],
       "custom_css": [
