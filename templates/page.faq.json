@@ -173,7 +173,7 @@
           "settings": {
             "heading": "Ich habe keine Rechnung bekommen",
             "icon": "arrow-right",
-            "text": "<p>Falls Sie <strong>keine Rechnung</strong> zu Ihrer Bestellung erhalten haben, helfen wir Ihnen gerne weiter!</p><p>📌 <strong>So erhalten Sie Ihre Rechnung:</strong><br/>📧 <strong>Per E-Mail</strong> – Schreiben Sie uns eine kurze Nachricht.<br/>📝 <strong>Kontaktformular</strong> – Schnell und einfach ausfüllen.<br/>📞 <strong>Telefonisch</strong> – Wir kümmern uns direkt um Ihr Anliegen.</p>",
+            "text": "<p>Falls Sie <strong>keine Rechnung</strong> zu Ihrer Bestellung erhalten haben, helfen wir Ihnen gerne weiter!</p><p>📌 <strong>So erhalten Sie Ihre Rechnung:</strong><br/>📧 <a href=\"mailto:info@hanse-baustoffe.de\" title=\"mailto:info@hanse-baustoffe.de\"><strong>Per E-Mail</strong></a> – Schreiben Sie uns eine kurze Nachricht.<br/>📝 <a href=\"https://www.hansesyntec.de/pages/contact\" title=\"https://www.hansesyntec.de/pages/contact\"><strong>Kontaktformular</strong></a> – Schnell und einfach ausfüllen.<br/>📞 <a href=\"tel:+4945318882290\" title=\"tel:+4945318882290\"><strong>Telefonisch</strong></a> – Wir kümmern uns direkt um Ihr Anliegen.</p>",
             "expanded": false
           }
         },
