@@ -171,9 +171,9 @@
         "expandable_n4jViA": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "gift-wrap",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "heading": "Ich habe keine Rechnung bekommen",
+            "icon": "arrow-right",
+            "text": "<p>Falls Sie <strong>keine Rechnung</strong> zu Ihrer Bestellung erhalten haben, helfen wir Ihnen gerne weiter!</p><p>📌 <strong>So erhalten Sie Ihre Rechnung:</strong><br/>📧 <strong>Per E-Mail</strong> – Schreiben Sie uns eine kurze Nachricht.<br/>📝 <strong>Kontaktformular</strong> – Schnell und einfach ausfüllen.<br/>📞 <strong>Telefonisch</strong> – Wir kümmern uns direkt um Ihr Anliegen.</p>",
             "expanded": false
           }
         },
