@@ -739,6 +739,9 @@
         "text_aXrTgj",
         "button_gWYTfJ"
       ],
+      "custom_css": [
+        ".media-with-text-content-left a {margin-right:auto;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/EPDM_Dachfolie_schwarz_Anwendung_Gartenhaus.jpg",
         "video_url": "",
