@@ -330,7 +330,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Was ist ein Klebe-Gully?",
-            "icon": "gift-wrap",
+            "icon": "arrow-right",
             "text": "<p>Der <strong>DACHPROTECT Klebe-Gully</strong> ist eine zuverlässige Lösung zur <strong>Dachentwässerung</strong>, speziell für Dächer mit <strong>EPDM Abdichtung und anderen Abdichtungslösungen</strong>. Er stellt eine <strong>sichere Verbindung zwischen der EPDM Folie und dem Regenabfluss (Fallrohr)</strong> her.</p><h3><strong>Wie funktioniert der Klebe-Gully?</strong> 🔩</h3><p>✔ <strong>Wird vor der Verlegung der EPDM Folie auf den Untergrund geklebt</strong> – sorgt für eine stabile und dichte Basis.<br/>✔ <strong>Hochwertiges, widerstandsfähiges Material</strong> – gewährleistet eine langfristige Abdichtung.<br/>✔ <strong>Perfekt für EPDM-Dachsysteme</strong> – verhindert Undichtigkeiten und schützt die Dachkonstruktion.</p><p>💡 <strong>Die optimale Lösung für eine sichere und langlebige Dachentwässerung!</strong> 🌧✅</p>",
             "expanded": false
           }
@@ -340,16 +340,7 @@
           "settings": {
             "heading": "Passt der Edelstahl Kiesfangkorb in einem DN50 Garantie-Gully?",
             "icon": "arrow-right",
-            "text": "<p>Der Innendurchmesser beim Garantie-Gully DN50 ist durch einen eingepressten Edelstahlring ein Stückchen kleiner, als der bei unserem Klebe-Gully. Der Kiesfankorb muss deshalb mit etwas Kraft stark zusammengedrückt werden. Er lässt sich aber in jedem Fall in den Gully einsetzen.</p>",
-            "expanded": false
-          }
-        },
-        "expandable_Tg4g6i": {
-          "type": "expandable",
-          "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>✅ <strong>Ja, aber mit etwas Kraftaufwand!</strong></p><p>📌 <strong>Wichtiger Hinweis:</strong><br/>Beim <strong>Garantie-Gully DN50</strong> ist der <strong>Innendurchmesser durch einen eingepressten Edelstahlring etwas kleiner</strong> als beim Klebe-Gully. Daher muss der <strong>Edelstahl-Kiesfangkorb beim Einsetzen stark zusammengedrückt werden</strong>.</p><p>💡 <strong>Gut zu wissen:</strong> Der Kiesfangkorb <strong>passt auf jeden Fall</strong>, auch wenn er etwas fester eingesetzt werden muss. So bleibt Ihr Entwässerungssystem zuverlässig geschützt! 🌧️✅</p>",
             "expanded": false
           }
         },
@@ -361,14 +352,23 @@
             "text": "<p>Die Entwässerung eines <strong>Flachdachs</strong> erfolgt in der Regel über verschiedene Systeme, um das Regenwasser zuverlässig abzuleiten und Schäden zu vermeiden.</p><h3><strong>Mögliche Entwässerungssysteme für Flachdächer:</strong></h3><p>🔹 <strong>Innenliegender Gully</strong> – Das Wasser wird über einen <strong>Garantie-Gully</strong> oder <strong>Klebe-Gully</strong> direkt in das Fallrohr geleitet.<br/>🔹 <strong>Seitenablauf (Garantie-Seitenablauf)</strong> – Das Regenwasser wird seitlich <strong>durch die Attika abgeleitet</strong>.<br/>🔹 <strong>Regenrinne</strong> – Eine klassische Lösung zur Wasserführung entlang des Dachrands.</p><p>💡 <strong>Moderne Flachdächer setzen häufig auf Seitenabläufe oder Gullys</strong>, da sie einen <strong>geringen Wartungsaufwand</strong> haben und besonders zuverlässig sind.</p><p>⚠ <strong>Zusätzlicher Schutz:</strong><br/>✅ Ein <strong>höherliegender Notüberlauf (Garantie-Notüberlauf)</strong> sorgt für eine sichere Wasserableitung, falls das Hauptsystem durch Verstopfung oder Starkregen überlastet wird.</p><p><strong>Die richtige Entwässerung sorgt für ein trockenes und langlebiges Flachdach!</strong> ✅🔧</p>",
             "expanded": false
           }
+        },
+        "expandable_Tg4g6i": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_XRMm6q",
         "expandable_eMn4GD",
         "expandable_kkPPpr",
-        "expandable_Tg4g6i",
-        "expandable_NjNL7m"
+        "expandable_NjNL7m",
+        "expandable_Tg4g6i"
       ],
       "custom_css": [
         "* {color: #000000;}",
