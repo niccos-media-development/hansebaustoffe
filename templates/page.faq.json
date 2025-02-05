@@ -185,12 +185,22 @@
             "text": "<p>📌 <strong>Ihre Rechnung wird automatisch per E-Mail verschickt, sobald die Ware versendet wurde.</strong></p><p>Falls Sie <strong>keine Rechnung erhalten haben</strong>, prüfen Sie bitte auch Ihren <strong>Spam-Ordner</strong>. Sollte sie dort nicht zu finden sein, <strong>kontaktieren Sie uns gerne</strong>:</p><p>📧<a href=\"mailto:info@hanse-baustoffe.de\" title=\"mailto:info@hanse-baustoffe.de\"> <strong>Per E-Mail</strong></a><br/>📝 <a href=\"https://www.hansesyntec.de/pages/contact\" title=\"https://www.hansesyntec.de/pages/contact\"><strong>Über das Kontaktformular</strong></a><br/>📞<a href=\"tel:+4945318882244\" title=\"tel:+4945318882290\"> <strong>Telefonisch</strong></a></p>",
             "expanded": false
           }
+        },
+        "expandable_4ER4zp": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Ist ein Rechnungskauf möglich?",
+            "icon": "arrow-right",
+            "text": "<p><strong>Gewerbetreibende</strong> können problemlos <strong>auf Rechnung kaufen</strong>. Allerdings gilt:<br/>📌 <strong>Die ersten 3 Bestellungen müssen per Vorkasse bezahlt werden.</strong> Danach ist der Kauf auf Rechnung möglich.</p><p><strong>Privatkunden</strong> haben die Möglichkeit, über <strong>Klarna auf Rechnung zu kaufen</strong>.</p><p>💡 <strong>Fragen zur Zahlungsabwicklung?</strong> Kontaktieren Sie uns – wir helfen Ihnen gerne weiter! 📧📞</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_V4pHX3",
         "expandable_n4jViA",
-        "expandable_pJxJ8D"
+        "expandable_pJxJ8D",
+        "expandable_4ER4zp"
       ],
       "settings": {
         "narrow": true,
