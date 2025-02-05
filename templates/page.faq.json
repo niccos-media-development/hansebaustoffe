@@ -450,6 +450,15 @@
             "text": "<p><strong>EPDM Folie kann problemlos repariert werden!</strong> Je nach Größe der Beschädigung gibt es zwei effektive Methoden:</p><p>🔹 <strong>Größere Schäden:</strong> Ein passendes Stück <strong>EPDM Folie mit Nahtband</strong> verbinden.<br/>🔹 <strong>Kleine Beschädigungen:</strong> Die Stelle mit <strong>Form- & Nahtabdeckband</strong> abdichten.</p><p><strong>So geht’s:</strong><br/>1️⃣ <strong>Reinigung</strong> – Die Oberfläche mit Wasser und Spülmittel gründlich säubern und abspülen und trocknen.<br/>2️⃣ <strong>Vorbehandlung</strong> – Die <strong>EPDM Aktivierung</strong> auf die Fläche mit einem oberflächenaufrauenden Schwamm auftragen.<br/>3️⃣ <strong>Reparatur ausführen</strong> – Je nach Schaden das passende Nahtmaterial aufbringen.</p><p>💡 <strong>Auch ältere EPDM Folien lassen sich auf diese Weise zuverlässig reparieren!</strong> ✅</p>",
             "expanded": false
           }
+        },
+        "expandable_FUt7iN": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Auf welchen Untergründen kann ich EPDM verwenden?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>EPDM kann auf nahezu jedem Untergrund verwendet werden!</strong> Die richtige Vorbereitung und Auswahl der Verlegeart sind dabei entscheidend.</p><p>📌 <strong>Für detaillierte Informationen zu den einzelnen Untergründen</strong> und deren Anforderungen werfen Sie einen Blick in unser <strong>Handbuch für Dachaufbauten</strong>.</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -459,7 +468,8 @@
         "expandable_mC3d3b",
         "expandable_wH7VAJ",
         "expandable_eKh7UU",
-        "expandable_dXXgcN"
+        "expandable_dXXgcN",
+        "expandable_FUt7iN"
       ],
       "custom_css": [
         "* {color: #000000;}",
