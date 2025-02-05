@@ -343,12 +343,22 @@
             "text": "<p>Der Innendurchmesser beim Garantie-Gully DN50 ist durch einen eingepressten Edelstahlring ein Stückchen kleiner, als der bei unserem Klebe-Gully. Der Kiesfankorb muss deshalb mit etwas Kraft stark zusammengedrückt werden. Er lässt sich aber in jedem Fall in den Gully einsetzen.</p>",
             "expanded": false
           }
+        },
+        "expandable_NjNL7m": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie kann ich Regenwasser von meinem Flachdach ableiten?",
+            "icon": "arrow-right",
+            "text": "<p>Die Entwässerung eines <strong>Flachdachs</strong> erfolgt in der Regel über verschiedene Systeme, um das Regenwasser zuverlässig abzuleiten und Schäden zu vermeiden.</p><h3><strong>Mögliche Entwässerungssysteme für Flachdächer:</strong></h3><p>🔹 <strong>Innenliegender Gully</strong> – Das Wasser wird über einen <strong>Garantie-Gully</strong> oder <strong>Klebe-Gully</strong> direkt in das Fallrohr geleitet.<br/>🔹 <strong>Seitenablauf (Garantie-Seitenablauf)</strong> – Das Regenwasser wird seitlich <strong>durch die Attika abgeleitet</strong>.<br/>🔹 <strong>Regenrinne</strong> – Eine klassische Lösung zur Wasserführung entlang des Dachrands.</p><p>💡 <strong>Moderne Flachdächer setzen häufig auf Seitenabläufe oder Gullys</strong>, da sie einen <strong>geringen Wartungsaufwand</strong> haben und besonders zuverlässig sind.</p><p>⚠ <strong>Zusätzlicher Schutz:</strong><br/>✅ Ein <strong>höherliegender Notüberlauf (Garantie-Notüberlauf)</strong> sorgt für eine sichere Wasserableitung, falls das Hauptsystem durch Verstopfung oder Starkregen überlastet wird.</p><p><strong>Die richtige Entwässerung sorgt für ein trockenes und langlebiges Flachdach!</strong> ✅🔧</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_XRMm6q",
         "expandable_eMn4GD",
-        "expandable_kkPPpr"
+        "expandable_kkPPpr",
+        "expandable_NjNL7m"
       ],
       "custom_css": [
         "* {color: #000000;}",
