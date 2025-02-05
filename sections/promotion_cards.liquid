@@ -1,0 +1,277 @@
+{% schema %}
+{
+  "name": "Promotional Cards",
+  "class": "cust-promo-section",
+  "settings": [
+     {
+      "type": "color",
+      "id": "section_bg",
+      "label": "Section Background Color"
+    },
+    {
+      "type": "number",
+      "id": "seciton_top_margin",
+      "label": "Section top margin (px)"
+    },
+    {
+      "type": "number",
+      "id": "seciton_bottom_margin",
+      "label": "Section botom margin (px)"
+    },
+    {
+      "type": "number",
+      "id": "seciton_top_padding",
+      "label": "Section top Padding (px)"
+    },
+    {
+      "type": "number",
+      "id": "seciton_bottom_padding",
+      "label": "Section botom Padding (px)"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "promo_card",
+      "name": "Promo Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Background Image",
+          "info": "Image in ratio of 20/9"
+        },
+        {
+          "type": "color",
+          "id": "block_bg",
+          "label": "Block Background Color",
+          "info": "if there is no background image",
+          "default": "#fff"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "color",
+          "id": "subtitle_color",
+          "label": "Subtitle Color",
+          "default": "#000"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "Title Color",
+          "default": "#000"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button Text Color",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "button_bg_color",
+          "label": "Button Background Color",
+          "default": "#fff"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Promotional Cards",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "promo_card"
+        },
+        {
+          "type": "promo_card"
+        },
+        {
+          "type": "promo_card"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<div class="container">
+  <div class="cust-promo-slider">
+    <div class="cust-promo-track">
+
+      {% for block in section.blocks %}
+        <div class="cust-promo-slide">
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="{{ 100 | times: forloop.index }}" class="cust-promo-card" style="{% if block.settings.image != blank %}background-image: url('{{ block.settings.image | img_url: 'large' }}');{% else %}background-color:{{ block.settings.block_bg }}{% endif %}">
+            <div class="cust-promo-content">
+              <span class="cust-promo-subtitle" style='color:{{ block.settings.subtitle_color }}'>{{ block.settings.subtitle }}</span>
+              <h2 class="cust-promo-title" style='color:{{ block.settings.title_color }}'>{{ block.settings.title }}</h2>
+              <a href="{{ block.settings.button_link }}" class="cust-promo-button" style='color:{{ block.settings.button_text_color }};background-color:{{ block.settings.button_bg_color }}'>{{ block.settings.button_text }}</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="slider_buttons">
+    <button class="cust-promo-prev">&#10094;</button>
+    <button class="cust-promo-next">&#10095;</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  {% if section.blocks.size <= 3 %}
+     @media (min-width: 768px) {
+       .slider_buttons {
+            display: none;
+        }
+     }
+{% endif %}
+{% if section.blocks.size <= 1 %}
+   @media (max-width: 767px) {
+     .slider_buttons {
+        display: none;
+    }
+   }
+{% endif %}
+  .cust-promo-section{
+    background-color:{{ section.settings.section_bg }};
+    margin-top:{{ section.settings.seciton_top_margin }}px;
+    margin-bottom:{{ section.settings.seciton_bottom_margin }}px;
+    padding-top:{{ section.settings.seciton_top_padding }}px;
+    padding-bottom:{{ section.settings.seciton_bottom_padding }}px;
+  }
+  .cust-promo-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .cust-promo-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  .cust-promo-slide {
+    min-width: 100%;
+  }
+  @media (min-width: 768px) {
+    .cust-promo-slide {
+      min-width: calc(33.33% - 10px);
+    }
+    .cust-promo-track {
+    padding: 0 4px;
+    gap: 16px;
+  }
+  }
+  .cust-promo-card {
+    width: 100%;
+    aspect-ratio: 20 / 9;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 20px;
+        height: 100%;
+
+  }
+  .slider_buttons {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    display: none;
+    gap: 10px;
+}
+
+.cust-promo-slider:hover .slider_buttons {
+    display: flex;
+}
+  .cust-promo-prev, .cust-promo-next {
+    border-radius: 6px;
+    color: #fff;
+    background: #ffaa33;
+    font-size: 22px;
+    border: unset;
+        cursor: pointer;
+  }
+    @media (max-width: 768px) {
+      .slider_buttons {display: flex;}
+    }
+  .cust-promo-prev { left: 10px; }
+  .cust-promo-next { right: 10px; }
+  .cust-promo-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .cust-promo-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    line-height:1;
+  }
+
+  .cust-promo-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #fff;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let index = 0;
+    const track = document.querySelector('.cust-promo-track');
+    const slides = document.querySelectorAll('.cust-promo-slide');
+    const totalSlides = slides.length;
+    const prevButton = document.querySelector('.cust-promo-prev');
+    const nextButton = document.querySelector('.cust-promo-next');
+    const slidesPerView = window.innerWidth >= 768 ? 3 : 1;
+
+    function updateSlide() {
+      track.style.transform = `translateX(-${index * (100 / slidesPerView)}%)`;
+    }
+
+    nextButton.addEventListener('click', function () {
+      if (index < totalSlides - slidesPerView) {
+        index++;
+      } else {
+        index = 0;
+      }
+      updateSlide();
+    });
+
+    prevButton.addEventListener('click', function () {
+      if (index > 0) {
+        index--;
+      } else {
+        index = totalSlides - slidesPerView;
+      }
+      updateSlide();
+    });
+  });
+</script>

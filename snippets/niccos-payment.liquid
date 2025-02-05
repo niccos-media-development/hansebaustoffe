@@ -1,0 +1,5 @@
+<div class="payment-image payment-image--{{ section.settings.image_size }}">
+  {% if section.settings.payment_image %}
+    {{ section.settings.payment_image | image_url: width: 800 | image_tag }}
+  {% endif %}
+</div>

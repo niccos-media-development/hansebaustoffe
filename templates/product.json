@@ -1,0 +1,248 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_vendor": false,
+            "show_stock": true,
+            "show_sku": true,
+            "show_barcode": false,
+            "barcode_label": "Barcode",
+            "show_rating": false,
+            "hide_empty_star_rating": false,
+            "show_custom_badges": false
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "icon": "",
+            "text_2": "",
+            "icon_2": "",
+            "text_3": "",
+            "icon_3": "",
+            "text_4": "",
+            "icon_4": "",
+            "color_scheme": "none"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "picker_type": "button",
+            "hide_single_variant": false,
+            "out_of_stock_variants": "show"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_add_to_cart": true,
+            "show_buy_now": false,
+            "show_gift_card_recipient": false,
+            "cart_image": "shopify://shop_images/Icon.png",
+            "add_to_cart_text": "In den Warenkorb",
+            "pre_order_text": "Pre-order",
+            "backorder_text": "Backorder",
+            "sold_out_text": "Sold out"
+          }
+        },
+        "complementary_eQPqH4": {
+          "type": "complementary",
+          "settings": {
+            "title": "Frequently bought together",
+            "count": 3,
+            "show_vendor": true,
+            "show_rating": false,
+            "show_add_to_cart": true
+          }
+        },
+        "payment_image_D6FURY": {
+          "type": "payment_image",
+          "settings": {
+            "payment_image": "shopify://shop_images/Frame_15_1_aa2a8bc9-ec91-4e41-b9b7-7b7b317a626e.svg",
+            "image_size": "large"
+          }
+        },
+        "availability": {
+          "type": "availability",
+          "settings": {}
+        },
+        "extra": {
+          "type": "extra",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to encourage <strong>communication</strong> or promote <strong>sharing</strong> on social networks.</p><p><a href=\"#\">You can also add links</a></p>",
+            "show_facebook": false,
+            "show_twitter": false,
+            "show_linkedin": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "title": "Produktbeschreibung",
+            "icon": "",
+            "expanded": true
+          }
+        },
+        "expandable_zp8gRN": {
+          "type": "expandable",
+          "settings": {
+            "title": "Produktspezifikationen",
+            "icon": "",
+            "text": "<p>{{ product.metafields.custom.produktspezifikationen | metafield_tag }}</p>",
+            "expanded": false
+          }
+        },
+        "expandable_97KCAE": {
+          "type": "expandable",
+          "settings": {
+            "title": "Verarbeitungshinweise",
+            "icon": "",
+            "text": "<p>{{ product.metafields.custom.verarbeitungshinweise | metafield_tag }}</p>",
+            "expanded": false
+          }
+        },
+        "download_FafBCy": {
+          "type": "download",
+          "settings": {
+            "title": "Downloads",
+            "expanded": false
+          }
+        },
+        "videometa_QeDUQB": {
+          "type": "videometa",
+          "settings": {
+            "title": "Videos",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "subtitle",
+        "price",
+        "variants",
+        "buy_buttons",
+        "complementary_eQPqH4",
+        "payment_image_D6FURY",
+        "availability",
+        "extra",
+        "description",
+        "expandable_zp8gRN",
+        "expandable_97KCAE",
+        "download_FafBCy",
+        "videometa_QeDUQB"
+      ],
+      "settings": {
+        "hide_variants": false,
+        "thumbnail_navigation": false,
+        "image_zoom_type": "lightbox",
+        "image_disclaimer": ""
+      }
+    },
+    "featured_collection_k8t9RF": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products_to_show": 3,
+        "products": "{{ product.metafields.next_cart.complementary_products.value }}",
+        "hide_placeholders": false,
+        "heading": "Zubehör",
+        "subheading": "",
+        "show_vendor": true,
+        "show_stock": true,
+        "show_rating": false,
+        "show_collection": false,
+        "collection_overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+        "collection_title": "",
+        "collection_description": "",
+        "collection_text_color": "#ffffff",
+        "collection_button_text": "",
+        "collection_box_align": "bottom-left",
+        "layout": "grid",
+        "columns": "4",
+        "stack_on_mobile": false,
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "navigation_text": "",
+        "title_font_size": "--font-h2-size",
+        "title_font_size_mobile": "--font-h3-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show": true,
+        "title": "Kunden interessiert auch",
+        "count": "4",
+        "show_vendor": true,
+        "show_stock": true,
+        "show_rating": true,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "1734509477da49f758": {
+      "type": "apps",
+      "blocks": {
+        "gpsr_compliance_manager_gpsr_compliance_tjwfEp": {
+          "type": "shopify://apps/gpsr-compliance-manager/blocks/gpsr_compliance/95919045-cab8-4d27-b921-7893479b8d28",
+          "settings": {
+            "show_title": true,
+            "custom_title": "GPSR Information",
+            "align": "center",
+            "section_divider": "collapsible",
+            "show_general_info": true,
+            "hide_ce_marking": false,
+            "show_traceability": false,
+            "activate_batch_tracking": true,
+            "border_radius": 5,
+            "background_color": "#f5f5f5",
+            "text_color": "#000000",
+            "text_color_section": "#000000",
+            "wrap_container": true,
+            "show_caret": false,
+            "gspr_style": "bold",
+            "hide_if_empty": false
+          }
+        }
+      },
+      "block_order": [
+        "gpsr_compliance_manager_gpsr_compliance_tjwfEp"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_k8t9RF",
+    "recommendations",
+    "1734509477da49f758"
+  ]
+}

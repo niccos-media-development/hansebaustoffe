@@ -1,0 +1,69 @@
+{% assign videoFiles = product.metafields.custom.produktvideo.value %}
+  {% if videoFiles %}
+<collapsible-expandable
+  expanded="{{ block.settings.expanded }}"
+  {% if id %}
+    id="{{ id }}"
+  {% endif %}
+  {% if class %}
+    class="{{ class }}"
+  {% endif %}
+  {{ attributes }}
+>
+  <div class="facet facet-accordion">
+    <button
+      class="facet-toggle"
+      type="button"
+      aria-expanded="{{ block.settings.expanded }}"
+    >
+      <span class="facet-title">
+        {% if block.settings.icon != blank %}
+          {% render 'icons', icon: block.settings.icon %}
+        {% endif %}
+        {{ block.settings.title }}
+      </span>
+      <span class="niccos-icon">
+        <svg
+          class="icon-plus"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M12 4V20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M4 12H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <svg
+          class="icon-minus"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M4 12H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+    </button>
+
+<div class="facet-content">
+  <div class="custom-product-video">
+    {% for video in videoFiles %}
+      {{ video | video_tag: autoplay: false, controls: true }}
+    {% endfor %}
+  </div>
+</div>
+<style>
+  .custom-product-video video {
+    width: 100%;
+}
+</style>
+
+
+
+
+  </div>
+</collapsible-expandable>
+   {% endif %}
+

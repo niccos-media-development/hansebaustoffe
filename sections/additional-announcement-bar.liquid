@@ -1,0 +1,158 @@
+{% schema %}
+{
+  "name": "Custom Announcement Bar",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#0B3823"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "number",
+      "id": "rotation_interval",
+      "label": "Rotation Interval (in seconds)",
+      "default": 4
+    },
+    {
+      "type": "number",
+      "id": "font_size",
+      "label": "Font Size (px)",
+      "default": 16
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "Announcement",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Announcement Bar",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="announcement-bar" style="background-color: {{ section.settings.background_color }}; color: {{ section.settings.text_color }}; font-size: {{ section.settings.font_size }}px;">
+  <div class="announcements">
+    {% for block in section.blocks %}
+      <div class="announcement-item">
+        {% if block.settings.icon != blank %}
+          <img src="{{ block.settings.icon | img_url: 'master' }}" alt="{{ block.settings.text }}" />
+        {% endif %}
+        <span style="font-size: {{ section.settings.font_size }}px;">{{ block.settings.text }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% if section.blocks.size > 3 or section.blocks.size > 1 %}
+  <script>
+   document.addEventListener('DOMContentLoaded', function() {
+  const announcementBar = document.querySelector('.announcement-bar .announcements');
+  let currentIndex = 0;
+  const items = announcementBar.querySelectorAll('.announcement-item');
+  const itemCount = items.length;
+  const interval = {{ section.settings.rotation_interval }} * 1000;
+
+  function rotateAnnouncements() {
+    const width = window.innerWidth;
+    const maxVisible = width < 768 ? 1 : 3;
+
+    // Hide all items
+    items.forEach(item => item.style.display = 'none');
+
+    // Show the correct items based on the current index
+    for (let i = 0; i < maxVisible; i++) {
+      const itemIndex = (currentIndex + i) % itemCount;
+      items[itemIndex].style.display = 'flex';
+    }
+
+    // Move to the next item in the list for the next rotation
+    currentIndex = (currentIndex + 1) % itemCount;
+  }
+
+  // Initial display setup
+  rotateAnnouncements();
+
+  // Start the interval for rotation
+  setInterval(rotateAnnouncements, interval);
+});
+
+  </script>
+{% endif %}
+
+{% style %}
+.announcement-bar {
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+      min-height: 35px;
+}
+
+.announcements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+      overflow: overlay;
+  color:#000;
+
+.announcement-item {
+  display: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 20px;
+  flex: 0 0 auto;
+  justify-content: center;
+  flex: 33%;
+}
+
+.announcement-item img {
+  width: 20px;
+}
+
+@media screen and (max-width: 749px) {
+  .announcement-item {
+    white-space: normal;
+    line-height: 1.2;
+    text-align: left;
+    font-size: 12px;
+    flex: 100%;
+          min-width: 100%;
+  }
+  .announcement-item img{
+  width: 12px;
+  }
+  .announcement-bar{
+        min-height: 24px;
+  }
+}
+{% endstyle %}

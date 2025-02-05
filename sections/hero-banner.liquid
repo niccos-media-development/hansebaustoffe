@@ -1,0 +1,461 @@
+{% schema %}
+{
+  "name": "Hero Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "desktop_image",
+      "label": "Desktop Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image"
+    },
+    {
+      "type": "select",
+      "id": "content_position",
+      "label": "Content Position",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "right", "label": "Right" },
+        { "value": "center", "label": "Center" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color"
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content Color"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "select",
+      "id": "title_font_size",
+      "label": "Title Font Size (Desktop)",
+      "options": [
+        { "value": "--font-h1-size", "label": "H1" },
+        { "value": "--font-h2-size", "label": "H2" },
+        { "value": "--font-h3-size", "label": "H3" },
+        { "value": "--font-h4-size", "label": "H4" },
+        { "value": "--font-h5-size", "label": "H5" },
+        { "value": "--font-h6-size", "label": "H6" }
+      ],
+      "default": "--font-h1-size"
+    },
+    {
+      "type": "select",
+      "id": "title_font_size_mobile",
+      "label": "Title Font Size (Mobile)",
+      "options": [
+        { "value": "--font-h1-size", "label": "H1" },
+        { "value": "--font-h2-size", "label": "H2" },
+        { "value": "--font-h3-size", "label": "H3" },
+        { "value": "--font-h4-size", "label": "H4" },
+        { "value": "--font-h5-size", "label": "H5" },
+        { "value": "--font-h6-size", "label": "H6" }
+      ],
+      "default": "--font-h3-size"
+    },
+    {
+      "type": "select",
+      "id": "content_font_size",
+      "label": "Content Font Size (Desktop)",
+      "options": [
+        { "value": "--font-body1-size", "label": "Body 1" },
+        { "value": "--font-body2-size", "label": "Body 2" },
+        { "value": "--font-body3-size", "label": "Body 3" }
+      ],
+      "default": "--font-body1-size"
+    },
+    {
+      "type": "select",
+      "id": "content_font_size_mobile",
+      "label": "Content Font Size (Mobile)",
+      "options": [
+        { "value": "--font-body1-size", "label": "Body 1" },
+        { "value": "--font-body2-size", "label": "Body 2" },
+        { "value": "--font-body3-size", "label": "Body 3" }
+      ],
+      "default": "--font-body2-size"
+    },
+    {
+      "type": "select",
+      "id": "bullet_font_size",
+      "label": "Bullet Font Size (Desktop)",
+      "options": [
+        { "value": "--font-body1-size", "label": "Body 1" },
+        { "value": "--font-body2-size", "label": "Body 2" },
+        { "value": "--font-body3-size", "label": "Body 3" }
+      ],
+      "default": "--font-body2-size"
+    },
+    {
+      "type": "select",
+      "id": "bullet_font_size_mobile",
+      "label": "Bullet Font Size (Mobile)",
+      "options": [
+        { "value": "--font-body1-size", "label": "Body 1" },
+        { "value": "--font-body2-size", "label": "Body 2" },
+        { "value": "--font-body3-size", "label": "Body 3" }
+      ],
+      "default": "--font-body3-size"
+    },
+    {
+      "type": "header",
+      "content": "Bullet Icon Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "custom_bullet_icon",
+      "label": "Bullet Icon"
+    },
+    {
+      "type": "range",
+      "id": "bullet_icon_size",
+      "min": 12,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Bullet Icon Size (Desktop)",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "bullet_icon_size_mobile",
+      "min": 10,
+      "max": 36,
+      "step": 2,
+      "unit": "px",
+      "label": "Bullet Icon Size (Mobile)",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Spacing Settings"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_desktop",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Section Inner Spacing (Desktop)",
+      "default": 35
+    },
+    {
+      "type": "range",
+      "id": "section_padding_mobile",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Section Inner Spacing (Mobile)",
+      "default": 20
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "name": "Title",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title_text",
+          "label": "Title Text"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "name": "Content",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "content_text",
+          "label": "Content Text"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "color",
+          "id": "button_background_color",
+          "label": "Button Background Color"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_border",
+          "label": "Show Button Border",
+          "default": true
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button Text Color"
+        }
+      ]
+    },
+    {
+      "type": "bullet",
+      "name": "Bullet Point",
+      "settings": [
+        {
+          "type": "text",
+          "id": "bullet_text",
+          "label": "Bullet Text"
+        }
+      ]
+    },
+    {
+      "type": "spacing",
+      "name": "Space Between",
+      "settings": []
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<section
+  class="custom-section"
+  style="background-color: {{ section.settings.background_color }}"
+>
+  <div class="custom-container container">
+    <div class="custom-content {{ section.settings.content_position }}">
+      <div class="content-inner-spacing">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'title' %}
+              <h1
+                class="custom-section-title hero-title-size"
+                style="color: {{ section.settings.title_color }};"
+              >
+                {{ block.settings.title_text }}
+              </h1>
+            {% when 'content' %}
+              <div
+                class="custom-text-content hero-description-size"
+                style="color: {{ section.settings.content_color }};"
+              >
+                {{ block.settings.content_text }}
+              </div>
+            {% when 'button' %}
+              <a
+                href="{{ block.settings.button_link }}"
+                class="custom-button"
+                style="background-color: {{ block.settings.button_background_color }}; color: {{ block.settings.button_text_color }}; border: {% if block.settings.button_border %}1.8px solid{% else %}1.8px solid {{ block.settings.button_background_color }}{% endif %};"
+              >
+                {{ block.settings.button_text }}
+              </a>
+            {% when 'bullet' %}
+              <div
+                class="custom-bullet hero-bullet-size"
+                style="color: {{ section.settings.content_color }};"
+              >
+                {% if section.settings.custom_bullet_icon %}
+                  <img
+                    src="{{ section.settings.custom_bullet_icon | img_url: 'master' }}"
+                    alt="bullet icon"
+                    class="bullet-icon"
+                  >
+                {% endif %}
+                <span>{{ block.settings.bullet_text }}</span>
+              </div>
+            {% when 'spacing' %}
+              <div class="custom_spacing"></div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="custom-image">
+      <picture>
+        <source
+          media="(max-width: 768px)"
+          srcset="{{ section.settings.mobile_image }}"
+        >
+        <img
+          src="{{ section.settings.desktop_image | img_url: "master" }}"
+          alt="Custom Section Image"
+        >
+      </picture>
+    </div>
+  </div>
+</section>
+
+<style>
+  .custom-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  p{
+    font-size: inherit;
+  }
+  span{
+    font-size: inherit;
+  }
+
+  .hero-title-size{
+    font-size: var({{ section.settings.title_font_size }});
+  }
+  .hero-description-size{
+    font-size: var({{ section.settings.content_font_size }});
+  }
+  .hero-bullet-size{
+    font-size: var({{ section.settings.bullet_font_size }});
+  }
+
+  @media screen and (max-width: 750px) {
+    .hero-title-size{
+      font-size: var({{ section.settings.title_font_size_mobile }});
+    }
+    .hero-description-size{
+      font-size: var({{ section.settings.content_font_size_mobile }});
+    }
+    .hero-bullet-size{
+      font-size: var({{ section.settings.bullet_font_size_mobile }});
+    }
+  }
+  .custom-container {
+    display: flex;
+    width: 100%;
+    max-width: 1240px;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 50px; */
+  }
+  .custom-content {
+    flex: 1;
+    /* padding: {{ section.settings.section_padding_desktop }}px; */
+  }
+  .custom-image {
+    flex: 1;
+    height: 100%;
+  }
+  .custom-image img{
+    height: 100%;
+
+  }
+
+  .custom-bullet {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  .custom-button {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135%;
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  .custom-button:last-child {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  .custom_spacing {
+    padding: 12px;
+  }
+  .custom-section-title {
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .custom-text-content h6 {
+    font-weight: 400;
+  }
+  .custom-bullet span {
+    font-weight: 400;
+  }
+  .bullet-icon {
+    width: {{ section.settings.bullet_icon_size }}px;
+    height: {{ section.settings.bullet_icon_size }}px;
+    object-fit: contain;
+  }
+
+  @media (max-width: 900px) {
+
+    .custom-button {
+      padding: 14px 24px;
+    }
+    .custom-container {
+      flex-direction: column;
+      padding: 0;
+      gap: 0;
+    }
+    .custom-content {
+      order: 2;
+      padding: {{ section.settings.section_padding_mobile }}px;
+    }
+    .bullet-icon {
+      width: {{ section.settings.bullet_icon_size_mobile }}px;
+      height: {{ section.settings.bullet_icon_size_mobile }}px;
+    }
+    .custom-section {
+      /* padding: {{ section.settings.section_padding_mobile }}px; */
+    }
+  }
+
+  .content-inner-spacing {
+    padding-top: {{ section.settings.section_padding_desktop }}px;
+    padding-bottom: {{ section.settings.section_padding_desktop }}px;
+    padding-right: 30px;
+  }
+
+  @media (max-width: 900px) {
+    .content-inner-spacing {
+      padding-top: {{ section.settings.section_padding_mobile }}px;
+      padding-bottom: {{ section.settings.section_padding_mobile }}px;
+      padding-right: 0;
+    }
+  }
+</style>

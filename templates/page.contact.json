@@ -1,0 +1,181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "hide_heading": false
+      }
+    },
+    "rich_text_ph9j7D": {
+      "type": "rich-text",
+      "blocks": {
+        "text_6CXNVY": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><strong>Willkommen bei HANSE SYNTEC SYSTEMS </strong></h1><p>Haben Sie Fragen zu EPDM Abdichtung, technischen Details oder dem Versand? Unsere kompetenten Ansprechpartner stehen Ihnen gerne zur Seite, um alle Anliegen schnell und zuverlässig zu klären. </p>",
+            "text_size": "sm"
+          }
+        }
+      },
+      "block_order": [
+        "text_6CXNVY"
+      ],
+      "custom_css": [
+        "* {color: #ffffff;}",
+        "h1,h2,h3,h4,h5,h6 {color: #ffffff;"
+      ],
+      "settings": {
+        "narrow": true,
+        "image": "shopify://shop_images/Kategoriebanner_1400x250px.jpg",
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
+    },
+    "expandable_YfdHLd": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_pmt4jM": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Fragen zum Auftrag / Service Team",
+            "icon": "arrow-right",
+            "text": "<p><strong>Team Durchwahl</strong><br/>☎ <a href=\"tel:+4945318882290\">+49 4531 888 22 90</a><br/>✉ <a href=\"mailto:info@hanse-baustoffe.de\">info@hanse-baustoffe.de</a></p><p><strong>Ansprechpartner:</strong><br/>Sina Schulz<br/>☎ <a href=\"tel:+4945318882256\">+49 4531 888 22 56</a><br/>✉ <a href=\"mailto:s.schulz@hanse-baustoffe.de\">s.schulz@hanse-baustoffe.de</a></p><p>Liza Schwarz<br/>☎ <a href=\"tel:+4945318882259\">+49 4531 888 22 59</a><br/>✉ <a href=\"mailto:l.schwarz@hanse-baustoffe.de\">l.schwarz@hanse-baustoffe.de</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_VTtNeA": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Fragen zum Versandstatus",
+            "icon": "arrow-right",
+            "text": "<p><strong>Team Durchwahl</strong><br/>☎ <a href=\"tel:+4945318882290\">+49 4531 888 22 90</a><br/>✉ <a href=\"mailto:info@hanse-baustoffe.de\">info@hanse-baustoffe.de</a></p><p><strong>Ansprechpartner:</strong><br/>Sina Schulz<br/>☎ <a href=\"tel:+4945318882256\">+49 4531 888 22 56</a><br/>✉ <a href=\"mailto:s.schulz@hanse-baustoffe.de\">s.schulz@hanse-baustoffe.de</a></p><p>Liza Schwarz<br/>☎ <a href=\"tel:+4945318882259\">+49 4531 888 22 59</a><br/>✉ <a href=\"mailto:l.schwarz@hanse-baustoffe.de\">l.schwarz@hanse-baustoffe.de</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_W4XwNq": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Verarbeitungsberatung Endkunden",
+            "icon": "arrow-right",
+            "text": "<p><strong>Team Durchwahl</strong><br/>☎ <a href=\"tel:+4945318882292\">+49 4531 888 22 92</a><br/>✉ <a href=\"mailto:info@hanse-baustoffe.de\">info@hanse-baustoffe.de</a></p><p><strong>Ansprechpartner:<br/>Dachabdichtungen<br/></strong>Matthias Stahr<br/>☎ <a href=\"tel:+4945318882264\">+49 4531 888 22 64</a><br/>✉ <a href=\"mailto:stahr@hanse-baustoffe.de\">stahr@hanse-baustoffe.de</a></p><p><strong>Dach- & Bauwerksabdichtungen:<br/></strong>Jannis Pinke<br/>☎ <a href=\"tel:+4945318882241\">+49 4531 888 22 41</a><br/>✉ <a href=\"mailto:j.pinke@hanse-baustoffe.de\">j.pinke@hanse-baustoffe.de</a></p><p><strong>Dachabdichtungen und Dachbegrünungen:<br/></strong>Alexandra Müller<br/>☎ <a href=\"tel:+4945318882243\">+49 4531 888 22 43</a><br/>✉ <a href=\"mailto:mueller@hanse-baustoffe.de\">mueller@hanse-baustoffe.de</a></p><p><strong>Dachabdichtung/Dachreparaturshop</strong><br/>Leon Möller<br/>☎ <a href=\"tel:+4945318882249\">+49 4531 888 22 49</a><br/>✉ <a href=\"mailto:l.moeller@hanse-baustoffe.de\">l.moeller@hanse-baustoffe.de</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_pH8Vgp": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Verarbeitungsberatung Endkunden",
+            "icon": "arrow-right",
+            "text": "<p><strong>Team Durchwahl</strong><br/>☎ <a href=\"tel:+4945318882292\">+49 4531 888 22 92</a><br/>✉ <a href=\"mailto:info@hanse-baustoffe.de\">info@hanse-baustoffe.de</a></p><p><strong>Ansprechpartner:<br/>Dachabdichtungen<br/></strong>Matthias Stahr<br/>☎ <a href=\"tel:+4945318882264\">+49 4531 888 22 64</a><br/>✉ <a href=\"mailto:stahr@hanse-baustoffe.de\">stahr@hanse-baustoffe.de</a></p><p><strong>Dach- & Bauwerksabdichtungen:<br/></strong>Jannis Pinke<br/>☎ <a href=\"tel:+4945318882241\">+49 4531 888 22 41</a><br/>✉ <a href=\"mailto:j.pinke@hanse-baustoffe.de\">j.pinke@hanse-baustoffe.de</a></p><p><strong>Dachabdichtungen und Dachbegrünungen:<br/></strong>Alexandra Müller<br/>☎ <a href=\"tel:+4945318882243\">+49 4531 888 22 43</a><br/>✉ <a href=\"mailto:mueller@hanse-baustoffe.de\">mueller@hanse-baustoffe.de</a></p><p><strong>Dachabdichtung/Dachreparaturshop</strong><br/>Leon Möller<br/>☎ <a href=\"tel:+4945318882249\">+49 4531 888 22 49</a><br/>✉ <a href=\"mailto:l.moeller@hanse-baustoffe.de\">l.moeller@hanse-baustoffe.de</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_URM77y": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Verarbeitungsberatung Gewerbekunden",
+            "icon": "arrow-right",
+            "text": "<p><strong>Team Durchwahl</strong><br/>☎ <a href=\"tel:+4945318882291\">+49 4531 888 22 91</a><br/>✉ <a href=\"mailto:info@hanse-baustoffe.de\">info@hanse-baustoffe.de</a></p><p><strong>Ansprechpartner:<br/>Dachabdichtungen:</strong><br/>Matthias Stahr<br/>☎ <a href=\"tel:+4945318882264\">+49 4531 888 22 64</a><br/>✉ <a href=\"mailto:stahr@hanse-baustoffe.de\">stahr@hanse-baustoffe.de</a></p><p><strong>Dachabdichtungen:</strong><br/>Norbert Grube<br/>☎ <a href=\"tel:+4945318882262\">+49 4531 888 22 62</a><br/>✉ <a href=\"mailto:grube@hanse-baustoffe.de\">grube@hanse-baustoffe.de</a></p><p><strong>Dach- & Bauwerksabdichtungen:<br/></strong>Jannis Pinke<br/>☎ <a href=\"tel:+4945318882241\">+49 4531 888 22 41</a><br/>✉ <a href=\"mailto:j.pinke@hanse-baustoffe.de\">j.pinke@hanse-baustoffe.de</a></p><p><strong>Dachabdichtungen:<br/></strong>Alexandra Müller<br/>☎ <a href=\"tel:+4945318882243\">+49 4531 888 22 43</a><br/>✉ <a href=\"mailto:mueller@hanse-baustoffe.de\">mueller@hanse-baustoffe.de</a></p><p><strong>AGRARflex, Bauwerksabdichtungen, SPEEDCAT und Dachflächen über 300m²:<br/></strong>Andrè Möller<br/>☎ <a href=\"tel:+4945318882277\">+49 4531 888 22 77</a><br/>✉ <a href=\"mailto:mueller@hanse-baustoffe.de\">moeller@hanse-baustoffe.de</a></p><p><strong>Dachabdichtung/Dachreparaturshop</strong><br/>Leon Möller<br/>☎ <a href=\"tel:+4945318882249\">+49 4531 888 22 49</a><br/>✉ <a href=\"mailto:l.moeller@hanse-baustoffe.de\">l.moeller@hanse-baustoffe.de</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_irPfE6": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Probleme im Onlineshop",
+            "icon": "arrow-right",
+            "text": "<p>Marvin Freitag<br/>☎ <a href=\"tel:+4945318882258\">+49 4531 888 22 58<br/></a>✉ <a href=\"mailto:m.freitag@hanse-baustoffe.de\">m.freitag@hanse-baustoffe.de</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_wpphW7": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Beratung Architekten",
+            "icon": "arrow-right",
+            "text": "<p>Andè Möller<br/>☎ <a href=\"tel:+4945318882277\">+49 4531 888 22 77<br/></a>✉ <a href=\"mailto:mueller@hanse-baustoffe.de\">moeller@hanse-baustoffe.de</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_eEtr4L": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Buchhaltung",
+            "icon": "arrow-right",
+            "text": "<p>Rolf Behncke<br/>☎ <a href=\"tel:+4945318882218\">+49 4531 888 22 18</a><br/>✉ <a href=\"mailto:r.behncke@hanse-baustoffe.de\">r.behncke@hanse-baustoffe.de</a></p><p>Christian Spolert<br/>☎ <a href=\"tel:+4945318882217\">+49 4531 888 22 17</a><br/>✉ <a href=\"mailto:c.spolert@hanse-baustoffe.de\">c.spolert@hanse-baustoffe.de</a></p><p>Silke Louis<br/>☎ <a href=\"tel:+4945318882215\">+49 4531 888 22 15</a><br/>✉ <a href=\"mailto:s.louis@hanse-baustoffe.de\">s.louis@hanse-baustoffe.de</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_qqFNKR": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Personal / Einkauf",
+            "icon": "arrow-right",
+            "text": "<p>Josephine Barz<br/>☎ <a href=\"tel:+4945318882216\">+49 4531 888 22 16<br/></a>✉ <a href=\"mailto:personal@hanse-baustoffe.de\">personal@hanse-baustoffe.de</a>✉ <a href=\"mailto:einkauf@hanse-baustoffe.de\">einkauf@hanse-baustoffe.de</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_eAUpe3": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Trainingscenter / Gewerbekundenanmeldung",
+            "icon": "arrow-right",
+            "text": "<p>Matthias Stahr<br/>☎ <a href=\"tel:+4945318882264\">+49 4531 888 22 64<br/></a>✉ <a href=\"mailto:stahr@hanse-baustoffe.de\">stahr@hanse-baustoffe.de</a></p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_pmt4jM",
+        "expandable_VTtNeA",
+        "expandable_W4XwNq",
+        "expandable_pH8Vgp",
+        "expandable_URM77y",
+        "expandable_irPfE6",
+        "expandable_wpphW7",
+        "expandable_eEtr4L",
+        "expandable_qqFNKR",
+        "expandable_eAUpe3"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Ihre Ansprechpartner",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 60
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Kontaktformular"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_ph9j7D",
+    "expandable_YfdHLd",
+    "form"
+  ]
+}

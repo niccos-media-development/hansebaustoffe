@@ -1,0 +1,297 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "hide_heading": false
+      }
+    },
+    "rich_text_KxHh89": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_96cRb9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Aktuelle Stellenangebote",
+            "heading_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_96cRb9"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "accent-3",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "media_with_text_b6wEaX": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_q3G98q": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ausbildung Kaufmann/-frau E-Commerce (m/w/d)",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_PMdR6M": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ausbildung / Vollzeit / ab 01.08.2025 / Bad Oldesloe</strong></p><p>Du suchst für deinen beruflichen Einstieg ein erfolgreiches, modernes Unternehmen, für das du dich begeistern kannst? Dann ist die Hanse Baustoffe Handelsges. mbH & Co. KG der richtige Partner für deine berufliche Zukunft!</p><p><a href=\"mailto:bewerbung@hanse-baustoffe.de\" title=\"mailto:bewerbung@hanse-baustoffe.de\">Jetzt bewerben!</a></p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_q3G98q",
+        "text_PMdR6M"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Stellenanzeige_E-Commerce_800x800_800x800_99803f35-e4df-4ed4-b746-a50e3f061bc3.png",
+        "video_url": "",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body1-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "media_with_text_t4a3Rd": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_YNVrcC": {
+          "type": "heading",
+          "settings": {
+            "heading": "IT-Systemadministrator (m/w/d)",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_aggLV4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Vollzeit / ab 01.03.2025 / unbefristet / Bad Oldesloe</strong></p><p><a href=\"https://www.arbeitsagentur.de/jobsuche/suche?kundennummer=cJlHUMsoVwMHMCiIibSK5Vh6DLtCy2JFOogdQB86ICg%3D__del__Hanse%20Baustoffe%20Handelsges.%20mbH%20%26%20Co.%20KG&angebotsart=1&id=10001-1001058221-S\" target=\"_blank\" title=\"https://www.arbeitsagentur.de/jobsuche/suche?kundennummer=cJlHUMsoVwMHMCiIibSK5Vh6DLtCy2JFOogdQB86ICg%3D__del__Hanse%20Baustoffe%20Handelsges.%20mbH%20%26%20Co.%20KG&angebotsart=1&id=10001-1001058221-S\"><strong>Zur Stellenbeschreibung</strong></a></p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YNVrcC",
+        "text_aggLV4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Stellenanzeigen_800x800_e6a7c52b-0b3e-4774-9488-157d041d3055.jpg",
+        "video_url": "",
+        "layout": "text_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "media_with_text_zYgdEt": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_t9wnyw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mitarbeiter für Beratungshotline & Vertrieb (m/w/d)",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_xmq3ky": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Vollzeit / ab 15.02.2025 / unbefristet / Bad Oldesloe</strong></p><p><a href=\"https://www.arbeitsagentur.de/jobsuche/suche?kundennummer=cJlHUMsoVwMHMCiIibSK5Vh6DLtCy2JFOogdQB86ICg%3D__del__Hanse%20Baustoffe%20Handelsges.%20mbH%20%26%20Co.%20KG&angebotsart=1&id=10001-1001059521-S\" target=\"_blank\" title=\"https://www.arbeitsagentur.de/jobsuche/suche?kundennummer=cJlHUMsoVwMHMCiIibSK5Vh6DLtCy2JFOogdQB86ICg%3D__del__Hanse%20Baustoffe%20Handelsges.%20mbH%20%26%20Co.%20KG&angebotsart=1&id=10001-1001059521-S\"><strong>Zur Stellenbeschreibung</strong></a></p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t9wnyw",
+        "text_xmq3ky"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Stellenanzeigen_Beratung_800x800_16ef0776-eac8-4e83-aec6-908e3f4dda60.jpg",
+        "video_url": "",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "rich_text_mAEPHB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AmQrP4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kontakt & Bewerbung 🚀",
+            "heading_size": "md"
+          }
+        },
+        "text_VTVgDh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du hast Lust, Teil unseres Teams bei <strong>Hanse Syntec Systems</strong> zu werden? Dann freuen wir uns auf deine Bewerbung! Schick uns einfach deinen <strong>Lebenslauf</strong> und ein <strong>kurzes Anschreiben</strong> mit deiner Motivation und Qualifikation per E-Mail an <a><strong>bewerbung@hanse-baustoffe.de</strong></a>.</p><p>Unsere Personalabteilung meldet sich zeitnah bei dir, um den weiteren Ablauf zu besprechen. Wir setzen auf Vielfalt und freuen uns über Bewerbungen von Talenten mit unterschiedlichen Hintergründen und Erfahrungen.</p>",
+            "text_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AmQrP4",
+        "text_VTVgDh"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
+    "slideshow_P8knDA": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_V9EKLQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Teaser_Karriere_1_1400x465px.jpg",
+            "overlay_background": "",
+            "heading": "Was Mitarbeiter sagen",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#ffffff",
+            "box_align": "middle-center",
+            "content_width": 60,
+            "button_label": "zu den Bewertungen",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "https://www.kununu.com/de/hanse-baustoffe-handelsges-mbh1/kommentare",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "slide_V9EKLQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "animation_type": "slide",
+        "accessibility_info": "",
+        "color_scheme": "background-1",
+        "spacing_top": 0,
+        "spacing_bottom": 20
+      }
+    },
+    "rich_text_d9eff3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jFTK9P": {
+          "type": "heading",
+          "settings": {
+            "heading": "Warum du Teil unseres Teams werden solltest",
+            "heading_size": "md"
+          }
+        },
+        "text_w7PEjR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>👉 <strong>Ein inspirierendes Umfeld mit einem starken Teamgeist</strong><br/>Bei uns erwartet dich ein motiviertes, dynamisches Team, das gemeinsam an innovativen Lösungen arbeitet und sich kontinuierlich weiterentwickelt. Wir legen großen Wert auf Zusammenarbeit und gegenseitige Unterstützung.</p><p>👉 <strong>Direkter Draht zur Geschäftsleitung</strong><br/>Flache Hierarchien und ein offener Dialog sind für uns essenziell. Deine Ideen und Anregungen finden bei uns Gehör – direkt bei der Geschäftsleitung.</p><p>👉 <strong>Individuelle Weiterentwicklung & Karriereförderung</strong><br/>Dein Wachstum ist uns wichtig! Deshalb übernehmen wir die Kosten für Weiterbildungen, damit du deine Fähigkeiten stetig ausbauen und neue Karrierechancen nutzen kannst.</p><p>👉 <strong>Effiziente Arbeitsstrukturen & kurze Entscheidungswege</strong><br/>Lange Wartezeiten und unnötige Bürokratie? Nicht bei uns! Dank unserer schlanken Strukturen können wir schnell und effizient Entscheidungen treffen.</p><p>👉 <strong>Top-Arbeitsklima & wertschätzende Unternehmenskultur</strong><br/>Wir möchten, dass du dich bei uns wohlfühlst! Ein respektvoller Umgang, ein freundliches Miteinander und eine angenehme Atmosphäre gehören bei uns zum Arbeitsalltag.</p><p>👉 <strong>Flexible Arbeitszeiten für deine Work-Life-Balance</strong><br/>Mit unserem <strong>Gleitzeitmodell</strong> hast du die Möglichkeit, deine Arbeitszeiten flexibel zu gestalten – perfekt, um Job und Privatleben optimal zu vereinen.</p><p>👉 <strong>Attraktive Vergütung – bis zu 14 Monatsgehälter</strong><br/>Zusätzlich zu deinem Grundgehalt kannst du dich auf <strong>Urlaubs- und Weihnachtsgeld</strong> sowie leistungsabhängige Prämien freuen.</p><p>👉 <strong>30 Tage Urlaub für deine Erholung</strong><br/>Wir bieten dir <strong>30 Urlaubstage im Jahr</strong>, damit du genug Zeit hast, Energie zu tanken und deine Freizeit in vollen Zügen zu genießen.</p><p>👉 <strong>Betriebliche Altersvorsorge & finanzielle Sicherheit</strong><br/>Wir denken an deine Zukunft: Mit einer <strong>betrieblichen Altersvorsorge</strong> und einem <strong>Zuschuss zu vermögenswirksamen Leistungen</strong> unterstützen wir dich aktiv bei deiner finanziellen Absicherung.</p><p>👉 <strong>Gratis Getränke – für den perfekten Energiekick</strong><br/>Ob Kaffee, Wasser, Cola oder andere Softdrinks – bei uns stehen dir kostenlose Getränke jederzeit zur Verfügung.</p><p>👉 <strong>Gemeinsame Erlebnisse & Team-Events</strong><br/>Arbeiten soll nicht nur produktiv, sondern auch spaßig sein! Bei unseren <strong>gemeinsamen Events</strong> wie Weihnachtsfeiern, Fußballturnieren, Reball oder auch mehrtägige Ausflüge stärken wir unseren Teamzusammenhalt und erleben unvergessliche Momente.</p><p>💡 <strong>Klingt nach dem perfekten Job für dich?</strong> Dann werde Teil unseres Teams und gestalte mit uns die Zukunft! 🚀</p>",
+            "text_size": "md"
+          }
+        },
+        "button_zzjRdC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt bewerben",
+            "button_link": "mailto:bewerbung@hanse-baustoffe.de"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jFTK9P",
+        "text_w7PEjR",
+        "button_zzjRdC"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "accent-3",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_KxHh89",
+    "media_with_text_b6wEaX",
+    "media_with_text_t4a3Rd",
+    "media_with_text_zYgdEt",
+    "rich_text_mAEPHB",
+    "slideshow_P8knDA",
+    "rich_text_d9eff3"
+  ]
+}

@@ -1,0 +1,193 @@
+{% comment %}
+  Renders the Features section.
+
+  Accepts:
+  - section: {Object} Section object
+
+  Usage:
+  {% render 'collection-features', section: section %}
+{% endcomment %}
+
+{% if section.blocks.size > 0 %}
+  {{ 'component-card.css' | asset_url | stylesheet_tag }}
+  {{ 'section-features.css' | asset_url | stylesheet_tag }}
+  {{ 'component-scroller.css' | asset_url | stylesheet_tag }}
+
+  {% unless section.settings.stack_on_mobile %}
+    {{ 'flickity.css' | asset_url | stylesheet_tag }}
+    {{ 'component-pills.css' | asset_url | stylesheet_tag }}
+    <script src="{{ 'flickity.pkgd.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'text-slider.js' | asset_url }}" defer="defer"></script>
+  {% endunless %}
+
+  {% liquid
+    assign block_section_class = 'block-section'
+    unless section.settings.color_scheme == 'background-1'
+      assign block_section_class = block_section_class | append: ' block-section-padded'
+    endunless
+  %}
+
+  <style>
+    #shopify-section-{{ section.id }} .block-section {
+      margin-top: {{ section.settings.spacing_top_mobile | default: section.settings.spacing_top | times: 0.8 | round: 0 }}px;
+      margin-bottom: {{ section.settings.spacing_bottom_mobile | default: section.settings.spacing_bottom | times: 0.8 | round: 0 }}px;
+    }
+
+    #shopify-section-{{ section.id }} .block-section-padded {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: {{ section.settings.spacing_top_mobile | default: section.settings.spacing_top | times: 0.8 | round: 0 }}px;
+      padding-bottom: {{ section.settings.spacing_bottom_mobile | default: section.settings.spacing_bottom | times: 0.8 | round: 0 }}px;
+    }
+
+    @media (min-width: 990px) {
+      #shopify-section-{{ section.id }} .block-section {
+        margin-top: {{ section.settings.spacing_top }}px;
+        margin-bottom: {{ section.settings.spacing_bottom }}px;
+      }
+
+      #shopify-section-{{ section.id }} .block-section-padded {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: {{ section.settings.spacing_top }}px;
+        padding-bottom: {{ section.settings.spacing_bottom }}px;
+      }
+    }
+
+    #shopify-section-{{ section.id }} .media-icon-item {
+    	background-color: {{ block.settings.background_color }};
+    }
+
+    #shopify-section-{{ section.id }} .media-icon-item-title {
+    	font-size: {{ section.settings.title_size }}px;
+    }
+
+    #shopify-section-{{ section.id }} .media-icon-item-subtitle {
+    	font-size: {{ section.settings.text_size }}px;
+    }
+
+    #shopify-section-{{ section.id }} .feature-heading {
+      font-size: var({{ section.settings.heading_font_size }});
+    }
+    #shopify-section-{{ section.id }} .feature-text {
+      font-size: var({{ section.settings.text_font_size }});
+    }
+    #shopify-section-{{ section.id }} .feature-icon svg,
+    #shopify-section-{{ section.id }} .feature-icon img {
+      width: {{ section.settings.icon_size_desktop }}px;
+      height: {{ section.settings.icon_size_desktop }}px;
+    }
+    .media-icon-item-inner{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    @media screen and (max-width: 750px) {
+
+      .media-icon-item{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #shopify-section-{{ section.id }} .feature-heading {
+        font-size: var({{ section.settings.heading_font_size_mobile }}) !important;
+      }
+      #shopify-section-{{ section.id }} .feature-text {
+      font-size: var({{ section.settings.text_font_size_mobile }}) !important;
+      }
+      #shopify-section-{{ section.id }} .feature-icon svg,
+      #shopify-section-{{ section.id }} .feature-icon img {
+        width: {{ section.settings.icon_size_mobile }}px;
+        height: {{ section.settings.icon_size_mobile }}px;
+      }
+    }
+
+    #shopify-section-{{ section.id }} .media-icon-items {
+      background-color: {{ section.settings.background_color }};
+    }
+
+    #shopify-section-{{ section.id }} .media-icon-item {
+      color: {{ section.settings.text_color }};
+    }
+
+    #shopify-section-{{ section.id }} .feature-heading {
+      font-size: var({{ section.settings.heading_font_size }});
+      color: {{ section.settings.text_color }};
+    }
+
+    #shopify-section-{{ section.id }} .feature-text {
+      font-size: var({{ section.settings.text_font_size }});
+      color: {{ section.settings.text_color }};
+    }
+  </style>
+
+  <div class="color-{{ section.settings.color_scheme }}">
+    <div class="media-icon-items {% if section.settings.inline %}media-icon-items-inline{% endif %}">
+      <div class="container">
+        <div class="{{ block_section_class }}">
+          {% unless section.settings.stack_on_mobile %}
+            <text-slider
+              id="Carousel-{{ section.id }}"
+              data-autoplay="{{ section.settings.auto_rotate }}"
+              data-speed="3.5"
+            >
+          {% endunless %}
+          <div class="media-icon-items-grid media-icon-items-grid-3">
+            {% for block in section.blocks %}
+              <div
+                data-aos="fade-up" data-aos-delay="{{ 100 | times: forloop.index }}"
+                class="
+                  media-icon-item
+                  media-icon-item-icon-size-{{ section.settings.icon_size }}
+                  {% if block.settings.title == blank or block.settings.text == blank %}media-icon-item-align-center{% endif %}
+                  {% unless section.settings.inline %}color-background-1{% endunless %}
+                "
+                {{ block.shopify_attributes }}
+                style="background-color: {{ block.settings.background_color }};"
+              >
+                <div class="media-icon-item-inner">
+                  {% if block.settings.image %}
+                    <span class="feature-icon">
+                      <img
+                        src="{{ block.settings.image | img_url: 'master' }}"
+                        srcset="{{ block.settings.image  | img_url: 'master' }} 1x, {{ block.settings.image  | img_url: 'master'}} 2x"
+                        alt="{{ block.settings.image.alt | escape }}"
+                        width="{{ block.settings.image.width }}"
+                        height="{{ block.settings.image.height }}"
+                        loading="lazy"
+                      >
+                    </span>
+                  {% else %}
+                    {% if block.settings.icon != blank %}
+                      <span class="media-icon-item-icon feature-icon">
+                        {% render 'icons', icon: block.settings.icon %}
+                      </span>
+                    {% endif %}
+                  {% endif %}
+
+                  <div class="media-icon-item-content">
+                    {% if block.settings.title != blank %}
+                      <p class="media-icon-item-title feature-heading h5">
+                        {{ block.settings.title }}
+                      </p>
+                    {% endif %}
+                    {% if block.settings.text != blank %}
+                      <div class="media-icon-item-subtitle feature-text">
+                        {{ block.settings.text }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+          {% unless section.settings.stack_on_mobile %}
+            </text-slider>
+          {% endunless %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

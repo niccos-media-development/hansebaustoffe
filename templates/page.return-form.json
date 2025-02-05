@@ -1,0 +1,103 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "return-form",
+      "custom_css": [
+        "* {color: #000000 !important;}"
+      ],
+      "settings": {}
+    },
+    "expandable_RLwVfq": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_MxtYmG": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie lange dauert die Bearbeitung von Retouren?",
+            "icon": "arrow-right",
+            "text": "<p>Wir versuchen Ihre Retouren schnellstmöglich zu bearbeiten. Innerhalb von 8 Werktagen erfolgt die Gutschrift.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_7JCEmX": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie erhalte ich eine Rückerstattung?",
+            "icon": "arrow-right",
+            "text": "<p>Die Rückerstattung erhalten Sie immer über Zahlungsmethode die beim Kauf ausgewählt wurde.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_yVFg9f": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie gehe ich vor, wenn ich Ware reklamieren möchte?",
+            "icon": "arrow-right",
+            "text": "<p>Falls der ärgerliche Fall auftritt und die erhaltene Ware beschädigt oder nicht bestellt wurde, können Sie diese selbstverständlich reklamieren. Dazu gehen Sie auf unsere Homepage. Unten finden Sie einen Link zu Retoure und Reklamation. Melden Sie dort Ihre Reklamation an. Wichtig ist, dass Sie stets Bildaufnahmen von der beschädigten Ware machen.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_7JEkFi": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Kann ich auch unbeschädigte Ware retournieren?",
+            "icon": "arrow-right",
+            "text": "<p>Ja, Sie können auch unbeschädigte Ware retournieren. Bitte melden Sie die Retoure über das oben aufgeführte Formular an. </p>",
+            "expanded": false
+          }
+        },
+        "expandable_HtXqCm": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Kann ich Ware die ich nicht benötigt habe, auch später zurücksenden?",
+            "icon": "arrow-right",
+            "text": "<p>Ja, sofern die Ware ungeöffnet ist, können Sie diese an uns zurücksenden. Die Kosten der Retoure sind von Ihnen selbst zu tragen. Bitte beachten Sie, dass die Haltbarkeit der Ware mindestens zwei Monate ab Rücksendedatum betragen muss. Die Rückgabe von EPDM Folien ist abhängig von deren Größe. Bitte füllen Sie hierzu ebenfalls das obenstehende Formular aus.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_3k7EUm": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie versende ich eine Retoure?",
+            "icon": "arrow-right",
+            "text": "<ol><li>Melden Sie die Retoure über unser Retouren/Reklamationsformular an.</li><li>Nach der Anmeldung der Retoure erhalten Sie ein Rücksendeschein, welcher dem Paket beigelegt werden muss. Ohne Retourenschein kann keine Zuordnung Ihrer Rücksendung stattfinden. </li><li>Nach erhalt der Ware prüfen wir Ihre Rücksendung. Die Rückerstattung erfolgt nach Freigabe auf Ihre ursprüngliche Zahlungsweise. </li></ol>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_MxtYmG",
+        "expandable_7JCEmX",
+        "expandable_yVFg9f",
+        "expandable_7JEkFi",
+        "expandable_HtXqCm",
+        "expandable_3k7EUm"
+      ],
+      "custom_css": [
+        "* {color: #000000 !important;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "FAQ - Rücksendung/Reklamation",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 16,
+        "spacing_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "expandable_RLwVfq"
+  ]
+}

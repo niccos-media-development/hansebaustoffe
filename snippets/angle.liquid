@@ -1,0 +1,51 @@
+{% comment %}
+  Renders an angle icon.
+
+  Accepts:
+  - direction: {String} The direction of the angle. Required. Accepts 'up', 'down', 'left', 'right'.
+
+  Usage:
+  {% render 'angle', direction: 'right' %}
+{% endcomment %}
+
+{% comment %}
+  <span class="angle angle-{{ direction }}">
+    <span class="angle-icon"></span>
+  </span>
+{% endcomment %}
+
+<svg
+  width="38"
+  height="38"
+  viewBox="0 0 38 38"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="angle angle--{{ direction }}"
+>
+  <circle cx="19" cy="19" r="19" fill="#FAFAFA"/>
+  <path d="M21.5577 24.1155L16.0769 18.6347L21.5577 13.1539" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<style>
+  .angle {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+  }
+
+  .angle--right {
+    transform: rotate(180deg);
+  }
+
+  .angle--up {
+    transform: rotate(90deg);
+  }
+
+  .angle--down {
+    transform: rotate(270deg);
+  }
+
+  .angle--left {
+    /* Default orientation, no transform needed */
+  }
+</style>

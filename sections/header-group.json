@@ -1,0 +1,164 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "additional-announcement-bar": {
+      "type": "additional-announcement-bar",
+      "blocks": {
+        "announcement_mgaNQY": {
+          "type": "announcement",
+          "settings": {
+            "icon": "shopify://shop_images/Group_1.png",
+            "text": "3% SOFORT-RABATT AB 1000,- Euro Warenwert (P.-.Kd.)"
+          }
+        },
+        "announcement_jzkBhE": {
+          "type": "announcement",
+          "settings": {
+            "icon": "shopify://shop_images/Group_2.png",
+            "text": "ÜBER 50.000 ZUFRIEDENE KUNDEN"
+          }
+        },
+        "announcement_yHbPEw": {
+          "type": "announcement",
+          "settings": {
+            "icon": "shopify://shop_images/Icon_29ae7d9e-e502-47f4-b0b1-221c6e630246.png",
+            "text": "VERSANDBEREIT IN 48H"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_mgaNQY",
+        "announcement_jzkBhE",
+        "announcement_yHbPEw"
+      ],
+      "settings": {
+        "background_color": "#ffaa32",
+        "text_color": "#ffffff",
+        "rotation_interval": 4,
+        "font_size": 12
+      }
+    },
+    "header": {
+      "type": "header",
+      "disabled": true,
+      "custom_css": [
+        "* {color: #ffffff; background-color: #333333;}",
+        ":hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "logo": "shopify://shop_images/3c5c67f9a151c99fdd1b7aa8cb61b786.png",
+        "svg_logo_code": "",
+        "logo_width": 240,
+        "promo_title": "",
+        "promo_text": "",
+        "menu": "main-menu",
+        "menu_right": "",
+        "menu_mobile": "",
+        "menu_mobile_expand_on_arrow": false,
+        "menu_font": "body",
+        "enable_language_selector": true,
+        "enable_country_selector": true,
+        "mini_cart_icon": "cart",
+        "redirect_to_cart": false,
+        "enable_sticky_header": true,
+        "sticky_header_always_on": false,
+        "header_color_scheme": "background-2",
+        "navigation_color_scheme": "background-2",
+        "navigation_remove_border": true,
+        "navigation_submenu_color_scheme": "background-1",
+        "mobile_navigation_color_scheme": "background-1",
+        "spacing_top": 2.7,
+        "spacing_bottom": 2.7
+      }
+    },
+    "header-features": {
+      "type": "header-features",
+      "disabled": true,
+      "settings": {
+        "inline": false,
+        "stack_on_mobile": true,
+        "auto_rotate": false,
+        "icon_size": "large",
+        "color_scheme": "background-2",
+        "spacing_top": 46,
+        "spacing_bottom": 46
+      }
+    },
+    "announcement-bar-secondary": {
+      "type": "announcement-bar-secondary",
+      "disabled": true,
+      "settings": {
+        "text": "",
+        "link": "",
+        "color_scheme": "background-2",
+        "remove_border": false,
+        "spacing_top": 1.3,
+        "spacing_bottom": 1.3
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "text": "Promote discounts in this area",
+        "link": "",
+        "menu": "",
+        "show_social": false,
+        "color_scheme": "accent-1",
+        "remove_border": false,
+        "spacing_top": 1.3,
+        "spacing_bottom": 1.3
+      }
+    },
+    "niccos_header_RbCi3t": {
+      "type": "niccos-header",
+      "settings": {
+        "logo": "shopify://shop_images/Logo_1.png",
+        "svg_logo_code": "",
+        "logo_width": 230,
+        "promo_title": "",
+        "promo_text": "",
+        "menu": "main-menu",
+        "menu_right": "",
+        "menu_mobile": "",
+        "menu_mobile_expand_on_arrow": false,
+        "menu_font": "body",
+        "enable_language_selector": true,
+        "enable_country_selector": true,
+        "mini_cart_icon": "cart",
+        "redirect_to_cart": false,
+        "enable_sticky_header": true,
+        "sticky_header_always_on": false,
+        "header_color_scheme": "background-2",
+        "navigation_color_scheme": "background-1",
+        "navigation_remove_border": false,
+        "navigation_submenu_color_scheme": "background-1",
+        "mobile_navigation_color_scheme": "background-1",
+        "spacing_top": 2.7,
+        "spacing_bottom": 2.7,
+        "enable_news": true,
+        "news_link": "shopify://blogs/news",
+        "enable_offers": false,
+        "offers_link": "shopify://pages/agb"
+      }
+    }
+  },
+  "order": [
+    "additional-announcement-bar",
+    "header",
+    "header-features",
+    "announcement-bar-secondary",
+    "announcement-bar",
+    "niccos_header_RbCi3t"
+  ]
+}

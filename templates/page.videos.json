@@ -1,0 +1,765 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_Em6iQA": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_xHU7ng": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_HSS_DP_BD_AF_1920x350px.jpg",
+            "overlay_background": "",
+            "heading": "",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#ffffff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "slide_xHU7ng"
+      ],
+      "settings": {
+        "full_width": true,
+        "slide_height": "small",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "animation_type": "slide",
+        "accessibility_info": "",
+        "color_scheme": "background-1",
+        "spacing_top": 0,
+        "spacing_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "hide_heading": false
+      }
+    },
+    "media_with_text_EGeqfD": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_JxdnYg": {
+          "type": "heading",
+          "settings": {
+            "heading": "EPDM Folie auf Holz",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_7rcVqe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>EPDM-Dachabdichtung in nur 60–90 Minuten!</strong> 🏠✅ <br/>Mit <strong>BlueTek Flächenkleber</strong> vollflächig auf allen diffusionsoffenen Untergründen (z. B. Holz) verkleben – ideal für neue Flachdächer & Sanierungen. <strong>Langlebig (50+ Jahre), CE-zertifiziert & mit bauaufsichtlichem Prüfzeugnis</strong> – keine Teichfolie! Einfach zu verlegen & kostengünstig.</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JxdnYg",
+        "text_7rcVqe"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_EPDM_Holz.jpg",
+        "video_url": "https://www.youtube.com/watch?v=EUEwDxz4lTU",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "rich_text_4cAhEj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_V7QTVj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Innen- und Außenecken",
+            "heading_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V7QTVj"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
+    },
+    "media_with_text_MfBti8": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_Hq7y4a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Detailausbildung einer Außenecke",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_CexxnU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die <strong>Detailausbildung einer Außenecke</strong> in der <strong>EPDM-Dachabdichtung</strong> mit <strong>DACHPROTECT</strong> erfolgt durch <strong>Kaltnahtfügung</strong> – eine molekulare Vernetzung (Polymerisation) für höchste Dichtheit. Dank der <strong>über 900 % Dehnfähigkeit</strong> des innovativen <strong>Form- & Nahtabdeckbandes</strong> lassen sich selbst anspruchsvolle Ecken mühelos und sauber ausführen. Das Ergebnis: <strong>eine langlebige, zuverlässige Abdichtung für Jahrzehnte!!!!!!!!</strong></p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Hq7y4a",
+        "text_CexxnU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_Aussenecke.jpg",
+        "video_url": "https://www.youtube.com/watch?v=-WOAEc6hjOY",
+        "layout": "text_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "media_with_text_4D9ip8": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_FEk43T": {
+          "type": "heading",
+          "settings": {
+            "heading": "Detailausbildung einer Innenecke",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_UA874T": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Material in Arbeit!!!!</strong></p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FEk43T",
+        "text_UA874T"
+      ],
+      "settings": {
+        "video_url": "https://www.youtube.com/watch?v=-WOAEc6hjOY",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "rich_text_DkTbG7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Rrgm9n": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dachdurchführungen",
+            "heading_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rrgm9n"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
+    },
+    "media_with_text_FVFzyk": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_KAhVrt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Einteilige Abdichtung",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_NtbewK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit dem <strong>46 cm Form- & Nahtabdeckband</strong> wird die Abdichtung von Lüftern, Kabel- und Rohrdurchführungen in der <strong>EPDM-Folie</strong> zum Kinderspiel! <strong>1-teilig, flexibel & absolut wasserdicht</strong> – ganz ohne komplizierte Zuschnitte oder aufwendige Verklebungen. <strong>Maximale Sicherheit, minimale Arbeit – für eine langlebige Flachdachabdichtung mit DACHPROTECT!</strong> 🚀🏠✅</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KAhVrt",
+        "text_NtbewK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_Dachdurchdringung_1_Teilig.jpg",
+        "video_url": "https://www.youtube.com/watch?v=Cv3lkjptLWU",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "media_with_text_fgUAch": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_kEhPp8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zweiteilige Abdichtung",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_UQzxXT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit dem <strong>30 cm DACHPROTECT Form- & Nahtabdeckband</strong> lassen sich Flachdachlüfter, Kabeldurchführungen und Installationsleitungen <strong>schnell, einfach und zuverlässig abdichten</strong>. Die <strong>2-teilige Ausführung</strong> bietet eine <strong>flexible Alternative</strong>, wenn eine 1-teilige Abdichtung nicht möglich ist – für eine dauerhaft wasserdichte und sichere <strong>EPDM-Dachabdichtung</strong>! ✅🏠</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kEhPp8",
+        "text_UQzxXT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_Dachdurchdringung_2_Teilig.jpg",
+        "video_url": "https://www.youtube.com/watch?v=pMWNbxT_opI",
+        "layout": "text_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "media_with_text_yQcDbM": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_ETj6Ed": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rohrmanschetten",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_aU6tY4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dauerhafte, wasserdichte Abdichtung für <strong>Wohnraum- und Dachraumlüfter</strong> sowie <strong>Rohrdurchführungen</strong> auf Flachdächern – schnell und einfach mit der <strong>Rohrmanschette</strong> von DACHPROTECT!<br/>✅ <strong>Einsatzgebiete:</strong><br/>✔️ Be- und Entlüftung von Wohnräumen<br/>✔️ Abdichtung von Dachraumlüftern<br/>✔️ Sichere Andichtung für Rohrdurchführungen<br/>💡 <strong>Ihre Vorteile:</strong><br/>✔️ UV- & wetterbeständiges EPDM – langlebig & flexibel<br/>✔️ Einfache Montage ohne Spezialwerkzeug<br/>✔️ Perfekt für Flachdachabdichtungen – wasserdicht & sicher</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ETj6Ed",
+        "text_aU6tY4"
+      ],
+      "settings": {
+        "video_url": "https://www.youtube.com/watch?v=W_ZrSPzalmE",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "rich_text_qHRBbd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JUMUcC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Entwässerung",
+            "heading_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JUMUcC"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
+    },
+    "media_with_text_dHQb99": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_xqUqEU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Garantie Gully",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_3qykEN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit dem <strong>DACHPROTECT EPDM Garantie-Gully</strong> gelingt eine <strong>zuverlässige, dauerhaft dichte Dachentwässerung</strong> – einfach und schnell! Der Gully wird am <strong>tiefsten Punkt des Daches</strong> installiert. Nach der Befestigung der Dachbahn wird eine passende Bohrung hergestellt, bevor die <strong>DACHPROTECT EPDM Aktivierung</strong> für eine <strong>nahtlose Verbindung</strong> zwischen Gully-Flansch und EPDM-Dachbahn sorgt.</p><p>Dank <strong>Kaltnahtfügung durch Vernetzung (Polymerisation)</strong> entsteht eine <strong>sichere und wasserdichte Verbindung mit dem Fallrohr</strong> – ganz ohne Spezialwerkzeuge.</p><p>✅ Auch als <strong>praktisches Set</strong> mit <strong>EPDM Aktivierung (125 ml), Schwamm & Handschuh</strong> erhältlich!</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xqUqEU",
+        "text_3qykEN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_Garantie-Gully.jpg",
+        "video_url": "https://www.youtube.com/watch?v=cuuQouXKTRo",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "rich_text_M3PK6T": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_K3hp3b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Anschlüsse herstellen",
+            "heading_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K3hp3b"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
+    },
+    "media_with_text_6UV3Vb": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_NT6DQE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wandanschlussprofil dp43",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_DRyLqT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sauber, sicher, langlebig! Mit dem <strong>DP43 Wandanschlussprofil</strong> schaffst du eine <strong>wasserdichte Verbindung</strong> zwischen Flachdach und Wand – optimal für Dächer mit <strong>EPDM-Folie</strong>. Dank <strong>pulverbeschichtetem Aluminium</strong> ist es extrem <strong>wetterbeständig, stabil und einfach zu montieren</strong>.</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NT6DQE",
+        "text_DRyLqT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_Wandanschluss.jpg",
+        "video_url": "https://www.youtube.com/watch?v=dNQjVyIfFts",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "media_with_text_D8i6rJ": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_QV4W9Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rinneneinhangblech",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_77DVA8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ein <strong>lückenloser Anschluss</strong> der <strong>EPDM-Dachabdichtung</strong> ist entscheidend für eine dauerhaft zuverlässige Abdichtung. Besonders die <strong>Kapillarwirkung am Rinneneinhangblech/Traufblech</strong> kann Feuchtigkeit ins Dachsystem ziehen. Die Lösung? <strong>EPDM-Aktivierung & Nahtband</strong>! Diese Methode sorgt für eine <strong>wasserdichte Verbindung</strong>, ist <strong>einfach zu verarbeiten</strong> und kommt <strong>ganz ohne Spezialwerkzeuge</strong> aus.</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QV4W9Y",
+        "text_77DVA8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_Rinneneinhangblech.jpg",
+        "video_url": "https://www.youtube.com/watch?v=qevaApW2GUc",
+        "layout": "text_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "rich_text_Ed6PKr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XibxCG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nahtverbindungen",
+            "heading_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XibxCG"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
+    },
+    "media_with_text_byUjrp": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_abtVHi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Überlappende Naht",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_ggMUA6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DACHPROTECT EPDM Nahtband – Dicht in Sekunden, stark für Jahrzehnte! 💪💧<br/>Blitzschnell, wasserdicht, bombenfest! Mit dem <strong>DACHPROTECT EPDM Nahtband</strong> verbindest du Dachbahnen <strong>sicher und dauerhaft</strong> – <strong>ganz ohne Spezialwerkzeuge</strong>. Das <strong>Kaltnahtfügeverfahren</strong> sorgt sofort für eine <strong>wasserdichte & zugfeste Naht</strong>, während die <strong>Polymerisation</strong> innerhalb von <strong>48–72 Stunden</strong> die Verbindung noch stärker macht.</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_abtVHi",
+        "text_ggMUA6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_Nahtband.jpg",
+        "video_url": "https://www.youtube.com/watch?v=A7Qx472UwiU",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "media_with_text_xkccHW": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_nrT3mg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stoßverbindungen",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_N8wbCK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DACHPROTECT EPDM Nahtband – Dicht in Sekunden, stark für Jahrzehnte! 💪💧<br/>Blitzschnell, wasserdicht, bombenfest! Mit dem <strong>DACHPROTECT EPDM Nahtband</strong> verbindest du Dachbahnen <strong>sicher und dauerhaft</strong> – <strong>ganz ohne Spezialwerkzeuge</strong>. Das <strong>Kaltnahtfügeverfahren</strong> sorgt sofort für eine <strong>wasserdichte & zugfeste Naht</strong>, während die <strong>Polymerisation</strong> innerhalb von <strong>48–72 Stunden</strong> die Verbindung noch stärker macht.</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nrT3mg",
+        "text_N8wbCK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_NAB_EPDM_auf_Stoss.jpg",
+        "video_url": "https://www.youtube.com/watch?v=leNaxT0RpmQ",
+        "layout": "text_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "media_with_text_pbfNPd": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_r4fVQR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wurzelfeste Nähte gem. FLL",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_EdRDwX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sichere Dachbegrünung mit DACHPROTECT EPDM – So geht’s! 🌿🏠<br/>Bevor eine <strong>Dachbegrünung</strong> installiert wird, muss geprüft werden, ob die <strong>Dachabdichtung wurzelfest</strong> ist. Eindringende Wurzeln können Feuchtigkeit durchlassen und die Dachkonstruktion beschädigen. <strong>DACHPROTECT EPDM-Folien</strong> sind gemäß <strong>FLL-Zulassung wurzelfest</strong> und ideal für begrünte Dächer geeignet.</p><p>🔹 <strong>Wichtig:</strong> Nähte müssen nicht nur mit <strong>Nahtband</strong>, sondern zusätzlich mit <strong>Form- & Nahtabdeckband</strong> abgedichtet werden!</p><p>📽️ <strong>In diesem Video zeigen wir dir Schritt für Schritt, wie du eine sichere Abdichtung herstellst.</strong></p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r4fVQR",
+        "text_EdRDwX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_Nahtband_NAB.jpg",
+        "video_url": "https://www.youtube.com/watch?v=FqxGFwOt28U",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
+    "rich_text_FAqhVJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PYh4gD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mehr Verarbeitungsvideos für dein Projekt! 🎥🏠",
+            "heading_size": "md"
+          }
+        },
+        "text_CzEbr3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du möchtest <strong>mehr Informationen</strong> und weitere <strong>hilfreiche Verarbeitungsvideos</strong> erhalten? Schau dir unsere <strong>spannenden Anleitungen</strong> an und erfahre, wie du <strong>Dachrandprofile montierst, PV-Halter abdichtest, einen rutschhemmenden Boden installierst oder einen universellen Klebe-Gully richtig einbaust</strong> – und vieles mehr!</p>",
+            "text_size": "md"
+          }
+        },
+        "button_9U7EA3": {
+          "type": "button",
+          "settings": {
+            "button_label": "weitere Videos ansehen",
+            "button_link": "shopify://pages/weitere-videos"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PYh4gD",
+        "text_CzEbr3",
+        "button_9U7EA3"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "accent-3",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "slideshow_Em6iQA",
+    "main",
+    "media_with_text_EGeqfD",
+    "rich_text_4cAhEj",
+    "media_with_text_MfBti8",
+    "media_with_text_4D9ip8",
+    "rich_text_DkTbG7",
+    "media_with_text_FVFzyk",
+    "media_with_text_fgUAch",
+    "media_with_text_yQcDbM",
+    "rich_text_qHRBbd",
+    "media_with_text_dHQb99",
+    "rich_text_M3PK6T",
+    "media_with_text_6UV3Vb",
+    "media_with_text_D8i6rJ",
+    "rich_text_Ed6PKr",
+    "media_with_text_byUjrp",
+    "media_with_text_xkccHW",
+    "media_with_text_pbfNPd",
+    "rich_text_FAqhVJ"
+  ]
+}

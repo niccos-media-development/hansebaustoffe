@@ -1,0 +1,170 @@
+{{ 'component-modal-dialog.css' | asset_url | stylesheet_tag }}
+{{ 'section-popup-overlay.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'popup-overlay.js' | asset_url }}" defer="defer"></script>
+
+<style>
+  .popup-overlay-dialog-wrap .modal-dialog {
+    width: {{ section.settings.width }}px;
+  }
+
+  @media (min-width: 990px) {
+    .popup-overlay-dialog-wrap .modal-dialog-image-position-left .modal-dialog-content,
+    .popup-overlay-dialog-wrap .modal-dialog-image-position-right .modal-dialog-content {
+      width: {{ section.settings.width }}px;
+      max-width: 100%;
+    }
+
+    .popup-overlay-dialog-wrap .modal-dialog-image-position-left.modal-dialog,
+    .popup-overlay-dialog-wrap .modal-dialog-image-position-right.modal-dialog {
+      width: auto;
+    }
+  }
+</style>
+
+<popup-overlay id="Modal-niccos-modal" class="niccos-popup {% if section.settings.hide_on_mobile %}hidden-mobile{% endif %}" data-delay="0">
+  <div class="modal-dialog-wrap modal-dialog-position-{{ section.settings.popup_position }} popup-overlay-dialog-wrap">
+    <div class="modal-dialog {% if section.settings.image != blank %} modal-dialog-image-position-{{ section.settings.image_position }} {% endif %}">
+      <div role="dialog" class="modal-dialog-content-wrap color-{{ section.settings.color_scheme }}">
+        <button id="ModalClose-niccos-modal" class="modal-dismiss-button">&times;</button>
+
+        {% if section.settings.image != blank %}
+          <div class="modal-dialog-image">
+            {{ section.settings.image | image_url: width: 2220 | image_tag:
+              sizes: '(min-width: 750px) 740px, calc(100vw - 3rem)',
+              widths: '165, 300, 440, 500, 650, 740, 1480, 2220',
+              fetchpriority: 'high'
+            }}
+          </div>
+        {% endif %}
+
+        <div class="modal-dialog-content popup-overlay-content">
+          {% if section.settings.page != blank %}
+          <h2 class="heading-size-md">{{ section.settings.page.title }}</h2>
+          <div class="rte text-size-md">{{ section.settings.page.content }}</div>
+          {% else %}
+          <h2 class="heading-size-md">Page Title</h2>
+          <div class="rte text-size-md"><p>Page Content goes here...</p></div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</popup-overlay>
+
+{% schema %}
+{
+  "name": "Niccos Popup",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Modal Content (Page)"
+    },
+    {
+      "type": "page",
+      "id": "page",
+      "label": "Page"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.popup_overlay.settings.header_1.content"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.popup_overlay.settings.image.label"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "t:sections.popup_overlay.settings.image_position.label",
+      "default": "top",
+      "options": [
+        {
+          "value": "top",
+          "label": "t:sections.popup_overlay.settings.image_position.options.label_1"
+        },
+        {
+          "value": "left",
+          "label": "t:sections.popup_overlay.settings.image_position.options.label_2"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.popup_overlay.settings.image_position.options.label_3"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "t:sections.popup_overlay.settings.header_2.content"
+    },
+    {
+      "type": "range",
+      "id": "width",
+      "min": 400,
+      "max": 740,
+      "step": 20,
+      "unit": "px",
+      "label": "t:sections.popup_overlay.settings.width.label",
+      "default": 500
+    },
+    {
+      "type": "select",
+      "id": "popup_position",
+      "label": "t:sections.popup_overlay.settings.popup_position.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "center",
+          "label": "t:sections.popup_overlay.settings.popup_position.options.label_1"
+        },
+        {
+          "value": "bottom-left",
+          "label": "t:sections.popup_overlay.settings.popup_position.options.label_2"
+        },
+        {
+          "value": "bottom-right",
+          "label": "t:sections.popup_overlay.settings.popup_position.options.label_3"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.colors.heading"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.color_scheme.label",
+      "default": "background-1",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "accent-3",
+          "label": "t:sections.all.colors.accent_3.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Niccos Popup"
+    }
+  ]
+}
+{% endschema %}
