@@ -146,6 +146,11 @@
         "expandable_LFkGeX",
         "expandable_UJKzQb"
       ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
       "settings": {
         "narrow": true,
         "heading": "Bestellung",
@@ -202,6 +207,11 @@
         "expandable_pJxJ8D",
         "expandable_4ER4zp"
       ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
       "settings": {
         "narrow": true,
         "heading": "Bezahlung",
@@ -248,6 +258,11 @@
         "expandable_XykUAq",
         "expandable_C6Kyp6"
       ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
       "settings": {
         "narrow": true,
         "heading": "Dachrandprofile",
@@ -284,9 +299,65 @@
         "expandable_DRqAHX",
         "expandable_kcVeyC"
       ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
       "settings": {
         "narrow": true,
         "heading": "Datenschutz",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
+    "expandable_MQUfzD": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_XRMm6q": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Was ist ein Garantie-Gully?",
+            "icon": "arrow-right",
+            "text": "<p>Der <strong>DACHPROTECT Garantie-Gully</strong> ist speziell für die <strong>Entwässerung von Dächern</strong> entwickelt, die mit <strong>EPDM Folien</strong> abgedichtet sind. Er sorgt für eine sichere Verbindung zwischen der <strong>EPDM Folie und dem Regenabfluss (Fallrohr)</strong> und gewährleistet eine <strong>dauerhaft dichte Lösung</strong>.</p><h3><strong>Warum der DACHPROTECT Garantie-Gully?</strong> ✅</h3><p>🔹 <strong>Sichere Verbindung</strong> – Die EPDM Folie wird direkt mit dem Gully verbunden.<br/>🔹 <strong>Langlebige Abdichtung</strong> – Das widerstandsfähige Material sorgt für dauerhaften Schutz.<br/>🔹 <strong>Einfache Montage</strong> – Wird mittels <strong>Aktivierung von oben</strong> an der EPDM Folie befestigt.<br/>🔹 <strong>Kaltnahtfügung</strong> – Kein zusätzliches Verschweißen nötig – der Gully <strong>verschmilzt</strong> durch die Aktivierung <strong>mit dem EPDM Folie selbst</strong>.</p><p>⚠ <strong>Wichtig:</strong> Da es sich um eine <strong>Kaltnahtfügung</strong> handelt, ist eine fachgerechte Aktivierung erforderlich, um eine dauerhaft sichere Abdichtung zu gewährleisten.</p><p>💡 <strong>Die ideale Lösung für eine zuverlässige und langlebige Dachentwässerung mit EPDM Abdichtung!</strong> 🌧️✅</p>",
+            "expanded": false
+          }
+        },
+        "expandable_eMn4GD": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_kkPPpr": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_XRMm6q",
+        "expandable_eMn4GD",
+        "expandable_kkPPpr"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Entwässerung",
         "subheading": "",
         "heading_alignment": "left",
         "color_scheme": "background-1",
@@ -302,6 +373,7 @@
     "expandable_mr4yPh",
     "expandable_8yk6VQ",
     "expandable_7UEV7P",
-    "expandable_XTjAFj"
+    "expandable_XTjAFj",
+    "expandable_MQUfzD"
   ]
 }
