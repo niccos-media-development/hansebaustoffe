@@ -257,6 +257,52 @@
         "spacing_top": 20,
         "spacing_bottom": 20
       }
+    },
+    "expandable_XTjAFj": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_DRqAHX": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Haben wir eine Datenschutzerklärung?",
+            "icon": "document",
+            "text": "<p>✅ <strong>Ja!</strong> Unsere <strong>Datenschutzerklärung</strong> finden Sie unten auf unserer Webseite. Dort erfahren Sie alles über den Umgang mit Ihren Daten, Speicherung, Verarbeitung und Schutz Ihrer Privatsphäre.</p><p>📌 <strong>Direkt zur Datenschutzerklärung:</strong><br/>👉 <a href=\"https://www.hansesyntec.de\"><strong>www.hansesyntec.de</strong></a> (ganz unten auf der Seite)</p>",
+            "expanded": false
+          }
+        },
+        "expandable_kcVeyC": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_7dQiWR": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_DRqAHX",
+        "expandable_kcVeyC",
+        "expandable_7dQiWR"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Datenschutz",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
     }
   },
   "order": [
@@ -265,6 +311,7 @@
     "rich_text_V3dJVj",
     "expandable_mr4yPh",
     "expandable_8yk6VQ",
-    "expandable_7UEV7P"
+    "expandable_7UEV7P",
+    "expandable_XTjAFj"
   ]
 }
