@@ -384,6 +384,67 @@
         "spacing_top": 20,
         "spacing_bottom": 20
       }
+    },
+    "expandable_A4kH4n": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_UkagiR": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Kann man auf der EPDM Folie gehen?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Ja, die EPDM Folie ist begehbar!</strong> Allerdings gibt es einige wichtige Punkte zu beachten:</p><p>📌 <strong>Wichtige Hinweise:</strong><br/>🔹 <strong>Keine spitzen oder scharfkantigen Gegenstände verwenden</strong> – Sie könnten die Folie beschädigen.<br/>🔹 <strong>Für häufige Begehung besondere Vorkehrungen treffen</strong> – z. B. <strong>Laufmatten oder Schutzbeläge</strong> nutzen.<br/>🔹 <strong>Achtung bei Feuchtigkeit!</strong> – Die EPDM Folie kann <strong>rutschig</strong> werden. <strong>Ein Wartungsweg</strong> kann hier zusätzliche Sicherheit bieten.</p><p>💡 <strong>Mit den richtigen Schutzmaßnahmen bleibt Ihr EPDM Dach langlebig und sicher!</strong> ✅🔧</p>",
+            "expanded": false
+          }
+        },
+        "expandable_WUhnBU": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_erBRej": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_mC3d3b": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_UkagiR",
+        "expandable_WUhnBU",
+        "expandable_erBRej",
+        "expandable_mC3d3b"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "EPDM Folie",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
     }
   },
   "order": [
@@ -394,6 +455,7 @@
     "expandable_8yk6VQ",
     "expandable_7UEV7P",
     "expandable_XTjAFj",
-    "expandable_MQUfzD"
+    "expandable_MQUfzD",
+    "expandable_A4kH4n"
   ]
 }
