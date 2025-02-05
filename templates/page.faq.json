@@ -211,6 +211,52 @@
         "spacing_top": 20,
         "spacing_bottom": 20
       }
+    },
+    "expandable_7UEV7P": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_d39TLB": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wofür eignet sich das CUBE Profil?",
+            "icon": "arrow-right",
+            "text": "<p>Das <strong>CUBE Dachrandprofil</strong> ist die perfekte Lösung für moderne, minimalistische Bauprojekte mit schlanken Dachaufbauten.</p><p>🔹 <strong>Hauptsächlicher Einsatz:</strong><br/>✔ <strong>Gerätekammern</strong> – Stilvoller Schutz für funktionale Räume<br/>✔ <strong>Gartenhäuser</strong> – Perfekter Abschluss für moderne Designs</p><p>🔹 <strong>Warum CUBE?</strong><br/>✔ <strong>Schmales Profil</strong> – Ideal für <strong>kubische Objekte</strong> mit Holz oder Fassadenplatten<br/>✔ <strong>Minimalistisches Design</strong> – Passend zu modernen Bauweisen<br/>✔ <strong>Einfache Verlegung</strong> – Schnell & unkompliziert zu montieren</p><p>💡 <strong>CUBE steht für klare Linien, dezente Optik und eine langlebige Lösung für moderne Dachabschlüsse!</strong> 🔝</p>",
+            "expanded": false
+          }
+        },
+        "expandable_XykUAq": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_C6Kyp6": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_d39TLB",
+        "expandable_XykUAq",
+        "expandable_C6Kyp6"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Dachrandprofile",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
     }
   },
   "order": [
@@ -218,6 +264,7 @@
     "slideshow_LcaCBV",
     "rich_text_V3dJVj",
     "expandable_mr4yPh",
-    "expandable_8yk6VQ"
+    "expandable_8yk6VQ",
+    "expandable_7UEV7P"
   ]
 }
