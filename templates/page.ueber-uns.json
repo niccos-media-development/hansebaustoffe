@@ -121,13 +121,22 @@
             "description": "",
             "link": ""
           }
+        },
+        "image_banner_VmHQEx": {
+          "type": "image_banner",
+          "settings": {
+            "description": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "image_banner_yzpTFz",
         "image_banner_g4U7iG",
-        "image_banner_8jUjBN"
+        "image_banner_8jUjBN",
+        "image_banner_VmHQEx"
       ],
+      "disabled": true,
       "settings": {
         "heading": "HSS Trainingscenter",
         "subheading": "Hanse Syntec Systems bietet umfassende Fortbildungsmöglichkeiten für Fachleute aus der Bauindustrie. Im firmeneigenen Trainingscenter in Bad Oldesloe vermitteln erfahrene Mitarbeiter praxisnahes Wissen rund um EPDM-Abdichtungssysteme.",
@@ -140,12 +149,163 @@
         "spacing_top": 60,
         "spacing_bottom": 60
       }
+    },
+    "promotion_blocks_t6xPfD": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "promotion_taKVWD": {
+          "type": "promotion",
+          "settings": {
+            "background_image_position": "top-right",
+            "background_color": "#ffffff",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Dachreparaturshop",
+            "heading_size": "md",
+            "description": "<p>Für Reparaturbänder, Flüssigkunstoff und mehr Reparatur- und Abdichtungsartikel schauen Sie gerne in unserem Dachreparaturshop vorbei.</p>",
+            "text_color": "#000000",
+            "button_text": "Zum Shop",
+            "button_link": "https://dachreparaturshop.de/?gad_source=1&gclid=CjwKCAjw9p24BhB_EiwA8ID5BpvE5WDDRk4USxb3XyLbcoRNG468l6UEvguFxCOU-s-xKeoQfHqEuRoC368QAvD_BwE&osectx=%7B%22market%22%3A%22de%22%7D&oseid=Qh12ios48R8E5osM63xQCj3v",
+            "button_type_link": false,
+            "box_radius": 50,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_FHVRyN": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/HSS_Logo_08-2022_FINAL-CUBE_aus_Markenanmeldung.webp",
+            "background_image_position": "middle-center",
+            "background_color": "#f3f3f3",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#fff",
+            "button_text": "Button label",
+            "button_link": "",
+            "button_type_link": false,
+            "box_radius": 0,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_APYFEY": {
+          "type": "promotion",
+          "settings": {
+            "background_image_position": "top-right",
+            "background_color": "#ffffff",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "ExpressDach",
+            "heading_size": "md",
+            "description": "<p>Für weiterer Flachdachbahnen, Dachdurchführungen und mehr schauen Sie gerne in unserem ExpressDach Shop vorbei.</p>",
+            "text_color": "#000000",
+            "button_text": "Zum Shop",
+            "button_link": "https://www.expressdach.de/",
+            "button_type_link": false,
+            "box_radius": 0,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_taKVWD",
+        "promotion_FHVRyN",
+        "promotion_APYFEY"
+      ],
+      "settings": {
+        "heading": "Weitere Hanse Shops",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "layout": "grid",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "card_clickable_desktop": false,
+        "box_radius": 50,
+        "color_scheme": "accent-3",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "promotion_cards_3iiUzX": {
+      "type": "promotion_cards",
+      "blocks": {
+        "promo_card_9iYixQ": {
+          "type": "promo_card",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Unsere_Shops_390x175px.jpg",
+            "block_bg": "#fff",
+            "subtitle": "Social Media",
+            "subtitle_color": "#ffaa32",
+            "title": "@hssdachreperatur",
+            "title_color": "#ffaa32",
+            "button_text": "Zum Instagramprofil",
+            "button_link": "https://www.instagram.com/hssdachreparatur/",
+            "button_text_color": "#000000",
+            "button_bg_color": "#ffaa32"
+          }
+        },
+        "promo_card_Kgw8Vj": {
+          "type": "promo_card",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Unsere_Shops_390x175px.jpg",
+            "block_bg": "#fff",
+            "subtitle": "Social Media",
+            "subtitle_color": "#ffaa32",
+            "title": "@hanse_syntec_systems",
+            "title_color": "#ffaa32",
+            "button_text": "Zum Instagramprofil",
+            "button_link": "https://www.instagram.com/hanse_syntec_systems/",
+            "button_text_color": "#000",
+            "button_bg_color": "#ffaa32"
+          }
+        },
+        "promo_card_mGdJzb": {
+          "type": "promo_card",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Unsere_Shops_390x175px.jpg",
+            "block_bg": "#fff",
+            "subtitle": "Social Media",
+            "subtitle_color": "#ffaa32",
+            "title": "@expressdach",
+            "title_color": "#ffaa32",
+            "button_text": "Zum Instagramprofil",
+            "button_link": "",
+            "button_text_color": "#000000",
+            "button_bg_color": "#ffaa32"
+          }
+        }
+      },
+      "block_order": [
+        "promo_card_9iYixQ",
+        "promo_card_Kgw8Vj",
+        "promo_card_mGdJzb"
+      ],
+      "settings": {
+        "section_bg": "#f3f3f3"
+      }
     }
   },
   "order": [
     "media_with_text_Wr4TMi",
     "media_with_text_DffqMG",
     "main",
-    "image_banners_8JUj4L"
+    "image_banners_8JUj4L",
+    "promotion_blocks_t6xPfD",
+    "promotion_cards_3iiUzX"
   ]
 }
