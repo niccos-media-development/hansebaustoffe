@@ -12,5 +12,36 @@
   "context": {
     "market": "de"
   },
-  "sections": {}
+  "sections": {
+    "additional-announcement-bar": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
+    },
+    "header-features": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "header": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "announcement-bar-secondary": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "announcement-bar": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "niccos_header_RbCi3t": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }

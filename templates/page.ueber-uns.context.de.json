@@ -120,6 +120,11 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
+    },
+    "main": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
     }
   },
   "order": [
