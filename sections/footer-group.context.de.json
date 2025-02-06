@@ -19,7 +19,7 @@
       "blocks": {}
     },
     "footer-features": {
-      "disabled": false,
+      "disabled": true,
       "settings": {},
       "blocks": {}
     }
