@@ -12,5 +12,11 @@
   "context": {
     "market": "de"
   },
-  "sections": {}
+  "sections": {
+    "newsletter": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }

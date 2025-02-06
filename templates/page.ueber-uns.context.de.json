@@ -12,5 +12,121 @@
   "context": {
     "market": "de"
   },
-  "sections": {}
+  "sections": {
+    "image_banners_8JUj4L": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "promotion_blocks_iGfeB": {
+      "type": "promotion-blocks",
+      "disabled": false,
+      "settings": {
+        "heading": "Weitere Hanse Shops",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "shopify://pages/unsere-shops",
+        "header-c42943a31ffb7daf576130a5d4349f76": null,
+        "layout": "grid",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "card_clickable_desktop": false,
+        "box_radius": 0,
+        "header-1a788ddacbe4016f75c3bb7250e91d66": null,
+        "color_scheme": "background-1",
+        "header-3fce1156b3fefaa136c791d993c9b406": null,
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      },
+      "blocks": {
+        "promotion_eBDBL": {
+          "type": "promotion",
+          "disabled": false,
+          "settings": {
+            "image": null,
+            "background_image_position": "bottom-center",
+            "background_color": "#ffffff",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Dachreparaturshop",
+            "heading_size": "md",
+            "description": "<p>Für Reparaturbänder, Flüssigkunstoff und mehr Reparatur- und Abdichtungsartikel schauen Sie gerne in unserem Dachreparaturshop vorbei.</p>",
+            "text_color": "#232323",
+            "button_text": "Button label",
+            "button_link": "shopify://pages/unsere-shops",
+            "button_type_link": false,
+            "box_radius": 0,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "header-9213a884fb9f76b81f0ffb99ad25ad18": null,
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_n7Gr8": {
+          "type": "promotion",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/HSS_Logo_08-2022_FINAL-CUBE_aus_Markenanmeldung.webp",
+            "background_image_position": "middle-center",
+            "background_color": "#dadada",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_text": "Button label",
+            "button_link": "",
+            "button_type_link": false,
+            "box_radius": 0,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "header-81422d8c808292594c3f6b1100281869": null,
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_AXDrf": {
+          "type": "promotion",
+          "disabled": false,
+          "settings": {
+            "image": null,
+            "background_image_position": "middle-center",
+            "background_color": "#ffffff",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "ExpressDach",
+            "heading_size": "md",
+            "description": "<p>Für weiterer Flachdachbahnen, Dachdurchführungen und mehr schauen Sie gerne in unserem ExpressDach Shop vorbei.</p>",
+            "text_color": "#000000",
+            "button_text": "Button label",
+            "button_link": "shopify://pages/unsere-shops",
+            "button_type_link": false,
+            "box_radius": 0,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "header-d829301bed2da8b15345cf6a86aa37ed": null,
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_eBDBL",
+        "promotion_n7Gr8",
+        "promotion_AXDrf"
+      ]
+    }
+  },
+  "order": [
+    "media_with_text_Wr4TMi",
+    "media_with_text_DffqMG",
+    "main",
+    "image_banners_8JUj4L",
+    "promotion_blocks_iGfeB"
+  ]
 }
