@@ -13,11 +13,6 @@
     "market": "de"
   },
   "sections": {
-    "image_banners_8JUj4L": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
     "promotion_blocks_iGfeB": {
       "type": "promotion-blocks",
       "disabled": false,
@@ -26,15 +21,15 @@
         "subheading": "",
         "link_title": "",
         "link_url": "shopify://pages/unsere-shops",
-        "header-c42943a31ffb7daf576130a5d4349f76": null,
+        "header-8a3b28dae881430ea75a14f65bf572fb": null,
         "layout": "grid",
         "columns": 3,
         "stack_on_mobile": false,
         "card_clickable_desktop": false,
-        "box_radius": 0,
-        "header-1a788ddacbe4016f75c3bb7250e91d66": null,
-        "color_scheme": "background-1",
-        "header-3fce1156b3fefaa136c791d993c9b406": null,
+        "box_radius": 50,
+        "header-8f1eabf4d7d0140d528a0c17902feb41": null,
+        "color_scheme": "accent-3",
+        "header-1c1522ec2721db4dc8f2757a8d56e8a6": null,
         "spacing_top": 60,
         "spacing_bottom": 60
       },
@@ -53,13 +48,13 @@
             "heading_size": "md",
             "description": "<p>Für Reparaturbänder, Flüssigkunstoff und mehr Reparatur- und Abdichtungsartikel schauen Sie gerne in unserem Dachreparaturshop vorbei.</p>",
             "text_color": "#232323",
-            "button_text": "Button label",
+            "button_text": "Zum Shop",
             "button_link": "shopify://pages/unsere-shops",
             "button_type_link": false,
             "box_radius": 0,
             "button_color_scheme": "button-primary",
             "box_align": "bottom-left",
-            "header-9213a884fb9f76b81f0ffb99ad25ad18": null,
+            "header-a90d524a9336de0f8145d2f095cec14b": null,
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
@@ -70,7 +65,7 @@
           "settings": {
             "image": "shopify://shop_images/HSS_Logo_08-2022_FINAL-CUBE_aus_Markenanmeldung.webp",
             "background_image_position": "middle-center",
-            "background_color": "#dadada",
+            "background_color": "#f3f3f3",
             "overlay_background": "",
             "background_image_offset_x": 0,
             "background_image_offset_y": 0,
@@ -84,7 +79,7 @@
             "box_radius": 0,
             "button_color_scheme": "button-primary",
             "box_align": "bottom-left",
-            "header-81422d8c808292594c3f6b1100281869": null,
+            "header-36d89e7000a03dc815d0092459b29819": null,
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
@@ -103,13 +98,13 @@
             "heading_size": "md",
             "description": "<p>Für weiterer Flachdachbahnen, Dachdurchführungen und mehr schauen Sie gerne in unserem ExpressDach Shop vorbei.</p>",
             "text_color": "#000000",
-            "button_text": "Button label",
+            "button_text": "Zum Shop",
             "button_link": "shopify://pages/unsere-shops",
             "button_type_link": false,
             "box_radius": 0,
             "button_color_scheme": "button-primary",
             "box_align": "bottom-left",
-            "header-d829301bed2da8b15345cf6a86aa37ed": null,
+            "header-3583e0ca2d72915783674fe1828c5867": null,
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
@@ -120,6 +115,11 @@
         "promotion_n7Gr8",
         "promotion_AXDrf"
       ]
+    },
+    "image_banners_8JUj4L": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
     }
   },
   "order": [
