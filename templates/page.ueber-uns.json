@@ -41,13 +41,13 @@
         "spacing_bottom": 20,
         "blocks_gap": 32,
         "content_padding": 0,
-        "text_background": "rgba(0,0,0,0)",
+        "text_background": "#ffffff",
         "vertical_alignment": "start",
         "heading_font_size": "--font-h2-size",
         "heading_font_size_mobile": "--font-h3-size",
         "content_font_size": "--font-body2-size",
         "content_font_size_mobile": "--font-body1-size",
-        "section_background": "#ffffff",
+        "section_background": "#f3f3f3",
         "mobile_spacing_top": 40,
         "mobile_spacing_bottom": 40
       }
@@ -58,7 +58,7 @@
         "text_CUeJUw": {
           "type": "text",
           "settings": {
-            "text": "<p>Doch wir bieten weit mehr als nur hochwertige Materialien: Unser Ziel ist es, <strong>Ihnen eine maßgeschneiderte Lösung</strong> für Ihr Bauvorhaben zu ermöglichen. Unsere <strong>individuelle Konfektionierung</strong> stellt sicher, dass Sie genau die passende Foliengröße und -zuschnitte für Ihr Projekt erhalten – präzise und zuverlässig. Darüber hinaus profitieren Sie von unseren <strong>geschulten Anwendungstechnikern</strong>, die Ihnen mit Rat und Tat zur Seite stehen – von der Materialauswahl bis hin zur konkreten Verarbeitung.</p><p>Für gewerbliche Verarbeiter und Planer bieten wir sogar eine <strong>Beratung direkt am Bauvorhaben</strong> an. Dabei unterstützen wir Sie nicht nur bei technischen Fragen, sondern auch bei der detaillierten <strong>Planung der Abdichtungsarbeiten</strong>. (Bitte beachten Sie, dass für An- und Abfahrten ggf. Gebühren anfallen können.)</p><p>Sollten Sie für die Umsetzung Ihres Projekts Fachkräfte benötigen, können wir Ihnen dank unseres <strong>umfangreichen Partnernetzwerks</strong> qualifizierte <strong>Verarbeitungsbetriebe</strong> empfehlen, die Ihr Bauvorhaben professionell und zuverlässig realisieren.</p><p>Ein weiterer Vorteil von HANSE SYNTEC SYSTEMS sind unsere <strong>großen Lagerkapazitäten</strong>, die es uns ermöglichen, <strong>kurze Lieferzeiten von nur 4-5 Werktagen</strong> nach Bestelleingang zu gewährleisten. So können Sie Ihre Bauprojekte effizient planen und umsetzen, ohne lange auf Materiallieferungen warten zu müssen.</p><p>Ganz gleich, ob Sie eine <strong>Neubau-Abdichtung</strong> oder die <strong>Sanierung</strong> eines bestehenden Bauwerks planen – <strong>HANSE SYNTEC SYSTEMS</strong> ist Ihr <strong>zuverlässiger Partner</strong>. Mit hochwertigen Produkten, flexiblen Serviceleistungen und kompetenter Beratung begleiten wir Sie von der Planung bis zur erfolgreichen Umsetzung Ihres Bauvorhabens.</p>",
+            "text": "<p>Doch wir bieten weit mehr als nur hochwertige Materialien: Unser Ziel ist es, <strong>Ihnen eine maßgeschneiderte Lösung</strong> für Ihr Bauvorhaben zu ermöglichen. Unsere <strong>individuelle Konfektionierung</strong> stellt sicher, dass Sie genau die passende Foliengröße und -zuschnitte für Ihr Projekt erhalten – präzise und zuverlässig. Darüber hinaus profitieren Sie von unseren <strong>geschulten Anwendungstechnikern</strong>, die Ihnen mit Rat und Tat zur Seite stehen – von der Materialauswahl bis hin zur konkreten Verarbeitung.</p><p>Für gewerbliche Verarbeiter und Planer bieten wir sogar eine <strong>Beratung direkt am Bauvorhaben</strong> an. Dabei unterstützen wir Sie nicht nur bei technischen Fragen, sondern auch bei der detaillierten <strong>Planung der Abdichtungsarbeiten</strong>. (Bitte beachten Sie, dass für An- und Abfahrten ggf. Gebühren anfallen können.)</p><p>Sollten Sie für die Umsetzung Ihres Projekts Fachkräfte benötigen, können wir Ihnen dank unseres <strong>umfangreichen Partnernetzwerks</strong> qualifizierte <strong>Verarbeitungsbetriebe</strong> empfehlen, die Ihr Bauvorhaben professionell und zuverlässig realisieren.</p><p>Ein weiterer Vorteil von HANSE SYNTEC SYSTEMS sind unsere <strong>großen Lagerkapazitäten</strong>, die es uns ermöglichen, <strong>kurze Lieferzeiten von nur 4-5 Werktagen</strong> nach Bestelleingang zu gewährleisten. So können Sie Ihre Bauprojekte effizient planen und umsetzen, ohne lange auf Materiallieferungen warten zu müssen. </p><p>Ganz gleich, ob Sie eine <strong>Neubau-Abdichtung</strong> oder die <strong>Sanierung</strong> eines bestehenden Bauwerks planen – <strong>HANSE SYNTEC SYSTEMS</strong> ist Ihr <strong>zuverlässiger Partner</strong>. Mit hochwertigen Produkten, flexiblen Serviceleistungen und kompetenter Beratung begleiten wir Sie von der Planung bis zur erfolgreichen Umsetzung Ihres Bauvorhabens.</p>",
             "text_font_size": "--font-body-scale",
             "text_font_size_mobile": "--font-body-scale"
           }
@@ -68,7 +68,7 @@
         "text_CUeJUw"
       ],
       "settings": {
-        "image": "shopify://shop_images/1b602311a8556564a552d6dc4ce072eb.jpg",
+        "image": "shopify://shop_images/D12-090-010_EPDM_Dachfolie_schwarz_Produktbild_Detail_1000x1000px_1_800x800_944178b4-1bef-4ec2-9575-5582a7bba7b8.jpg",
         "video_url": "",
         "layout": "media_first",
         "desktop_content_alignment": "center",
@@ -82,7 +82,7 @@
         "heading_font_size_mobile": "--font-h3-size",
         "content_font_size": "--font-body2-size",
         "content_font_size_mobile": "--font-body1-size",
-        "section_background": "#ffffff",
+        "section_background": "#f3f3f3",
         "mobile_spacing_top": 40,
         "mobile_spacing_bottom": 40
       }
@@ -136,7 +136,7 @@
         "layout": "grid",
         "columns": 3,
         "stack_on_mobile": false,
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-1",
         "spacing_top": 60,
         "spacing_bottom": 60
       }
