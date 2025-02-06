@@ -53,7 +53,7 @@
 					<button
 						type="submit"
 						name="add"
-						class="button button-{{ settings.products_add_to_cart_style }} button-add-to-cart"
+						class="button add-cart-button button-add-to-cart aos-init aos-animate button-{{ settings.products_add_to_cart_style }}"
 						{% if product.selected_or_first_available_variant.available == false %} disabled {% endif %}
 					>
 						{%- if product.selected_or_first_available_variant.available -%}
@@ -84,13 +84,13 @@
 	{% if any_in_stock or is_backorder or is_pre_order %}
 		<div class="product-actions card-product-actions">
 			<div class="product-actions-add-to-cart">
-				<a href="{{ product.url }}" class="button button-{{ settings.products_add_to_cart_style }} js-product-link">{{ 'products.product.select_options' | t }}</a>
+				<a href="{{ product.url }}" class="button add-cart-button button-add-to-cart aos-init aos-animate button-{{ settings.products_add_to_cart_style }} js-product-link">{{ 'products.product.select_options' | t }}</a>
 			</div>
 		</div>
 	{% else %}
 		<div class="product-actions card-product-actions">
 			<div class="product-actions-add-to-cart">
-				<a role="link" aria-disabled="true" class="button button-{{ settings.products_add_to_cart_style }}">{{ 'products.product.availability.out_of_stock' | t }}</a>
+				<a role="link" aria-disabled="true" class="button add-cart-button button-add-to-cart aos-init aos-animate button-{{ settings.products_add_to_cart_style }}">{{ 'products.product.availability.out_of_stock' | t }}</a>
 			</div>
 		</div>
 	{% endif %}
