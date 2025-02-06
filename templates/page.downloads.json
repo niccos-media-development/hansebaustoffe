@@ -73,9 +73,9 @@
         "expandable_NYmAtV": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "document",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "heading": "Flächenkleber BlueTek",
+            "icon": "arrow-right",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Flaechenkleber_BlueTek/HSS_Flaechenkleber_BlueTek_Produktdatenblatt.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Flaechenkleber_BlueTek/HSS_Flaechenkleber_BlueTek_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
             "expanded": false
           }
         },
