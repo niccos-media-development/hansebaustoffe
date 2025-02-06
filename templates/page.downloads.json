@@ -15,9 +15,56 @@
       "settings": {
         "hide_heading": false
       }
+    },
+    "expandable_wafwXA": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_WRx3Qg": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "document",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_M8Yj8H": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_mCAtdK": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_WRx3Qg",
+        "expandable_M8Yj8H",
+        "expandable_mCAtdK"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Expandable",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "expandable_wafwXA"
   ]
 }
