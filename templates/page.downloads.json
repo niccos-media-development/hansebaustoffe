@@ -42,7 +42,7 @@
           "settings": {
             "heading": "BAUDICHT EPDM Abdichtungsfolie",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<h4>Allgemein</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/EPDM_Abdichtungsfolie/HSS_EPDM_Bauwerksabdichtung_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/EPDM_Abdichtungsfolie/HSS_EPDM_Bauwerksabdichtung_Produktdatenblatt.pdf\">Produktdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie_HanseBaustoffe.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie_HanseBaustoffe.pdf\">Materialgarantie HB</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie%20ZVDH.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie%20ZVDH.pdf\">Materialgarantie ZVDH</a></p>",
             "expanded": false
           }
         }
