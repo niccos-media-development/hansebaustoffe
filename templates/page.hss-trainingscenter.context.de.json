@@ -12,5 +12,37 @@
   "context": {
     "market": "de"
   },
-  "sections": {}
+  "sections": {
+    "rich_text_Ekdf93": {
+      "settings": {
+        "color_scheme": "accent-3"
+      },
+      "blocks": {}
+    },
+    "image_hotspots_keyw4y": {
+      "settings": {
+        "bullet_color": "#ffffff",
+        "color_scheme": "accent-1"
+      },
+      "blocks": {}
+    },
+    "slideshow_VEacXT": {
+      "settings": {
+        "color_scheme": "accent-3"
+      },
+      "blocks": {}
+    },
+    "expandable_JbjtVD": {
+      "settings": {
+        "color_scheme": "accent-1"
+      },
+      "blocks": {}
+    },
+    "custom_liquid_UWYrPh": {
+      "settings": {
+        "color_scheme": "background-1"
+      },
+      "blocks": {}
+    }
+  }
 }
