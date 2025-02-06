@@ -12,5 +12,22 @@
   "context": {
     "market": "de"
   },
-  "sections": {}
+  "sections": {
+    "expandable_BQbE8F": {
+      "settings": {},
+      "blocks": {
+        "expandable_NYmAtV": {
+          "settings": {
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Flaechenkleber_BlueTek/HSS_Flaechenkleber_BlueTek_Produktdatenblatt.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Flaechenkleber_BlueTek/HSS_Flaechenkleber_BlueTek_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>"
+          }
+        },
+        "expandable_D4dmrg": {
+          "settings": {
+            "heading": "Kontaktkleber Spraybond",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Spraybond/HSS_Flaechenkleber_SprayBond_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Spraybond/HSS_Flaechenkleber_SprayBond_Produktdatenblatt.pdf\">Produktdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/SprayBond_Sicherheitsdatenblatt_HB.pdf\" title=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/SprayBond_Sicherheitsdatenblatt_HB.pdf\">Sicherheitsdatenblatt 750ml Deutsch</a></p><p>Sicherheitsdatenblatt 750ml English</p>"
+          }
+        }
+      }
+    }
+  }
 }
