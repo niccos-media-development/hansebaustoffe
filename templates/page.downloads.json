@@ -22,9 +22,9 @@
         "expandable_WRx3Qg": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "EPDM Dachfolie schwarz",
             "icon": "document",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/EPDM_Dachfolie/HSS_EPDM_Dachfolie_schwarz_Produktdatenblatt.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/EPDM_Dachfolie/HSS_EPDM_Dachfolie_schwarz_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
             "expanded": false
           }
         },
@@ -59,7 +59,7 @@
       ],
       "settings": {
         "narrow": true,
-        "heading": "Expandable",
+        "heading": "EPDM Folie",
         "subheading": "",
         "heading_alignment": "left",
         "color_scheme": "background-1",
