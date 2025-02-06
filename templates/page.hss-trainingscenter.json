@@ -171,7 +171,7 @@
         "narrow": true,
         "overlay_background": "",
         "alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "spacing_top": 60,
         "spacing_bottom": 60
       }
@@ -328,8 +328,8 @@
           "type": "column",
           "settings": {
             "image_width": 550,
-            "title": "Teil 1",
-            "text": "<ul><li>Begrüßung</li><li>Über Hanse Syntec Systems</li><li>EPDM Allgemein</li><li>DACHPROTECT - Systemkomponenten</li></ul>",
+            "title": "Teil 1 Theorie ( ca. 90 min)",
+            "text": "<ul><li>Begrüßung</li><li>Über Hanse Syntec Systems</li><li>EPDM Allgemein</li><li>DACHPROTECT - Systemkomponenten</li><li>Handling der EPDM Folie</li><li>Lose Verlegung mit Auflast/Mechanische Windsogsicherung</li><li>Verklebung mit BlueTek, SPEEDCAT und SprayBond</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -338,8 +338,8 @@
           "type": "column",
           "settings": {
             "image_width": 550,
-            "title": "Teil 2.1",
-            "text": "<ul><li>Handling der EPDM Folie</li><li>Lose Verlegung mit Auflast/Mechanische Windsogsicherung</li><li>Verklebung mit BlueTek, SPEEDCAT und SprayBond</li><li>Mittagspause mit Imbiss</li></ul>",
+            "title": "Teil 2 ( ca. 45 min)",
+            "text": "<ul><li>Besichtigung der Produktion</li><li>kleiner Imbiss</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -348,8 +348,8 @@
           "type": "column",
           "settings": {
             "image_width": 550,
-            "title": "Teil 2.2",
-            "text": "<ul><li>Detailausführungen (Überlappende Naht, Doppelte Nahtfügung gem. FLL, Stoßnähte, Außenecken, Innenecken, Rohrmanschetten, Ein- und zweiteilige Rohrandichtung, Anschluss an Traufbleche, Übergang Ortgang aufs Traufblech)</li><li>Abschlussgespräch</li></ul>",
+            "title": "Teil 3 Praxis ( ca. 150 min)",
+            "text": "<ul><li>Detailausführungen (Überlappende Naht, Doppelte Nahtfügung gem. FLL, Stoßnähte, Außenecken, Innenecken,  Anschluss an Traufbleche, Übergang Ortgang aufs Traufblech)</li><li>Abschlussgespräch</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -367,7 +367,7 @@
         "column_alignment": "left",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -468,7 +468,7 @@
         "heading": "Weitere Infos",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "spacing_top": 60,
         "spacing_bottom": 60
       }
