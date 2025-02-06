@@ -101,9 +101,9 @@
             "button_text": "Zum Shop",
             "button_link": "https://www.expressdach.de/",
             "button_type_link": false,
-            "box_radius": 0,
+            "box_radius": 50,
             "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
+            "box_align": "top-left",
             "header-3583e0ca2d72915783674fe1828c5867": null,
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
