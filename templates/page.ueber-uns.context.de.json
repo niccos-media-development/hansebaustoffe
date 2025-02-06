@@ -164,7 +164,7 @@
             "title": "@hanse_syntec_systems",
             "title_color": "#ffaa32",
             "button_text": "Zum Instagramprofil",
-            "button_link": "",
+            "button_link": "https://www.instagram.com/hanse_syntec_systems/",
             "button_text_color": "#000000",
             "button_bg_color": "#ffaa32"
           }
@@ -180,7 +180,7 @@
             "title": "@expressdach",
             "title_color": "#ffaa32",
             "button_text": "Zum Instagramprofil",
-            "button_link": "",
+            "button_link": "https://www.instagram.com/expressdach/",
             "button_text_color": "#000",
             "button_bg_color": "#ffaa32"
           }
