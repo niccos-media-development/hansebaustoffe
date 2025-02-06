@@ -519,7 +519,7 @@ cite.card-testimonial-citation {
 .pill-nav {
   gap: 11px;
   margin-bottom: 10px;
-  justify-content: end;
+  /* justify-content: end; */
 }
 
 .niccos-collapsible-grid .facet-toggle {
