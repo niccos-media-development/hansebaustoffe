@@ -40,8 +40,8 @@
         "expandable_mCAtdK": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "globe",
+            "heading": "BAUDICHT EPDM Abdichtungsfolie",
+            "icon": "arrow-right",
             "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
             "expanded": false
           }
@@ -91,9 +91,9 @@
         "expandable_BML8fN": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "BAUDICHT EPDM Abdichtungsfolie",
             "icon": "globe",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<h3><strong>Allgemein</strong></h3>",
             "expanded": false
           }
         }
