@@ -43,6 +43,31 @@
         "color_scheme": "background-1"
       },
       "blocks": {}
+    },
+    "multicolumn_iC4VFH": {
+      "settings": {
+        "title": "Der Ablauf (ca. von 9-14 Uhr)"
+      },
+      "blocks": {
+        "column_WRgNK3": {
+          "settings": {
+            "text": "<ul><li>Begrüßung</li><li>Über Hanse Syntec Systems</li><li>EPDM Allgemein</li><li>DACHPROTECT - Systemkomponenten</li><li>Handling der EPDM Folie</li><li>Lose Verlegung mit Auflast/Mechanische Windsogsicherung</li><li>Verklebung mit BlueTek, SPEEDCAT und SprayBond</li></ul>",
+            "title": "Teil 1 Theorie ( ca. 90 min)"
+          }
+        },
+        "column_TzHqr4": {
+          "settings": {
+            "text": "<ul><li>Besichtigung der Produktion</li><li>kleiner Imbiss</li></ul>",
+            "title": "Teil 2 ( ca. 45 min)"
+          }
+        },
+        "column_JF4mwG": {
+          "settings": {
+            "text": "<ul><li>Detailausführungen (Überlappende Naht, Doppelte Nahtfügung gem. FLL, Stoßnähte, Außenecken, Innenecken,  Anschluss an Traufbleche, Übergang Ortgang aufs Traufblech)</li><li>Abschlussgespräch</li></ul>",
+            "title": "Teil 3 Praxis ( ca. 2 h 30 min)"
+          }
+        }
+      }
     }
   }
 }
