@@ -157,16 +157,16 @@
           "type": "promo_card",
           "disabled": false,
           "settings": {
-            "image": null,
+            "image": "shopify://shop_images/Kategorieteaser_Unsere_Shops_390x175px.jpg",
             "block_bg": "#f3f3f3",
-            "subtitle": "",
-            "subtitle_color": "#000",
-            "title": "",
-            "title_color": "#000",
-            "button_text": "",
+            "subtitle": "Social Media",
+            "subtitle_color": "#ffaa32",
+            "title": "@hanse_syntec_systems",
+            "title_color": "#ffaa32",
+            "button_text": "Zum Instagramprofil",
             "button_link": "",
-            "button_text_color": "#000",
-            "button_bg_color": "#fff"
+            "button_text_color": "#000000",
+            "button_bg_color": "#ffaa32"
           }
         },
         "promo_card_kn9F4": {
