@@ -17,6 +17,11 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
+    },
+    "footer-features": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
     }
   }
 }
