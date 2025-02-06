@@ -61,6 +61,7 @@
     "products_show_secondary_image": true,
     "product_image_ratio": "adapt",
     "products_show_add_to_cart": true,
+    "products_add_to_cart_style": "solid",
     "currency_code_enabled": false,
     "price_tax_suffix": "inkl. MwSt.",
     "social_link_instagram": "https://www.instagram.com/dachprotect/",
