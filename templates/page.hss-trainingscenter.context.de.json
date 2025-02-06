@@ -40,13 +40,14 @@
     },
     "custom_liquid_UWYrPh": {
       "settings": {
-        "color_scheme": "background-1"
+        "color_scheme": "accent-2"
       },
       "blocks": {}
     },
     "multicolumn_iC4VFH": {
       "settings": {
-        "title": "Der Ablauf (ca. von 9-14 Uhr)"
+        "title": "Der Ablauf (ca. von 9-14 Uhr)",
+        "color_scheme": "accent-1"
       },
       "blocks": {
         "column_WRgNK3": {
@@ -70,6 +71,12 @@
       }
     },
     "rich_text_QUgiAC": {
+      "settings": {
+        "color_scheme": "accent-3"
+      },
+      "blocks": {}
+    },
+    "rich_text_4Jneam": {
       "settings": {
         "color_scheme": "accent-3"
       },

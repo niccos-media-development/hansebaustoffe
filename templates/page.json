@@ -15,9 +15,113 @@
       "settings": {
         "hide_heading": false
       }
+    },
+    "expandable_HTGV9x": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_M8A6zE": {
+          "type": "expandable",
+          "settings": {
+            "heading": "DACHPROTECT EPDM Dachfolie",
+            "icon": "document",
+            "text": "<p>Produktdatenblatt<br/></p>",
+            "expanded": false
+          }
+        },
+        "expandable_pJ6rjf": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_BH8Pw9": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_M8A6zE",
+        "expandable_pJ6rjf",
+        "expandable_BH8Pw9"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "EPDM Folie",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
+    "expandable_CN93Wg": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_4AwqAU": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "document",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_pqbBNx": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_AfV4GH": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_4AwqAU",
+        "expandable_pqbBNx",
+        "expandable_AfV4GH"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Kleb- & Dichtstoffe",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "expandable_HTGV9x",
+    "expandable_CN93Wg"
   ]
 }

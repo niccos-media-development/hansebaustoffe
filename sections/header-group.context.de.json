@@ -40,7 +40,9 @@
     },
     "niccos_header_RbCi3t": {
       "disabled": false,
-      "settings": {},
+      "settings": {
+        "navigation_submenu_color_scheme": "background-1"
+      },
       "blocks": {}
     }
   }
