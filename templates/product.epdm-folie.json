@@ -122,10 +122,12 @@
             "expanded": false
           }
         },
-        "download_FafBCy": {
-          "type": "download",
+        "expandable_xMbq3E": {
+          "type": "expandable",
           "settings": {
             "title": "Downloads",
+            "icon": "",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/EPDM_Dachfolie/HSS_EPDM_Dachfolie_schwarz_Produktdatenblatt.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/EPDM_Dachfolie/HSS_EPDM_Dachfolie_schwarz_Produktdatenblatt.pdf\">Produktdatenblatt</a><br/><a href=\"https://www.hanse-baustoffe.de/download/FLL-Zulassungen/FLL%20Pr%C3%BCfbericht.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/FLL-Zulassungen/FLL%20Pr%C3%BCfbericht.pdf\">Prüfbericht Wurzelfestigkeit</a><br/></p>",
             "expanded": false
           }
         },
@@ -160,7 +162,7 @@
         "description",
         "expandable_zp8gRN",
         "expandable_97KCAE",
-        "download_FafBCy",
+        "expandable_xMbq3E",
         "videometa_QeDUQB",
         "complementary_eNUABz"
       ],
