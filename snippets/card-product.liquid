@@ -49,7 +49,7 @@
 
   {%- assign forloopindex = max_columns | minus: forloopindex | modulo: max_columns -%}
 
-  <product-card data-aos-delay="{{ 100 | times: forloopindex }}" data-aos="fade-up" class="card card-product {% if card_product.featured_media == nil %} card-no-media{% endif %} {{ class }}">
+  <product-card data-aos-delay="{{ 100 | times: forloopindex }}" data-aos="fade-up" class="test card card-product {% if card_product.featured_media == nil %} card-no-media{% endif %} {{ class }}">
 		<figure class="card-media {% if settings.product_image_crop != true %} card-media-contain{% endif %}">
 			<a href="{{ card_product.url }}" class="js-product-link">
 				{% if card_product.featured_media %}
