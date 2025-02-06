@@ -122,10 +122,12 @@
             "expanded": false
           }
         },
-        "download_JYBtaW": {
-          "type": "download",
+        "expandable_JPyXYy": {
+          "type": "expandable",
           "settings": {
             "title": "Downloads",
+            "icon": "",
+            "text": "<p><a href=\"/pages/downloads\" title=\"Downloads\">zum Downloadportal</a></p>",
             "expanded": false
           }
         },
@@ -150,7 +152,7 @@
         "description",
         "expandable_zp8gRN",
         "expandable_97KCAE",
-        "download_JYBtaW",
+        "expandable_JPyXYy",
         "videometa_QeDUQB"
       ],
       "settings": {
