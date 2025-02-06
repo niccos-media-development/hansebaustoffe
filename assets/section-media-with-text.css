@@ -79,6 +79,7 @@
 
 .media-with-text-content-left {
   text-align: left;
+  direction: initial;
 }
 
 .media-with-text-content-center {
