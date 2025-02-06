@@ -23,7 +23,7 @@
           "type": "expandable",
           "settings": {
             "heading": "EPDM Dachfolie schwarz",
-            "icon": "document",
+            "icon": "arrow-right",
             "text": "<h3>Allgemein</h3><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/EPDM_Dachfolie/HSS_EPDM_Dachfolie_schwarz_Produktdatenblatt.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie_HanseBaustoffe.pdf\">Produktdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie_HanseBaustoffe.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie_HanseBaustoffe.pdf\">Materialgarantie HB</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie%20ZVDH.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie%20ZVDH.pdf\">Materialgarantie ZVDH</a></p><h3>Verarbeitungshinweise</h3><p><a href=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachbahn_Hochzuege_Randbereiche.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachbahn_Hochzuege_Randbereiche.pdf\">Hochzüge und Randbereiche</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachaufbauten_Alt-Bitumen.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachaufbauten_Alt-Bitumen.pdf\">Alt-Bitumen</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachaufbauten_Holz.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachaufbauten_Holz.pdf\">Holz</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachaufbauten_Dachbegruenung.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachaufbauten_Dachbegruenung.pdf\">Dachbegrünung</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachaufbauten_Lose_mit_Auflast.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachaufbauten_Lose_mit_Auflast.pdf\">Lose Verlegung mit Auflast</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachaufbauten_PU-Daemmung.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Dachaufbauten_PU-Daemmung.pdf\">PU-Dämmung</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie_HanseBaustoffe.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Materialgarantien/Materialgarantie_HanseBaustoffe.pdf\"><br/></a></p>",
             "expanded": false
           }
@@ -32,7 +32,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Enter a descriptive title for this block",
-            "icon": "gift-wrap",
+            "icon": "arrow-right",
             "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
             "expanded": false
           }
@@ -66,10 +66,62 @@
         "spacing_top": 20,
         "spacing_bottom": 20
       }
+    },
+    "expandable_BQbE8F": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_NYmAtV": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "document",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_D4dmrg": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_BML8fN": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_NYmAtV",
+        "expandable_D4dmrg",
+        "expandable_BML8fN"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Expandable",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
     }
   },
   "order": [
     "main",
-    "expandable_wafwXA"
+    "expandable_wafwXA",
+    "expandable_BQbE8F"
   ]
 }
