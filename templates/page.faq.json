@@ -663,6 +663,15 @@
             "text": "<p>❌ <strong>Nein, eine Lieferung an ein Paketshop ist nicht möglich.</strong></p><p>📌 <strong>Grund:</strong> Aufgrund der <strong>abweichenden Größen und Gewichte</strong> unserer Produkte kann die Ware <strong>nicht direkt an ein Paketshop</strong> versendet werden.</p>",
             "expanded": false
           }
+        },
+        "expandable_FfgVFp": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Kann ich meine Sendung nachverfolgen?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Ja!</strong> In der Regel erhalten Sie eine <strong>E-Mail von der jeweiligen Spedition</strong> mit einem <strong>Link zur Sendungsverfolgung</strong>.</p><p>📌 <strong>Falls Sie keine E-Mail erhalten haben:</strong><br/>🔹 <strong>Prüfen Sie Ihren Spam-Ordner.</strong> 📧<br/>🔹 <strong>Kontaktieren Sie uns per E-Mail, Kontaktformular oder telefonisch</strong> – wir helfen Ihnen gerne weiter! 📞</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -671,7 +680,8 @@
         "expandable_9Mzi8z",
         "expandable_FfbreQ",
         "expandable_eBKP3b",
-        "expandable_nVKYn3"
+        "expandable_nVKYn3",
+        "expandable_FfgVFp"
       ],
       "custom_css": [
         "* {color: #000000;}",
