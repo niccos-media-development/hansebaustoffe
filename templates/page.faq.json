@@ -934,6 +934,15 @@
             "text": "<p><strong>Die EPDM Folie muss gegen Windsog gesichert werden, um ein Ablösen zu verhindern.</strong></p><p>📌 <strong>Mögliche Fixierungsmethoden:</strong><br/>🔹 <strong>Verkleben</strong> – Vollflächig oder teilweise mit geeignetem EPDM-Kleber.<br/>🔹 <strong>Mechanische Befestigung</strong> – Mit speziellen Halteleisten oder Klemmschienen.<br/>🔹 <strong>Auflast aufbringen</strong> – Kies, Dachbegrünung oder Terrassenplatten als Beschwerung.</p><p>⚠ <strong>Nicht gesicherte Bereiche können sich lösen und beschädigt werden!</strong></p><p>💡 <strong>Eine ordnungsgemäße Fixierung sorgt für maximale Stabilität und Langlebigkeit Ihrer EPDM Dachabdichtung.</strong> ✅🔝</p>",
             "expanded": false
           }
+        },
+        "expandable_DNcVVF": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie kann ich die EPDM Plane fixieren?",
+            "icon": "arrow-right",
+            "text": "<p><strong>Wir empfehlen, die EPDM Folie stets zu verkleben</strong> für eine sichere und langlebige Abdichtung.</p><p>📌 <strong>Alternativ sind folgende Fixierungsmethoden möglich:</strong><br/>🔹 <strong>Verkleben</strong> – Vollflächig oder teilflächig mit EPDM-Kleber für maximale Haftung.<br/>🔹 <strong>Mechanische Befestigung</strong> – Mit Halteleisten oder Klemmschienen für bestimmte Untergründe.</p><p>📖 <strong>Weitere Details und Anleitungen finden Sie in unserem Handbuch für Dachaufbauten.</strong></p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -944,7 +953,8 @@
         "expandable_Degjr6",
         "expandable_VzWFDJ",
         "expandable_ReBPGi",
-        "expandable_JpTKQW"
+        "expandable_JpTKQW",
+        "expandable_DNcVVF"
       ],
       "custom_css": [
         "* {color: #000000;}",
