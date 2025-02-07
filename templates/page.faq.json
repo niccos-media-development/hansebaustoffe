@@ -796,13 +796,23 @@
             "text": "<p>✅ <strong>Ja, auch unbeschädigte Ware kann retourniert werden.</strong></p><p>📌 <strong>Wichtig:</strong> Bitte melden Sie die Rücksendung <strong>ausschließlich über das Webformular \"Rücksendungen\"</strong> an.</p>",
             "expanded": false
           }
+        },
+        "expandable_cVVNgB": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie melde ich eine Rücksendung an?",
+            "icon": "arrow-right",
+            "text": "<p>1️⃣ <strong>Auf unsere Homepage gehen</strong> 🌐<br/>2️⃣ <strong>Auf \"Rücksendung & Reklamation\" klicken</strong> 🔗<br/>3️⃣ <strong>Rücksendung online anmelden & Ware an uns zurücksenden</strong> 📦</p><p>📌 <strong>Wichtig:</strong><br/>🔹 <strong>Legen Sie immer ein Formular, eine Rechnung oder einen Lieferschein bei</strong>, damit wir die Retoure eindeutig zuordnen können.</p><p>💡 <strong>Ohne diese Dokumente kann die Rücksendung nicht bearbeitet werden!</strong> ✅📞</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_LxUwKC",
         "expandable_zxkqMg",
         "expandable_UqHnVn",
-        "expandable_HrjpBV"
+        "expandable_HrjpBV",
+        "expandable_cVVNgB"
       ],
       "custom_css": [
         "* {color: #000000;}",
