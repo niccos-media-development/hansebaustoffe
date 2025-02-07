@@ -370,6 +370,47 @@
         "spacing_top": 60,
         "spacing_bottom": 60
       }
+    },
+    "expandable_c89qyh": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_hLbpep": {
+          "type": "expandable",
+          "settings": {
+            "heading": "ISOS",
+            "icon": "document",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_Dachrandprofil_ISOS_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_Dachrandprofil_ISOS_Produktdatenblatt.pdf\">Produktdatenblatt Dachrandprofil</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_Aussenecke_ISOS_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_Aussenecke_ISOS_Produktdatenblatt.pdf\">Produktdatenblatt Außenecke</a></p><p><a href=\"https://www.hanse-baustoffe.de/download//Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_Innenecke_ISOS_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download//Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_Innenecke_ISOS_Produktdatenblatt.pdf\">Produktdatenblatt Innenecke</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_KLICK-Verbinder_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_KLICK-Verbinder_Produktdatenblatt.pdf\">Produktdatenblatt Klick Verbinder</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_Standard_Verbinder_ISOS_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_Standard_Verbinder_ISOS_Produktdatenblatt.pdf\">Produktdatenblatt Standard Verbinder</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_Dachrandendstueck_ISOS_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_ISOS/HSS_Dachrandendstueck_ISOS_Produktdatenblatt.pdf\">Produktdatenblatt Dachrandendstück</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_aLJJ47": {
+          "type": "expandable",
+          "settings": {
+            "heading": "CUBE",
+            "icon": "arrow-right",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_CUBE/HSS_Dachrandprofil_CUBE_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_CUBE/HSS_Dachrandprofil_CUBE_Produktdatenblatt.pdf\">Produktdatenblatt Dachrandprofil</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_CUBE/HSS_Dachrandprofil_CUBE_Aussenecke_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_CUBE/HSS_Dachrandprofil_CUBE_Aussenecke_Produktdatenblatt.pdf\">Produktdatenblatt Außenecke</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_CUBE/HSS_Dachrandprofil_CUBE_Verbinder_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_CUBE/HSS_Dachrandprofil_CUBE_Verbinder_Produktdatenblatt.pdf\">Produktdatenblatt Verbinder</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_CUBE/HSS_Dachrandprofil_CUBE_Endkappe_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachrandprofile/Dachrandprofil_CUBE/HSS_Dachrandprofil_CUBE_Endkappe_Produktdatenblatt.pdf\">Produktdatenblatt Endkappe</a></p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_hLbpep",
+        "expandable_aLJJ47"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Dachrandprofile",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
     }
   },
   "order": [
@@ -378,6 +419,7 @@
     "expandable_BQbE8F",
     "expandable_rEXy7m",
     "expandable_ngJaAd",
-    "expandable_dcKPN6"
+    "expandable_dcKPN6",
+    "expandable_c89qyh"
   ]
 }
