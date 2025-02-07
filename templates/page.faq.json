@@ -884,9 +884,18 @@
         "expandable_ADp9X9": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "globe",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "heading": "Muss ich die EPDM Folie vor der Bearbeitung auslegen?",
+            "icon": "arrow-right",
+            "text": "<p> <strong>Ja!</strong> Die <strong>EPDM Folie</strong> sollte <strong>mindestens einen Tag vor der Verarbeitung ausgelegt</strong> werden.</p><p>📌 <strong>Warum ist das wichtig?</strong><br/>🔹 <strong>Verhindert Faltenbildung</strong> für eine glatte Verlegung<br/>🔹 <strong>Ermöglicht Materialentspannung</strong> für eine optimale Passform<br/>🔹 <strong>Erleichtert die Verarbeitung</strong> durch bessere Handhabung</p>",
+            "expanded": false
+          }
+        },
+        "expandable_CwgXJb": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Ist die EPDM Folie begehbar?",
+            "icon": "arrow-right",
+            "text": "<p><strong>Ja, unsere EPDM Folien sind begehbar!</strong></p><p>📌 <strong>Wichtige Hinweise zur Begehbarkeit:</strong><br/>🔹 <strong>Vermeiden Sie spitze oder scharfkantige Gegenstände</strong>, um Beschädigungen zu verhindern.<br/>🔹 <strong>Für häufige Begehung</strong> sollten <strong>Laufmatten oder Schutzbeläge</strong> verwendet werden.</p>",
             "expanded": false
           }
         }
@@ -894,7 +903,8 @@
       "block_order": [
         "expandable_yEEXw8",
         "expandable_kHzGBt",
-        "expandable_ADp9X9"
+        "expandable_ADp9X9",
+        "expandable_CwgXJb"
       ],
       "custom_css": [
         "* {color: #000000;}",
