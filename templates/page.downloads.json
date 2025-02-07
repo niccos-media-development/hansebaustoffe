@@ -197,7 +197,7 @@
           "settings": {
             "heading": "Garantie Gully",
             "icon": "arrow-right",
-            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\">Produktdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Garantie-Gully.pdf\" title=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Garantie-Gully.pdf\">Verarbeitungshinweise</a></p>",
             "expanded": false
           }
         },
@@ -215,7 +215,7 @@
           "settings": {
             "heading": "Garantie Seitenablauf",
             "icon": "arrow-right",
-            "text": "<p>Produktdatenblatt</p>",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Seitenablauf_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Seitenablauf_Produktdatenblatt.pdf\">Produktdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Garantie-Seitenablauf.pdf\" title=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Garantie-Seitenablauf.pdf\">Verarbeitungshinweise</a></p>",
             "expanded": false
           }
         },
@@ -233,7 +233,7 @@
           "settings": {
             "heading": "Klebe Gully",
             "icon": "arrow-right",
-            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Klebe-Gully_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Klebe-Gully_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Klebe-Gully_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Klebe-Gully_Produktdatenblatt.pdf\">Produktdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_EPDMGully.pdf\" title=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_EPDMGully.pdf\">Verarbeitungshinweise</a></p>",
             "expanded": false
           }
         },
@@ -344,7 +344,7 @@
           "settings": {
             "heading": "Kabeldurchführung",
             "icon": "arrow-right",
-            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Be-und-Entlueftung/HSS_Kabeldurchfuehrung_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Be-und-Entlueftung/HSS_Kabeldurchfuehrung_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Be-und-Entlueftung/HSS_Kabeldurchfuehrung_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Be-und-Entlueftung/HSS_Kabeldurchfuehrung_Produktdatenblatt.pdf\">Produktdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Kabeldurchf%C3%BChrung.pdf\" title=\"https://www.hanse-baustoffe.de/download/Verarbeitungshinweise/Verarbeitungshinweise_Kabeldurchf%C3%BChrung.pdf\">Verarbeitungshinweise</a></p>",
             "expanded": false
           }
         }
