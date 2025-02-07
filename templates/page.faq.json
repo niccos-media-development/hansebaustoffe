@@ -645,13 +645,23 @@
             "text": "<p>📌 <strong>Lieferzeiten im Überblick:</strong><br/>✅ <strong>Deutschland:</strong> ca. <strong>5 – 7 Werktage</strong> 📅<br/>✅ <strong>International:</strong> Die Lieferzeit <strong>außerhalb Deutschlands kann variieren</strong> – bitte kontaktieren Sie uns für genauere Informationen.</p>",
             "expanded": false
           }
+        },
+        "expandable_eBKP3b": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Was tue ich, wenn ich eine beschädigte Lieferung erhalte?",
+            "icon": "arrow-right",
+            "text": "<p>Sollte Ihre Ware <strong>beschädigt</strong> bei Ihnen ankommen, gehen Sie bitte wie folgt vor:</p><p>📌 <strong>Schritte zur Reklamation:</strong><br/>1️⃣ <strong>Fotos machen</strong> 📸 – Dokumentieren Sie den Zustand der beschädigten Ware.<br/>2️⃣ <strong>Kontaktformular für Rücksendung/Reklamationen nutzen</strong> 📝 – Melden Sie den Schaden umgehend.<br/>3️⃣ <strong>Uns kontaktieren</strong> 📧📞 – Wir helfen Ihnen schnellstmöglich weiter und klären das weitere Vorgehen.</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_rgCwUX",
         "expandable_LpA3jn",
         "expandable_9Mzi8z",
-        "expandable_FfbreQ"
+        "expandable_FfbreQ",
+        "expandable_eBKP3b"
       ],
       "custom_css": [
         "* {color: #000000;}",
