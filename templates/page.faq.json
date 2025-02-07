@@ -717,6 +717,15 @@
             "text": "<p>✅ <strong>Ja, Versandkosten fallen grundsätzlich an.</strong> Die Höhe der Kosten hängt von der Kundengruppe und dem Bestellwert ab.</p><p>📌 <strong>Versandkostenregelung:</strong><br/>🔹 <strong>Gewerbetreibende:</strong> Zahlen immer Versandkosten.<br/>🔹 <strong>Privatkunden:</strong> Ab einem <strong>Bestellwert von 3.000,00 EUR</strong> ist der Versand <strong>kostenfrei</strong>.</p><p>💡 <strong>Genauere Informationen zu den Versandkosten finden Sie in unseren Lieferbedingungen!</strong> ✅📦</p>",
             "expanded": false
           }
+        },
+        "expandable_DtA66P": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Mit welchem Versandpartner wird die Ware versendet?",
+            "icon": "arrow-right",
+            "text": "<p>🔹 <strong>Paketversand:</strong> 📦 <strong>DHL & GLS</strong> – für kleinere Bestellungen<br/><br/>🔹 <strong>Speditionsversand:</strong> 🚛 <strong>DB Schenker & Raben</strong> (in Ausnahmefällen auch mit anderen Partnerspeditionen)</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -731,7 +740,8 @@
         "expandable_aHGAgF",
         "expandable_JCCdAR",
         "expandable_33rNHe",
-        "expandable_qtX4cw"
+        "expandable_qtX4cw",
+        "expandable_DtA66P"
       ],
       "custom_css": [
         "* {color: #000000;}",
