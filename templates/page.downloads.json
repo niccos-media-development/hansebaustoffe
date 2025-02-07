@@ -185,8 +185,8 @@
         "subheading": "",
         "heading_alignment": "left",
         "color_scheme": "accent-3",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     },
     "expandable_ngJaAd": {
@@ -236,8 +236,8 @@
         "subheading": "",
         "heading_alignment": "left",
         "color_scheme": "accent-3",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     }
   },
