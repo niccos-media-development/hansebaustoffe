@@ -631,9 +631,9 @@
         "expandable_9Mzi8z": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Kann ich nachträglich die Lieferadresse ändrn?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>✅ <strong>Ja, aber nur solange die Lieferung noch nicht bei der Spedition angemeldet wurde.</strong></p><p>📌 <strong>So funktioniert die Adressänderung:</strong><br/>1️⃣ <strong>Kontaktieren Sie uns schnellstmöglich</strong> per 📧 E-Mail, 📞 Telefon oder über das Kontaktformular.<br/>2️⃣ Wir prüfen, ob die Änderung noch möglich ist.<br/>3️⃣ Falls die Spedition bereits beauftragt wurde, kann eine Änderung leider nicht mehr vorgenommen werden.</p>",
             "expanded": false
           }
         }
