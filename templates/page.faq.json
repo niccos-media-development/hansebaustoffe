@@ -875,9 +875,9 @@
         "expandable_kHzGBt": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "gift-wrap",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "heading": "Muss bei Auflast ein zusätzliches Vlies zwischen Auflast und EPDM Plane?",
+            "icon": "arrow-right",
+            "text": "<p><strong>Ja!</strong> Um zu verhindern, dass die <strong>EPDM Folie</strong> durch scharfkantige oder spitze Teile der Auflast beschädigt wird, sollte ein <strong>Schutzvlies (Geotextil, mindestens 300 g/m²)</strong> verwendet werden.</p><p>📌 <strong>Warum ist ein Schutzvlies wichtig?</strong><br/>🔹 <strong>Schützt die EPDM Folie vor mechanischen Beschädigungen</strong><br/>🔹 <strong>Erhöht die Lebensdauer</strong> der Abdichtung<br/>🔹 <strong>Sorgt für zusätzliche Sicherheit</strong> bei Auflastsystemen</p>",
             "expanded": false
           }
         },
