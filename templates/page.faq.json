@@ -840,17 +840,39 @@
             "text": "<p>✅ <strong>Ja! EPDM Produkte sind unbedenklich und haben eine hervorragende Ökobilanz.</strong></p><p>📌 <strong>Warum ist EPDM nachhaltig?</strong><br/>🔹 <strong>Langlebig</strong> – Mit über <strong>50 Jahren Haltbarkeit</strong> reduziert es Abfall und Materialverbrauch.<br/>🔹 <strong>Recyclingfähig</strong> – Kann wiederverwertet werden.<br/>🔹 <strong>Frei von Schadstoffen</strong> – Keine Weichmacher oder giftigen Inhaltsstoffe.</p><p>📎 <strong>Weitere Hinweise zur Nachhaltigkeit finden Sie unter:</strong><br/>👉 <strong>\"Über uns\" &gt; \"Nachhaltigkeit\"</strong> 🌍♻️</p>",
             "expanded": false
           }
-        },
-        "expandable_nR9Kkt": {
+        }
+      },
+      "block_order": [
+        "expandable_bVnABj"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Umwelt",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
+    "expandable_BdGgfT": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_yEEXw8": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "document",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "heading": "Benötige ich ein zusätzliches Vlies bei Auflast?",
+            "icon": "arrow-right",
+            "text": "<p><strong>Grundsätzlich nein.</strong> Ein zusätzliches Vlies ist nicht erforderlich.</p><p>📌 <strong>Ausnahme:</strong><br/>🔹 Wenn der <strong>Untergrund scharfe Kanten oder spitze Unebenheiten</strong> aufweist, kann ein <strong>Schutzvlies</strong> sinnvoll sein, um die EPDM Folie vor mechanischen Schäden zu schützen.</p><p>💡 <strong>Bei Unsicherheit empfehlen wir eine Prüfung des Untergrunds vor der Verlegung!</strong> ✅</p>",
             "expanded": false
           }
         },
-        "expandable_CEENJT": {
+        "expandable_kHzGBt": {
           "type": "expandable",
           "settings": {
             "heading": "Enter a descriptive title for this block",
@@ -859,7 +881,7 @@
             "expanded": false
           }
         },
-        "expandable_aeLyXm": {
+        "expandable_ADp9X9": {
           "type": "expandable",
           "settings": {
             "heading": "Enter a descriptive title for this block",
@@ -870,10 +892,9 @@
         }
       },
       "block_order": [
-        "expandable_bVnABj",
-        "expandable_nR9Kkt",
-        "expandable_CEENJT",
-        "expandable_aeLyXm"
+        "expandable_yEEXw8",
+        "expandable_kHzGBt",
+        "expandable_ADp9X9"
       ],
       "custom_css": [
         "* {color: #000000;}",
@@ -882,7 +903,7 @@
       ],
       "settings": {
         "narrow": true,
-        "heading": "Umwelt",
+        "heading": "Verarbeitung",
         "subheading": "",
         "heading_alignment": "left",
         "color_scheme": "background-1",
@@ -904,6 +925,7 @@
     "expandable_KxRhJV",
     "expandable_yHmbjf",
     "expandable_eECT76",
-    "expandable_zQJmPA"
+    "expandable_zQJmPA",
+    "expandable_BdGgfT"
   ]
 }
