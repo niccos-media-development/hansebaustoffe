@@ -787,12 +787,22 @@
             "text": "<p>📌 <strong>So funktioniert die Reklamation:</strong><br/>1️⃣ <strong>Auf unsere Homepage gehen</strong> 🌐<br/>2️⃣ <strong>Unten den Link zu \"Retoure & Reklamation\" auswählen</strong> 🔗<br/>3️⃣ <strong>Reklamation online anmelden</strong> 📝<br/>4️⃣ <strong>Wichtig:</strong> <strong>Fotos der beschädigten Ware</strong> machen und hochladen 📸</p><p>💡 <strong>Wir kümmern uns schnellstmöglich um Ihr Anliegen und finden eine Lösung!</strong> ✅📞</p>",
             "expanded": false
           }
+        },
+        "expandable_HrjpBV": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Kann ich auch unbeschädigte Ware retournieren?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Ja, auch unbeschädigte Ware kann retourniert werden.</strong></p><p>📌 <strong>Wichtig:</strong> Bitte melden Sie die Rücksendung <strong>ausschließlich über das Webformular \"Rücksendungen\"</strong> an.</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_LxUwKC",
         "expandable_zxkqMg",
-        "expandable_UqHnVn"
+        "expandable_UqHnVn",
+        "expandable_HrjpBV"
       ],
       "custom_css": [
         "* {color: #000000;}",
