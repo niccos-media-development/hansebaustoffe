@@ -757,6 +757,57 @@
         "spacing_top": 20,
         "spacing_bottom": 20
       }
+    },
+    "expandable_eECT76": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_LxUwKC": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie lange dauert die Bearbeitung bei Retouren?",
+            "icon": "arrow-right",
+            "text": "<p><strong>Wir versuchen Ihre Retouren schnellstmöglich zu bearbeiten. Innerhalb von 8 Werktagen erfolgt die Gutschrift.</strong> ✅💰</p>",
+            "expanded": false
+          }
+        },
+        "expandable_zxkqMg": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie erhalte ich die Rückerstattung?",
+            "icon": "arrow-right",
+            "text": "<p><strong>Die Rückerstattung wird automatisch über die ursprüngliche Zahlungsmethode abgewickelt, die Sie beim Kauf verwendet haben.</strong> ✅</p>",
+            "expanded": false
+          }
+        },
+        "expandable_UqHnVn": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_LxUwKC",
+        "expandable_zxkqMg",
+        "expandable_UqHnVn"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Reklamation",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
     }
   },
   "order": [
@@ -770,6 +821,7 @@
     "expandable_MQUfzD",
     "expandable_A4kH4n",
     "expandable_KxRhJV",
-    "expandable_yHmbjf"
+    "expandable_yHmbjf",
+    "expandable_eECT76"
   ]
 }
