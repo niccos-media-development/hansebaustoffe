@@ -460,7 +460,7 @@
         "heading_alignment": "left",
         "color_scheme": "background-1",
         "spacing_top": 20,
-        "spacing_bottom": 60
+        "spacing_bottom": 20
       }
     }
   },
