@@ -448,13 +448,18 @@
         "expandable_mF9YCy",
         "expandable_AddBHz"
       ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
       "settings": {
         "narrow": true,
         "heading": "Sonstige Produktdatenblätter",
         "subheading": "",
         "heading_alignment": "left",
         "color_scheme": "background-1",
-        "spacing_top": 60,
+        "spacing_top": 20,
         "spacing_bottom": 60
       }
     }
