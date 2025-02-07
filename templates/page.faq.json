@@ -925,6 +925,15 @@
             "text": "<p>❌ <strong>Nein, Blasen oder Falten sind kein technischer Mangel!</strong></p><p>📌 <strong>Warum entstehen Blasen?</strong><br/>🔹 Nach dem Verkleben der <strong>EPDM Folie</strong> können durch <strong>Restfeuchte oder Lösemittel im Kleber</strong> kleine Blasen entstehen.<br/>🔹 Diese beeinträchtigen <strong>weder die Haltbarkeit noch die Funktion</strong> der Abdichtung.</p><p>📌 <strong>Wichtige Hinweise:</strong><br/>🔹 <strong>Ablüftzeit des Klebers beachten!</strong> ⏳ – Eine unzureichende Ablüftung kann die Blasenbildung begünstigen.<br/>🔹 Blasen und Falten verschwinden in vielen Fällen mit der Zeit von selbst.<br/>🔹 Die Funktionalität der <strong>EPDM Folie bleibt vollständig erhalten</strong>.</p><p>💡 <strong>Blasen oder Falten sind ein rein optischer Effekt und kein Qualitätsmangel!</strong> ✅🔝</p>",
             "expanded": false
           }
+        },
+        "expandable_JpTKQW": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Warum muss die EPDM Folie fixiert werden?",
+            "icon": "arrow-right",
+            "text": "<p><strong>Die EPDM Folie muss gegen Windsog gesichert werden, um ein Ablösen zu verhindern.</strong></p><p>📌 <strong>Mögliche Fixierungsmethoden:</strong><br/>🔹 <strong>Verkleben</strong> – Vollflächig oder teilweise mit geeignetem EPDM-Kleber.<br/>🔹 <strong>Mechanische Befestigung</strong> – Mit speziellen Halteleisten oder Klemmschienen.<br/>🔹 <strong>Auflast aufbringen</strong> – Kies, Dachbegrünung oder Terrassenplatten als Beschwerung.</p><p>⚠ <strong>Nicht gesicherte Bereiche können sich lösen und beschädigt werden!</strong></p><p>💡 <strong>Eine ordnungsgemäße Fixierung sorgt für maximale Stabilität und Langlebigkeit Ihrer EPDM Dachabdichtung.</strong> ✅🔝</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -934,7 +943,8 @@
         "expandable_CwgXJb",
         "expandable_Degjr6",
         "expandable_VzWFDJ",
-        "expandable_ReBPGi"
+        "expandable_ReBPGi",
+        "expandable_JpTKQW"
       ],
       "custom_css": [
         "* {color: #000000;}",
