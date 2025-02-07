@@ -690,6 +690,15 @@
             "text": "<p>Die Verpackung richtet sich nach der <strong>Größe und Art der Ware</strong>, um einen sicheren Transport zu gewährleisten:</p><p>📌 <strong>Verpackungsarten:</strong><br/>🔹 <strong>Kleinere Bestellungen</strong> → Sicher verpackt in <strong>Karton</strong> 📦<br/>🔹 <strong>Größere Bestellungen</strong> → <strong>Auf einer Einwegpalette</strong> für stabilen Transport 🚛</p>",
             "expanded": false
           }
+        },
+        "expandable_JCCdAR": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Auf welchen Palettengrößen wird die Ware versendet?",
+            "icon": "arrow-right",
+            "text": "<p>Wir versenden die Ware in der Regel auf <strong>Einweg-Holzpaletten</strong> in folgenden Formaten:</p><p>📌 <strong>Palettengrößen:</strong><br/>🔹 <strong>Halbeuromaß:</strong> <strong>800 x 600 mm</strong> 📏<br/>🔹 <strong>Euromaß:</strong> <strong>1200 x 800 mm</strong> 📏</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -701,7 +710,8 @@
         "expandable_nVKYn3",
         "expandable_FfgVFp",
         "expandable_AA4ipB",
-        "expandable_aHGAgF"
+        "expandable_aHGAgF",
+        "expandable_JCCdAR"
       ],
       "custom_css": [
         "* {color: #000000;}",
