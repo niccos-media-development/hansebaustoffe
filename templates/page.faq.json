@@ -782,9 +782,9 @@
         "expandable_UqHnVn": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "globe",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "heading": "Wie gehe ich vor, wenn ich Ware reklamieren möchte?",
+            "icon": "arrow-right",
+            "text": "<p>📌 <strong>So funktioniert die Reklamation:</strong><br/>1️⃣ <strong>Auf unsere Homepage gehen</strong> 🌐<br/>2️⃣ <strong>Unten den Link zu \"Retoure & Reklamation\" auswählen</strong> 🔗<br/>3️⃣ <strong>Reklamation online anmelden</strong> 📝<br/>4️⃣ <strong>Wichtig:</strong> <strong>Fotos der beschädigten Ware</strong> machen und hochladen 📸</p><p>💡 <strong>Wir kümmern uns schnellstmöglich um Ihr Anliegen und finden eine Lösung!</strong> ✅📞</p>",
             "expanded": false
           }
         }
