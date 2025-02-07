@@ -699,6 +699,15 @@
             "text": "<p>Wir versenden die Ware in der Regel auf <strong>Einweg-Holzpaletten</strong> in folgenden Formaten:</p><p>📌 <strong>Palettengrößen:</strong><br/>🔹 <strong>Halbeuromaß:</strong> <strong>800 x 600 mm</strong> 📏<br/>🔹 <strong>Euromaß:</strong> <strong>1200 x 800 mm</strong> 📏</p>",
             "expanded": false
           }
+        },
+        "expandable_33rNHe": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wann ist die Ware versandfertig?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>In der Regel ist die Ware innerhalb von 2–3 Werktagen versandfertig.</strong></p><p>📌 <strong>Bitte beachten:</strong><br/>🔹 Die Bearbeitungszeit kann je nach <strong>Bestellvolumen und Produktverfügbarkeit</strong> leicht variieren.<br/>🔹 Sobald die Ware versandfertig ist, erhalten Sie eine <strong>Benachrichtigung per E-Mail</strong> mit weiteren Details zur Lieferung.</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -711,7 +720,8 @@
         "expandable_FfgVFp",
         "expandable_AA4ipB",
         "expandable_aHGAgF",
-        "expandable_JCCdAR"
+        "expandable_JCCdAR",
+        "expandable_33rNHe"
       ],
       "custom_css": [
         "* {color: #000000;}",
