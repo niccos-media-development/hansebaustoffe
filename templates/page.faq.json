@@ -622,9 +622,9 @@
         "expandable_LpA3jn": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Dürfen Lieferadresse und Rechnungsadresse unterschiedlich sein?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>✅ <strong>Ja!</strong> Während des Bestellprozesses können Sie <strong>eine abweichende Lieferadresse und Rechnungsadresse</strong> angeben.</p><p>📌 <strong>Wichtige Hinweise:</strong><br/>✔ <strong>Rechnungsadresse</strong> – Wird für die Zahlungsabwicklung verwendet.<br/>✔ <strong>Lieferadresse</strong> – Hierhin wird die Ware versendet.</p><p>💡 <strong>Achten Sie darauf, die korrekten Adressen einzugeben, um Verzögerungen bei der Lieferung zu vermeiden!</strong> ✅📧🚛</p>",
             "expanded": false
           }
         },
