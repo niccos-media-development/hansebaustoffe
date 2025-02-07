@@ -681,6 +681,15 @@
             "text": "<p>✅ <strong>In der Regel wird Ihre Ware zusammen versendet.</strong> Allerdings kann es vorkommen, dass die <strong>Spedition einzelne Packstücke trennt</strong>, wodurch eine <strong>Teillieferung</strong> entsteht.</p><p>📌 <strong>Was tun, wenn nicht alles angekommen ist?</strong><br/>🔹 Prüfen Sie die <strong>Sendungsverfolgung</strong> (Link in Ihrer Versandbestätigung).<br/>🔹 Falls nach kurzer Zeit keine weitere Lieferung erfolgt, <strong>kontaktieren Sie uns</strong> per E-Mail, Kontaktformular oder telefonisch – wir helfen Ihnen weiter!</p>",
             "expanded": false
           }
+        },
+        "expandable_aHGAgF": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie ist die Ware verpackt?",
+            "icon": "arrow-right",
+            "text": "<p>Die Verpackung richtet sich nach der <strong>Größe und Art der Ware</strong>, um einen sicheren Transport zu gewährleisten:</p><p>📌 <strong>Verpackungsarten:</strong><br/>🔹 <strong>Kleinere Bestellungen</strong> → Sicher verpackt in <strong>Karton</strong> 📦<br/>🔹 <strong>Größere Bestellungen</strong> → <strong>Auf einer Einwegpalette</strong> für stabilen Transport 🚛</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -691,7 +700,8 @@
         "expandable_eBKP3b",
         "expandable_nVKYn3",
         "expandable_FfgVFp",
-        "expandable_AA4ipB"
+        "expandable_AA4ipB",
+        "expandable_aHGAgF"
       ],
       "custom_css": [
         "* {color: #000000;}",
