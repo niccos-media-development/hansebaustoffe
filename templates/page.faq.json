@@ -916,6 +916,15 @@
             "text": "<p>✅ <strong>Laut Flachdachrichtlinie sind mindestens 2 % Dachneigung vorgeschrieben.</strong></p><p>📌 <strong>Wichtige Hinweise:</strong><br/>🔹 Eine <strong>Dachneigung von unter 2 %</strong> ist möglich, führt aber zu einer langsameren Wasserableitung.<br/>🔹 Die <strong>EPDM Folie wird dadurch nicht beschädigt oder vorzeitig abgenutzt</strong>.<br/>🔹 Eine <strong>ausreichende Entwässerung</strong> (z. B. Gullys oder Seitenabläufe) ist besonders wichtig.</p><p>💡 <strong>Die richtige Dachneigung sorgt für eine optimale Wasserableitung und schützt Ihr Flachdach langfristig!</strong> ✅🔝</p>",
             "expanded": false
           }
+        },
+        "expandable_ReBPGi": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Sind Blasen oder Falten ein technische Mangel?",
+            "icon": "arrow-right",
+            "text": "<p>❌ <strong>Nein, Blasen oder Falten sind kein technischer Mangel!</strong></p><p>📌 <strong>Warum entstehen Blasen?</strong><br/>🔹 Nach dem Verkleben der <strong>EPDM Folie</strong> können durch <strong>Restfeuchte oder Lösemittel im Kleber</strong> kleine Blasen entstehen.<br/>🔹 Diese beeinträchtigen <strong>weder die Haltbarkeit noch die Funktion</strong> der Abdichtung.</p><p>📌 <strong>Wichtige Hinweise:</strong><br/>🔹 <strong>Ablüftzeit des Klebers beachten!</strong> ⏳ – Eine unzureichende Ablüftung kann die Blasenbildung begünstigen.<br/>🔹 Blasen und Falten verschwinden in vielen Fällen mit der Zeit von selbst.<br/>🔹 Die Funktionalität der <strong>EPDM Folie bleibt vollständig erhalten</strong>.</p><p>💡 <strong>Blasen oder Falten sind ein rein optischer Effekt und kein Qualitätsmangel!</strong> ✅🔝</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -924,7 +933,8 @@
         "expandable_ADp9X9",
         "expandable_CwgXJb",
         "expandable_Degjr6",
-        "expandable_VzWFDJ"
+        "expandable_VzWFDJ",
+        "expandable_ReBPGi"
       ],
       "custom_css": [
         "* {color: #000000;}",
