@@ -610,6 +610,10 @@
     "1734509477da49f758": {
       "type": "apps",
       "blocks": {
+        "judge_me_reviews_review_widget_4h9PDQ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "gpsr_compliance_manager_gpsr_compliance_tjwfEp": {
           "type": "shopify://apps/gpsr-compliance-manager/blocks/gpsr_compliance/95919045-cab8-4d27-b921-7893479b8d28",
           "settings": {
@@ -633,6 +637,7 @@
         }
       },
       "block_order": [
+        "judge_me_reviews_review_widget_4h9PDQ",
         "gpsr_compliance_manager_gpsr_compliance_tjwfEp"
       ],
       "settings": {
