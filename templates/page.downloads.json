@@ -324,9 +324,27 @@
         "expandable_FW7Q4J": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Flachdachentlüfter",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Be-und-Entlueftung/HSS_Flachdachentluefter_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Be-und-Entlueftung/HSS_Flachdachentluefter_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_fCR3qh": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Entlüfteraufsatz",
+            "icon": "arrow-right",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Be-und-Entlueftung/HSS_Entfluefteraufsatz_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Be-und-Entlueftung/HSS_Entfluefteraufsatz_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_GG3zpi": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Kabeldurchführung",
+            "icon": "arrow-right",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Be-und-Entlueftung/HSS_Kabeldurchfuehrung_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Be-und-Entlueftung/HSS_Kabeldurchfuehrung_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
             "expanded": false
           }
         }
@@ -334,7 +352,14 @@
       "block_order": [
         "expandable_pf8Urk",
         "expandable_9VqAGi",
-        "expandable_FW7Q4J"
+        "expandable_FW7Q4J",
+        "expandable_fCR3qh",
+        "expandable_GG3zpi"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
       ],
       "settings": {
         "narrow": true,
