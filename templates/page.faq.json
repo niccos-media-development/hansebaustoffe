@@ -636,12 +636,22 @@
             "text": "<p>✅ <strong>Ja, aber nur solange die Lieferung noch nicht bei der Spedition angemeldet wurde.</strong></p><p>📌 <strong>So funktioniert die Adressänderung:</strong><br/>1️⃣ <strong>Kontaktieren Sie uns schnellstmöglich</strong> per 📧 E-Mail, 📞 Telefon oder über das Kontaktformular.<br/>2️⃣ Wir prüfen, ob die Änderung noch möglich ist.<br/>3️⃣ Falls die Spedition bereits beauftragt wurde, kann eine Änderung leider nicht mehr vorgenommen werden.</p>",
             "expanded": false
           }
+        },
+        "expandable_FfbreQ": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie lange dauert die Lieferung?",
+            "icon": "arrow-right",
+            "text": "<p>📌 <strong>Lieferzeiten im Überblick:</strong><br/>✅ <strong>Deutschland:</strong> ca. <strong>5 – 7 Werktage</strong> 📅<br/>✅ <strong>International:</strong> Die Lieferzeit <strong>außerhalb Deutschlands kann variieren</strong> – bitte kontaktieren Sie uns für genauere Informationen.</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_rgCwUX",
         "expandable_LpA3jn",
-        "expandable_9Mzi8z"
+        "expandable_9Mzi8z",
+        "expandable_FfbreQ"
       ],
       "custom_css": [
         "* {color: #000000;}",

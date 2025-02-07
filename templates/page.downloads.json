@@ -411,6 +411,52 @@
         "spacing_top": 60,
         "spacing_bottom": 60
       }
+    },
+    "expandable_XkGVxM": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_fzAeC8": {
+          "type": "expandable",
+          "settings": {
+            "heading": "HSS Universal Flachdach PV-Halter",
+            "icon": "arrow-right",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/PV-Halter/HSS_PVHalter_Produktdatenblatt_Verarbeitungshinweise.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/PV-Halter/HSS_PVHalter_Produktdatenblatt_Verarbeitungshinweise.pdf\">Produktdatenblatt.</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_mF9YCy": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wartungsweg",
+            "icon": "gift-wrap",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Wartungsweg/HSS_Wartungsweg_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Wartungsweg/HSS_Wartungsweg_Produktdatenblatt.pdf\">Produktdatenblätter</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_AddBHz": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wandanschlussprofil",
+            "icon": "arrow-right",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Wandanschlussprofil_DP43/HSS_Wandanschlussprofil_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Wandanschlussprofil_DP43/HSS_Wandanschlussprofil_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_fzAeC8",
+        "expandable_mF9YCy",
+        "expandable_AddBHz"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Sonstige Produktdatenblätter",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
     }
   },
   "order": [
@@ -420,6 +466,7 @@
     "expandable_rEXy7m",
     "expandable_ngJaAd",
     "expandable_dcKPN6",
-    "expandable_c89qyh"
+    "expandable_c89qyh",
+    "expandable_XkGVxM"
   ]
 }
