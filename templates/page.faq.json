@@ -952,6 +952,24 @@
             "text": "<p>📌 <strong>Je nach Aushärtungsgrad gibt es verschiedene Methoden:</strong></p><p>🔹 <strong>Frischer BlueTek Kleber</strong> – Kann <strong>einfach mit Wasser abgespült</strong> werden. 💦<br/>🔹 <strong>Ausgehärteter BlueTek Kleber</strong> – Muss <strong>mechanisch entfernt oder mit Aceton bzw. ähnlichen Reinigungsmitteln</strong> gelöst werden. ⚠</p><p>⚠ <strong>Achtung:</strong> Lösungsmittel können den Untergrund angreifen – vorab prüfen!</p>",
             "expanded": false
           }
+        },
+        "expandable_pRNhBB": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie trage ich den Flächenkleber BlueTek auf?",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_wqaR9F": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie funktioniert das Kontaktklebeverfahren?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Beim Kontaktklebeverfahren erfolgt ein beidseitiger Anstrich</strong> – sowohl auf der <strong>EPDM Folie als auch auf dem Untergrund</strong>.</p><p>📌 <strong>Schritt-für-Schritt-Anleitung:</strong></p><p>1️⃣ <strong>Beidseitig auftragen</strong> – Kleber mit einer <strong>Kurzflor-Walze</strong> auf die EPDM Folie & den Untergrund aufbringen.<br/><br/>2️⃣ <strong>Ablüftzeit beachten</strong> – Der Kleber muss vollständig ablüften. <strong>Erkennbar daran, dass er transparent wird.</strong> ⏳<br/><br/>3️⃣ <strong>Folie auflegen & anpressen</strong> – Die EPDM Folie vorsichtig in die Klebefläche legen.<br/><br/>4️⃣ <strong>Falten & Blasen ausstreichen</strong> – Mit einem <strong>weichen Besen</strong> von der Mitte nach außen glätten. 🧹</p><p>📌 <strong>Geeignet für:</strong><br/>🔹 Alle <strong>tragfähigen, glatten Untergründe</strong> wie Holz, Beton oder Metall.</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -964,7 +982,9 @@
         "expandable_ReBPGi",
         "expandable_JpTKQW",
         "expandable_DNcVVF",
-        "expandable_LztEDq"
+        "expandable_LztEDq",
+        "expandable_pRNhBB",
+        "expandable_wqaR9F"
       ],
       "custom_css": [
         "* {color: #000000;}",
