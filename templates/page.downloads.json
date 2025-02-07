@@ -197,7 +197,7 @@
           "settings": {
             "heading": "Garantie Gully",
             "icon": "arrow-right",
-            "text": "<h4>Allgemein</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
             "expanded": false
           }
         },
