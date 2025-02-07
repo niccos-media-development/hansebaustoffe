@@ -708,6 +708,15 @@
             "text": "<p>✅ <strong>In der Regel ist die Ware innerhalb von 2–3 Werktagen versandfertig.</strong></p><p>📌 <strong>Bitte beachten:</strong><br/>🔹 Die Bearbeitungszeit kann je nach <strong>Bestellvolumen und Produktverfügbarkeit</strong> leicht variieren.<br/>🔹 Sobald die Ware versandfertig ist, erhalten Sie eine <strong>Benachrichtigung per E-Mail</strong> mit weiteren Details zur Lieferung.</p>",
             "expanded": false
           }
+        },
+        "expandable_qtX4cw": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Muss ich Versandkosten zahlen?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Ja, Versandkosten fallen grundsätzlich an.</strong> Die Höhe der Kosten hängt von der Kundengruppe und dem Bestellwert ab.</p><p>📌 <strong>Versandkostenregelung:</strong><br/>🔹 <strong>Gewerbetreibende:</strong> Zahlen immer Versandkosten.<br/>🔹 <strong>Privatkunden:</strong> Ab einem <strong>Bestellwert von 3.000,00 EUR</strong> ist der Versand <strong>kostenfrei</strong>.</p><p>💡 <strong>Genauere Informationen zu den Versandkosten finden Sie in unseren Lieferbedingungen!</strong> ✅📦</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -721,7 +730,8 @@
         "expandable_AA4ipB",
         "expandable_aHGAgF",
         "expandable_JCCdAR",
-        "expandable_33rNHe"
+        "expandable_33rNHe",
+        "expandable_qtX4cw"
       ],
       "custom_css": [
         "* {color: #000000;}",
