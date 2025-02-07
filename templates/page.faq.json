@@ -615,7 +615,7 @@
           "settings": {
             "heading": "In welche Länder wird geliefert?",
             "icon": "arrow-right",
-            "text": "<p>📌 <strong>Standard-Liefergebiete:</strong><br/>✅ <strong>Deutschland</strong> 🇩🇪<br/>✅ <strong>Angrenzendes europäisches Ausland</strong> (außer <strong>Frankreich</strong> 🇫🇷)</p><p>📌 <strong>Andere Lieferländer:</strong><br/>❓ <strong>Möchten Sie in ein anderes Land liefern lassen?</strong> Kein Problem! Kontaktieren Sie uns einfach – wir prüfen die Möglichkeiten und machen Ihnen ein individuelles Angebot.</p>",
+            "text": "<p>📌 <strong>Standard-Liefergebiete:</strong><br/>✅ <strong>Deutschland</strong><br/>✅ <strong>Angrenzendes europäisches Ausland</strong> (außer <strong>Frankreich</strong>)</p><p>📌 <strong>Andere Lieferländer:</strong><br/>❓ <strong>Möchten Sie in ein anderes Land liefern lassen?</strong> Kein Problem! Kontaktieren Sie uns einfach – wir prüfen die Möglichkeiten und machen Ihnen ein individuelles Angebot.</p>",
             "expanded": false
           }
         },
