@@ -898,13 +898,23 @@
             "text": "<p><strong>Ja, unsere EPDM Folien sind begehbar!</strong></p><p>📌 <strong>Wichtige Hinweise zur Begehbarkeit:</strong><br/>🔹 <strong>Vermeiden Sie spitze oder scharfkantige Gegenstände</strong>, um Beschädigungen zu verhindern.<br/>🔹 <strong>Für häufige Begehung</strong> sollten <strong>Laufmatten oder Schutzbeläge</strong> verwendet werden.</p>",
             "expanded": false
           }
+        },
+        "expandable_Degjr6": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Sind EPDM Planen und Nahtverbindungen sicher gegen Rotalgen?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Ja! EPDM Folien und Nahtverbindungen sind sicher gegen Rotalgen</strong> und zeigen <strong>keine nennenswerten Reaktionen</strong> auf diese.</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
         "expandable_yEEXw8",
         "expandable_kHzGBt",
         "expandable_ADp9X9",
-        "expandable_CwgXJb"
+        "expandable_CwgXJb",
+        "expandable_Degjr6"
       ],
       "custom_css": [
         "* {color: #000000;}",
