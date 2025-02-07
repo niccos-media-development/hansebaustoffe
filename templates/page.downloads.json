@@ -62,7 +62,7 @@
         "heading": "EPDM Folie",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "accent-3",
+        "color_scheme": "accent-2",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -133,7 +133,7 @@
         "heading": "Kleb- & Dichtstoffe",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "accent-3",
+        "color_scheme": "accent-2",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -184,7 +184,7 @@
         "heading": "EPDM Zubehör",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "accent-3",
+        "color_scheme": "accent-2",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -195,27 +195,36 @@
         "expandable_DpjHb6": {
           "type": "expandable",
           "settings": {
-            "heading": "Garantie Gully/ Seitenablauf/ Seitennotablauf",
+            "heading": "Garantie Gully",
             "icon": "arrow-right",
-            "text": "<h4>Gully</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "text": "<h4>Allgemein</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
             "expanded": false
           }
         },
         "expandable_n6HeWY": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Garantie Seitennotablauf",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Seitennotablauf_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Seitennotablauf_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
             "expanded": false
           }
         },
         "expandable_F4pxDn": {
           "type": "expandable",
           "settings": {
-            "heading": "",
+            "heading": "Garantie Seitenablauf",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>Produktdatenblatt</p>",
+            "expanded": false
+          }
+        },
+        "expandable_t9qTAH": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Garantie Sanierungs Gullly",
+            "icon": "arrow-right",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Sanierungsgully_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Sanierungsgully_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
             "expanded": false
           }
         }
@@ -223,7 +232,8 @@
       "block_order": [
         "expandable_DpjHb6",
         "expandable_n6HeWY",
-        "expandable_F4pxDn"
+        "expandable_F4pxDn",
+        "expandable_t9qTAH"
       ],
       "custom_css": [
         "* {color: #000000;}",
@@ -235,7 +245,7 @@
         "heading": "Entwässerung",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "accent-3",
+        "color_scheme": "accent-2",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
