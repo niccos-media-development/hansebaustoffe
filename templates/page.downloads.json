@@ -91,8 +91,17 @@
         "expandable_BML8fN": {
           "type": "expandable",
           "settings": {
-            "heading": "",
+            "heading": "Anschlusskleber Flex",
             "icon": "globe",
+            "text": "",
+            "expanded": false
+          }
+        },
+        "expandable_pG7VMd": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Flächenkleber Speedcat",
+            "icon": "",
             "text": "",
             "expanded": false
           }
@@ -101,7 +110,8 @@
       "block_order": [
         "expandable_NYmAtV",
         "expandable_D4dmrg",
-        "expandable_BML8fN"
+        "expandable_BML8fN",
+        "expandable_pG7VMd"
       ],
       "custom_css": [
         "* {color: #000000;}",
