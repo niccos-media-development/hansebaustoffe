@@ -800,7 +800,7 @@
         "expandable_cVVNgB": {
           "type": "expandable",
           "settings": {
-            "heading": "Wie melde ich eine Rücksendung an?",
+            "heading": "Wie melde ich eine Rücksendungen an?",
             "icon": "arrow-right",
             "text": "<p>1️⃣ <strong>Auf unsere Homepage gehen</strong> 🌐<br/>2️⃣ <strong>Auf \"Rücksendung & Reklamation\" klicken</strong> 🔗<br/>3️⃣ <strong>Rücksendung online anmelden & Ware an uns zurücksenden</strong> 📦</p><p>📌 <strong>Wichtig:</strong><br/>🔹 <strong>Legen Sie immer ein Formular, eine Rechnung oder einen Lieferschein bei</strong>, damit wir die Retoure eindeutig zuordnen können.</p><p>💡 <strong>Ohne diese Dokumente kann die Rücksendung nicht bearbeitet werden!</strong> ✅📞</p>",
             "expanded": false
