@@ -943,6 +943,15 @@
             "text": "<p><strong>Wir empfehlen, die EPDM Folie stets zu verkleben</strong> für eine sichere und langlebige Abdichtung.</p><p>📌 <strong>Alternativ sind folgende Fixierungsmethoden möglich:</strong><br/>🔹 <strong>Verkleben</strong> – Vollflächig oder teilflächig mit EPDM-Kleber für maximale Haftung.<br/>🔹 <strong>Mechanische Befestigung</strong> – Mit Halteleisten oder Klemmschienen für bestimmte Untergründe.</p><p>📖 <strong>Weitere Details und Anleitungen finden Sie in unserem Handbuch für Dachaufbauten.</strong></p>",
             "expanded": false
           }
+        },
+        "expandable_LztEDq": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie bekomme ich den Flächenkleber BlueTek wieder gelöst?",
+            "icon": "arrow-right",
+            "text": "<p>📌 <strong>Je nach Aushärtungsgrad gibt es verschiedene Methoden:</strong></p><p>🔹 <strong>Frischer BlueTek Kleber</strong> – Kann <strong>einfach mit Wasser abgespült</strong> werden. 💦<br/>🔹 <strong>Ausgehärteter BlueTek Kleber</strong> – Muss <strong>mechanisch entfernt oder mit Aceton bzw. ähnlichen Reinigungsmitteln</strong> gelöst werden. ⚠</p><p>⚠ <strong>Achtung:</strong> Lösungsmittel können den Untergrund angreifen – vorab prüfen!</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -954,7 +963,8 @@
         "expandable_VzWFDJ",
         "expandable_ReBPGi",
         "expandable_JpTKQW",
-        "expandable_DNcVVF"
+        "expandable_DNcVVF",
+        "expandable_LztEDq"
       ],
       "custom_css": [
         "* {color: #000000;}",
