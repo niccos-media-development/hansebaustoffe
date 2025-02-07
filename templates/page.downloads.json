@@ -62,7 +62,7 @@
         "heading": "EPDM Folie",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-3",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -83,7 +83,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Kontaktkleber Spraybond",
-            "icon": "gift-wrap",
+            "icon": "arrow-right",
             "text": "<h4><strong>Allgemein</strong></h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Spraybond/HSS_Flaechenkleber_SprayBond_Produktdatenblatt.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Spraybond/HSS_Flaechenkleber_SprayBond_Produktdatenblatt.pdf\">Produktdatenblatt</a></p><h4><strong>Verarbeitungs- und Sicherheitshinweise</strong></h4><p><a href=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/SprayBond_Sicherheitsdatenblatt_HB.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/SprayBond_Sicherheitsdatenblatt_HB.pdf\">Sicherheitsdatenblatt 750ml Deutsch</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/SprayBond_safty_data_sheet_HB.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/SprayBond_safty_data_sheet_HB.pdf\">Safety Data Sheet 750ml English</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Flaechenkleber_SprayBond100_Sicherheitsdatenblatt_HB.pdf\" title=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Flaechenkleber_SprayBond100_Sicherheitsdatenblatt_HB.pdf\">Sicherheitsdatenblatt 17l Deutsch</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/SprayBond100_SDS_HB.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/SprayBond100_SDS_HB.pdf\">Safety Data Sheet 17l English</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Baudicht/Verarbeitungshinweise/Flaechenkleber_SprayBond_Verarbeitungshinweise_Informationsblatt_BAUDICHT.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Baudicht/Verarbeitungshinweise/Flaechenkleber_SprayBond_Verarbeitungshinweise_Informationsblatt_BAUDICHT.pdf\">Verarbeitungshinweise 750ml</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Baudicht/Verarbeitungshinweise/Flaechenkleber_SprayBond100_Verarbeitungshinweise_Informationsblatt_BAUDICHT.pdf\" target=\"_blank\" title=\"https://www.hanse-baustoffe.de/download/Baudicht/Verarbeitungshinweise/Flaechenkleber_SprayBond100_Verarbeitungshinweise_Informationsblatt_BAUDICHT.pdf\">Verarbeitungshinweise 17l</a></p>",
             "expanded": false
           }
@@ -92,7 +92,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Anschlusskleber Flex",
-            "icon": "globe",
+            "icon": "arrow-right",
             "text": "<h4>Allgemein</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Anschlusskleber_FLEX/HSS_Anschlusskleber_FLEX_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Anschlusskleber_FLEX/HSS_Anschlusskleber_FLEX_Produktdatenblatt.pdf\">Produktdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Anschlusskleber_FLEX_Sicherheitsdatenblatt_HB.pdf\" title=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Anschlusskleber_FLEX_Sicherheitsdatenblatt_HB.pdf\">Sicherheitsdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Anschlusskleber_FLEX_SDS_HB.pdf\" title=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Anschlusskleber_FLEX_SDS_HB.pdf\">Safety Data Sheet</a></p>",
             "expanded": false
           }
@@ -101,7 +101,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Flächenkleber Speedcat",
-            "icon": "",
+            "icon": "arrow-right",
             "text": "<h4>Allgemein</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/SPEEDCAT/HSS_Flaechenkleber_SPEEDCAT_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/SPEEDCAT/HSS_Flaechenkleber_SPEEDCAT_Produktdatenblatt.pdf\">Produktdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Flaechenkleber_SPEEDCAT_Sicherheitsdatenblatt_HB.pdf\" title=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Flaechenkleber_SPEEDCAT_Sicherheitsdatenblatt_HB.pdf\">Sicherheitsdatenblatt</a></p><p>Safety Data Sheet</p>",
             "expanded": false
           }
@@ -110,8 +110,8 @@
           "type": "expandable",
           "settings": {
             "heading": "Doppelseitiges Dichtband Microsealant",
-            "icon": "",
-            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Dichtband/HSS_Doppelseitiges_Dichtband_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Dichtband/HSS_Doppelseitiges_Dichtband_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "icon": "arrow-right",
+            "text": "<h4>Allgemein</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Dichtband/HSS_Doppelseitiges_Dichtband_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Klebstoffe/Dichtband/HSS_Doppelseitiges_Dichtband_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
             "expanded": false
           }
         }
@@ -133,15 +133,109 @@
         "heading": "Kleb- & Dichtstoffe",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-3",
         "spacing_top": 20,
         "spacing_bottom": 20
+      }
+    },
+    "expandable_rEXy7m": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_ihG3F4": {
+          "type": "expandable",
+          "settings": {
+            "heading": "EPDM Aktivierung",
+            "icon": "arrow-right",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Aktivierung/Aktivierung_Produktdatenblatt_DACHPROTECT.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Aktivierung/Aktivierung_Produktdatenblatt_DACHPROTECT.pdf\">Produktdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Aktivierung_Sicherheitsdatenblatt_HB.pdf\" title=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Aktivierung_Sicherheitsdatenblatt_HB.pdf\">Sicherheitsdatenblatt</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Aktivierung_SDS_HB.pdf\" title=\"https://www.hanse-baustoffe.de/download/Sicherheitsdatenblaetter/Aktivierung_SDS_HB.pdf\">Safety Data Sheet</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_gFcwXw": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Nahtband und Nahtabdeckband",
+            "icon": "arrow-right",
+            "text": "<h4>Nahtband</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Nahtband/HSS_Nahtband_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Nahtband/HSS_Nahtband_Produktdatenblatt.pdf\">Produktdatenblatt Schwarz</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Nahtband/HSS_Nahtband_weiss_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Nahtband/HSS_Nahtband_weiss_Produktdatenblatt.pdf\">Produktdatenblatt Weiß</a></p><h4>Form-/Nahtabdeckband</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Formband_Nahtabdeckband/Formband_Nahtabdeckband_Produktdatenblatt_DACHPROTECT_BAUDICHT_AGRARFLEX.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Formband_Nahtabdeckband/Formband_Nahtabdeckband_Produktdatenblatt_DACHPROTECT_BAUDICHT_AGRARFLEX.pdf\">Produktdatenblatt Schwarz</a></p><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Formband_Nahtabdeckband/HSS_Formband_Nahtabdeckband_weiss_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Formband_Nahtabdeckband/HSS_Formband_Nahtabdeckband_weiss_Produktdatenblatt.pdf\">Produktdatenblatt Weiß</a></p><p></p><h4></h4><p></p><p></p>",
+            "expanded": false
+          }
+        },
+        "expandable_7MAYdd": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Rohrmanschetten/ Randfixierstreifen",
+            "icon": "arrow-right",
+            "text": "<h4>Rohrmanschette</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Rohrmanschette/HSS_Rohrmanschette_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Rohrmanschette/HSS_Rohrmanschette_Produktdatenblatt.pdf\">Produktdatenblatt</a></p><p></p><h4>Randfixierstreifen</h4><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Randfixierstreifen/HSS_Randfixierstreifen_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Randfixierstreifen/HSS_Randfixierstreifen_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_ihG3F4",
+        "expandable_gFcwXw",
+        "expandable_7MAYdd"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "EPDM Zubehör",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "accent-3",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "expandable_ngJaAd": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_DpjHb6": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Garantie Gully/ Seitenablauf/ Seitennotablauf",
+            "icon": "arrow-right",
+            "text": "<p></p><p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/Dachgully/HSS_Garantie-Gully_Produktdatenblatt.pdf\">Produktdatenblatt</a></p>",
+            "expanded": false
+          }
+        },
+        "expandable_n6HeWY": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_F4pxDn": {
+          "type": "expandable",
+          "settings": {
+            "heading": "",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_DpjHb6",
+        "expandable_n6HeWY",
+        "expandable_F4pxDn"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Entwässerung",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "accent-3",
+        "spacing_top": 60,
+        "spacing_bottom": 60
       }
     }
   },
   "order": [
     "main",
     "expandable_wafwXA",
-    "expandable_BQbE8F"
+    "expandable_BQbE8F",
+    "expandable_rEXy7m",
+    "expandable_ngJaAd"
   ]
 }

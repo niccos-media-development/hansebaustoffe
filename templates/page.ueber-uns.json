@@ -187,7 +187,7 @@
             "title": "",
             "heading_size": "md",
             "description": "",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "button_text": "Button label",
             "button_link": "",
             "button_type_link": false,
@@ -248,14 +248,14 @@
           "type": "promo_card",
           "settings": {
             "image": "shopify://shop_images/Kategorieteaser_Unsere_Shops_390x175px.jpg",
-            "block_bg": "#fff",
+            "block_bg": "#ffffff",
             "subtitle": "Social Media",
             "subtitle_color": "#ffaa32",
             "title": "@hssdachreperatur",
             "title_color": "#ffaa32",
             "button_text": "Zum Instagramprofil",
             "button_link": "https://www.instagram.com/hssdachreparatur/",
-            "button_text_color": "#000000",
+            "button_text_color": "#ffffff",
             "button_bg_color": "#ffaa32"
           }
         },
@@ -263,14 +263,14 @@
           "type": "promo_card",
           "settings": {
             "image": "shopify://shop_images/Kategorieteaser_Unsere_Shops_390x175px.jpg",
-            "block_bg": "#fff",
+            "block_bg": "#ffffff",
             "subtitle": "Social Media",
             "subtitle_color": "#ffaa32",
             "title": "@hanse_syntec_systems",
             "title_color": "#ffaa32",
             "button_text": "Zum Instagramprofil",
             "button_link": "https://www.instagram.com/hanse_syntec_systems/",
-            "button_text_color": "#000",
+            "button_text_color": "#ffffff",
             "button_bg_color": "#ffaa32"
           }
         },
@@ -278,14 +278,14 @@
           "type": "promo_card",
           "settings": {
             "image": "shopify://shop_images/Kategorieteaser_Unsere_Shops_390x175px.jpg",
-            "block_bg": "#fff",
+            "block_bg": "#ffffff",
             "subtitle": "Social Media",
             "subtitle_color": "#ffaa32",
             "title": "@expressdach",
             "title_color": "#ffaa32",
             "button_text": "Zum Instagramprofil",
             "button_link": "",
-            "button_text_color": "#000000",
+            "button_text_color": "#ffffff",
             "button_bg_color": "#ffaa32"
           }
         }
