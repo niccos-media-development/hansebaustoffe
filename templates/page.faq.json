@@ -654,6 +654,15 @@
             "text": "<p>Sollte Ihre Ware <strong>beschädigt</strong> bei Ihnen ankommen, gehen Sie bitte wie folgt vor:</p><p>📌 <strong>Schritte zur Reklamation:</strong><br/>1️⃣ <strong>Fotos machen</strong> 📸 – Dokumentieren Sie den Zustand der beschädigten Ware.<br/><br/>2️⃣ <strong>Kontaktformular für Rücksendung/Reklamationen nutzen</strong> 📝 – Melden Sie den Schaden umgehend.<br/><br/>3️⃣ <strong>Uns kontaktieren</strong> 📧📞 – Wir helfen Ihnen schnellstmöglich weiter und klären das weitere Vorgehen.</p>",
             "expanded": false
           }
+        },
+        "expandable_nVKYn3": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Kann ich meine Bestellung an ein Paketshop liefern lassen?",
+            "icon": "arrow-right",
+            "text": "<p>❌ <strong>Nein, eine Lieferung an ein Paketshop ist nicht möglich.</strong></p><p>📌 <strong>Grund:</strong> Aufgrund der <strong>abweichenden Größen und Gewichte</strong> unserer Produkte kann die Ware <strong>nicht direkt an ein Paketshop</strong> versendet werden.</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -661,7 +670,8 @@
         "expandable_LpA3jn",
         "expandable_9Mzi8z",
         "expandable_FfbreQ",
-        "expandable_eBKP3b"
+        "expandable_eBKP3b",
+        "expandable_nVKYn3"
       ],
       "custom_css": [
         "* {color: #000000;}",
