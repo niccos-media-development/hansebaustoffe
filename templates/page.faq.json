@@ -970,6 +970,15 @@
             "text": "<p>✅ <strong>Beim Kontaktklebeverfahren erfolgt ein beidseitiger Anstrich</strong> – sowohl auf der <strong>EPDM Folie als auch auf dem Untergrund</strong>.</p><p>📌 <strong>Schritt-für-Schritt-Anleitung:</strong></p><p>1️⃣ <strong>Beidseitig auftragen</strong> – Kleber mit einer <strong>Kurzflor-Walze</strong> auf die EPDM Folie & den Untergrund aufbringen.<br/><br/>2️⃣ <strong>Ablüftzeit beachten</strong> – Der Kleber muss vollständig ablüften. <strong>Erkennbar daran, dass er transparent wird.</strong> ⏳<br/><br/>3️⃣ <strong>Folie auflegen & anpressen</strong> – Die EPDM Folie vorsichtig in die Klebefläche legen.<br/><br/>4️⃣ <strong>Falten & Blasen ausstreichen</strong> – Mit einem <strong>weichen Besen</strong> von der Mitte nach außen glätten. 🧹</p><p>📌 <strong>Geeignet für:</strong><br/>🔹 Alle <strong>tragfähigen, glatten Untergründe</strong> wie Holz, Beton oder Metall.</p>",
             "expanded": false
           }
+        },
+        "expandable_FXc3Ua": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie funktioniert das Nassklebeverfahren?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Beim Nassklebeverfahren wird der Kleber einseitig auf den Untergrund aufgetragen.</strong></p><p>📌 <strong>Schritt-für-Schritt-Anleitung:</strong></p><p>1️⃣ <strong>Untergrund vorbereiten</strong> – Er muss <strong>trocken, sauber und diffusionsfähig</strong> sein.<br/><br/>2️⃣ <strong>Kleber einseitig auftragen</strong> – Mit einer <strong>Kurzflor-Walze</strong> den gesamten Untergrund gleichmäßig bestreichen.<br/><br/>3️⃣ <strong>EPDM Folie auflegen</strong> – Direkt auf den noch <strong>nassen Kleber</strong> platzieren.<br/><br/>4️⃣ <strong>Blasen & Falten ausstreichen</strong> – Mit einem <strong>weichen Besen</strong> von der Mitte nach außen glätten. 🧹</p><p>📌 <strong>Geeignet für:</strong><br/>🔹 <strong>Nur für diffusionsfähige Untergründe</strong> (z. B. <strong>Holz</strong>), da der Kleber über den Untergrund austrocknen muss.<br/>🔹 <strong>Ideal für große Flächen</strong>, da die frisch geklebte Fläche <strong>sofort begehbar</strong> ist.</p><p>💡 <strong>Das Nassklebeverfahren sorgt für eine schnelle und sichere Verklebung auf geeigneten Untergründen!</strong> ✅🔝</p>",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -984,7 +993,8 @@
         "expandable_DNcVVF",
         "expandable_LztEDq",
         "expandable_pRNhBB",
-        "expandable_wqaR9F"
+        "expandable_wqaR9F",
+        "expandable_FXc3Ua"
       ],
       "custom_css": [
         "* {color: #000000;}",
