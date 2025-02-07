@@ -828,6 +828,67 @@
         "spacing_top": 20,
         "spacing_bottom": 20
       }
+    },
+    "expandable_zQJmPA": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_bVnABj": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Sind unsere Produkte umweltfreundlich?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Ja! EPDM Produkte sind unbedenklich und haben eine hervorragende Ökobilanz.</strong></p><p>📌 <strong>Warum ist EPDM nachhaltig?</strong><br/>🔹 <strong>Langlebig</strong> – Mit über <strong>50 Jahren Haltbarkeit</strong> reduziert es Abfall und Materialverbrauch.<br/>🔹 <strong>Recyclingfähig</strong> – Kann wiederverwertet werden.<br/>🔹 <strong>Frei von Schadstoffen</strong> – Keine Weichmacher oder giftigen Inhaltsstoffe.</p><p>📎 <strong>Weitere Hinweise zur Nachhaltigkeit finden Sie unter:</strong><br/>👉 <strong>\"Über uns\" &gt; \"Nachhaltigkeit\"</strong> 🌍♻️</p>",
+            "expanded": false
+          }
+        },
+        "expandable_nR9Kkt": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "document",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_CEENJT": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_aeLyXm": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_bVnABj",
+        "expandable_nR9Kkt",
+        "expandable_CEENJT",
+        "expandable_aeLyXm"
+      ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Umwelt",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
     }
   },
   "order": [
@@ -842,6 +903,7 @@
     "expandable_A4kH4n",
     "expandable_KxRhJV",
     "expandable_yHmbjf",
-    "expandable_eECT76"
+    "expandable_eECT76",
+    "expandable_zQJmPA"
   ]
 }
