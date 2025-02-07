@@ -28,7 +28,7 @@
             "heading": "",
             "heading_size": "md",
             "subheading": "",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "box_align": "bottom-left",
             "content_width": 60,
             "button_label": "",
@@ -613,9 +613,9 @@
         "expandable_rgCwUX": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "In welche Länder wird geliefert?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "<p>📌 <strong>Standard-Liefergebiete:</strong><br/>✅ <strong>Deutschland</strong> 🇩🇪<br/>✅ <strong>Angrenzendes europäisches Ausland</strong> (außer <strong>Frankreich</strong> 🇫🇷)</p><p>📌 <strong>Andere Lieferländer:</strong><br/>❓ <strong>Möchten Sie in ein anderes Land liefern lassen?</strong> Kein Problem! Kontaktieren Sie uns einfach – wir prüfen die Möglichkeiten und machen Ihnen ein individuelles Angebot.</p>",
             "expanded": false
           }
         },
