@@ -902,9 +902,18 @@
         "expandable_Degjr6": {
           "type": "expandable",
           "settings": {
-            "heading": "Sind EPDM Planen und Nahtverbindungen sicher gegen Rotalgen?",
+            "heading": "Sind EPDM Folien und Nahtverbindungen sicher gegen Rotalgen?",
             "icon": "arrow-right",
             "text": "<p>✅ <strong>Ja! EPDM Folien und Nahtverbindungen sind sicher gegen Rotalgen</strong> und zeigen <strong>keine nennenswerten Reaktionen</strong> auf diese.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_VzWFDJ": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie groß muss die Dachneigung eines Flachdaches sein?",
+            "icon": "arrow-right",
+            "text": "<p>✅ <strong>Laut Flachdachrichtlinie sind mindestens 2 % Dachneigung vorgeschrieben.</strong></p><p>📌 <strong>Wichtige Hinweise:</strong><br/>🔹 Eine <strong>Dachneigung von unter 2 %</strong> ist möglich, führt aber zu einer langsameren Wasserableitung.<br/>🔹 Die <strong>EPDM Folie wird dadurch nicht beschädigt oder vorzeitig abgenutzt</strong>.<br/>🔹 Eine <strong>ausreichende Entwässerung</strong> (z. B. Gullys oder Seitenabläufe) ist besonders wichtig.</p><p>💡 <strong>Die richtige Dachneigung sorgt für eine optimale Wasserableitung und schützt Ihr Flachdach langfristig!</strong> ✅🔝</p>",
             "expanded": false
           }
         }
@@ -914,7 +923,8 @@
         "expandable_kHzGBt",
         "expandable_ADp9X9",
         "expandable_CwgXJb",
-        "expandable_Degjr6"
+        "expandable_Degjr6",
+        "expandable_VzWFDJ"
       ],
       "custom_css": [
         "* {color: #000000;}",
