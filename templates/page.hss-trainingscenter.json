@@ -247,36 +247,12 @@
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
-        },
-        "slide_bB6TUr": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Teaser_Trainingscenter_2_1400x465px.jpg",
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#ffffff",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
         }
       },
       "block_order": [
         "slide_YR9PgE",
         "slide_GhAy6y",
-        "slide_ahM6tp",
-        "slide_bB6TUr"
+        "slide_ahM6tp"
       ],
       "settings": {
         "full_width": true,
