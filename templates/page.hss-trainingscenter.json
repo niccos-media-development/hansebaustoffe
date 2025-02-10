@@ -360,6 +360,9 @@
         "column_TzHqr4",
         "column_JF4mwG"
       ],
+      "custom_css": [
+        "* {color: white;}"
+      ],
       "settings": {
         "title": "Der Ablauf",
         "subtitle": "",
@@ -367,7 +370,7 @@
         "column_alignment": "left",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "accent-1",
+        "color_scheme": "background-2",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
