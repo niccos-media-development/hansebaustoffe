@@ -11,7 +11,9 @@
   "sections": {
     "video_background_9MdCGY": {
       "type": "video-background",
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.mein-element {display: none !important; }}"
+      ],
       "settings": {
         "full_width": true,
         "box_align": "bottom-left",
