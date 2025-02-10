@@ -43,8 +43,9 @@
   {% endif %}
 
   <div class="contact-form section-{{ section.id }}">
-    {%- form 'contact', id: 'ReturnForm', class: 'isolate' -%}
-            <input type="hidden" name="contact[Formular]" value="Hanse Syntec Systems / Rückgabe - Reklamation">
+    {%- form 'contact', id: 'ReturnForm', class: 'isolate', enctype: 'multipart/form-data' -%}
+      <!-- Verstecktes Feld für Formular-Typ -->
+      <input type="hidden" name="contact[Formular]" value="Hanse Syntec Systems / Rückgabe - Reklamation">
 
       {%- if form.posted_successfully? -%}
         <div class="form-status form-status-success" tabindex="-1" autofocus>
@@ -75,7 +76,7 @@
 
       <div class="field">
         <label class="field-label" for="ReturnForm-order-number">Bestellnummer <span aria-hidden="true">*</span></label>
-        <input class="field-input" type="text" id="ReturnForm-order-number" name="contact[order_number]" placeholder="HSS-123456" required>
+        <input class="field-input" type="text" id="ReturnForm-order-number" name="contact[order_number]" placeholder="123456" required>
       </div>
 
       <div class="field">
