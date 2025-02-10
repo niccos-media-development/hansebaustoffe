@@ -164,7 +164,9 @@
         "promotion_gm84ph",
         "promotion_8YQ8JT"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (min-width: 769px) {.block-section-fullwidth {display: none !important; }}"
+      ],
       "settings": {
         "image_heights": 180,
         "heading": "Kategorien",
@@ -271,9 +273,7 @@
         "promotion_MX6Qw7",
         "promotion_Ycr93H"
       ],
-      "custom_css": [
-        "@media (max-width: 767px) {.desktop-section {display: none; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "image_heights": 180,
         "heading": "",
