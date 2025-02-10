@@ -43,10 +43,7 @@
   {% endif %}
 
   <div class="contact-form section-{{ section.id }}">
-    {%- form 'contact', id: 'ReturnForm', class: 'isolate', enctype: 'multipart/form-data' -%}
-      <!-- Verstecktes Feld für Formular-Typ -->
-      <input type="hidden" name="contact[Formular]" value="Hanse Syntec Systems / Rückgabe - Reklamation">
-
+    {%- form 'contact', id: 'ReturnForm', class: 'isolate' -%}
       {%- if form.posted_successfully? -%}
         <div class="form-status form-status-success" tabindex="-1" autofocus>
           Vielen Dank! Ihr Rücksendeantrag wurde erfolgreich übermittelt.
