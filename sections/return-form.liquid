@@ -43,7 +43,10 @@
   {% endif %}
 
   <div class="contact-form section-{{ section.id }}">
-    {%- form 'contact', id: 'ReturnForm', class: 'isolate' -%}
+    {%- form 'contact', id: 'ReturnForm', class: 'isolate', enctype: 'multipart/form-data' -%}
+      <!-- Verstecktes Feld für Formularnamen -->
+      <input type="hidden" name="contact[Formular]" value="Hanse Syntec Systems / Rückgabe - Reklamation">
+
       {%- if form.posted_successfully? -%}
         <div class="form-status form-status-success" tabindex="-1" autofocus>
           Vielen Dank! Ihr Rücksendeantrag wurde erfolgreich übermittelt.
@@ -99,6 +102,7 @@
         <textarea id="ReturnForm-comment" class="text-area field-input" name="contact[comment]" rows="5" placeholder="Beschreiben Sie hier Ihr Anliegen..."></textarea>
       </div>
 
+      <!-- Datei-Upload -->
       <div class="field">
         <label class="field-label" for="ReturnForm-file">Datei anhängen (bis zu 10 MB)</label>
         <input type="file" id="ReturnForm-file" name="contact[file]" accept=".jpg,.png,.pdf,.docx">
