@@ -466,7 +466,7 @@
         "@media screen and (max-width: 768px) {.block-section {display: block !important; }}"
       ],
       "settings": {
-        "image_heights": 249,
+        "image_heights": 225,
         "heading": "Kategorien",
         "subheading": "",
         "link_title": "",
