@@ -48,7 +48,7 @@
         "@media screen and (min-width: 769px) {.block-section-fullwidth {display: none !important; }}"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "box_align": "bottom-left",
         "height": "small",
         "overlay_background": "",
