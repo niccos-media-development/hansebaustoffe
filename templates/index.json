@@ -466,13 +466,13 @@
         "@media screen and (max-width: 768px) {.block-section {display: block !important; }}"
       ],
       "settings": {
-        "image_heights": 180,
+        "image_heights": 249,
         "heading": "Kategorien",
         "subheading": "",
         "link_title": "",
         "link_url": "",
         "columns": 4,
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "card_clickable_desktop": true,
         "box_radius": 0,
         "heading_outline_color": "#333333",
