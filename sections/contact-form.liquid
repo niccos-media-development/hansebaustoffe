@@ -69,7 +69,7 @@
 			</div>
 			<div class="field" data-aos-duration="500" data-aos="fade-right">
 				<label class="field-label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
-				<input type="tel" id="ContactForm-phone" class="field-input" autocomplete="tel" name="contact[Telefon]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+				<input type="tel" id="ContactForm-phone" class="field-input" autocomplete="tel" name="contact[phone]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}">
 			</div>
 			<div class="field" data-aos-duration="500" data-aos="fade-right">
 				<label class="form-label field-label" for="ContactForm-body">Kommentar:</label>
