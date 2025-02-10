@@ -172,8 +172,8 @@
         "overlay_background": "",
         "alignment": "center",
         "color_scheme": "accent-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     },
     "slideshow_VEacXT": {
