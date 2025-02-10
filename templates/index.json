@@ -694,7 +694,7 @@
         "collection_box_align": "top-right",
         "layout": "slider",
         "columns": "4",
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "spacing_top": 40,
         "spacing_bottom": 40,
         "navigation_text": "Alle ansehen",
