@@ -19,8 +19,8 @@
 		{% endif %}
 
 		{%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
-			<input type="hidden" name="contact[subject]" value="Hanse Syntec Systems / Kontaktformular">
-			
+			<input type="hidden" name="contact[request_type]" value="Hanse Syntec Systems / Kontaktformular">
+
 			{%- if form.posted_successfully? -%}
 				<div class="form-status form-status-success" tabindex="-1" autofocus>{{ 'templates.contact.form.post_success' | t }}</div>
 			{%- elsif form.errors -%}
