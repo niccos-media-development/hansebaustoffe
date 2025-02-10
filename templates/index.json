@@ -402,107 +402,6 @@
         "spacing_bottom": 20
       }
     },
-    "hero_banner_aGwybE": {
-      "type": "hero-banner",
-      "blocks": {
-        "title_HwirRp": {
-          "type": "title",
-          "settings": {
-            "title_text": "Dachprotect EPDM Folien"
-          }
-        },
-        "content_GBtAQY": {
-          "type": "content",
-          "settings": {
-            "content_text": "<p>Die EPDM Folien von DACHPROTECT sind die ideale Lösung für eine professionelle und langlebige Dachabdichtung. Dank ihrer hohen Flexibilität und Widerstandsfähigkeit bieten sie optimalen Schutz vor Witterungseinflüssen, UV- und Ozonstrahlung sowie extremen Temperaturen. Die robusten EPDM Folien lassen sich einfach verlegen, passen sich perfekt an jede Dachgeometrie an und sorgen für eine dauerhaft dichte Oberfläche.</p>"
-          }
-        },
-        "bullet_gKyHNV": {
-          "type": "bullet",
-          "disabled": true,
-          "settings": {
-            "bullet_text": "50+ Jahre Lebensdauer"
-          }
-        },
-        "bullet_6dAEJp": {
-          "type": "bullet",
-          "disabled": true,
-          "settings": {
-            "bullet_text": "20 Jahre Materialgarantie"
-          }
-        },
-        "bullet_HPTMKM": {
-          "type": "bullet",
-          "disabled": true,
-          "settings": {
-            "bullet_text": "Professionelle Beratung"
-          }
-        },
-        "bullet_3kVJnc": {
-          "type": "bullet",
-          "disabled": true,
-          "settings": {
-            "bullet_text": "300.000m² EPDM Folie ständig auf Lager"
-          }
-        },
-        "spacing_DTXGzq": {
-          "type": "spacing",
-          "disabled": true,
-          "settings": {}
-        },
-        "button_xLUP9B": {
-          "type": "button",
-          "settings": {
-            "button_text": "EPDM Folie schwarz",
-            "button_link": "shopify://products/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt",
-            "button_background_color": "#ffaa32",
-            "button_border": true,
-            "button_text_color": "#ffffff"
-          }
-        },
-        "button_i3yAwz": {
-          "type": "button",
-          "settings": {
-            "button_text": "Weitere EPDM Folien",
-            "button_link": "shopify://collections/epdm-folien",
-            "button_background_color": "#ffffff",
-            "button_border": true,
-            "button_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "title_HwirRp",
-        "content_GBtAQY",
-        "bullet_gKyHNV",
-        "bullet_6dAEJp",
-        "bullet_HPTMKM",
-        "bullet_3kVJnc",
-        "spacing_DTXGzq",
-        "button_xLUP9B",
-        "button_i3yAwz"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "desktop_image": "shopify://shop_images/Teaser_EPDM_Folie_1000x800px.jpg",
-        "content_position": "left",
-        "background_color": "#fafafa",
-        "title_color": "#333333",
-        "content_color": "#000000",
-        "title_font_size": "30",
-        "title_font_size_mobile": "--font-h3-size",
-        "content_font_size": "--font-body1-size",
-        "content_font_size_mobile": "--font-body2-size",
-        "bullet_font_size": "--font-body1-size",
-        "bullet_font_size_mobile": "--font-body2-size",
-        "custom_bullet_icon": "shopify://shop_images/Icon_88b0198f-8d5f-40c9-82ae-cf7734a862c7.svg",
-        "bullet_icon_size": 22,
-        "bullet_icon_size_mobile": 20,
-        "section_padding_desktop": 60,
-        "section_padding_mobile": 20
-      }
-    },
     "features_NDeL76": {
       "type": "features",
       "blocks": {
@@ -1228,7 +1127,6 @@
     "niccos_promotional_cards_T8Rk68",
     "niccos_promotional_cards_Awg6pr",
     "niccos_promotional_cards_DhFpWq",
-    "hero_banner_aGwybE",
     "features_NDeL76",
     "niccos_promotional_cards_WnDXcV",
     "featured-collection-2",
