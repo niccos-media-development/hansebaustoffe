@@ -292,6 +292,116 @@
         "spacing_bottom": 60
       }
     },
+    "niccos_promotional_cards_DhFpWq": {
+      "type": "niccos-promotional-cards",
+      "blocks": {
+        "promotion_rkrTha": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "middle-center",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "EPDM Folie",
+            "link": "shopify://collections/epdm-folien",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "background-1",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_KXJDRt": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Kleb- & Dichtstoffe",
+            "link": "shopify://collections/kleb-dichtstoffe",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_EDpn4i": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "EPDM Zubehör",
+            "link": "shopify://collections/epdm-zubehor",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_bXhBg9": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Garantie-Gullys",
+            "link": "",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_rkrTha",
+        "promotion_KXJDRt",
+        "promotion_EDpn4i",
+        "promotion_bXhBg9"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 769px) {.block-section {display: none !important; }}",
+        "@media screen and (max-width: 768px) {.block-section {display: block !important; }}"
+      ],
+      "settings": {
+        "image_heights": 180,
+        "heading": "Kategorien",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "columns": 4,
+        "stack_on_mobile": false,
+        "card_clickable_desktop": true,
+        "box_radius": 0,
+        "heading_outline_color": "#333333",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
     "hero_banner_aGwybE": {
       "type": "hero-banner",
       "blocks": {
@@ -1117,6 +1227,7 @@
     "video_background_fkUUFW",
     "niccos_promotional_cards_T8Rk68",
     "niccos_promotional_cards_Awg6pr",
+    "niccos_promotional_cards_DhFpWq",
     "hero_banner_aGwybE",
     "features_NDeL76",
     "niccos_promotional_cards_WnDXcV",
