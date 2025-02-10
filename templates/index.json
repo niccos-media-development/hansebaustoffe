@@ -33,6 +33,7 @@
         "video_url": "",
         "video_href_link": "shopify://products/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt",
         "video_description": "",
+        "mobile_image": "shopify://shop_images/5_1.png",
         "mobile_heading_size": "lg",
         "mobile_box_align": "middle-center",
         "color_scheme": "accent-2",
@@ -236,9 +237,7 @@
         "promotion_MX6Qw7",
         "promotion_Ycr93H"
       ],
-      "custom_css": [
-        "@media screen and (max-width: 768px) {.mein-element {display: none !important; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "image_heights": 180,
         "heading": "",
