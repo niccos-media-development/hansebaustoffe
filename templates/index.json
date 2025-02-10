@@ -273,7 +273,9 @@
         "promotion_MX6Qw7",
         "promotion_Ycr93H"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.block-section {display: none !important; }}"
+      ],
       "settings": {
         "image_heights": 180,
         "heading": "",
