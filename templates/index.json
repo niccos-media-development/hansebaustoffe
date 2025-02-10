@@ -374,13 +374,93 @@
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
+        },
+        "promotion_pbMQVU": {
+          "type": "promotion",
+          "settings": {
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Be- & Entlüftung",
+            "link": "",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display promotional content in your store.</p>",
+            "text_color": "#fff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_CjHpbR": {
+          "type": "promotion",
+          "settings": {
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Kabeldurchführungen",
+            "link": "",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display promotional content in your store.</p>",
+            "text_color": "#fff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_RKhQdy": {
+          "type": "promotion",
+          "settings": {
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Dachrandprofile",
+            "link": "",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display promotional content in your store.</p>",
+            "text_color": "#fff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_D48ety": {
+          "type": "promotion",
+          "settings": {
+            "background_image_position": "bottom-left",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Wandanschluss",
+            "link": "",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display promotional content in your store.</p>",
+            "text_color": "#fff",
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
         }
       },
       "block_order": [
         "promotion_rkrTha",
         "promotion_KXJDRt",
         "promotion_EDpn4i",
-        "promotion_bXhBg9"
+        "promotion_bXhBg9",
+        "promotion_pbMQVU",
+        "promotion_CjHpbR",
+        "promotion_RKhQdy",
+        "promotion_D48ety"
       ],
       "custom_css": [
         "@media screen and (min-width: 769px) {.block-section {display: none !important; }}",
