@@ -693,7 +693,7 @@
         "collection_button_text": "",
         "collection_box_align": "top-right",
         "layout": "slider",
-        "columns": "4",
+        "columns": "5",
         "stack_on_mobile": true,
         "spacing_top": 40,
         "spacing_bottom": 40,
