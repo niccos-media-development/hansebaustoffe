@@ -12,7 +12,7 @@
     "video_background_9MdCGY": {
       "type": "video-background",
       "custom_css": [
-        "@media screen and (min-width: 769px) {.block-section-fullwidth {display: none !important; }}"
+        "@media screen and (max-width: 768px) {.block-section-fullwidth {display: none !important; }}"
       ],
       "settings": {
         "full_width": true,
