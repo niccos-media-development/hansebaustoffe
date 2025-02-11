@@ -44,9 +44,7 @@
     },
     "video_background_fkUUFW": {
       "type": "video-background",
-      "custom_css": [
-        "@media screen and (max-width: 768px) {.block-section-fullwidth video {width: 100%; height: auto; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "box_align": "bottom-left",
