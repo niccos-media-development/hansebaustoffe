@@ -17,7 +17,7 @@
       "settings": {
         "full_width": true,
         "box_align": "bottom-left",
-        "height": "preserve-ratio",
+        "height": "small",
         "overlay_background": "",
         "heading": "",
         "heading_size": "sm",
@@ -44,7 +44,9 @@
     },
     "video_background_fkUUFW": {
       "type": "video-background",
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.block-section-fullwidth video {width: 100%; height: auto; }}"
+      ],
       "settings": {
         "full_width": true,
         "box_align": "bottom-left",
