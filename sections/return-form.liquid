@@ -43,9 +43,10 @@
   {% endif %}
 
   <div class="contact-form section-{{ section.id }}">
-    {%- form 'contact', id: 'ReturnForm', class: 'isolate', enctype: 'multipart/form-data' -%}
+    {%- form 'contact', id: 'ReturnForm', class: 'isolate' -%}
+      
       <!-- Verstecktes Feld für Formularnamen -->
-      <input type="hidden" name="contact[Formular]" value="Hanse Syntec Systems / Rückgabe - Reklamation">
+      <input type="hidden" name="contact[Formular]" value="Hanse Syntec Systems - Retoure">
 
       {%- if form.posted_successfully? -%}
         <div class="form-status form-status-success" tabindex="-1" autofocus>
@@ -102,12 +103,6 @@
         <textarea id="ReturnForm-comment" class="text-area field-input" name="contact[comment]" rows="5" placeholder="Beschreiben Sie hier Ihr Anliegen..."></textarea>
       </div>
 
-      <!-- Datei-Upload -->
-      <div class="field">
-        <label class="field-label" for="ReturnForm-file">Datei anhängen (bis zu 10 MB)</label>
-        <input type="file" id="ReturnForm-file" name="contact[file]" accept=".jpg,.png,.pdf,.docx">
-      </div>
-
       <div class="dsgvo-checkbox">
         <input type="checkbox" id="gdpr-consent" name="gdpr-consent" required>
         <label for="gdpr-consent">
@@ -116,25 +111,11 @@
       </div>
 
       <div class="contact-button">
-        <button type="submit" class="button" onclick="return validateForm()">Absenden</button>
+        <button type="submit" class="button">Absenden</button>
       </div>
     {%- endform -%}
   </div>
 </div>
-
-<script>
-  function validateForm() {
-    const fileInput = document.getElementById('ReturnForm-file');
-    if (fileInput.files.length > 0) {
-      const fileSize = fileInput.files[0].size / 1024 / 1024;
-      if (fileSize > 10) {
-        alert("Die Datei darf nicht größer als 10 MB sein.");
-        return false;
-      }
-    }
-    return true;
-  }
-</script>
 
 {% schema %}
 {
