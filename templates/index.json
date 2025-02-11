@@ -9,39 +9,6 @@
  */
 {
   "sections": {
-    "video_background_9MdCGY": {
-      "type": "video-background",
-      "custom_css": [
-        "@media screen and (max-width: 768px) {.block-section-fullwidth {display: none !important; }}"
-      ],
-      "settings": {
-        "full_width": true,
-        "box_align": "bottom-left",
-        "height": "small",
-        "overlay_background": "",
-        "heading": "",
-        "heading_size": "sm",
-        "text": "",
-        "text_size": "md",
-        "button_label": "",
-        "button_type_link": false,
-        "button_color_scheme": "accent-1",
-        "button_link": "shopify://collections/epdm-folien",
-        "secondary_button_label": "",
-        "secondary_button_type_link": false,
-        "secondary_button_color_scheme": "accent-1",
-        "secondary_button_link": "",
-        "custom_video": "shopify://files/videos/HSS_Frontpage_Product Promo_Test_2025_1_8 (komprMore).mp4",
-        "video_url": "",
-        "video_href_link": "shopify://products/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt",
-        "video_description": "",
-        "mobile_heading_size": "lg",
-        "mobile_box_align": "middle-center",
-        "color_scheme": "accent-2",
-        "spacing_top": 0,
-        "spacing_bottom": 0
-      }
-    },
     "video_background_fkUUFW": {
       "type": "video-background",
       "custom_css": [
@@ -1203,7 +1170,6 @@
     }
   },
   "order": [
-    "video_background_9MdCGY",
     "video_background_fkUUFW",
     "niccos_promotional_cards_T8Rk68",
     "niccos_promotional_cards_Awg6pr",
