@@ -45,8 +45,7 @@
     "video_background_fkUUFW": {
       "type": "video-background",
       "custom_css": [
-        "@media screen and (min-width: 769px) {.block-section-fullwidth {display: none !important; }}",
-        ".video-wrapper {position: relative; padding-bottom: 56.25%; /* 16:9 Verhältnis */ height: 0; overflow: hidden; max-width: 100%;}"
+        "@media screen and (max-width: 768px) {.block-section-fullwidth video {width: 100%; height: auto; }}"
       ],
       "settings": {
         "full_width": true,
