@@ -50,7 +50,7 @@
       "settings": {
         "full_width": true,
         "box_align": "bottom-left",
-        "height": "small",
+        "height": "preserve-ratio",
         "overlay_background": "",
         "heading": "",
         "heading_size": "sm",
