@@ -77,11 +77,6 @@
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
-      },
-      "7316129390727635243": {
-        "type": "shopify://apps/nerdy-form-builder/blocks/app-embed-block/69a5a9d9-7d66-4c42-a315-78fd5ac4e441",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
