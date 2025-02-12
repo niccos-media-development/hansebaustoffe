@@ -82,8 +82,8 @@ if (!customElements.get('product-form')) {
             }
       
             if(formData.get("id") === "49850516865366") {
+                            normalFetch();
               alert(1);
-              normalFetch();
             } else {
               normalFetch();
             }
