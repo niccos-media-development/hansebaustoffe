@@ -33,6 +33,10 @@ if (!customElements.get('product-form')) {
 			formData.append('sections_url', window.location.pathname);
 			config.body = formData;
 
+            if(formData.get("id") === "49850516865366") {
+              console.log("hi");
+            }
+
 			fetch(`${routes.cart_add_url}`, config)
 				.then((response) => response.json())
 				.then((response) => {
