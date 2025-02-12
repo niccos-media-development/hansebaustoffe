@@ -102,7 +102,7 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Kleber_1.png",
-            "background_image_position": "bottom-left",
+            "background_image_position": "middle-center",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
             "background_image_offset_x": 0,
@@ -142,7 +142,7 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Garantie-Gullys_1.png",
-            "background_image_position": "bottom-left",
+            "background_image_position": "middle-center",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
             "background_image_offset_x": 0,
