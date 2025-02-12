@@ -439,6 +439,7 @@
         "promotion_D48ety": {
           "type": "promotion",
           "settings": {
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Wandanschlussprofil_1.png",
             "background_image_position": "bottom-left",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
