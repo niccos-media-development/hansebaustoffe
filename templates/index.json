@@ -105,7 +105,7 @@
             "background_image_position": "middle-center",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
-            "background_image_offset_x": 0,
+            "background_image_offset_x": -46,
             "background_image_offset_y": 0,
             "title": "Kleb- & Dichtstoffe",
             "link": "shopify://collections/kleb-dichtstoffe",
