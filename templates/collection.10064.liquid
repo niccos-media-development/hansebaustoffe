@@ -1,9 +1,14 @@
+
+{%- layout none -%}
 {%- assign filter = collection.filters | first -%}
 {%- assign sku = filter.url_to_remove | split: 'filter.p.sku=' | last | split: 'view=' | first -%}
 
 {{ sku }}
 {{ sku }}
 {{ sku }}
+
+{% comment %}
+
 {%- layout none -%}
 {%- paginate collections[collection.handle].products by 4200000 -%}
   {%- for product in collections[collection.handle].products -%}
@@ -11,3 +16,4 @@
     {%- if variant != blank -%}{{ variant | json }}{%- break -%}{%- endif -%}
   {%- endfor -%}
 {%- endpaginate -%}
+{% endcomment %}
