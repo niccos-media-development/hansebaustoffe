@@ -28,60 +28,67 @@ if (!customElements.get('product-form')) {
 			config.headers['X-Requested-With'] = 'XMLHttpRequest';
 			delete config.headers['Content-Type'];
 
-			const formData = new FormData(this.form);
-			formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
-			formData.append('sections_url', window.location.pathname);
-			config.body = formData;
+            let formData;
 
+            doFetch() {
+              formData = new FormData(this.form);
+              formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
+              formData.append('sections_url', window.location.pathname);
+              config.body = formData;
+    
+              fetch(`${routes.cart_add_url}`, config)
+                  .then((response) => response.json())
+                  .then((response) => {
+                      if (response.status) {
+                          publish(PUB_SUB_EVENTS.cartError, {
+                              source: 'product-form',
+                              productVariantId: formData.get('id'),
+                              errors: response.errors || response.description,
+                              message: response.message,
+                          });
+    
+                          this.handleErrorMessage(response.description);
+                          this.minicart.updateSectionContents();
+                          return;
+                      }
+    
+                      this.minicart.renderContents(response);
+    
+                      if (window.themeSettings.redirectToCart) {
+                          location.href = window.routes.cart_url;
+                      } else {
+                          this.minicart.open(submitButton);
+                      }
+    
+                      const event = new CustomEvent('cart:item-add', {
+                          detail: {
+                              items: [response],
+                              context: this.eventContext,
+                          },
+                      });
+                      document.dispatchEvent(event);
+    
+                      publish(PUB_SUB_EVENTS.cartItemAdd, {
+                          source: this.eventContext,
+                          items: [response],
+                      });
+                  })
+                  .catch((e) => {
+                      console.error(e);
+                  })
+                  .finally(() => {
+                      submitButton.classList.remove('loading');
+                      submitButton.removeAttribute('aria-disabled');
+                      this.querySelector('.button-overlay-spinner').classList.add('hidden');
+                  });
+            }
+          
             if(formData.get("id") === "49850516865366") {
               console.log("hi");
+              doFetch();
+            } else {
+              doFetch();
             }
-
-			fetch(`${routes.cart_add_url}`, config)
-				.then((response) => response.json())
-				.then((response) => {
-					if (response.status) {
-						publish(PUB_SUB_EVENTS.cartError, {
-							source: 'product-form',
-							productVariantId: formData.get('id'),
-							errors: response.errors || response.description,
-							message: response.message,
-						});
-
-						this.handleErrorMessage(response.description);
-						this.minicart.updateSectionContents();
-						return;
-					}
-
-					this.minicart.renderContents(response);
-
-					if (window.themeSettings.redirectToCart) {
-						location.href = window.routes.cart_url;
-					} else {
-						this.minicart.open(submitButton);
-					}
-
-					const event = new CustomEvent('cart:item-add', {
-						detail: {
-							items: [response],
-							context: this.eventContext,
-						},
-					});
-					document.dispatchEvent(event);
-
-					publish(PUB_SUB_EVENTS.cartItemAdd, {
-						source: this.eventContext,
-						items: [response],
-					});
-				})
-				.catch((e) => {
-					console.error(e);
-				})
-				.finally(() => {
-					submitButton.classList.remove('loading');
-					submitButton.removeAttribute('aria-disabled');
-					this.querySelector('.button-overlay-spinner').classList.add('hidden');
-				});
 		}
 
 		handleErrorMessage(errorMessage = false) {
