@@ -365,6 +365,13 @@
 									{%- endform -%}
 								{% endunless %}
 
+                            {%- when 'line_item_property' -%}
+                                {% render 'product-variant-picker',
+									section: section,
+									block: block,
+									product_form_id: product_form_id
+								%}
+                          
 							{%- when 'variants' -%}
 								{% render 'product-variant-picker',
 									section: section,
