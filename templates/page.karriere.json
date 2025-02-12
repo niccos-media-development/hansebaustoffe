@@ -30,11 +30,14 @@
       "block_order": [
         "heading_96cRb9"
       ],
+      "custom_css": [
+        "h2 {color: white !important;}"
+      ],
       "settings": {
         "narrow": true,
         "overlay_background": "",
         "alignment": "center",
-        "color_scheme": "accent-3",
+        "color_scheme": "background-2",
         "spacing_top": 60,
         "spacing_bottom": 60
       }
