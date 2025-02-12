@@ -1,7 +1,9 @@
+{%- assign filter = collection.filters | first -%}
+{%- assign sku = filter.url_to_remove | split: 'filter.p.sku=' | last -%}
 {%- layout none -%}
 {%- paginate collections[collection.handle].products by 4200000 -%}
   {%- for product in collections[collection.handle].products -%}
-    {%- assign variant = product.variants | where: 'sku', '1,5 mm - 7,62 m - 3,6 m' | first %}
+    {%- assign variant = product.variants | where: 'sku', sku | first %}
     {%- if variant != blank -%}{{ variant | json }}{%- break -%}{%- endif -%}
   {%- endfor -%}
 {%- endpaginate -%}
