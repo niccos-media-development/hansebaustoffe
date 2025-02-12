@@ -299,7 +299,7 @@
         "promotion_rkrTha": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_EPDM_1.jpg",
             "background_image_position": "middle-center",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
@@ -319,7 +319,7 @@
         "promotion_KXJDRt": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Kleber_1.png",
             "background_image_position": "bottom-left",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
@@ -359,7 +359,7 @@
         "promotion_bXhBg9": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Garantie-Gullys_1.png",
             "background_image_position": "bottom-left",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
