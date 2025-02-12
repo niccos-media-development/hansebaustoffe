@@ -52,7 +52,10 @@
 
 			<span class="visually-hidden">{{ 'products.product.price.regular_price' | t }}</span>
 			<span class="price-item price-item-regular">
-				{{ money_price }}
+        		<span data-price>
+            		{{ money_price }}
+                </span>
+
 
 				{% if settings.price_tax_suffix and cart.taxes_included %}
 					<span class="sup">{{ settings.price_tax_suffix }}</span>
