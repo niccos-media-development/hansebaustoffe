@@ -30,7 +30,7 @@ if (!customElements.get('product-form')) {
 
             let formData;
 
-            doFetch() {
+            function doFetch() {
               formData = new FormData(this.form);
               formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
               formData.append('sections_url', window.location.pathname);
