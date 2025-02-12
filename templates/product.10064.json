@@ -187,11 +187,14 @@
         "expandable_JPyXYy",
         "videometa_QeDUQB"
       ],
+      "custom_css": [
+        ".product-form-input + .product-form-input {padding-top: 0 !important;}"
+      ],
       "settings": {
         "hide_variants": false,
         "thumbnail_navigation": false,
         "image_zoom_type": "lightbox",
-        "image_disclaimer": ""
+        "image_disclaimer": "<p>  </p>"
       }
     },
     "featured_collection_k8t9RF": {
