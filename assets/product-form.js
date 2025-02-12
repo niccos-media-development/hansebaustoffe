@@ -40,8 +40,8 @@ if (!customElements.get('product-form')) {
                   let variant = JSON.parse(data);
                   this.form.querySelector('[name="id"]').setAttribute('value', variant.id);
                 }
-              })
-              
+
+                              
               formData = new FormData(this.form);
               formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
               formData.append('sections_url', window.location.pathname);
@@ -92,6 +92,8 @@ if (!customElements.get('product-form')) {
                       submitButton.removeAttribute('aria-disabled');
                       this.querySelector('.button-overlay-spinner').classList.add('hidden');
                   });
+              })
+
             } else {
               
               formData = new FormData(this.form);
