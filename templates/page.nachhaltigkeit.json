@@ -48,37 +48,6 @@
         "hide_heading": false
       }
     },
-    "rich_text_MtaNh6": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6Tdy7Y": {
-          "type": "heading",
-          "settings": {
-            "heading": "EPDM Folien – Die nachhaltige Lösung für Flachdächer",
-            "heading_size": "sm"
-          }
-        },
-        "text_jCmhWk": {
-          "type": "text",
-          "settings": {
-            "text": "<p>EPDM Folien sind eine der umweltfreundlichsten Optionen für die Flachdachabdichtung und stehen für Langlebigkeit und Energieeffizienz. Im Vergleich zu herkömmlichen Abdichtungsmaterialien bieten sie entscheidende Vorteile:</p><p>✅ <strong>Lange Lebensdauer:</strong> EPDM Folien haben eine Lebensdauer von über <strong>50 Jahren</strong>, was die Häufigkeit von Sanierungen reduziert und Materialeinsparungen ermöglicht.</p><p>✅ <strong>Recycelbar & umweltfreundlich:</strong> Die EPDM Folien enthalten <strong>keine schädlichen Weichmacher oder Chlorverbindungen</strong> und sind vollständig recycelbar. Dadurch entsteht weniger Abfall und die Umweltbelastung wird minimiert.</p><p>✅ <strong>Energieeffizienz:</strong> EPDM besitzt eine hohe Wärmereflexion und reduziert so die Aufheizung des Daches, was den Energieverbrauch von Gebäuden senkt.</p><p>✅ <strong>Weniger CO₂-Ausstoß:</strong> Die Produktion von EPDM Folien verursacht <strong>deutlich geringere CO₂-Emissionen</strong> als herkömmliche Bitumenbahnen oder PVC-Dachfolien.</p><p>✅ Die <strong>weiße EPDM Folie</strong> bietet durch ihre hohe Wärmereflexion einen entscheidenden Vorteil für PV-Anlagen, Kühlhäuser und andere Dächer, bei denen eine <strong>Minimierung der Oberflächentemperatur</strong> erforderlich ist, da sie die Aufheizung reduziert, die Energieeffizienz verbessert und die Lebensdauer der Dachkonstruktion verlängert.</p><p>✅ <strong>Wurzelfest:</strong> Die EPDM-Folie ist <strong>wurzelfest </strong>und bietet somit eine ideale Lösung für <strong>begrünte Dächer</strong>, da sie zuverlässig das Eindringen von Wurzeln verhindert und gleichzeitig eine langlebige, wasserdichte Abdichtung gewährleistet.</p><h3><strong>Welche Vorteile bietet ein Gründach mit EPDM Folie?</strong></h3><p>🌱 <strong>Verbesserte Wärmedämmung & Energieeinsparung</strong><br/>Durch eine begrünte Dachfläche wird die Temperaturregulierung des Gebäudes verbessert. Im Sommer wird die Hitzeaufnahme reduziert, während im Winter eine natürliche Wärmedämmung entsteht. Das senkt den Energieverbrauch für Klimatisierung und Heizung.</p><p>💧 <strong>Effektives Regenwassermanagement</strong><br/>Gründächer absorbieren und speichern <strong>bis zu 90 % des Regenwassers</strong>, wodurch die Entwässerungssysteme entlastet werden. EPDM Folien bieten hier eine ideale Grundlage, da sie <strong>wurzelfest und extrem widerstandsfähig</strong> gegenüber Feuchtigkeit sind.</p><p>🌍 <strong>CO₂-Reduktion & Verbesserung der Luftqualität</strong><br/>Pflanzen auf Dächern filtern Schadstoffe aus der Luft und tragen zur <strong>CO₂-Reduktion</strong> bei. Zudem erzeugen sie Sauerstoff und verbessern das Mikroklima in städtischen Gebieten.</p><p>🔇 <strong>Lärmschutz</strong><br/>Ein begrüntes Dach absorbiert <strong>Schallwellen</strong> und reduziert so den Lärmpegel – sowohl innerhalb des Gebäudes als auch in der Umgebung.</p><p>🐝 <strong>Schaffung von Lebensräumen für Insekten & Vögel</strong><br/>Dachbegrünungen tragen zum <strong>Schutz der Biodiversität</strong> bei, indem sie Lebensräume für Bienen, Schmetterlinge und andere Nützlinge schaffen.</p>",
-            "text_size": "md"
-          }
-        }
-      },
-      "block_order": [
-        "heading_6Tdy7Y",
-        "text_jCmhWk"
-      ],
-      "settings": {
-        "narrow": true,
-        "overlay_background": "",
-        "alignment": "left",
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
-      }
-    },
     "image_banners_tmLKha": {
       "type": "image-banners",
       "blocks": {
@@ -139,6 +108,37 @@
         "columns": 2,
         "stack_on_mobile": false,
         "color_scheme": "background-2",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "rich_text_MtaNh6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6Tdy7Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "EPDM Folien – Die nachhaltige Lösung für Flachdächer",
+            "heading_size": "sm"
+          }
+        },
+        "text_jCmhWk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>EPDM Folien sind eine der umweltfreundlichsten Optionen für die Flachdachabdichtung und stehen für Langlebigkeit und Energieeffizienz. Im Vergleich zu herkömmlichen Abdichtungsmaterialien bieten sie entscheidende Vorteile:</p><p>✅ <strong>Lange Lebensdauer:</strong> EPDM Folien haben eine Lebensdauer von über <strong>50 Jahren</strong>, was die Häufigkeit von Sanierungen reduziert und Materialeinsparungen ermöglicht.</p><p>✅ <strong>Recycelbar & umweltfreundlich:</strong> Die EPDM Folien enthalten <strong>keine schädlichen Weichmacher oder Chlorverbindungen</strong> und sind vollständig recycelbar. Dadurch entsteht weniger Abfall und die Umweltbelastung wird minimiert.</p><p>✅ <strong>Energieeffizienz:</strong> EPDM besitzt eine hohe Wärmereflexion und reduziert so die Aufheizung des Daches, was den Energieverbrauch von Gebäuden senkt.</p><p>✅ <strong>Weniger CO₂-Ausstoß:</strong> Die Produktion von EPDM Folien verursacht <strong>deutlich geringere CO₂-Emissionen</strong> als herkömmliche Bitumenbahnen oder PVC-Dachfolien.</p><p>✅ Die <strong>weiße EPDM Folie</strong> bietet durch ihre hohe Wärmereflexion einen entscheidenden Vorteil für PV-Anlagen, Kühlhäuser und andere Dächer, bei denen eine <strong>Minimierung der Oberflächentemperatur</strong> erforderlich ist, da sie die Aufheizung reduziert, die Energieeffizienz verbessert und die Lebensdauer der Dachkonstruktion verlängert.</p><p>✅ <strong>Wurzelfest:</strong> Die EPDM-Folie ist <strong>wurzelfest </strong>und bietet somit eine ideale Lösung für <strong>begrünte Dächer</strong>, da sie zuverlässig das Eindringen von Wurzeln verhindert und gleichzeitig eine langlebige, wasserdichte Abdichtung gewährleistet.</p><h3><strong>Welche Vorteile bietet ein Gründach mit EPDM Folie?</strong></h3><p>🌱 <strong>Verbesserte Wärmedämmung & Energieeinsparung</strong><br/>Durch eine begrünte Dachfläche wird die Temperaturregulierung des Gebäudes verbessert. Im Sommer wird die Hitzeaufnahme reduziert, während im Winter eine natürliche Wärmedämmung entsteht. Das senkt den Energieverbrauch für Klimatisierung und Heizung.</p><p>💧 <strong>Effektives Regenwassermanagement</strong><br/>Gründächer absorbieren und speichern <strong>bis zu 90 % des Regenwassers</strong>, wodurch die Entwässerungssysteme entlastet werden. EPDM Folien bieten hier eine ideale Grundlage, da sie <strong>wurzelfest und extrem widerstandsfähig</strong> gegenüber Feuchtigkeit sind.</p><p>🌍 <strong>CO₂-Reduktion & Verbesserung der Luftqualität</strong><br/>Pflanzen auf Dächern filtern Schadstoffe aus der Luft und tragen zur <strong>CO₂-Reduktion</strong> bei. Zudem erzeugen sie Sauerstoff und verbessern das Mikroklima in städtischen Gebieten.</p><p>🔇 <strong>Lärmschutz</strong><br/>Ein begrüntes Dach absorbiert <strong>Schallwellen</strong> und reduziert so den Lärmpegel – sowohl innerhalb des Gebäudes als auch in der Umgebung.</p><p>🐝 <strong>Schaffung von Lebensräumen für Insekten & Vögel</strong><br/>Dachbegrünungen tragen zum <strong>Schutz der Biodiversität</strong> bei, indem sie Lebensräume für Bienen, Schmetterlinge und andere Nützlinge schaffen.</p>",
+            "text_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6Tdy7Y",
+        "text_jCmhWk"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "left",
+        "color_scheme": "background-1",
         "spacing_top": 60,
         "spacing_bottom": 60
       }
@@ -288,10 +288,10 @@
     }
   },
   "order": [
-    "rich_text_BVmNkz",
     "main",
-    "rich_text_MtaNh6",
+    "rich_text_BVmNkz",
     "image_banners_tmLKha",
+    "rich_text_MtaNh6",
     "niccos_promotional_cards_QUadH9",
     "rich_text_pyadbA",
     "image_banners_f6ryyM"
