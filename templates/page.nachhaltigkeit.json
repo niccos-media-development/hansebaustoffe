@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "hide_heading": false
+      }
+    },
     "rich_text_BVmNkz": {
       "type": "rich-text",
       "blocks": {
@@ -38,14 +46,6 @@
         "color_scheme": "accent-3",
         "spacing_top": 60,
         "spacing_bottom": 60
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "hide_heading": false
       }
     },
     "image_banners_tmLKha": {
@@ -157,7 +157,7 @@
             "title": "1. Energieeffizienz & Eigenstromerzeugung",
             "link": "",
             "heading_size": "md",
-            "description": "<p>Wir nutzen Holzreste aus unserer Produktion zur Beheizung unserer Lager- und Büroräume.</p><p>Die Solaranlage auf unseren Gebäuden deckt einen großen Teil unseres Strombedarfs.</p>",
+            "description": "<p>Wir nutzen Holzreste aus unserer Produktion zur Beheizung unserer Lager- und Büroräume.</p><p>Die Photovoltaikanlage auf unseren Gebäuden deckt einen großen Teil unseres Strombedarfes ab.</p>",
             "text_color": "#232323",
             "button_color_scheme": "button-primary",
             "box_align": "bottom-left",
@@ -195,7 +195,7 @@
             "title": "3. Ressourcenschonende Produktion",
             "link": "",
             "heading_size": "md",
-            "description": "<p>Wir reduzieren Verpackungsmüll, indem wir umweltfreundliche Materialien verwenden.</p><p>Unsere Produktionsanlagen sind auf einen <strong>minimalen Energieverbrauch</strong> optimiert.</p>",
+            "description": "<p>Wir reduzieren Verpackungsmüll und verwenden umweltfreundliche Verpackungsmaterialien, sofern möglich.</p><p>Unsere Produktionsanlagen sind auf einen <strong>minimalen Energieverbrauch</strong> optimiert.</p>",
             "text_color": "#232323",
             "button_color_scheme": "button-primary",
             "box_align": "bottom-left",
