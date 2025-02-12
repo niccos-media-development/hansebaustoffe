@@ -28,9 +28,10 @@ if (!customElements.get('product-form')) {
 			config.headers['X-Requested-With'] = 'XMLHttpRequest';
 			delete config.headers['Content-Type'];
 
+            let formData = new FormData(this.form);
+          
             function normalFetch() {
-              alert(1);
-              const formData = new FormData(this.form);
+              formData = new FormData(this.form);
               formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
               formData.append('sections_url', window.location.pathname);
               config.body = formData;
