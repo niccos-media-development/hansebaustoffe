@@ -75,64 +75,6 @@
         "spacing_bottom": 0
       }
     },
-    "promotion_cards_Ddnrtc": {
-      "type": "promotion_cards",
-      "blocks": {
-        "promo_card_PVVTiF": {
-          "type": "promo_card",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_EPDM_1.jpg",
-            "block_bg": "#fff",
-            "subtitle": "",
-            "subtitle_color": "#000",
-            "title": "",
-            "title_color": "#000",
-            "button_text": "",
-            "button_link": "",
-            "button_text_color": "#000",
-            "button_bg_color": "#fff"
-          }
-        },
-        "promo_card_KWTtxM": {
-          "type": "promo_card",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Kleber_1.png",
-            "block_bg": "#fff",
-            "subtitle": "",
-            "subtitle_color": "#000",
-            "title": "",
-            "title_color": "#000",
-            "button_text": "",
-            "button_link": "",
-            "button_text_color": "#000",
-            "button_bg_color": "#fff"
-          }
-        },
-        "promo_card_DfFgXh": {
-          "type": "promo_card",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Garantie-Gullys_1.png",
-            "block_bg": "#fff",
-            "subtitle": "",
-            "subtitle_color": "#000",
-            "title": "",
-            "title_color": "#000",
-            "button_text": "",
-            "button_link": "",
-            "button_text_color": "#000",
-            "button_bg_color": "#fff"
-          }
-        }
-      },
-      "block_order": [
-        "promo_card_PVVTiF",
-        "promo_card_KWTtxM",
-        "promo_card_DfFgXh"
-      ],
-      "settings": {
-        "section_bg": ""
-      }
-    },
     "niccos_promotional_cards_T8Rk68": {
       "type": "niccos-promotional-cards",
       "blocks": {
@@ -1263,7 +1205,6 @@
   "order": [
     "video_background_qdmtMq",
     "video_background_fkUUFW",
-    "promotion_cards_Ddnrtc",
     "niccos_promotional_cards_T8Rk68",
     "niccos_promotional_cards_Awg6pr",
     "niccos_promotional_cards_DhFpWq",
