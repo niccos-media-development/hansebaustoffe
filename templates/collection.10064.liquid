@@ -1,5 +1,5 @@
-{%- assign sku = collection.filters[0].url_to_remove -%}
-{{ sku }}
+{%- assign filter = collection.filters | first -%}
+{%- assign sku = filter.url_to_remove -%}
 {{ sku }}
 {{ sku }}
 {{ sku }}
