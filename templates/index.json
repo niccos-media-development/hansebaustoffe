@@ -169,7 +169,7 @@
         "@media screen and (max-width: 768px) {.block-section {display: none !important; }}"
       ],
       "settings": {
-        "image_heights": 180,
+        "image_heights": 201,
         "heading": "Kategorien",
         "subheading": "",
         "link_title": "",
@@ -278,7 +278,7 @@
         "@media screen and (max-width: 768px) {.block-section {display: none !important; }}"
       ],
       "settings": {
-        "image_heights": 180,
+        "image_heights": 201,
         "heading": "",
         "subheading": "",
         "link_title": "",
