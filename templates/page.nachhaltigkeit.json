@@ -281,7 +281,7 @@
         "layout": "grid",
         "columns": 2,
         "stack_on_mobile": false,
-        "color_scheme": "accent-1",
+        "color_scheme": "background-1",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
