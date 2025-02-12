@@ -1,0 +1,7 @@
+{%- paginate collections[collection.handle].products by 4200000 -%}
+  {%- for product in collections[collection.handle].products -%}
+    {%- for variant in product.variants -%}
+      {{ variant | json }}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endpaginate -%}
