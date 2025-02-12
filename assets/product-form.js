@@ -35,7 +35,13 @@ if (!customElements.get('product-form')) {
 
             formData = new FormData(this.form);
             if(formData.get("id") === "49850516865366") {
-              let sku = [ "dicke", "breite", "launge" ].map(d => document.getElementById('LineItemProperty-' + d).value).map(n => Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", "."))).join(" - ")
+              let sku = [ "dicke", "breite", "launge" ].map(d => document.getElementById('LineItemProperty-' + d).value).map((n, ix) =>  {
+                let num = Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", "."));
+                let str = String(num).replaceAll('.', ',');
+                let op = ix === 0 ? 'mm' : 'm';
+        
+                return str + " " + op
+              }).join(" - ");
 
               fetch("https://www.hanse-syntec.de/collections/deletable-products?filter.p.sku=" + Base64.encode(sku) + "&view=10064").then(d => d.text()).then(data => {
                 if(data.length > 0) {
