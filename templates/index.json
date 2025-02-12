@@ -339,8 +339,8 @@
         "promotion_EDpn4i": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_1_Marktplatz.jpg",
-            "background_image_position": "bottom-left",
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_EPDM-Zubehoer_1.png",
+            "background_image_position": "middle-center",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
             "background_image_offset_x": 0,
