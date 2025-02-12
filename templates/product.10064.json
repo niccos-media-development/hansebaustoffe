@@ -188,13 +188,14 @@
         "videometa_QeDUQB"
       ],
       "custom_css": [
-        ".product-form-input + .product-form-input {padding-top: 0 !important;}"
+        ".product-form-input + .product-form-input {padding-top: 0 !important;}",
+        "form {display: flex; align-items: center; gap: 20px;}"
       ],
       "settings": {
         "hide_variants": false,
         "thumbnail_navigation": false,
         "image_zoom_type": "lightbox",
-        "image_disclaimer": "<p>  </p>"
+        "image_disclaimer": "<p> </p>"
       }
     },
     "featured_collection_k8t9RF": {
