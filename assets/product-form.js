@@ -88,6 +88,7 @@ if (!customElements.get('product-form')) {
                 normalFetch();
               })
             } else {
+              console.log(formData.get("id"));
               normalFetch();
             }
 		}
