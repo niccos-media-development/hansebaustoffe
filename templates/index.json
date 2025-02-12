@@ -379,13 +379,14 @@
         "promotion_pbMQVU": {
           "type": "promotion",
           "settings": {
-            "background_image_position": "bottom-left",
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Be-Entlueftung_1.png",
+            "background_image_position": "middle-center",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
             "background_image_offset_x": 0,
             "background_image_offset_y": 0,
             "title": "Be- & Entlüftung",
-            "link": "",
+            "link": "shopify://collections/be-entluftung",
             "heading_size": "md",
             "description": "",
             "text_color": "#ffffff",
