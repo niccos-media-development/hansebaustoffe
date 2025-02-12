@@ -47,6 +47,30 @@
           "type": "price",
           "settings": {}
         },
+        "line_item_property_4DeBWA": {
+          "type": "line_item_property",
+          "settings": {
+            "label": "Dicke",
+            "key": "dicke",
+            "option_list": "dicke"
+          }
+        },
+        "line_item_property_nJ3gzi": {
+          "type": "line_item_property",
+          "settings": {
+            "label": "Breite",
+            "key": "breite",
+            "option_list": "dicke"
+          }
+        },
+        "line_item_property_UgFchr": {
+          "type": "line_item_property",
+          "settings": {
+            "label": "Launge",
+            "key": "Launge",
+            "option_list": "dicke"
+          }
+        },
         "variants": {
           "type": "variants",
           "settings": {
@@ -148,6 +172,9 @@
         "judge_me_reviews_preview_badge_kwdyzY",
         "subtitle",
         "price",
+        "line_item_property_4DeBWA",
+        "line_item_property_nJ3gzi",
+        "line_item_property_UgFchr",
         "variants",
         "buy_buttons",
         "complementary_eQPqH4",
@@ -213,6 +240,21 @@
         "spacing_bottom": 60
       }
     },
+    "1738918765e0980779": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_KXq3Ad": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_KXq3Ad"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
     "1734509477da49f758": {
       "type": "apps",
       "blocks": {
@@ -234,27 +276,13 @@
             "wrap_container": true,
             "show_caret": false,
             "gspr_style": "bold",
-            "hide_if_empty": false
+            "hide_if_empty": false,
+            "display_ref": true
           }
         }
       },
       "block_order": [
         "gpsr_compliance_manager_gpsr_compliance_tjwfEp"
-      ],
-      "settings": {
-        "full_width": false
-      }
-    },
-    "1738918765e0980779": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_KXq3Ad": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_KXq3Ad"
       ],
       "settings": {
         "full_width": false
