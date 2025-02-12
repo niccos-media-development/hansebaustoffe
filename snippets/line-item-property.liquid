@@ -1,6 +1,6 @@
 <div class="product-form-input">
-    <label class="form-label" for="LineItemProperties-{{ section.id }}">{{ block.settings.label }}</label>
-    <select name="id" id="LineItemProperties-{{ section.id }}" class="select__select" form="{{ product_form_id }}">
+    <label class="form-label" for="LineItemProperty-{{ section.id }}-{{ block.settings.key }}">{{ block.settings.label }}</label>
+    <select name="id" id="LineItemProperty-{{ section.id }}-{{ block.settings.key }}" class="select__select" form="{{ product_form_id }}">
         {%- assign options = block.settings.option_list | split: ',' | compact %}
         {%- for _option in options -%}
             {%- assign option = _option | strip %}
