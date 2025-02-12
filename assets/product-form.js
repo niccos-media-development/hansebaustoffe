@@ -28,12 +28,12 @@ if (!customElements.get('product-form')) {
 			config.headers['X-Requested-With'] = 'XMLHttpRequest';
 			delete config.headers['Content-Type'];
 
-			const formData = new FormData(this.form);
-			formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
-			formData.append('sections_url', window.location.pathname);
-			config.body = formData;
-
             function normalFetch() {
+              const formData = new FormData(this.form);
+              formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
+              formData.append('sections_url', window.location.pathname);
+              config.body = formData;
+
               fetch(`${routes.cart_add_url}`, config)
                 .then((response) => response.json())
                 .then((response) => {
@@ -82,8 +82,11 @@ if (!customElements.get('product-form')) {
             }
       
             if(formData.get("id") === "49850516865366") {
-              console.log('messing');
-              normalFetch();
+              fetch('https://www.hanse-syntec.de/collections/deletable-products?filter.p.sku=MSw1IG1tIC0gNyw2MiBtIC0gMyw2IG0=&view=10064').then(r => r.json()).then(d => {
+                console.log(d);
+                console.log(this.form);
+                normalFetch();
+              })
             } else {
               normalFetch();
             }
