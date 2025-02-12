@@ -12,6 +12,8 @@ if (!customElements.get('product-form')) {
 		}
 
 		onSubmitHandler(event) {
+            const _this4 = this;
+              
 			event.preventDefault();
 			const submitButton = this.querySelector('[type="submit"]');
 			if (submitButton.classList.contains('loading')) {
@@ -31,8 +33,8 @@ if (!customElements.get('product-form')) {
             let formData = new FormData(this.form);
           
             function normalFetch() {
-              formData = new FormData(this.form);
-              formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
+              formData = new FormData(_this4.form);
+              formData.append('sections', _this4.minicart.getSectionsToRender().map((section) => section.id));
               formData.append('sections_url', window.location.pathname);
               config.body = formData;
 
@@ -47,29 +49,29 @@ if (!customElements.get('product-form')) {
                       message: response.message,
                     });
       
-                    this.handleErrorMessage(response.description);
-                    this.minicart.updateSectionContents();
+                    _this4.handleErrorMessage(response.description);
+                    _this4.minicart.updateSectionContents();
                     return;
                   }
       
-                  this.minicart.renderContents(response);
+                  _this4.minicart.renderContents(response);
       
                   if (window.themeSettings.redirectToCart) {
                     location.href = window.routes.cart_url;
                   } else {
-                    this.minicart.open(submitButton);
+                    _this4.minicart.open(submitButton);
                   }
       
                   const event = new CustomEvent('cart:item-add', {
                     detail: {
                       items: [response],
-                      context: this.eventContext,
+                      context: _this4.eventContext,
                     },
                   });
                   document.dispatchEvent(event);
       
                   publish(PUB_SUB_EVENTS.cartItemAdd, {
-                    source: this.eventContext,
+                    source: _this4.eventContext,
                     items: [response],
                   });
                 })
@@ -79,14 +81,14 @@ if (!customElements.get('product-form')) {
                 .finally(() => {
                   submitButton.classList.remove('loading');
                   submitButton.removeAttribute('aria-disabled');
-                  this.querySelector('.button-overlay-spinner').classList.add('hidden');
+                  _this4.querySelector('.button-overlay-spinner').classList.add('hidden');
                 });
             }
       
             if(formData.get("id") === "49850516865366") {
               fetch('https://www.hanse-syntec.de/collections/deletable-products?filter.p.sku=MSw1IG1tIC0gNyw2MiBtIC0gMyw2IG0=&view=10064').then(r => r.json()).then(d => {
                 console.log(d);
-                console.log(this.form);
+                console.log(_this4.form);
                 normalFetch();
               })
             } else {
