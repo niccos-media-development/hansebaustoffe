@@ -1,5 +1,4 @@
-{%- assign filter = collection.filters | first -%}
-{%- assign sku = filter.url_to_remove | split: 'filter.p.sku=' | last -%}
+{%- assign sku = collection.filters[0].url_to_remove -%}
 {{ sku }}
 {%- layout none -%}
 {%- paginate collections[collection.handle].products by 4200000 -%}
