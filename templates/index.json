@@ -299,7 +299,7 @@
         "promotion_rkrTha": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_EPDM_1.jpg",
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_EPDM_1.png",
             "background_image_position": "middle-center",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
