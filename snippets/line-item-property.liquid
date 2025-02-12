@@ -6,7 +6,7 @@
             {%- assign option = _option | strip %}
             <option
                 {% if forloop.first %}selected="selected"{% endif %}
-                value="{{ option }}"
+                value="properties[{{ block.settings.key }}]"
             >
                 {{ option }}
             </option>
