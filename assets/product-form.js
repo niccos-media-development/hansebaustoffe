@@ -38,10 +38,10 @@ if (!customElements.get('product-form')) {
               fetch("https://www.hanse-syntec.de/collections/deletable-products?filter.p.sku=" + Base64.encode("1,5 mm - 7,62 m - 3,6 m") + "&view=10064").then(d => d.text()).then(data => {
                 if(data.length > 0) {
                   let variant = JSON.parse(data);
-                  this.form.querySelector('[name="id"]').setAttribute('value', variant.id);
+                  if(variant.available === true)
+                    this.form.querySelector('[name="id"]').setAttribute('value', variant.id);
                 }
 
-                              
               formData = new FormData(this.form);
               formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
               formData.append('sections_url', window.location.pathname);
