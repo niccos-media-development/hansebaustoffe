@@ -81,7 +81,7 @@ if (!customElements.get('product-form')) {
                 });
             }
       
-            if(formData.id === "49850516865366") {
+            if(formData.get("id") === "49850516865366") {
               alert(1);
               normalFetch();
             } else {
