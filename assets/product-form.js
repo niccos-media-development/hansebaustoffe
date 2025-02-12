@@ -29,6 +29,7 @@ if (!customElements.get('product-form')) {
 			delete config.headers['Content-Type'];
 
             function normalFetch() {
+              alert(1);
               const formData = new FormData(this.form);
               formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
               formData.append('sections_url', window.location.pathname);
