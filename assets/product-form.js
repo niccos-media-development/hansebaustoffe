@@ -92,9 +92,9 @@ if (!customElements.get('product-form')) {
                   this.form.querySelector('[name="id"]').setAttribute('value', variant.id);
                 }
               })
-              doFetch();
+              doFetch(this);
             } else {
-              doFetch();
+              doFetch(this);
             }
 		}
 
