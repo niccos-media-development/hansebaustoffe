@@ -1,7 +1,7 @@
 
 {%- layout none -%}
 {%- assign filter = collection.filters | first -%}
-{%- assign sku = filter.url_to_remove -%}
+{%- assign sku = filter.url_to_remove | split: 'filter.p.sku=' | last | split: '&view=' | first -%}
 
 {{ sku }}
 {{ sku }}
