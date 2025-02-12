@@ -655,6 +655,24 @@
 	</div>
 </div>
 
+{% if product.template_suffix == "10064" %}
+  <script>
+    document.querySelectorAll('[id^=LineItemProperty-]').forEach(select => {
+      select.addEventListener('change', e => {
+        let [ p_dicke, p_breite, p_launge ] = [ "dicke", "breite", "launge" ].map(f =>
+          document.getElementId('LineItemProperty-' + f).value
+        ).map(n => Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")))
+
+        let basePrice = p_dicke == 1.5 ? 18.5 : 14.5;
+
+        let price = (basePrice * p_breite * p_launge).toFixed(2);
+
+        document.querySelector('[data-price]').innerText = price;
+      })
+    })
+  </script>
+{% endif %}
+
 {%- if first_3d_model -%}
 	<script type="application/json" id="ProductJSON-{{ product.id }}">
 		{{ product.media | where: 'media_type', 'model' | json }}
