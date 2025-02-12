@@ -1,3 +1,7 @@
+span[data-price] {
+  font-size: calc(var(--font-product-price-scale)* 2rem);
+}
+
 /* Header Styling */
 .header-search-global-form,
 .search .button.icon-left,
