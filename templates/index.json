@@ -399,7 +399,8 @@
         "promotion_CjHpbR": {
           "type": "promotion",
           "settings": {
-            "background_image_position": "bottom-left",
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Kabeldurchfuehrung_1.png",
+            "background_image_position": "middle-center",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
             "background_image_offset_x": 0,
