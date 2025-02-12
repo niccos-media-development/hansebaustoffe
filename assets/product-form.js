@@ -35,7 +35,9 @@ if (!customElements.get('product-form')) {
 
             formData = new FormData(this.form);
             if(formData.get("id") === "49850516865366") {
-              fetch("https://www.hanse-syntec.de/collections/deletable-products?filter.p.sku=" + Base64.encode("1,5 mm - 7,62 m - 3,6 m") + "&view=10064").then(d => d.text()).then(data => {
+              let sku = [ "dicke", "breite", "launge" ].map(d => document.getElementById('LineItemProperty-' + d).value).join(" - ")
+
+              fetch("https://www.hanse-syntec.de/collections/deletable-products?filter.p.sku=" + Base64.encode(sku) + "&view=10064").then(d => d.text()).then(data => {
                 if(data.length > 0) {
                   let variant = JSON.parse(data);
                   if(variant.available === true)
