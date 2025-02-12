@@ -44,16 +44,16 @@ if (!customElements.get('product-form')) {
               }).join(" - ");
 
               fetch("https://www.hanse-syntec.de/collections/deletable-products?filter.p.sku=" + Base64.encode(sku) + "&view=10064").then(d => d.text()).then(data => {
+
+                formData = new FormData(this.form);
+                formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
+                formData.append('sections_url', window.location.pathname);
                 if(data.length > 0) {
                   let variant = JSON.parse(data);
                   if(variant.available === true)
-                    this.form.querySelector('[name="id"]').setAttribute('value', variant.id);
+                    formData.set("id", variant.id);
                 }
-
-              formData = new FormData(this.form);
-              formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
-              formData.append('sections_url', window.location.pathname);
-              config.body = formData;
+                config.body = formData;
     
               fetch(`${routes.cart_add_url}`, config)
                   .then((response) => response.json())
