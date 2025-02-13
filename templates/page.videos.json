@@ -195,6 +195,7 @@
         "text_UA874T"
       ],
       "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_Innenecke_Attika.jpg",
         "video_url": "https://youtu.be/sYTkZ2J0wkA",
         "layout": "media_first",
         "desktop_content_alignment": "left",
