@@ -312,7 +312,7 @@
         "text_eKUCEH": {
           "type": "text",
           "settings": {
-            "text": "<p>Agrarflex ist ein hochwertiges Abdichtungssystem für JGS-Anlagen, Biogasanlagen und Stallanlagen. Es besteht aus flexiblem synthetischem Kautschuk mit einer Dehnbarkeit von über 300%, wodurch es sich optimal an verschiedene Strukturen anpassen lässt. Dank der vorkonfektionierten Kaltnahtfügung ist keine aufwendige Schweißarbeit erforderlich, was eine schnelle und witterungsunabhängige Verlegung ermöglicht.</p><p>Das System zeichnet sich durch seine hohe Belastbarkeit aus und hält Auflasten von bis zu 150 kN/m² stand. Zudem bietet es eine zuverlässige Leckageerkennung, die zur Umwelt- und Anlagensicherheit beiträgt. Agrarflex wird von der Hanse Baustoffe Handelsgesellschaft mbH & Co. KG aus Bad Oldesloe angeboten. Weitere Informationen sind auf <a href=\"https://www.agrarflex.com\">agrarflex.com</a> verfügbar.</p>",
+            "text": "<ul><li><h6>Agrarflex ist ein hochwertiges Abdichtungssystem für JGS-Anlagen, Biogasanlagen und Stallanlagen. Es besteht aus flexiblem synthetischem Kautschuk mit einer Dehnbarkeit von über 300%, wodurch es sich optimal an verschiedene Strukturen anpassen lässt. Dank der vorkonfektionierten Kaltnahtfügung ist keine aufwendige Schweißarbeit erforderlich, was eine schnelle und witterungsunabhängige Verlegung ermöglicht.</h6></li><li><h6>Das System zeichnet sich durch seine hohe Belastbarkeit aus und hält Auflasten von bis zu 150 kN/m² stand. Zudem bietet es eine zuverlässige Leckageerkennung, die zur Umwelt- und Anlagensicherheit beiträgt. Agrarflex wird von der Hanse Baustoffe Handelsgesellschaft mbH & Co. KG aus Bad Oldesloe angeboten. Weitere Informationen sind auf <a href=\"https://www.agrarflex.com\">agrarflex.com</a> verfügbar.</h6></li></ul>",
             "text_size": "md"
           }
         },
@@ -334,7 +334,8 @@
       ],
       "settings": {
         "narrow": true,
-        "overlay_background": "linear-gradient(310deg, rgba(57, 194, 78, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+        "image": "shopify://shop_images/COVER-1-2048x1494_ae6d19b0-edf4-4256-92a3-19061bab6fb5.jpg",
+        "overlay_background": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 15%, rgba(33, 249, 150, 1) 85%)",
         "alignment": "center",
         "color_scheme": "accent-3",
         "spacing_top": 60,
