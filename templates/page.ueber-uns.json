@@ -372,8 +372,7 @@
         "image_banner_JeqT6w"
       ],
       "custom_css": [
-        "/* Nur auf der Startseite */.template-index .section-image-banner {background-color: green !important;}",
-        "/* Nur auf Produktseiten */.template-product .section-image-banner {background-color: green !important;}"
+        "/* Nur auf der Startseite */.template-index .section-image-banner {background-color: green !important;"
       ],
       "settings": {
         "heading": "",
