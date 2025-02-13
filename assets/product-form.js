@@ -43,7 +43,7 @@ if (!customElements.get('product-form')) {
                 return str + " " + op
               }).join(" - ");
 
-              fetch("https://www.hanse-syntec.de/collections/deletable-products?filter.p.sku=" + Base64.encode(sku) + "&view=10064").then(d => d.text()).then(data => {
+              fetch(window.location.origin + "/collections/deletable-products?filter.p.sku=" + Base64.encode(sku) + "&view=10064").then(d => d.text()).then(data => {
 
                 formData = new FormData(this.form);
                 formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
