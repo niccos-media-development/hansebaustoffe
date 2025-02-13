@@ -329,8 +329,12 @@
         "text_eKUCEH",
         "button_6HMGwL"
       ],
+      "custom_css": [
+        ".rich-text {color: white !important; /* Setzt den Text auf Weiß */}"
+      ],
       "settings": {
         "narrow": true,
+        "image": "shopify://shop_images/COVER-1-2048x1494_ae6d19b0-edf4-4256-92a3-19061bab6fb5.jpg",
         "overlay_background": "",
         "alignment": "center",
         "color_scheme": "accent-3",
@@ -386,6 +390,76 @@
         "spacing_top": 50,
         "spacing_bottom": 50
       }
+    },
+    "image_hotspots_HW4i46": {
+      "type": "image-hotspots",
+      "blocks": {
+        "hotspot_WYxnJV": {
+          "type": "hotspot",
+          "settings": {
+            "position_x": 21,
+            "position_y": 15,
+            "image": "shopify://shop_images/AF_Ponhoelzer_web3_0cfd570e-71d7-4f59-9b6f-c7b3d1d0c7bc.jpg",
+            "title": "Die perfekte Abdichtung auch für Güllekanäle",
+            "description": "<p>Güllekanal Milchviehstall Dezember 2020</p><p>60 Mtr. Güllekanal 3 Mtr. Einbindetiefe</p><p>Abdichtung in 2 teiliger Ausführung</p>",
+            "button_text": "Button label",
+            "button_link": "",
+            "product": "",
+            "show_vendor": true,
+            "show_rating": false,
+            "show_stock": true,
+            "show_add_to_cart": false
+          }
+        },
+        "hotspot_gBNgTT": {
+          "type": "hotspot",
+          "settings": {
+            "position_x": 50,
+            "position_y": 87,
+            "title": "Hotspot title",
+            "description": "<p>Pair text with an image to display hotspot content.</p>",
+            "button_text": "Button label",
+            "button_link": "",
+            "product": "",
+            "show_vendor": true,
+            "show_rating": false,
+            "show_stock": true,
+            "show_add_to_cart": false
+          }
+        },
+        "hotspot_JhR3et": {
+          "type": "hotspot",
+          "settings": {
+            "position_x": 70,
+            "position_y": 30,
+            "title": "Hotspot title",
+            "description": "<p>Pair text with an image to display hotspot content.</p>",
+            "button_text": "Button label",
+            "button_link": "",
+            "product": "",
+            "show_vendor": true,
+            "show_rating": false,
+            "show_stock": true,
+            "show_add_to_cart": false
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_WYxnJV",
+        "hotspot_gBNgTT",
+        "hotspot_JhR3et"
+      ],
+      "settings": {
+        "heading": "Image hotspots",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "image": "shopify://shop_images/COVER-1-2048x1494_ae6d19b0-edf4-4256-92a3-19061bab6fb5.jpg",
+        "bullet_color": "",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
     }
   },
   "order": [
@@ -396,6 +470,7 @@
     "promotion_blocks_t6xPfD",
     "promotion_cards_3iiUzX",
     "rich_text_QNwwGA",
-    "image_banners_4YrNMr"
+    "image_banners_4YrNMr",
+    "image_hotspots_HW4i46"
   ]
 }
