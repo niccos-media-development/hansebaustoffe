@@ -132,7 +132,7 @@
         "heading_Hq7y4a": {
           "type": "heading",
           "settings": {
-            "heading": "Detailausbildung einer Außenecke",
+            "heading": "Detailausbildung Außenecke",
             "heading_font_size": "--font-h2-size",
             "heading_font_size_mobile": "--font-h3-size"
           }
@@ -176,7 +176,7 @@
         "heading_FEk43T": {
           "type": "heading",
           "settings": {
-            "heading": "Detailausbildung einer Innenecke",
+            "heading": "Detailausbildung Innenecke",
             "heading_font_size": "--font-h2-size",
             "heading_font_size_mobile": "--font-h3-size"
           }
