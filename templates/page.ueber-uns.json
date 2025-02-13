@@ -334,8 +334,7 @@
       ],
       "settings": {
         "narrow": true,
-        "image": "shopify://shop_images/COVER-1-2048x1494_ae6d19b0-edf4-4256-92a3-19061bab6fb5.jpg",
-        "overlay_background": "",
+        "overlay_background": "linear-gradient(310deg, rgba(57, 194, 78, 1) 15%, rgba(33, 249, 150, 1) 85%)",
         "alignment": "center",
         "color_scheme": "accent-3",
         "spacing_top": 60,
@@ -375,6 +374,7 @@
         "image_banner_UyFrYW",
         "image_banner_JeqT6w"
       ],
+      "disabled": true,
       "custom_css": [
         "/* Nur auf der Startseite */.template-index .section-image-banner {background-color: green !important;"
       ],
@@ -415,7 +415,7 @@
           "type": "hotspot",
           "settings": {
             "position_x": 77,
-            "position_y": 87,
+            "position_y": 55,
             "image": "shopify://shop_images/AF_Ponhoelzer_web2_565df264-a808-42cd-99e1-edbeee6ac8a5.jpg",
             "title": "Die Schächte werden seitlich an der Bodenplatte mit einem Losflansch eingebaut.Es wird keine Ringdrainage benötigt.Die Schächte werden seitlich an der Bodenplatte mit einem Losflansch eingebaut.Es wird keine Ringdrainage benötigt.",
             "description": "<h3>Schächte ganz einfach</h3>",
@@ -431,8 +431,8 @@
         "hotspot_JhR3et": {
           "type": "hotspot",
           "settings": {
-            "position_x": 70,
-            "position_y": 30,
+            "position_x": 77,
+            "position_y": 15,
             "image": "shopify://shop_images/IMG_3716-2048x1536_c1685b59-36cc-4dc8-a548-554678cfe262.jpg",
             "title": "Die mehr als 300% dehnfähige Abdichtung besteht aus einem synthetischem Kautschuk (Gummi) und lässt sich dadurch problemlos um jede Ecke als Tasche falten und abdichten (ohne Spezialwerkzeug)",
             "description": "<h3>Ecken und Nähte?</h3>",
@@ -449,7 +449,8 @@
           "type": "hotspot",
           "settings": {
             "position_x": 20,
-            "position_y": 61,
+            "position_y": 55,
+            "image": "shopify://shop_images/P1180177-2048x1152_93e7a07d-69de-4327-805b-6d3540843136.jpg",
             "title": "JGS-Anlage März 2020 Stahlbetonbehälter 20 Mtr. Durchmesser2-teilige Abdichtung 1,5 Mtr. Einbindetiefe",
             "description": "<p>Die zuverlässige Leckageerkennung</p>",
             "button_text": "Button label",
@@ -468,16 +469,17 @@
         "hotspot_JhR3et",
         "hotspot_zbAwht"
       ],
+      "disabled": true,
       "settings": {
-        "heading": "Agrarflex",
+        "heading": "",
         "subheading": "",
         "link_title": "",
         "link_url": "",
         "image": "shopify://shop_images/COVER-1-2048x1494_ae6d19b0-edf4-4256-92a3-19061bab6fb5.jpg",
-        "bullet_color": "#39c24e",
+        "bullet_color": "rgba(0,0,0,0)",
         "color_scheme": "accent-3",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 0,
+        "spacing_bottom": 40
       }
     }
   },
