@@ -372,7 +372,7 @@
         "image_banner_JeqT6w"
       ],
       "custom_css": [
-        "body {background-color: green !important; /* Setzt die Hintergrundfarbe auf Grün */}"
+        "body {background-color: green; /* Setzt die Hintergrundfarbe auf Grün */}"
       ],
       "settings": {
         "heading": "",
@@ -382,9 +382,9 @@
         "layout": "grid",
         "columns": 3,
         "stack_on_mobile": false,
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "color_scheme": "accent-3",
+        "spacing_top": 50,
+        "spacing_bottom": 50
       }
     }
   },
