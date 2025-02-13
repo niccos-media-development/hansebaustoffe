@@ -372,7 +372,8 @@
         "image_banner_JeqT6w"
       ],
       "custom_css": [
-        ".section-image-banner {background-color: green !important; /* Hintergrundfarbe auf Grün setzen */}"
+        "/* Nur auf der Startseite */.template-index .section-image-banner {background-color: green !important;}",
+        "/* Nur auf Produktseiten */.template-product .section-image-banner {background-color: green !important;}"
       ],
       "settings": {
         "heading": "",
@@ -382,7 +383,7 @@
         "layout": "grid",
         "columns": 3,
         "stack_on_mobile": false,
-        "color_scheme": "accent-3",
+        "color_scheme": "background-1",
         "spacing_top": 50,
         "spacing_bottom": 50
       }
