@@ -22,29 +22,21 @@
         "heading_64gjJn": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Registrierungsformular Gewerbekunden",
             "heading_size": "md"
           }
         },
         "text_PKyAmT": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text": "<p>Bitte füllen Sie das untenstehende Formular aus.</p>",
             "text_size": "md"
-          }
-        },
-        "button_ePeJWT": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
           }
         }
       },
       "block_order": [
         "heading_64gjJn",
-        "text_PKyAmT",
-        "button_ePeJWT"
+        "text_PKyAmT"
       ],
       "settings": {
         "narrow": true,
@@ -52,7 +44,7 @@
         "alignment": "center",
         "color_scheme": "background-1",
         "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_bottom": 0
       }
     },
     "173945177119dc2136": {
