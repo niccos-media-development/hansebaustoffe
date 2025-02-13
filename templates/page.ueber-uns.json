@@ -298,6 +298,96 @@
       "settings": {
         "section_bg": "#f3f3f3"
       }
+    },
+    "promotion_cards_NngUXB": {
+      "type": "promotion_cards",
+      "blocks": {
+        "promo_card_NYRzJ8": {
+          "type": "promo_card",
+          "settings": {
+            "image": "shopify://shop_images/COVER-1-2048x1494.jpg",
+            "block_bg": "#1ece5f",
+            "subtitle": "",
+            "subtitle_color": "#000",
+            "title": "",
+            "title_color": "#000",
+            "button_text": "",
+            "button_link": "",
+            "button_text_color": "#000",
+            "button_bg_color": "#fff"
+          }
+        },
+        "promo_card_gbF4VG": {
+          "type": "promo_card",
+          "settings": {
+            "image": "shopify://shop_images/AF_Ponhoelzer_web3.jpg",
+            "block_bg": "#fff",
+            "subtitle": "",
+            "subtitle_color": "#000",
+            "title": "",
+            "title_color": "#000",
+            "button_text": "",
+            "button_link": "",
+            "button_text_color": "#000",
+            "button_bg_color": "#fff"
+          }
+        },
+        "promo_card_AEXdda": {
+          "type": "promo_card",
+          "settings": {
+            "image": "shopify://shop_images/P1180177-2048x1152.jpg",
+            "block_bg": "#fff",
+            "subtitle": "",
+            "subtitle_color": "#000",
+            "title": "",
+            "title_color": "#000",
+            "button_text": "",
+            "button_link": "",
+            "button_text_color": "#000",
+            "button_bg_color": "#fff"
+          }
+        },
+        "promo_card_J7LNV3": {
+          "type": "promo_card",
+          "settings": {
+            "image": "shopify://shop_images/AF_Ponhoelzer_web2.jpg",
+            "block_bg": "#fff",
+            "subtitle": "",
+            "subtitle_color": "#000",
+            "title": "",
+            "title_color": "#000",
+            "button_text": "",
+            "button_link": "",
+            "button_text_color": "#000",
+            "button_bg_color": "#fff"
+          }
+        },
+        "promo_card_zPyynJ": {
+          "type": "promo_card",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3716-2048x1536.jpg",
+            "block_bg": "#fff",
+            "subtitle": "",
+            "subtitle_color": "#000",
+            "title": "",
+            "title_color": "#000",
+            "button_text": "",
+            "button_link": "",
+            "button_text_color": "#000",
+            "button_bg_color": "#fff"
+          }
+        }
+      },
+      "block_order": [
+        "promo_card_NYRzJ8",
+        "promo_card_gbF4VG",
+        "promo_card_AEXdda",
+        "promo_card_J7LNV3",
+        "promo_card_zPyynJ"
+      ],
+      "settings": {
+        "section_bg": "#1ece5f"
+      }
     }
   },
   "order": [
@@ -306,6 +396,7 @@
     "main",
     "image_banners_8JUj4L",
     "promotion_blocks_t6xPfD",
-    "promotion_cards_3iiUzX"
+    "promotion_cards_3iiUzX",
+    "promotion_cards_NngUXB"
   ]
 }
