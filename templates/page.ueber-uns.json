@@ -344,6 +344,7 @@
         "image_banner_Kb48jn": {
           "type": "image_banner",
           "settings": {
+            "image": "shopify://shop_images/AF_Ponhoelzer_web3_0cfd570e-71d7-4f59-9b6f-c7b3d1d0c7bc.jpg",
             "description": "",
             "link": ""
           }
@@ -351,6 +352,7 @@
         "image_banner_UyFrYW": {
           "type": "image_banner",
           "settings": {
+            "image": "shopify://shop_images/COVER-1-2048x1494_ae6d19b0-edf4-4256-92a3-19061bab6fb5.jpg",
             "description": "",
             "link": ""
           }
@@ -358,6 +360,7 @@
         "image_banner_JeqT6w": {
           "type": "image_banner",
           "settings": {
+            "image": "shopify://shop_images/AF_Ponhoelzer_web2_565df264-a808-42cd-99e1-edbeee6ac8a5.jpg",
             "description": "",
             "link": ""
           }
