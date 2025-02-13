@@ -299,48 +299,6 @@
         "section_bg": "#f3f3f3"
       }
     },
-    "rich_text_QNwwGA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_bxGYwc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Agrarflex",
-            "heading_size": "md"
-          }
-        },
-        "text_eKUCEH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Agrarflex ist ein hochwertiges Abdichtungssystem für JGS-Anlagen, Biogasanlagen und Stallanlagen. Es besteht aus flexiblem synthetischem Kautschuk mit einer Dehnbarkeit von über 300%, wodurch es sich optimal an verschiedene Strukturen anpassen lässt. Dank der vorkonfektionierten Kaltnahtfügung ist keine aufwendige Schweißarbeit erforderlich, was eine schnelle und witterungsunabhängige Verlegung ermöglicht.</p><p>Das System zeichnet sich durch seine hohe Belastbarkeit aus und hält Auflasten von bis zu 150 kN/m² stand. Zudem bietet es eine zuverlässige Leckageerkennung, die zur Umwelt- und Anlagensicherheit beiträgt. Agrarflex wird von der Hanse Baustoffe Handelsgesellschaft mbH & Co. KG aus Bad Oldesloe angeboten. Weitere Informationen sind auf <a href=\"https://www.agrarflex.com\">agrarflex.com</a> verfügbar.</p>",
-            "text_size": "md"
-          }
-        },
-        "button_6HMGwL": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zum Shop",
-            "button_link": "https://www.agrarflex.com/#page-top"
-          }
-        }
-      },
-      "block_order": [
-        "heading_bxGYwc",
-        "text_eKUCEH",
-        "button_6HMGwL"
-      ],
-      "custom_css": [
-        ".rich-text {color: white !important; /* Setzt den Text auf Weiß */}"
-      ],
-      "settings": {
-        "narrow": true,
-        "overlay_background": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 15%, rgba(33, 249, 150, 1) 85%)",
-        "alignment": "center",
-        "color_scheme": "accent-3",
-        "spacing_top": 60,
-        "spacing_bottom": 60
-      }
-    },
     "image_banners_4YrNMr": {
       "type": "image-banners",
       "blocks": {
@@ -480,6 +438,48 @@
         "spacing_top": 0,
         "spacing_bottom": 40
       }
+    },
+    "rich_text_QNwwGA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bxGYwc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Agrarflex",
+            "heading_size": "md"
+          }
+        },
+        "text_eKUCEH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Agrarflex ist ein hochwertiges Abdichtungssystem für JGS-Anlagen, Biogasanlagen und Stallanlagen. Es besteht aus flexiblem synthetischem Kautschuk mit einer Dehnbarkeit von über 300%, wodurch es sich optimal an verschiedene Strukturen anpassen lässt. Dank der vorkonfektionierten Kaltnahtfügung ist keine aufwendige Schweißarbeit erforderlich, was eine schnelle und witterungsunabhängige Verlegung ermöglicht.</p><p>Das System zeichnet sich durch seine hohe Belastbarkeit aus und hält Auflasten von bis zu 150 kN/m² stand. Zudem bietet es eine zuverlässige Leckageerkennung, die zur Umwelt- und Anlagensicherheit beiträgt. Agrarflex wird von der Hanse Baustoffe Handelsgesellschaft mbH & Co. KG aus Bad Oldesloe angeboten. Weitere Informationen sind auf <a href=\"https://www.agrarflex.com\">agrarflex.com</a> verfügbar.</p>",
+            "text_size": "md"
+          }
+        },
+        "button_6HMGwL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Shop",
+            "button_link": "https://www.agrarflex.com/#page-top"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bxGYwc",
+        "text_eKUCEH",
+        "button_6HMGwL"
+      ],
+      "custom_css": [
+        ".rich-text {color: white !important; /* Setzt den Text auf Weiß */}"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "linear-gradient(310deg, rgba(NaN, NaN, NaN, 1) 15%, rgba(33, 249, 150, 1) 85%)",
+        "alignment": "center",
+        "color_scheme": "accent-3",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
     }
   },
   "order": [
@@ -489,8 +489,8 @@
     "image_banners_8JUj4L",
     "promotion_blocks_t6xPfD",
     "promotion_cards_3iiUzX",
-    "rich_text_QNwwGA",
     "image_banners_4YrNMr",
-    "image_hotspots_HW4i46"
+    "image_hotspots_HW4i46",
+    "rich_text_QNwwGA"
   ]
 }
