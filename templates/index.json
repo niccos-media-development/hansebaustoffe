@@ -629,7 +629,7 @@
         "promotion_EbcwtF": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Info_PromoCards_Shops_400x200_1.png",
+            "image": "shopify://shop_images/HSS_Shop25_Info_PromoCards_Shops_990x400_1.png",
             "background_image_position": "top-right",
             "background_color": "rgba(0,0,0,0)",
             "overlay_background": "",
