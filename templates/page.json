@@ -16,37 +16,6 @@
         "hide_heading": false
       }
     },
-    "rich_text_jCUYhh": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_64gjJn": {
-          "type": "heading",
-          "settings": {
-            "heading": "Registrierungsformular Gewerbekunden",
-            "heading_size": "md"
-          }
-        },
-        "text_PKyAmT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Bitte füllen Sie das untenstehende Formular aus.</p>",
-            "text_size": "md"
-          }
-        }
-      },
-      "block_order": [
-        "heading_64gjJn",
-        "text_PKyAmT"
-      ],
-      "settings": {
-        "narrow": true,
-        "overlay_background": "",
-        "alignment": "center",
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 0
-      }
-    },
     "173945177119dc2136": {
       "type": "apps",
       "blocks": {
@@ -67,7 +36,6 @@
   },
   "order": [
     "main",
-    "rich_text_jCUYhh",
     "173945177119dc2136"
   ]
 }
