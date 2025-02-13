@@ -299,6 +299,45 @@
         "section_bg": "#f3f3f3"
       }
     },
+    "rich_text_QNwwGA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bxGYwc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Agrarflex",
+            "heading_size": "md"
+          }
+        },
+        "text_eKUCEH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Agrarflex ist ein hochwertiges Abdichtungssystem für JGS-Anlagen, Biogasanlagen und Stallanlagen. Es besteht aus flexiblem synthetischem Kautschuk mit einer Dehnbarkeit von über 300%, wodurch es sich optimal an verschiedene Strukturen anpassen lässt. Dank der vorkonfektionierten Kaltnahtfügung ist keine aufwendige Schweißarbeit erforderlich, was eine schnelle und witterungsunabhängige Verlegung ermöglicht.</p><p>Das System zeichnet sich durch seine hohe Belastbarkeit aus und hält Auflasten von bis zu 150 kN/m² stand. Zudem bietet es eine zuverlässige Leckageerkennung, die zur Umwelt- und Anlagensicherheit beiträgt. Agrarflex wird von der Hanse Baustoffe Handelsgesellschaft mbH & Co. KG aus Bad Oldesloe angeboten. Weitere Informationen sind auf <a href=\"https://www.agrarflex.com\">agrarflex.com</a> verfügbar.</p>",
+            "text_size": "md"
+          }
+        },
+        "button_6HMGwL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Shop",
+            "button_link": "https://www.agrarflex.com/#page-top"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bxGYwc",
+        "text_eKUCEH",
+        "button_6HMGwL"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "accent-3",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
     "promotion_cards_NngUXB": {
       "type": "promotion_cards",
       "blocks": {
@@ -387,45 +426,6 @@
       ],
       "settings": {
         "section_bg": "#1ece5f"
-      }
-    },
-    "rich_text_QNwwGA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_bxGYwc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "md"
-          }
-        },
-        "text_eKUCEH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-            "text_size": "md"
-          }
-        },
-        "button_6HMGwL": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_bxGYwc",
-        "text_eKUCEH",
-        "button_6HMGwL"
-      ],
-      "settings": {
-        "narrow": true,
-        "overlay_background": "",
-        "alignment": "center",
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
       }
     }
   },
