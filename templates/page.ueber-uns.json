@@ -308,73 +308,73 @@
             "image": "shopify://shop_images/COVER-1-2048x1494.jpg",
             "block_bg": "#1ece5f",
             "subtitle": "",
-            "subtitle_color": "#000",
+            "subtitle_color": "#000000",
             "title": "",
-            "title_color": "#000",
+            "title_color": "#000000",
             "button_text": "",
             "button_link": "",
-            "button_text_color": "#000",
-            "button_bg_color": "#fff"
+            "button_text_color": "#000000",
+            "button_bg_color": "#ffffff"
           }
         },
         "promo_card_gbF4VG": {
           "type": "promo_card",
           "settings": {
             "image": "shopify://shop_images/AF_Ponhoelzer_web3.jpg",
-            "block_bg": "#fff",
+            "block_bg": "#ffffff",
             "subtitle": "",
-            "subtitle_color": "#000",
+            "subtitle_color": "#000000",
             "title": "",
-            "title_color": "#000",
+            "title_color": "#000000",
             "button_text": "",
             "button_link": "",
-            "button_text_color": "#000",
-            "button_bg_color": "#fff"
+            "button_text_color": "#000000",
+            "button_bg_color": "#ffffff"
           }
         },
         "promo_card_AEXdda": {
           "type": "promo_card",
           "settings": {
             "image": "shopify://shop_images/P1180177-2048x1152.jpg",
-            "block_bg": "#fff",
+            "block_bg": "#ffffff",
             "subtitle": "",
-            "subtitle_color": "#000",
+            "subtitle_color": "#000000",
             "title": "",
-            "title_color": "#000",
+            "title_color": "#000000",
             "button_text": "",
             "button_link": "",
-            "button_text_color": "#000",
-            "button_bg_color": "#fff"
+            "button_text_color": "#000000",
+            "button_bg_color": "#ffffff"
           }
         },
         "promo_card_J7LNV3": {
           "type": "promo_card",
           "settings": {
             "image": "shopify://shop_images/AF_Ponhoelzer_web2.jpg",
-            "block_bg": "#fff",
+            "block_bg": "#ffffff",
             "subtitle": "",
-            "subtitle_color": "#000",
+            "subtitle_color": "#000000",
             "title": "",
-            "title_color": "#000",
+            "title_color": "#000000",
             "button_text": "",
             "button_link": "",
-            "button_text_color": "#000",
-            "button_bg_color": "#fff"
+            "button_text_color": "#000000",
+            "button_bg_color": "#ffffff"
           }
         },
         "promo_card_zPyynJ": {
           "type": "promo_card",
           "settings": {
             "image": "shopify://shop_images/IMG_3716-2048x1536.jpg",
-            "block_bg": "#fff",
+            "block_bg": "#ffffff",
             "subtitle": "",
-            "subtitle_color": "#000",
+            "subtitle_color": "#000000",
             "title": "",
-            "title_color": "#000",
+            "title_color": "#000000",
             "button_text": "",
             "button_link": "",
-            "button_text_color": "#000",
-            "button_bg_color": "#fff"
+            "button_text_color": "#000000",
+            "button_bg_color": "#ffffff"
           }
         }
       },
@@ -388,6 +388,45 @@
       "settings": {
         "section_bg": "#1ece5f"
       }
+    },
+    "rich_text_QNwwGA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bxGYwc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "md"
+          }
+        },
+        "text_eKUCEH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text_size": "md"
+          }
+        },
+        "button_6HMGwL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_bxGYwc",
+        "text_eKUCEH",
+        "button_6HMGwL"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
     }
   },
   "order": [
@@ -397,6 +436,7 @@
     "image_banners_8JUj4L",
     "promotion_blocks_t6xPfD",
     "promotion_cards_3iiUzX",
+    "rich_text_QNwwGA",
     "promotion_cards_NngUXB"
   ]
 }
