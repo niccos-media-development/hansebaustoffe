@@ -372,7 +372,7 @@
         "image_banner_JeqT6w"
       ],
       "custom_css": [
-        "body {background-color: green; /* Setzt die Hintergrundfarbe auf Grün */}"
+        ".section-image-banner {background-color: green !important; /* Hintergrundfarbe auf Grün setzen */}"
       ],
       "settings": {
         "heading": "",
