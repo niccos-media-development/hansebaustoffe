@@ -414,7 +414,7 @@
         "hotspot_gBNgTT": {
           "type": "hotspot",
           "settings": {
-            "position_x": 50,
+            "position_x": 77,
             "position_y": 87,
             "image": "shopify://shop_images/AF_Ponhoelzer_web2_565df264-a808-42cd-99e1-edbeee6ac8a5.jpg",
             "title": "Die Schächte werden seitlich an der Bodenplatte mit einem Losflansch eingebaut.Es wird keine Ringdrainage benötigt.Die Schächte werden seitlich an der Bodenplatte mit einem Losflansch eingebaut.Es wird keine Ringdrainage benötigt.",
@@ -444,12 +444,29 @@
             "show_stock": true,
             "show_add_to_cart": false
           }
+        },
+        "hotspot_zbAwht": {
+          "type": "hotspot",
+          "settings": {
+            "position_x": 20,
+            "position_y": 61,
+            "title": "JGS-Anlage März 2020 Stahlbetonbehälter 20 Mtr. Durchmesser2-teilige Abdichtung 1,5 Mtr. Einbindetiefe",
+            "description": "<p>Die zuverlässige Leckageerkennung</p>",
+            "button_text": "Button label",
+            "button_link": "",
+            "product": "",
+            "show_vendor": true,
+            "show_rating": false,
+            "show_stock": true,
+            "show_add_to_cart": false
+          }
         }
       },
       "block_order": [
         "hotspot_WYxnJV",
         "hotspot_gBNgTT",
-        "hotspot_JhR3et"
+        "hotspot_JhR3et",
+        "hotspot_zbAwht"
       ],
       "settings": {
         "heading": "Agrarflex",
