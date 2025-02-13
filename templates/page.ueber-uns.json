@@ -338,94 +338,50 @@
         "spacing_bottom": 60
       }
     },
-    "promotion_cards_NngUXB": {
-      "type": "promotion_cards",
+    "image_banners_4YrNMr": {
+      "type": "image-banners",
       "blocks": {
-        "promo_card_NYRzJ8": {
-          "type": "promo_card",
+        "image_banner_Kb48jn": {
+          "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/COVER-1-2048x1494.jpg",
-            "block_bg": "#1ece5f",
-            "subtitle": "",
-            "subtitle_color": "#000000",
-            "title": "",
-            "title_color": "#000000",
-            "button_text": "",
-            "button_link": "",
-            "button_text_color": "#000000",
-            "button_bg_color": "#ffffff"
+            "description": "",
+            "link": ""
           }
         },
-        "promo_card_gbF4VG": {
-          "type": "promo_card",
+        "image_banner_UyFrYW": {
+          "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/AF_Ponhoelzer_web3.jpg",
-            "block_bg": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#000000",
-            "title": "",
-            "title_color": "#000000",
-            "button_text": "",
-            "button_link": "",
-            "button_text_color": "#000000",
-            "button_bg_color": "#ffffff"
+            "description": "",
+            "link": ""
           }
         },
-        "promo_card_AEXdda": {
-          "type": "promo_card",
+        "image_banner_JeqT6w": {
+          "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/P1180177-2048x1152.jpg",
-            "block_bg": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#000000",
-            "title": "",
-            "title_color": "#000000",
-            "button_text": "",
-            "button_link": "",
-            "button_text_color": "#000000",
-            "button_bg_color": "#ffffff"
-          }
-        },
-        "promo_card_J7LNV3": {
-          "type": "promo_card",
-          "settings": {
-            "image": "shopify://shop_images/AF_Ponhoelzer_web2.jpg",
-            "block_bg": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#000000",
-            "title": "",
-            "title_color": "#000000",
-            "button_text": "",
-            "button_link": "",
-            "button_text_color": "#000000",
-            "button_bg_color": "#ffffff"
-          }
-        },
-        "promo_card_zPyynJ": {
-          "type": "promo_card",
-          "settings": {
-            "image": "shopify://shop_images/IMG_3716-2048x1536.jpg",
-            "block_bg": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#000000",
-            "title": "",
-            "title_color": "#000000",
-            "button_text": "",
-            "button_link": "",
-            "button_text_color": "#000000",
-            "button_bg_color": "#ffffff"
+            "description": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "promo_card_NYRzJ8",
-        "promo_card_gbF4VG",
-        "promo_card_AEXdda",
-        "promo_card_J7LNV3",
-        "promo_card_zPyynJ"
+        "image_banner_Kb48jn",
+        "image_banner_UyFrYW",
+        "image_banner_JeqT6w"
+      ],
+      "custom_css": [
+        "body {background-color: green !important; /* Setzt die Hintergrundfarbe auf Grün */}"
       ],
       "settings": {
-        "section_bg": "#21c42b"
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "layout": "grid",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
       }
     }
   },
@@ -437,6 +393,6 @@
     "promotion_blocks_t6xPfD",
     "promotion_cards_3iiUzX",
     "rich_text_QNwwGA",
-    "promotion_cards_NngUXB"
+    "image_banners_4YrNMr"
   ]
 }
