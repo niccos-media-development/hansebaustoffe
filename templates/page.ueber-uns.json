@@ -293,15 +293,15 @@
         "promo_card_P3zjdG": {
           "type": "promo_card",
           "settings": {
-            "block_bg": "#fff",
+            "block_bg": "#ffffff",
             "subtitle": "",
-            "subtitle_color": "#000",
+            "subtitle_color": "#000000",
             "title": "",
-            "title_color": "#000",
+            "title_color": "#000000",
             "button_text": "",
             "button_link": "",
-            "button_text_color": "#000",
-            "button_bg_color": "#fff"
+            "button_text_color": "#000000",
+            "button_bg_color": "#ffffff"
           }
         }
       },
@@ -449,7 +449,7 @@
         "link_title": "",
         "link_url": "",
         "image": "shopify://shop_images/COVER-1-2048x1494_ae6d19b0-edf4-4256-92a3-19061bab6fb5.jpg",
-        "bullet_color": "#1fbf29",
+        "bullet_color": "#ffaa32",
         "color_scheme": "accent-3",
         "spacing_top": 0,
         "spacing_bottom": 40
