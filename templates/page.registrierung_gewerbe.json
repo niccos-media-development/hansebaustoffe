@@ -32,7 +32,7 @@
         "feature_P4ewRD": {
           "type": "feature",
           "settings": {
-            "icon": "check",
+            "icon": "plus",
             "title": "Sonderkonditionen abgestimmt auf Ihren Umsatz",
             "text": ""
           }
@@ -60,7 +60,7 @@
         "feature_x68gcR"
       ],
       "settings": {
-        "inline": false,
+        "inline": true,
         "stack_on_mobile": true,
         "auto_rotate": false,
         "icon_size": "large",
@@ -75,7 +75,7 @@
         "heading_font_size_mobile": "--font-h4-size",
         "text_font_size": "--font-body2-size",
         "text_font_size_mobile": "--font-body3-size",
-        "icon_size_desktop": 22,
+        "icon_size_desktop": 20,
         "icon_size_mobile": 20
       }
     },
