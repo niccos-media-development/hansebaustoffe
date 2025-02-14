@@ -9,8 +9,145 @@
  */
 {
   "sections": {
+    "promotion_blocks_3GrEYW": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "promotion_qW4npX": {
+          "type": "promotion",
+          "settings": {
+            "background_image_position": "top-right",
+            "background_color": "#ffaa32",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Sonderkonditionen abgestimmt auf Ihren Umsatz",
+            "heading_size": "xxl",
+            "description": "",
+            "text_color": "#232323",
+            "button_text": "Button label",
+            "button_link": "",
+            "button_type_link": false,
+            "box_radius": 51,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_EUR6cw": {
+          "type": "promotion",
+          "settings": {
+            "background_image_position": "top-right",
+            "background_color": "#ffaa32",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Individueller Zugang zu Nettosonderpreisen",
+            "heading_size": "xxl",
+            "description": "",
+            "text_color": "#232323",
+            "button_text": "Button label",
+            "button_link": "",
+            "button_type_link": false,
+            "box_radius": 0,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_CTL9FW": {
+          "type": "promotion",
+          "settings": {
+            "background_image_position": "top-right",
+            "background_color": "#ffaa32",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Einfache Bestellung & schneller Service",
+            "heading_size": "xxl",
+            "description": "",
+            "text_color": "#232323",
+            "button_text": "Button label",
+            "button_link": "",
+            "button_type_link": false,
+            "box_radius": 0,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_qW4npX",
+        "promotion_EUR6cw",
+        "promotion_CTL9FW"
+      ],
+      "settings": {
+        "heading": "🔧 Ihr Vorteil als Gewerbekunde – Exklusive Konditionen sichern!",
+        "subheading": "Sie arbeiten in der Baubranche und möchten erstklassige EPDM-Produkte zu besonders attraktiven Preisen? Dann registrieren Sie sich als Gewerbekunde bei HANSE SYNTEC SYSTEMS!",
+        "link_title": "",
+        "link_url": "",
+        "layout": "grid",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "card_clickable_desktop": false,
+        "box_radius": 100,
+        "color_scheme": "accent-3",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "expandable_3G3RWH": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_gWEhhH": {
+          "type": "expandable",
+          "settings": {
+            "heading": "1. Anmeldung",
+            "icon": "arrow-right",
+            "text": "<p>Registrierungsformular ausfüllen und Gewerbenachweis hochladen.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_BBM6TP": {
+          "type": "expandable",
+          "settings": {
+            "heading": "2. Prüfung",
+            "icon": "gift-wrap",
+            "text": "<p>Unser Team prüft Ihre Angaben und richtet Ihren Gewerbekundenzugang ein.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_yh9neb": {
+          "type": "expandable",
+          "settings": {
+            "heading": "3. Freischalt E-Mail erhalten & profitieren!",
+            "icon": "globe",
+            "text": "<p>Sie erhalten eine Information über Ihre Freischaltung per E-Mail. Um sich einzuloggen tragen Sie einfach Ihre E-Mail-Adresse ein. Sie erhalten aus Sicherheitsgründen bei jedem Login einen Einmalcode für das Login zugesendet.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_gWEhhH",
+        "expandable_BBM6TP",
+        "expandable_yh9neb"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "🛠 So gehts:",
+        "subheading": "🚀 Jetzt registrieren & durchstarten!",
+        "heading_alignment": "left",
+        "color_scheme": "accent-3",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "hide_heading": false
@@ -35,6 +172,8 @@
     }
   },
   "order": [
+    "promotion_blocks_3GrEYW",
+    "expandable_3G3RWH",
     "main",
     "173945177119dc2136"
   ]
