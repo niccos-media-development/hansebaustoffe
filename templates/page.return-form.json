@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "rich_text_dL7QfP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t6hV6e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rücksendungen / Reklamationen",
+            "heading_size": "md"
+          }
+        },
+        "text_7RCDRn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In seltenen Fällen kann es passieren, dass Ihre EPDM-Folie nicht passt, beim Transport beschädigt wurde oder Sie nicht benötigte Ware zurücksenden möchten. Keine Sorge – wir helfen Ihnen schnell und unkompliziert, damit Ihr Bauvorhaben reibungslos weitergeht.<br/><br/><strong>Bitte füllen Sie hierzu das folgende Formular aus.</strong></p>",
+            "text_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t6hV6e",
+        "text_7RCDRn"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
     "1739461107b2df3fbb": {
       "type": "apps",
       "blocks": {
@@ -107,6 +138,7 @@
     }
   },
   "order": [
+    "rich_text_dL7QfP",
     "1739461107b2df3fbb",
     "expandable_RLwVfq"
   ]
