@@ -33,24 +33,24 @@
           "type": "feature",
           "settings": {
             "icon": "plus",
-            "title": "Sonderkonditionen abgestimmt auf Ihren Umsatz",
-            "text": ""
+            "title": "Sonderkonditionen",
+            "text": "<p>Sie erhalten abgestimmte Sonderkonditionen auf Ihren Umsatz</p>"
           }
         },
         "feature_DNEahH": {
           "type": "feature",
           "settings": {
             "icon": "plus",
-            "title": "Individueller Zugang zu Nettosonderpreisen",
-            "text": ""
+            "title": "Zugang zu Nettosonderpreisen",
+            "text": "<p>Sie erhalten individuellen Zugang zu Nettosonderpreisen</p>"
           }
         },
         "feature_x68gcR": {
           "type": "feature",
           "settings": {
             "icon": "plus",
-            "title": "Einfache Bestellung & schneller Service",
-            "text": ""
+            "title": "Bestellung & Service",
+            "text": "<p>Bestellungen sind einfacher und wir bieten schnellen Service</p>"
           }
         }
       },
@@ -61,8 +61,8 @@
       ],
       "custom_css": [
         "/* Standard-Kacheln abrunden */div {border-radius: 15px !important; /* Wendet Abrundung auf alle Divs an */}",
-        "/* Falls die Kacheln eine bestimmte Klasse haben */.grid__item,.promotion-block,.promotion-card,.funktion-box {border-radius: 40px !important; /* Probiert mehrere mögliche Klassen */ overflow: hidden;}",
-        "/* Spezifische Boxen mit weißem Hintergrund */div[class*=\"promotion\"],div[class*=\"grid\"],div[class*=\"funktion\"] {border-radius: 15px !important;}"
+        " /* Falls die Kacheln eine bestimmte Klasse haben */.grid__item,.promotion-block,.promotion-card,.funktion-box {border-radius: 40px !important; /* Probiert mehrere mögliche Klassen */ overflow: hidden;}",
+        " /* Spezifische Boxen mit weißem Hintergrund */div[class*=\"promotion\"],div[class*=\"grid\"],div[class*=\"funktion\"] {border-radius: 15px !important;}"
       ],
       "settings": {
         "inline": false,
