@@ -94,7 +94,7 @@
         "stack_on_mobile": false,
         "card_clickable_desktop": false,
         "box_radius": 100,
-        "color_scheme": "accent-3",
+        "color_scheme": "accent-2",
         "spacing_top": 60,
         "spacing_bottom": 60
       }
@@ -106,7 +106,7 @@
           "type": "expandable",
           "settings": {
             "heading": "1. Anmeldung",
-            "icon": "arrow-right",
+            "icon": "document",
             "text": "<p>Registrierungsformular ausfüllen und Gewerbenachweis hochladen.</p>",
             "expanded": false
           }
@@ -115,7 +115,7 @@
           "type": "expandable",
           "settings": {
             "heading": "2. Prüfung",
-            "icon": "gift-wrap",
+            "icon": "search",
             "text": "<p>Unser Team prüft Ihre Angaben und richtet Ihren Gewerbekundenzugang ein.</p>",
             "expanded": false
           }
@@ -124,7 +124,7 @@
           "type": "expandable",
           "settings": {
             "heading": "3. Freischalt E-Mail erhalten & profitieren!",
-            "icon": "globe",
+            "icon": "certificate",
             "text": "<p>Sie erhalten eine Information über Ihre Freischaltung per E-Mail. Um sich einzuloggen tragen Sie einfach Ihre E-Mail-Adresse ein. Sie erhalten aus Sicherheitsgründen bei jedem Login einen Einmalcode für das Login zugesendet.</p>",
             "expanded": false
           }
@@ -139,8 +139,8 @@
         "narrow": true,
         "heading": "🛠 So gehts:",
         "subheading": "🚀 Jetzt registrieren & durchstarten!",
-        "heading_alignment": "left",
-        "color_scheme": "accent-1",
+        "heading_alignment": "center",
+        "color_scheme": "accent-2",
         "spacing_top": 60,
         "spacing_bottom": 60
       }
