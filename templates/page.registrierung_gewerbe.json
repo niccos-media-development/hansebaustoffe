@@ -60,7 +60,7 @@
         "feature_x68gcR"
       ],
       "settings": {
-        "inline": true,
+        "inline": false,
         "stack_on_mobile": true,
         "auto_rotate": false,
         "icon_size": "large",
