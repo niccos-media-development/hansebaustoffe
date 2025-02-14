@@ -264,7 +264,7 @@
       "settings": {
         "image": "shopify://shop_images/YT_Thumbnail_Dachdurchdringung_1_Teilig.jpg",
         "video_url": "https://www.youtube.com/watch?v=Cv3lkjptLWU",
-        "layout": "media_first",
+        "layout": "text_first",
         "desktop_content_alignment": "left",
         "spacing_top": 20,
         "spacing_bottom": 20,
@@ -308,7 +308,7 @@
       "settings": {
         "image": "shopify://shop_images/YT_Thumbnail_Dachdurchdringung_2_Teilig.jpg",
         "video_url": "https://www.youtube.com/watch?v=pMWNbxT_opI",
-        "layout": "text_first",
+        "layout": "media_first",
         "desktop_content_alignment": "left",
         "spacing_top": 20,
         "spacing_bottom": 20,
@@ -416,10 +416,11 @@
         "heading_xqUqEU",
         "text_3qykEN"
       ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/YT_Thumbnail_Garantie-Gully_rund.jpg",
         "video_url": "https://www.youtube.com/watch?v=8LP517lsf7A",
-        "layout": "media_first",
+        "layout": "text_first",
         "desktop_content_alignment": "left",
         "spacing_top": 20,
         "spacing_bottom": 20,
