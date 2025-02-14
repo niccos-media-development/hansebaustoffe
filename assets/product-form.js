@@ -34,7 +34,7 @@ if (!customElements.get('product-form')) {
 
 
             formData = new FormData(this.form);
-            if(formData.get("konfigurieren")) {
+            if(formData.get("properties[dicke]") && formData.get("properties[launge]") && formData.get("properties[breite]")) {
               let sku = [ "dicke", "breite", "launge" ].map(d => document.getElementById('LineItemProperty-' + d).value).map((n, ix) =>  {
                 let num = Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", "."));
                 let str = String(num).replaceAll('.', ',');
