@@ -73,6 +73,7 @@
         },
         "variants": {
           "type": "variants",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "hide_single_variant": false,
