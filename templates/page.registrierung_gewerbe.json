@@ -59,6 +59,11 @@
         "feature_DNEahH",
         "feature_x68gcR"
       ],
+      "custom_css": [
+        "/* Standard-Kacheln abrunden */div {border-radius: 15px !important; /* Wendet Abrundung auf alle Divs an */}",
+        "/* Falls die Kacheln eine bestimmte Klasse haben */.grid__item,.promotion-block,.promotion-card,.funktion-box {border-radius: 40px !important; /* Probiert mehrere mögliche Klassen */ overflow: hidden;}",
+        "/* Spezifische Boxen mit weißem Hintergrund */div[class*=\"promotion\"],div[class*=\"grid\"],div[class*=\"funktion\"] {border-radius: 15px !important;}"
+      ],
       "settings": {
         "inline": false,
         "stack_on_mobile": true,
