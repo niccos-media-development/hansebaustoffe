@@ -37,14 +37,6 @@
             "text": "<p>Sie erhalten abgestimmte Sonderkonditionen auf Ihren Umsatz</p>"
           }
         },
-        "feature_DNEahH": {
-          "type": "feature",
-          "settings": {
-            "icon": "plus",
-            "title": "Zugang zu Nettosonderpreisen",
-            "text": "<p>Sie erhalten individuellen Zugang zu Nettosonderpreisen</p>"
-          }
-        },
         "feature_x68gcR": {
           "type": "feature",
           "settings": {
@@ -52,12 +44,20 @@
             "title": "Bestellung & Service",
             "text": "<p>Bestellungen sind einfacher und wir bieten schnellen Service</p>"
           }
+        },
+        "feature_DNEahH": {
+          "type": "feature",
+          "settings": {
+            "icon": "plus",
+            "title": "Zugang zu Nettosonderpreisen",
+            "text": "<p>Sie erhalten individuellen Zugang zu Nettosonderpreisen</p>"
+          }
         }
       },
       "block_order": [
         "feature_P4ewRD",
-        "feature_DNEahH",
-        "feature_x68gcR"
+        "feature_x68gcR",
+        "feature_DNEahH"
       ],
       "custom_css": [
         "/* Standard-Kacheln abrunden */div {border-radius: 15px !important; /* Wendet Abrundung auf alle Divs an */}",
