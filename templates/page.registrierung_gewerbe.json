@@ -11,79 +11,6 @@
   "sections": {
     "promotion_blocks_3GrEYW": {
       "type": "promotion-blocks",
-      "blocks": {
-        "promotion_qW4npX": {
-          "type": "promotion",
-          "settings": {
-            "background_image_position": "top-right",
-            "background_color": "#ffaa32",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "Sonderkonditionen abgestimmt auf Ihren Umsatz",
-            "heading_size": "xxl",
-            "description": "",
-            "text_color": "#232323",
-            "button_text": "Button label",
-            "button_link": "",
-            "button_type_link": false,
-            "box_radius": 51,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "promotion_EUR6cw": {
-          "type": "promotion",
-          "settings": {
-            "background_image_position": "top-right",
-            "background_color": "#ffaa32",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "Individueller Zugang zu Nettosonderpreisen",
-            "heading_size": "xxl",
-            "description": "",
-            "text_color": "#232323",
-            "button_text": "Button label",
-            "button_link": "",
-            "button_type_link": false,
-            "box_radius": 0,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "promotion_CTL9FW": {
-          "type": "promotion",
-          "settings": {
-            "background_image_position": "top-right",
-            "background_color": "#ffaa32",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "Einfache Bestellung & schneller Service",
-            "heading_size": "xxl",
-            "description": "",
-            "text_color": "#232323",
-            "button_text": "Button label",
-            "button_link": "",
-            "button_type_link": false,
-            "box_radius": 0,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "promotion_qW4npX",
-        "promotion_EUR6cw",
-        "promotion_CTL9FW"
-      ],
       "settings": {
         "heading": "🔧 Ihr Vorteil als Gewerbekunde – Exklusive Konditionen sichern!",
         "subheading": "Sie arbeiten in der Baubranche und möchten erstklassige EPDM-Produkte zu besonders attraktiven Preisen? Dann registrieren Sie sich als Gewerbekunde bei HANSE SYNTEC SYSTEMS!",
@@ -93,10 +20,63 @@
         "columns": 3,
         "stack_on_mobile": false,
         "card_clickable_desktop": false,
-        "box_radius": 100,
+        "box_radius": 80,
         "color_scheme": "accent-2",
         "spacing_top": 60,
         "spacing_bottom": 60
+      }
+    },
+    "features_7inpQd": {
+      "type": "features",
+      "blocks": {
+        "feature_P4ewRD": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "Sonderkonditionen abgestimmt auf Ihren Umsatz",
+            "text": ""
+          }
+        },
+        "feature_DNEahH": {
+          "type": "feature",
+          "settings": {
+            "icon": "plus",
+            "title": "Individueller Zugang zu Nettosonderpreisen",
+            "text": ""
+          }
+        },
+        "feature_x68gcR": {
+          "type": "feature",
+          "settings": {
+            "icon": "plus",
+            "title": "Einfache Bestellung & schneller Service",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_P4ewRD",
+        "feature_DNEahH",
+        "feature_x68gcR"
+      ],
+      "settings": {
+        "inline": false,
+        "stack_on_mobile": true,
+        "auto_rotate": false,
+        "icon_size": "large",
+        "color_scheme": "accent-2",
+        "background_color": "#ffaa32",
+        "text_color": "#000000",
+        "spacing_top": 60,
+        "spacing_top_mobile": 40,
+        "spacing_bottom": 60,
+        "spacing_bottom_mobile": 40,
+        "heading_font_size": "--font-h3-size",
+        "heading_font_size_mobile": "--font-h4-size",
+        "text_font_size": "--font-body2-size",
+        "text_font_size_mobile": "--font-body3-size",
+        "icon_size_desktop": 22,
+        "icon_size_mobile": 20
       }
     },
     "expandable_3G3RWH": {
@@ -173,6 +153,7 @@
   },
   "order": [
     "promotion_blocks_3GrEYW",
+    "features_7inpQd",
     "expandable_3G3RWH",
     "main",
     "173945177119dc2136"
