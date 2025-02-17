@@ -1,3 +1,20 @@
+{%- if product != blank -%}
+  {%- if product.collections contains 'dachfolie-schwarz' %}
+    {%- assign redirect = 'https://HOST/products/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt' | replace: 'HOST', request.host -%}
+  {%- elsif product.collections contains 'dachfolie-weiss' %}
+    {%- assign redirect = 'https://HOST/products/dachprotect-epdm-dachfolie-weiss-im-zuschnitt' | replace: 'HOST', request.host -%}
+  {%- elsif product.collections contains 'abdichtungsplane' %}
+    {%- assign redirect = 'https://HOST/products/epdm-abdichtungsfolie-1-5-mm-schwarz' | replace: 'HOST', request.host -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if redirect != blank -%}
+  <!doctype html>
+  <html lang="en">
+    <head><meta http-equiv="refresh" content="0; url={{ redirect }}"></head>
+    <body><script>window.location.href = '{{ redirect }}';</script></body>
+  </html>
+{% else %}
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
@@ -191,3 +208,4 @@
     </script>
   </body>
 </html>
+{% endif %}
