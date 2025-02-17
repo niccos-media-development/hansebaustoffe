@@ -53,8 +53,6 @@ if (!customElements.get('product-form')) {
                   sku = `B${dicke_fmt}-${breite_fmt}-${launge_fmt}`;
                   break;
               }
-              
-              let 
 
               fetch(window.location.origin + "/collections/" + variantSearchCollectionHandle + "?filter.p.sku=" + Base64.encode(sku) + "&view=10064").then(d => d.text()).then(data => {
 
