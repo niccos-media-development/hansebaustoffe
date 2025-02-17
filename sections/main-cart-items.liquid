@@ -107,7 +107,11 @@
 											<p class="cart-item-eyebrow">{{ item.product.vendor }}</p>
 										{%- endif -%}
 
-										<a href="{{ item.url }}" class="cart-item-name">{{ item.product.title | escape }}</a>
+                                        {% if root_product != blank %}
+                                            <a href="{{ root_product.url }}" class="cart-item-name">{{ item.title | escape }}</a>
+                                        {% else %}
+            								<a href="{{ item.url }}" class="cart-item-name">{{ item.product.title | escape }}</a>
+                                        {% endif %}
 
 										{%- if item.original_price != item.final_price -%}
 											<div class="cart-item-discounted-prices">
