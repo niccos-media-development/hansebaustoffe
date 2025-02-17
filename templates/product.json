@@ -234,12 +234,18 @@
             "wrap_container": true,
             "show_caret": false,
             "gspr_style": "bold",
-            "hide_if_empty": false
+            "hide_if_empty": false,
+            "display_ref": true
           }
+        },
+        "judge_me_reviews_review_widget_tTfTV3": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
-        "gpsr_compliance_manager_gpsr_compliance_tjwfEp"
+        "gpsr_compliance_manager_gpsr_compliance_tjwfEp",
+        "judge_me_reviews_review_widget_tTfTV3"
       ],
       "settings": {
         "full_width": false
