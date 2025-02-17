@@ -90,7 +90,7 @@
 
     {% capture header_content %}{{ content_for_header }}{%- endcapture %}
 
-    {% if product.tags contains 'konfigurieren' %}
+    {% if product.metafields.custom.variant_search_collection.value != blank %}
       {{ header_content | remove: 'https:\/\/cdn.assortion.com\/app.js?shop=yhhp0m-pb.myshopify.com' }}
     {% else %}
       {{ header_content }}
