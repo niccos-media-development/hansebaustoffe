@@ -92,7 +92,11 @@
           <div class="mini-cart-item-info">
             <p class="mini-cart-item-eyebrow">{{ item.product.vendor }}</p>
             <h3 class="mini-cart-item-heading typography-body">
+              {% if root_product != blank %}
+              <a href="{{ root_product.url }}">{{ root_product.title | escape }}</a>
+              {% else %}
               <a href="{{ item.url }}">{{ item.product.title | escape }}</a>
+              {% endif %}
             </h3>
             <div class="mini-cart-item-price">
               {%- if item.original_line_price != item.final_line_price -%}
