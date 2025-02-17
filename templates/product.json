@@ -69,16 +69,6 @@
             "sold_out_text": "Sold out"
           }
         },
-        "complementary_eQPqH4": {
-          "type": "complementary",
-          "settings": {
-            "title": "Wird häufig zusammen gekauft",
-            "count": 3,
-            "show_vendor": true,
-            "show_rating": false,
-            "show_add_to_cart": true
-          }
-        },
         "payment_image_D6FURY": {
           "type": "payment_image",
           "settings": {
@@ -150,7 +140,6 @@
         "price",
         "variants",
         "buy_buttons",
-        "complementary_eQPqH4",
         "payment_image_D6FURY",
         "availability",
         "extra",
