@@ -83,7 +83,7 @@
         "extra": {
           "type": "extra",
           "settings": {
-            "text": "<p>Versandkosten sparen und direkt im Werk abholen? Exklusiv für unsere Kunden bieten wir die Werksabholung in Bad Oldesloe für Privat- & Geschäftskunden an. </p><p><a href=\"/pages/abholung\" title=\"Abholung\">Weitere Infos</a></p>",
+            "text": "<p><strong>Versandkosten sparen und direkt im Werk abholen?</strong> Exklusiv für unsere Kunden bieten wir die Werksabholung in Bad Oldesloe für Privat- & Geschäftskunden an. </p><p><a href=\"/pages/abholung\" title=\"Abholung\">Weitere Infos</a></p>",
             "show_facebook": false,
             "show_twitter": false,
             "show_linkedin": false
