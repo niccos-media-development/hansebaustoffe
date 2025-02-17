@@ -402,7 +402,7 @@
 
 										{% form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form', data-stock-threshold: settings.only_x_left, data-event-context: 'MainProductPage' %}
 											{% if product.metafields.custom.variant_search_collection != blank %}
-                                              <input type="hidden" name="variant-search-collection" value="{{ product.metafields.custom.variant_search_collection }}" />
+                                              <input type="hidden" name="variant-search-collection" value="{{ product.metafields.custom.variant_search_collection.value.handle }}" />
                                             {% endif %}
                                                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}"
 												{% if product.selected_or_first_available_variant.available == false
@@ -666,7 +666,7 @@
         document.getElementById('LineItemProperty-' + f).value
       ).map(n => Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")))
 
-      {%- case product.metafields.custom.variant_search_collection.handle %}
+      {%- case product.metafields.custom.variant_search_collection.value.handle %}
         {% when 'dachfolie-schwarz' -%}
           let basePrice = p_dicke == 1.5 ? 18.5 : 14.5;
         {% when 'dachfolie-weiss' -%}
