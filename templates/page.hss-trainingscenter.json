@@ -70,7 +70,7 @@
           "type": "hotspot",
           "settings": {
             "position_x": 25,
-            "position_y": 40,
+            "position_y": 58,
             "image": "shopify://shop_images/EPDM_Folie_Halle_Bad_Oldesloe_1920x1080px.jpg",
             "title": "Werksführung",
             "description": "<ul><li>DACHPROTECT EPDM</li><li>BAUDICHT EPDM</li><li>Dachreparaturbänder</li><li>Resitrix Lager</li></ul>",
@@ -87,7 +87,7 @@
           "type": "hotspot",
           "settings": {
             "position_x": 65,
-            "position_y": 26,
+            "position_y": 60,
             "image": "shopify://shop_images/LOGO_BAUDICHT_2021_V3_medium_960x208_800x800_38128fec-b8b3-4997-b0a9-21451bfd18f3.png",
             "title": "System BAUDICHT",
             "description": "<ul><li>Systemkomponenten und deren Verarbeitung</li><li>Anwendungsbereiche</li></ul>",
