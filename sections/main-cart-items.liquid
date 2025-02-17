@@ -60,29 +60,29 @@
 
 							<tbody>
 							{%- for item in cart.items -%}
+                                {% if item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value != blank %}
+                                  {%- assign root_product = item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value %}
+                                {% endif %}
 								<tr class="cart-item js-cart-item" id="CartItem-{{ item.index | plus: 1 }}">
 									<td class="cart-item-media">
-                                        {% if item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value != blank %}
-                                          {%- assign root_product = item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value %}
-                                          {%- if root_product != blank -%}
-                                            {%- assign image = root_product.featured_image %}
+                                      {%- if root_product != blank -%}
+                                        {%- assign image = root_product.featured_image %}
 
-											{% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
-											<a href="{{ root_product.url }}" class="cart-item-link" aria-hidden="true" tabindex="-1"> </a>
-											<div class="cart-item-image-container">
-												{%- capture image_sizes -%}
-													{%- if image.width >= 160 -%}{{ image | image_url: width: 160 }} 1x,{%- endif -%}
-													{%- if image.width >= 320 -%}{{ image | image_url: width: 320 }} 2x{%- endif -%}
-												{%- endcapture -%}
-												{% assign image_height = 320 | divided_by: image.aspect_ratio | ceil %}
-												{{ image | image_url: width: 320 | image_tag:
-													class: 'cart-item-image',
-													width: 320,
-													height: image_height,
-													srcset: image_sizes
-												}}
-											</div>
-                                          {%- endif -%}
+                                        {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
+                                        <a href="{{ root_product.url }}" class="cart-item-link" aria-hidden="true" tabindex="-1"> </a>
+                                        <div class="cart-item-image-container">
+                                            {%- capture image_sizes -%}
+                                                {%- if image.width >= 160 -%}{{ image | image_url: width: 160 }} 1x,{%- endif -%}
+                                                {%- if image.width >= 320 -%}{{ image | image_url: width: 320 }} 2x{%- endif -%}
+                                            {%- endcapture -%}
+                                            {% assign image_height = 320 | divided_by: image.aspect_ratio | ceil %}
+                                            {{ image | image_url: width: 320 | image_tag:
+                                                class: 'cart-item-image',
+                                                width: 320,
+                                                height: image_height,
+                                                srcset: image_sizes
+                                            }}
+                                        </div>
 										{% elsif item.image %}
 											{% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
 											<a href="{{ item.url }}" class="cart-item-link" aria-hidden="true" tabindex="-1"> </a>
