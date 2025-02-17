@@ -62,8 +62,8 @@
 							{%- for item in cart.items -%}
 								<tr class="cart-item js-cart-item" id="CartItem-{{ item.index | plus: 1 }}">
 									<td class="cart-item-media">
-                                        {% if item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value != blank %}
-                                          {%- assign root_product = item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value %}
+                                        {% if item.product.collections.last.metafields.custom.pseudo_variants_relevant_product.value != blank %}
+                                          {%- assign root_product = item.product.collections.last.metafields.custom.pseudo_variants_relevant_product.value %}
                                           {%- if root_product != blank -%}
                                             {%- assign image = root_product.featuredImage %}
 
