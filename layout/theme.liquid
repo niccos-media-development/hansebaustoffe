@@ -1,9 +1,9 @@
 {%- if product != blank -%}
-  {%- if product.collections contains 'dachfolie-schwarz' %}
+  {%- if product.collections contains collections['dachfolie-schwarz'] %}
     {%- assign redirect = 'https://HOST/products/dachprotect-epdm-dachfolie-schwarz-im-zuschnitt' | replace: 'HOST', request.host -%}
-  {%- elsif product.collections contains 'dachfolie-weiss' %}
+  {%- elsif product.collections contains collections['dachfolie-weiss'] %}
     {%- assign redirect = 'https://HOST/products/dachprotect-epdm-dachfolie-weiss-im-zuschnitt' | replace: 'HOST', request.host -%}
-  {%- elsif product.collections contains 'abdichtungsplane' %}
+  {%- elsif product.collections contains collections['abdichtungsplane'] %}
     {%- assign redirect = 'https://HOST/products/epdm-abdichtungsfolie-1-5-mm-schwarz' | replace: 'HOST', request.host -%}
   {%- endif -%}
 {%- endif -%}
