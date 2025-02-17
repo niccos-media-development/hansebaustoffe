@@ -83,7 +83,7 @@
         "extra": {
           "type": "extra",
           "settings": {
-            "text": "<p>Werksabholung aus Bad Oldesloe möglich für privat- & Geschäftskunden. </p><p><a href=\"/pages/abholung\" title=\"Abholung\">Weitere Infos</a></p>",
+            "text": "<p>Werksabholung aus Bad Oldesloe möglich für Privat- & Geschäftskunden. </p><p><a href=\"/pages/abholung\" title=\"Abholung\">Weitere Infos</a></p>",
             "show_facebook": false,
             "show_twitter": false,
             "show_linkedin": false
