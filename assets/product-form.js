@@ -34,7 +34,8 @@ if (!customElements.get('product-form')) {
 
 
             formData = new FormData(this.form);
-            if(formData.get("properties[dicke]") && formData.get("properties[launge]") && formData.get("properties[breite]")) {
+            let variantSearchCollectionHandle = formData.get("variant-search-collection-handle");
+            if(variantSearchCollectionHandle) {
               let sku = [ "dicke", "breite", "launge" ].map(d => document.getElementById('LineItemProperty-' + d).value).map((n, ix) =>  {
                 let num = Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", "."));
                 let str = String(num).replaceAll('.', ',');
@@ -43,7 +44,7 @@ if (!customElements.get('product-form')) {
                 return str + " " + op
               }).join(" - ");
 
-              fetch(window.location.origin + "/collections/deletable-products?filter.p.sku=" + Base64.encode(sku) + "&view=10064").then(d => d.text()).then(data => {
+              fetch(window.location.origin + "/collections/" + variantSearchCollectionHandle + "?filter.p.sku=" + Base64.encode(sku) + "&view=10064").then(d => d.text()).then(data => {
 
                 formData = new FormData(this.form);
                 formData.append('sections', this.minicart.getSectionsToRender().map((section) => section.id));
