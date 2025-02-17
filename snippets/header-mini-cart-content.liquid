@@ -34,12 +34,38 @@
   {%- if cart != empty -%}
     <div class="mini-cart-item-list">
       {%- for item in cart.items -%}
+        {% if item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value != blank %}
+          {%- assign root_product = item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value %}
+        {% endif %}
         <div
           class="mini-cart-item js-cart-item"
           id="MiniCartItem-{{ item.index | plus: 1 }}"
         >
           <div class="mini-cart-item-image-wrap">
-            {%- if item.image -%}
+            {%- if root_product != blank -%}
+              {%- assign image = root_product.featured_image %}
+
+              <a href="{{ root_product.url }}">
+                {%- capture image_sizes -%}
+									{%- if image.width >= 70 -%}{{ image | image_url: width: 70 }} 1x,{%- endif -%}
+									{%- if image.width >= 140 -%}{{ image | image_url: width: 140 }} 2x{%- endif -%}
+								{%- endcapture -%}
+                {% assign image_height = 140
+                  | divided_by: image.aspect_ratio
+                  | ceil
+                %}
+                {{
+                  image
+                  | image_url: width: 140
+                  | image_tag:
+                    width: 140,
+                    height: image_height,
+                    loading: 'lazy',
+                    srcset: image_sizes
+                }}
+                <span class="visually-hidden">{{ root_product.title }}</span>
+              </a>
+            {%- elsif item.image -%}
               <a href="{{ item.url }}">
                 {%- capture image_sizes -%}
 									{%- if item.image.width >= 70 -%}{{ item.image | image_url: width: 70 }} 1x,{%- endif -%}
