@@ -36,13 +36,25 @@ if (!customElements.get('product-form')) {
             formData = new FormData(this.form);
             let variantSearchCollectionHandle = formData.get("variant-search-collection-handle");
             if(variantSearchCollectionHandle) {
-              let sku = [ "dicke", "breite", "launge" ].map(d => document.getElementById('LineItemProperty-' + d).value).map((n, ix) =>  {
-                let num = Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", "."));
-                let str = String(num).replaceAll('.', ',');
-                let op = ix === 0 ? 'mm' : 'm';
-        
-                return str + " " + op
-              }).join(" - ");
+              let [dicke, breite, launge] = [ "dicke", "breite", "launge" ].map(d => document.getElementById('LineItemProperty-' + d).value).map(n => Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")))
+              let sku,
+                  dicke_fmt = Math.floor(dicke * 10),
+                  breite_fmt = Math.floor(breite * 100).toString().padStart(3, '0').slice(0,3),
+                  launge_fmt = Math.floor(launge * 10).toString().padStart(3, '0').slice(0,3);
+
+              switch(variantSearchCollectionHandle) {
+                case 'dachfolie-schwarz':
+                  sku = `D${dicke_fmt}-${breite_fmt}-${launge_fmt}`;
+                  break;
+                case 'dachfolie-weiss':
+                  sku = `DWS-${breite_fmt}-${launge_fmt}`;
+                  break;
+                case 'abdichtungsplane':
+                  sku = `B${dicke_fmt}-${breite_fmt}-${launge_fmt}`;
+                  break;
+              }
+              
+              let 
 
               fetch(window.location.origin + "/collections/" + variantSearchCollectionHandle + "?filter.p.sku=" + Base64.encode(sku) + "&view=10064").then(d => d.text()).then(data => {
 
