@@ -401,7 +401,10 @@
 										</div>
 
 										{% form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form', data-stock-threshold: settings.only_x_left, data-event-context: 'MainProductPage' %}
-											<input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}"
+											{% if product.metafields.custom.variant_search_collection.value != blank %}
+                                              <input type="hidden" name="variant-search-collection" value="{{ product.metafields.custom.variant_search_collection.handle }}" />
+                                            {% endif %}
+                                                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}"
 												{% if product.selected_or_first_available_variant.available == false
 													or product.selected_or_first_available_variant == nil
 												%}
