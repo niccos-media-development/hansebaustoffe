@@ -655,7 +655,7 @@
 	</div>
 </div>
 
-{% if product.tags contains 'konfigurieren' %}
+{% if product.metafields.custom.variant_search_collection.value != blank %}
   <script>
     const formatter = new Intl.NumberFormat(Shopify.locale, { style: "currency", currency: Shopify.currency.active });
     function update10064() {
