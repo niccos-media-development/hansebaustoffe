@@ -31,7 +31,7 @@
         "hide_empty_filters": false,
         "filters_bar_sticky": false,
         "filters_bar_color_scheme": "background-1",
-        "show_vendor": true,
+        "show_vendor": false,
         "show_stock": true,
         "show_rating": false,
         "side_menu_title": "Collections",
