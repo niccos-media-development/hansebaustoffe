@@ -34,7 +34,7 @@ if (!customElements.get('product-form')) {
 
 
             formData = new FormData(this.form);
-            let variantSearchCollectionHandle = formData.get("variant-search-collection-handle");
+            let variantSearchCollectionHandle = formData.get("variant-search-collection");
             if(variantSearchCollectionHandle) {
               let [dicke, breite, launge] = [ "dicke", "breite", "launge" ].map(d => document.getElementById('LineItemProperty-' + d).value).map(n => Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")))
               let sku,
