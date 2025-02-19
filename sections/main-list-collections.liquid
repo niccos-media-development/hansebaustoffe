@@ -40,6 +40,7 @@
 				{% paginate collections by section.settings.collections_per_page %}
 					<div class="collection-list grid grid-2-col grid-{{ section.settings.columns | at_most: 3 }}-col-tablet grid-{{ section.settings.columns }}-col-desktop">
 						{% for collection in collections %}
+                            {% if collection.handle == "abdichtungsplane" or collection.handle == "dachfolie-schwarz" or collection.handle == "dachfolie-weiss" %}{% continue %}{% endif %}
 							{% render 'card-collection',
 								collection: collection,
 								title: section.settings.show_title,
