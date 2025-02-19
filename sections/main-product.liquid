@@ -675,12 +675,11 @@
 
 {% if product.metafields.custom.variant_search_collection.value != blank %}
   <script>
-    const form = document.querySelector('#{{ product_form_id }}');
+    const form = document.querySelector('.product-actions-add-to-cart > button.add-cart-button[name="add"][type="submit"]');
     const originalAddEventListener = form.addEventListener;
     const formEventListeners = [];
     form.addEventListener = function (type, listener, options) {
-      console.log(listener);
-      console.log(typeof listener);
+      //if(!listener.toString().startsWith('onSubmitHandler(event){')) return;
       formEventListeners.push({ type, listener });
       originalAddEventListener.call(form, type, listener, options);
     };
