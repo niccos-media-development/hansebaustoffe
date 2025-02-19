@@ -679,6 +679,8 @@
     const originalAddEventListener = form.addEventListener;
     const formEventListeners = [];
     form.addEventListener = function (type, listener, options) {
+      console.log(listener);
+      console.log(typeof listener);
       formEventListeners.push({ type, listener });
       originalAddEventListener.call(form, type, listener, options);
     };
