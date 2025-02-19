@@ -679,6 +679,7 @@
     const originalAddEventListener = form.addEventListener;
     const formEventListeners = [];
     form.addEventListener = function (type, listener, options) {
+      console.log('zre:', listener.toString())
       //if(!listener.toString().startsWith('onSubmitHandler(event){')) return;
       formEventListeners.push({ type, listener });
       originalAddEventListener.call(form, type, listener, options);
