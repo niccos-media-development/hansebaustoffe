@@ -9,6 +9,8 @@
 {%- elsif collection != blank -%}
   {% if collection.handle == "abdichtungsplane" or collection.handle == "dachfolie-schwarz" or collection.handle == "dachfolie-weiss" %}
       {%- assign redirect = 'https://HOST/404' | replace: 'HOST', request.host -%}
+  {% elsif collection.handle == "all" %}
+      {%- assign redirect = 'https://HOST/collections/alle' | replace: 'HOST', request.host -%}
   {% endif %}
 {%- endif -%}
 
