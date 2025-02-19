@@ -60,9 +60,11 @@
 
 							<tbody>
 							{%- for item in cart.items -%}
-                                {% if item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value != blank %}
-                                  {%- assign root_product = item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value %}
-                                {% endif %}
+                {%- assign root_product = blank %}
+
+                {% if item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value != blank %}
+                  {%- assign root_product = item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value %}
+                {% endif %}
 								<tr class="cart-item js-cart-item" id="CartItem-{{ item.index | plus: 1 }}">
 									<td class="cart-item-media">
                                       {%- if root_product != blank -%}
@@ -108,7 +110,7 @@
 										{%- endif -%}
 
                                         {% if root_product != blank %}
-                                            <a href="{{ root_product.url }}" class="cart-item-name">{{ item.product.title | escape }}</a>
+                                            <a href="{{ root_product.url }}" class="cart-item-name">{{ root_product.title | escape }}</a>
                                         {% else %}
             								<a href="{{ item.url }}" class="cart-item-name">{{ item.product.title | escape }}</a>
                                         {% endif %}

@@ -1,1 +1,129 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer-features":{"type":"footer-features","blocks":{"feature_BiVzqn":{"type":"feature","settings":{"icon":"check","image":"shopify:\/\/shop_images\/Group.svg","title":"Einfache Montage","text":"<p>für Heimwerker und Profis<\/p>"}},"footer-feature-1":{"type":"feature","settings":{"icon":"check","image":"shopify:\/\/shop_images\/Group_1_5b2c870e-ca0f-4f07-b6c6-29ab24399084.svg","title":"Individuelle Beratung","text":"<p>durch geschulte Anwendungstechniker<\/p>"}},"footer-feature-2":{"type":"feature","settings":{"icon":"check","image":"shopify:\/\/shop_images\/Group_21.svg","title":"Versandbereit","text":"<p>innerhalb 48 Stunden<\/p>"}}},"block_order":["feature_BiVzqn","footer-feature-1","footer-feature-2"],"disabled":true,"settings":{"inline":true,"stack_on_mobile":false,"auto_rotate":false,"icon_size":"large","color_scheme":"accent-3","spacing_top":30,"spacing_bottom":30}},"newsletter":{"type":"newsletter","disabled":true,"settings":{"newsletter_enable":true,"title":"Our newsletter","text":"Subscribe to our newsletter and receive special offers","consent_checkbox":false,"consent_text":"<p>I agree to receive marketing emails and special deals.<\/p>","color_scheme":"accent-1","remove_borders":false,"spacing_top":30,"spacing_bottom":30}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"text","settings":{"title":"Service-Hotline","link":"","image_width":340,"text":"<p><strong>Servicezeiten:<\/strong><br\/>Mo-Do: 08:00 - 17:00 Uhr<br\/>Fr: 08:00 - 15:00 Uhr<br\/><br\/><strong>Unterstützung und Beratung:<\/strong><br\/><a href=\"mailto:info@hanse-baustoffe.de\" title=\"mailto:info@hanse-baustoffe.de\">info@hanse-baustoffe.de<\/a><br\/><a href=\"\/pages\/contact\" title=\"Kontakt\">zu den Ansprechpartnern<\/a><\/p>"}},"footer-1":{"type":"menu","settings":{"title":"Informationen","menu":"informationen"}},"footer-2":{"type":"menu","settings":{"title":"Shop Service","menu":"footer"}},"menu_n7xfGk":{"type":"menu","settings":{"title":"Shops","menu":"weitere-shops"}}},"block_order":["footer-0","footer-1","footer-2","menu_n7xfGk"],"settings":{"payment_enable":true,"show_social":true,"enable_follow_on_shop":true,"color_scheme":"background-2"}}},"order":["footer-features","newsletter","footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer-features": {
+      "type": "footer-features",
+      "blocks": {
+        "feature_BiVzqn": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "image": "shopify://shop_images/Group.svg",
+            "title": "Einfache Montage",
+            "text": "<p>für Heimwerker und Profis</p>"
+          }
+        },
+        "footer-feature-1": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "image": "shopify://shop_images/Group_1_5b2c870e-ca0f-4f07-b6c6-29ab24399084.svg",
+            "title": "Individuelle Beratung",
+            "text": "<p>durch geschulte Anwendungstechniker</p>"
+          }
+        },
+        "footer-feature-2": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "image": "shopify://shop_images/Group_21.svg",
+            "title": "Versandbereit",
+            "text": "<p>innerhalb 48 Stunden</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_BiVzqn",
+        "footer-feature-1",
+        "footer-feature-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "inline": true,
+        "stack_on_mobile": false,
+        "auto_rotate": false,
+        "icon_size": "large",
+        "color_scheme": "accent-3",
+        "spacing_top": 30,
+        "spacing_bottom": 30
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "newsletter_enable": true,
+        "title": "Our newsletter",
+        "text": "Subscribe to our newsletter and receive special offers",
+        "consent_checkbox": false,
+        "consent_text": "<p>I agree to receive marketing emails and special deals.</p>",
+        "color_scheme": "accent-1",
+        "remove_borders": false,
+        "spacing_top": 30,
+        "spacing_bottom": 30
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "text",
+          "settings": {
+            "title": "Service-Hotline",
+            "link": "",
+            "image_width": 340,
+            "text": "<p><strong>Servicezeiten:</strong><br/>Mo-Do: 08:00 - 17:00 Uhr<br/>Fr: 08:00 - 15:00 Uhr<br/><br/><strong>Unterstützung und Beratung:</strong><br/><a href=\"mailto:info@hanse-baustoffe.de\" title=\"mailto:info@hanse-baustoffe.de\">info@hanse-baustoffe.de</a><br/><a href=\"/pages/contact\" title=\"Kontakt\">zu den Ansprechpartnern</a></p>"
+          }
+        },
+        "footer-1": {
+          "type": "menu",
+          "settings": {
+            "title": "Informationen",
+            "menu": "informationen"
+          }
+        },
+        "footer-2": {
+          "type": "menu",
+          "settings": {
+            "title": "Shop Service",
+            "menu": "footer"
+          }
+        },
+        "menu_n7xfGk": {
+          "type": "menu",
+          "settings": {
+            "title": "Shops",
+            "menu": "weitere-shops"
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "footer-2",
+        "menu_n7xfGk"
+      ],
+      "settings": {
+        "payment_enable": true,
+        "show_social": true,
+        "enable_follow_on_shop": true,
+        "color_scheme": "background-2"
+      }
+    }
+  },
+  "order": [
+    "footer-features",
+    "newsletter",
+    "footer"
+  ]
+}

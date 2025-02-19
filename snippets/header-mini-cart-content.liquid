@@ -34,6 +34,7 @@
   {%- if cart != empty -%}
     <div class="mini-cart-item-list">
       {%- for item in cart.items -%}
+        {%- assign root_product = blank %}
         {% if item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value != blank %}
           {%- assign root_product = item.product.collections.first.metafields.custom.pseudo_variants_relevant_product.value %}
         {% endif %}

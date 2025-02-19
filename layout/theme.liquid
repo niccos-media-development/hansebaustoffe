@@ -6,6 +6,10 @@
   {%- elsif product.collections contains collections['abdichtungsplane'] %}
     {%- assign redirect = 'https://HOST/products/epdm-abdichtungsfolie-1-5-mm-schwarz' | replace: 'HOST', request.host -%}
   {%- endif -%}
+{%- elsif collection != blank -%}
+  {% if collection.handle == "abdichtungsplane" or collection.handle == "dachfolie-schwarz" or collection.handle == "dachfolie-weiss" %}
+      {%- assign redirect = 'https://HOST/404' | replace: 'HOST', request.host -%}
+  {% endif %}
 {%- endif -%}
 
 {%- if redirect != blank -%}
@@ -107,7 +111,14 @@
 
     {% capture header_content %}{{ content_for_header }}{%- endcapture %}
 
-    {% if product.metafields.custom.variant_search_collection != blank %}
+    {%- for item in cart.items -%}
+      {%- if item.product.title contains "Variants for" -%}
+        {%- assign remove_assortion = true -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {% if product.metafields.custom.variant_search_collection != blank or remove_assortion %}
       {{ header_content | remove: 'https:\/\/cdn.assortion.com\/app.js?shop=yhhp0m-pb.myshopify.com' }}
     {% else %}
       {{ header_content }}
