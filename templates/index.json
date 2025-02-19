@@ -636,7 +636,7 @@
             "background_image_offset_x": 0,
             "background_image_offset_y": 0,
             "title": "Unsere Shops",
-            "link": "shopify://pages/unsere-shops",
+            "link": "shopify://pages/uber-uns",
             "heading_size": "md",
             "description": "",
             "text_color": "#ffffff",
