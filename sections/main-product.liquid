@@ -675,6 +675,24 @@
 
 {% if product.metafields.custom.variant_search_collection.value != blank %}
   <script>
+    const form = document.querySelector('#{{ product_form_id }}');
+    const originalAddEventListener = form.addEventListener;
+    const formEventListeners = [];
+    form.addEventListener = function (type, listener, options) {
+      formEventListeners.push({ type, listener });
+      originalAddEventListener.call(form, type, listener, options);
+    };
+
+    function removeFormListener(type, listener) {
+      const listenerToRemove = formEventListeners.find(
+        (entry) => entry.type === type && entry.listener === listener
+      );
+    
+      if (listenerToRemove) {
+        form.removeEventListener(type, listenerToRemove.listener);
+      }
+    }
+
     const formatter = new Intl.NumberFormat(Shopify.locale, { style: "currency", currency: Shopify.currency.active });
     function update10064() {
       let [ p_dicke, p_breite, p_launge ] = [ "dicke", "breite", "launge" ].map(f =>
