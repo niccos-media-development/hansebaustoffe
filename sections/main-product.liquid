@@ -675,7 +675,7 @@
 
 {% if product.metafields.custom.variant_search_collection.value != blank %}
   <script>
-    const form = document.querySelector('#{{ product_form_id }}');
+    const form = document.documentElement;
     const originalAddEventListener = form.addEventListener;
     const formEventListeners = [];
     form.addEventListener = function (type, listener, options) {
