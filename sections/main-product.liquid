@@ -696,7 +696,7 @@
 
       document.querySelector('[data-price]').innerText = formatter.format(price);
       document.querySelector('[data-current-base-price]').innerText = formatter.format(basePrice);
-      document.querySelector('[data-current-quadratmeter]').innerText = p_breite;
+      document.querySelector('[data-current-quadratmeter]').innerText = Number((p_breite * p_launge).toFixed(2)).toString();
       document.querySelector('[data-current-sku]').innerText = sku;
     }
     
