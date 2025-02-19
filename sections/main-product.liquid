@@ -389,120 +389,7 @@
 								%}
 
 							{% when 'buy_buttons' %}
-                              <div style="display: none !important;">								{% unless settings.catalog_enabled %}
-									{%- liquid
-										assign gift_card_recipient_feature_active = false
-										if block.settings.show_gift_card_recipient and product.gift_card?
-											assign gift_card_recipient_feature_active = true
-										endif
-
-										assign show_dynamic_checkout = false
-										if block.settings.show_buy_now and gift_card_recipient_feature_active == false and is_pre_order == false
-											assign show_dynamic_checkout = true
-										endif
-									-%}
-
-									<product-form class="product-form" data-hide-errors="{{ gift_card_recipient_feature_active }}" {{ block.shopify_attributes }}>
-										<div class="product-form-error-message-wrapper form-status form-status-error" role="alert" hidden>
-											<span class="product-form-error-message"></span>
-										</div>
-
-										{% form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form', data-stock-threshold: settings.only_x_left, data-event-context: 'MainProductPage' %}
-											{% if product.metafields.custom.variant_search_collection.value != blank %}
-                                              <input type="hidden" name="variant-search-collection" value="{{ product.metafields.custom.variant_search_collection.value.handle }}" />
-                                            {% endif %}
-                                                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}"
-												{% if product.selected_or_first_available_variant.available == false
-													or product.selected_or_first_available_variant == nil
-												%}
-													disabled
-												{% endif %}
-											>
-
-											{%- if gift_card_recipient_feature_active -%}
-												{%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
-											{%- endif -%}
-                                            {% if block.settings.show_quantity %}
-                                              <quantity-input 
-                                                data-aos="fade-right"
-                                                class="quantity-input">
-                                                    <button type="button" name="minus" class="quantity-input-button quantity-input-minus no-js-hidden">
-                                                        &minus;
-                                                        <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
-                                                    </button>
-                                                    <label for="quantity-input-{{ section.id }}" class="visually-hidden">{{ 'products.product.quantity.label' | t }}</label>
-                                                    <input name="quantity"
-                                                        type="number"
-                                                        class="quantity-input-field"
-                                                        id="quantity-input-{{ section.id }}"
-                                                        min="1"
-                                                        value="1"
-                                                        form="{{ product_form_id }}"
-                                                    >
-                                                    <button type="button" name="plus" class="quantity-input-button quantity-input-plus no-js-hidden">
-                                                        &plus;
-                                                        <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
-                                                    </button>
-                                                </quantity-input>
-                                            {% endif %}
-											<div class="product-actions add-to-cart-wrapper">
-												<div class="product-actions-add-to-cart">
-													
-
-													{% if block.settings.show_add_to_cart %}
-														<button
-                              data-aos="zoom-in" data-aos-duration="250"
-															type="submit"
-															name="add"
-															class="button add-cart-button button-add-to-cart {% if show_dynamic_checkout %} button-secondary{% endif %}"
-															{% if product.selected_or_first_available_variant.available == false
-																or product.selected_or_first_available_variant == nil
-															%}
-																disabled
-															{% endif %}
-														>
-															{% if block.settings.cart_image != blank %}
-																<img src="{{ block.settings.cart_image | image_url: width: 24 }}" 
-																	 alt="{{ block.settings.cart_image.alt | default: 'Cart icon' }}"
-																	 width="24"
-																	 height="24"
-																	 loading="lazy">
-		
-															{% endif %}
-															{%- if product.selected_or_first_available_variant == nil -%}
-																<span>{{ block.settings.unavailable_text | default: 'products.product.availability.unavailable' }}</span>
-															{%- elsif product.selected_or_first_available_variant.available and is_pre_order -%}
-																<span>{{ block.settings.pre_order_text | default: 'products.product.pre_order' }}</span>
-															{%- elsif product.selected_or_first_available_variant.inventory_policy == 'continue' and product.selected_or_first_available_variant.inventory_quantity <= 0 -%}
-																<span>{{ block.settings.backorder_text | default: 'products.product.backorder' }}</span>
-															{%- elsif product.selected_or_first_available_variant.available -%}
-																<span>{{ block.settings.add_to_cart_text | default: 'products.product.add_to_cart' }}</span>
-															{%- else -%}
-																<span>{{ block.settings.sold_out_text | default: 'products.product.availability.out_of_stock' }}</span>
-															{%- endif -%}
-
-															<div class="button-overlay-spinner hidden">
-																<span class="spinner-xs"></span>
-															</div>
-														</button>
-													{% endif %}
-												</div>
-
-												{% if show_dynamic_checkout %}
-													<div class="product-actions-buy-now">
-														{{ form | payment_button }}
-													</div>
-												{% endif %}
-											</div>
-										{% endform %}
-									</product-form>
-								{% endunless %}
-
-                                {% if false and product.metafields.custom.variant_search_collection.value != blank %}
-                                  <p style="font-size: 1.5rem; margin: 0; margin-top: 1rem; margin-bottom: 1rem;"><span style="font-weight: 800;">Produktnummer:</span> <span data-current-sku></span></p>
-                                {% endif %}
-
-                              </div>
+                              {% capture buy_buttonz %}
 								{% unless settings.catalog_enabled %}
 									{%- liquid
 										assign gift_card_recipient_feature_active = false
@@ -615,6 +502,9 @@
                                 {% if false and product.metafields.custom.variant_search_collection.value != blank %}
                                   <p style="font-size: 1.5rem; margin: 0; margin-top: 1rem; margin-bottom: 1rem;"><span style="font-weight: 800;">Produktnummer:</span> <span data-current-sku></span></p>
                                 {% endif %}
+                              {% endcapture %}
+                            
+                            {{ buy_buttonz }}                        
 
 							{% when 'availability' %}
 								{% unless settings.catalog_enabled %}
