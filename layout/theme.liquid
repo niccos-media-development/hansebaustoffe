@@ -113,13 +113,6 @@
 
     {% capture header_content %}{{ content_for_header }}{%- endcapture %}
 
-    {%- for item in cart.items -%}
-      {%- if item.product.title contains "Variants for" -%}
-        {%- assign remove_assortion = true -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endfor -%}
-
     {% if product.metafields.custom.variant_search_collection != blank or remove_assortion %}
       {{ header_content | remove: 'https:\/\/cdn.assortion.com\/app.js?shop=yhhp0m-pb.myshopify.com' }}
     {% else %}
