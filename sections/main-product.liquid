@@ -277,8 +277,10 @@
 											{% if block.settings.show_sku %}
 												{% if product.selected_or_first_available_variant.sku != blank %}
 													<span class="product-info-meta-item product-info-meta-item-code">
-														{{ 'products.product.sku' | t }}: <span id="ProductSku-{{ section.id }}">{{ product.selected_or_first_available_variant.sku }}</span>
+														{{ 'products.product.sku' | t }}: <span id="ProductSku-{{ section.id }}" {%- if product.metafields.custom.variant_search_collection.value != blank %} data-current-sku{% endif %}>{{ product.selected_or_first_available_variant.sku }}</span>
 													</span>
+
+                                
 												{% endif %}
 											{% endif %}
 
@@ -496,9 +498,9 @@
 									</product-form>
 								{% endunless %}
 
-                {% if product.metafields.custom.variant_search_collection.value != blank %}
-                  <p style="font-size: 1.5rem; margin: 0; margin-top: 1rem; margin-bottom: 1rem;"><span style="font-weight: 800;">Produktnummer:</span> <span data-current-sku></span></p>
-                {% endif %}
+                                {% if false and product.metafields.custom.variant_search_collection.value != blank %}
+                                  <p style="font-size: 1.5rem; margin: 0; margin-top: 1rem; margin-bottom: 1rem;"><span style="font-weight: 800;">Produktnummer:</span> <span data-current-sku></span></p>
+                                {% endif %}
 
 							{% when 'availability' %}
 								{% unless settings.catalog_enabled %}
