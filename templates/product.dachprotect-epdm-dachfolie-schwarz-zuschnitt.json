@@ -45,7 +45,9 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+            "show_base_price": false
+          }
         },
         "line_item_property_4DeBWA": {
           "type": "line_item_property",
@@ -92,16 +94,6 @@
             "pre_order_text": "Pre-order",
             "backorder_text": "Backorder",
             "sold_out_text": "Sold out"
-          }
-        },
-        "complementary_eQPqH4": {
-          "type": "complementary",
-          "settings": {
-            "title": "Frequently bought together",
-            "count": 3,
-            "show_vendor": true,
-            "show_rating": false,
-            "show_add_to_cart": true
           }
         },
         "payment_image_D6FURY": {
@@ -178,7 +170,6 @@
         "line_item_property_UgFchr",
         "variants",
         "buy_buttons",
-        "complementary_eQPqH4",
         "payment_image_D6FURY",
         "availability",
         "extra",
