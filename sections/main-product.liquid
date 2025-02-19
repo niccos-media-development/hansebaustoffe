@@ -675,7 +675,7 @@
 
 {% if product.metafields.custom.variant_search_collection.value != blank %}
   <script>
-    const form = document.documentElement;
+    const form = document;
     const originalAddEventListener = form.addEventListener;
     const formEventListeners = [];
     form.addEventListener = function (type, listener, options) {
