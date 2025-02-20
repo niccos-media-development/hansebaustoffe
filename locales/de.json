@@ -511,7 +511,7 @@
         }
       },
       "shipping": {
-        "shipping_method_title": "Versandd"
+        "shipping_method_title": "Auswahl Versand/Abholung"
       }
     }
   }
