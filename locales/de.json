@@ -511,7 +511,7 @@
         }
       },
       "shipping": {
-        "shipping_method_title": "Bitte wählen Sie die Versandart aus (Versand/Werksabholung)"
+        "shipping_method_title": "Bitte wählen Sie die Versandart aus (DHL/Spedition oder Werksabholung)"
       }
     }
   }
