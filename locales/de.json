@@ -509,6 +509,9 @@
         "location_information": {
           "one": "Sie können Ihre Ware an folgenden Standort/Standorten abholen."
         }
+      },
+      "shipping": {
+        "shipping_method_title": "Versandd"
       }
     }
   }
