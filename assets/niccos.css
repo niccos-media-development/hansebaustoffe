@@ -292,6 +292,9 @@ h2.slideshow-heading {
     width: 30px;
     height: 30px;
   }
+  .nav-link-wrapper.news {
+    display:none;
+  }
   .header-search-global-form,
   .search .button.icon-left,
   #header-global-search-input {
