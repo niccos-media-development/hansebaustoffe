@@ -484,8 +484,7 @@
       "delivery_options": {
         "pick_up_in_twenty_four_hours": "Gewöhnlich abholbereit in 24-48 Stunden",
         "pick_up_from_store": "Werksabholung",
-        "pick_up_locations": "Standorte",
-        "ship": "Versandd"
+        "pick_up_locations": "Standorte"
       },
       "throttle": {
         "merchandise": {
