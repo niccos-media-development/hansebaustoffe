@@ -195,6 +195,7 @@
         "text_dhAfYM"
       ],
       "settings": {
+        "image": "shopify://shop_images/YT_Thumbnail_ISOS_Dachrandprofil_Standard_Verbinder.jpg",
         "video_url": "https://www.youtube.com/watch?v=JJXpGxmRslc",
         "layout": "media_first",
         "desktop_content_alignment": "left",
