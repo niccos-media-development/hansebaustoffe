@@ -4,7 +4,7 @@
 {%- layout none -%}
 {%- paginate collections[collection.handle].products by 4200000 -%}
   {%- for product in collections[collection.handle].products -%}
-    {%- assign variant = product.variants | where: 'sku', sku | first -%}
+    {%- assign variant = product.variants | where: 'sku', "FAB-S150-010" | first -%}
     {%- if variant != blank -%}{{ variant | json }}{%- break -%}{%- endif -%}
   {%- endfor -%}
 {%- endpaginate -%}
