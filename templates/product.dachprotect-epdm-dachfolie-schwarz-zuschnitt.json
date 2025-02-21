@@ -241,6 +241,7 @@
         "product_list_6HAmk7": {
           "type": "product_list",
           "settings": {
+            "image": "shopify://shop_images/200-WB1-020_BlueTek_Anwendung_1000x1000px_6.jpg",
             "overlay_background": "",
             "heading": "Flächenkleber",
             "description": "",
@@ -255,6 +256,7 @@
         "product_list_gzEkMb": {
           "type": "product_list",
           "settings": {
+            "image": "shopify://shop_images/200-U01-290_AnschlusskleberFLEX_Anwendung_Wandanschluss_1000x1000px_1_7f9625e8-13a2-49e5-9d1f-d419fa333f51.jpg",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "heading": "Anschlusskleber",
             "description": "",
