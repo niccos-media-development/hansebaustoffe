@@ -7,7 +7,7 @@
     {%- assign redirect = 'https://HOST/products/epdm-abdichtungsfolie-1-5-mm-schwarz' | replace: 'HOST', request.host -%}
   {%- endif -%}
 {%- elsif collection != blank -%}
-  {% if collection.handle == "abdichtungsplane" or collection.handle == "dachfolie-schwarz" or collection.handle == "dachfolie-weiss" %}
+  {% if collection.metafields.custom.pseudo_variants_relevant_product != blank %}
       {%- assign redirect = 'https://HOST/404' | replace: 'HOST', request.host -%}
   {% elsif collection.handle == "all" %}
       {%- assign redirect = 'https://HOST/collections/alle' | replace: 'HOST', request.host -%}
