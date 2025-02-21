@@ -165,6 +165,7 @@
         "promotion_gm84ph",
         "promotion_8YQ8JT"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 768px) {.block-section {display: none !important; }}"
       ],
@@ -274,6 +275,7 @@
         "promotion_MX6Qw7",
         "promotion_Ycr93H"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 768px) {.block-section {display: none !important; }}"
       ],
@@ -467,10 +469,7 @@
         "promotion_RKhQdy",
         "promotion_D48ety"
       ],
-      "custom_css": [
-        "@media screen and (min-width: 769px) {.block-section {display: none !important; }}",
-        "@media screen and (max-width: 768px) {.block-section {display: block !important; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "image_heights": 180,
         "heading": "Kategorien",
