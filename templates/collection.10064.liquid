@@ -3,7 +3,6 @@
 {%- layout none -%}
 {%- paginate collections[collection.handle].products by 4200000 -%}
   {%- for product in collections[collection.handle].products -%}
-    {{ sku }}, {{ products.variants[0].sku }}
     {%- assign variant = product.variants | find: 'sku', sku -%}
     {%- if variant != blank -%}{{ variant | json }}{%- break -%}{%- endif -%}
   {%- endfor -%}
