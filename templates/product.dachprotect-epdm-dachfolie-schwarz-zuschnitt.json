@@ -238,6 +238,16 @@
             ]
           }
         },
+        "product_list_6HAmk7": {
+          "type": "product_list",
+          "settings": {
+            "overlay_background": "",
+            "heading": "Kleb- & Dichtstoffe",
+            "description": "",
+            "link": "shopify://collections/kleb-dichtstoffe",
+            "products": []
+          }
+        },
         "product_list_7qgNMG": {
           "type": "product_list",
           "settings": {
@@ -265,6 +275,7 @@
       },
       "block_order": [
         "product_list_JVHXFV",
+        "product_list_6HAmk7",
         "product_list_7qgNMG",
         "product_list_x8JaDf"
       ],
