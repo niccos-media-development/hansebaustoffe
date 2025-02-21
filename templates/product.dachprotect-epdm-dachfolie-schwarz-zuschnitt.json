@@ -485,6 +485,9 @@
         "slide_Yzi7T4",
         "slide_DnFwXf"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 769px) {.block-section {display: none !important; }}"
+      ],
       "settings": {
         "full_width": true,
         "slide_height": "adapt_image",
