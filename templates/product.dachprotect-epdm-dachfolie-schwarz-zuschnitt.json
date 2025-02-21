@@ -323,7 +323,7 @@
         "link_title": "",
         "link_url": "",
         "columns": "3",
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "color_scheme": "background-1",
         "spacing_top": 60,
         "spacing_bottom": 60
