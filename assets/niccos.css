@@ -2,6 +2,15 @@ span[data-price] {
   font-size: calc(var(--font-product-price-scale)* 2rem) !important;
 }
 
+.line-item-property {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.line-item-property + .line-item-property {
+  padding-top: 0;
+}
+
 /* Header Styling */
 .header-search-global-form,
 .search .button.icon-left,

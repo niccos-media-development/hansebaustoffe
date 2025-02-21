@@ -1,4 +1,4 @@
-<div style="padding-top: 20px; padding-bottom: 20px;" class="product-form-input">
+<div class="product-form-input line-item-property">
     <label class="form-label" for="LineItemProperty-{{ block.settings.key }}">{{ block.settings.label }}</label>
     <select name="properties[{{ block.settings.key }}]" id="LineItemProperty-{{ block.settings.key }}" class="select__select" form="{{ product_form_id }}">
         {%- assign options = block.settings.option_list | split: '|' | compact %}
