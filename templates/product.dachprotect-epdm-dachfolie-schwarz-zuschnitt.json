@@ -280,20 +280,6 @@
         "spacing_bottom": 60
       }
     },
-    "recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show": true,
-        "title": "Kunden interessiert auch",
-        "count": "4",
-        "show_vendor": true,
-        "show_stock": true,
-        "show_rating": true,
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
-      }
-    },
     "rich_text_fR6cKA": {
       "type": "rich-text",
       "blocks": {
@@ -446,6 +432,20 @@
         "full_width": false
       }
     },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show": true,
+        "title": "Kunden interessiert auch",
+        "count": "4",
+        "show_vendor": true,
+        "show_stock": true,
+        "show_rating": true,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
     "1734509477da49f758": {
       "type": "apps",
       "blocks": {
@@ -484,9 +484,9 @@
     "main",
     "featured_collection_k8t9RF",
     "product_lists_D7wK8m",
-    "recommendations",
     "rich_text_fR6cKA",
     "slideshow_teDMAe",
+    "recommendations",
     "1738918765e0980779",
     "1734509477da49f758"
   ]
