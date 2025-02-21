@@ -497,6 +497,50 @@
         "spacing_bottom": 20
       }
     },
+    "image_banners_GjHqUN": {
+      "type": "image-banners",
+      "blocks": {
+        "image_banner_pUAFVx": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_2.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_KMWRzm": {
+          "type": "image_banner",
+          "settings": {
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_JgVNHH": {
+          "type": "image_banner",
+          "settings": {
+            "description": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_banner_pUAFVx",
+        "image_banner_KMWRzm",
+        "image_banner_JgVNHH"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "layout": "slider",
+        "columns": 1,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -566,6 +610,7 @@
     "product_lists_D7wK8m",
     "rich_text_fR6cKA",
     "slideshow_teDMAe",
+    "image_banners_GjHqUN",
     "recommendations",
     "1738918765e0980779",
     "1734509477da49f758"
