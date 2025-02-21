@@ -252,6 +252,20 @@
             ]
           }
         },
+        "product_list_gzEkMb": {
+          "type": "product_list",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Anschlusskleber",
+            "description": "",
+            "link": "shopify://collections/anschlusskleber-1",
+            "products": [
+              "epdm-anschlusskleber-flex-290-ml-kartusche",
+              "epdm-anschlusskleber-flex-600-ml-schlauchbeutel",
+              "doppelseitiges-dichtband-anschlussband-5-meter"
+            ]
+          }
+        },
         "product_list_7qgNMG": {
           "type": "product_list",
           "settings": {
@@ -280,6 +294,7 @@
       "block_order": [
         "product_list_JVHXFV",
         "product_list_6HAmk7",
+        "product_list_gzEkMb",
         "product_list_7qgNMG",
         "product_list_x8JaDf"
       ],
