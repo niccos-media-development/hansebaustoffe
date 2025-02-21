@@ -45,10 +45,13 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+            "show_base_price": false
+          }
         },
         "variants": {
           "type": "variants",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "hide_single_variant": false,

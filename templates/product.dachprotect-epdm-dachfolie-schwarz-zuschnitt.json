@@ -45,9 +45,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-            "show_base_price": false
-          }
+          "settings": {}
         },
         "line_item_property_4DeBWA": {
           "type": "line_item_property",
@@ -350,9 +348,9 @@
         "slide_J7DEcE"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "slide_height": "adapt_image",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "animation_type": "fade",
         "accessibility_info": "Bilder von Kundenprojekte",
