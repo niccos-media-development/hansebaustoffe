@@ -271,7 +271,7 @@
         "product_list_7qgNMG": {
           "type": "product_list",
           "settings": {
-            "image": "shopify://shop_images/300-NAR-15R_NahtabdeckbandFlex_Anwendung_Folie_1_1000x1000_1_9c06be02-c0c8-45dd-9385-0e75f77dcb71.jpg",
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Verarbeitungswerkzeuge.jpg",
             "overlay_background": "",
             "heading": "Verarbeitungswerkzeuge",
             "description": "",
@@ -282,6 +282,7 @@
         "product_list_x8JaDf": {
           "type": "product_list",
           "settings": {
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Dachrandprofile.jpg",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "heading": "Dachrandprofile",
             "description": "",
@@ -296,6 +297,7 @@
         "product_list_bwLTag": {
           "type": "product_list",
           "settings": {
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Garantie_Gullys.jpg",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "heading": "Garantie-Gullys",
             "description": "",
