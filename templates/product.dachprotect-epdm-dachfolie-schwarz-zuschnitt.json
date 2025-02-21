@@ -302,10 +302,10 @@
           "settings": {
             "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_1.jpg",
             "overlay_background": "",
-            "heading": "Pavillion",
+            "heading": "",
             "heading_size": "md",
             "subheading": "",
-            "text_color": "#fff",
+            "text_color": "#000000",
             "box_align": "bottom-left",
             "content_width": 60,
             "button_label": "",
