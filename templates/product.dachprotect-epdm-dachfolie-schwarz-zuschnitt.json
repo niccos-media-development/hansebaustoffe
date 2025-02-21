@@ -323,10 +323,10 @@
         "link_title": "",
         "link_url": "",
         "columns": "3",
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     },
     "rich_text_fR6cKA": {
