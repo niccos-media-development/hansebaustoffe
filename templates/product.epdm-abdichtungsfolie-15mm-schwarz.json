@@ -45,9 +45,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-            "show_base_price": false
-          }
+          "settings": {}
         },
         "line_item_property_4DeBWA": {
           "type": "line_item_property",
@@ -69,7 +67,7 @@
           "type": "line_item_property",
           "settings": {
             "label": "Länge",
-            "key": "launge",
+            "key": "länge",
             "option_list": "1,00 m|1,50 m|2,00 m|2,50 m|3,00 m|3,50 m|4,00 m|4,50 m|5,00 m|5,50 m|6,00 m|6,50 m|7,00 m|7,50 m|8,00 m|8,50 m|9,00 m|9,50 m|10,00 m|10,50 m|11,00 m|11,50 m|12,00 m|12,50 m|13,00 m|13,50 m|14,00 m|14,50 m|15,00 m|15,50 m|16,00 m|16,50 m|17,00 m|17,50 m|18,00 m|18,50 m|19,00 m|19,50 m|20,00 m|20,50 m|21,00 m|21,50 m|22,00 m|22,50 m|23,00 m|23,50 m|24,00 m|24,50 m|25,00 m|25,50 m|26,00 m|26,50 m|27,00 m|27,50 m|28,00 m|28,50 m|29,00 m|29,50 m|30,00 m|30,50 m"
           }
         },
