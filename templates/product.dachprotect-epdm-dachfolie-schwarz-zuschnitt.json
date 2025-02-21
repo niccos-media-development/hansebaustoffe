@@ -296,6 +296,70 @@
         "spacing_bottom": 60
       }
     },
+    "slideshow_teDMAe": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_DnFwXf": {
+          "type": "slide",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Image slide",
+            "heading_size": "md",
+            "subheading": "<p>Tell your brand's story through images</p>",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "content_width": 100,
+            "button_label": "Button label",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "slide_J7DEcE": {
+          "type": "slide",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Image slide",
+            "heading_size": "md",
+            "subheading": "<p>Tell your brand's story through images</p>",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "Button label",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "slide_DnFwXf",
+        "slide_J7DEcE"
+      ],
+      "settings": {
+        "full_width": false,
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "animation_type": "slide",
+        "accessibility_info": "",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
     "1738918765e0980779": {
       "type": "apps",
       "blocks": {
@@ -350,6 +414,7 @@
     "featured_collection_k8t9RF",
     "product_lists_D7wK8m",
     "recommendations",
+    "slideshow_teDMAe",
     "1738918765e0980779",
     "1734509477da49f758"
   ]
