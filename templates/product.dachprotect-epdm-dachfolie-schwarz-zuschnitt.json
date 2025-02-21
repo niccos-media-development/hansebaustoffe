@@ -268,10 +268,14 @@
           "type": "product_list",
           "settings": {
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "Product list",
+            "heading": "Dachrandprofile",
             "description": "",
-            "link": "",
-            "products": []
+            "link": "shopify://collections/dachrandprofile",
+            "products": [
+              "dachrandprofil-isos-anthrazit-ral-7016-1-95-meter",
+              "dachrandprofil-isos-silber-ral-9006-1-95-meter",
+              "dachrandprofil-cube-anthrazit-ral-7016-1-meter"
+            ]
           }
         }
       },
