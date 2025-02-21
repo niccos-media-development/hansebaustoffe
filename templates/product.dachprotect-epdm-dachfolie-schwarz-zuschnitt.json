@@ -243,16 +243,20 @@
           "type": "product_list",
           "settings": {
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "Product list",
+            "heading": "Nähte",
             "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
-            "link": "shopify://collections/dachrandprofile",
-            "products": []
+            "link": "",
+            "products": [
+              "epdm-aktivierung-epdm-aktivierung-im-set",
+              "form-nahtabdeckband-zuschnitt-rollenware",
+              "nahtband-schwarz-zuschnitt-rollenware"
+            ]
           }
         },
         "product_list_7qgNMG": {
           "type": "product_list",
           "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "heading": "Product list",
             "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
             "link": "",
@@ -276,7 +280,7 @@
         "product_list_x8JaDf"
       ],
       "settings": {
-        "heading": "Product lists",
+        "heading": "Passende Produkte",
         "subheading": "",
         "link_title": "",
         "link_url": "",
