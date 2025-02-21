@@ -362,29 +362,6 @@
     "slideshow_teDMAe": {
       "type": "slideshow",
       "blocks": {
-        "slide_DnFwXf": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_1.jpg",
-            "overlay_background": "",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#000000",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
         "slide_J7DEcE": {
           "type": "slide",
           "settings": {
@@ -476,14 +453,37 @@
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
+        },
+        "slide_DnFwXf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_1.jpg",
+            "overlay_background": "",
+            "heading": "",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#000000",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
         }
       },
       "block_order": [
-        "slide_DnFwXf",
         "slide_J7DEcE",
         "slide_6ARUgp",
         "slide_dRR7JY",
-        "slide_Yzi7T4"
+        "slide_Yzi7T4",
+        "slide_DnFwXf"
       ],
       "settings": {
         "full_width": true,
