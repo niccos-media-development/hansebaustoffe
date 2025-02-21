@@ -94,7 +94,11 @@
 			</div>
 		{% endif %}
     {% if show_base_price == true %}
-      <p style="font-size: 1.2rem; margin: 0;">Inhalt: <span data-current-quadratmeter>1.5</span> Quadratmeter (<span data-current-base-price>14,50 €</span>* / 1 Quadratmeter) </p>
+      {% if product.metafields.custom.variant_search_collection.value.handle == "form-nahtabdeckband" %}
+      <p style="font-size: 1.2rem; margin: 0;">Inhalt: <span data-current-quadratmeter>1.5</span> Meter (<span data-current-base-price>14,50 €</span>* / 1 Meter)</p>
+      {% else %}
+      <p style="font-size: 1.2rem; margin: 0;">Inhalt: <span data-current-quadratmeter>1.5</span> Quadratmeter (<span data-current-base-price>14,50 €</span>* / 1 Quadratmeter)</p>
+      {% endif %}
     {% endif %}
 	</div>
 
