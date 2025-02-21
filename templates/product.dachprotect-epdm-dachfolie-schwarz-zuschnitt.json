@@ -511,6 +511,7 @@
         "image_banner_KMWRzm": {
           "type": "image_banner",
           "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_4.jpg",
             "description": "",
             "link": ""
           }
