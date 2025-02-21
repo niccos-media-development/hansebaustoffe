@@ -148,7 +148,7 @@
           "settings": {
             "title": "Downloads",
             "icon": "",
-            "text": "<p><a href=\"/pages/downloads\" title=\"Downloads\">zum Downloadportal</a></p>",
+            "text": "<p><a href=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/EPDM_Dachfolie/HSS_EPDM_Dachfolie_schwarz_Produktdatenblatt.pdf\" title=\"https://www.hanse-baustoffe.de/download/Produktdatenblaetter/EPDM_Dachfolie/HSS_EPDM_Dachfolie_schwarz_Produktdatenblatt.pdf\">Produktdatenblatt<br/>Klebstoffübersicht<br/></a></p>",
             "expanded": false
           }
         },
