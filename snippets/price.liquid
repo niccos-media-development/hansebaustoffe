@@ -98,7 +98,7 @@
     {% endif %}
 	</div>
 
-	{% unless product.selected_or_first_available_variant.unit_price_measurement == nil %}
+	{% if product.selected_or_first_available_variant.unit_price_measurement != nil and show_base_price != true %}
 		<div class="unit-price">
 			<span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
 			{{ product.selected_or_first_available_variant.unit_price | money }}
@@ -109,6 +109,6 @@
 			{%- endif -%}
 			{{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}
 		</div>
-	{% endunless %}
+	{% endif %}
 
 </div>
