@@ -188,6 +188,29 @@
         "image_disclaimer": "<p> </p>"
       }
     },
+    "rich_text_fR6cKA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nxHiMC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kundenprojekte",
+            "heading_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nxHiMC"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
     "featured_collection_k8t9RF": {
       "type": "featured-collection",
       "settings": {
@@ -400,29 +423,6 @@
         "spacing_bottom": 20
       }
     },
-    "rich_text_fR6cKA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_nxHiMC": {
-          "type": "heading",
-          "settings": {
-            "heading": "Kundenprojekte",
-            "heading_size": "md"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nxHiMC"
-      ],
-      "settings": {
-        "narrow": true,
-        "overlay_background": "",
-        "alignment": "center",
-        "color_scheme": "background-1",
-        "spacing_top": 20,
-        "spacing_bottom": 20
-      }
-    },
     "slideshow_teDMAe": {
       "type": "slideshow",
       "blocks": {
@@ -630,9 +630,9 @@
   "order": [
     "main",
     "featured_collection_k8t9RF",
+    "rich_text_fR6cKA",
     "image_banners_GjHqUN",
     "product_lists_D7wK8m",
-    "rich_text_fR6cKA",
     "slideshow_teDMAe",
     "recommendations",
     "1738918765e0980779",
