@@ -431,6 +431,33 @@
         "spacing_bottom": 20
       }
     },
+    "rich_text_9YFT4E": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pmaiiR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kundenprojekte",
+            "heading_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pmaiiR"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.block-section {display: block !important; }}",
+        "@media screen and (min-width: 769px) {.block-section {display: none !important; }}"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "accent-3",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
     "slideshow_teDMAe": {
       "type": "slideshow",
       "blocks": {
@@ -568,7 +595,7 @@
         "change_slides_speed": 5,
         "animation_type": "fade",
         "accessibility_info": "Bilder von Kundenprojekte",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-3",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -642,6 +669,7 @@
     "rich_text_fR6cKA",
     "image_banners_GjHqUN",
     "product_lists_D7wK8m",
+    "rich_text_9YFT4E",
     "slideshow_teDMAe",
     "recommendations",
     "1738918765e0980779",
