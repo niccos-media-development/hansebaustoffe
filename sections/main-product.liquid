@@ -735,7 +735,7 @@
 
       document.querySelector('[data-price]').innerText = formatter.format(price);
       document.querySelector('[data-current-base-price]').innerText = formatter.format(basePrice);
-      document.querySelector('[data-current-quadratmeter]').innerText = Number((p_breite * p_launge).toFixed(2)).toString();
+      document.querySelector('[data-current-quadratmeter]').innerText = {% if product.metafields.custom.variant_search_collection.value.handle == "form-nahtabdeckband" %}Number((p_launge).toFixed(2)).toString();{% else %}Number((p_breite * p_launge).toFixed(2)).toString();{% endif %}
       document.querySelector('[data-current-sku]').innerText = sku;
     }
     
