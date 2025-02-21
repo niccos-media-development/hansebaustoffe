@@ -51,6 +51,8 @@ if (!customElements.get('product-form')) {
                   break;
                 case 'abdichtungsplane':
                   sku = `B${dicke_fmt}-${breite_fmt}-${launge_fmt}`;
+                case 'form-nahtabdeckband':
+                  sku = `FAB-S${dicke_fmt}-${launge_fmt}`;
                   break;
               }
 
