@@ -397,13 +397,37 @@
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
+        },
+        "slide_Yzi7T4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_5.jpg",
+            "overlay_background": "",
+            "heading": "",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
         }
       },
       "block_order": [
         "slide_DnFwXf",
         "slide_J7DEcE",
         "slide_6ARUgp",
-        "slide_dRR7JY"
+        "slide_dRR7JY",
+        "slide_Yzi7T4"
       ],
       "settings": {
         "full_width": true,
@@ -415,6 +439,20 @@
         "color_scheme": "background-1",
         "spacing_top": 20,
         "spacing_bottom": 20
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show": true,
+        "title": "Kunden interessiert auch",
+        "count": "4",
+        "show_vendor": true,
+        "show_stock": true,
+        "show_rating": true,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
       }
     },
     "1738918765e0980779": {
@@ -430,20 +468,6 @@
       ],
       "settings": {
         "full_width": false
-      }
-    },
-    "recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show": true,
-        "title": "Kunden interessiert auch",
-        "count": "4",
-        "show_vendor": true,
-        "show_stock": true,
-        "show_rating": true,
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
       }
     },
     "1734509477da49f758": {
