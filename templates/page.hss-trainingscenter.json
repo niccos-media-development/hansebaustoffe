@@ -205,7 +205,7 @@
         "slide_GhAy6y": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/IMG_1219.jpg",
+            "image": "shopify://shop_images/Trainingscenter_Allgemein_2025_24.jpg",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%)",
             "heading": "",
             "heading_size": "md",
@@ -247,12 +247,60 @@
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
+        },
+        "slide_Q77y8b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Verklebung_Randbereiche_2025_6.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "",
+            "button_type_link": true,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": true,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "slide_8TrGiW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Allgemein_2025_26.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
         }
       },
       "block_order": [
         "slide_YR9PgE",
         "slide_GhAy6y",
-        "slide_ahM6tp"
+        "slide_ahM6tp",
+        "slide_Q77y8b",
+        "slide_8TrGiW"
       ],
       "settings": {
         "full_width": true,
