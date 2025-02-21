@@ -519,6 +519,23 @@
         "image_banner_JgVNHH": {
           "type": "image_banner",
           "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_5.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_q9WhiE": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_3.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_VF8d3m": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_1.jpg",
             "description": "",
             "link": ""
           }
@@ -527,7 +544,9 @@
       "block_order": [
         "image_banner_pUAFVx",
         "image_banner_KMWRzm",
-        "image_banner_JgVNHH"
+        "image_banner_JgVNHH",
+        "image_banner_q9WhiE",
+        "image_banner_VF8d3m"
       ],
       "settings": {
         "heading": "",
