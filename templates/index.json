@@ -179,7 +179,7 @@
         "card_clickable_desktop": true,
         "box_radius": 0,
         "heading_outline_color": "#333333",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -288,7 +288,7 @@
         "card_clickable_desktop": true,
         "box_radius": 0,
         "heading_outline_color": "#333333",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "spacing_top": 20,
         "spacing_bottom": 60
       }
