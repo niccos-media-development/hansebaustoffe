@@ -51,7 +51,7 @@
           "type": "line_item_property",
           "settings": {
             "label": "Breite",
-            "key": "breite",
+            "key": "Breite",
             "option_list": "15 cm|23 cm|30 cm|46 cm"
           }
         },
