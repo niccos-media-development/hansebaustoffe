@@ -56,6 +56,7 @@ if (!customElements.get('product-form')) {
                   sku = `FAB-S${breite_fmt}-${Math.floor(launge * 100).toString().padStart(3, '0').slice(0,3)}`;
                   break;
               }
+              console.log('zre', sku)
 
               fetch(window.location.origin + "/collections/" + variantSearchCollectionHandle + "?filter.p.sku=" + Base64.encode(sku) + "&view=10064").then(d => d.text()).then(data => {
 
