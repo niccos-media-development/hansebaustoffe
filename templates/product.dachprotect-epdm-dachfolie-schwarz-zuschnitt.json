@@ -242,9 +242,10 @@
         "product_list_JVHXFV": {
           "type": "product_list",
           "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "Nähte",
-            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
+            "image": "shopify://shop_images/Trainingscenter_Allgemein_2025_26.jpg",
+            "overlay_background": "",
+            "heading": "Nahtprodukte",
+            "description": "",
             "link": "",
             "products": [
               "epdm-aktivierung-epdm-aktivierung-im-set",
@@ -257,18 +258,18 @@
           "type": "product_list",
           "settings": {
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "Product list",
-            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
-            "link": "",
+            "heading": "Verarbeitungswerkzeuge",
+            "description": "",
+            "link": "shopify://collections/verlegewerkzeuge",
             "products": []
           }
         },
         "product_list_x8JaDf": {
           "type": "product_list",
           "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "heading": "Product list",
-            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
+            "description": "",
             "link": "",
             "products": []
           }
