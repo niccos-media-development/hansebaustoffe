@@ -196,7 +196,7 @@
         "collection": "",
         "products_to_show": 3,
         "products": "{{ product.metafields.next_cart.complementary_products.value }}",
-        "hide_placeholders": false,
+        "hide_placeholders": true,
         "heading": "Zubehör",
         "subheading": "",
         "show_vendor": false,
