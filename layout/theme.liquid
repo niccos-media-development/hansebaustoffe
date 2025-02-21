@@ -1,6 +1,6 @@
 {%- if product != blank -%}
   {%- if product.metafields.seo.hidden == 1 and product.collections.size == 1 %}
-    {%- assign redirect = 'https://HOST/products/' | append: product.collections.first.metafields.custom.pseudo_variants_relevant_product.handle | replace: 'HOST', request.host -%}
+    {%- assign redirect = 'https://HOST/products/' | append: product.collections.first.metafields.custom.pseudo_variants_relevant_product.value.handle | replace: 'HOST', request.host -%}
   {% endif %}
 {%- elsif collection != blank -%}
   {% if collection.metafields.custom.pseudo_variants_relevant_product != blank %}
