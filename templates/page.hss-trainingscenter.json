@@ -256,7 +256,7 @@
             "heading": "",
             "heading_size": "md",
             "subheading": "",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "box_align": "bottom-left",
             "content_width": 60,
             "button_label": "",
@@ -279,7 +279,7 @@
             "heading": "",
             "heading_size": "md",
             "subheading": "",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "box_align": "bottom-left",
             "content_width": 60,
             "button_label": "",
@@ -302,6 +302,7 @@
         "slide_Q77y8b",
         "slide_8TrGiW"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "slide_height": "medium",
@@ -312,6 +313,115 @@
         "color_scheme": "background-1",
         "spacing_top": 20,
         "spacing_bottom": 20
+      }
+    },
+    "image_banners_m9Jmfb": {
+      "type": "image-banners",
+      "blocks": {
+        "image_banner_dQpgLk": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Nahtband_2025_5.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_eAPVGJ": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Spraybond_2025_2.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_RYNUjA": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Allgemein_2025_18.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_knfQkA": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Allgemein_2025_8.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_jma98r": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Allgemein_2025_10.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_UdDk6U": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Allgemein_2025_14.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_KwRahc": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Allgemein_2025_22.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_8FPTLh": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Allgemein_2025_23.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_9GAA4U": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Aussenecke_2025_2.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_G4BdET": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Trainingscenter_Formband_2025_3.jpg",
+            "description": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_banner_dQpgLk",
+        "image_banner_eAPVGJ",
+        "image_banner_RYNUjA",
+        "image_banner_knfQkA",
+        "image_banner_jma98r",
+        "image_banner_UdDk6U",
+        "image_banner_KwRahc",
+        "image_banner_8FPTLh",
+        "image_banner_9GAA4U",
+        "image_banner_G4BdET"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "layout": "slider",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
       }
     },
     "rich_text_QUgiAC": {
@@ -506,6 +616,7 @@
     "image_hotspots_keyw4y",
     "rich_text_Ekdf93",
     "slideshow_VEacXT",
+    "image_banners_m9Jmfb",
     "rich_text_QUgiAC",
     "multicolumn_iC4VFH",
     "rich_text_4Jneam",
