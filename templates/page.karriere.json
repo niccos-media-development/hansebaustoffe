@@ -196,7 +196,9 @@
         "heading_AmQrP4",
         "text_VTVgDh"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "* {color: #000000 !important;}"
+      ],
       "settings": {
         "narrow": true,
         "overlay_background": "",
