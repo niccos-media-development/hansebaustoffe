@@ -377,8 +377,8 @@
         "subheading": "",
         "heading_alignment": "left",
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     },
     "expandable_c89qyh": {
@@ -418,8 +418,8 @@
         "subheading": "",
         "heading_alignment": "left",
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     },
     "expandable_XkGVxM": {
@@ -520,8 +520,8 @@
         "subheading": "",
         "heading_alignment": "left",
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     }
   },
