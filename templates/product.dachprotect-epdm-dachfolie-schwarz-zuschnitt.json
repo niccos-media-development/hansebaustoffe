@@ -419,6 +419,9 @@
         "product_list_x8JaDf",
         "product_list_bwLTag"
       ],
+      "custom_css": [
+        ".product-grid:has(.product-card:nth-child(n+4)) {display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; }"
+      ],
       "settings": {
         "heading": "Passendes Systemzubehör",
         "subheading": "",
