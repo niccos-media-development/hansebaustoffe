@@ -340,7 +340,7 @@
       "settings": {
         "image": "shopify://shop_images/YT_Thumbnail_PV-Halter.jpg",
         "video_url": "https://www.youtube.com/watch?v=M2ASSEsjrC4",
-        "layout": "media_first",
+        "layout": "text_first",
         "desktop_content_alignment": "left",
         "spacing_top": 20,
         "spacing_bottom": 20,
