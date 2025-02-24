@@ -419,10 +419,7 @@
         "product_list_x8JaDf",
         "product_list_bwLTag"
       ],
-      "custom_css": [
-        ".product-grid {display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }",
-        ".product-grid:has(.product-card:nth-child(n + 4)) {display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth;}"
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "Passendes Systemzubehör",
         "subheading": "",
