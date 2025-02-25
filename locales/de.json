@@ -114,14 +114,14 @@
         "decrease": "Menge reduzieren für {{ product }}"
       },
       "availability": {
-        "in_stock": "Vorrätig",
-        "always_in_stock": "Vorrätig",
+        "in_stock": "auf Lager",
+        "always_in_stock": "auf Lager",
         "out_of_stock": "Ausverkauft",
         "number_left": "Nur noch {{ count }} übrig",
         "number_available": "{{ count }} Artikel verfügbar",
         "unavailable": "Nicht verfügbar",
         "pre_order": "Demnächst",
-        "backorder": "Vorrätig"
+        "backorder": "auf Lager"
       },
       "media": {
         "gallery": "Produktegalerie",
@@ -512,6 +512,13 @@
       },
       "shipping": {
         "shipping_method_title": "Bitte wählen Sie die Versandart aus (DHL/Spedition oder Werksabholung)"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "nicht auf Lager"
+        }
       }
     }
   }
