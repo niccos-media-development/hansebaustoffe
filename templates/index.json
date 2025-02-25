@@ -717,70 +717,6 @@
         "spacing_bottom": 60
       }
     },
-    "niccos_testimonials_F3WRTd": {
-      "type": "niccos-testimonials",
-      "blocks": {
-        "testimonial_yt6HWP": {
-          "type": "testimonial",
-          "settings": {
-            "citation": "Oliver S.",
-            "description": "<p>Super Dachfolie, das beste Produkt dass ich bis jetzt für das Dach meiner Gartenhütte benutzt habe. Einfach zu verarbeiten, sieht gut aus und hält bis jetzt absolut dicht.</p>",
-            "rating": 5
-          }
-        },
-        "testimonial_AeDH9V": {
-          "type": "testimonial",
-          "settings": {
-            "citation": "David T.",
-            "description": "<p>Ist das 2. mal das ich Produkte von Hanse Baustoffe erworben habe. Wie auch beim 1. mal die Produkte sind qualitativ hervorragend. Der Kleber ist einfach und sicher zu verarbeiten und hat hohe Klebeeigenschaften. Die Dachprotectfolie ist schnell und einfach zu verlegen und ist von hoher Qualität.</p>",
-            "rating": 5
-          }
-        },
-        "testimonial_a6rTfm": {
-          "type": "testimonial",
-          "settings": {
-            "citation": "Patrick F.",
-            "description": "<p>Wie beschrieben, Qualität kann ich erst nach Garantiezeit von 20 Jahren bewerten. Auf jeden Fall gut zu verarbeiten</p>",
-            "rating": 5
-          }
-        },
-        "testimonial_RdrLe4": {
-          "type": "testimonial",
-          "settings": {
-            "citation": "Sebastian H.",
-            "description": "<p>Habe die Folie für meine Freiflug Voliere bestellt, bin sehr zufrieden damit. Super Qualität und leicht zu Verarbeiten. Das erste Unwetter hat sie schon überstanden. Jederzeit wieder, werde die Folie weiterempfehlen.</p>",
-            "rating": 5
-          }
-        },
-        "testimonial_8M6qHK": {
-          "type": "testimonial",
-          "settings": {
-            "citation": "Anonymous",
-            "description": "<p>Ich habe vor 2 Jahren diese Folie schon einmal gekauft und konnte sie einfach und erfolgreich verlegen. Ideal zur sicheren Abdichtung von Flächen. Ich einen undicht gewordenen Balkon flächig abgedichtet und anschließend WPC-Terrassendielen darüber verlegt. Ist dicht und sieht gut aus. Jetzt habe ich die gleiche Anwendung wieder gehabt. Die Abwicklung der Bestellung und Lieferung war, wie beim ersten Mal einfach, zügig und pünktlich.</p>",
-            "rating": 5
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_yt6HWP",
-        "testimonial_AeDH9V",
-        "testimonial_a6rTfm",
-        "testimonial_RdrLe4",
-        "testimonial_8M6qHK"
-      ],
-      "settings": {
-        "heading": "Das sagen unsere Kunden",
-        "subheading": "Erfahren Sie aus erster Hand, wie zufrieden unsere Kunden mit der DACHPROTECT EPDM Folie und dem passenden Zubehör sind. Hier teilen Nutzer ihre Erfahrungen zur einfachen Verarbeitung, zur Langlebigkeit und zur herausragenden Qualität der EPDM Folie. Die hohe Lebensdauer und Zuverlässigkeit machen die EPDM Dachabdichtung zur optimalen Lösung für jedes Flachdach. Lassen Sie sich von den Bewertungen überzeugen und profitieren Sie von echten Meinungen rund um die DACHPROTECT EPDM Folie – für dauerhaften Schutz und beste Ergebnisse.",
-        "call_to_action": "",
-        "layout": "slider",
-        "columns": 3,
-        "stack_on_mobile": false,
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60,
-        "title_alignment": "center"
-      }
-    },
     "slideshow_rYycYY": {
       "type": "slideshow",
       "blocks": {
@@ -845,6 +781,70 @@
         "color_scheme": "background-1",
         "spacing_top": 20,
         "spacing_bottom": 20
+      }
+    },
+    "niccos_testimonials_F3WRTd": {
+      "type": "niccos-testimonials",
+      "blocks": {
+        "testimonial_yt6HWP": {
+          "type": "testimonial",
+          "settings": {
+            "citation": "Oliver S.",
+            "description": "<p>Super Dachfolie, das beste Produkt dass ich bis jetzt für das Dach meiner Gartenhütte benutzt habe. Einfach zu verarbeiten, sieht gut aus und hält bis jetzt absolut dicht.</p>",
+            "rating": 5
+          }
+        },
+        "testimonial_AeDH9V": {
+          "type": "testimonial",
+          "settings": {
+            "citation": "David T.",
+            "description": "<p>Ist das 2. mal das ich Produkte von Hanse Baustoffe erworben habe. Wie auch beim 1. mal die Produkte sind qualitativ hervorragend. Der Kleber ist einfach und sicher zu verarbeiten und hat hohe Klebeeigenschaften. Die Dachprotectfolie ist schnell und einfach zu verlegen und ist von hoher Qualität.</p>",
+            "rating": 5
+          }
+        },
+        "testimonial_a6rTfm": {
+          "type": "testimonial",
+          "settings": {
+            "citation": "Patrick F.",
+            "description": "<p>Wie beschrieben, Qualität kann ich erst nach Garantiezeit von 20 Jahren bewerten. Auf jeden Fall gut zu verarbeiten</p>",
+            "rating": 5
+          }
+        },
+        "testimonial_RdrLe4": {
+          "type": "testimonial",
+          "settings": {
+            "citation": "Sebastian H.",
+            "description": "<p>Habe die Folie für meine Freiflug Voliere bestellt, bin sehr zufrieden damit. Super Qualität und leicht zu Verarbeiten. Das erste Unwetter hat sie schon überstanden. Jederzeit wieder, werde die Folie weiterempfehlen.</p>",
+            "rating": 5
+          }
+        },
+        "testimonial_8M6qHK": {
+          "type": "testimonial",
+          "settings": {
+            "citation": "Anonymous",
+            "description": "<p>Ich habe vor 2 Jahren diese Folie schon einmal gekauft und konnte sie einfach und erfolgreich verlegen. Ideal zur sicheren Abdichtung von Flächen. Ich einen undicht gewordenen Balkon flächig abgedichtet und anschließend WPC-Terrassendielen darüber verlegt. Ist dicht und sieht gut aus. Jetzt habe ich die gleiche Anwendung wieder gehabt. Die Abwicklung der Bestellung und Lieferung war, wie beim ersten Mal einfach, zügig und pünktlich.</p>",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_yt6HWP",
+        "testimonial_AeDH9V",
+        "testimonial_a6rTfm",
+        "testimonial_RdrLe4",
+        "testimonial_8M6qHK"
+      ],
+      "settings": {
+        "heading": "Das sagen unsere Kunden",
+        "subheading": "Erfahren Sie aus erster Hand, wie zufrieden unsere Kunden mit der DACHPROTECT EPDM Folie und dem passenden Zubehör sind. Hier teilen Nutzer ihre Erfahrungen zur einfachen Verarbeitung, zur Langlebigkeit und zur herausragenden Qualität der EPDM Folie. Die hohe Lebensdauer und Zuverlässigkeit machen die EPDM Dachabdichtung zur optimalen Lösung für jedes Flachdach. Lassen Sie sich von den Bewertungen überzeugen und profitieren Sie von echten Meinungen rund um die DACHPROTECT EPDM Folie – für dauerhaften Schutz und beste Ergebnisse.",
+        "call_to_action": "",
+        "layout": "slider",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "title_alignment": "center"
       }
     },
     "rich_text_LaKbak": {
@@ -1062,8 +1062,8 @@
     "media_with_text_QNgpeD",
     "media_with_text_aM36B3",
     "slideshow_UD8Rfe",
-    "niccos_testimonials_F3WRTd",
     "slideshow_rYycYY",
+    "niccos_testimonials_F3WRTd",
     "rich_text_LaKbak",
     "niccos_collapsible_grid_qxT3wC",
     "expandable_emK489"
