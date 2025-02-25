@@ -25,6 +25,16 @@
             "show_custom_badges": false
           }
         },
+        "custom_liquid_Q8nNda": {
+          "type": "custom_liquid",
+          "settings": {
+            "title": "",
+            "icon": "",
+            "custom_liquid": "<div style=\"display: flex; align-items: center; background-color: #d4edda; padding: 10px; border-radius: 20px;\">\n  <!-- Kundenbilder -->\n  <div style=\"display: flex; align-items: center; margin-right: 10px;\">\n    <img src=\"{{ 'customer1.jpg' | asset_url }}\" alt=\"Kunde 1\" style=\"width: 40px; height: 40px; border-radius: 50%; margin-right: -10px; border: 2px solid white;\">\n    <img src=\"{{ 'customer2.jpg' | asset_url }}\" alt=\"Kunde 2\" style=\"width: 40px; height: 40px; border-radius: 50%; border: 2px solid white;\">\n  </div>\n\n  <!-- Textbereich -->\n  <div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #155724;\">\n    <span><strong>Gert</strong>, <strong>Lisa</strong> und <strong>+{{ total_customers | minus: 2 }}</strong> weitere Kunden empfehlen das Produkt.</span>\n  </div>\n</div>",
+            "position": "right",
+            "expanded": false
+          }
+        },
         "judge_me_reviews_preview_badge_kwdyzY": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
@@ -148,6 +158,7 @@
       },
       "block_order": [
         "title",
+        "custom_liquid_Q8nNda",
         "judge_me_reviews_preview_badge_kwdyzY",
         "text_FgPqYi",
         "subtitle",
