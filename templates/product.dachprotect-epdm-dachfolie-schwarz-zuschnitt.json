@@ -32,7 +32,7 @@
         "text_dUTqkb": {
           "type": "text",
           "settings": {
-            "text": "✅ Ökologisch unbedenklich",
+            "text": "{{ product.metafields.custom.vorteil_1.value }}",
             "icon": "",
             "text_2": "",
             "icon_2": "",
