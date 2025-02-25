@@ -29,6 +29,20 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "text_dUTqkb": {
+          "type": "text",
+          "settings": {
+            "text": "✅ Ökologisch unbedenklich",
+            "icon": "",
+            "text_2": "",
+            "icon_2": "",
+            "text_3": "",
+            "icon_3": "",
+            "text_4": "",
+            "icon_4": "",
+            "color_scheme": "none"
+          }
+        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -170,6 +184,7 @@
       "block_order": [
         "title",
         "judge_me_reviews_preview_badge_kwdyzY",
+        "text_dUTqkb",
         "subtitle",
         "price",
         "line_item_property_4DeBWA",
