@@ -83,15 +83,6 @@
             "sold_out_text": "Sold out"
           }
         },
-        "extra_Ta39pA": {
-          "type": "extra",
-          "settings": {
-            "text": "<p>Der Versand wird beim Chekout berechnet.<br/>Weitere Infos zu den Versandkosten</p>",
-            "show_facebook": false,
-            "show_twitter": false,
-            "show_linkedin": false
-          }
-        },
         "payment_image_D6FURY": {
           "type": "payment_image",
           "settings": {
@@ -163,7 +154,6 @@
         "price",
         "variants",
         "buy_buttons",
-        "extra_Ta39pA",
         "payment_image_D6FURY",
         "availability",
         "extra",
