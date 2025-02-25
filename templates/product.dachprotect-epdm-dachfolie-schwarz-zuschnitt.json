@@ -34,9 +34,9 @@
           "settings": {
             "text": "{{ product.metafields.custom.vorteil_1.value }}",
             "icon": "",
-            "text_2": "",
+            "text_2": "{{ product.metafields.custom.vorteil_2.value }}",
             "icon_2": "",
-            "text_3": "",
+            "text_3": "{{ product.metafields.custom.vorteil_3.value }}",
             "icon_3": "",
             "text_4": "",
             "icon_4": "",
