@@ -443,7 +443,9 @@
         "product_list_x8JaDf",
         "product_list_bwLTag"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".card-badge.top.left {display: none !important;}"
+      ],
       "settings": {
         "heading": "Passendes Systemzubehör",
         "subheading": "",
