@@ -23,6 +23,17 @@
         "color_scheme": "background-1"
       }
     },
+    "subcollections": {
+      "type": "main-collection-subcollections",
+      "settings": {
+        "image_ratio": "adapt",
+        "show_title": true,
+        "show_product_size": true,
+        "layout": "grid",
+        "columns": 6,
+        "stack_on_mobile": false
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
@@ -68,7 +79,6 @@
       "block_order": [
         "text_byF3b7"
       ],
-      "disabled": true,
       "settings": {
         "narrow": true,
         "overlay_background": "",
@@ -77,23 +87,12 @@
         "spacing_top": 20,
         "spacing_bottom": 20
       }
-    },
-    "subcollections": {
-      "type": "main-collection-subcollections",
-      "settings": {
-        "image_ratio": "adapt",
-        "show_title": true,
-        "show_product_size": true,
-        "layout": "grid",
-        "columns": 6,
-        "stack_on_mobile": false
-      }
     }
   },
   "order": [
     "banner",
+    "rich_text_FTpwKE",
     "subcollections",
-    "product-grid",
-    "rich_text_FTpwKE"
+    "product-grid"
   ]
 }
