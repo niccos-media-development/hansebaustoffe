@@ -22,7 +22,7 @@
         "collection_XamF3d": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "epdm-folien",
             "title_font_size": "--font-h2-size",
             "title_font_size_mobile": "--font-h3-size",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
@@ -35,13 +35,61 @@
             "mobile_box_align": "bottom-left"
           }
         },
+        "collection_jcJi3f": {
+          "type": "collection",
+          "settings": {
+            "collection": "kleb-dichtstoffe",
+            "title_font_size": "--font-h2-size",
+            "title_font_size_mobile": "--font-h3-size",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "button_text": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "collection_YWPdaB": {
+          "type": "collection",
+          "settings": {
+            "collection": "entwasserung-1",
+            "title_font_size": "--font-h2-size",
+            "title_font_size_mobile": "--font-h3-size",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "button_text": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "collection_7kfkcX": {
+          "type": "collection",
+          "settings": {
+            "collection": "dachdurchfuhrungen-1",
+            "title_font_size": "--font-h2-size",
+            "title_font_size_mobile": "--font-h3-size",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "button_text": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
         "collection_eRAXBP": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "epdm-zubehor",
             "title_font_size": "--font-h2-size",
             "title_font_size_mobile": "--font-h3-size",
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "button_text": "",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
@@ -54,7 +102,7 @@
         "collection_dYypgw": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "profile",
             "title_font_size": "--font-h2-size",
             "title_font_size_mobile": "--font-h3-size",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
@@ -70,6 +118,9 @@
       },
       "block_order": [
         "collection_XamF3d",
+        "collection_jcJi3f",
+        "collection_YWPdaB",
+        "collection_7kfkcX",
         "collection_eRAXBP",
         "collection_dYypgw"
       ],
@@ -80,12 +131,12 @@
         "link_url": "shopify://collections",
         "card_ratio": "auto",
         "show_title": true,
-        "show_description": true,
+        "show_description": false,
         "show_button": true,
         "card_clickable_desktop": false,
         "layout": "grid",
         "columns": 3,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "color_scheme": "background-1",
         "section_padding_desktop": 60,
         "section_padding_mobile": 40,
