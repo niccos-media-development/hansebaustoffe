@@ -172,6 +172,15 @@
             "expanded": false
           }
         },
+        "expandable_BdWDVU": {
+          "type": "expandable",
+          "settings": {
+            "title": "Verarbeitungsvideos",
+            "icon": "",
+            "text": "<p><a href=\"/pages/verarbeitungsvideos\" title=\"Verarbeitungsvideos\">Share additional product information such as usage instructions, sizing guides, etc.</a></p>",
+            "expanded": false
+          }
+        },
         "videometa_QeDUQB": {
           "type": "videometa",
           "settings": {
@@ -199,6 +208,7 @@
         "expandable_97KCAE",
         "expandable_Ygcxbt",
         "expandable_JPyXYy",
+        "expandable_BdWDVU",
         "videometa_QeDUQB"
       ],
       "custom_css": [
