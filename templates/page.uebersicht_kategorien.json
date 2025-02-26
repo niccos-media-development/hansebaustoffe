@@ -86,7 +86,7 @@
         "show_description": false,
         "show_button": true,
         "card_clickable_desktop": true,
-        "layout": "slider",
+        "layout": "mosaic",
         "columns": 3,
         "stack_on_mobile": false,
         "color_scheme": "background-1",
