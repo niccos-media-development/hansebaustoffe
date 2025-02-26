@@ -50,7 +50,7 @@
             "icon_3": "",
             "text_4": "{{ product.metafields.custom.vorteil_4.value }}",
             "icon_4": "",
-            "color_scheme": "none"
+            "color_scheme": "accent-3"
           }
         },
         "subtitle": {
