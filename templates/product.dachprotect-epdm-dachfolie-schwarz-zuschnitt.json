@@ -173,6 +173,16 @@
             "expanded": false
           }
         },
+        "custom_liquid_hVQLtk": {
+          "type": "custom_liquid",
+          "settings": {
+            "title": "Materialgarantie",
+            "icon": "",
+            "custom_liquid": "{% assign page = pages['gewerbekunden-registrierung'] %}\n<div class=\"custom-page-content\">\n  {{ page.content }}\n</div>",
+            "position": "left",
+            "expanded": false
+          }
+        },
         "videometa_QeDUQB": {
           "type": "videometa",
           "settings": {
@@ -200,6 +210,7 @@
         "expandable_zp8gRN",
         "expandable_97KCAE",
         "expandable_JPyXYy",
+        "custom_liquid_hVQLtk",
         "videometa_QeDUQB"
       ],
       "custom_css": [
