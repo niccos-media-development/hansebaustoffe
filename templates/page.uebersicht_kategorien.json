@@ -16,12 +16,89 @@
         "hide_heading": false
       }
     },
+    "collection_list_mC7yer": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_XamF3d": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title_font_size": "--font-h2-size",
+            "title_font_size_mobile": "--font-h3-size",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "button_text": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "collection_eRAXBP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title_font_size": "--font-h2-size",
+            "title_font_size_mobile": "--font-h3-size",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "button_text": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "collection_dYypgw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title_font_size": "--font-h2-size",
+            "title_font_size_mobile": "--font-h3-size",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "button_text": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "collection_XamF3d",
+        "collection_eRAXBP",
+        "collection_dYypgw"
+      ],
+      "settings": {
+        "heading": "Collection list",
+        "subheading": "",
+        "link_title": "All collections",
+        "link_url": "shopify://collections",
+        "card_ratio": "auto",
+        "show_title": true,
+        "show_description": true,
+        "show_button": true,
+        "card_clickable_desktop": false,
+        "layout": "grid",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "section_padding_desktop": 60,
+        "section_padding_mobile": 40,
+        "background_color": "#ffffff"
+      }
+    },
     "banner_list_WDdEbP": {
       "type": "banner-list",
       "blocks": {
         "banner_icAKJY": {
           "type": "banner",
           "settings": {
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_EPDM_1.png",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "title": "Banner title",
             "heading_size": "md",
@@ -39,13 +116,49 @@
         "banner_ABGqGw": {
           "type": "banner",
           "settings": {
+            "image": "shopify://shop_images/200-WB1-020_BlueTek_Gruppe_Produktbild_1000x1000px_1.jpg",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "title": "Banner title",
             "heading_size": "md",
             "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
             "text_color": "#fff",
-            "button_text": "Button label",
+            "button_text": "Kleb- & Dichtstoffe",
             "button_link": "shopify://collections/kleb-dichtstoffe",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "banner_fF6Mxt": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Garantie-Gullys_1.png",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "title": "Banner title",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
+            "text_color": "#fff",
+            "button_text": "Entwässerung",
+            "button_link": "shopify://collections/entwasserung-1",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "banner_Bg9VwQ": {
+          "type": "banner",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "title": "Banner title",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
+            "text_color": "#fff",
+            "button_text": "Dachdurchführungen",
+            "button_link": "shopify://collections/dachdurchfuhrungen-1",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
             "box_align": "bottom-left",
@@ -61,8 +174,25 @@
             "heading_size": "md",
             "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
             "text_color": "#fff",
-            "button_text": "Button label",
-            "button_link": "shopify://collections/kleb-dichtstoffe",
+            "button_text": "EPDM Zubehör",
+            "button_link": "shopify://collections/epdm-zubehor",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "banner_fXt6ii": {
+          "type": "banner",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "title": "Banner title",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
+            "text_color": "#fff",
+            "button_text": "Profile",
+            "button_link": "shopify://collections/profile",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
             "box_align": "bottom-left",
@@ -74,7 +204,10 @@
       "block_order": [
         "banner_icAKJY",
         "banner_ABGqGw",
-        "banner_ttqPfi"
+        "banner_fF6Mxt",
+        "banner_Bg9VwQ",
+        "banner_ttqPfi",
+        "banner_fXt6ii"
       ],
       "settings": {
         "heading": "",
@@ -94,102 +227,6 @@
         "spacing_bottom": 60
       }
     },
-    "banner_list_T6eD7U": {
-      "type": "banner-list",
-      "blocks": {
-        "banner_e67NyP": {
-          "type": "banner",
-          "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "title": "Banner title",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
-            "text_color": "#fff",
-            "button_text": "Button label",
-            "button_link": "shopify://collections/epdm-folien",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "banner_Ua6VFw": {
-          "type": "banner",
-          "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "title": "Banner title",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
-            "text_color": "#fff",
-            "button_text": "Button label",
-            "button_link": "shopify://collections/kleb-dichtstoffe",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "banner_i8cRpq": {
-          "type": "banner",
-          "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "title": "Banner title",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
-            "text_color": "#fff",
-            "button_text": "Button label",
-            "button_link": "shopify://collections/kleb-dichtstoffe",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "banner_k6gJCk": {
-          "type": "banner",
-          "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "title": "Banner title",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
-            "text_color": "#fff",
-            "button_text": "Button label",
-            "button_link": "shopify://collections/entwasserung-1",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "banner_e67NyP",
-        "banner_Ua6VFw",
-        "banner_i8cRpq",
-        "banner_k6gJCk"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "link_title": "",
-        "link_url": "",
-        "card_ratio": "auto",
-        "show_title": true,
-        "show_description": true,
-        "show_button": true,
-        "card_clickable_desktop": false,
-        "layout": "grid",
-        "columns": 3,
-        "stack_on_mobile": false,
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
-      }
-    },
     "173945177119dc2136": {
       "type": "apps",
       "settings": {
@@ -199,8 +236,8 @@
   },
   "order": [
     "main",
+    "collection_list_mC7yer",
     "banner_list_WDdEbP",
-    "banner_list_T6eD7U",
     "173945177119dc2136"
   ]
 }
