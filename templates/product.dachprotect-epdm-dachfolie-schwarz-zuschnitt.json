@@ -172,19 +172,13 @@
             "expanded": false
           }
         },
-        "expandable_BdWDVU": {
-          "type": "expandable",
+        "custom_liquid_LwGkN3": {
+          "type": "custom_liquid",
           "settings": {
-            "title": "Verarbeitungsvideos",
+            "title": "Verarbeitungsvideo",
             "icon": "",
-            "text": "<p><a href=\"/pages/verarbeitungsvideos\" title=\"Verarbeitungsvideos\">Share additional product information such as usage instructions, sizing guides, etc.</a></p>",
-            "expanded": false
-          }
-        },
-        "videometa_QeDUQB": {
-          "type": "videometa",
-          "settings": {
-            "title": "Videos",
+            "custom_liquid": "<div style=\"position:relative;padding-bottom:56.25%;height:0;overflow:hidden;\">\n  <iframe src=\"https://www.youtube.com/embed/EUEwDxz4lTU\"\n          frameborder=\"0\" allowfullscreen\n          style=\"position:absolute;top:0;left:0;width:100%;height:100%;\">\n  </iframe>\n</div>\n\n<div style=\"margin-top: 20px; text-align: center;\">\n  <a href=\"https://www.hanse-syntec.de/pages/verarbeitungsvideos\" \n     target=\"_blank\" \n     style=\"color: #F39100; font-weight: bold; text-decoration: none; font-size: 18px;\">\n       Unsere weiteren Verarbeitungsvideos ansehen\n  </a>\n</div>",
+            "position": "left",
             "expanded": false
           }
         }
@@ -208,8 +202,7 @@
         "expandable_97KCAE",
         "expandable_Ygcxbt",
         "expandable_JPyXYy",
-        "expandable_BdWDVU",
-        "videometa_QeDUQB"
+        "custom_liquid_LwGkN3"
       ],
       "custom_css": [
         ".product-form-input + .product-form-input {padding-top: 0 !important;}",
@@ -637,6 +630,20 @@
         "spacing_bottom": 20
       }
     },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show": true,
+        "title": "Kunden interessiert auch",
+        "count": "4",
+        "show_vendor": true,
+        "show_stock": true,
+        "show_rating": true,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
     "1738918765e0980779": {
       "type": "apps",
       "blocks": {
@@ -650,20 +657,6 @@
       ],
       "settings": {
         "full_width": false
-      }
-    },
-    "recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show": true,
-        "title": "Kunden interessiert auch",
-        "count": "4",
-        "show_vendor": true,
-        "show_stock": true,
-        "show_rating": true,
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
       }
     },
     "1734509477da49f758": {
@@ -708,8 +701,8 @@
     "product_lists_D7wK8m",
     "rich_text_9YFT4E",
     "slideshow_teDMAe",
-    "1738918765e0980779",
     "recommendations",
+    "1738918765e0980779",
     "1734509477da49f758"
   ]
 }
