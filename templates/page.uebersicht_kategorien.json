@@ -27,7 +27,7 @@
             "title_font_size_mobile": "--font-h3-size",
             "image": "shopify://shop_images/D12-090-010_EPDM_Dachfolie_schwarz_Produktbild_Detail_1000x1000px_1_800x800_944178b4-1bef-4ec2-9575-5582a7bba7b8.jpg",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "button_text": "",
+            "button_text": "EPDM Dachfolie",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
             "text_color": "#ffffff",
@@ -43,7 +43,7 @@
             "title_font_size": "--font-h2-size",
             "title_font_size_mobile": "--font-h3-size",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "button_text": "",
+            "button_text": "Kleb- und Dichtstoffe",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
             "text_color": "#fff",
@@ -59,7 +59,7 @@
             "title_font_size": "--font-h2-size",
             "title_font_size_mobile": "--font-h3-size",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "button_text": "",
+            "button_text": "Entwässerung",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
             "text_color": "#fff",
@@ -75,7 +75,7 @@
             "title_font_size": "--font-h2-size",
             "title_font_size_mobile": "--font-h3-size",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "button_text": "",
+            "button_text": "Dachdurchführungen",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
             "text_color": "#fff",
@@ -91,7 +91,7 @@
             "title_font_size": "--font-h2-size",
             "title_font_size_mobile": "--font-h3-size",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "button_text": "",
+            "button_text": "EPDM Zubehör",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
             "text_color": "#ffffff",
@@ -107,7 +107,7 @@
             "title_font_size": "--font-h2-size",
             "title_font_size_mobile": "--font-h3-size",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "button_text": "",
+            "button_text": "Profile",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
             "text_color": "#ffffff",
@@ -126,7 +126,7 @@
         "collection_dYypgw"
       ],
       "settings": {
-        "heading": "Collection list",
+        "heading": "",
         "subheading": "",
         "link_title": "All collections",
         "link_url": "shopify://collections",
@@ -144,141 +144,6 @@
         "background_color": "#ffffff"
       }
     },
-    "banner_list_WDdEbP": {
-      "type": "banner-list",
-      "blocks": {
-        "banner_icAKJY": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_EPDM_1.png",
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "title": "Banner title",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
-            "text_color": "#ffffff",
-            "button_text": "EPDM Folie",
-            "button_link": "shopify://collections/epdm-folien",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "banner_ABGqGw": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/200-WB1-020_BlueTek_Gruppe_Produktbild_1000x1000px_1.jpg",
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "title": "Banner title",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
-            "text_color": "#ffffff",
-            "button_text": "Kleb- & Dichtstoffe",
-            "button_link": "shopify://collections/kleb-dichtstoffe",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "banner_fF6Mxt": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Garantie-Gullys_1.png",
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "title": "Banner title",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
-            "text_color": "#ffffff",
-            "button_text": "Entwässerung",
-            "button_link": "shopify://collections/entwasserung-1",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "banner_Bg9VwQ": {
-          "type": "banner",
-          "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "title": "Banner title",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
-            "text_color": "#ffffff",
-            "button_text": "Dachdurchführungen",
-            "button_link": "shopify://collections/dachdurchfuhrungen-1",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "banner_ttqPfi": {
-          "type": "banner",
-          "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "title": "Banner title",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
-            "text_color": "#ffffff",
-            "button_text": "EPDM Zubehör",
-            "button_link": "shopify://collections/epdm-zubehor",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "banner_fXt6ii": {
-          "type": "banner",
-          "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "title": "Banner title",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
-            "text_color": "#ffffff",
-            "button_text": "Profile",
-            "button_link": "shopify://collections/profile",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "banner_icAKJY",
-        "banner_ABGqGw",
-        "banner_fF6Mxt",
-        "banner_Bg9VwQ",
-        "banner_ttqPfi",
-        "banner_fXt6ii"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "link_title": "",
-        "link_url": "",
-        "card_ratio": "auto",
-        "show_title": false,
-        "show_description": false,
-        "show_button": true,
-        "card_clickable_desktop": true,
-        "layout": "grid",
-        "columns": 3,
-        "stack_on_mobile": false,
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
-      }
-    },
     "173945177119dc2136": {
       "type": "apps",
       "settings": {
@@ -289,7 +154,6 @@
   "order": [
     "main",
     "collection_list_mC7yer",
-    "banner_list_WDdEbP",
     "173945177119dc2136"
   ]
 }
