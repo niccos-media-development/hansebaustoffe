@@ -13,7 +13,7 @@
       "type": "main-page",
       "custom_css": [],
       "settings": {
-        "hide_heading": false
+        "hide_heading": true
       }
     },
     "collection_list_mC7yer": {
