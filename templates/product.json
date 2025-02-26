@@ -215,6 +215,9 @@
     },
     "recommendations": {
       "type": "product-recommendations",
+      "custom_css": [
+        ".card-badge.top.left {display: none !important;}"
+      ],
       "settings": {
         "show": true,
         "title": "Kunden interessiert auch",
