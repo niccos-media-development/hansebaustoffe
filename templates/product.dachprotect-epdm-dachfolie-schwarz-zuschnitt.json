@@ -181,6 +181,16 @@
             "position": "left",
             "expanded": false
           }
+        },
+        "custom_liquid_rKx8H4": {
+          "type": "custom_liquid",
+          "settings": {
+            "title": "Materialgarantie",
+            "icon": "",
+            "custom_liquid": "{% assign page = pages['epdm-verarbeitung'] %}\n<div class=\"custom-page-content\">\n  {{ page.content }}\n</div>",
+            "position": "left",
+            "expanded": false
+          }
         }
       },
       "block_order": [
@@ -202,7 +212,8 @@
         "expandable_97KCAE",
         "expandable_Ygcxbt",
         "expandable_JPyXYy",
-        "custom_liquid_LwGkN3"
+        "custom_liquid_LwGkN3",
+        "custom_liquid_rKx8H4"
       ],
       "custom_css": [
         ".product-form-input + .product-form-input {padding-top: 0 !important;}",
