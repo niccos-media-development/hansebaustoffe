@@ -16,6 +16,180 @@
         "hide_heading": false
       }
     },
+    "banner_list_WDdEbP": {
+      "type": "banner-list",
+      "blocks": {
+        "banner_icAKJY": {
+          "type": "banner",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "title": "Banner title",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
+            "text_color": "#fff",
+            "button_text": "EPDM Folie",
+            "button_link": "shopify://collections/epdm-folien",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "banner_ABGqGw": {
+          "type": "banner",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "title": "Banner title",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
+            "text_color": "#fff",
+            "button_text": "Button label",
+            "button_link": "shopify://collections/kleb-dichtstoffe",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "banner_ttqPfi": {
+          "type": "banner",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "title": "Banner title",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
+            "text_color": "#fff",
+            "button_text": "Button label",
+            "button_link": "shopify://collections/kleb-dichtstoffe",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "banner_icAKJY",
+        "banner_ABGqGw",
+        "banner_ttqPfi"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "card_ratio": "auto",
+        "show_title": false,
+        "show_description": false,
+        "show_button": true,
+        "card_clickable_desktop": true,
+        "layout": "slider",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "banner_list_T6eD7U": {
+      "type": "banner-list",
+      "blocks": {
+        "banner_e67NyP": {
+          "type": "banner",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "title": "Banner title",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
+            "text_color": "#fff",
+            "button_text": "Button label",
+            "button_link": "shopify://collections/epdm-folien",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "banner_Ua6VFw": {
+          "type": "banner",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "title": "Banner title",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
+            "text_color": "#fff",
+            "button_text": "Button label",
+            "button_link": "shopify://collections/kleb-dichtstoffe",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "banner_i8cRpq": {
+          "type": "banner",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "title": "Banner title",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
+            "text_color": "#fff",
+            "button_text": "Button label",
+            "button_link": "shopify://collections/kleb-dichtstoffe",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "banner_k6gJCk": {
+          "type": "banner",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "title": "Banner title",
+            "heading_size": "md",
+            "description": "<p>Pair text with image backdrops to display banner content in your store.</p>",
+            "text_color": "#fff",
+            "button_text": "Button label",
+            "button_link": "shopify://collections/entwasserung-1",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "banner_e67NyP",
+        "banner_Ua6VFw",
+        "banner_i8cRpq",
+        "banner_k6gJCk"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "card_ratio": "auto",
+        "show_title": true,
+        "show_description": true,
+        "show_button": true,
+        "card_clickable_desktop": false,
+        "layout": "grid",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
     "173945177119dc2136": {
       "type": "apps",
       "settings": {
@@ -25,6 +199,8 @@
   },
   "order": [
     "main",
+    "banner_list_WDdEbP",
+    "banner_list_T6eD7U",
     "173945177119dc2136"
   ]
 }
