@@ -34,11 +34,25 @@
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "icon": "",
-            "text_2": "{{ product.metafields.custom.vorteil_1.value }}",
+            "text_2": "",
             "icon_2": "",
-            "text_3": "{{ product.metafields.custom.vorteil_2.value }}",
+            "text_3": "",
             "icon_3": "",
-            "text_4": "{{ product.metafields.custom.vorteil_3.value }}",
+            "text_4": "",
+            "icon_4": "",
+            "color_scheme": "accent-3"
+          }
+        },
+        "text_CWjPGa": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.vorteil_1.value }}",
+            "icon": "",
+            "text_2": "{{ product.metafields.custom.vorteil_2.value }}",
+            "icon_2": "",
+            "text_3": "{{ product.metafields.custom.vorteil_3.value }}",
+            "icon_3": "",
+            "text_4": "{{ product.metafields.custom.vorteil_4.value }}",
             "icon_4": "",
             "color_scheme": "accent-3"
           }
@@ -172,6 +186,7 @@
         "title",
         "judge_me_reviews_preview_badge_kwdyzY",
         "subtitle",
+        "text_CWjPGa",
         "price",
         "line_item_property_4DeBWA",
         "line_item_property_nJ3gzi",
