@@ -296,7 +296,7 @@
         "image_banner_JgVNHH": {
           "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/Image_1.jpg",
+            "image": "shopify://shop_images/Image.jpg",
             "description": "",
             "link": ""
           }
@@ -305,14 +305,6 @@
           "type": "image_banner",
           "settings": {
             "image": "shopify://shop_images/Image_2.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_kcKwg9": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/Image.jpg",
             "description": "",
             "link": ""
           }
@@ -331,7 +323,6 @@
         "image_banner_KMWRzm",
         "image_banner_JgVNHH",
         "image_banner_q9WhiE",
-        "image_banner_kcKwg9",
         "image_banner_VF8d3m"
       ],
       "custom_css": [
