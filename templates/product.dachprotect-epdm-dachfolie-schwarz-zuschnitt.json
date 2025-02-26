@@ -187,7 +187,7 @@
           "settings": {
             "title": "Materialgarantie",
             "icon": "",
-            "custom_liquid": "{% assign page = pages['epdm-verarbeitung'] %}\n<div class=\"custom-page-content\">\n  {{ page.content }}\n</div>",
+            "custom_liquid": "{% assign page = pages['materialgarantie'] %}\n<div class=\"custom-page-content\">\n  {{ page.content }}\n</div>",
             "position": "left",
             "expanded": false
           }
