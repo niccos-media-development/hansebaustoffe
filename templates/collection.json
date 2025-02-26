@@ -70,6 +70,7 @@
       "blocks": {
         "text_byF3b7": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ collection.description }}",
             "text_size": "md"
@@ -91,8 +92,8 @@
   },
   "order": [
     "banner",
-    "rich_text_FTpwKE",
     "subcollections",
-    "product-grid"
+    "product-grid",
+    "rich_text_FTpwKE"
   ]
 }
