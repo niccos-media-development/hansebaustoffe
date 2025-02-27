@@ -36,7 +36,7 @@
         "text_aiUUFq": {
           "type": "text",
           "settings": {
-            "text": "<p>Mit EPDM Dachfolien können Sie Ihr Dach schnell und sicher abdichten - ohne Spezialwerkzeuge und besonderem Fachwissen. Schauen Sie sich unsere Anleitungen an und überzeugen Sie sich selbst, wie einfach unser System anzuwenden ist!</p>",
+            "text": "<p>Mit EPDM Dachfolien können Sie Ihr Dach schnell und sicher abdichten - ohne Spezialwerkzeuge und besonderem Fachwissen. Schauen Sie sich unsere Verarbeitungsvideos an und überzeugen Sie sich selbst, wie einfach unser System anzuwenden ist!</p>",
             "text_font_size": "--font-body-scale",
             "text_font_size_mobile": "--font-body-scale"
           }
@@ -44,8 +44,8 @@
         "button_AhyRxU": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Zu den Verarbeitungsvideos",
+            "button_link": "https://www.hanse-syntec.de/pages/verarbeitungsvideos"
           }
         }
       },
