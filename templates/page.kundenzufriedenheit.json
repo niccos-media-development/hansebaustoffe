@@ -59,7 +59,7 @@
         "video_url": "",
         "layout": "media_first",
         "desktop_content_alignment": "left",
-        "spacing_top": 50,
+        "spacing_top": 10,
         "spacing_bottom": 10,
         "blocks_gap": 32,
         "content_padding": 0,
