@@ -802,6 +802,9 @@
         "slide_khn9Va",
         "slide_DLWEzd"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.block-section-fullwidth {display: none !important; }}"
+      ],
       "settings": {
         "full_width": true,
         "slide_height": "two-thirds",
