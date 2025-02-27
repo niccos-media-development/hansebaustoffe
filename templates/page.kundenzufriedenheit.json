@@ -200,8 +200,8 @@
         "button_mtajPf": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Zu den Anwendungsbereichen",
+            "button_link": "shopify://pages/anwendungsbereiche-ubersicht"
           }
         }
       },
