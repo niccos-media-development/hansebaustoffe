@@ -46,7 +46,7 @@
             "button_text": "Kleb- und Dichtstoffe",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "box_align": "bottom-left",
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
@@ -62,7 +62,7 @@
             "button_text": "Entwässerung",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "box_align": "bottom-left",
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
@@ -78,7 +78,7 @@
             "button_text": "Dachdurchführungen",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "box_align": "bottom-left",
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
@@ -128,7 +128,7 @@
       "settings": {
         "heading": "Entdecken Sie unsere Produkte",
         "subheading": "",
-        "link_title": "All collections",
+        "link_title": "",
         "link_url": "shopify://collections",
         "card_ratio": "auto",
         "show_title": false,
