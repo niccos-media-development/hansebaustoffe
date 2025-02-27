@@ -305,7 +305,7 @@
       "settings": {
         "inline": true,
         "stack_on_mobile": false,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "icon_size": "small",
         "color_scheme": "accent-3",
         "background_color": "#f3f3f3",
