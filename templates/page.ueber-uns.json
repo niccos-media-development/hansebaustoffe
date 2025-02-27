@@ -348,6 +348,7 @@
         "image_banner_UyFrYW",
         "image_banner_JeqT6w"
       ],
+      "disabled": true,
       "custom_css": [
         "/* Nur auf der Startseite */.template-index .section-image-banner {background-color: green !important;"
       ],
