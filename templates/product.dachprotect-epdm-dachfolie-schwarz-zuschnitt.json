@@ -12,6 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_hnDmWw": {
+          "type": "custom_liquid",
+          "settings": {
+            "title": "",
+            "icon": "",
+            "custom_liquid": "<div style=\"display: flex; align-items: center; background-color: #CCF0BD; padding: 5px; border-radius: 20px; margin-top: -30px; margin-bottom: -30px; font-family: 'Wix Madefor Text', sans-serif;\">\n  <div style=\"display: flex; align-items: center; margin-right: 10px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/Social_Proof_Kai_1000x1000px.svg?v=1740646536\" \n         alt=\"Kunde Kai\" \n         style=\"width: 50px; height: 50px; border-radius: 50%; margin-right: -10px; border: 2px solid white;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/Social_Proof_Marie_1000x1000px.svg?v=1740646560\" \n         alt=\"Kunde Marie\" \n         style=\"width: 50px; height: 50px; border-radius: 50%; border: 2px solid white;\">\n  </div>\n  <div style=\"font-size: 14px; color: #155724; font-weight: 400;\">\n    <span><strong>Kai, Marie</strong> und <strong>+682</strong> und <strong>empfehlen</strong> die Produkte von<br>Hanse Syntec Systems.</span>\n  </div>\n</div>",
+            "position": "right",
+            "expanded": false
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -99,7 +109,7 @@
           "settings": {
             "title": "",
             "icon": "",
-            "custom_liquid": "{% if product.selected_or_first_available_variant.available %}\n<div class=\"lb-delivery-time-holder\">\n<div class=\"lb-delivery-time-3\"><span>\n<svg width=\"24px\" height=\"24px\" viewBox=\"0 0 50 29\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<g stroke=\"#54844C\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\">\n<line x1=\"5.25\" y1=\"12\" x2=\"13.75\" y2=\"12\"></line>\n<line x1=\"0.25\" y1=\"16\" x2=\"8.75\" y2=\"16\"></line>\n<line x1=\"5.23\" y1=\"22\" x2=\"10.77\" y2=\"22\"></line>\n<polyline points=\"8 9.66 8 0 31 0 31 22 22.8 22\"></polyline>\n<polyline points=\"31 4 41.35 4 46 11.81 46 20 44.08 20\"></polyline>\n<circle cx=\"15.5\" cy=\"21.5\" r=\"3.5\"></circle>\n<circle cx=\"36.5\" cy=\"21.5\" r=\"3.5\"></circle>\n</g>\n</svg>\nIn 2-5 Tagen geliefert</span> <a href=\"https://www.hanse-syntec.de/pages/versand-und-zahlungsbedingungen\" target=\"_blank\" class=\"shipping-link\">Versand</a>&nbsp wird im Checkout berechnet</div>\n</div>\n<style>\n.lb-delivery-time-holder {\nmargin: -35px 0px -35px 0px!important; /* Abstand Oben Rechts Unten Links */\ndisplay: block!important;\n}\n.lb-delivery-time-3 span svg g {\nstroke: #54844C!important;\n}\n.lb-delivery-time-3 {\ncolor: #000000!important;\nfont-size: 12px!important;\nline-height: 20px!important;\ndisplay: flex;\nalign-items: center;\n}\n.lb-delivery-time-3 span {\ncolor: #54844C!important;\nbackground: #BFF1B7;\nfont-size: 14px!important;\nline-height: 20px!important;\nmargin: 0 5px 0 0!important;\npadding: 3px 18px;\nborder-radius: 50px;\ndisplay: inline-flex;\nalign-items: center;\nfont-weight: bold;\n}\n.lb-delivery-time-3 span svg {\nwidth: 20px;\nheight: 20px;\nfloat: left;\nmargin-right: 9px;\n}\n\n/* Link-Design für \"Versand\" */\n.shipping-link {\n  text-decoration: underline !important; /* Unterstreicht den Link */\n}\n</style>\n{% endif %}",
+            "custom_liquid": "{% if product.selected_or_first_available_variant.available %}\n<div class=\"lb-delivery-time-holder\">\n<div class=\"lb-delivery-time-3\"><span>\n<svg width=\"24px\" height=\"24px\" viewBox=\"0 0 50 29\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<g stroke=\"#54844C\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\">\n<line x1=\"5.25\" y1=\"12\" x2=\"13.75\" y2=\"12\"></line>\n<line x1=\"0.25\" y1=\"16\" x2=\"8.75\" y2=\"16\"></line>\n<line x1=\"5.23\" y1=\"22\" x2=\"10.77\" y2=\"22\"></line>\n<polyline points=\"8 9.66 8 0 31 0 31 22 22.8 22\"></polyline>\n<polyline points=\"31 4 41.35 4 46 11.81 46 20 44.08 20\"></polyline>\n<circle cx=\"15.5\" cy=\"21.5\" r=\"3.5\"></circle>\n<circle cx=\"36.5\" cy=\"21.5\" r=\"3.5\"></circle>\n</g>\n</svg>\nIn 2-5 Tagen geliefert</span> </div>\n</div>\n<style>\n.lb-delivery-time-holder {\nmargin: -35px 0px -35px 0px!important; /* Abstand Oben Rechts Unten Links */\ndisplay: block!important;\n}\n.lb-delivery-time-3 span svg g {\nstroke: #54844C!important;\n}\n.lb-delivery-time-3 {\ncolor: #54844C!important;\nfont-size: 14px!important;\nline-height: 20px!important;\ndisplay: flex;\nalign-items: center;\n}\n.lb-delivery-time-3 span {\ncolor: #54844C!important;\nbackground: #BFF1B7;\nfont-size: 14px!important;\nline-height: 20px!important;\nmargin: 0 5px 0 0!important;\npadding: 3px 18px;\nborder-radius: 50px;\ndisplay: inline-flex;\nalign-items: center;\nfont-weight: bold;\n}\n.lb-delivery-time-3 span svg {\nwidth: 20px;\nheight: 20px;\nfloat: left;\nmargin-right: 9px;\n}\n</style>\n{% endif %}",
             "position": "right",
             "expanded": false
           }
@@ -204,6 +214,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_hnDmWw",
         "title",
         "judge_me_reviews_preview_badge_kwdyzY",
         "text_dUTqkb",
