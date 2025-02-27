@@ -61,6 +61,16 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_ct67fJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "title": "",
+            "icon": "",
+            "custom_liquid": "{% if product.selected_or_first_available_variant.available %}\n<div class=\"lb-delivery-time-holder\">\n<div class=\"lb-delivery-time-3\"><span>\n<svg width=\"24px\" height=\"24px\" viewBox=\"0 0 50 29\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<g stroke=\"#54844C\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\">\n<line x1=\"5.25\" y1=\"12\" x2=\"13.75\" y2=\"12\"></line>\n<line x1=\"0.25\" y1=\"16\" x2=\"8.75\" y2=\"16\"></line>\n<line x1=\"5.23\" y1=\"22\" x2=\"10.77\" y2=\"22\"></line>\n<polyline points=\"8 9.66 8 0 31 0 31 22 22.8 22\"></polyline>\n<polyline points=\"31 4 41.35 4 46 11.81 46 20 44.08 20\"></polyline>\n<circle cx=\"15.5\" cy=\"21.5\" r=\"3.5\"></circle>\n<circle cx=\"36.5\" cy=\"21.5\" r=\"3.5\"></circle>\n</g>\n</svg>\nIn 2-5 Tagen geliefert</span> </div>\n</div>\n<style>\n.lb-delivery-time-holder {\nmargin: -35px 0px -35px 0px!important; /* Abstand Oben Rechts Unten Links */\ndisplay: block!important;\n}\n.lb-delivery-time-3 span svg g {\nstroke: #54844C!important;\n}\n.lb-delivery-time-3 {\ncolor: #54844C!important;\nfont-size: 14px!important;\nline-height: 20px!important;\ndisplay: flex;\nalign-items: center;\n}\n.lb-delivery-time-3 span {\ncolor: #54844C!important;\nbackground: #BFF1B7;\nfont-size: 14px!important;\nline-height: 20px!important;\nmargin: 0 5px 0 0!important;\npadding: 3px 18px;\nborder-radius: 50px;\ndisplay: inline-flex;\nalign-items: center;\nfont-weight: bold;\n}\n.lb-delivery-time-3 span svg {\nwidth: 20px;\nheight: 20px;\nfloat: left;\nmargin-right: 9px;\n}\n</style>\n{% endif %}",
+            "position": "right",
+            "expanded": false
+          }
+        },
         "line_item_property_4DeBWA": {
           "type": "line_item_property",
           "settings": {
@@ -92,16 +102,6 @@
             "picker_type": "button",
             "hide_single_variant": false,
             "out_of_stock_variants": "show"
-          }
-        },
-        "custom_liquid_ct67fJ": {
-          "type": "custom_liquid",
-          "settings": {
-            "title": "",
-            "icon": "",
-            "custom_liquid": "{% if product.selected_or_first_available_variant.available %}\n<div class=\"lb-delivery-time-holder\">\n<div class=\"lb-delivery-time-3\"><span>\n<svg width=\"24px\" height=\"24px\" viewBox=\"0 0 50 29\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<g stroke=\"#54844C\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\">\n<line x1=\"5.25\" y1=\"12\" x2=\"13.75\" y2=\"12\"></line>\n<line x1=\"0.25\" y1=\"16\" x2=\"8.75\" y2=\"16\"></line>\n<line x1=\"5.23\" y1=\"22\" x2=\"10.77\" y2=\"22\"></line>\n<polyline points=\"8 9.66 8 0 31 0 31 22 22.8 22\"></polyline>\n<polyline points=\"31 4 41.35 4 46 11.81 46 20 44.08 20\"></polyline>\n<circle cx=\"15.5\" cy=\"21.5\" r=\"3.5\"></circle>\n<circle cx=\"36.5\" cy=\"21.5\" r=\"3.5\"></circle>\n</g>\n</svg>\nIn 2-5 Tagen geliefert</span> </div>\n</div>\n<style>\n.lb-delivery-time-holder {\nmargin: -35px 0px -35px 0px!important; /* Abstand Oben Rechts Unten Links */\ndisplay: block!important;\n}\n.lb-delivery-time-3 span svg g {\nstroke: #54844C!important;\n}\n.lb-delivery-time-3 {\ncolor: #54844C!important;\nfont-size: 14px!important;\nline-height: 20px!important;\ndisplay: flex;\nalign-items: center;\n}\n.lb-delivery-time-3 span {\ncolor: #54844C!important;\nbackground: #BFF1B7;\nfont-size: 14px!important;\nline-height: 20px!important;\nmargin: 0 5px 0 0!important;\npadding: 3px 18px;\nborder-radius: 50px;\ndisplay: inline-flex;\nalign-items: center;\nfont-weight: bold;\n}\n.lb-delivery-time-3 span svg {\nwidth: 20px;\nheight: 20px;\nfloat: left;\nmargin-right: 9px;\n}\n</style>\n{% endif %}",
-            "position": "right",
-            "expanded": false
           }
         },
         "buy_buttons": {
@@ -209,11 +209,11 @@
         "text_dUTqkb",
         "subtitle",
         "price",
+        "custom_liquid_ct67fJ",
         "line_item_property_4DeBWA",
         "line_item_property_nJ3gzi",
         "line_item_property_UgFchr",
         "variants",
-        "custom_liquid_ct67fJ",
         "buy_buttons",
         "payment_image_D6FURY",
         "availability",
