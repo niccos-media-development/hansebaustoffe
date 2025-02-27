@@ -59,7 +59,7 @@
         "video_url": "",
         "layout": "media_first",
         "desktop_content_alignment": "left",
-        "spacing_top": 10,
+        "spacing_top": 50,
         "spacing_bottom": 10,
         "blocks_gap": 32,
         "content_padding": 0,
@@ -200,7 +200,7 @@
         "layout": "text_first",
         "desktop_content_alignment": "left",
         "spacing_top": 10,
-        "spacing_bottom": 10,
+        "spacing_bottom": 50,
         "blocks_gap": 32,
         "content_padding": 0,
         "text_background": "rgba(0,0,0,0)",
@@ -213,6 +213,52 @@
         "mobile_spacing_top": 40,
         "mobile_spacing_bottom": 40
       }
+    },
+    "image_banners_bUBUpy": {
+      "type": "image-banners",
+      "blocks": {
+        "image_banner_W4FEAX": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneVerarbeiter_10.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_yYVNyr": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneVerarbeiter_5.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_fJxEfW": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneVerarbeiter_6.jpg",
+            "description": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_banner_W4FEAX",
+        "image_banner_yYVNyr",
+        "image_banner_fJxEfW"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "layout": "grid",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "accent-3",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
     }
   },
   "order": [
@@ -221,6 +267,7 @@
     "media_with_text_VDmBVQ",
     "media_with_text_WNTT4t",
     "media_with_text_nHPLkt",
-    "media_with_text_gNHTrJ"
+    "media_with_text_gNHTrJ",
+    "image_banners_bUBUpy"
   ]
 }
