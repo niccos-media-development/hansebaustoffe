@@ -61,6 +61,16 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_KmktBd": {
+          "type": "custom_liquid",
+          "settings": {
+            "title": "",
+            "icon": "",
+            "custom_liquid": "{% if product.metafields.custom.usp1 != blank %}\n<div class=\"lb-pdp-benefits\">\n<div>\n<img src=\"https://cdn.shopify.com/s/files/1/0614/3967/2470/files/check-white_copy_5.webp?v=1718172579\"/><p>{{ product.metafields.custom.usp1 }}</p>\n</div>\n{% if product.metafields.custom.usp2 != blank %}\n<div><img src=\"https://cdn.shopify.com/s/files/1/0614/3967/2470/files/check-white_copy_5.webp?v=1718172579\"/><p>{{ product.metafields.custom.usp2 }}</p></div>\n{% endif %}\n{% if product.metafields.custom.usp3 != blank %}\n<div><img src=\"https://cdn.shopify.com/s/files/1/0614/3967/2470/files/check-white_copy_5.webp?v=1718172579\"/><p>{{ product.metafields.custom.usp3 }}</p></div>\n{% endif %}\n</div>\n{% endif %} \n<style>\n.lb-pdp-benefits {\nmargin: 0px 0px 0px 0px!important; /* Abstand Oben Rechts Unten Links */\ndisplay: block;\n}\n.lb-pdp-benefits div {\nfont-size: 14px !important; /* Änderung der Schriftgröße */\nline-height: 18px !important; /* Änderung der Schrifthöhe */\ncolor: black; /* Schriftfarbe */\nmargin-bottom: 9px !important;\ndisplay: flex !important;\nalign-items:center !important;\noverflow: hidden !important;\n}\n.lb-pdp-benefits img {\nmax-width: 24px !important;\nmargin-right: 9px !important;\n}\n.lb-pdp-benefits p {\nwidth: 100%!important;\ndisplay: block!important;\nmargin: 0px!important;\n}\n</style>",
+            "position": "left",
+            "expanded": false
+          }
+        },
         "line_item_property_4DeBWA": {
           "type": "line_item_property",
           "settings": {
@@ -209,6 +219,7 @@
         "text_dUTqkb",
         "subtitle",
         "price",
+        "custom_liquid_KmktBd",
         "line_item_property_4DeBWA",
         "line_item_property_nJ3gzi",
         "line_item_property_UgFchr",
