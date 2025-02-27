@@ -875,7 +875,7 @@
         "@media screen and (min-width: 769px) {.block-section-fullwidth {display: none !important; }}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "slide_height": "full",
         "auto_rotate": true,
         "change_slides_speed": 5,
