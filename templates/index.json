@@ -876,7 +876,7 @@
       ],
       "settings": {
         "full_width": true,
-        "slide_height": "full",
+        "slide_height": "adapt_image",
         "auto_rotate": true,
         "change_slides_speed": 5,
         "animation_type": "fade",
