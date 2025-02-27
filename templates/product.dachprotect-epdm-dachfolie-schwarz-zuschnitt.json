@@ -16,7 +16,7 @@
           "type": "title",
           "settings": {
             "show_vendor": false,
-            "show_stock": true,
+            "show_stock": false,
             "show_sku": true,
             "show_barcode": false,
             "barcode_label": "Barcode",
