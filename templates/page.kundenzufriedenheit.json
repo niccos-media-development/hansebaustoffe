@@ -92,19 +92,11 @@
             "text_font_size": "--font-body-scale",
             "text_font_size_mobile": "--font-body-scale"
           }
-        },
-        "button_dLWeDF": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "heading_3dA7pM",
-        "text_aKgRKC",
-        "button_dLWeDF"
+        "text_aKgRKC"
       ],
       "settings": {
         "image": "shopify://shop_images/DP_ZufriedeneVerarbeiter_33.jpg",
@@ -122,58 +114,6 @@
         "content_font_size": "--font-body2-size",
         "content_font_size_mobile": "--font-body1-size",
         "section_background": "#ffffff",
-        "mobile_spacing_top": 40,
-        "mobile_spacing_bottom": 40
-      }
-    },
-    "media_with_text_gNHTrJ": {
-      "type": "media-with-text",
-      "blocks": {
-        "heading_zB8jDM": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bis 270 m² in einem Stück",
-            "heading_font_size": "--font-h2-size",
-            "heading_font_size_mobile": "--font-h3-size"
-          }
-        },
-        "text_3y8Pzj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Das lieben unsere Kunden: easyDACH Dachbahnen liefern wir bis 9,00 m Breite x 30,50 m Länge (ca. 270 qm) in einem Stück ohne Nähte! Das bringt Geschwindigkeit und vor allem Sicherheit bei der Verarbeitung - denn: keine Nähte -&gt; keine Mängel!</p>",
-            "text_font_size": "--font-body-scale",
-            "text_font_size_mobile": "--font-body-scale"
-          }
-        },
-        "button_Jag9qf": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_zB8jDM",
-        "text_3y8Pzj",
-        "button_Jag9qf"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/DP_ZufriedeneVerarbeiter_27.jpg",
-        "video_url": "",
-        "layout": "media_first",
-        "desktop_content_alignment": "left",
-        "spacing_top": 10,
-        "spacing_bottom": 10,
-        "blocks_gap": 32,
-        "content_padding": 0,
-        "text_background": "rgba(0,0,0,0)",
-        "vertical_alignment": "center",
-        "heading_font_size": "--font-h2-size",
-        "heading_font_size_mobile": "--font-h3-size",
-        "content_font_size": "--font-body2-size",
-        "content_font_size_mobile": "--font-body1-size",
-        "section_background": "#f3f3f3",
         "mobile_spacing_top": 40,
         "mobile_spacing_bottom": 40
       }
@@ -213,7 +153,7 @@
       "settings": {
         "image": "shopify://shop_images/DP_ZufriedeneVerarbeiter_18.jpg",
         "video_url": "",
-        "layout": "text_first",
+        "layout": "media_first",
         "desktop_content_alignment": "left",
         "spacing_top": 10,
         "spacing_bottom": 60,
@@ -229,6 +169,50 @@
         "mobile_spacing_top": 40,
         "mobile_spacing_bottom": 40
       }
+    },
+    "media_with_text_gNHTrJ": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_zB8jDM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bis 270 m² in einem Stück",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_3y8Pzj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Das lieben unsere Kunden: EPDM Dachbahnen liefern wir bis 9,00 m Breite x 30,50 m Länge (ca. 270 qm) in einem Stück ohne Nähte! Das bringt Geschwindigkeit und vor allem Sicherheit bei der Verarbeitung - denn: keine Nähte -&gt; keine Mängel!</p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zB8jDM",
+        "text_3y8Pzj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DP_ZufriedeneVerarbeiter_27.jpg",
+        "video_url": "",
+        "layout": "text_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 10,
+        "spacing_bottom": 10,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#f3f3f3",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
     }
   },
   "order": [
@@ -236,7 +220,7 @@
     "173945177119dc2136",
     "media_with_text_VDmBVQ",
     "media_with_text_WNTT4t",
-    "media_with_text_gNHTrJ",
-    "media_with_text_nHPLkt"
+    "media_with_text_nHPLkt",
+    "media_with_text_gNHTrJ"
   ]
 }
