@@ -165,7 +165,7 @@
         "heading_font_size_mobile": "--font-h3-size",
         "content_font_size": "--font-body2-size",
         "content_font_size_mobile": "--font-body1-size",
-        "section_background": "#ffffff",
+        "section_background": "#f3f3f3",
         "mobile_spacing_top": 40,
         "mobile_spacing_bottom": 40
       }
@@ -209,7 +209,7 @@
         "heading_font_size_mobile": "--font-h3-size",
         "content_font_size": "--font-body2-size",
         "content_font_size_mobile": "--font-body1-size",
-        "section_background": "#f3f3f3",
+        "section_background": "#ffffff",
         "mobile_spacing_top": 40,
         "mobile_spacing_bottom": 40
       }
