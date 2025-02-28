@@ -3,12 +3,14 @@
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
         <a href="{{ block.settings.url }}" class="hss-promo-item">
-          <div class="hss-promo-image hexagon {% if block.settings.highlight %}hss-promo-highlight{% endif %}">
-            {% if block.settings.image %}
-              <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
-            {% else %}
-              <div class="hss-placeholder">+</div>
-            {% endif %}
+          <div class="hss-promo-image hexagon-wrapper">
+            <div class="hexagon {% if block.settings.highlight %}hss-promo-highlight{% endif %}">
+              {% if block.settings.image %}
+                <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+              {% else %}
+                <div class="hss-placeholder">+</div>
+              {% endif %}
+            </div>
           </div>
           {% if block.settings.heading != blank %}
             <span class="hss-promo-title">{{ block.settings.heading }}</span>
@@ -57,6 +59,16 @@
     flex: 0 0 auto;
   }
 
+  /* HEXAGON-WRAPPER für Rand */
+  .hexagon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: {{ section.settings.border_width }}px;
+    border: {{ section.settings.border_width }}px solid {{ section.settings.border_color }}; /* Rand um das Hexagon */
+    border-radius: 50%; /* Optional, für einen runden Rand */
+  }
+
   /* HEXAGON-FORM */
   .hexagon {
     width: {{ section.settings.desktop_size }}px;
@@ -71,7 +83,6 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    outline: {{ section.settings.border_width }}px solid {{ section.settings.border_color }}; /* Gleichmäßiger Rand um das Hexagon */
   }
 
   .hexagon img {
@@ -122,6 +133,10 @@
     .hss-promo-item {
       flex: 0 0 auto;
       margin: 0 auto;
+    }
+
+    .hexagon-wrapper {
+      padding: {{ section.settings.border_width }}px;
     }
 
     .hexagon {
