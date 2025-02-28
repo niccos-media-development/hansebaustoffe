@@ -78,67 +78,77 @@
     "hss_promotion_card_circle_xeximi": {
       "type": "hss-promotion-card-circle",
       "blocks": {
-        "card_KCyQze": {
-          "type": "card",
+        "block_q6UY4B": {
+          "type": "block",
           "settings": {
-            "image": "shopify://shop_images/D12-100-010-MUS_EPDM_Dachfolie_Muster_1000x1000_9aa00139-310a-421a-855e-98d26a4a69e9.jpg",
-            "title": "EPDM Dachfolie",
-            "link": "shopify://collections/dachprotect-epdm-dachfolie"
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
           }
         },
-        "card_kXmWi8": {
-          "type": "card",
+        "block_jEt8xi": {
+          "type": "block",
           "settings": {
-            "image": "shopify://shop_images/200-WB1-020_BlueTek_Gruppe_Produktbild_1000x1000px_1.jpg",
-            "title": "Kleb- & Dichtstoffe",
-            "link": "shopify://collections/kleb-dichtstoffe"
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
           }
         },
-        "card_wPiV7r": {
-          "type": "card",
+        "block_pjxiny": {
+          "type": "block",
           "settings": {
-            "title": "Kategorie",
-            "link": ""
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
           }
         },
-        "card_EL7Ycy": {
-          "type": "card",
+        "block_fyACe7": {
+          "type": "block",
           "settings": {
-            "title": "Kategorie",
-            "link": ""
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
           }
         },
-        "card_NwAQWz": {
-          "type": "card",
+        "block_errbhr": {
+          "type": "block",
           "settings": {
-            "title": "Kategorie",
-            "link": ""
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
           }
         },
-        "card_HynByL": {
-          "type": "card",
+        "block_KChCna": {
+          "type": "block",
           "settings": {
-            "title": "Kategorie",
-            "link": ""
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
           }
         }
       },
       "block_order": [
-        "card_KCyQze",
-        "card_kXmWi8",
-        "card_wPiV7r",
-        "card_EL7Ycy",
-        "card_NwAQWz",
-        "card_HynByL"
+        "block_q6UY4B",
+        "block_jEt8xi",
+        "block_pjxiny",
+        "block_fyACe7",
+        "block_errbhr",
+        "block_KChCna"
       ],
       "settings": {
-        "spacing_top": 20,
-        "spacing_bottom": 20,
-        "columns": 5,
-        "card_size": 250,
-        "card_size_mobile": 60,
-        "card_background": "#ffffff",
-        "text_color": "#000000"
+        "background_color": "#f2f2f2",
+        "desktop_size": 150,
+        "desktop_distance": 9,
+        "mobile_size": 20,
+        "mobile_distance": 2,
+        "font": "sans-serif",
+        "fontsize": 12,
+        "text_color": "#000000",
+        "border_radius": 100,
+        "highlight_color": "#c4258d",
+        "auto_rotate": true,
+        "auto_rotate_speed": 8,
+        "items_per_view": 4
       }
     },
     "niccos_promotional_cards_DhFpWq": {
