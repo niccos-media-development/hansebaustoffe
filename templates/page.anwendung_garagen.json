@@ -509,7 +509,7 @@
         "columns": "3",
         "stack_on_mobile": false,
         "color_scheme": "background-1",
-        "spacing_top": 26,
+        "spacing_top": 0,
         "spacing_bottom": 26
       }
     },
