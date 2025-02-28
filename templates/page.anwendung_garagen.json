@@ -76,6 +76,15 @@
         "image_banner_FLK6nJ": {
           "type": "image_banner",
           "settings": {
+            "image": "shopify://shop_images/IMG_1865.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_bx7BnG": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Thomas_2.jpg",
             "description": "",
             "link": ""
           }
@@ -84,7 +93,8 @@
       "block_order": [
         "image_banner_nt9Rwh",
         "image_banner_gbbFHE",
-        "image_banner_FLK6nJ"
+        "image_banner_FLK6nJ",
+        "image_banner_bx7BnG"
       ],
       "settings": {
         "heading": "",
@@ -95,6 +105,37 @@
         "columns": 2,
         "stack_on_mobile": false,
         "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "rich_text_LwzQbH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dzUaCt": {
+          "type": "heading",
+          "settings": {
+            "heading": "1. Konfigurieren Sie Ihre DACHPROTECT EPDM Folie",
+            "heading_size": "md"
+          }
+        },
+        "text_ReTDGa": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1,2 mm:</strong> Für Nebengebäude und Anwendungen ohne Vorgabe nach einer Richtlinie oder Norm<br/>Geeignet für private Verarbeiter</p><p><strong>1,5 mm:</strong> Für Wohngebäude/Nebengebäude sowie Anwendungen die eine Materialstärke von 1,5 mm nach einer Norm oder Richtlinie erfordern. <br/>Geeignet für Private- und gewerbliche Verarbeiter</p><p><strong>Hinweise:<br/></strong><em><strong>Breite und Länge können bei Bedarf miteinander vertauscht werden, um den Verschnitt zu minimieren. Die EPDM Dachfolie weist produktionsbedingt alle 1,50 m eine Materialverdickung auf, die parallel zur Breite der EPDM Dachfolie verläuft.<br/>Achten Sie darauf Dachränder und Hochzüge ausreichend zu berücksichtigen. </strong></em></p>",
+            "text_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dzUaCt",
+        "text_ReTDGa"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "left",
+        "color_scheme": "accent-3",
         "spacing_top": 60,
         "spacing_bottom": 60
       }
@@ -177,6 +218,7 @@
     "rich_text_Nca7K9",
     "main",
     "image_banners_hJt9gg",
+    "rich_text_LwzQbH",
     "featured_product_WAFVKA"
   ]
 }

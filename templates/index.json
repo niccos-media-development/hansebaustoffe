@@ -78,50 +78,33 @@
     "hss_promotion_card_circle_xeximi": {
       "type": "hss-promotion-card-circle",
       "blocks": {
-        "block_q6UY4B": {
-          "type": "block",
+        "category_3PJLQT": {
+          "type": "category",
           "settings": {
-            "image": "shopify://shop_images/200-WB1-020_BlueTek_Gruppe_Produktbild_1000x1000px_1.jpg",
-            "heading": "Kleb- & Dichtstoffe",
+            "image": "shopify://shop_images/400-100-75D_Klebe-Gully_DN75_Set_DoppelseitigesDichtband_Produktbild_1000x1000px_1.jpg",
+            "heading": "Kategorie",
             "url": "",
             "highlight": false
           }
         },
-        "block_jEt8xi": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/400-AKD-060_Kabeldurchfuehrung_Produktbild_1000x1000px_1.jpg",
-            "heading": "Kabeldurchführungen",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "block_pjxiny": {
-          "type": "block",
+        "category_GRUwTN": {
+          "type": "category",
           "settings": {
             "heading": "Kategorie",
             "url": "",
             "highlight": false
           }
         },
-        "block_fyACe7": {
-          "type": "block",
+        "category_p8ntxr": {
+          "type": "category",
           "settings": {
             "heading": "Kategorie",
             "url": "",
             "highlight": false
           }
         },
-        "block_errbhr": {
-          "type": "block",
-          "settings": {
-            "heading": "Kategorie",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "block_KChCna": {
-          "type": "block",
+        "category_gE8Rbk": {
+          "type": "category",
           "settings": {
             "heading": "Kategorie",
             "url": "",
@@ -130,24 +113,18 @@
         }
       },
       "block_order": [
-        "block_q6UY4B",
-        "block_jEt8xi",
-        "block_pjxiny",
-        "block_fyACe7",
-        "block_errbhr",
-        "block_KChCna"
+        "category_3PJLQT",
+        "category_GRUwTN",
+        "category_p8ntxr",
+        "category_gE8Rbk"
       ],
       "settings": {
         "background_color": "#f2f2f2",
+        "icon_background": "#ffffff",
         "desktop_size": 150,
         "desktop_distance": 9,
-        "mobile_size": 36,
+        "mobile_size": 60,
         "mobile_distance": 2,
-        "font": "sans-serif",
-        "fontsize": 12,
-        "text_color": "#000000",
-        "border_radius": 100,
-        "highlight_color": "#c4258d",
         "auto_rotate": true,
         "auto_rotate_speed": 8,
         "items_per_view": 6
