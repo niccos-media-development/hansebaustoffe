@@ -10,7 +10,7 @@
 {%- endif -%}
 
 <style>
-  /* Abstand oben und unten für den gesamten Abschnitt */
+  /* Abstand oben und unten für den ganzen Abschnitt */
   #shopify-section-{{ section.id }} {
     margin-top: {{ section.settings.spacing_top }}px;
     margin-bottom: {{ section.settings.spacing_bottom }}px;
@@ -21,6 +21,7 @@
     display: grid;
     grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
     gap: 20px;
+    text-align: center;
   }
 
   /* --- MOBILE: Horizontaler Scroller --- */
@@ -42,29 +43,47 @@
     }
   }
 
-  /* Allgemeine Styles für die Karten */
+  /* Die klickbare Karte */
   #shopify-section-{{ section.id }} .hss-promo-card {
-    width: {{ section.settings.card_size }}px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    cursor: pointer;
+    text-decoration: none;
   }
 
-  /* Bild in der runden Card */
-  #shopify-section-{{ section.id }} .hss-promo-card img {
-    width: 100%;
-    max-width: {{ section.settings.card_size }}px;
-    height: auto;
+  /* Rundes Bild */
+  #shopify-section-{{ section.id }} .hss-promo-card .hss-promo-image {
+    width: {{ section.settings.card_size }}px;
+    height: {{ section.settings.card_size }}px;
     border-radius: 50%;
-    object-fit: cover;
+    overflow: hidden;
     background-color: {{ section.settings.card_background }};
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #shopify-section-{{ section.id }} .hss-promo-card:hover .hss-promo-image {
+    transform: scale(1.05);
+  }
+
+  /* Bild in der runden Form */
+  #shopify-section-{{ section.id }} .hss-promo-card img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
   }
 
   /* Titel unter dem Bild */
-  #shopify-section-{{ section.id }} .hss-promo-card h3 {
+  #shopify-section-{{ section.id }} .hss-promo-card .hss-promo-title {
     font-size: 14px;
-    margin-top: 8px;
+    margin-top: 5px;
     color: {{ section.settings.text_color }};
-    white-space: normal;
+    font-weight: bold;
   }
 </style>
 
@@ -72,14 +91,16 @@
   <div class="container">
     <div class="hss-promo-card-container">
       {% for block in section.blocks %}
-        <div class="hss-promo-card">
-          {% if block.settings.image %}
-            <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title }}">
-          {% endif %}
+        <a href="{{ block.settings.link }}" class="hss-promo-card">
+          <div class="hss-promo-image">
+            {% if block.settings.image %}
+              <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title }}">
+            {% endif %}
+          </div>
           {% if block.settings.title != blank %}
-            <h3>{{ block.settings.title }}</h3>
+            <div class="hss-promo-title">{{ block.settings.title }}</div>
           {% endif %}
-        </div>
+        </a>
       {% endfor %}
     </div>
   </div>
@@ -136,15 +157,15 @@
     },
     {
       "type": "color",
-      "id": "text_color",
-      "label": "Textfarbe",
-      "default": "#000000"
+      "id": "card_background",
+      "label": "Hintergrundfarbe der runden Karte",
+      "default": "#f8f8f8"
     },
     {
       "type": "color",
-      "id": "card_background",
-      "label": "Hintergrundfarbe der runden Bilder",
-      "default": "#ffffff"
+      "id": "text_color",
+      "label": "Textfarbe",
+      "default": "#000000"
     }
   ],
   "blocks": [
@@ -161,7 +182,12 @@
           "type": "text",
           "id": "title",
           "label": "Titel",
-          "default": "Promotion"
+          "default": "Kategorie"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         }
       ]
     }
