@@ -441,7 +441,7 @@
             "image": "shopify://shop_images/Dachrandprofil_ISOS_Silber_Titelbild_Marktplatz.jpg",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "heading": "ISOS Dachrandprofil Silber",
-            "description": "",
+            "description": "<p></p><p></p><p></p><p></p><p></p>",
             "link": "",
             "products": [
               "dachrandprofil-isos-silber-ral-9006-1-95-meter",
@@ -457,7 +457,7 @@
             "image": "shopify://shop_images/500-800-100_Dachrandprofil_Cube_Produktbild_1000x1000px.jpg",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "heading": "Dachrandprofil CUBE",
-            "description": "",
+            "description": "<p></p><p></p><p></p><p></p>",
             "link": "",
             "products": [
               "dachrandprofil-cube-anthrazit-ral-7016-1-meter",
