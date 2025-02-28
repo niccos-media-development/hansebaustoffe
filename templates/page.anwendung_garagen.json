@@ -445,6 +445,59 @@
         "spacing_top": 60,
         "spacing_bottom": 60
       }
+    },
+    "product_lists_4qfMmy": {
+      "type": "product-lists",
+      "blocks": {
+        "product_list_4iCrzt": {
+          "type": "product_list",
+          "settings": {
+            "image": "shopify://shop_images/Dachrandprofil_ISOS_Anthrazit_Titelbild_Marktplatz.webp",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "",
+            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
+            "link": "",
+            "products": []
+          }
+        },
+        "product_list_g7JrTy": {
+          "type": "product_list",
+          "settings": {
+            "image": "shopify://shop_images/500-WAP-100_Wandanschlussprofil_Produktbild_5_1000x1000_59baa838-d019-4f04-bd25-b878b7a9c3c3.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Product list",
+            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
+            "link": "",
+            "products": []
+          }
+        },
+        "product_list_Yj6mkE": {
+          "type": "product_list",
+          "settings": {
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Product list",
+            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
+            "link": "",
+            "products": []
+          }
+        }
+      },
+      "block_order": [
+        "product_list_4iCrzt",
+        "product_list_g7JrTy",
+        "product_list_Yj6mkE"
+      ],
+      "settings": {
+        "heading": "Product lists",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "columns": "3",
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
     }
   },
   "order": [
@@ -459,6 +512,7 @@
     "rich_text_efFmbC",
     "featured_collection_rpwYTg",
     "rich_text_gVn83E",
-    "rich_text_4GzrV9"
+    "rich_text_4GzrV9",
+    "product_lists_4qfMmy"
   ]
 }
