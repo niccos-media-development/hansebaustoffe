@@ -28,6 +28,7 @@
         },
         "text_cUwK78": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Die richtige Wahl der Dachabdichtung für Ihr Carport sollte nicht unterschätzt werden. Sie ist nicht nur entscheidend für den Schutz Ihrer Fahrzeuge, sondern muss auch die Holzkonstruktion vor Umwelt- und Witterungseinflüssen schützen. Weiterhin gewährleistet eine hochwertige EPDM Abdichtung nicht nur die Wasserundurchlässigkeit, sondern minimiert auch den Wartungsaufwand. Nehmen Sie sich daher für die Auswahl der richtigen Abdichtung genug Zeit, damit alle Anforderungen an die Abdichtung abgedeckt werden.  </p><p>Mit einer Dachfolie von DACHPROTECT schützen Sie Ihr Dach langfristig und zuverlässig vor Umwelt- und Witterungseinflüssen. Mit einer nachweislichen Haltbarkeit von über 50 Jahren, reduzieren Sie nicht nur den Wartungsaufwand des Objektes, sondern schonen Ihren Geldbeutel und die Umwelt.</p>",
             "text_size": "lg"
@@ -47,6 +48,41 @@
         "spacing_bottom": 60
       }
     },
+    "media_with_text_pNcdVV": {
+      "type": "media-with-text",
+      "blocks": {
+        "text_CkxXMP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die richtige Wahl der Dachabdichtung für Ihr Carport sollte nicht unterschätzt werden. Sie ist nicht nur entscheidend für den Schutz Ihrer Fahrzeuge, sondern muss auch die Holzkonstruktion vor Umwelt- und Witterungseinflüssen schützen. Weiterhin gewährleistet eine hochwertige EPDM Abdichtung nicht nur die Wasserundurchlässigkeit, sondern minimiert auch den Wartungsaufwand. Nehmen Sie sich daher für die Auswahl der richtigen Abdichtung genug Zeit, damit alle Anforderungen an die Abdichtung abgedeckt werden.  </p><p>Mit einer Dachfolie von DACHPROTECT schützen Sie Ihr Dach langfristig und zuverlässig vor Umwelt- und Witterungseinflüssen. Mit einer nachweislichen Haltbarkeit von über 50 Jahren, reduzieren Sie nicht nur den Wartungsaufwand des Objektes, sondern schonen Ihren Geldbeutel und die Umwelt.</p><p></p>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        }
+      },
+      "block_order": [
+        "text_CkxXMP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_26.jpg",
+        "video_url": "",
+        "layout": "text_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "#f3f3f3",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body1-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
     "1740732058c5b6dd73": {
       "type": "apps",
       "settings": {
@@ -63,6 +99,7 @@
   "order": [
     "main",
     "rich_text_wArdUE",
+    "media_with_text_pNcdVV",
     "1740732058c5b6dd73",
     "173945177119dc2136"
   ]
