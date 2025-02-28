@@ -115,14 +115,14 @@
         "heading_dzUaCt": {
           "type": "heading",
           "settings": {
-            "heading": "1. Konfigurieren Sie Ihre DACHPROTECT EPDM Folie",
+            "heading": "In vier Schritten zur perfekten Garagen-Abdichtungmit DACHPROTECT EPDM",
             "heading_size": "md"
           }
         },
         "text_ReTDGa": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>1,2 mm:</strong> Für Nebengebäude und Anwendungen ohne Vorgabe nach einer Richtlinie oder Norm<br/>Geeignet für private Verarbeiter</p><p><strong>1,5 mm:</strong> Für Wohngebäude/Nebengebäude sowie Anwendungen die eine Materialstärke von 1,5 mm nach einer Norm oder Richtlinie erfordern. <br/>Geeignet für Private- und gewerbliche Verarbeiter</p><p><strong>Hinweise:<br/></strong><em><strong>Breite und Länge können bei Bedarf miteinander vertauscht werden, um den Verschnitt zu minimieren. Die EPDM Dachfolie weist produktionsbedingt alle 1,50 m eine Materialverdickung auf, die parallel zur Breite der EPDM Dachfolie verläuft.<br/>Achten Sie darauf Dachränder und Hochzüge ausreichend zu berücksichtigen. </strong></em></p>",
+            "text": "<h4>1. Konfigurieren Sie Ihre DACHPROTECT EPDM Folie</h4><p><strong>1,2 mm:</strong> Für Nebengebäude und Anwendungen ohne Vorgabe nach einer Richtlinie oder Norm<br/>Geeignet für private Verarbeiter</p><p><strong>1,5 mm:</strong> Für Wohngebäude/Nebengebäude sowie Anwendungen die eine Materialstärke von 1,5 mm nach einer Norm oder Richtlinie erfordern. <br/>Geeignet für Private- und gewerbliche Verarbeiter</p><p><strong>Hinweise:<br/></strong><em><strong>Breite und Länge können bei Bedarf miteinander vertauscht werden, um den Verschnitt zu minimieren. Die EPDM Dachfolie weist produktionsbedingt alle 1,50 m eine Materialverdickung auf, die parallel zur Breite der EPDM Dachfolie verläuft.<br/>Achten Sie darauf Dachränder und Hochzüge ausreichend zu berücksichtigen. </strong></em></p>",
             "text_size": "md"
           }
         }
@@ -368,7 +368,7 @@
         "collection_overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
         "collection_title": "",
         "collection_description": "",
-        "collection_text_color": "#fff",
+        "collection_text_color": "#ffffff",
         "collection_button_text": "",
         "collection_box_align": "bottom-left",
         "layout": "slider",
