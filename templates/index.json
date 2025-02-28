@@ -90,6 +90,7 @@
         "category_GRUwTN": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/400-AKD-060_Kabeldurchfuehrung_Produktbild_1000x1000px_1.jpg",
             "heading": "Kategorie",
             "url": "",
             "highlight": false
@@ -98,6 +99,7 @@
         "category_p8ntxr": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/Dach_Reparaturband_Grau_Titelbild_Marktplatz.png",
             "heading": "Kategorie",
             "url": "",
             "highlight": false
@@ -122,12 +124,7 @@
         "background_color": "#f2f2f2",
         "icon_background": "#ffffff",
         "desktop_size": 150,
-        "desktop_distance": 9,
-        "mobile_size": 80,
-        "mobile_distance": 2,
-        "auto_rotate": true,
-        "auto_rotate_speed": 8,
-        "items_per_view": 6
+        "mobile_size": 80
       }
     },
     "niccos_promotional_cards_DhFpWq": {
