@@ -1,4 +1,7 @@
 <div class="hss-promo-carousel">
+  <div class="slider-nav">
+    <button class="prev">←</button>
+  </div>
   <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
@@ -28,9 +31,7 @@
       <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
     {% endif %}
   </div>
-  <!-- Navigationspfeile für den Slider (nur für Desktop) -->
   <div class="slider-nav">
-    <button class="prev">←</button>
     <button class="next">→</button>
   </div>
 </div>
@@ -147,9 +148,9 @@
   .slider-nav {
     position: absolute;
     top: 50%;
-    left: 50px; /* Abstand von der linken Seite */
-    right: 50px; /* Abstand von der rechten Seite */
-    width: calc(100% - 100px); /* Maximale Breite der Pfeile auf Desktop */
+    left: 10px; /* Pfeil links näher an den Produkten */
+    right: 10px; /* Pfeil rechts näher an den Produkten */
+    width: calc(100% - 20px); /* Maximale Breite für die Pfeile, begrenzt durch Abstand */
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
@@ -271,6 +272,24 @@
       "step": 1,
       "default": 20,
       "label": "Abstand unten zu anderen Abschnitten"
+    },
+    {
+      "type": "range",
+      "id": "items_per_row",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 3,
+      "label": "Anzahl der Produkte pro Reihe (Desktop)"
+    },
+    {
+      "type": "range",
+      "id": "mobile_items_per_row",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 2,
+      "label": "Anzahl der Produkte pro Reihe (Mobile)"
     }
   ],
   "blocks": [
