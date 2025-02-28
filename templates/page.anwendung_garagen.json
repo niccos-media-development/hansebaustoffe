@@ -523,6 +523,13 @@
             "heading_size": "sm"
           }
         },
+        "text_7RXRAG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Machen Sie sich selbst ein Bild von unseren Produkten und entdecken Sie unsere Verarbeitungs- und Anwendungsvideos.</p>",
+            "text_size": "md"
+          }
+        },
         "button_AUyVGd": {
           "type": "button",
           "settings": {
@@ -533,6 +540,7 @@
       },
       "block_order": [
         "heading_DFFerY",
+        "text_7RXRAG",
         "button_AUyVGd"
       ],
       "settings": {
