@@ -160,6 +160,8 @@
       "settings": {
         "background_color": "#ffffff",
         "icon_background": "#ffffff",
+        "hexagon_border_color": "#000000",
+        "hexagon_border_width": 1,
         "desktop_size": 150,
         "mobile_size": 80,
         "desktop_distance": 9,
