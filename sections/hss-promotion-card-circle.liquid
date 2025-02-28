@@ -1,36 +1,155 @@
-<section class="hss-promo-card-container">
-  {% if section.blocks.size > 0 %}
-    {% for block in section.blocks %}
-      <div class="hss-promo-card">
-        {% if block.settings.image %}
-          <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title }}">
-        {% endif %}
-        <div class="hss-promo-content">
-          {% if block.settings.title != blank %}
-            <h3>{{ block.settings.title }}</h3>
+{{ 'component-card-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-collage.css' | asset_url | stylesheet_tag }}
+{{ 'component-pills.css' | asset_url | stylesheet_tag }}
+{{ 'component-scroller.css' | asset_url | stylesheet_tag }}
+
+{%- if section.settings.layout == 'slider' -%}
+	{{ 'flickity.css' | asset_url | stylesheet_tag }}
+	<script src="{{ 'flickity.pkgd.js' | asset_url }}" defer="defer"></script>
+	<script src="{{ 'carousel-slider.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
+<style>
+  /* Container für die runden Cards */
+  #shopify-section-{{ section.id }} .hss-promo-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* Runde Card */
+  #shopify-section-{{ section.id }} .hss-promo-card {
+    width: {{ section.settings.card_size }}px;
+    height: {{ section.settings.card_size }}px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: {{ section.settings.card_background }};
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #shopify-section-{{ section.id }} .hss-promo-card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Bild in der runden Card */
+  #shopify-section-{{ section.id }} .hss-promo-card img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /* Inhalte der Card */
+  #shopify-section-{{ section.id }} .hss-promo-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: {{ section.settings.text_color }};
+  }
+
+  #shopify-section-{{ section.id }} .hss-promo-card p {
+    font-size: 14px;
+    color: {{ section.settings.text_color }};
+  }
+
+  /* Button */
+  #shopify-section-{{ section.id }} .hss-promo-btn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: {{ section.settings.button_color }};
+    color: {{ section.settings.button_text_color }};
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: background 0.3s ease-in-out;
+  }
+
+  #shopify-section-{{ section.id }} .hss-promo-btn:hover {
+    background-color: {{ section.settings.button_hover_color }};
+  }
+</style>
+
+<div class="color-{{ section.settings.color_scheme }}">
+  <div class="container">
+    <div class="hss-promo-card-container">
+      {% for block in section.blocks %}
+        <div class="hss-promo-card">
+          {% if block.settings.image %}
+            <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title }}">
           {% endif %}
-          {% if block.settings.text != blank %}
-            <p>{{ block.settings.text }}</p>
-          {% endif %}
-          {% if block.settings.link %}
-            <a href="{{ block.settings.link }}" class="hss-promo-btn">Mehr erfahren</a>
-          {% endif %}
+          <div class="hss-promo-content">
+            {% if block.settings.title != blank %}
+              <h3>{{ block.settings.title }}</h3>
+            {% endif %}
+            {% if block.settings.text != blank %}
+              <p>{{ block.settings.text }}</p>
+            {% endif %}
+            {% if block.settings.link %}
+              <a href="{{ block.settings.link }}" class="hss-promo-btn">{{ block.settings.button_text }}</a>
+            {% endif %}
+          </div>
         </div>
-      </div>
-    {% endfor %}
-  {% else %}
-    <p>Bitte fügen Sie eine Promotion Card hinzu.</p>
-  {% endif %}
-</section>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
 {% schema %}
 {
   "name": "HSS Promotion Card Circle",
-  "settings": [],
+  "settings": [
+    {
+      "type": "range",
+      "id": "card_size",
+      "label": "Größe der runden Karte",
+      "min": 100,
+      "max": 400,
+      "step": 10,
+      "default": 250
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Hintergrundfarbe der Karte",
+      "default": "#f8f8f8"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Textfarbe",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button-Farbe",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button-Textfarbe",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button Hover-Farbe",
+      "default": "#333333"
+    }
+  ],
   "blocks": [
     {
       "type": "card",
-      "name": "Promo Card",
+      "name": "Promotion Card",
       "settings": [
         {
           "type": "image_picker",
@@ -53,6 +172,12 @@
           "type": "url",
           "id": "link",
           "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button-Text",
+          "default": "Mehr erfahren"
         }
       ]
     }
@@ -60,7 +185,17 @@
   "presets": [
     {
       "name": "HSS Promotion Card Circle",
-      "category": "Custom"
+      "blocks": [
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        }
+      ]
     }
   ]
 }
