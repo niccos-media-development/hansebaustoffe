@@ -48,21 +48,42 @@
     position: relative;
   }
 
-  .hss-promo-carousel-holder {
-    display: flex;
-    justify-content: flex-start;
-    gap: {{ section.settings.desktop_distance }}px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    position: relative;
-    max-width: 100%;
-    padding: 10px;
-    width: 100%;
-    max-width: 1200px; /* Begrenzung der Breite auf Desktop */
+  .slider-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
   }
 
-  .hss-promo-carousel-holder::-webkit-scrollbar {
-    display: none;
+  .slider-nav .prev {
+    left: -20px; /* Positionierung direkt neben der ersten Produktbox */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .slider-nav .next {
+    right: -20px; /* Positionierung direkt neben der letzten Produktbox */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .hss-promo-carousel-holder {
+    display: grid;
+    grid-template-columns: repeat({{ section.settings.items_per_row }}, 1fr); /* Anzahl der Produkte pro Reihe */
+    gap: {{ section.settings.desktop_distance }}px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 1200px; /* Begrenzung der Breite auf Desktop */
+    position: relative;
   }
 
   .hss-promo-item-wrapper {
@@ -73,7 +94,6 @@
     font-family: {{ section.settings.font.family }}, sans-serif;
     text-decoration: none;
     display: block;
-    flex: 0 0 auto;
   }
 
   .hss-promo-image {
@@ -144,31 +164,6 @@
     font-weight: bold;
   }
 
-  /* Slider Navigation Buttons */
-  .slider-nav {
-    position: absolute;
-    top: 50%;
-    left: 0; /* Pfeil links direkt neben der ersten Produktbox */
-    right: 0; /* Pfeil rechts direkt neben der letzten Produktbox */
-    display: flex;
-    justify-content: space-between;
-    width: 100%; /* Maximale Breite */
-    transform: translateY(-50%);
-  }
-
-  .prev, .next {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-
-  .prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-
   /* Mobile Ansicht - keine Pfeile */
   @media only screen and (max-width: 768px) {
     .slider-nav {
@@ -176,8 +171,7 @@
     }
 
     .hss-promo-carousel-holder {
-      justify-content: flex-start;
-      padding: 10px 0;
+      grid-template-columns: repeat({{ section.settings.mobile_items_per_row }}, 1fr); /* Anzahl der Produkte auf mobilen Geräten */
       gap: {{ section.settings.mobile_distance }}%;
     }
 
