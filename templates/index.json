@@ -81,6 +81,7 @@
         "block_q6UY4B": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/200-WB1-020_BlueTek_Gruppe_Produktbild_1000x1000px_1.jpg",
             "heading": "Kategorie",
             "url": "",
             "highlight": false
@@ -89,6 +90,7 @@
         "block_jEt8xi": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/400-AKD-060_Kabeldurchfuehrung_Produktbild_1000x1000px_1.jpg",
             "heading": "Kategorie",
             "url": "",
             "highlight": false
@@ -148,7 +150,7 @@
         "highlight_color": "#c4258d",
         "auto_rotate": true,
         "auto_rotate_speed": 8,
-        "items_per_view": 4
+        "items_per_view": 6
       }
     },
     "niccos_promotional_cards_DhFpWq": {
