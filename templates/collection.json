@@ -37,7 +37,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        "/* Aktionsbanner im Produktraster ausblenden */.card-badge.top.left {display: none !important;}"
+        ".card-badge.top.left {display: none !important;}"
       ],
       "settings": {
         "products_per_page": 24,
