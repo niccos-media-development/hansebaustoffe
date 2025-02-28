@@ -89,52 +89,56 @@
         "category_GRUwTN": {
           "type": "category",
           "settings": {
-            "image": "shopify://shop_images/400-AKD-060_Kabeldurchfuehrung_Produktbild_1000x1000px_1.jpg",
-            "heading": "Kabeldurchführung",
+            "image": "shopify://shop_images/200-WB1-020_BlueTek_Gruppe_Produktbild_1000x1000px_1.jpg",
+            "heading": "Kleb- & Dichtstoffe",
             "url": ""
           }
         },
         "category_p8ntxr": {
           "type": "category",
           "settings": {
-            "image": "shopify://shop_images/Dach_Reparaturband_Grau_Titelbild_Marktplatz.png",
-            "heading": "Kategorie",
+            "image": "shopify://shop_images/300-PRI-12S_HSS_Aktivierung_Gruppe_1000x1000px_1.jpg",
+            "heading": "EPDM Zubehör",
             "url": ""
           }
         },
         "category_fpFjLA": {
           "type": "category",
           "settings": {
-            "heading": "Kategorie",
+            "image": "shopify://shop_images/400-200-XXX_Garantie-Gullys_SET_1000x1000px_1.jpg",
+            "heading": "Garantie-Gullys",
             "url": ""
           }
         },
         "category_meBp43": {
           "type": "category",
           "settings": {
-            "heading": "Kategorie",
+            "image": "shopify://shop_images/400-ADW-110_Wohnraum_Strangentluefter_DN110-125_doppelwandig_Produktbild_1000x1000px_2.jpg",
+            "heading": "Be- & Entlüftung",
             "url": ""
           }
         },
         "category_gE8Rbk": {
           "type": "category",
           "settings": {
-            "image": "shopify://shop_images/HSS_Dichtstoff_EXTRA_Grey_WEISSE_KARTUSCHE_Render_1000x1000px_FIN_0524_3_1.webp",
-            "heading": "Kategorie",
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Kabeldurchfuehrung_1.png",
+            "heading": "Kabeldurchführung",
             "url": ""
           }
         },
         "category_AqPXDz": {
           "type": "category",
           "settings": {
-            "heading": "Kategorie",
+            "image": "shopify://shop_images/500-600-195_Isos_7016_Render_Produktbild_1000x1000px_1.jpg",
+            "heading": "Dachrandprofile",
             "url": ""
           }
         },
         "category_UXJFP6": {
           "type": "category",
           "settings": {
-            "heading": "Kategorie",
+            "image": "shopify://shop_images/500-WAP-100_Wandanschlussprofil_Produktbild_5_1000x1000_59baa838-d019-4f04-bd25-b878b7a9c3c3.jpg",
+            "heading": "Wandanschluss",
             "url": ""
           }
         }
@@ -157,9 +161,7 @@
         "desktop_distance": 50,
         "mobile_distance": 1,
         "top_margin": 0,
-        "bottom_margin": 0,
-        "items_per_row": 5,
-        "mobile_items_per_row": 3
+        "bottom_margin": 0
       }
     },
     "niccos_promotional_cards_WnDXcV": {
