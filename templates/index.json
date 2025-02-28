@@ -93,11 +93,35 @@
             "title": "Kleb- & Dichtstoffe",
             "link": "shopify://collections/kleb-dichtstoffe"
           }
+        },
+        "card_wPiV7r": {
+          "type": "card",
+          "settings": {
+            "title": "Kategorie",
+            "link": ""
+          }
+        },
+        "card_NwAQWz": {
+          "type": "card",
+          "settings": {
+            "title": "Kategorie",
+            "link": ""
+          }
+        },
+        "card_HynByL": {
+          "type": "card",
+          "settings": {
+            "title": "Kategorie",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "card_KCyQze",
-        "card_kXmWi8"
+        "card_kXmWi8",
+        "card_wPiV7r",
+        "card_NwAQWz",
+        "card_HynByL"
       ],
       "settings": {
         "spacing_top": 20,
