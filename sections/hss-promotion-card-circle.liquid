@@ -10,30 +10,40 @@
 {%- endif -%}
 
 <style>
-  /* Abstandseinstellungen für den gesamten Abschnitt */
+  /* Abstand oben und unten */
   #shopify-section-{{ section.id }} {
     margin-top: {{ section.settings.spacing_top }}px;
     margin-bottom: {{ section.settings.spacing_bottom }}px;
   }
 
-  /* Container für die runden Cards */
+  /* Desktop-Grid */
   #shopify-section-{{ section.id }} .hss-promo-card-container {
     display: grid;
     grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
     gap: 20px;
   }
 
-  /* Stapelmodus auf Mobilgeräten */
+  /* Mobile Darstellung als Scroller */
   @media (max-width: 768px) {
     #shopify-section-{{ section.id }} .hss-promo-card-container {
-      grid-template-columns: {% if section.settings.stack_on_mobile %} 1fr {% else %} repeat(2, 1fr) {% endif %};
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      scroll-snap-type: x mandatory;
+      padding: 10px;
+      gap: 10px;
+    }
+
+    #shopify-section-{{ section.id }} .hss-promo-card {
+      flex: 0 0 auto;
+      scroll-snap-align: center;
     }
   }
 
   /* Runde Card */
   #shopify-section-{{ section.id }} .hss-promo-card {
-    width: {{ section.settings.card_size }}px;
-    height: {{ section.settings.card_size }}px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -42,11 +52,8 @@
     justify-content: center;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
     transition: transform 0.3s ease-in-out;
-    {% if section.settings.card_clickable_desktop %}
-      cursor: pointer;
-    {% endif %}
   }
 
   #shopify-section-{{ section.id }} .hss-promo-card:hover {
@@ -55,39 +62,18 @@
 
   /* Bild in der runden Card */
   #shopify-section-{{ section.id }} .hss-promo-card img {
-    width: 60%;
+    width: 80%;
     height: auto;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  /* Inhalte der Card */
-  #shopify-section-{{ section.id }} .hss-promo-card h3 {
-    font-size: 18px;
-    margin: 10px 0 5px;
-    color: {{ section.settings.text_color }};
-  }
-
+  /* Titel unter der runden Card */
   #shopify-section-{{ section.id }} .hss-promo-card p {
     font-size: 14px;
-    color: {{ section.settings.text_color }};
-  }
-
-  /* Button */
-  #shopify-section-{{ section.id }} .hss-promo-btn {
-    margin-top: 10px;
-    display: inline-block;
-    padding: 8px 12px;
-    background-color: {{ section.settings.button_color }};
-    color: {{ section.settings.button_text_color }};
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 14px;
-    transition: background 0.3s ease-in-out;
-  }
-
-  #shopify-section-{{ section.id }} .hss-promo-btn:hover {
-    background-color: {{ section.settings.button_hover_color }};
+    color: #000;
+    margin-top: 5px;
+    text-align: center;
   }
 </style>
 
@@ -95,25 +81,11 @@
   <div class="container">
     <div class="hss-promo-card-container">
       {% for block in section.blocks %}
-        <div class="hss-promo-card" style="background-color: {{ block.settings.card_background }};"
-          {% if section.settings.card_clickable_desktop and block.settings.link %}
-            onclick="window.location='{{ block.settings.link }}'"
-          {% endif %}
-        >
+        <div class="hss-promo-card" style="background-color: {{ block.settings.card_background }};">
           {% if block.settings.image %}
             <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title }}">
           {% endif %}
-          <div class="hss-promo-content">
-            {% if block.settings.title != blank %}
-              <h3>{{ block.settings.title }}</h3>
-            {% endif %}
-            {% if block.settings.text != blank %}
-              <p>{{ block.settings.text }}</p>
-            {% endif %}
-            {% if block.settings.link %}
-              <a href="{{ block.settings.link }}" class="hss-promo-btn">{{ block.settings.button_text }}</a>
-            {% endif %}
-          </div>
+          <p>{{ block.settings.title }}</p>
         </div>
       {% endfor %}
     </div>
@@ -152,18 +124,6 @@
       "default": 3
     },
     {
-      "type": "checkbox",
-      "id": "stack_on_mobile",
-      "label": "Stapel auf dem Handy",
-      "default": false
-    },
-    {
-      "type": "checkbox",
-      "id": "card_clickable_desktop",
-      "label": "Die gesamte Karte ist auf Desktops anklickbar",
-      "default": false
-    },
-    {
       "type": "range",
       "id": "card_size",
       "label": "Größe der runden Karte",
@@ -171,30 +131,6 @@
       "max": 400,
       "step": 10,
       "default": 250
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "Textfarbe",
-      "default": "#000000"
-    },
-    {
-      "type": "color",
-      "id": "button_color",
-      "label": "Button-Farbe",
-      "default": "#000000"
-    },
-    {
-      "type": "color",
-      "id": "button_text_color",
-      "label": "Button-Textfarbe",
-      "default": "#ffffff"
-    },
-    {
-      "type": "color",
-      "id": "button_hover_color",
-      "label": "Button Hover-Farbe",
-      "default": "#333333"
     }
   ],
   "blocks": [
@@ -212,23 +148,6 @@
           "id": "title",
           "label": "Titel",
           "default": "Promotion"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Beschreibung",
-          "default": "Hier steht eine kurze Beschreibung."
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link"
-        },
-        {
-          "type": "text",
-          "id": "button_text",
-          "label": "Button-Text",
-          "default": "Mehr erfahren"
         },
         {
           "type": "color",
