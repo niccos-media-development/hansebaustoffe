@@ -53,10 +53,11 @@
     flex: 0 0 auto;
   }
 
+  /* Sorgt dafür, dass die Icons immer rund sind */
   .hss-promo-image {
     width: {{ section.settings.desktop_size }}px;
     height: {{ section.settings.desktop_size }}px;
-    border-radius: {{ section.settings.border_radius }}px;
+    border-radius: 50%;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -66,11 +67,13 @@
   }
 
   .hss-promo-image img {
-    width: 80%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    border-radius: 50%; /* Stellt sicher, dass das Bild rund bleibt */
   }
 
+  /* Platzhalter für leere Bilder */
   .hss-placeholder {
     width: 100%;
     height: 100%;
@@ -86,7 +89,7 @@
   .hss-promo-highlight::after {
     content: '';
     border: 2px solid {{ section.settings.highlight_color }};
-    border-radius: {{ section.settings.border_radius }}px;
+    border-radius: 50%;
     width: 110%;
     height: 110%;
     position: absolute;
@@ -147,122 +150,3 @@
     startAutoScroll();
   });
 </script>
-
-{% schema %}
-{
-  "name": "HSS Promotion Card Circle",
-  "settings": [
-    {
-      "type": "color",
-      "id": "background_color",
-      "default": "#f2f2f2",
-      "label": "Hintergrundfarbe"
-    },
-    {
-      "type": "color",
-      "id": "icon_background",
-      "default": "#ffffff",
-      "label": "Hintergrundfarbe der Icons"
-    },
-    {
-      "type": "range",
-      "id": "desktop_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 92,
-      "label": "Größe der Icons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_distance",
-      "min": 0,
-      "max": 60,
-      "step": 1,
-      "default": 9,
-      "label": "Abstand zwischen Icons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 80,
-      "label": "Größe der Icons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_distance",
-      "min": 0,
-      "max": 10,
-      "step": 1,
-      "default": 2,
-      "label": "Abstand zwischen Icons (Mobile, %)"
-    },
-    {
-      "type": "checkbox",
-      "id": "auto_rotate",
-      "label": "Auto-Rotation aktivieren",
-      "default": true
-    },
-    {
-      "type": "range",
-      "id": "auto_rotate_speed",
-      "min": 1,
-      "max": 10,
-      "step": 1,
-      "default": 3,
-      "label": "Auto-Rotation Geschwindigkeit (Sekunden)"
-    },
-    {
-      "type": "range",
-      "id": "items_per_view",
-      "min": 1,
-      "max": 6,
-      "step": 1,
-      "default": 4,
-      "label": "Sichtbare Icons"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "category",
-      "name": "Kategorie",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Bild"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Kategorie",
-          "label": "Titel"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "Link"
-        },
-        {
-          "type": "checkbox",
-          "id": "highlight",
-          "label": "Hervorheben"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Promotion Card Circle",
-      "blocks": [
-        { "type": "category" },
-        { "type": "category" },
-        { "type": "category" }
-      ]
-    }
-  ]
-}
-{% endschema %}
