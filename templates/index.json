@@ -116,13 +116,6 @@
             "heading": "Kategorie",
             "url": ""
           }
-        },
-        "category_irFJgT": {
-          "type": "category",
-          "settings": {
-            "heading": "Kategorie",
-            "url": ""
-          }
         }
       },
       "block_order": [
@@ -130,8 +123,7 @@
         "category_GRUwTN",
         "category_p8ntxr",
         "category_gE8Rbk",
-        "category_UXJFP6",
-        "category_irFJgT"
+        "category_UXJFP6"
       ],
       "settings": {
         "background_color": "#f2f2f2",
