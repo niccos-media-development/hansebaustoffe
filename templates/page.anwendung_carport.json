@@ -136,7 +136,7 @@
         "columns": 3,
         "stack_on_mobile": false,
         "color_scheme": "accent-3",
-        "spacing_top": 0,
+        "spacing_top": 10,
         "spacing_bottom": 0
       }
     },
