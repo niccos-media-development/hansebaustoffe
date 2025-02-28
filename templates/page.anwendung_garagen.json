@@ -102,7 +102,7 @@
         "link_title": "",
         "link_url": "",
         "layout": "slider",
-        "columns": 2,
+        "columns": 3,
         "stack_on_mobile": false,
         "color_scheme": "background-1",
         "spacing_top": 60,
@@ -384,37 +384,6 @@
         "mobile_spacing_bottom": 40
       }
     },
-    "rich_text_gVn83E": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_DFFerY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Verarbeitungsvideos",
-            "heading_size": "sm"
-          }
-        },
-        "button_AUyVGd": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zu den Videos",
-            "button_link": "shopify://pages/verarbeitungsvideos"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DFFerY",
-        "button_AUyVGd"
-      ],
-      "settings": {
-        "narrow": true,
-        "overlay_background": "",
-        "alignment": "center",
-        "color_scheme": "background-1",
-        "spacing_top": 0,
-        "spacing_bottom": 0
-      }
-    },
     "rich_text_4GzrV9": {
       "type": "rich-text",
       "blocks": {
@@ -515,6 +484,37 @@
         "spacing_top": 10,
         "spacing_bottom": 10
       }
+    },
+    "rich_text_gVn83E": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DFFerY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Verarbeitungsvideos",
+            "heading_size": "sm"
+          }
+        },
+        "button_AUyVGd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zu den Videos",
+            "button_link": "shopify://pages/verarbeitungsvideos"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DFFerY",
+        "button_AUyVGd"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
     }
   },
   "order": [
@@ -528,8 +528,8 @@
     "featured_product_kiMHbg",
     "rich_text_efFmbC",
     "featured_collection_rpwYTg",
-    "rich_text_gVn83E",
     "rich_text_4GzrV9",
-    "product_lists_4qfMmy"
+    "product_lists_4qfMmy",
+    "rich_text_gVn83E"
   ]
 }
