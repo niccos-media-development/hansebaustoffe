@@ -18,10 +18,16 @@
 
   /* Container für die runden Cards */
   #shopify-section-{{ section.id }} .hss-promo-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
     gap: 20px;
+  }
+
+  /* Stapelmodus auf Mobilgeräten */
+  @media (max-width: 768px) {
+    #shopify-section-{{ section.id }} .hss-promo-card-container {
+      grid-template-columns: {% if section.settings.stack_on_mobile %} 1fr {% else %} repeat(2, 1fr) {% endif %};
+    }
   }
 
   /* Runde Card */
@@ -38,6 +44,9 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     transition: transform 0.3s ease-in-out;
+    {% if section.settings.card_clickable_desktop %}
+      cursor: pointer;
+    {% endif %}
   }
 
   #shopify-section-{{ section.id }} .hss-promo-card:hover {
@@ -86,7 +95,11 @@
   <div class="container">
     <div class="hss-promo-card-container">
       {% for block in section.blocks %}
-        <div class="hss-promo-card" style="background-color: {{ block.settings.card_background }};">
+        <div class="hss-promo-card" style="background-color: {{ block.settings.card_background }};"
+          {% if section.settings.card_clickable_desktop and block.settings.link %}
+            onclick="window.location='{{ block.settings.link }}'"
+          {% endif %}
+        >
           {% if block.settings.image %}
             <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title }}">
           {% endif %}
@@ -128,6 +141,27 @@
       "max": 100,
       "step": 5,
       "default": 20
+    },
+    {
+      "type": "range",
+      "id": "columns",
+      "label": "Anzahl der Spalten auf Desktop",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Stapel auf dem Handy",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "card_clickable_desktop",
+      "label": "Die gesamte Karte ist auf Desktops anklickbar",
+      "default": false
     },
     {
       "type": "range",
