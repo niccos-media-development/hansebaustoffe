@@ -1,7 +1,4 @@
 <div class="hss-promo-carousel">
-  <div class="slider-nav">
-    <button class="prev">←</button>
-  </div>
   <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
@@ -31,7 +28,9 @@
       <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
     {% endif %}
   </div>
+  <!-- Navigationspfeile für den Slider (nur für Desktop) -->
   <div class="slider-nav">
+    <button class="prev">←</button>
     <button class="next">→</button>
   </div>
 </div>
@@ -48,41 +47,21 @@
     position: relative;
   }
 
-  .slider-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 2;
-  }
-
-  .slider-nav .prev {
-    left: -40px; /* Pfeil links vom ersten Produkt */
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-
-  .slider-nav .next {
-    right: -40px; /* Pfeil rechts vom letzten Produkt */
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-
   .hss-promo-carousel-holder {
-    display: grid;
-    grid-template-columns: repeat({{ section.settings.items_per_row }}, 1fr); /* Anzahl der Produkte pro Reihe */
+    display: flex;
+    justify-content: flex-start;
     gap: {{ section.settings.desktop_distance }}px;
-    overflow-x: hidden;
+    overflow-x: auto;
     scroll-behavior: smooth;
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
     width: 100%;
     max-width: 1200px; /* Begrenzung der Breite auf Desktop */
+  }
+
+  .hss-promo-carousel-holder::-webkit-scrollbar {
+    display: none;
   }
 
   .hss-promo-item-wrapper {
@@ -93,6 +72,7 @@
     font-family: {{ section.settings.font.family }}, sans-serif;
     text-decoration: none;
     display: block;
+    flex: 0 0 auto;
   }
 
   .hss-promo-image {
@@ -163,6 +143,31 @@
     font-weight: bold;
   }
 
+  /* Slider Navigation Buttons */
+  .slider-nav {
+    position: absolute;
+    top: 50%;
+    left: 50px; /* Abstand von der linken Seite */
+    right: 50px; /* Abstand von der rechten Seite */
+    width: calc(100% - 100px); /* Maximale Breite der Pfeile auf Desktop */
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .prev, .next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
   /* Mobile Ansicht - keine Pfeile */
   @media only screen and (max-width: 768px) {
     .slider-nav {
@@ -170,7 +175,8 @@
     }
 
     .hss-promo-carousel-holder {
-      grid-template-columns: repeat({{ section.settings.mobile_items_per_row }}, 1fr); /* Anzahl der Produkte auf mobilen Geräten */
+      justify-content: flex-start;
+      padding: 10px 0;
       gap: {{ section.settings.mobile_distance }}%;
     }
 
@@ -265,24 +271,6 @@
       "step": 1,
       "default": 20,
       "label": "Abstand unten zu anderen Abschnitten"
-    },
-    {
-      "type": "range",
-      "id": "items_per_row",
-      "min": 1,
-      "max": 6,
-      "step": 1,
-      "default": 3,
-      "label": "Anzahl der Produkte pro Reihe (Desktop)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_items_per_row",
-      "min": 1,
-      "max": 4,
-      "step": 1,
-      "default": 2,
-      "label": "Anzahl der Produkte pro Reihe (Mobile)"
     }
   ],
   "blocks": [
