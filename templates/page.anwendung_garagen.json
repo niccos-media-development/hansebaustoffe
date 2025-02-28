@@ -533,7 +533,7 @@
         "button_AUyVGd": {
           "type": "button",
           "settings": {
-            "button_label": "Zu unserer Videogalerie",
+            "button_label": "Zur Videogalerie",
             "button_link": "shopify://pages/verarbeitungsvideos"
           }
         }
