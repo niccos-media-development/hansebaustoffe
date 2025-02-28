@@ -13,7 +13,11 @@
                 <div class="hss-placeholder">+</div>
               {% endif %}
             </div>
-            <span class="hss-promo-title" style="color: {{ block.settings.title_color }};">{{ block.settings.heading }}</span>
+            <span class="hss-promo-title" style="color: {{ block.settings.title_color }};">
+              {% if block.settings.heading %}
+                <span class="title-text">{{ block.settings.heading }}</span>
+              {% endif %}
+            </span>
           </div>
         </a>
       {% endfor %}
@@ -130,6 +134,12 @@
     font-size: 18px;
     color: red;
     font-weight: bold;
+  }
+
+  /* Sicherstellen, dass der Link die gleiche Farbe wie der Titel hat */
+  .hss-promo-title a {
+    color: inherit; /* Linkfarbe erbt die Titeltextfarbe */
+    text-decoration: none; /* Verhindert Standard-Textlink-Stil */
   }
 
   @media only screen and (max-width: 768px) {
