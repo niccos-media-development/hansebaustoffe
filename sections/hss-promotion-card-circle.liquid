@@ -96,12 +96,21 @@
     left: -5%;
   }
 
+  /* Titel-Umbruch für lange Namen */
   .hss-promo-title {
     display: block;
     margin-top: 5px;
+    max-width: {{ section.settings.desktop_size }}px; /* Maximale Breite = Icon-Größe */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    white-space: normal; /* Erzwingt den Umbruch */
+    line-height: 1.2;
+    font-size: {{ section.settings.fontsize }}px;
+    max-height: 3.6em; /* Begrenzung auf 3 Zeilen */
+    overflow: hidden;
   }
 
-  /* Mobile Darstellung */
   @media only screen and (max-width: 768px) {
     .hss-promo-carousel-holder {
       justify-content: flex-start;
@@ -117,6 +126,10 @@
     .hss-promo-image {
       width: {{ section.settings.mobile_size }}px;
       height: {{ section.settings.mobile_size }}px;
+    }
+
+    .hss-promo-title {
+      max-width: {{ section.settings.mobile_size }}px; /* Für Mobile anpassen */
     }
   }
 </style>
