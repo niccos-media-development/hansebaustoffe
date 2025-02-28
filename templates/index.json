@@ -101,6 +101,13 @@
             "link": ""
           }
         },
+        "card_EL7Ycy": {
+          "type": "card",
+          "settings": {
+            "title": "Kategorie",
+            "link": ""
+          }
+        },
         "card_NwAQWz": {
           "type": "card",
           "settings": {
@@ -120,6 +127,7 @@
         "card_KCyQze",
         "card_kXmWi8",
         "card_wPiV7r",
+        "card_EL7Ycy",
         "card_NwAQWz",
         "card_HynByL"
       ],
