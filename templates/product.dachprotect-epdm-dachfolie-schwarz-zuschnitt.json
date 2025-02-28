@@ -321,7 +321,7 @@
         "image_banner_pUAFVx": {
           "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/IMG_0602.jpg",
+            "image": "shopify://shop_images/IMG_1008.jpg",
             "description": "",
             "link": ""
           }
@@ -550,7 +550,7 @@
         "slide_6ARUgp": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/PHOTO-2022-08-11-14-55-59.jpg",
+            "image": "shopify://shop_images/IMG_0602.jpg",
             "overlay_background": "",
             "heading": "",
             "heading_size": "md",
