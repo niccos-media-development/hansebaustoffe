@@ -355,7 +355,8 @@
           "epdm-garantie-gully-garantie-gully-sets",
           "epdm-garantie-seitenablauf-garantie-seitenablauf-set",
           "epdm-klebe-gully-klebe-gully-sets",
-          "set-klebe-gully-inkl-anschlusskleber-flex"
+          "set-klebe-gully-inkl-anschlusskleber-flex",
+          "epdm-garantie-seitennotablauf-garantie-seitennotablauf-set"
         ],
         "hide_placeholders": false,
         "heading": "Entwässerung",
@@ -370,8 +371,8 @@
         "collection_text_color": "#fff",
         "collection_button_text": "",
         "collection_box_align": "bottom-left",
-        "layout": "grid",
-        "columns": "4",
+        "layout": "slider",
+        "columns": "3",
         "stack_on_mobile": false,
         "spacing_top": 60,
         "spacing_bottom": 60,
