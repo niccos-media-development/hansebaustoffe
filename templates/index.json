@@ -91,7 +91,7 @@
           "settings": {
             "image": "shopify://shop_images/200-WB1-020_BlueTek_Gruppe_Produktbild_1000x1000px_1.jpg",
             "heading": "Kleb- & Dichtstoffe",
-            "url": ""
+            "url": "shopify://collections/kleb-dichtstoffe"
           }
         },
         "category_p8ntxr": {
@@ -99,7 +99,7 @@
           "settings": {
             "image": "shopify://shop_images/300-PRI-12S_HSS_Aktivierung_Gruppe_1000x1000px_1.jpg",
             "heading": "EPDM Zubehör",
-            "url": ""
+            "url": "shopify://collections/epdm-zubehor"
           }
         },
         "category_fpFjLA": {
@@ -107,7 +107,7 @@
           "settings": {
             "image": "shopify://shop_images/400-200-XXX_Garantie-Gullys_SET_1000x1000px_1.jpg",
             "heading": "Garantie-Gullys",
-            "url": ""
+            "url": "shopify://collections/garantie-gullys"
           }
         },
         "category_meBp43": {
@@ -115,7 +115,7 @@
           "settings": {
             "image": "shopify://shop_images/400-ADW-110_Wohnraum_Strangentluefter_DN110-125_doppelwandig_Produktbild_1000x1000px_2.jpg",
             "heading": "Be- & Entlüftung",
-            "url": ""
+            "url": "shopify://collections/be-entluftung"
           }
         },
         "category_gE8Rbk": {
@@ -123,7 +123,7 @@
           "settings": {
             "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Kabeldurchfuehrung_1.png",
             "heading": "Kabeldurchführung",
-            "url": ""
+            "url": "shopify://collections/kabeldurchfuhrungen"
           }
         },
         "category_AqPXDz": {
@@ -131,7 +131,7 @@
           "settings": {
             "image": "shopify://shop_images/500-600-195_Isos_7016_Render_Produktbild_1000x1000px_1.jpg",
             "heading": "Dachrandprofile",
-            "url": ""
+            "url": "shopify://collections/dachrandprofile"
           }
         },
         "category_UXJFP6": {
@@ -139,7 +139,7 @@
           "settings": {
             "image": "shopify://shop_images/500-WAP-100_Wandanschlussprofil_Produktbild_5_1000x1000_59baa838-d019-4f04-bd25-b878b7a9c3c3.jpg",
             "heading": "Wandanschluss",
-            "url": ""
+            "url": "shopify://collections/wandanschluss"
           }
         }
       },
