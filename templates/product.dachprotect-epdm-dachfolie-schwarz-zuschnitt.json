@@ -313,7 +313,7 @@
         "image_banner_pUAFVx": {
           "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_2.jpg",
+            "image": "shopify://shop_images/Thomas_1.jpg",
             "description": "",
             "link": ""
           }
@@ -329,7 +329,7 @@
         "image_banner_JgVNHH": {
           "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/Image_1.jpg",
+            "image": "shopify://shop_images/12.jpg",
             "description": "",
             "link": ""
           }
@@ -527,7 +527,7 @@
         "slide_J7DEcE": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_2.jpg",
+            "image": "shopify://shop_images/Thomas_1.jpg",
             "overlay_background": "",
             "heading": "",
             "heading_size": "md",
