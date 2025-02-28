@@ -117,6 +117,9 @@
         "heading_dzUaCt",
         "text_ReTDGa"
       ],
+      "custom_css": [
+        ".rich-text {max-width: 100% !important; width: 100% !important; margin: 0 auto;}"
+      ],
       "settings": {
         "narrow": true,
         "overlay_background": "",
