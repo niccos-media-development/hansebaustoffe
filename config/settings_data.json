@@ -45,7 +45,7 @@
     "typography_body2_size": 16,
     "favicon": "shopify://shop_images/HSS_Favicon_100x100px_367be896-4259-4f61-86f7-45eb500721ad.png",
     "breadcrumbs_enabled": false,
-    "catalog_enabled": false,
+    "catalog_enabled": true,
     "only_x_left": 3,
     "show_items_in_stock": false,
     "sale_badge_mode": "sale",
