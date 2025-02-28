@@ -153,30 +153,22 @@
         "text_3XFDQt": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-            "text_size": "md"
-          }
-        },
-        "button_qKETar": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<h5>1. Konfigurieren Sie Ihre DACHPROTECT EPDM Folie</h5><p><strong>1,2 mm:</strong> Für Nebengebäude und Anwendungen ohne Vorgabe nach einer Richtlinie oder Norm<br/>Geeignet für private Verarbeiter</p><p><strong>1,5 mm:</strong> Für Wohngebäude/Nebengebäude sowie Anwendungen die eine Materialstärke von 1,5 mm nach einer Norm oder Richtlinie erfordern. <br/>Geeignet für Private- und gewerbliche Verarbeiter</p><p><strong>Hinweise:<br/></strong><em><strong>Breite und Länge können bei Bedarf miteinander vertauscht werden, um den Verschnitt zu minimieren. Die EPDM Dachfolie weist produktionsbedingt alle 1,50 m eine Materialverdickung auf, die parallel zur Breite der EPDM Dachfolie verläuft.<br/>Achten Sie darauf Dachränder und Hochzüge ausreichend zu berücksichtigen. </strong></em></p>",
+            "text_size": "sm"
           }
         }
       },
       "block_order": [
         "heading_3BhD8T",
-        "text_3XFDQt",
-        "button_qKETar"
+        "text_3XFDQt"
       ],
       "settings": {
         "narrow": true,
         "overlay_background": "",
-        "alignment": "center",
+        "alignment": "left",
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 10,
+        "spacing_bottom": 10
       }
     },
     "main": {
