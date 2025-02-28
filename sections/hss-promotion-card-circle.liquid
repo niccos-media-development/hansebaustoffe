@@ -5,7 +5,8 @@
         <!-- Der gesamte Block (Bild + Titel) ist der Link -->
         <a href="{{ block.settings.url }}" class="hss-promo-item-wrapper">
           <div class="hss-promo-item">
-            <div class="hss-promo-image hexagon-wrapper">
+            <!-- HEXAGON CONTAINER -->
+            <div class="hss-promo-image">
               <div class="hexagon">
                 {% if block.settings.image %}
                   <div class="hexagon-img-wrapper">
@@ -16,7 +17,10 @@
                 {% endif %}
               </div>
             </div>
-            <span class="hss-promo-title">{{ block.settings.heading }}</span>
+            <!-- TITLE CONTAINER -->
+            <div class="hss-promo-title-wrapper">
+              <span class="hss-promo-title">{{ block.settings.heading }}</span>
+            </div>
           </div>
         </a>
       {% endfor %}
@@ -64,24 +68,20 @@
     display: block;
   }
 
-  /* HEXAGON-WRAPPER für Rand */
-  .hexagon-wrapper {
+  /* HEXAGON CONTAINER */
+  .hss-promo-image {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    padding: 0;
-    text-align: center;
-    height: 100%;
-    max-width: 100%;
+    height: {{ section.settings.desktop_size }}px; /* Feste Höhe für Hexagon */
+    width: {{ section.settings.desktop_size }}px;
+    margin: 0 auto; /* Zentriert das Hexagon */
   }
 
-  /* HEXAGON-FORM - feste Höhe und gleiche Größe */
   .hexagon {
-    width: {{ section.settings.desktop_size }}px;
-    height: {{ section.settings.desktop_size }}px; /* Feste Höhe für alle Hexagons */
+    width: 100%;
+    height: 100%;
     background-color: {{ section.settings.icon_background }};
-    position: relative;
     clip-path: polygon(
       50% 0%, 100% 25%, 100% 75%,
       50% 100%, 0% 75%, 0% 25%
@@ -90,10 +90,8 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin-bottom: 10px; /* Abstand zum Titel */
   }
 
-  /* Bild als Hexagon */
   .hexagon-img-wrapper {
     width: 100%;
     height: 100%;
@@ -118,9 +116,12 @@
     background: #f5f5f5;
   }
 
-  /* Titel unterhalb des Hexagons */
+  /* TITLE CONTAINER */
+  .hss-promo-title-wrapper {
+    margin-top: 10px; /* Abstand zum Hexagon */
+  }
+
   .hss-promo-title {
-    display: block;
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: center;
@@ -159,8 +160,8 @@
       margin: 0 auto;
     }
 
-    .hexagon-wrapper {
-      padding: 0;
+    .hss-promo-title-wrapper {
+      padding: 0 10px; /* Ein bisschen Padding für den Titel auf Mobilgeräten */
     }
 
     .hexagon {
