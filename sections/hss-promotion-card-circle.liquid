@@ -3,18 +3,20 @@
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
         <a href="{{ block.settings.url }}" class="hss-promo-item">
-          <div class="hss-promo-border">
-            <div class="hss-promo-image hexagon {% if block.settings.highlight %}hss-promo-highlight{% endif %}">
-              {% if block.settings.image %}
-                <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
-              {% else %}
-                <div class="hss-placeholder">+</div>
-              {% endif %}
+          <div class="hss-promo-container">
+            <div class="hss-promo-border">
+              <div class="hss-promo-image hexagon {% if block.settings.highlight %}hss-promo-highlight{% endif %}">
+                {% if block.settings.image %}
+                  <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+                {% else %}
+                  <div class="hss-placeholder">+</div>
+                {% endif %}
+              </div>
             </div>
+            {% if block.settings.heading != blank %}
+              <span class="hss-promo-title">{{ block.settings.heading }}</span>
+            {% endif %}
           </div>
-          {% if block.settings.heading != blank %}
-            <span class="hss-promo-title">{{ block.settings.heading }}</span>
-          {% endif %}
         </a>
       {% endfor %}
     {% else %}
@@ -35,7 +37,7 @@
   .hss-promo-carousel-holder {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* 🔹 Sorgt für gleiche Höhe */
     gap: {{ section.settings.desktop_distance }}px;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -59,7 +61,16 @@
     flex: 0 0 auto;
   }
 
-  /* HEXAGON-FORM */
+  /* 🔹 Neuer flexibler Container für Titel & Hexagon */
+  .hss-promo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  /* HEXAGON-FORM mit Rand */
   .hss-promo-border {
     width: {{ section.settings.desktop_size | times: 1.1 }}px;
     height: {{ section.settings.desktop_size | times: 1.27 }}px;
@@ -105,6 +116,7 @@
     background: #f5f5f5;
   }
 
+  /* 🔹 Titel bleibt unter dem Hexagon & beeinflusst nicht die Höhe */
   .hss-promo-title {
     display: block;
     margin-top: 5px;
@@ -146,108 +158,3 @@
     }
   }
 </style>
-
-{% schema %}
-{
-  "name": "HSS Hexagon Cards",
-  "settings": [
-    {
-      "type": "color",
-      "id": "background_color",
-      "default": "#f2f2f2",
-      "label": "Hintergrundfarbe"
-    },
-    {
-      "type": "color",
-      "id": "icon_background",
-      "default": "#ffffff",
-      "label": "Hintergrundfarbe der Hexagons"
-    },
-    {
-      "type": "color",
-      "id": "hexagon_border_color",
-      "default": "#000000",
-      "label": "Randfarbe des Hexagons"
-    },
-    {
-      "type": "range",
-      "id": "hexagon_border_width",
-      "min": 0,
-      "max": 10,
-      "step": 1,
-      "default": 5,
-      "label": "Randbreite des Hexagons (px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 92,
-      "label": "Größe der Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 80,
-      "label": "Größe der Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_distance",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand zwischen Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_distance",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "default": 10,
-      "label": "Abstand zwischen Hexagons (Mobile, px)"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "category",
-      "name": "Kategorie",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Bild"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Kategorie",
-          "label": "Titel"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "Link"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Hexagon Cards",
-      "blocks": [
-        { "type": "category" },
-        { "type": "category" },
-        { "type": "category" }
-      ]
-    }
-  ]
-}
-{% endschema %}
