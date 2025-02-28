@@ -28,7 +28,7 @@
       <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
     {% endif %}
   </div>
-  <!-- Navigationspfeile für den Slider -->
+  <!-- Navigationspfeile für den Slider (nur für Desktop) -->
   <div class="slider-nav">
     <button class="prev">←</button>
     <button class="next">→</button>
@@ -57,6 +57,7 @@
     max-width: 100%;
     padding: 10px;
     width: 100%;
+    max-width: 1200px; /* Begrenzung der Breite auf Desktop */
   }
 
   .hss-promo-carousel-holder::-webkit-scrollbar {
@@ -165,8 +166,12 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
 
-  /* Mobile Ansicht */
+  /* Mobile Ansicht - keine Pfeile */
   @media only screen and (max-width: 768px) {
+    .slider-nav {
+      display: none; /* Versteckt die Pfeile auf mobilen Geräten */
+    }
+
     .hss-promo-carousel-holder {
       justify-content: flex-start;
       padding: 10px 0;
