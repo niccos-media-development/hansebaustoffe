@@ -139,24 +139,23 @@
     "rich_text_LwzQbH": {
       "type": "rich-text",
       "blocks": {
-        "heading_dzUaCt": {
+        "heading_7TEzXA": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "In vier Schritten zur perfekten Garagen-Abdichtungmit DACHPROTECT EPDM",
+            "heading": "1. Konfigurieren Sie Ihre DACHPROTECT EPDM Folie",
             "heading_size": "md"
           }
         },
         "text_ReTDGa": {
           "type": "text",
           "settings": {
-            "text": "<h3>1. Konfigurieren Sie Ihre DACHPROTECT EPDM Folie</h3><p><strong>1,2 mm:</strong> Für Nebengebäude und Anwendungen ohne Vorgabe nach einer Richtlinie oder Norm<br/>Geeignet für private Verarbeiter</p><p><strong>1,5 mm:</strong> Für Wohngebäude/Nebengebäude sowie Anwendungen die eine Materialstärke von 1,5 mm nach einer Norm oder Richtlinie erfordern. <br/>Geeignet für Private- und gewerbliche Verarbeiter</p><p><strong>Hinweise:<br/></strong><em><strong>Breite und Länge können bei Bedarf miteinander vertauscht werden, um den Verschnitt zu minimieren. Die EPDM Dachfolie weist produktionsbedingt alle 1,50 m eine Materialverdickung auf, die parallel zur Breite der EPDM Dachfolie verläuft.<br/>Achten Sie darauf Dachränder und Hochzüge ausreichend zu berücksichtigen. </strong></em></p>",
+            "text": "<p><strong>1,2 mm:</strong> Für Nebengebäude und Anwendungen ohne Vorgabe nach einer Richtlinie oder Norm<br/>Geeignet für private Verarbeiter</p><p><strong>1,5 mm:</strong> Für Wohngebäude/Nebengebäude sowie Anwendungen die eine Materialstärke von 1,5 mm nach einer Norm oder Richtlinie erfordern. <br/>Geeignet für Private- und gewerbliche Verarbeiter</p><p><strong>Hinweise:<br/></strong><em><strong>Breite und Länge können bei Bedarf miteinander vertauscht werden, um den Verschnitt zu minimieren. Die EPDM Dachfolie weist produktionsbedingt alle 1,50 m eine Materialverdickung auf, die parallel zur Breite der EPDM Dachfolie verläuft.<br/>Achten Sie darauf Dachränder und Hochzüge ausreichend zu berücksichtigen. </strong></em></p>",
             "text_size": "md"
           }
         }
       },
       "block_order": [
-        "heading_dzUaCt",
+        "heading_7TEzXA",
         "text_ReTDGa"
       ],
       "custom_css": [],
