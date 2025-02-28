@@ -71,19 +71,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-  }
-
-  /* Pseudo-Element for Border */
-  .hexagon::before {
-    content: '';
-    position: absolute;
-    top: -{{ section.settings.border_width }}px;
-    left: -{{ section.settings.border_width }}px;
-    right: -{{ section.settings.border_width }}px;
-    bottom: -{{ section.settings.border_width }}px;
-    border: {{ section.settings.border_width }}px solid {{ section.settings.border_color }};
-    clip-path: inherit; /* Same hexagonal clip-path */
-    z-index: -1; /* Ensure the border is behind the image */
+    border: {{ section.settings.border_width }}px solid {{ section.settings.border_color }}; /* Randfarbe und -dicke angewendet */
   }
 
   .hexagon img {
