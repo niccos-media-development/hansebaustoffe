@@ -114,46 +114,6 @@
             "highlight": false
           }
         },
-        "category_jCByCW": {
-          "type": "category",
-          "settings": {
-            "heading": "Kategorie",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_8894Vy": {
-          "type": "category",
-          "settings": {
-            "heading": "Kategorie",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_6E88ft": {
-          "type": "category",
-          "settings": {
-            "heading": "Kategorie",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_iT8HXE": {
-          "type": "category",
-          "settings": {
-            "heading": "Kategorie",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_4xrDDf": {
-          "type": "category",
-          "settings": {
-            "heading": "Kategorie",
-            "url": "",
-            "highlight": false
-          }
-        },
         "category_ff9w6H": {
           "type": "category",
           "settings": {
@@ -184,11 +144,6 @@
         "category_GRUwTN",
         "category_p8ntxr",
         "category_gE8Rbk",
-        "category_jCByCW",
-        "category_8894Vy",
-        "category_6E88ft",
-        "category_iT8HXE",
-        "category_4xrDDf",
         "category_ff9w6H",
         "category_UXJFP6",
         "category_irFJgT"
@@ -197,7 +152,12 @@
         "background_color": "#f2f2f2",
         "icon_background": "#ffffff",
         "desktop_size": 150,
-        "mobile_size": 80
+        "mobile_size": 80,
+        "desktop_distance": 9,
+        "mobile_distance": 2,
+        "items_per_row": 4,
+        "auto_rotate": true,
+        "auto_rotate_speed": 3
       }
     },
     "niccos_promotional_cards_WnDXcV": {
