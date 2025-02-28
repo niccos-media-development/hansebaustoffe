@@ -13,24 +13,50 @@
       "type": "main-page",
       "custom_css": [],
       "settings": {
-        "hide_heading": false
+        "hide_heading": true
       }
     },
-    "1740732058c5b6dd73": {
-      "type": "apps",
+    "rich_text_wArdUE": {
+      "type": "rich-text",
       "blocks": {
-        "xo_gallery_xo_gallery_XAtz8c": {
-          "type": "shopify://apps/xo-gallery/blocks/xo-gallery/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+        "heading_bWzbmD": {
+          "type": "heading",
           "settings": {
-            "type": "gallery",
-            "id": 1,
-            "mid": ""
+            "heading": "EPDM-Folie für Ihr Carport - haltbar, flexibel und umweltfreundlich",
+            "heading_size": "sm"
+          }
+        },
+        "text_cUwK78": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die richtige Wahl der Dachabdichtung für Ihr Carport sollte nicht unterschätzt werden. Sie ist nicht nur entscheidend für den Schutz Ihrer Fahrzeuge, sondern muss auch die Holzkonstruktion vor Umwelt- und Witterungseinflüssen schützen. Weiterhin gewährleistet eine hochwertige EPDM Abdichtung nicht nur die Wasserundurchlässigkeit, sondern minimiert auch den Wartungsaufwand. Nehmen Sie sich daher für die Auswahl der richtigen Abdichtung genug Zeit, damit alle Anforderungen an die Abdichtung abgedeckt werden.  </p><p>Mit einer Dachfolie von DACHPROTECT schützen Sie Ihr Dach langfristig und zuverlässig vor Umwelt- und Witterungseinflüssen. Mit einer nachweislichen Haltbarkeit von über 50 Jahren, reduzieren Sie nicht nur den Wartungsaufwand des Objektes, sondern schonen Ihren Geldbeutel und die Umwelt.</p>",
+            "text_size": "sm"
+          }
+        },
+        "button_zqhJBG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "xo_gallery_xo_gallery_XAtz8c"
+        "heading_bWzbmD",
+        "text_cUwK78",
+        "button_zqhJBG"
       ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "1740732058c5b6dd73": {
+      "type": "apps",
       "settings": {
         "full_width": false
       }
@@ -44,6 +70,7 @@
   },
   "order": [
     "main",
+    "rich_text_wArdUE",
     "1740732058c5b6dd73",
     "173945177119dc2136"
   ]
