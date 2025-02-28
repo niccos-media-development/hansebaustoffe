@@ -1,177 +1,227 @@
-{{ 'component-card-overlay.css' | asset_url | stylesheet_tag }}
-{{ 'component-collage.css' | asset_url | stylesheet_tag }}
-{{ 'component-pills.css' | asset_url | stylesheet_tag }}
-{{ 'component-scroller.css' | asset_url | stylesheet_tag }}
-
-{%- if section.settings.layout == 'slider' -%}
-  {{ 'flickity.css' | asset_url | stylesheet_tag }}
-  <script src="{{ 'flickity.pkgd.js' | asset_url }}" defer="defer"></script>
-  <script src="{{ 'carousel-slider.js' | asset_url }}" defer="defer"></script>
-{%- endif -%}
+<div class="hss-promo-carousel">
+  <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
+    {% for block in section.blocks %}
+      <a href="{{ block.settings.url }}" class="hss-promo-item">
+        <div class="hss-promo-image {% if block.settings.highlight %}hss-promo-highlight{% endif %}">
+          <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+        </div>
+        <span class="hss-promo-title">{{ block.settings.heading }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</div>
 
 <style>
-  /* Abstand oben und unten für den ganzen Abschnitt */
-  #shopify-section-{{ section.id }} {
-    margin-top: {{ section.settings.spacing_top }}px;
-    margin-bottom: {{ section.settings.spacing_bottom }}px;
-  }
-
-  /* --- DESKTOP: Grid-Layout mit konfigurierbaren Spalten --- */
-  #shopify-section-{{ section.id }} .hss-promo-card-container {
-    display: grid;
-    grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
-    gap: 20px;
-    text-align: center;
-  }
-
-  /* --- MOBILE: Horizontaler Scroller --- */
-  @media (max-width: 768px) {
-    #shopify-section-{{ section.id }} .hss-promo-card-container {
-      display: flex;
-      overflow-x: auto;
-      white-space: nowrap;
-      scroll-snap-type: x mandatory;
-      gap: 10px;
-      padding: 10px 0;
-    }
-
-    #shopify-section-{{ section.id }} .hss-promo-card {
-      flex: 0 0 auto;
-      scroll-snap-align: center;
-      width: {{ section.settings.card_size_mobile }}px;
-      height: auto;
-    }
-  }
-
-  /* Die klickbare Karte */
-  #shopify-section-{{ section.id }} .hss-promo-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-  }
-
-  /* Rundes Bild */
-  #shopify-section-{{ section.id }} .hss-promo-card .hss-promo-image {
-    width: {{ section.settings.card_size }}px;
-    height: {{ section.settings.card_size }}px;
-    border-radius: 50%;
+  .hss-promo-carousel {
+    background: {{ section.settings.background_color }};
+    padding: 20px 0;
     overflow: hidden;
-    background-color: {{ section.settings.card_background }};
+  }
+
+  .hss-promo-carousel-holder {
+    display: flex;
+    gap: {{ section.settings.desktop_distance }}px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .hss-promo-item {
+    text-align: center;
+    text-decoration: none;
+    font-size: {{ section.settings.fontsize }}px;
+    font-weight: 600;
+    color: {{ section.settings.text_color }};
+    font-family: {{ section.settings.font.family }}, sans-serif;
+  }
+
+  .hss-promo-image {
+    width: {{ section.settings.desktop_size }}px;
+    height: {{ section.settings.desktop_size }}px;
+    border-radius: {{ section.settings.border_radius }}px;
+    overflow: hidden;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
   }
 
-  #shopify-section-{{ section.id }} .hss-promo-card:hover .hss-promo-image {
-    transform: scale(1.05);
-  }
-
-  /* Bild in der runden Form */
-  #shopify-section-{{ section.id }} .hss-promo-card img {
-    width: 80%;
-    height: auto;
+  .hss-promo-image img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 
-  /* Titel unter dem Bild */
-  #shopify-section-{{ section.id }} .hss-promo-card .hss-promo-title {
-    font-size: 14px;
+  .hss-promo-highlight::after {
+    content: '';
+    border: 2px solid {{ section.settings.highlight_color }};
+    border-radius: {{ section.settings.border_radius }}px;
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    top: -5%;
+    left: -5%;
+  }
+
+  .hss-promo-title {
+    display: block;
     margin-top: 5px;
-    color: {{ section.settings.text_color }};
-    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hss-promo-carousel-holder {
+      gap: {{ section.settings.mobile_distance }}%;
+    }
+
+    .hss-promo-image {
+      width: {{ section.settings.mobile_size }}%;
+      height: auto;
+    }
   }
 </style>
 
-<div class="color-{{ section.settings.color_scheme }}">
-  <div class="container">
-    <div class="hss-promo-card-container">
-      {% for block in section.blocks %}
-        <a href="{{ block.settings.link }}" class="hss-promo-card">
-          <div class="hss-promo-image">
-            {% if block.settings.image %}
-              <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title }}">
-            {% endif %}
-          </div>
-          {% if block.settings.title != blank %}
-            <div class="hss-promo-title">{{ block.settings.title }}</div>
-          {% endif %}
-        </a>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const container = document.querySelector("#carousel-{{ section.id }}");
+    let scrollAmount = 0;
+    let autoScroll;
+
+    function startAutoScroll() {
+      if ({{ section.settings.auto_rotate }}) {
+        autoScroll = setInterval(() => {
+          if (scrollAmount >= container.scrollWidth - container.clientWidth) {
+            scrollAmount = 0;
+          } else {
+            scrollAmount += container.clientWidth / {{ section.settings.items_per_view }};
+          }
+          container.scrollTo({ left: scrollAmount, behavior: "smooth" });
+        }, {{ section.settings.auto_rotate_speed }} * 1000); // Umwandlung von Sekunden in ms
+      }
+    }
+
+    function stopAutoScroll() {
+      clearInterval(autoScroll);
+    }
+
+    container.addEventListener("mouseenter", stopAutoScroll);
+    container.addEventListener("mouseleave", startAutoScroll);
+
+    startAutoScroll();
+  });
+</script>
 
 {% schema %}
 {
   "name": "HSS Promotion Card Circle",
   "settings": [
     {
-      "type": "range",
-      "id": "spacing_top",
-      "label": "Abstand oben",
-      "min": 0,
-      "max": 100,
-      "step": 5,
-      "default": 20
-    },
-    {
-      "type": "range",
-      "id": "spacing_bottom",
-      "label": "Abstand unten",
-      "min": 0,
-      "max": 100,
-      "step": 5,
-      "default": 20
-    },
-    {
-      "type": "range",
-      "id": "columns",
-      "label": "Anzahl der Spalten auf Desktop",
-      "min": 1,
-      "max": 6,
-      "step": 1,
-      "default": 4
-    },
-    {
-      "type": "range",
-      "id": "card_size",
-      "label": "Größe der runden Karte (Desktop)",
-      "min": 100,
-      "max": 400,
-      "step": 10,
-      "default": 120
-    },
-    {
-      "type": "range",
-      "id": "card_size_mobile",
-      "label": "Größe der runden Karte (Mobile)",
-      "min": 60,
-      "max": 200,
-      "step": 10,
-      "default": 80
-    },
-    {
       "type": "color",
-      "id": "card_background",
-      "label": "Hintergrundfarbe der runden Karte",
-      "default": "#f8f8f8"
+      "id": "background_color",
+      "default": "#f2f2f2",
+      "label": "Hintergrundfarbe"
+    },
+    {
+      "type": "range",
+      "id": "desktop_size",
+      "min": 50,
+      "max": 150,
+      "step": 1,
+      "default": 92,
+      "label": "Größe der Icons (Desktop, px)"
+    },
+    {
+      "type": "range",
+      "id": "desktop_distance",
+      "min": 0,
+      "max": 60,
+      "step": 1,
+      "default": 9,
+      "label": "Abstand zwischen Icons (Desktop, px)"
+    },
+    {
+      "type": "range",
+      "id": "mobile_size",
+      "min": 13,
+      "max": 36,
+      "step": 1,
+      "default": 20,
+      "label": "Größe der Icons (Mobile, %)"
+    },
+    {
+      "type": "range",
+      "id": "mobile_distance",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "default": 2,
+      "label": "Abstand zwischen Icons (Mobile, %)"
+    },
+    {
+      "type": "font_picker",
+      "id": "font",
+      "default": "sans-serif",
+      "label": "Schriftart"
+    },
+    {
+      "type": "range",
+      "id": "fontsize",
+      "min": 6,
+      "max": 24,
+      "step": 1,
+      "default": 12,
+      "label": "Schriftgröße"
     },
     {
       "type": "color",
       "id": "text_color",
-      "label": "Textfarbe",
-      "default": "#000000"
+      "default": "#000",
+      "label": "Schriftfarbe"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 100,
+      "label": "Abrundung der Bilder"
+    },
+    {
+      "type": "color",
+      "id": "highlight_color",
+      "default": "#c4258d",
+      "label": "Rahmenfarbe für Hervorhebung"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_rotate",
+      "label": "Auto-Rotation aktivieren",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "auto_rotate_speed",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 3,
+      "label": "Auto-Rotation Geschwindigkeit (Sekunden)"
+    },
+    {
+      "type": "range",
+      "id": "items_per_view",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 4,
+      "label": "Sichtbare Icons"
     }
   ],
   "blocks": [
     {
-      "type": "card",
-      "name": "Promotion Card",
+      "type": "block",
+      "name": "Promotion Item",
       "settings": [
         {
           "type": "image_picker",
@@ -180,14 +230,19 @@
         },
         {
           "type": "text",
-          "id": "title",
-          "label": "Titel",
-          "default": "Kategorie"
+          "id": "heading",
+          "default": "Kategorie",
+          "label": "Titel"
         },
         {
           "type": "url",
-          "id": "link",
+          "id": "url",
           "label": "Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Hervorheben"
         }
       ]
     }
@@ -196,15 +251,9 @@
     {
       "name": "HSS Promotion Card Circle",
       "blocks": [
-        {
-          "type": "card"
-        },
-        {
-          "type": "card"
-        },
-        {
-          "type": "card"
-        }
+        { "type": "block" },
+        { "type": "block" },
+        { "type": "block" }
       ]
     }
   ]
