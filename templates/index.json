@@ -162,7 +162,7 @@
         "icon_background": "#ffffff",
         "hexagon_border_color": "#000000",
         "hexagon_border_width": 1,
-        "desktop_size": 150,
+        "desktop_size": 100,
         "mobile_size": 80,
         "desktop_distance": 9,
         "mobile_distance": 10
