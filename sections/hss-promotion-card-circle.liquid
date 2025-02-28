@@ -3,16 +3,21 @@
     {% for block in section.blocks %}
       <a href="{{ block.settings.url }}" class="hss-promo-item">
         <div class="hss-promo-image {% if block.settings.highlight %}hss-promo-highlight{% endif %}">
-          <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+          {% if block.settings.image %}
+            <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+          {% else %}
+            <div class="hss-placeholder">+</div>
+          {% endif %}
         </div>
-        <span class="hss-promo-title">{{ block.settings.heading }}</span>
+        {% if block.settings.heading != blank %}
+          <span class="hss-promo-title">{{ block.settings.heading }}</span>
+        {% endif %}
       </a>
     {% endfor %}
   </div>
 </div>
 
 <style>
-  /* Hintergrundfarbe */
   .hss-promo-carousel {
     background: {{ section.settings.background_color }};
     padding: 20px 0;
@@ -21,7 +26,6 @@
     align-items: center;
   }
 
-  /* Zentrierter Container */
   .hss-promo-carousel-holder {
     display: flex;
     justify-content: center;
@@ -35,12 +39,10 @@
     padding: 10px;
   }
 
-  /* Scrollbar entfernen */
   .hss-promo-carousel-holder::-webkit-scrollbar {
     display: none;
   }
 
-  /* Einzelnes Item */
   .hss-promo-item {
     text-align: center;
     text-decoration: none;
@@ -51,7 +53,6 @@
     flex: 0 0 auto;
   }
 
-  /* Runde Icons */
   .hss-promo-image {
     width: {{ section.settings.desktop_size }}px;
     height: {{ section.settings.desktop_size }}px;
@@ -70,7 +71,18 @@
     object-fit: cover;
   }
 
-  /* Hervorhebung */
+  .hss-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #ccc;
+    background: #f5f5f5;
+    border-radius: 50%;
+  }
+
   .hss-promo-highlight::after {
     content: '';
     border: 2px solid {{ section.settings.highlight_color }};
@@ -82,13 +94,11 @@
     left: -5%;
   }
 
-  /* Titel unter den Icons */
   .hss-promo-title {
     display: block;
     margin-top: 5px;
   }
 
-  /* MOBILE Darstellung */
   @media only screen and (max-width: 768px) {
     .hss-promo-carousel-holder {
       justify-content: flex-start;
@@ -191,42 +201,6 @@
       "label": "Abstand zwischen Icons (Mobile, %)"
     },
     {
-      "type": "font_picker",
-      "id": "font",
-      "default": "sans-serif",
-      "label": "Schriftart"
-    },
-    {
-      "type": "range",
-      "id": "fontsize",
-      "min": 6,
-      "max": 24,
-      "step": 1,
-      "default": 12,
-      "label": "Schriftgröße"
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "default": "#000",
-      "label": "Schriftfarbe"
-    },
-    {
-      "type": "range",
-      "id": "border_radius",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 100,
-      "label": "Abrundung der Bilder"
-    },
-    {
-      "type": "color",
-      "id": "highlight_color",
-      "default": "#c4258d",
-      "label": "Rahmenfarbe für Hervorhebung"
-    },
-    {
       "type": "checkbox",
       "id": "auto_rotate",
       "label": "Auto-Rotation aktivieren",
@@ -249,6 +223,45 @@
       "step": 1,
       "default": 4,
       "label": "Sichtbare Icons"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "Kategorie",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Bild"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Kategorie",
+          "label": "Titel"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Hervorheben"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "HSS Promotion Card Circle",
+      "blocks": [
+        { "type": "category" },
+        { "type": "category" },
+        { "type": "category" }
+      ]
     }
   ]
 }
