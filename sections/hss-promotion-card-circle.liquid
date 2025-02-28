@@ -2,41 +2,23 @@
   <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
-        <div class="hss-promo-item-wrapper">
-          {% if block.settings.link_enabled %}
-            <!-- Das gesamte Block-Element ist jetzt ein Link -->
-            <a href="{{ block.settings.url }}" class="hss-promo-item">
-              <div class="hss-promo-image hexagon-wrapper">
-                <div class="hexagon">
-                  {% if block.settings.image %}
-                    <div class="hexagon-img-wrapper">
-                      <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
-                    </div>
-                  {% else %}
-                    <div class="hss-placeholder">+</div>
-                  {% endif %}
-                </div>
-                <span class="hss-promo-title">{{ block.settings.heading }}</span>
+        <!-- Der gesamte Block (Bild + Titel) ist nun der Link -->
+        <a href="{{ block.settings.url }}" class="hss-promo-item-wrapper">
+          <div class="hss-promo-item">
+            <div class="hss-promo-image hexagon-wrapper">
+              <div class="hexagon">
+                {% if block.settings.image %}
+                  <div class="hexagon-img-wrapper">
+                    <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+                  </div>
+                {% else %}
+                  <div class="hss-placeholder">+</div>
+                {% endif %}
               </div>
-            </a>
-          {% else %}
-            <!-- Wenn der Link nicht aktiviert ist, wird nur der Block ohne Verlinkung angezeigt -->
-            <div class="hss-promo-item">
-              <div class="hss-promo-image hexagon-wrapper">
-                <div class="hexagon">
-                  {% if block.settings.image %}
-                    <div class="hexagon-img-wrapper">
-                      <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
-                    </div>
-                  {% else %}
-                    <div class="hss-placeholder">+</div>
-                  {% endif %}
-                </div>
-                <span class="hss-promo-title">{{ block.settings.heading }}</span>
-              </div>
+              <span class="hss-promo-title">{{ block.settings.heading }}</span>
             </div>
-          {% endif %}
-        </div>
+          </div>
+        </a>
       {% endfor %}
     {% else %}
       <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
@@ -76,6 +58,7 @@
     font-weight: 600;
     color: {{ section.settings.text_color }};
     font-family: {{ section.settings.font.family }}, sans-serif;
+    text-decoration: none; /* Verhindert unterstrichene Links */
   }
 
   /* HEXAGON-WRAPPER für Rand */
@@ -152,7 +135,7 @@
   }
 
   /* Sicherstellen, dass der Link die gleiche Farbe wie der Titel hat */
-  .hss-promo-item a {
+  .hss-promo-item-wrapper a {
     color: inherit; /* Linkfarbe erbt die Titeltextfarbe */
     text-decoration: none; /* Verhindert Standard-Textlink-Stil */
   }
@@ -235,12 +218,6 @@
       "step": 1,
       "default": 10,
       "label": "Abstand zwischen Hexagons (Mobile, px)"
-    },
-    {
-      "type": "checkbox",
-      "id": "link_enabled",
-      "default": true,
-      "label": "Gesamtes Element anklickbar machen"
     }
   ],
   "blocks": [
