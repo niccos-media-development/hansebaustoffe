@@ -26,14 +26,23 @@
   .hss-promo-carousel {
     background: {{ section.settings.background_color }};
     padding: 20px 0;
+    position: relative;
   }
 
+  /* Fix: Verhindert, dass das Karussell ausgeblendet wird */
   .hss-promo-carousel-holder {
     display: flex;
     gap: {{ section.settings.desktop_distance }}px;
     white-space: nowrap;
     max-width: 100%;
     overflow: hidden;
+    opacity: 0; /* Wird durch JS sichtbar gemacht */
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  /* Flickity lädt -> Karussell wird sichtbar */
+  .hss-promo-carousel-holder.is-visible {
+    opacity: 1;
   }
 
   .hss-promo-item {
@@ -93,7 +102,7 @@
 
     console.log("✅ Flickity wird gestartet...");
 
-    var flickityOptions = {
+    var flickityInstance = new Flickity(carousel, {
       cellAlign: "left",
       contain: true,
       wrapAround: false,
@@ -101,110 +110,13 @@
       pageDots: false,
       groupCells: {{ section.settings.items_per_row }},
       autoPlay: {% if section.settings.auto_rotate %}{{ section.settings.auto_rotate_speed }} * 1000{% else %}false{% endif %}
-    };
-
-    var flickityInstance = new Flickity(carousel, flickityOptions);
+    });
 
     if (flickityInstance) {
       console.log("✅ Flickity erfolgreich geladen!");
+      carousel.classList.add("is-visible"); // Fix: Zeigt das Karussell an
     } else {
       console.error("🚨 Fehler: Flickity konnte nicht gestartet werden.");
     }
   });
 </script>
-
-{% schema %}
-{
-  "name": "HSS Promotion Card Circle",
-  "settings": [
-    {
-      "type": "color",
-      "id": "background_color",
-      "default": "#f2f2f2",
-      "label": "Hintergrundfarbe"
-    },
-    {
-      "type": "color",
-      "id": "icon_background",
-      "default": "#ffffff",
-      "label": "Hintergrundfarbe der Icons"
-    },
-    {
-      "type": "range",
-      "id": "desktop_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 92,
-      "label": "Größe der Icons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_distance",
-      "min": 0,
-      "max": 60,
-      "step": 1,
-      "default": 9,
-      "label": "Abstand zwischen Icons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "items_per_row",
-      "min": 1,
-      "max": 6,
-      "step": 1,
-      "default": 4,
-      "label": "Anzahl sichtbarer Icons (Desktop)"
-    },
-    {
-      "type": "checkbox",
-      "id": "auto_rotate",
-      "label": "Auto-Rotation aktivieren",
-      "default": true
-    },
-    {
-      "type": "range",
-      "id": "auto_rotate_speed",
-      "min": 1,
-      "max": 10,
-      "step": 1,
-      "default": 3,
-      "label": "Auto-Rotation Geschwindigkeit (Sekunden)"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "category",
-      "name": "Kategorie",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Bild"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Kategorie",
-          "label": "Titel"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "Link"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Promotion Card Circle",
-      "blocks": [
-        { "type": "category" },
-        { "type": "category" },
-        { "type": "category" }
-      ]
-    }
-  ]
-}
-{% endschema %}
