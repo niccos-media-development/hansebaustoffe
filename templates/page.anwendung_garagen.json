@@ -547,9 +547,9 @@
         "narrow": true,
         "overlay_background": "",
         "alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-3",
         "spacing_top": 26,
-        "spacing_bottom": 10
+        "spacing_bottom": 26
       }
     },
     "main": {
