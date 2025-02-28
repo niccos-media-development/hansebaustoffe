@@ -164,7 +164,8 @@
         "mobile_size": 80,
         "desktop_distance": 10,
         "mobile_distance": 10,
-        "link_enabled": false
+        "top_margin": 0,
+        "bottom_margin": 0
       }
     },
     "niccos_promotional_cards_WnDXcV": {
