@@ -313,7 +313,7 @@
         "image_banner_pUAFVx": {
           "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/Thomas_1.jpg",
+            "image": "shopify://shop_images/garage_b821cc9f-891d-44d4-9d2c-c0e491ba4317.png",
             "description": "",
             "link": ""
           }
@@ -326,18 +326,18 @@
             "link": ""
           }
         },
-        "image_banner_JgVNHH": {
+        "image_banner_q9WhiE": {
           "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/12.jpg",
+            "image": "shopify://shop_images/PHOTO-2022-08-11-14-55-59.jpg",
             "description": "",
             "link": ""
           }
         },
-        "image_banner_q9WhiE": {
+        "image_banner_JgVNHH": {
           "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/Image_2.jpg",
+            "image": "shopify://shop_images/12.jpg",
             "description": "",
             "link": ""
           }
@@ -354,8 +354,8 @@
       "block_order": [
         "image_banner_pUAFVx",
         "image_banner_KMWRzm",
-        "image_banner_JgVNHH",
         "image_banner_q9WhiE",
+        "image_banner_JgVNHH",
         "image_banner_VF8d3m"
       ],
       "custom_css": [
