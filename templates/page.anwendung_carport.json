@@ -171,13 +171,6 @@
         "spacing_bottom": 10
       }
     },
-    "main": {
-      "type": "main-page",
-      "custom_css": [],
-      "settings": {
-        "hide_heading": true
-      }
-    },
     "featured_product_YnVEAP": {
       "type": "featured-product",
       "blocks": {
@@ -249,13 +242,20 @@
         "spacing_top": 10,
         "spacing_bottom": 10
       }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "hide_heading": true
+      }
     }
   },
   "order": [
     "rich_text_wArdUE",
     "image_banners_qCih6D",
     "rich_text_DVLPYq",
-    "main",
-    "featured_product_YnVEAP"
+    "featured_product_YnVEAP",
+    "main"
   ]
 }
