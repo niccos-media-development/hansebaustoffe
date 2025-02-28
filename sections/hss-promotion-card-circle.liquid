@@ -71,7 +71,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border: 2px solid #ddd; /* Hexagon sichtbar machen */
+    border: 3px solid {{ section.settings.hexagon_border_color }}; /* ✅ Randfarbe kann geändert werden */
   }
 
   .hexagon img {
@@ -150,6 +150,12 @@
       "id": "icon_background",
       "default": "#ffffff",
       "label": "Hintergrundfarbe der Hexagons"
+    },
+    {
+      "type": "color",
+      "id": "hexagon_border_color",
+      "default": "#000000",
+      "label": "Randfarbe des Hexagons"
     },
     {
       "type": "range",
