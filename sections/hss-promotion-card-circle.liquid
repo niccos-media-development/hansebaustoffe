@@ -1,6 +1,67 @@
+<section class="hss-promo-card-container">
+  {% if section.blocks.size > 0 %}
+    {% for block in section.blocks %}
+      <div class="hss-promo-card">
+        {% if block.settings.image %}
+          <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title }}">
+        {% endif %}
+        <div class="hss-promo-content">
+          {% if block.settings.title != blank %}
+            <h3>{{ block.settings.title }}</h3>
+          {% endif %}
+          {% if block.settings.text != blank %}
+            <p>{{ block.settings.text }}</p>
+          {% endif %}
+          {% if block.settings.link %}
+            <a href="{{ block.settings.link }}" class="hss-promo-btn">Mehr erfahren</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>Bitte fügen Sie eine Promotion Card hinzu.</p>
+  {% endif %}
+</section>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "HSS Promotion Card Circle",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Promo Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Bild"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titel",
+          "default": "Promotion"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Beschreibung",
+          "default": "Hier steht eine kurze Beschreibung."
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "HSS Promotion Card Circle",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
