@@ -64,6 +64,7 @@
     "products_show_secondary_image": true,
     "product_image_ratio": "adapt",
     "products_show_add_to_cart": true,
+    "products_add_to_cart_style": "solid",
     "products_hide_empty_star_rating": false,
     "currency_code_enabled": false,
     "price_tax_suffix": "inkl. MwSt.",
