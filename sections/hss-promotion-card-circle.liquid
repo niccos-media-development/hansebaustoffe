@@ -71,7 +71,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border: 2px solid #ddd; /* Hexagon sichtbar machen */
+    border: {{ section.settings.border_width }}px solid {{ section.settings.border_color }}; /* Randfarbe und Dicke anpassbar */
   }
 
   .hexagon img {
@@ -186,6 +186,21 @@
       "step": 1,
       "default": 10,
       "label": "Abstand zwischen Hexagons (Mobile, px)"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "default": "#ddd",
+      "label": "Randfarbe der Hexagons"
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 2,
+      "label": "Randdicke der Hexagons (px)"
     }
   ],
   "blocks": [
