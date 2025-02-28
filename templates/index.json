@@ -146,7 +146,7 @@
         "icon_background": "#ffffff",
         "desktop_size": 100,
         "mobile_size": 80,
-        "desktop_distance": 10,
+        "desktop_distance": 25,
         "mobile_distance": 10,
         "top_margin": 0,
         "bottom_margin": 0
