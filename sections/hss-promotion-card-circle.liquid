@@ -13,7 +13,7 @@
                 <div class="hss-placeholder">+</div>
               {% endif %}
             </div>
-            <span class="hss-promo-title">{{ block.settings.heading }}</span>
+            <span class="hss-promo-title" style="color: {{ block.settings.title_color }};">{{ block.settings.heading }}</span>
           </div>
         </a>
       {% endfor %}
@@ -210,6 +210,12 @@
       "step": 1,
       "default": 10,
       "label": "Abstand zwischen Hexagons (Mobile, px)"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "default": "#000000",
+      "label": "Schriftfarbe des Titels"
     }
   ],
   "blocks": [
