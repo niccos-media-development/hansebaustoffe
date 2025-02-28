@@ -123,7 +123,7 @@
         "icon_background": "#ffffff",
         "desktop_size": 150,
         "desktop_distance": 9,
-        "mobile_size": 120,
+        "mobile_size": 80,
         "mobile_distance": 2,
         "auto_rotate": true,
         "auto_rotate_speed": 8,
