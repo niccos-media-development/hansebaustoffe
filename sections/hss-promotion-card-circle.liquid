@@ -12,21 +12,35 @@
 </div>
 
 <style>
+  /* Hintergrundfarbe */
   .hss-promo-carousel {
     background: {{ section.settings.background_color }};
     padding: 20px 0;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
+  /* Zentrierter Container */
   .hss-promo-carousel-holder {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: {{ section.settings.desktop_distance }}px;
-    overflow: hidden;
+    overflow-x: auto;
     scroll-behavior: smooth;
     white-space: nowrap;
     position: relative;
+    max-width: 100%;
+    padding: 10px;
   }
 
+  /* Scrollbar entfernen */
+  .hss-promo-carousel-holder::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Einzelnes Item */
   .hss-promo-item {
     text-align: center;
     text-decoration: none;
@@ -34,8 +48,10 @@
     font-weight: 600;
     color: {{ section.settings.text_color }};
     font-family: {{ section.settings.font.family }}, sans-serif;
+    flex: 0 0 auto;
   }
 
+  /* Runde Icons */
   .hss-promo-image {
     width: {{ section.settings.desktop_size }}px;
     height: {{ section.settings.desktop_size }}px;
@@ -45,14 +61,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: {{ section.settings.icon_background }};
   }
 
   .hss-promo-image img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: auto;
     object-fit: cover;
   }
 
+  /* Hervorhebung */
   .hss-promo-highlight::after {
     content: '';
     border: 2px solid {{ section.settings.highlight_color }};
@@ -64,19 +82,28 @@
     left: -5%;
   }
 
+  /* Titel unter den Icons */
   .hss-promo-title {
     display: block;
     margin-top: 5px;
   }
 
+  /* MOBILE Darstellung */
   @media only screen and (max-width: 768px) {
     .hss-promo-carousel-holder {
+      justify-content: flex-start;
+      padding: 10px 0;
       gap: {{ section.settings.mobile_distance }}%;
     }
 
+    .hss-promo-item {
+      flex: 0 0 auto;
+      margin: 0 auto;
+    }
+
     .hss-promo-image {
-      width: {{ section.settings.mobile_size }}%;
-      height: auto;
+      width: {{ section.settings.mobile_size }}px;
+      height: {{ section.settings.mobile_size }}px;
     }
   }
 </style>
@@ -96,7 +123,7 @@
             scrollAmount += container.clientWidth / {{ section.settings.items_per_view }};
           }
           container.scrollTo({ left: scrollAmount, behavior: "smooth" });
-        }, {{ section.settings.auto_rotate_speed }} * 1000); // Umwandlung von Sekunden in ms
+        }, {{ section.settings.auto_rotate_speed }} * 1000);
       }
     }
 
@@ -122,6 +149,12 @@
       "label": "Hintergrundfarbe"
     },
     {
+      "type": "color",
+      "id": "icon_background",
+      "default": "#ffffff",
+      "label": "Hintergrundfarbe der Icons"
+    },
+    {
       "type": "range",
       "id": "desktop_size",
       "min": 50,
@@ -142,11 +175,11 @@
     {
       "type": "range",
       "id": "mobile_size",
-      "min": 13,
-      "max": 36,
+      "min": 50,
+      "max": 150,
       "step": 1,
-      "default": 20,
-      "label": "Größe der Icons (Mobile, %)"
+      "default": 80,
+      "label": "Größe der Icons (Mobile, px)"
     },
     {
       "type": "range",
@@ -216,45 +249,6 @@
       "step": 1,
       "default": 4,
       "label": "Sichtbare Icons"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "block",
-      "name": "Promotion Item",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Bild"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Kategorie",
-          "label": "Titel"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "Link"
-        },
-        {
-          "type": "checkbox",
-          "id": "highlight",
-          "label": "Hervorheben"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Promotion Card Circle",
-      "blocks": [
-        { "type": "block" },
-        { "type": "block" },
-        { "type": "block" }
-      ]
     }
   ]
 }
