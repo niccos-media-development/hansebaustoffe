@@ -2,24 +2,39 @@
   <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
-        <a href="{{ block.settings.url }}" class="hss-promo-item">
-          <div class="hss-promo-image hexagon-wrapper">
-            <div class="hexagon">
-              {% if block.settings.image %}
-                <div class="hexagon-img-wrapper">
-                  <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+        <div class="hss-promo-item-wrapper">
+          {% if block.settings.link_enabled %}
+            <a href="{{ block.settings.url }}" class="hss-promo-item">
+              <div class="hss-promo-image hexagon-wrapper">
+                <div class="hexagon">
+                  {% if block.settings.image %}
+                    <div class="hexagon-img-wrapper">
+                      <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+                    </div>
+                  {% else %}
+                    <div class="hss-placeholder">+</div>
+                  {% endif %}
                 </div>
-              {% else %}
-                <div class="hss-placeholder">+</div>
-              {% endif %}
+                <span class="hss-promo-title">{{ block.settings.heading }}</span>
+              </div>
+            </a>
+          {% else %}
+            <div class="hss-promo-item">
+              <div class="hss-promo-image hexagon-wrapper">
+                <div class="hexagon">
+                  {% if block.settings.image %}
+                    <div class="hexagon-img-wrapper">
+                      <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+                    </div>
+                  {% else %}
+                    <div class="hss-placeholder">+</div>
+                  {% endif %}
+                </div>
+                <span class="hss-promo-title">{{ block.settings.heading }}</span>
+              </div>
             </div>
-            <span class="hss-promo-title" style="color: {{ block.settings.title_color }};">
-              {% if block.settings.heading %}
-                <span class="title-text">{{ block.settings.heading }}</span>
-              {% endif %}
-            </span>
-          </div>
-        </a>
+          {% endif %}
+        </div>
       {% endfor %}
     {% else %}
       <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
@@ -53,14 +68,13 @@
     display: none;
   }
 
-  .hss-promo-item {
+  /* Die gesamte Item-Hülle ist ein Link, wenn aktiviert */
+  .hss-promo-item-wrapper {
     text-align: center;
-    text-decoration: none;
     font-size: {{ section.settings.fontsize }}px;
     font-weight: 600;
     color: {{ section.settings.text_color }};
     font-family: {{ section.settings.font.family }}, sans-serif;
-    flex: 0 0 auto;
   }
 
   /* HEXAGON-WRAPPER für Rand */
@@ -137,7 +151,7 @@
   }
 
   /* Sicherstellen, dass der Link die gleiche Farbe wie der Titel hat */
-  .hss-promo-title a {
+  .hss-promo-item a {
     color: inherit; /* Linkfarbe erbt die Titeltextfarbe */
     text-decoration: none; /* Verhindert Standard-Textlink-Stil */
   }
@@ -222,10 +236,10 @@
       "label": "Abstand zwischen Hexagons (Mobile, px)"
     },
     {
-      "type": "color",
-      "id": "title_color",
-      "default": "#000000",
-      "label": "Schriftfarbe des Titels"
+      "type": "checkbox",
+      "id": "link_enabled",
+      "default": true,
+      "label": "Gesamtes Element anklickbar machen"
     }
   ],
   "blocks": [
