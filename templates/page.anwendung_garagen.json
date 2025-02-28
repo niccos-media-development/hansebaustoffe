@@ -454,49 +454,66 @@
           "settings": {
             "image": "shopify://shop_images/Dachrandprofil_ISOS_Anthrazit_Titelbild_Marktplatz.webp",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "",
-            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
+            "heading": "ISOS Dachrandprofil Anthrazit",
+            "description": "<p></p><p></p><p></p><p></p><p></p>",
             "link": "",
-            "products": []
-          }
-        },
-        "product_list_g7JrTy": {
-          "type": "product_list",
-          "settings": {
-            "image": "shopify://shop_images/500-WAP-100_Wandanschlussprofil_Produktbild_5_1000x1000_59baa838-d019-4f04-bd25-b878b7a9c3c3.jpg",
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "Product list",
-            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
-            "link": "",
-            "products": []
+            "products": [
+              "dachrandprofil-isos-anthrazit-ral-7016-1-95-meter",
+              "klick-verbinder-isos-anthrazit-ral-7016",
+              "verbinder-isos-anthrazit-ral-7016",
+              "innenecke-isos-90-anthrazit-ral-7016",
+              "aussenecke-isos-90-anthrazit-ral-7016"
+            ]
           }
         },
         "product_list_Yj6mkE": {
           "type": "product_list",
           "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "Product list",
-            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
+            "image": "shopify://shop_images/Dachrandprofil_ISOS_Silber_Titelbild_Marktplatz.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "ISOS Dachrandprofil Silber",
+            "description": "",
             "link": "",
-            "products": []
+            "products": [
+              "dachrandprofil-isos-silber-ral-9006-1-95-meter",
+              "verbinder-isos-silber-ral-9006",
+              "aussenecke-isos-90-silber-ral-9006",
+              "innenecke-isos-90-silber-ral-9006"
+            ]
+          }
+        },
+        "product_list_g7JrTy": {
+          "type": "product_list",
+          "settings": {
+            "image": "shopify://shop_images/500-800-100_Dachrandprofil_Cube_Produktbild_1000x1000px.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Dachrandprofil CUBE",
+            "description": "",
+            "link": "",
+            "products": [
+              "dachrandprofil-cube-anthrazit-ral-7016-1-meter",
+              "aussenecke-cube-90-anthrazit-ral-7016",
+              "endkappe-cube-anthrazit-ral-7016",
+              "verbinder-cube-anthrazit-ral-7016"
+            ]
           }
         }
       },
       "block_order": [
         "product_list_4iCrzt",
-        "product_list_g7JrTy",
-        "product_list_Yj6mkE"
+        "product_list_Yj6mkE",
+        "product_list_g7JrTy"
       ],
       "settings": {
-        "heading": "Product lists",
+        "heading": "Dachrandprofile",
         "subheading": "",
         "link_title": "",
         "link_url": "",
         "columns": "3",
         "stack_on_mobile": false,
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 10,
+        "spacing_bottom": 10
       }
     }
   },
