@@ -48,41 +48,21 @@
     position: relative;
   }
 
-  .slider-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 2;
-  }
-
-  .slider-nav .prev {
-    left: -40px; /* Pfeil links neben der ersten Box */
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-
-  .slider-nav .next {
-    right: -40px; /* Pfeil rechts neben der letzten Box */
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-
   .hss-promo-carousel-holder {
     display: flex;
     justify-content: flex-start;
     gap: {{ section.settings.desktop_distance }}px;
     overflow-x: auto;
     scroll-behavior: smooth;
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1200px; /* Begrenzung der Breite auf Desktop */
+  }
+
+  .hss-promo-carousel-holder::-webkit-scrollbar {
+    display: none;
   }
 
   .hss-promo-item-wrapper {
@@ -162,6 +142,31 @@
     font-size: 18px;
     color: red;
     font-weight: bold;
+  }
+
+  /* Slider Navigation Buttons */
+  .slider-nav {
+    position: absolute;
+    top: 50%;
+    left: 0; /* Pfeil links direkt neben der ersten Produktbox */
+    right: 0; /* Pfeil rechts direkt neben der letzten Produktbox */
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Maximale Breite */
+    transform: translateY(-50%);
+  }
+
+  .prev, .next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
   }
 
   /* Mobile Ansicht - keine Pfeile */
@@ -267,6 +272,24 @@
       "step": 1,
       "default": 20,
       "label": "Abstand unten zu anderen Abschnitten"
+    },
+    {
+      "type": "range",
+      "id": "items_per_row",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 3,
+      "label": "Anzahl der Produkte pro Reihe (Desktop)"
+    },
+    {
+      "type": "range",
+      "id": "mobile_items_per_row",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 2,
+      "label": "Anzahl der Produkte pro Reihe (Mobile)"
     }
   ],
   "blocks": [
