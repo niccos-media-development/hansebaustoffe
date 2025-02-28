@@ -136,8 +136,8 @@
         "overlay_background": "",
         "alignment": "left",
         "color_scheme": "accent-3",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 10,
+        "spacing_bottom": 10
       }
     },
     "featured_product_WAFVKA": {
@@ -208,8 +208,179 @@
         "image_zoom_type": "lightbox",
         "image_disclaimer": "",
         "color_scheme": "background-1",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
+    },
+    "rich_text_j4CLdz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TnVDHT": {
+          "type": "heading",
+          "settings": {
+            "heading": "2. Konfigurieren Sie Ihre Klebstoffe",
+            "heading_size": "md"
+          }
+        },
+        "text_axR8ng": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Flächenkleber SpayBond<br/>Unsere Empfehlung für Betonuntergründe</h4><p><strong>Klebeverfahren: </strong>Kontaktklebeverfahren*<br/><strong>Untergründe: </strong>Beton<strong>,</strong> Holz (Holzschalungen, OSB und Mehrschichtplatten), Alt-Bitumen, Dämmung aus EPS/XPS sowie PUR/PIR, PVC, Sandwichpaneele, uvm.<br/><strong>Reichweite: </strong>5m²</p><p>* Randbereiche müssen immer im Kontaktklebeverfahren ausgeführt werden.</p>",
+            "text_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TnVDHT",
+        "text_axR8ng"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "left",
+        "color_scheme": "accent-3",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
+    },
+    "featured_product_kiMHbg": {
+      "type": "featured-product",
+      "blocks": {
+        "title_Biexp7": {
+          "type": "title",
+          "settings": {
+            "show_vendor": true,
+            "show_stock": true,
+            "show_sku": true,
+            "show_barcode": false,
+            "barcode_label": "Barcode",
+            "show_rating": false,
+            "hide_empty_star_rating": false,
+            "show_custom_badges": false
+          }
+        },
+        "text_BjCY7H": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "icon": "",
+            "text_2": "",
+            "icon_2": "",
+            "text_3": "",
+            "icon_3": "",
+            "text_4": "",
+            "icon_4": "",
+            "color_scheme": "none"
+          }
+        },
+        "price_7zatam": {
+          "type": "price",
+          "settings": {}
+        },
+        "variants_NqwHKQ": {
+          "type": "variants",
+          "settings": {
+            "picker_type": "button",
+            "hide_single_variant": false,
+            "out_of_stock_variants": "show"
+          }
+        },
+        "buy_buttons_GdbibC": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_add_to_cart": true,
+            "show_buy_now": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "title_Biexp7",
+        "text_BjCY7H",
+        "price_7zatam",
+        "variants_NqwHKQ",
+        "buy_buttons_GdbibC"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "product": "dachprotect-epdm-kontaktkleber-spraybond",
+        "hide_variants": false,
+        "thumbnail_navigation": false,
+        "image_zoom_type": "lightbox",
+        "image_disclaimer": "",
+        "color_scheme": "background-1",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
+    },
+    "rich_text_efFmbC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kDfqCE": {
+          "type": "heading",
+          "settings": {
+            "heading": "3. Konfigurieren Sie Ihre Entwässerung",
+            "heading_size": "md"
+          }
+        },
+        "text_FFHCwm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Wie kann ich mein Garagen entwässern?</strong><br/>1. Über eine Dachrinne (z.B. beim Pultdach) -&gt; Anschluss der EPDM Folie an das Rinneneinhangblech mittels Aktivierung und Nahtband oder doppelseitigen MicroSealant Dichtband.<br/>2. Über einen Gully in der Dachfläche oder über die Attika -&gt; Aktivierung wird zwingend für die Verarbeitung unserer Garantie-Gullys benötigt! -&gt; Gullys als SET inkl. Aktivierung erhältlich</p><p><strong>Zusätzlich sollte auch immer eine Notentwässerung geplant werden, falls das Regenwassersystem überlastet oder verstopft ist.</strong></p>",
+            "text_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kDfqCE",
+        "text_FFHCwm"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "left",
+        "color_scheme": "accent-3",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
+    },
+    "featured_collection_rpwYTg": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products_to_show": 5,
+        "products": [
+          "epdm-garantie-gully-garantie-gully-sets",
+          "epdm-garantie-seitenablauf-garantie-seitenablauf-set",
+          "epdm-klebe-gully-klebe-gully-sets",
+          "set-klebe-gully-inkl-anschlusskleber-flex"
+        ],
+        "hide_placeholders": false,
+        "heading": "Entwässerung",
+        "subheading": "",
+        "show_vendor": false,
+        "show_stock": true,
+        "show_rating": true,
+        "show_collection": true,
+        "collection_overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+        "collection_title": "",
+        "collection_description": "",
+        "collection_text_color": "#fff",
+        "collection_button_text": "",
+        "collection_box_align": "bottom-left",
+        "layout": "grid",
+        "columns": "4",
+        "stack_on_mobile": false,
         "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_bottom": 60,
+        "navigation_text": "",
+        "title_font_size": "--font-h2-size",
+        "title_font_size_mobile": "--font-h3-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
       }
     }
   },
@@ -219,6 +390,10 @@
     "main",
     "image_banners_hJt9gg",
     "rich_text_LwzQbH",
-    "featured_product_WAFVKA"
+    "featured_product_WAFVKA",
+    "rich_text_j4CLdz",
+    "featured_product_kiMHbg",
+    "rich_text_efFmbC",
+    "featured_collection_rpwYTg"
   ]
 }

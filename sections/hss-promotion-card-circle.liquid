@@ -106,7 +106,7 @@
     .hss-promo-carousel-holder {
       justify-content: flex-start;
       padding: 10px 0;
-      gap: {{ section.settings.mobile_distance }}%;
+      gap: {{ section.settings.mobile_distance }}px;
     }
 
     .hss-promo-item {
@@ -178,12 +178,30 @@
     },
     {
       "type": "range",
+      "id": "desktop_distance",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "label": "Abstand zwischen Icons (Desktop, px)"
+    },
+    {
+      "type": "range",
       "id": "mobile_size",
       "min": 50,
       "max": 150,
       "step": 1,
       "default": 80,
       "label": "Größe der Icons (Mobile, px)"
+    },
+    {
+      "type": "range",
+      "id": "mobile_distance",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 10,
+      "label": "Abstand zwischen Icons (Mobile, px)"
     }
   ],
   "blocks": [
