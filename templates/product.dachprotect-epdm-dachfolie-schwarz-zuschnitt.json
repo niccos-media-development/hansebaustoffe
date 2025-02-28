@@ -321,12 +321,12 @@
         "image_banner_pUAFVx": {
           "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/garage_b821cc9f-891d-44d4-9d2c-c0e491ba4317.png",
+            "image": "shopify://shop_images/IMG_0602.jpg",
             "description": "",
             "link": ""
           }
         },
-        "image_banner_q9WhiE": {
+        "image_banner_DLfWyp": {
           "type": "image_banner",
           "settings": {
             "image": "shopify://shop_images/PHOTO-2022-08-11-14-55-59.jpg",
@@ -354,7 +354,7 @@
       "block_order": [
         "image_banner_KMWRzm",
         "image_banner_pUAFVx",
-        "image_banner_q9WhiE",
+        "image_banner_DLfWyp",
         "image_banner_JgVNHH",
         "image_banner_VF8d3m"
       ],
@@ -547,33 +547,10 @@
             "mobile_box_align": "bottom-left"
           }
         },
-        "slide_J7DEcE": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Thomas_1_106e8ab5-11ae-4e5e-b331-2db8cdfd0cf4.jpg",
-            "overlay_background": "",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#ffffff",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
         "slide_6ARUgp": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Image_2.webp",
+            "image": "shopify://shop_images/PHOTO-2022-08-11-14-55-59.jpg",
             "overlay_background": "",
             "heading": "",
             "heading_size": "md",
@@ -638,14 +615,37 @@
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
+        },
+        "slide_J7DEcE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/garage_b821cc9f-891d-44d4-9d2c-c0e491ba4317.png",
+            "overlay_background": "",
+            "heading": "",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#ffffff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
         }
       },
       "block_order": [
         "slide_dRR7JY",
-        "slide_J7DEcE",
         "slide_6ARUgp",
         "slide_Yzi7T4",
-        "slide_DnFwXf"
+        "slide_DnFwXf",
+        "slide_J7DEcE"
       ],
       "custom_css": [
         "@media screen and (max-width: 768px) {.block-section {display: block !important; }}",
