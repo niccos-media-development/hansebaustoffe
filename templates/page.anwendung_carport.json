@@ -9,13 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "custom_css": [],
-      "settings": {
-        "hide_heading": true
-      }
-    },
     "rich_text_wArdUE": {
       "type": "rich-text",
       "blocks": {
@@ -58,12 +51,19 @@
       "settings": {
         "full_width": false
       }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "hide_heading": true
+      }
     }
   },
   "order": [
-    "main",
     "rich_text_wArdUE",
     "1740732058c5b6dd73",
-    "173945177119dc2136"
+    "173945177119dc2136",
+    "main"
   ]
 }
