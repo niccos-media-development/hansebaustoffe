@@ -1,26 +1,3 @@
-<div class="hss-promo-carousel">
-  <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
-    {% if section.blocks.size > 0 %}
-      {% for block in section.blocks %}
-        <a href="{{ block.settings.url }}" class="hss-promo-item">
-          <div class="hss-promo-image hexagon {% if block.settings.highlight %}hss-promo-highlight{% endif %}">
-            {% if block.settings.image %}
-              <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
-            {% else %}
-              <div class="hss-placeholder">+</div>
-            {% endif %}
-          </div>
-          {% if block.settings.heading != blank %}
-            <span class="hss-promo-title">{{ block.settings.heading }}</span>
-          {% endif %}
-        </a>
-      {% endfor %}
-    {% else %}
-      <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
-    {% endif %}
-  </div>
-</div>
-
 <style>
   .hss-promo-carousel {
     background: {{ section.settings.background_color }};
@@ -71,7 +48,19 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border: {{ section.settings.border_width }}px solid {{ section.settings.border_color }}; /* Randfarbe und Dicke anpassbar */
+  }
+
+  /* Pseudo-Element for Border */
+  .hexagon::before {
+    content: '';
+    position: absolute;
+    top: -{{ section.settings.border_width }}px;
+    left: -{{ section.settings.border_width }}px;
+    right: -{{ section.settings.border_width }}px;
+    bottom: -{{ section.settings.border_width }}px;
+    border: {{ section.settings.border_width }}px solid {{ section.settings.border_color }};
+    clip-path: inherit; /* Same hexagonal clip-path */
+    z-index: -1; /* Ensure the border is behind the image */
   }
 
   .hexagon img {
@@ -134,108 +123,3 @@
     }
   }
 </style>
-
-{% schema %}
-{
-  "name": "HSS Hexagon Cards",
-  "settings": [
-    {
-      "type": "color",
-      "id": "background_color",
-      "default": "#f2f2f2",
-      "label": "Hintergrundfarbe"
-    },
-    {
-      "type": "color",
-      "id": "icon_background",
-      "default": "#ffffff",
-      "label": "Hintergrundfarbe der Hexagons"
-    },
-    {
-      "type": "range",
-      "id": "desktop_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 92,
-      "label": "Größe der Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 80,
-      "label": "Größe der Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_distance",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand zwischen Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_distance",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "default": 10,
-      "label": "Abstand zwischen Hexagons (Mobile, px)"
-    },
-    {
-      "type": "color",
-      "id": "border_color",
-      "default": "#ddd",
-      "label": "Randfarbe der Hexagons"
-    },
-    {
-      "type": "range",
-      "id": "border_width",
-      "min": 1,
-      "max": 10,
-      "step": 1,
-      "default": 2,
-      "label": "Randdicke der Hexagons (px)"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "category",
-      "name": "Kategorie",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Bild"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Kategorie",
-          "label": "Titel"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "Link"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Hexagon Cards",
-      "blocks": [
-        { "type": "category" },
-        { "type": "category" },
-        { "type": "category" }
-      ]
-    }
-  ]
-}
-{% endschema %}
