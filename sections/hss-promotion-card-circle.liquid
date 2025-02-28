@@ -6,7 +6,9 @@
           <div class="hss-promo-image hexagon-wrapper">
             <div class="hexagon {% if block.settings.highlight %}hss-promo-highlight{% endif %}">
               {% if block.settings.image %}
-                <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+                <div class="hexagon-img-wrapper">
+                  <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+                </div>
               {% else %}
                 <div class="hss-placeholder">+</div>
               {% endif %}
@@ -59,16 +61,15 @@
     flex: 0 0 auto;
   }
 
-  /* HEXAGON-WRAPPER für Rand */
+  /* HEXAGON-WRAPPER ohne Rand */
   .hexagon-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: {{ section.settings.border_width }}px;
   }
 
-  /* HEXAGON-FORM mit Rand */
+  /* HEXAGON-FORM ohne Rand */
   .hexagon {
     width: {{ section.settings.desktop_size }}px;
     height: {{ section.settings.desktop_size | times: 1.15 }}px;
@@ -82,15 +83,20 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border: {{ section.settings.border_width }}px solid {{ section.settings.border_color }}; /* Hexagon Rand */
   }
 
   /* Bild als Hexagon */
+  .hexagon-img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    clip-path: inherit; /* Das Bild folgt der gleichen hexagonalen Form */
+  }
+
   .hexagon-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    clip-path: inherit; /* Das Bild folgt der gleichen hexagonalen Form */
   }
 
   .hss-placeholder {
@@ -138,7 +144,7 @@
     }
 
     .hexagon-wrapper {
-      padding: {{ section.settings.border_width }}px;
+      padding: 0;
     }
 
     .hexagon {
@@ -203,21 +209,6 @@
       "step": 1,
       "default": 10,
       "label": "Abstand zwischen Hexagons (Mobile, px)"
-    },
-    {
-      "type": "color",
-      "id": "border_color",
-      "default": "#ddd",
-      "label": "Randfarbe der Hexagons"
-    },
-    {
-      "type": "range",
-      "id": "border_width",
-      "min": 1,
-      "max": 10,
-      "step": 1,
-      "default": 2,
-      "label": "Randdicke der Hexagons (px)"
     }
   ],
   "blocks": [
