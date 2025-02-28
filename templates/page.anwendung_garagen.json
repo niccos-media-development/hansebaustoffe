@@ -519,14 +519,14 @@
         "heading_DFFerY": {
           "type": "heading",
           "settings": {
-            "heading": "Machen Sie sich selbst ein Bild von unseren Produkten und entdecken Sie unsere Verarbeitungs- und Anwendungsvideos.",
+            "heading": "",
             "heading_size": "sm"
           }
         },
         "text_7RXRAG": {
           "type": "text",
           "settings": {
-            "text": "<p>Machen Sie sich selbst ein Bild von unseren Produkten und entdecken Sie unsere Verarbeitungs- und Anwendungsvideos.</p>",
+            "text": "<h3>Machen Sie sich selbst ein Bild von unseren Produkten und entdecken Sie unsere Verarbeitungs- und Anwendungsvideos.</h3>",
             "text_size": "md"
           }
         },
