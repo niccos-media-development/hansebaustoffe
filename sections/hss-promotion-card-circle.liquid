@@ -1,6 +1,3 @@
-{{ 'flickity.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'flickity.pkgd.js' | asset_url }}" defer="defer"></script>
-
 <div class="hss-promo-carousel">
   <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
     {% for block in section.blocks %}
@@ -9,19 +6,13 @@
           {% if block.settings.image %}
             <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
           {% else %}
-            <div class="hss-placeholder">Kein Bild</div>
+            <div class="hss-placeholder">+</div>
           {% endif %}
         </div>
         {% if block.settings.heading != blank %}
           <span class="hss-promo-title">{{ block.settings.heading }}</span>
-        {% else %}
-          <span class="hss-promo-title">Kein Titel</span>
         {% endif %}
       </a>
-    {% else %}
-      <p style="text-align: center; font-size: 18px; color: red;">
-        ❌ Keine Kategorien vorhanden. Bitte im Shopify-Editor hinzufügen.
-      </p>
     {% endfor %}
   </div>
 </div>
@@ -37,12 +28,19 @@
 
   .hss-promo-carousel-holder {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: {{ section.settings.desktop_distance }}px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
     white-space: nowrap;
+    position: relative;
     max-width: 100%;
-    overflow: hidden;
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
+    padding: 10px;
+  }
+
+  .hss-promo-carousel-holder::-webkit-scrollbar {
+    display: none;
   }
 
   .hss-promo-item {
@@ -55,11 +53,13 @@
     flex: 0 0 auto;
   }
 
+  /* Icons bleiben 100% rund */
   .hss-promo-image {
     width: {{ section.settings.desktop_size }}px;
     height: {{ section.settings.desktop_size }}px;
     border-radius: 50%;
     overflow: hidden;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,45 +79,75 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
-    color: #666;
-    background: #ddd;
+    font-size: 20px;
+    color: #ccc;
+    background: #f5f5f5;
     border-radius: 50%;
+  }
+
+  .hss-promo-highlight::after {
+    content: '';
+    border: 2px solid {{ section.settings.highlight_color }};
+    border-radius: 50%;
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    top: -5%;
+    left: -5%;
   }
 
   .hss-promo-title {
     display: block;
     margin-top: 5px;
   }
+
+  /* Mobile Darstellung */
+  @media only screen and (max-width: 768px) {
+    .hss-promo-carousel-holder {
+      justify-content: flex-start;
+      padding: 10px 0;
+      gap: {{ section.settings.mobile_distance }}%;
+    }
+
+    .hss-promo-item {
+      flex: 0 0 auto;
+      margin: 0 auto;
+    }
+
+    .hss-promo-image {
+      width: {{ section.settings.mobile_size }}px;
+      height: {{ section.settings.mobile_size }}px;
+    }
+  }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    var carousel = document.querySelector("#carousel-{{ section.id }}");
+    const container = document.querySelector("#carousel-{{ section.id }}");
+    let scrollAmount = 0;
+    let autoScroll;
 
-    if (!carousel) {
-      console.error("🚨 Fehler: Karussell-Element wurde nicht gefunden!");
-      return;
+    function startAutoScroll() {
+      if ({{ section.settings.auto_rotate }}) {
+        autoScroll = setInterval(() => {
+          if (scrollAmount >= container.scrollWidth - container.clientWidth) {
+            scrollAmount = 0;
+          } else {
+            scrollAmount += container.clientWidth / {{ section.settings.items_per_view }};
+          }
+          container.scrollTo({ left: scrollAmount, behavior: "smooth" });
+        }, {{ section.settings.auto_rotate_speed }} * 1000);
+      }
     }
 
-    console.log("✅ Flickity wird gestartet...");
-
-    var flickityInstance = new Flickity(carousel, {
-      cellAlign: "left",
-      contain: true,
-      wrapAround: false,
-      prevNextButtons: true,
-      pageDots: false,
-      groupCells: {{ section.settings.items_per_row }},
-      autoPlay: {% if section.settings.auto_rotate %}{{ section.settings.auto_rotate_speed }} * 1000{% else %}false{% endif %}
-    });
-
-    if (flickityInstance) {
-      console.log("✅ Flickity erfolgreich geladen!");
-      carousel.style.opacity = "1"; // Stellt sicher, dass das Karussell sichtbar ist
-    } else {
-      console.error("🚨 Fehler: Flickity konnte nicht gestartet werden.");
+    function stopAutoScroll() {
+      clearInterval(autoScroll);
     }
+
+    container.addEventListener("mouseenter", stopAutoScroll);
+    container.addEventListener("mouseleave", startAutoScroll);
+
+    startAutoScroll();
   });
 </script>
 
@@ -148,36 +178,30 @@
     },
     {
       "type": "range",
+      "id": "mobile_size",
+      "min": 50,
+      "max": 150,
+      "step": 1,
+      "default": 80,
+      "label": "Größe der Icons (Mobile, px)"
+    },
+    {
+      "type": "range",
       "id": "desktop_distance",
       "min": 0,
-      "max": 60,
+      "max": 100,
       "step": 1,
-      "default": 9,
+      "default": 20,
       "label": "Abstand zwischen Icons (Desktop, px)"
     },
     {
       "type": "range",
-      "id": "items_per_row",
-      "min": 1,
-      "max": 6,
+      "id": "mobile_distance",
+      "min": 0,
+      "max": 50,
       "step": 1,
-      "default": 4,
-      "label": "Anzahl sichtbarer Icons (Desktop)"
-    },
-    {
-      "type": "checkbox",
-      "id": "auto_rotate",
-      "label": "Auto-Rotation aktivieren",
-      "default": true
-    },
-    {
-      "type": "range",
-      "id": "auto_rotate_speed",
-      "min": 1,
-      "max": 10,
-      "step": 1,
-      "default": 3,
-      "label": "Auto-Rotation Geschwindigkeit (Sekunden)"
+      "default": 10,
+      "label": "Abstand zwischen Icons (Mobile, px)"
     }
   ],
   "blocks": [
@@ -200,6 +224,11 @@
           "type": "url",
           "id": "url",
           "label": "Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Hervorheben"
         }
       ]
     }
