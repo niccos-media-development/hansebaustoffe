@@ -364,7 +364,7 @@
         "show_vendor": false,
         "show_stock": true,
         "show_rating": true,
-        "show_collection": true,
+        "show_collection": false,
         "collection_overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
         "collection_title": "",
         "collection_description": "",
