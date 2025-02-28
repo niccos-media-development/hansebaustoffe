@@ -1,285 +1,146 @@
-<div class="hss-promo-carousel">
-  <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
-    {% if section.blocks.size > 0 %}
-      {% for block in section.blocks %}
-        <!-- Der gesamte Block (Bild + Titel) ist der Link -->
-        <a href="{{ block.settings.url }}" class="hss-promo-item-wrapper">
-          <div class="hss-promo-item">
-            <!-- HEXAGON CONTAINER -->
-            <div class="hss-promo-image">
-              <div class="hexagon">
-                {% if block.settings.image %}
-                  <div class="hexagon-img-wrapper">
-                    <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
-                  </div>
-                {% else %}
-                  <div class="hss-placeholder">+</div>
-                {% endif %}
-              </div>
-            </div>
-            <!-- TITLE CONTAINER -->
-            <div class="hss-promo-title-wrapper">
-              <span class="hss-promo-title">{{ block.settings.heading }}</span>
-            </div>
-          </div>
-        </a>
-      {% endfor %}
-    {% else %}
-      <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
-    {% endif %}
-  </div>
-</div>
+.hss-promo-carousel {
+  background: {{ section.settings.background_color }};
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: {{ section.settings.top_margin }}px;
+  margin-bottom: {{ section.settings.bottom_margin }}px;
+}
 
-<style>
-  .hss-promo-carousel {
-    background: {{ section.settings.background_color }};
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: {{ section.settings.top_margin }}px; /* Abstand oben */
-    margin-bottom: {{ section.settings.bottom_margin }}px; /* Abstand unten */
-  }
+.hss-promo-carousel-holder {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: {{ section.settings.desktop_distance }}px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  position: relative;
+  max-width: 100%;
+  padding: 10px;
+}
 
+.hss-promo-item-wrapper {
+  text-align: center;
+  font-size: {{ section.settings.fontsize }}px;
+  font-weight: 600;
+  color: {{ section.settings.text_color }};
+  font-family: {{ section.settings.font.family }}, sans-serif;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.hss-promo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hss-promo-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: {{ section.settings.desktop_size }}px; /* Feste Höhe für das Hexagon */
+  width: {{ section.settings.desktop_size }}px;
+  margin: 0 auto;
+}
+
+.hexagon {
+  width: 100%;
+  height: 100%;
+  background-color: {{ section.settings.icon_background }};
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hexagon-img-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  clip-path: inherit;
+}
+
+.hexagon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hss-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #ccc;
+  background: #f5f5f5;
+}
+
+.hss-promo-title-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hss-promo-title {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
+  white-space: normal;
+  line-height: 1.2;
+  font-size: {{ section.settings.fontsize }}px;
+  max-width: 100%;
+  max-height: 3.6em;
+  overflow: hidden;
+  hyphens: auto;
+}
+
+.hss-no-content {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}
+
+.hss-promo-item-wrapper a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
   .hss-promo-carousel-holder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: {{ section.settings.desktop_distance }}px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    white-space: nowrap;
-    position: relative;
-    max-width: 100%;
-    padding: 10px;
-  }
-
-  .hss-promo-carousel-holder::-webkit-scrollbar {
-    display: none;
+    justify-content: flex-start;
+    padding: 10px 0;
+    gap: {{ section.settings.mobile_distance }}%;
   }
 
   .hss-promo-item-wrapper {
-    text-align: center;
-    font-size: {{ section.settings.fontsize }}px;
-    font-weight: 600;
-    color: {{ section.settings.text_color }};
-    font-family: {{ section.settings.font.family }}, sans-serif;
-    text-decoration: none;
-    display: block;
-  }
-
-  /* HEXAGON CONTAINER */
-  .hss-promo-image {
+    width: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    height: {{ section.settings.desktop_size }}px; /* Feste Höhe für Hexagon */
-    width: {{ section.settings.desktop_size }}px;
-    margin: 0 auto; /* Zentriert das Hexagon */
   }
 
   .hexagon {
-    width: 100%;
-    height: 100%;
-    background-color: {{ section.settings.icon_background }};
-    position: relative;
-    clip-path: polygon(
-      50% 0%, 100% 25%, 100% 75%,
-      50% 100%, 0% 75%, 0% 25%
-    );
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-  }
-
-  .hexagon-img-wrapper {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    clip-path: inherit; /* Das Bild folgt der gleichen hexagonalen Form */
-  }
-
-  .hexagon-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .hss-placeholder {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    color: #ccc;
-    background: #f5f5f5;
-  }
-
-  /* TITLE CONTAINER */
-  .hss-promo-title-wrapper {
-    margin-top: 10px; /* Abstand zum Hexagon */
+    width: {{ section.settings.mobile_size }}px;
+    height: {{ section.settings.mobile_size }}px;
   }
 
   .hss-promo-title {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    text-align: center;
-    white-space: normal;
-    line-height: 1.2;
-    font-size: {{ section.settings.fontsize }}px;
-    max-width: 100%;
-    max-height: 3.6em; /* Höchstgrenze für den Titel */
-    overflow: hidden;
-    hyphens: auto; /* Silbentrennung aktivieren */
+    max-width: {{ section.settings.mobile_size }}px;
   }
-
-  .hss-no-content {
-    text-align: center;
-    font-size: 18px;
-    color: red;
-    font-weight: bold;
-  }
-
-  /* Sicherstellen, dass der Link die gleiche Farbe wie der Titel hat */
-  .hss-promo-item-wrapper a {
-    color: inherit; /* Linkfarbe erbt die Titeltextfarbe */
-    text-decoration: none; /* Verhindert Standard-Textlink-Stil */
-  }
-
-  /* Mobile Ansicht */
-  @media only screen and (max-width: 768px) {
-    .hss-promo-carousel-holder {
-      justify-content: flex-start;
-      padding: 10px 0;
-      gap: {{ section.settings.mobile_distance }}%;
-    }
-
-    .hss-promo-item {
-      flex: 0 0 auto;
-      margin: 0 auto;
-    }
-
-    .hss-promo-title-wrapper {
-      padding: 0 10px; /* Ein bisschen Padding für den Titel auf Mobilgeräten */
-    }
-
-    .hexagon {
-      width: {{ section.settings.mobile_size }}px;
-      height: {{ section.settings.mobile_size }}px; /* Feste Höhe auch für mobile Ansicht */
-    }
-
-    .hss-promo-title {
-      max-width: {{ section.settings.mobile_size }}px;
-    }
-  }
-</style>
-
-{% schema %}
-{
-  "name": "HSS Hexagon Cards",
-  "settings": [
-    {
-      "type": "color",
-      "id": "background_color",
-      "default": "#f2f2f2",
-      "label": "Hintergrundfarbe"
-    },
-    {
-      "type": "color",
-      "id": "icon_background",
-      "default": "#ffffff",
-      "label": "Hintergrundfarbe der Hexagons"
-    },
-    {
-      "type": "range",
-      "id": "desktop_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 92,
-      "label": "Größe der Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 80,
-      "label": "Größe der Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_distance",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand zwischen Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_distance",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "default": 10,
-      "label": "Abstand zwischen Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "top_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand oben zu anderen Abschnitten"
-    },
-    {
-      "type": "range",
-      "id": "bottom_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand unten zu anderen Abschnitten"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "category",
-      "name": "Kategorie",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Bild"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Kategorie",
-          "label": "Titel"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "Link"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Hexagon Cards",
-      "blocks": [
-        { "type": "category" },
-        { "type": "category" },
-        { "type": "category" }
-      ]
-    }
-  ]
 }
-{% endschema %}
