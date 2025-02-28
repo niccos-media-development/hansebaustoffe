@@ -251,7 +251,7 @@
       ],
       "custom_css": [
         ".promo-card {width: 200px; height: 200px; border-radius: 50%; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #f8f8f8; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}",
-        ".promo-card img {width: 100px; height: 100px; border-radius: 50%; object-fit: cover; }"
+        ".promo-card img {width: 100px; height: 100px; border-radius: 50%; object-fit: cover;}"
       ],
       "settings": {
         "image_heights": 180,
@@ -1155,6 +1155,24 @@
         "spacing_top": 76,
         "spacing_bottom": 72
       }
+    },
+    "hss_promotion_card_circle_xeximi": {
+      "type": "hss-promotion-card-circle",
+      "blocks": {
+        "card_KCyQze": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_EPDM_1.png",
+            "title": "EPDM Dachfolie",
+            "text": "",
+            "link": "shopify://collections/dachprotect-epdm-dachfolie"
+          }
+        }
+      },
+      "block_order": [
+        "card_KCyQze"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -1174,6 +1192,7 @@
     "niccos_testimonials_F3WRTd",
     "rich_text_LaKbak",
     "niccos_collapsible_grid_qxT3wC",
-    "expandable_emK489"
+    "expandable_emK489",
+    "hss_promotion_card_circle_xeximi"
   ]
 }
