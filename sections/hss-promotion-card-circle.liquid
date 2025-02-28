@@ -9,11 +9,13 @@
           {% if block.settings.image %}
             <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
           {% else %}
-            <div class="hss-placeholder">+</div>
+            <div class="hss-placeholder">Kein Bild</div>
           {% endif %}
         </div>
         {% if block.settings.heading != blank %}
           <span class="hss-promo-title">{{ block.settings.heading }}</span>
+        {% else %}
+          <span class="hss-promo-title">Kein Titel</span>
         {% endif %}
       </a>
     {% endfor %}
@@ -31,6 +33,7 @@
     gap: {{ section.settings.desktop_distance }}px;
     white-space: nowrap;
     max-width: 100%;
+    overflow: hidden;
   }
 
   .hss-promo-item {
@@ -61,38 +64,34 @@
     border-radius: 50%;
   }
 
-  .hss-promo-highlight::after {
-    content: '';
-    border: 2px solid {{ section.settings.highlight_color }};
+  .hss-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #666;
+    background: #ddd;
     border-radius: 50%;
-    width: 110%;
-    height: 110%;
-    position: absolute;
-    top: -5%;
-    left: -5%;
   }
 
   .hss-promo-title {
     display: block;
     margin-top: 5px;
   }
-
-  @media only screen and (max-width: 768px) {
-    .hss-promo-carousel-holder {
-      justify-content: flex-start;
-      gap: {{ section.settings.mobile_distance }}px;
-    }
-
-    .hss-promo-image {
-      width: {{ section.settings.mobile_size }}px;
-      height: {{ section.settings.mobile_size }}px;
-    }
-  }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var carousel = document.querySelector("#carousel-{{ section.id }}");
+
+    if (!carousel) {
+      console.error("🚨 Fehler: Karussell-Element wurde nicht gefunden!");
+      return;
+    }
+
+    console.log("✅ Flickity wird gestartet...");
 
     var flickityOptions = {
       cellAlign: "left",
@@ -104,7 +103,13 @@
       autoPlay: {% if section.settings.auto_rotate %}{{ section.settings.auto_rotate_speed }} * 1000{% else %}false{% endif %}
     };
 
-    new Flickity(carousel, flickityOptions);
+    var flickityInstance = new Flickity(carousel, flickityOptions);
+
+    if (flickityInstance) {
+      console.log("✅ Flickity erfolgreich geladen!");
+    } else {
+      console.error("🚨 Fehler: Flickity konnte nicht gestartet werden.");
+    }
   });
 </script>
 
@@ -135,30 +140,12 @@
     },
     {
       "type": "range",
-      "id": "mobile_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 80,
-      "label": "Größe der Icons (Mobile, px)"
-    },
-    {
-      "type": "range",
       "id": "desktop_distance",
       "min": 0,
       "max": 60,
       "step": 1,
       "default": 9,
       "label": "Abstand zwischen Icons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_distance",
-      "min": 0,
-      "max": 10,
-      "step": 1,
-      "default": 2,
-      "label": "Abstand zwischen Icons (Mobile, px)"
     },
     {
       "type": "range",
@@ -205,11 +192,6 @@
           "type": "url",
           "id": "url",
           "label": "Link"
-        },
-        {
-          "type": "checkbox",
-          "id": "highlight",
-          "label": "Hervorheben"
         }
       ]
     }
