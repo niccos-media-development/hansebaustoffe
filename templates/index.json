@@ -211,7 +211,9 @@
         "desktop_size": 100,
         "mobile_size": 80,
         "desktop_distance": 9,
-        "mobile_distance": 10
+        "mobile_distance": 10,
+        "border_color": "#232323",
+        "border_width": 10
       }
     },
     "niccos_promotional_cards_WnDXcV": {
