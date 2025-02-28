@@ -108,6 +108,71 @@
         "category_gE8Rbk": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/HSS_Dichtstoff_EXTRA_Grey_WEISSE_KARTUSCHE_Render_1000x1000px_FIN_0524_3_1.webp",
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_jCByCW": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_8894Vy": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_6E88ft": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_iT8HXE": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_4xrDDf": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_ff9w6H": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_UXJFP6": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_irFJgT": {
+          "type": "category",
+          "settings": {
             "heading": "Kategorie",
             "url": "",
             "highlight": false
@@ -118,7 +183,15 @@
         "category_3PJLQT",
         "category_GRUwTN",
         "category_p8ntxr",
-        "category_gE8Rbk"
+        "category_gE8Rbk",
+        "category_jCByCW",
+        "category_8894Vy",
+        "category_6E88ft",
+        "category_iT8HXE",
+        "category_4xrDDf",
+        "category_ff9w6H",
+        "category_UXJFP6",
+        "category_irFJgT"
       ],
       "settings": {
         "background_color": "#f2f2f2",
