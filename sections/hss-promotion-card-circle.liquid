@@ -4,46 +4,49 @@
 {{ 'component-scroller.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.layout == 'slider' -%}
-	{{ 'flickity.css' | asset_url | stylesheet_tag }}
-	<script src="{{ 'flickity.pkgd.js' | asset_url }}" defer="defer"></script>
-	<script src="{{ 'carousel-slider.js' | asset_url }}" defer="defer"></script>
+  {{ 'flickity.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'flickity.pkgd.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'carousel-slider.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
 <style>
-  /* Abstand oben und unten */
+  /* Abstand oben und unten für den ganzen Abschnitt */
   #shopify-section-{{ section.id }} {
     margin-top: {{ section.settings.spacing_top }}px;
     margin-bottom: {{ section.settings.spacing_bottom }}px;
   }
 
-  /* Desktop-Grid */
+  /* --- DESKTOP: Grid-Layout mit konfigurierbaren Spalten --- */
   #shopify-section-{{ section.id }} .hss-promo-card-container {
     display: grid;
     grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
     gap: 20px;
   }
 
-  /* Mobile Darstellung als Scroller */
+  /* --- MOBILE: Horizontaler Scroller --- */
   @media (max-width: 768px) {
     #shopify-section-{{ section.id }} .hss-promo-card-container {
-      display: flex;
-      overflow-x: auto;
+      display: flex;               /* statt Grid */
+      grid-template-columns: none; /* Grid-Einstellung entfernen */
+      overflow-x: auto;            /* Horizontal scrollbar */
       white-space: nowrap;
       scroll-snap-type: x mandatory;
-      padding: 10px;
       gap: 10px;
+      padding: 10px 0;
     }
 
     #shopify-section-{{ section.id }} .hss-promo-card {
-      flex: 0 0 auto;
+      flex: 0 0 auto;        /* Karten hintereinander */
       scroll-snap-align: center;
+      width: {{ section.settings.card_size_mobile }}px;  /* Separate Größe für Mobile */
+      height: {{ section.settings.card_size_mobile }}px; /* Separate Größe für Mobile */
     }
   }
 
-  /* Runde Card */
+  /* Allgemeine Styles für die Karten (Desktop & Mobile) */
   #shopify-section-{{ section.id }} .hss-promo-card {
-    width: 100px;
-    height: 100px;
+    width: {{ section.settings.card_size }}px;     /* Desktop-Größe */
+    height: {{ section.settings.card_size }}px;    /* Desktop-Größe */
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -54,6 +57,9 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px;
     transition: transform 0.3s ease-in-out;
+    {% if section.settings.card_clickable_desktop %}
+      cursor: pointer;
+    {% endif %}
   }
 
   #shopify-section-{{ section.id }} .hss-promo-card:hover {
@@ -68,12 +74,34 @@
     object-fit: cover;
   }
 
-  /* Titel unter der runden Card */
+  /* Titel / Beschreibung in der Card */
+  #shopify-section-{{ section.id }} .hss-promo-card h3 {
+    font-size: 16px;
+    margin: 5px 0 3px;
+    color: {{ section.settings.text_color }};
+  }
   #shopify-section-{{ section.id }} .hss-promo-card p {
     font-size: 14px;
-    color: #000;
-    margin-top: 5px;
-    text-align: center;
+    margin: 0;
+    color: {{ section.settings.text_color }};
+  }
+
+  /* Button */
+  #shopify-section-{{ section.id }} .hss-promo-btn {
+    margin-top: 8px;
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: {{ section.settings.button_color }};
+    color: {{ section.settings.button_text_color }};
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: background 0.3s ease-in-out;
+    white-space: nowrap;
+  }
+
+  #shopify-section-{{ section.id }} .hss-promo-btn:hover {
+    background-color: {{ section.settings.button_hover_color }};
   }
 </style>
 
@@ -81,11 +109,24 @@
   <div class="container">
     <div class="hss-promo-card-container">
       {% for block in section.blocks %}
-        <div class="hss-promo-card" style="background-color: {{ block.settings.card_background }};">
+        <div class="hss-promo-card"
+          style="background-color: {{ block.settings.card_background }};"
+          {% if section.settings.card_clickable_desktop and block.settings.link %}
+            onclick="window.location='{{ block.settings.link }}'"
+          {% endif %}
+        >
           {% if block.settings.image %}
             <img src="{{ block.settings.image | img_url: '300x300' }}" alt="{{ block.settings.title }}">
           {% endif %}
-          <p>{{ block.settings.title }}</p>
+          {% if block.settings.title != blank %}
+            <h3>{{ block.settings.title }}</h3>
+          {% endif %}
+          {% if block.settings.text != blank %}
+            <p>{{ block.settings.text }}</p>
+          {% endif %}
+          {% if block.settings.link %}
+            <a href="{{ block.settings.link }}" class="hss-promo-btn">{{ block.settings.button_text }}</a>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
@@ -119,18 +160,57 @@
       "id": "columns",
       "label": "Anzahl der Spalten auf Desktop",
       "min": 1,
-      "max": 4,
+      "max": 6,
       "step": 1,
-      "default": 3
+      "default": 4
+    },
+    {
+      "type": "checkbox",
+      "id": "card_clickable_desktop",
+      "label": "Die gesamte Karte ist auf Desktops anklickbar",
+      "default": false
     },
     {
       "type": "range",
       "id": "card_size",
-      "label": "Größe der runden Karte",
+      "label": "Größe der runden Karte (Desktop)",
       "min": 100,
       "max": 400,
       "step": 10,
-      "default": 250
+      "default": 120
+    },
+    {
+      "type": "range",
+      "id": "card_size_mobile",
+      "label": "Größe der runden Karte (Mobile)",
+      "min": 60,
+      "max": 200,
+      "step": 10,
+      "default": 80
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Textfarbe",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button-Farbe",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button-Textfarbe",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button Hover-Farbe",
+      "default": "#333333"
     }
   ],
   "blocks": [
@@ -148,6 +228,23 @@
           "id": "title",
           "label": "Titel",
           "default": "Promotion"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Beschreibung",
+          "default": "Kurze Beschreibung"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button-Text",
+          "default": "Mehr erfahren"
         },
         {
           "type": "color",
