@@ -153,7 +153,7 @@
         "background_color": "#f3f3f3",
         "icon_background": "#ffffff",
         "desktop_size": 150,
-        "mobile_size": 80,
+        "mobile_size": 120,
         "desktop_distance": 50,
         "mobile_distance": 1,
         "top_margin": 0,
