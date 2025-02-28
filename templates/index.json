@@ -82,22 +82,14 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_EPDM_1.png",
-            "title": "EPDM Dachfolie",
-            "text": "",
-            "link": "shopify://collections/dachprotect-epdm-dachfolie",
-            "button_text": "zur Kategorie",
-            "card_background": "#f8f8f8"
+            "title": "EPDM Dachfolie"
           }
         },
         "card_kXmWi8": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/HSS_Shop25_Kategorie_PromoCards_Kleber_1.png",
-            "title": "Kleb- & Dichtstoffe",
-            "text": "",
-            "link": "shopify://collections/kleb-dichtstoffe",
-            "button_text": "zur Kategorie",
-            "card_background": "#f8f8f8"
+            "title": "Kleb- & Dichtstoffe"
           }
         }
       },
@@ -108,14 +100,11 @@
       "settings": {
         "spacing_top": 20,
         "spacing_bottom": 20,
-        "columns": 3,
-        "card_clickable_desktop": false,
+        "columns": 5,
         "card_size": 250,
         "card_size_mobile": 60,
         "text_color": "#000000",
-        "button_color": "#000000",
-        "button_text_color": "#ffffff",
-        "button_hover_color": "#333333"
+        "card_background": "#ffffff"
       }
     },
     "niccos_promotional_cards_DhFpWq": {
