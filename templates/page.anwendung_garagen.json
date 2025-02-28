@@ -383,6 +383,68 @@
         "mobile_spacing_top": 40,
         "mobile_spacing_bottom": 40
       }
+    },
+    "rich_text_gVn83E": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DFFerY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Verarbeitungsvideos",
+            "heading_size": "sm"
+          }
+        },
+        "button_AUyVGd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zu den Videos",
+            "button_link": "shopify://pages/verarbeitungsvideos"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DFFerY",
+        "button_AUyVGd"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 0,
+        "spacing_bottom": 0
+      }
+    },
+    "rich_text_4GzrV9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AEYcpG": {
+          "type": "heading",
+          "settings": {
+            "heading": "4. Optional: Dachrandprofil und Wandanschlussprofil konfigurieren",
+            "heading_size": "md"
+          }
+        },
+        "text_Kn7mCY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Für die Montage Ihrer Garage empfehlen wir optional das Dachrandprofil ISOS, das mit unsichtbaren KLICK-Verbindern oder sichtbaren Standard-Verbindern befestigt werden kann.</p><p>Ebenso optional ist das Wandanschlussprofil, das eine sichere, wasserdichte Verbindung zwischen Carportdach und Wohnhaus herstellt und dank doppelseitigem MicroSealant Dichtband jahrzehntelangen Schutz bietet.</p>",
+            "text_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AEYcpG",
+        "text_Kn7mCY"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
     }
   },
   "order": [
@@ -395,6 +457,8 @@
     "rich_text_j4CLdz",
     "featured_product_kiMHbg",
     "rich_text_efFmbC",
-    "featured_collection_rpwYTg"
+    "featured_collection_rpwYTg",
+    "rich_text_gVn83E",
+    "rich_text_4GzrV9"
   ]
 }
