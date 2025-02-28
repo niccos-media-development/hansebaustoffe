@@ -265,7 +265,7 @@
       "settings": {
         "narrow": true,
         "overlay_background": "",
-        "alignment": "left",
+        "alignment": "center",
         "color_scheme": "accent-3",
         "spacing_top": 10,
         "spacing_bottom": 10
