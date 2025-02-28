@@ -90,7 +90,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/400-AKD-060_Kabeldurchfuehrung_Produktbild_1000x1000px_1.jpg",
-            "heading": "Kategorie",
+            "heading": "Kabeldurchführung",
             "url": ""
           }
         },
@@ -164,7 +164,7 @@
         "mobile_size": 80,
         "desktop_distance": 10,
         "mobile_distance": 10,
-        "title_color": "#232323"
+        "link_enabled": true
       }
     },
     "niccos_promotional_cards_WnDXcV": {
