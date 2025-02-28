@@ -441,9 +441,9 @@
         "narrow": true,
         "overlay_background": "",
         "alignment": "left",
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "color_scheme": "accent-3",
+        "spacing_top": 10,
+        "spacing_bottom": 10
       }
     },
     "product_lists_4qfMmy": {
