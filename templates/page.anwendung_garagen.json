@@ -9,22 +9,55 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "custom_css": [],
-      "settings": {
-        "hide_heading": false
-      }
-    },
     "173945177119dc2136": {
       "type": "apps",
       "settings": {
         "full_width": false
       }
+    },
+    "rich_text_Nca7K9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KHmM9y": {
+          "type": "heading",
+          "settings": {
+            "heading": "EPDM-Folie für Ihre Garage - haltbar, flexibel und umweltfreundlich",
+            "heading_size": "md"
+          }
+        },
+        "text_QxXrpb": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Die Wahl der richtigen Dachabdichtung für Ihre Garage ist von großer Bedeutung. Eine effektive Abdichtung schützt nicht nur Ihr Fahrzeug vor Witterungseinflüssen, sondern bewahrt auch die Bausubstanz Ihrer Garage vor Schäden durch Regen, Schnee und UV-Strahlung. Hochwertige EPDM-Folien bieten eine ausgezeichnete Wasserundurchlässigkeit und reduzieren gleichzeitig den Wartungsaufwand erheblich. Es lohnt sich, bei der Auswahl der Abdichtung sorgfältig vorzugehen, um sicherzustellen, dass alle Anforderungen erfüllt werden.</h4><h4>Mit der Dachfolie von DACHPROTECT erhalten Sie einen zuverlässigen und langfristigen Schutz für das Dach Ihrer Garage. Dank einer nachgewiesenen Haltbarkeit von über 50 Jahren reduzieren Sie nicht nur den Wartungsaufwand, sondern tragen auch zum Umweltschutz bei und sparen langfristig Geld. Vertrauen Sie auf die Qualität von DACHPROTECT und sichern Sie Ihre Garage gegen alle Wetterbedingungen ab.</h4>",
+            "text_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KHmM9y",
+        "text_QxXrpb"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "left",
+        "color_scheme": "accent-3",
+        "spacing_top": 10,
+        "spacing_bottom": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "hide_heading": false
+      }
     }
   },
   "order": [
-    "main",
-    "173945177119dc2136"
+    "173945177119dc2136",
+    "rich_text_Nca7K9",
+    "main"
   ]
 }
