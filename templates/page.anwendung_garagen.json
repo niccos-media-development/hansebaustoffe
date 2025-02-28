@@ -243,15 +243,23 @@
     "rich_text_j4CLdz": {
       "type": "rich-text",
       "blocks": {
+        "heading_8WN7RA": {
+          "type": "heading",
+          "settings": {
+            "heading": "2. Konfigurieren Sie Ihre Klebstoffe",
+            "heading_size": "md"
+          }
+        },
         "text_axR8ng": {
           "type": "text",
           "settings": {
-            "text": "<h4>2. Konfigurieren Sie Ihre Klebstoffe</h4><p><strong>Flächenkleber SpayBond<br/>Unsere Empfehlung für Betonuntergründe</strong></p><p><strong>Klebeverfahren: </strong>Kontaktklebeverfahren*<br/><strong>Untergründe: </strong>Beton<strong>,</strong> Holz (Holzschalungen, OSB und Mehrschichtplatten), Alt-Bitumen, Dämmung aus EPS/XPS sowie PUR/PIR, PVC, Sandwichpaneele, uvm.<br/><strong>Reichweite: </strong>5m²</p><p>* Randbereiche müssen immer im Kontaktklebeverfahren ausgeführt werden.</p>",
+            "text": "<p><strong>Flächenkleber SpayBond<br/>Unsere Empfehlung für Betonuntergründe</strong></p><p><strong>Klebeverfahren: </strong>Kontaktklebeverfahren*<br/><strong>Untergründe: </strong>Beton<strong>,</strong> Holz (Holzschalungen, OSB und Mehrschichtplatten), Alt-Bitumen, Dämmung aus EPS/XPS sowie PUR/PIR, PVC, Sandwichpaneele, uvm.<br/><strong>Reichweite: </strong>5m²</p><p>* Randbereiche müssen immer im Kontaktklebeverfahren ausgeführt werden.</p>",
             "text_size": "md"
           }
         }
       },
       "block_order": [
+        "heading_8WN7RA",
         "text_axR8ng"
       ],
       "settings": {
