@@ -200,6 +200,133 @@
         "mobile_size": 80
       }
     },
+    "niccos_promotional_cards_WnDXcV": {
+      "type": "niccos-promotional-cards",
+      "blocks": {
+        "promotion_xCdEG7": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Trainingscenter_390x175px.jpg",
+            "background_image_position": "top-right",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "HSS Trainingscenter",
+            "link": "shopify://pages/hss-trainingscenter",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "middle-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_GNLBWP": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Abholungen_390x175px.jpg",
+            "background_image_position": "top-right",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Werksabholung",
+            "link": "shopify://pages/abholung",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "middle-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_cJtLMj": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Gewerbekunden_Registrierung_390x175px.jpg",
+            "background_image_position": "top-right",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Gewerbekunden",
+            "link": "shopify://pages/gewerbekunden-registrierung",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "middle-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_bDMbPY": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Kategorieteaser_Ansprechpartner_390x175px.jpg",
+            "background_image_position": "top-right",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Unsere Ansprechpartner",
+            "link": "shopify://pages/contact",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "middle-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "promotion_EbcwtF": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/HSS_Shop25_Info_PromoCards_Shops_990x400_1.png",
+            "background_image_position": "top-right",
+            "background_color": "rgba(0,0,0,0)",
+            "overlay_background": "",
+            "background_image_offset_x": 0,
+            "background_image_offset_y": 0,
+            "title": "Unsere Shops",
+            "link": "shopify://pages/uber-uns",
+            "heading_size": "md",
+            "description": "",
+            "text_color": "#ffffff",
+            "button_color_scheme": "button-primary",
+            "box_align": "middle-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_xCdEG7",
+        "promotion_GNLBWP",
+        "promotion_cJtLMj",
+        "promotion_bDMbPY",
+        "promotion_EbcwtF"
+      ],
+      "settings": {
+        "image_heights": 174,
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "card_clickable_desktop": true,
+        "box_radius": 6,
+        "heading_outline_color": "#333333",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
     "niccos_promotional_cards_DhFpWq": {
       "type": "niccos-promotional-cards",
       "blocks": {
@@ -374,6 +501,7 @@
         "promotion_RKhQdy",
         "promotion_D48ety"
       ],
+      "disabled": true,
       "custom_css": [
         ".promo-card {width: 200px; height: 200px; border-radius: 50%; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #f8f8f8; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}",
         ".promo-card img {width: 100px; height: 100px; border-radius: 50%; object-fit: cover;}"
@@ -448,133 +576,6 @@
         "text_font_size_mobile": "--font-body2-size",
         "icon_size_desktop": 48,
         "icon_size_mobile": 36
-      }
-    },
-    "niccos_promotional_cards_WnDXcV": {
-      "type": "niccos-promotional-cards",
-      "blocks": {
-        "promotion_xCdEG7": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Kategorieteaser_Trainingscenter_390x175px.jpg",
-            "background_image_position": "top-right",
-            "background_color": "rgba(0,0,0,0)",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "HSS Trainingscenter",
-            "link": "shopify://pages/hss-trainingscenter",
-            "heading_size": "md",
-            "description": "",
-            "text_color": "#ffffff",
-            "button_color_scheme": "button-primary",
-            "box_align": "middle-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "promotion_GNLBWP": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Kategorieteaser_Abholungen_390x175px.jpg",
-            "background_image_position": "top-right",
-            "background_color": "rgba(0,0,0,0)",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "Werksabholung",
-            "link": "shopify://pages/abholung",
-            "heading_size": "md",
-            "description": "",
-            "text_color": "#ffffff",
-            "button_color_scheme": "button-primary",
-            "box_align": "middle-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "promotion_cJtLMj": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Kategorieteaser_Gewerbekunden_Registrierung_390x175px.jpg",
-            "background_image_position": "top-right",
-            "background_color": "rgba(0,0,0,0)",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "Gewerbekunden",
-            "link": "shopify://pages/gewerbekunden-registrierung",
-            "heading_size": "md",
-            "description": "",
-            "text_color": "#ffffff",
-            "button_color_scheme": "button-primary",
-            "box_align": "middle-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "promotion_bDMbPY": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Kategorieteaser_Ansprechpartner_390x175px.jpg",
-            "background_image_position": "top-right",
-            "background_color": "rgba(0,0,0,0)",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "Unsere Ansprechpartner",
-            "link": "shopify://pages/contact",
-            "heading_size": "md",
-            "description": "",
-            "text_color": "#ffffff",
-            "button_color_scheme": "button-primary",
-            "box_align": "middle-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "promotion_EbcwtF": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Info_PromoCards_Shops_990x400_1.png",
-            "background_image_position": "top-right",
-            "background_color": "rgba(0,0,0,0)",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "Unsere Shops",
-            "link": "shopify://pages/uber-uns",
-            "heading_size": "md",
-            "description": "",
-            "text_color": "#ffffff",
-            "button_color_scheme": "button-primary",
-            "box_align": "middle-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "promotion_xCdEG7",
-        "promotion_GNLBWP",
-        "promotion_cJtLMj",
-        "promotion_bDMbPY",
-        "promotion_EbcwtF"
-      ],
-      "settings": {
-        "image_heights": 174,
-        "heading": "",
-        "subheading": "",
-        "link_title": "",
-        "link_url": "",
-        "columns": 3,
-        "stack_on_mobile": false,
-        "card_clickable_desktop": true,
-        "box_radius": 6,
-        "heading_outline_color": "#333333",
-        "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
       }
     },
     "featured-collection-2": {
@@ -1286,9 +1287,9 @@
     "video_background_qdmtMq",
     "video_background_fkUUFW",
     "hss_promotion_card_circle_xeximi",
+    "niccos_promotional_cards_WnDXcV",
     "niccos_promotional_cards_DhFpWq",
     "features_NDeL76",
-    "niccos_promotional_cards_WnDXcV",
     "featured-collection-2",
     "collections-1",
     "media_with_text_QNgpeD",
