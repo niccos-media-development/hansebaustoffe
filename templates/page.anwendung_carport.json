@@ -137,7 +137,46 @@
         "stack_on_mobile": false,
         "color_scheme": "accent-3",
         "spacing_top": 10,
-        "spacing_bottom": 0
+        "spacing_bottom": 10
+      }
+    },
+    "rich_text_DVLPYq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3BhD8T": {
+          "type": "heading",
+          "settings": {
+            "heading": "In vier Schritten zur perfekten Carport-Abdichtungmit DACHPROTECT EPDM",
+            "heading_size": "xxl"
+          }
+        },
+        "text_3XFDQt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text_size": "md"
+          }
+        },
+        "button_qKETar": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_3BhD8T",
+        "text_3XFDQt",
+        "button_qKETar"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
       }
     },
     "main": {
@@ -151,6 +190,7 @@
   "order": [
     "rich_text_wArdUE",
     "image_banners_qCih6D",
+    "rich_text_DVLPYq",
     "main"
   ]
 }
