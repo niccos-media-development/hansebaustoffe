@@ -15,8 +15,8 @@
                   <div class="hss-placeholder">+</div>
                 {% endif %}
               </div>
-              <span class="hss-promo-title">{{ block.settings.heading }}</span>
             </div>
+            <span class="hss-promo-title">{{ block.settings.heading }}</span>
           </div>
         </a>
       {% endfor %}
@@ -33,6 +33,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: {{ section.settings.top_margin }}px; /* Abstand oben */
+    margin-bottom: {{ section.settings.bottom_margin }}px; /* Abstand unten */
   }
 
   .hss-promo-carousel-holder {
@@ -66,17 +68,17 @@
   .hexagon-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Titel nach unten verschieben */
+    justify-content: center;
     align-items: center;
     padding: 0;
     text-align: center;
-    height: 100%; /* Stellt sicher, dass der Container die volle Höhe einnimmt */
+    height: 100%;
   }
 
   /* HEXAGON-FORM - feste Höhe und gleiche Größe */
   .hexagon {
     width: {{ section.settings.desktop_size }}px;
-    height: {{ section.settings.desktop_size | times: 1.15 }}px; /* Feste Höhe für alle Hexagons */
+    height: {{ section.settings.desktop_size }}px; /* Feste Höhe für alle Hexagons */
     background-color: {{ section.settings.icon_background }};
     position: relative;
     clip-path: polygon(
@@ -161,7 +163,7 @@
 
     .hexagon {
       width: {{ section.settings.mobile_size }}px;
-      height: {{ section.settings.mobile_size | times: 1.15 }}px;
+      height: {{ section.settings.mobile_size }}px; /* Feste Höhe auch für mobile Ansicht */
     }
 
     .hss-promo-title {
@@ -221,6 +223,24 @@
       "step": 1,
       "default": 10,
       "label": "Abstand zwischen Hexagons (Mobile, px)"
+    },
+    {
+      "type": "range",
+      "id": "top_margin",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "label": "Abstand oben zu anderen Abschnitten"
+    },
+    {
+      "type": "range",
+      "id": "bottom_margin",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "label": "Abstand unten zu anderen Abschnitten"
     }
   ],
   "blocks": [
