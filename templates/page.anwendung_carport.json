@@ -177,12 +177,85 @@
       "settings": {
         "hide_heading": true
       }
+    },
+    "featured_product_YnVEAP": {
+      "type": "featured-product",
+      "blocks": {
+        "title_QjfwjB": {
+          "type": "title",
+          "settings": {
+            "show_vendor": false,
+            "show_stock": true,
+            "show_sku": true,
+            "show_barcode": false,
+            "barcode_label": "Barcode",
+            "show_rating": false,
+            "hide_empty_star_rating": false,
+            "show_custom_badges": false
+          }
+        },
+        "text_PNFXj4": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "icon": "",
+            "text_2": "",
+            "icon_2": "",
+            "text_3": "",
+            "icon_3": "",
+            "text_4": "",
+            "icon_4": "",
+            "color_scheme": "none"
+          }
+        },
+        "price_74UQfY": {
+          "type": "price",
+          "settings": {}
+        },
+        "variants_qDwGEn": {
+          "type": "variants",
+          "settings": {
+            "picker_type": "button",
+            "hide_single_variant": false,
+            "out_of_stock_variants": "show"
+          }
+        },
+        "buy_buttons_H6xEBL": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_add_to_cart": true,
+            "show_buy_now": false,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "title_QjfwjB",
+        "text_PNFXj4",
+        "price_74UQfY",
+        "variants_qDwGEn",
+        "buy_buttons_H6xEBL"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "product": "dachprotect-epdm-dachfolie-schwarz-im-zuschnitt",
+        "hide_variants": false,
+        "thumbnail_navigation": false,
+        "image_zoom_type": "lightbox",
+        "image_disclaimer": "",
+        "color_scheme": "accent-3",
+        "spacing_top": 10,
+        "spacing_bottom": 10
+      }
     }
   },
   "order": [
     "rich_text_wArdUE",
     "image_banners_qCih6D",
     "rich_text_DVLPYq",
-    "main"
+    "main",
+    "featured_product_YnVEAP"
   ]
 }
