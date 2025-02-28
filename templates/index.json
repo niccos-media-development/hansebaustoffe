@@ -124,6 +124,13 @@
             "url": ""
           }
         },
+        "category_AqPXDz": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": ""
+          }
+        },
         "category_UXJFP6": {
           "type": "category",
           "settings": {
@@ -139,6 +146,7 @@
         "category_fpFjLA",
         "category_meBp43",
         "category_gE8Rbk",
+        "category_AqPXDz",
         "category_UXJFP6"
       ],
       "settings": {
