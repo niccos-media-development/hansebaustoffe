@@ -377,11 +377,17 @@
         "product_list_nYkjct": {
           "type": "product_list",
           "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "Product list",
-            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Verarbeitungswerkzeuge.jpg",
+            "overlay_background": "",
+            "heading": "Verarbeitungswerkzeuge",
+            "description": "",
             "link": "",
-            "products": []
+            "products": [
+              "silikon-kombi-andruckrolle-eckenroller-profi",
+              "schere-26cm",
+              "silikon-andruckrolle-40mm-breit-gelb",
+              "nylon-eckenroller"
+            ]
           }
         },
         "product_list_YpFj9e": {
