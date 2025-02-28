@@ -215,13 +215,6 @@
     "rich_text_j4CLdz": {
       "type": "rich-text",
       "blocks": {
-        "heading_TnVDHT": {
-          "type": "heading",
-          "settings": {
-            "heading": "2. Konfigurieren Sie Ihre Klebstoffe",
-            "heading_size": "sm"
-          }
-        },
         "text_axR8ng": {
           "type": "text",
           "settings": {
@@ -231,7 +224,6 @@
         }
       },
       "block_order": [
-        "heading_TnVDHT",
         "text_axR8ng"
       ],
       "settings": {
