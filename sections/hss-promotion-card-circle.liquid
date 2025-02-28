@@ -3,12 +3,14 @@
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
         <a href="{{ block.settings.url }}" class="hss-promo-item">
-          <div class="hss-promo-image hexagon {% if block.settings.highlight %}hss-promo-highlight{% endif %}">
-            {% if block.settings.image %}
-              <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
-            {% else %}
-              <div class="hss-placeholder">+</div>
-            {% endif %}
+          <div class="hss-promo-border">
+            <div class="hss-promo-image hexagon {% if block.settings.highlight %}hss-promo-highlight{% endif %}">
+              {% if block.settings.image %}
+                <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+              {% else %}
+                <div class="hss-placeholder">+</div>
+              {% endif %}
+            </div>
           </div>
           {% if block.settings.heading != blank %}
             <span class="hss-promo-title">{{ block.settings.heading }}</span>
@@ -58,11 +60,24 @@
   }
 
   /* HEXAGON-FORM */
+  .hss-promo-border {
+    width: {{ section.settings.desktop_size | times: 1.1 }}px;
+    height: {{ section.settings.desktop_size | times: 1.27 }}px;
+    background-color: {{ section.settings.hexagon_border_color }};
+    clip-path: polygon(
+      50% 0%, 100% 25%, 100% 75%,
+      50% 100%, 0% 75%, 0% 25%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: {{ section.settings.hexagon_border_width }}px;
+  }
+
   .hexagon {
     width: {{ section.settings.desktop_size }}px;
     height: {{ section.settings.desktop_size | times: 1.15 }}px;
     background-color: {{ section.settings.icon_background }};
-    position: relative;
     clip-path: polygon(
       50% 0%, 100% 25%, 100% 75%,
       50% 100%, 0% 75%, 0% 25%
@@ -71,7 +86,6 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border: 3px solid {{ section.settings.hexagon_border_color }}; /* ✅ Randfarbe kann geändert werden */
   }
 
   .hexagon img {
@@ -105,13 +119,6 @@
     overflow: hidden;
   }
 
-  .hss-no-content {
-    text-align: center;
-    font-size: 18px;
-    color: red;
-    font-weight: bold;
-  }
-
   @media only screen and (max-width: 768px) {
     .hss-promo-carousel-holder {
       justify-content: flex-start;
@@ -122,6 +129,11 @@
     .hss-promo-item {
       flex: 0 0 auto;
       margin: 0 auto;
+    }
+
+    .hss-promo-border {
+      width: {{ section.settings.mobile_size | times: 1.1 }}px;
+      height: {{ section.settings.mobile_size | times: 1.27 }}px;
     }
 
     .hexagon {
@@ -156,6 +168,15 @@
       "id": "hexagon_border_color",
       "default": "#000000",
       "label": "Randfarbe des Hexagons"
+    },
+    {
+      "type": "range",
+      "id": "hexagon_border_width",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "default": 5,
+      "label": "Randbreite des Hexagons (px)"
     },
     {
       "type": "range",
