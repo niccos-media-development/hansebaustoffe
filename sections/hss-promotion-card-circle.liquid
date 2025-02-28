@@ -10,6 +10,12 @@
 {%- endif -%}
 
 <style>
+  /* Abstandseinstellungen für den gesamten Abschnitt */
+  #shopify-section-{{ section.id }} {
+    margin-top: {{ section.settings.spacing_top }}px;
+    margin-bottom: {{ section.settings.spacing_bottom }}px;
+  }
+
   /* Container für die runden Cards */
   #shopify-section-{{ section.id }} .hss-promo-card-container {
     display: flex;
@@ -105,6 +111,24 @@
 {
   "name": "HSS Promotion Card Circle",
   "settings": [
+    {
+      "type": "range",
+      "id": "spacing_top",
+      "label": "Abstand oben",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "spacing_bottom",
+      "label": "Abstand unten",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 20
+    },
     {
       "type": "range",
       "id": "card_size",
