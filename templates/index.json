@@ -83,7 +83,8 @@
           "settings": {
             "image": "shopify://shop_images/400-100-75D_Klebe-Gully_DN75_Set_DoppelseitigesDichtband_Produktbild_1000x1000px_1.jpg",
             "heading": "EPDM Dachfolie",
-            "url": ""
+            "url": "",
+            "highlight": false
           }
         },
         "category_GRUwTN": {
@@ -91,7 +92,8 @@
           "settings": {
             "image": "shopify://shop_images/400-AKD-060_Kabeldurchfuehrung_Produktbild_1000x1000px_1.jpg",
             "heading": "Kategorie",
-            "url": ""
+            "url": "",
+            "highlight": false
           }
         },
         "category_p8ntxr": {
@@ -99,7 +101,40 @@
           "settings": {
             "image": "shopify://shop_images/Dach_Reparaturband_Grau_Titelbild_Marktplatz.png",
             "heading": "Kategorie",
-            "url": ""
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_7YAPx8": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_fXD9rV": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_fpFjLA": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "category_meBp43": {
+          "type": "category",
+          "settings": {
+            "heading": "Kategorie",
+            "url": "",
+            "highlight": false
           }
         },
         "category_gE8Rbk": {
@@ -107,14 +142,16 @@
           "settings": {
             "image": "shopify://shop_images/HSS_Dichtstoff_EXTRA_Grey_WEISSE_KARTUSCHE_Render_1000x1000px_FIN_0524_3_1.webp",
             "heading": "Kategorie",
-            "url": ""
+            "url": "",
+            "highlight": false
           }
         },
         "category_UXJFP6": {
           "type": "category",
           "settings": {
             "heading": "Kategorie",
-            "url": ""
+            "url": "",
+            "highlight": false
           }
         }
       },
@@ -122,6 +159,10 @@
         "category_3PJLQT",
         "category_GRUwTN",
         "category_p8ntxr",
+        "category_7YAPx8",
+        "category_fXD9rV",
+        "category_fpFjLA",
+        "category_meBp43",
         "category_gE8Rbk",
         "category_UXJFP6"
       ],
@@ -129,10 +170,9 @@
         "background_color": "#f2f2f2",
         "icon_background": "#ffffff",
         "desktop_size": 150,
+        "mobile_size": 80,
         "desktop_distance": 9,
-        "items_per_row": 4,
-        "auto_rotate": true,
-        "auto_rotate_speed": 3
+        "mobile_distance": 10
       }
     },
     "niccos_promotional_cards_WnDXcV": {
