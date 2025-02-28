@@ -277,12 +277,12 @@
         "title_Biexp7": {
           "type": "title",
           "settings": {
-            "show_vendor": true,
+            "show_vendor": false,
             "show_stock": true,
             "show_sku": true,
             "show_barcode": false,
             "barcode_label": "Barcode",
-            "show_rating": false,
+            "show_rating": true,
             "hide_empty_star_rating": false,
             "show_custom_badges": false
           }
@@ -509,7 +509,7 @@
         "columns": "3",
         "stack_on_mobile": false,
         "color_scheme": "background-1",
-        "spacing_top": 0,
+        "spacing_top": 26,
         "spacing_bottom": 26
       }
     },
