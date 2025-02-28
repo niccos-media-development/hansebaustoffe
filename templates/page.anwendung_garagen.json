@@ -149,7 +149,7 @@
         "text_ReTDGa": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>1,2 mm:</strong> Für Nebengebäude und Anwendungen ohne Vorgabe nach einer Richtlinie oder Norm<br/>Geeignet für private Verarbeiter</p><p><strong>1,5 mm:</strong> Für Wohngebäude/Nebengebäude sowie Anwendungen die eine Materialstärke von 1,5 mm nach einer Norm oder Richtlinie erfordern. <br/>Geeignet für Private- und gewerbliche Verarbeiter</p><p><strong>Hinweise:<br/></strong><em><strong>Breite und Länge können bei Bedarf miteinander vertauscht werden, um den Verschnitt zu minimieren. Die EPDM Dachfolie weist produktionsbedingt alle 1,50 m eine Materialverdickung auf, die parallel zur Breite der EPDM Dachfolie verläuft.<br/>Achten Sie darauf Dachränder und Hochzüge ausreichend zu berücksichtigen. </strong></em></p>",
+            "text": "<p><strong>1,2 mm:</strong> Für Nebengebäude und Anwendungen ohne Vorgabe nach einer Richtlinie oder Norm.<br/>Geeignet für private Verarbeiter</p><p><strong>1,5 mm:</strong> Für Wohngebäude/Nebengebäude sowie Anwendungen die eine Materialstärke von 1,5 mm nach einer Norm oder Richtlinie erfordern. <br/>Geeignet für Private- und gewerbliche Verarbeiter</p><p><strong>Hinweise:<br/></strong><em><strong>Breite und Länge können bei Bedarf miteinander vertauscht werden, um den Verschnitt zu minimieren. Die EPDM Dachfolie weist produktionsbedingt alle 1,50 m eine Materialverdickung auf, die parallel zur Breite der EPDM Dachfolie verläuft.<br/>Achten Sie darauf Dachränder und Hochzüge ausreichend zu berücksichtigen. </strong></em></p>",
             "text_size": "md"
           }
         }
@@ -162,7 +162,7 @@
       "settings": {
         "narrow": true,
         "overlay_background": "",
-        "alignment": "center",
+        "alignment": "left",
         "color_scheme": "accent-3",
         "spacing_top": 10,
         "spacing_bottom": 10
@@ -265,7 +265,7 @@
       "settings": {
         "narrow": true,
         "overlay_background": "",
-        "alignment": "center",
+        "alignment": "left",
         "color_scheme": "accent-3",
         "spacing_top": 10,
         "spacing_bottom": 10
@@ -356,7 +356,7 @@
         "text_FFHCwm": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Wie kann ich mein Garagen entwässern?</strong><br/>1. Über eine Dachrinne (z.B. beim Pultdach) -&gt; Anschluss der EPDM Folie an das Rinneneinhangblech mittels Aktivierung und Nahtband oder doppelseitigen MicroSealant Dichtband.<br/>2. Über einen Gully in der Dachfläche oder über die Attika -&gt; Aktivierung wird zwingend für die Verarbeitung unserer Garantie-Gullys benötigt! -&gt; Gullys als SET inkl. Aktivierung erhältlich</p><p><strong>Zusätzlich sollte auch immer eine Notentwässerung geplant werden, falls das Regenwassersystem überlastet oder verstopft ist.</strong></p>",
+            "text": "<p><strong>Wie kann ich mein Garagen entwässern?</strong><br/><strong>1.</strong> Über eine Dachrinne (z.B. beim Pultdach) -&gt; Anschluss der EPDM Folie an das Rinneneinhangblech mittels Aktivierung und Nahtband oder doppelseitigen MicroSealant Dichtband.<br/><strong>2.</strong> Über einen Gully in der Dachfläche oder über die Attika -&gt; Aktivierung wird zwingend für die Verarbeitung unserer Garantie-Gullys benötigt! -&gt; Gullys als SET inkl. Aktivierung erhältlich</p><p><strong>Zusätzlich sollte auch immer eine Notentwässerung geplant werden, falls das Regenwassersystem überlastet oder verstopft ist.</strong></p>",
             "text_size": "md"
           }
         }
