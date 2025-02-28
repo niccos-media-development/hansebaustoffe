@@ -49,6 +49,7 @@
     "only_x_left": 3,
     "show_items_in_stock": false,
     "sale_badge_mode": "sale",
+    "color_swatches": "Black: #000000\nWhite: #ffffff\nRed: #ff0000\nGreen: #00ff00\nBlue: #0000ff",
     "predictive_search_enabled": true,
     "predictive_search_limit": 4,
     "search_filter_type": "none",

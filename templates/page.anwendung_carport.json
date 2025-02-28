@@ -35,7 +35,7 @@
         "narrow": true,
         "overlay_background": "",
         "alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-3",
         "spacing_top": 10,
         "spacing_bottom": 10
       }
@@ -135,7 +135,7 @@
         "layout": "slider",
         "columns": 3,
         "stack_on_mobile": false,
-        "color_scheme": "accent-3",
+        "color_scheme": "background-1",
         "spacing_top": 10,
         "spacing_bottom": 10
       }
@@ -166,7 +166,7 @@
         "narrow": true,
         "overlay_background": "",
         "alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-3",
         "spacing_top": 10,
         "spacing_bottom": 10
       }
@@ -219,7 +219,7 @@
             "show_quantity": true,
             "show_add_to_cart": true,
             "show_buy_now": false,
-            "show_gift_card_recipient": true
+            "show_gift_card_recipient": false
           }
         }
       },
@@ -238,7 +238,7 @@
         "thumbnail_navigation": false,
         "image_zoom_type": "lightbox",
         "image_disclaimer": "",
-        "color_scheme": "accent-3",
+        "color_scheme": "background-1",
         "spacing_top": 10,
         "spacing_bottom": 10
       }
