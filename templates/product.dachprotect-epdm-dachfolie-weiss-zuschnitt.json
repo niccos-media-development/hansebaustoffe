@@ -393,21 +393,32 @@
         "product_list_YpFj9e": {
           "type": "product_list",
           "settings": {
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Dachrandprofile.jpg",
             "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "Product list",
-            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
+            "heading": "Dachrandprofile",
+            "description": "",
             "link": "",
-            "products": []
+            "products": [
+              "dachrandprofil-isos-silber-ral-9006-1-95-meter",
+              "dachrandprofil-isos-anthrazit-ral-7016-1-95-meter",
+              "dachrandprofil-cube-anthrazit-ral-7016-1-meter"
+            ]
           }
         },
         "product_list_fyJhiV": {
           "type": "product_list",
           "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "Product list",
-            "description": "<p>Pair text with image backdrops to display promotional content for your product list.</p>",
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Garantie_Gullys.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Garantie-Gullys",
+            "description": "",
             "link": "",
-            "products": []
+            "products": [
+              "epdm-garantie-gully-garantie-gully-sets",
+              "epdm-garantie-seitenablauf-garantie-seitenablauf-set",
+              "epdm-garantie-seitennotablauf-garantie-seitennotablauf-set",
+              "garantie-notuberlauf-garantie-notuberlauf-set"
+            ]
           }
         }
       },
