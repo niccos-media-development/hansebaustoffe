@@ -42,7 +42,7 @@
         "overlay_background": "",
         "alignment": "left",
         "color_scheme": "accent-3",
-        "spacing_top": 10,
+        "spacing_top": 20,
         "spacing_bottom": 50
       }
     },
