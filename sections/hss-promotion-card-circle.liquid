@@ -29,25 +29,20 @@
   font-family: {{ section.settings.font.family }}, sans-serif;
   text-decoration: none;
   display: block;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100%;
 }
 
 .hss-promo-item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  height: 100%;
 }
 
 .hss-promo-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: {{ section.settings.desktop_size }}px; /* Feste Höhe für das Hexagon */
+  height: {{ section.settings.desktop_size }}px;
   width: {{ section.settings.desktop_size }}px;
   margin: 0 auto;
 }
@@ -127,12 +122,13 @@
     gap: {{ section.settings.mobile_distance }}%;
   }
 
-  .hss-promo-item-wrapper {
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  .hss-promo-item {
+    flex: 0 0 auto;
+    margin: 0 auto;
+  }
+
+  .hss-promo-title-wrapper {
+    padding: 0 10px;
   }
 
   .hexagon {
