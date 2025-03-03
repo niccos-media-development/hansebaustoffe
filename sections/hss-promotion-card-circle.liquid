@@ -7,9 +7,9 @@
             <div class="hss-promo-image">
               <div class="hexagon">
                 {% if block.settings.image %}
-                  <div class="hexagon-img-wrapper">
+                  <a href="{{ block.settings.url }}" class="hexagon-img-wrapper">
                     <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
-                  </div>
+                  </a>
                 {% else %}
                   <div class="hss-placeholder">+</div>
                 {% endif %}
@@ -26,8 +26,8 @@
     {% endif %}
   </div>
   <div class="slider-nav">
-    <button class="prev">←</button>
-    <button class="next">→</button>
+    <button class="prev">&larr;</button>
+    <button class="next">&rarr;</button>
   </div>
 </div>
 
@@ -54,10 +54,6 @@
     padding: 10px;
     width: 100%;
     max-width: 1200px;
-  }
-
-  .hss-promo-carousel-holder::-webkit-scrollbar {
-    display: none;
   }
 
   .hss-promo-item-wrapper {
@@ -96,6 +92,7 @@
     height: 100%;
     overflow: hidden;
     clip-path: inherit;
+    display: block;
   }
 
   .hexagon-img {
@@ -120,24 +117,12 @@
   }
 
   .hss-promo-title {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
     text-align: center;
     white-space: normal;
     line-height: 1.2;
     font-size: {{ section.settings.fontsize }}px;
     max-width: 100%;
-    max-height: 3.6em;
-    overflow: hidden;
-    hyphens: auto;
     color: {{ section.settings.title_text_color }} !important;
-  }
-
-  .hss-no-content {
-    text-align: center;
-    font-size: 18px;
-    color: red;
-    font-weight: bold;
   }
 
   .slider-nav {
@@ -163,27 +148,6 @@
   .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
-
-  @media only screen and (max-width: 768px) {
-    .slider-nav {
-      display: none;
-    }
-
-    .hss-promo-carousel-holder {
-      justify-content: flex-start;
-      padding: 10px 0;
-      gap: {{ section.settings.mobile_distance }}%;
-    }
-
-    .hexagon {
-      width: {{ section.settings.mobile_size }}px;
-      height: {{ section.settings.mobile_size }}px;
-    }
-
-    .hss-promo-title {
-      max-width: {{ section.settings.mobile_size }}px;
-    }
-  }
 </style>
 
 <script>
@@ -207,18 +171,6 @@
       "label": "Hintergrundfarbe"
     },
     {
-      "type": "color",
-      "id": "icon_background",
-      "default": "#ffffff",
-      "label": "Hintergrundfarbe der Hexagons"
-    },
-    {
-      "type": "color",
-      "id": "title_text_color",
-      "default": "#000000",
-      "label": "Farbe des Titeltextes"
-    },
-    {
       "type": "range",
       "id": "desktop_size",
       "min": 50,
@@ -226,51 +178,6 @@
       "step": 1,
       "default": 92,
       "label": "Größe der Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 80,
-      "label": "Größe der Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_distance",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand zwischen Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_distance",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "default": 10,
-      "label": "Abstand zwischen Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "top_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand oben zu anderen Abschnitten"
-    },
-    {
-      "type": "range",
-      "id": "bottom_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand unten zu anderen Abschnitten"
     }
   ],
   "blocks": [
@@ -294,16 +201,6 @@
           "id": "url",
           "label": "Link"
         }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Hexagon Cards",
-      "blocks": [
-        { "type": "category" },
-        { "type": "category" },
-        { "type": "category" }
       ]
     }
   ]
