@@ -56,10 +56,6 @@
     max-width: 1200px;
   }
 
-  .hss-promo-carousel-holder::-webkit-scrollbar {
-    display: none;
-  }
-
   .hss-promo-item-wrapper {
     text-align: center;
     font-size: {{ section.settings.fontsize }}px;
@@ -182,6 +178,10 @@
 
     .hss-promo-title {
       max-width: {{ section.settings.mobile_size }}px;
+    }
+
+    .hss-promo-title-wrapper {
+      margin-top: 5px; /* Verringert den Abstand zwischen dem Titel und dem Hexagon auf mobilen Geräten */
     }
   }
 </style>
