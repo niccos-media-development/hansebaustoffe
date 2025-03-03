@@ -1,3 +1,6 @@
+ChatGPT 4o
+Du:
+Kannst du desktop und mobile ansicht miteinander vereinen, also die darstellung soll auf dem desktop  auch so sein wie mobil:
 <div class="hss-promo-carousel">
   <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
     {% if section.blocks.size > 0 %}
@@ -309,3 +312,188 @@
   ]
 }
 {% endschema %}
+ChatGPT:
+Hier ist der aktualisierte Code, bei dem die Desktop-Ansicht genauso wie die mobile Ansicht funktioniert. Die wesentlichen Änderungen:
+
+Flexbox-Layout für beide Ansichten einheitlich gehalten.
+Die Slider-Navigation auch auf mobilen Geräten sichtbar gemacht.
+Die Scroll-Funktion verbessert, sodass sie auf Touch-Events und Desktop-Navigation reagiert.
+Einheitliche Größen und Abstände für Hexagons auf beiden Ansichten.
+Hier ist der optimierte Code:
+
+Hexagon Carousel
+
+Stattdessen im Chat antworten
+Ich habe die Darstellung für Desktop und Mobile vereinheitlicht, indem das Layout flexibler gemacht wurde und sich beide Versionen nun gleich verhalten. Die Scroll-Funktionalität wurde verbessert und die Navigation angepasst. Falls du noch Änderungen möchtest, lass es mich wissen! 🚀
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChatGPT kann Fehler machen. Überprüfe wichtige Informationen.
+?
+
+
+Hexagon Carousel
+
+
+
+
+
+
+Vorschau erstellen
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+<div class="hss-promo-carousel">
+  <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
+    {% if section.blocks.size > 0 %}
+      {% for block in section.blocks %}
+        <a href="{{ block.settings.url }}" class="hss-promo-item-wrapper">
+          <div class="hss-promo-item">
+            <div class="hss-promo-image">
+              <div class="hexagon">
+                {% if block.settings.image %}
+                  <div class="hexagon-img-wrapper">
+                    <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+                  </div>
+                {% else %}
+                  <div class="hss-placeholder">+</div>
+                {% endif %}
+              </div>
+            </div>
+            <div class="hss-promo-title-wrapper">
+              <span class="hss-promo-title">{{ block.settings.heading }}</span>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    {% else %}
+      <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
+    {% endif %}
+  </div>
+  <div class="slider-nav">
+    <button class="prev">&#8592;</button>
+    <button class="next">&#8594;</button>
+  </div>
+</div>
+
+<style>
+  .hss-promo-carousel {
+    background: {{ section.settings.background_color }};
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: {{ section.settings.top_margin }}px auto {{ section.settings.bottom_margin }}px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hss-promo-carousel-holder {
+    display: flex;
+    gap: {{ section.settings.desktop_distance }}px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    padding: 10px;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+
+  .hss-promo-carousel-holder::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hss-promo-item-wrapper {
+    text-align: center;
+    font-size: {{ section.settings.fontsize }}px;
+    font-weight: 600;
+    color: {{ section.settings.text_color }};
+    font-family: {{ section.settings.font.family }}, sans-serif;
+    text-decoration: none;
+    display: block;
+    flex: 0 0 auto;
+  }
+
+
+ChatGPT: Ich habe die Darstellung für Desktop und Mobile vereinheitlicht, indem das Layout flexibler gemacht wurde und sich beide Versionen nun gleich verhalten. Die Scroll-Funktionalität wurde verbessert und die Navigation angepasst. Falls du noch Änderungen möchtest, lass es mich wissen! 🚀
