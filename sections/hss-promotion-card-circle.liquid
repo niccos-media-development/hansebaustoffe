@@ -134,6 +134,7 @@
     max-height: 3.6em;
     overflow: hidden;
     hyphens: auto;
+    color: {{ section.settings.title_text_color }} !important; /* Hier kannst du die Farbe ändern */
   }
 
   .hss-no-content {
@@ -217,6 +218,12 @@
       "id": "icon_background",
       "default": "#ffffff",
       "label": "Hintergrundfarbe der Hexagons"
+    },
+    {
+      "type": "color",
+      "id": "title_text_color",  /* Neue Einstellung für die Schriftfarbe des Titels */
+      "default": "#000000",
+      "label": "Farbe des Titeltextes"
     },
     {
       "type": "range",
