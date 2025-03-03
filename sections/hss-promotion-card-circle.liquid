@@ -119,6 +119,12 @@
     margin-top: 10px;
   }
 
+  @media only screen and (max-width: 768px) {
+    .hss-promo-title-wrapper {
+      margin-top: 3px; /* Weniger Abstand für mobile Geräte */
+    }
+  }
+
   .hss-promo-title {
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -201,51 +207,6 @@
   "name": "HSS Hexagon Cards",
   "settings": [
     {
-      "type": "color",
-      "id": "background_color",
-      "default": "#f2f2f2",
-      "label": "Hintergrundfarbe"
-    },
-    {
-      "type": "color",
-      "id": "icon_background",
-      "default": "#ffffff",
-      "label": "Hintergrundfarbe der Hexagons"
-    },
-    {
-      "type": "color",
-      "id": "title_text_color",
-      "default": "#000000",
-      "label": "Farbe des Titeltextes"
-    },
-    {
-      "type": "range",
-      "id": "desktop_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 92,
-      "label": "Größe der Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 80,
-      "label": "Größe der Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_distance",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand zwischen Hexagons (Desktop, px)"
-    },
-    {
       "type": "range",
       "id": "mobile_distance",
       "min": 0,
@@ -253,24 +214,6 @@
       "step": 1,
       "default": 10,
       "label": "Abstand zwischen Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "top_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand oben zu anderen Abschnitten"
-    },
-    {
-      "type": "range",
-      "id": "bottom_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand unten zu anderen Abschnitten"
     }
   ],
   "blocks": [
@@ -294,16 +237,6 @@
           "id": "url",
           "label": "Link"
         }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Hexagon Cards",
-      "blocks": [
-        { "type": "category" },
-        { "type": "category" },
-        { "type": "category" }
       ]
     }
   ]
