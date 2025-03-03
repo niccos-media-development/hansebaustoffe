@@ -186,7 +186,7 @@
           "settings": {
             "title": "Downloads",
             "icon": "",
-            "text": "<p><a href=\"/pages/downloads\" title=\"Downloads\">zum Downloadportal</a></p>",
+            "text": "<p><a href=\"/pages/downloads\" target=\"_blank\" title=\"Downloads\">zum Downloadportal</a></p>",
             "expanded": false
           }
         },
