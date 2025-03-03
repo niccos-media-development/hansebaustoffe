@@ -25,9 +25,15 @@
       <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
     {% endif %}
   </div>
+  
+  <!-- Navigationspfeile mit angepasster Position -->
   <div class="slider-nav">
-    <button class="prev">←</button>
-    <button class="next">→</button>
+    <button class="prev">
+      <img src="path_to_left_arrow_image.png" alt="Left Arrow"> <!-- Links Pfeil-Bild -->
+    </button>
+    <button class="next">
+      <img src="path_to_right_arrow_image.png" alt="Right Arrow"> <!-- Rechts Pfeil-Bild -->
+    </button>
   </div>
 </div>
 
@@ -54,10 +60,6 @@
     padding: 10px;
     width: 100%;
     max-width: 1200px;
-  }
-
-  .hss-promo-carousel-holder::-webkit-scrollbar {
-    display: none;
   }
 
   .hss-promo-item-wrapper {
