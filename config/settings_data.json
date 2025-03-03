@@ -53,7 +53,7 @@
     "predictive_search_enabled": true,
     "predictive_search_limit": 4,
     "search_filter_type": "none",
-    "predictive_search_show_vendor": true,
+    "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "predictive_search_unavailable": "last",
     "predictive_search_queries": true,
