@@ -2,8 +2,8 @@
   <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
-        <div class="hss-promo-item-wrapper">
-          <a href="{{ block.settings.url }}" class="hss-promo-item">
+        <a href="{{ block.settings.url }}" class="hss-promo-item-wrapper">
+          <div class="hss-promo-item">
             <div class="hss-promo-image">
               <div class="hexagon">
                 {% if block.settings.image %}
@@ -18,8 +18,8 @@
             <div class="hss-promo-title-wrapper">
               <span class="hss-promo-title">{{ block.settings.heading }}</span>
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
       {% endfor %}
     {% else %}
       <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
@@ -60,20 +60,15 @@
     display: none;
   }
 
-  .hss-promo-item-wrapper a {
+  .hss-promo-item-wrapper {
+    text-align: center;
+    font-size: {{ section.settings.fontsize }}px;
+    font-weight: 600;
+    color: {{ section.settings.text_color }};
+    font-family: {{ section.settings.font.family }}, sans-serif;
+    text-decoration: none;
     display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-  }
-
-  .hss-promo-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
+    flex: 0 0 auto;
   }
 
   .hss-promo-image {
@@ -240,6 +235,42 @@
       "step": 1,
       "default": 80,
       "label": "Größe der Hexagons (Mobile, px)"
+    },
+    {
+      "type": "range",
+      "id": "desktop_distance",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "label": "Abstand zwischen Hexagons (Desktop, px)"
+    },
+    {
+      "type": "range",
+      "id": "mobile_distance",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 10,
+      "label": "Abstand zwischen Hexagons (Mobile, px)"
+    },
+    {
+      "type": "range",
+      "id": "top_margin",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "label": "Abstand oben zu anderen Abschnitten"
+    },
+    {
+      "type": "range",
+      "id": "bottom_margin",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "label": "Abstand unten zu anderen Abschnitten"
     }
   ],
   "blocks": [
