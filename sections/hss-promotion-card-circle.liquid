@@ -54,6 +54,11 @@
     padding: 10px;
     width: 100%;
     max-width: 1200px;
+    cursor: grab;
+  }
+
+  .hss-promo-carousel-holder:active {
+    cursor: grabbing;
   }
 
   .hss-promo-carousel-holder::-webkit-scrollbar {
@@ -117,6 +122,12 @@
 
   .hss-promo-title-wrapper {
     margin-top: 10px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hss-promo-title-wrapper {
+      margin-top: 3px;
+    }
   }
 
   .hss-promo-title {
@@ -187,125 +198,41 @@
 </style>
 
 <script>
+  const carousel = document.querySelector('.hss-promo-carousel-holder');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  carousel.addEventListener('mousedown', (e) => {
+    isDown = true;
+    carousel.classList.add('active');
+    startX = e.pageX - carousel.offsetLeft;
+    scrollLeft = carousel.scrollLeft;
+  });
+
+  carousel.addEventListener('mouseleave', () => {
+    isDown = false;
+    carousel.classList.remove('active');
+  });
+
+  carousel.addEventListener('mouseup', () => {
+    isDown = false;
+    carousel.classList.remove('active');
+  });
+
+  carousel.addEventListener('mousemove', (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - carousel.offsetLeft;
+    const walk = (x - startX) * 2; // Geschwindigkeit der Bewegung
+    carousel.scrollLeft = scrollLeft - walk;
+  });
+
   document.querySelector('.next').addEventListener('click', function() {
-    document.querySelector('.hss-promo-carousel-holder').scrollBy({ left: 200, behavior: 'smooth' });
+    carousel.scrollBy({ left: 200, behavior: 'smooth' });
   });
 
   document.querySelector('.prev').addEventListener('click', function() {
-    document.querySelector('.hss-promo-carousel-holder').scrollBy({ left: -200, behavior: 'smooth' });
+    carousel.scrollBy({ left: -200, behavior: 'smooth' });
   });
 </script>
-
-{% schema %}
-{
-  "name": "HSS Hexagon Cards",
-  "settings": [
-    {
-      "type": "color",
-      "id": "background_color",
-      "default": "#f2f2f2",
-      "label": "Hintergrundfarbe"
-    },
-    {
-      "type": "color",
-      "id": "icon_background",
-      "default": "#ffffff",
-      "label": "Hintergrundfarbe der Hexagons"
-    },
-    {
-      "type": "color",
-      "id": "title_text_color",
-      "default": "#000000",
-      "label": "Farbe des Titeltextes"
-    },
-    {
-      "type": "range",
-      "id": "desktop_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 92,
-      "label": "Größe der Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 80,
-      "label": "Größe der Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_distance",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand zwischen Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_distance",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "default": 10,
-      "label": "Abstand zwischen Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "top_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand oben zu anderen Abschnitten"
-    },
-    {
-      "type": "range",
-      "id": "bottom_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand unten zu anderen Abschnitten"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "category",
-      "name": "Kategorie",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Bild"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Kategorie",
-          "label": "Titel"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "Link"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Hexagon Cards",
-      "blocks": [
-        { "type": "category" },
-        { "type": "category" },
-        { "type": "category" }
-      ]
-    }
-  ]
-}
-{% endschema %}
