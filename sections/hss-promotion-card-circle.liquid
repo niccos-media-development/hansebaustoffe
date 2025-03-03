@@ -41,20 +41,17 @@
     margin-top: {{ section.settings.top_margin }}px;
     margin-bottom: {{ section.settings.bottom_margin }}px;
     position: relative;
-    overflow: hidden; /* Verhindert horizontale Balken */
+    overflow: hidden; /* Verhindert den horizontalen Scrollbalken */
   }
 
   .hss-promo-carousel-holder {
     display: flex;
     justify-content: flex-start;
     gap: {{ section.settings.desktop_distance }}px;
-    overflow-x: auto;
+    overflow-x: hidden; /* Verhindert horizontalen Scrollbalken */
     scroll-behavior: smooth;
     position: relative;
-    max-width: 100%;
-    padding: 10px;
     width: 100%;
-    max-width: 1200px;
   }
 
   .hss-promo-item-wrapper {
@@ -120,7 +117,7 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: center;
-    white-space: normal; /* Zeilenumbruch erlauben */
+    white-space: normal;
     line-height: 1.2;
     font-size: {{ section.settings.fontsize }}px;
     max-width: 100%;
