@@ -26,8 +26,8 @@
     {% endif %}
   </div>
   <div class="slider-nav">
-    <button class="prev">&#8592;</button>
-    <button class="next">&#8594;</button>
+    <button class="prev">←</button>
+    <button class="next">→</button>
   </div>
 </div>
 
@@ -38,21 +38,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: {{ section.settings.top_margin }}px auto {{ section.settings.bottom_margin }}px;
+    margin-top: {{ section.settings.top_margin }}px;
+    margin-bottom: {{ section.settings.bottom_margin }}px;
     position: relative;
-    overflow: hidden;
   }
 
   .hss-promo-carousel-holder {
     display: flex;
-    gap: {{ section.settings.mobile_distance }}px;
+    justify-content: flex-start;
+    gap: {{ section.settings.desktop_distance }}px;
     overflow-x: auto;
     scroll-behavior: smooth;
+    position: relative;
     max-width: 100%;
     padding: 10px;
     width: 100%;
-    flex-wrap: nowrap;
-    scroll-snap-type: x mandatory;
+    max-width: 1200px;
   }
 
   .hss-promo-carousel-holder::-webkit-scrollbar {
@@ -68,12 +69,20 @@
     text-decoration: none;
     display: block;
     flex: 0 0 auto;
-    scroll-snap-align: center;
+  }
+
+  .hss-promo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: {{ section.settings.desktop_size }}px;
+    width: {{ section.settings.desktop_size }}px;
+    margin: 0 auto;
   }
 
   .hexagon {
-    width: {{ section.settings.mobile_size }}px;
-    height: {{ section.settings.mobile_size }}px;
+    width: 100%;
+    height: 100%;
     background-color: {{ section.settings.icon_background }};
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     display: flex;
@@ -124,15 +133,22 @@
     color: {{ section.settings.title_text_color }} !important;
   }
 
+  .hss-no-content {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+  }
+
   .slider-nav {
     position: absolute;
     top: 50%;
-    left: 0;
-    right: 0;
+    left: 50px;
+    right: 50px;
+    width: calc(100% - 100px);
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
-    padding: 0 10px;
   }
 
   .prev, .next {
@@ -147,46 +163,149 @@
   .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
+
+  @media only screen and (max-width: 768px) {
+    .slider-nav {
+      display: none;
+    }
+
+    .hss-promo-carousel-holder {
+      justify-content: flex-start;
+      padding: 10px 0;
+      gap: {{ section.settings.mobile_distance }}%;
+    }
+
+    .hexagon {
+      width: {{ section.settings.mobile_size }}px;
+      height: {{ section.settings.mobile_size }}px;
+    }
+
+    .hss-promo-title {
+      max-width: {{ section.settings.mobile_size }}px;
+    }
+  }
 </style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const carousel = document.querySelector(".hss-promo-carousel-holder");
-    const next = document.querySelector(".next");
-    const prev = document.querySelector(".prev");
+  document.querySelector('.next').addEventListener('click', function() {
+    document.querySelector('.hss-promo-carousel-holder').scrollBy({ left: 200, behavior: 'smooth' });
+  });
 
-    next.addEventListener("click", function () {
-      carousel.scrollBy({ left: 200, behavior: "smooth" });
-    });
-
-    prev.addEventListener("click", function () {
-      carousel.scrollBy({ left: -200, behavior: "smooth" });
-    });
-
-    let isDown = false;
-    let startX;
-    let scrollLeft;
-
-    carousel.addEventListener("mousedown", (e) => {
-      isDown = true;
-      startX = e.pageX - carousel.offsetLeft;
-      scrollLeft = carousel.scrollLeft;
-    });
-
-    carousel.addEventListener("mouseleave", () => {
-      isDown = false;
-    });
-
-    carousel.addEventListener("mouseup", () => {
-      isDown = false;
-    });
-
-    carousel.addEventListener("mousemove", (e) => {
-      if (!isDown) return;
-      e.preventDefault();
-      const x = e.pageX - carousel.offsetLeft;
-      const walk = (x - startX) * 2;
-      carousel.scrollLeft = scrollLeft - walk;
-    });
+  document.querySelector('.prev').addEventListener('click', function() {
+    document.querySelector('.hss-promo-carousel-holder').scrollBy({ left: -200, behavior: 'smooth' });
   });
 </script>
+
+{% schema %}
+{
+  "name": "HSS Hexagon Cards",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "default": "#f2f2f2",
+      "label": "Hintergrundfarbe"
+    },
+    {
+      "type": "color",
+      "id": "icon_background",
+      "default": "#ffffff",
+      "label": "Hintergrundfarbe der Hexagons"
+    },
+    {
+      "type": "color",
+      "id": "title_text_color",
+      "default": "#000000",
+      "label": "Farbe des Titeltextes"
+    },
+    {
+      "type": "range",
+      "id": "desktop_size",
+      "min": 50,
+      "max": 150,
+      "step": 1,
+      "default": 92,
+      "label": "Größe der Hexagons (Desktop, px)"
+    },
+    {
+      "type": "range",
+      "id": "mobile_size",
+      "min": 50,
+      "max": 150,
+      "step": 1,
+      "default": 80,
+      "label": "Größe der Hexagons (Mobile, px)"
+    },
+    {
+      "type": "range",
+      "id": "desktop_distance",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "label": "Abstand zwischen Hexagons (Desktop, px)"
+    },
+    {
+      "type": "range",
+      "id": "mobile_distance",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 10,
+      "label": "Abstand zwischen Hexagons (Mobile, px)"
+    },
+    {
+      "type": "range",
+      "id": "top_margin",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "label": "Abstand oben zu anderen Abschnitten"
+    },
+    {
+      "type": "range",
+      "id": "bottom_margin",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "label": "Abstand unten zu anderen Abschnitten"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "Kategorie",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Bild"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Kategorie",
+          "label": "Titel"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "HSS Hexagon Cards",
+      "blocks": [
+        { "type": "category" },
+        { "type": "category" },
+        { "type": "category" }
+      ]
+    }
+  ]
+}
+{% endschema %}
