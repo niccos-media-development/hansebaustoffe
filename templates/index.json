@@ -28,7 +28,7 @@
         "button_type_link": false,
         "button_color_scheme": "accent-1",
         "button_link": "shopify://collections/epdm-folien",
-        "secondary_button_label": "Jetzt konfigurieren",
+        "secondary_button_label": "",
         "secondary_button_type_link": false,
         "secondary_button_color_scheme": "accent-1",
         "secondary_button_link": "",
