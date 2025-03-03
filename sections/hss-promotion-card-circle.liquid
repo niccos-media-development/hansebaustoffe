@@ -45,13 +45,14 @@
 
   .hss-promo-carousel-holder {
     display: flex;
-    gap: {{ section.settings.desktop_distance }}px;
+    gap: {{ section.settings.mobile_distance }}px;
     overflow-x: auto;
     scroll-behavior: smooth;
     max-width: 100%;
     padding: 10px;
     width: 100%;
     flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
   }
 
   .hss-promo-carousel-holder::-webkit-scrollbar {
@@ -67,6 +68,7 @@
     text-decoration: none;
     display: block;
     flex: 0 0 auto;
+    scroll-snap-align: center;
   }
 
   .hexagon {
@@ -148,11 +150,43 @@
 </style>
 
 <script>
-  document.querySelector('.next').addEventListener('click', function() {
-    document.querySelector('.hss-promo-carousel-holder').scrollBy({ left: 200, behavior: 'smooth' });
-  });
+  document.addEventListener("DOMContentLoaded", function () {
+    const carousel = document.querySelector(".hss-promo-carousel-holder");
+    const next = document.querySelector(".next");
+    const prev = document.querySelector(".prev");
 
-  document.querySelector('.prev').addEventListener('click', function() {
-    document.querySelector('.hss-promo-carousel-holder').scrollBy({ left: -200, behavior: 'smooth' });
+    next.addEventListener("click", function () {
+      carousel.scrollBy({ left: 200, behavior: "smooth" });
+    });
+
+    prev.addEventListener("click", function () {
+      carousel.scrollBy({ left: -200, behavior: "smooth" });
+    });
+
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    carousel.addEventListener("mousedown", (e) => {
+      isDown = true;
+      startX = e.pageX - carousel.offsetLeft;
+      scrollLeft = carousel.scrollLeft;
+    });
+
+    carousel.addEventListener("mouseleave", () => {
+      isDown = false;
+    });
+
+    carousel.addEventListener("mouseup", () => {
+      isDown = false;
+    });
+
+    carousel.addEventListener("mousemove", (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - carousel.offsetLeft;
+      const walk = (x - startX) * 2;
+      carousel.scrollLeft = scrollLeft - walk;
+    });
   });
 </script>
