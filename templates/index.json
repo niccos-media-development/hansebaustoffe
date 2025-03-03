@@ -157,7 +157,7 @@
       "settings": {
         "background_color": "#f3f3f3",
         "icon_background": "#ffffff",
-        "title_text_color": "#333333",
+        "title_text_color": "#ffaa32",
         "desktop_size": 150,
         "mobile_size": 120,
         "desktop_distance": 50,
