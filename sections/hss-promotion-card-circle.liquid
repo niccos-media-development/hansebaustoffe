@@ -56,10 +56,6 @@
     max-width: 1200px;
   }
 
-  .hss-promo-carousel-holder::-webkit-scrollbar {
-    display: none;
-  }
-
   .hss-promo-item-wrapper {
     text-align: center;
     font-size: {{ section.settings.fontsize }}px;
@@ -120,14 +116,14 @@
   }
 
   .hss-promo-title {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    word-wrap: break-word; /* Umbrüche erlauben */
+    overflow-wrap: break-word; /* Umbrüche erlauben */
     text-align: center;
-    white-space: normal;
+    white-space: normal; /* Zeilenumbruch erlauben */
     line-height: 1.2;
     font-size: {{ section.settings.fontsize }}px;
     max-width: 100%;
-    max-height: 3.6em;
+    max-height: none; /* Höhe des Titels flexibel */
     overflow: hidden;
     hyphens: auto;
     color: {{ section.settings.title_text_color }} !important;
@@ -182,6 +178,10 @@
 
     .hss-promo-title {
       max-width: {{ section.settings.mobile_size }}px;
+    }
+
+    .hss-promo-title-wrapper {
+      margin-top: 5px; /* Verringert den Abstand zwischen dem Titel und dem Hexagon auf mobilen Geräten */
     }
   }
 </style>
