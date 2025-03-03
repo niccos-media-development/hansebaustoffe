@@ -41,17 +41,23 @@
     margin-top: {{ section.settings.top_margin }}px;
     margin-bottom: {{ section.settings.bottom_margin }}px;
     position: relative;
-    overflow: hidden;
   }
 
   .hss-promo-carousel-holder {
     display: flex;
     justify-content: flex-start;
     gap: {{ section.settings.desktop_distance }}px;
-    overflow-x: hidden;
+    overflow-x: auto;
     scroll-behavior: smooth;
     position: relative;
+    max-width: 100%;
+    padding: 10px;
     width: 100%;
+    max-width: 1200px;
+  }
+
+  .hss-promo-carousel-holder::-webkit-scrollbar {
+    display: none;
   }
 
   .hss-promo-item-wrapper {
@@ -176,10 +182,6 @@
 
     .hss-promo-title {
       max-width: {{ section.settings.mobile_size }}px;
-    }
-
-    .hss-promo-title-wrapper {
-      margin-top: 3px;
     }
   }
 </style>
