@@ -13,16 +13,16 @@
     "market": "de"
   },
   "sections": {
-    "rich_text_Ekdf93": {
-      "settings": {
-        "color_scheme": "accent-1"
-      },
-      "blocks": {}
-    },
     "image_hotspots_keyw4y": {
       "settings": {
         "bullet_color": "#ffffff",
         "color_scheme": "accent-3"
+      },
+      "blocks": {}
+    },
+    "rich_text_Ekdf93": {
+      "settings": {
+        "color_scheme": "accent-1"
       },
       "blocks": {}
     },
@@ -32,22 +32,16 @@
       },
       "blocks": {}
     },
-    "expandable_JbjtVD": {
+    "rich_text_QUgiAC": {
       "settings": {
-        "color_scheme": "accent-1"
-      },
-      "blocks": {}
-    },
-    "custom_liquid_UWYrPh": {
-      "settings": {
-        "color_scheme": "accent-2"
+        "color_scheme": "accent-3"
       },
       "blocks": {}
     },
     "multicolumn_iC4VFH": {
       "settings": {
         "title": "Der Ablauf (ca. von 9-14 Uhr)",
-        "color_scheme": "accent-1"
+        "color_scheme": "background-2"
       },
       "blocks": {
         "column_WRgNK3": {
@@ -70,15 +64,21 @@
         }
       }
     },
-    "rich_text_QUgiAC": {
+    "rich_text_4Jneam": {
       "settings": {
         "color_scheme": "accent-3"
       },
       "blocks": {}
     },
-    "rich_text_4Jneam": {
+    "custom_liquid_UWYrPh": {
       "settings": {
-        "color_scheme": "accent-3"
+        "color_scheme": "accent-2"
+      },
+      "blocks": {}
+    },
+    "expandable_JbjtVD": {
+      "settings": {
+        "color_scheme": "background-1"
       },
       "blocks": {}
     }
