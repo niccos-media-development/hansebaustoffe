@@ -1,429 +1,3 @@
-ChatGPT 4o
-Du:
-Kannst du desktop und mobile ansicht miteinander vereinen, also die darstellung soll auf dem desktop  auch so sein wie mobil:
-<div class="hss-promo-carousel">
-  <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
-    {% if section.blocks.size > 0 %}
-      {% for block in section.blocks %}
-        <a href="{{ block.settings.url }}" class="hss-promo-item-wrapper">
-          <div class="hss-promo-item">
-            <div class="hss-promo-image">
-              <div class="hexagon">
-                {% if block.settings.image %}
-                  <div class="hexagon-img-wrapper">
-                    <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
-                  </div>
-                {% else %}
-                  <div class="hss-placeholder">+</div>
-                {% endif %}
-              </div>
-            </div>
-            <div class="hss-promo-title-wrapper">
-              <span class="hss-promo-title">{{ block.settings.heading }}</span>
-            </div>
-          </div>
-        </a>
-      {% endfor %}
-    {% else %}
-      <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
-    {% endif %}
-  </div>
-  <div class="slider-nav">
-    <button class="prev">←</button>
-    <button class="next">→</button>
-  </div>
-</div>
-
-<style>
-  .hss-promo-carousel {
-    background: {{ section.settings.background_color }};
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: {{ section.settings.top_margin }}px;
-    margin-bottom: {{ section.settings.bottom_margin }}px;
-    position: relative;
-  }
-
-  .hss-promo-carousel-holder {
-    display: flex;
-    justify-content: flex-start;
-    gap: {{ section.settings.desktop_distance }}px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    position: relative;
-    max-width: 100%;
-    padding: 10px;
-    width: 100%;
-    max-width: 1200px;
-  }
-
-  .hss-promo-carousel-holder::-webkit-scrollbar {
-    display: none;
-  }
-
-  .hss-promo-item-wrapper {
-    text-align: center;
-    font-size: {{ section.settings.fontsize }}px;
-    font-weight: 600;
-    color: {{ section.settings.text_color }};
-    font-family: {{ section.settings.font.family }}, sans-serif;
-    text-decoration: none;
-    display: block;
-    flex: 0 0 auto;
-  }
-
-  .hss-promo-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: {{ section.settings.desktop_size }}px;
-    width: {{ section.settings.desktop_size }}px;
-    margin: 0 auto;
-  }
-
-  .hexagon {
-    width: 100%;
-    height: 100%;
-    background-color: {{ section.settings.icon_background }};
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-  }
-
-  .hexagon-img-wrapper {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    clip-path: inherit;
-  }
-
-  .hexagon-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .hss-placeholder {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    color: #ccc;
-    background: #f5f5f5;
-  }
-
-  .hss-promo-title-wrapper {
-    margin-top: 10px;
-  }
-
-  .hss-promo-title {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    text-align: center;
-    white-space: normal;
-    line-height: 1.2;
-    font-size: {{ section.settings.fontsize }}px;
-    max-width: 100%;
-    max-height: 3.6em;
-    overflow: hidden;
-    hyphens: auto;
-    color: {{ section.settings.title_text_color }} !important;
-  }
-
-  .hss-no-content {
-    text-align: center;
-    font-size: 18px;
-    color: red;
-    font-weight: bold;
-  }
-
-  .slider-nav {
-    position: absolute;
-    top: 50%;
-    left: 50px;
-    right: 50px;
-    width: calc(100% - 100px);
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-  }
-
-  .prev, .next {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-  }
-
-  .prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-
-  @media only screen and (max-width: 768px) {
-    .slider-nav {
-      display: none;
-    }
-
-    .hss-promo-carousel-holder {
-      justify-content: flex-start;
-      padding: 10px 0;
-      gap: {{ section.settings.mobile_distance }}%;
-    }
-
-    .hexagon {
-      width: {{ section.settings.mobile_size }}px;
-      height: {{ section.settings.mobile_size }}px;
-    }
-
-    .hss-promo-title {
-      max-width: {{ section.settings.mobile_size }}px;
-    }
-  }
-</style>
-
-<script>
-  document.querySelector('.next').addEventListener('click', function() {
-    document.querySelector('.hss-promo-carousel-holder').scrollBy({ left: 200, behavior: 'smooth' });
-  });
-
-  document.querySelector('.prev').addEventListener('click', function() {
-    document.querySelector('.hss-promo-carousel-holder').scrollBy({ left: -200, behavior: 'smooth' });
-  });
-</script>
-
-{% schema %}
-{
-  "name": "HSS Hexagon Cards",
-  "settings": [
-    {
-      "type": "color",
-      "id": "background_color",
-      "default": "#f2f2f2",
-      "label": "Hintergrundfarbe"
-    },
-    {
-      "type": "color",
-      "id": "icon_background",
-      "default": "#ffffff",
-      "label": "Hintergrundfarbe der Hexagons"
-    },
-    {
-      "type": "color",
-      "id": "title_text_color",
-      "default": "#000000",
-      "label": "Farbe des Titeltextes"
-    },
-    {
-      "type": "range",
-      "id": "desktop_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 92,
-      "label": "Größe der Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 80,
-      "label": "Größe der Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_distance",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand zwischen Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_distance",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "default": 10,
-      "label": "Abstand zwischen Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "top_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand oben zu anderen Abschnitten"
-    },
-    {
-      "type": "range",
-      "id": "bottom_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand unten zu anderen Abschnitten"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "category",
-      "name": "Kategorie",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Bild"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Kategorie",
-          "label": "Titel"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "Link"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Hexagon Cards",
-      "blocks": [
-        { "type": "category" },
-        { "type": "category" },
-        { "type": "category" }
-      ]
-    }
-  ]
-}
-{% endschema %}
-ChatGPT:
-Hier ist der aktualisierte Code, bei dem die Desktop-Ansicht genauso wie die mobile Ansicht funktioniert. Die wesentlichen Änderungen:
-
-Flexbox-Layout für beide Ansichten einheitlich gehalten.
-Die Slider-Navigation auch auf mobilen Geräten sichtbar gemacht.
-Die Scroll-Funktion verbessert, sodass sie auf Touch-Events und Desktop-Navigation reagiert.
-Einheitliche Größen und Abstände für Hexagons auf beiden Ansichten.
-Hier ist der optimierte Code:
-
-Hexagon Carousel
-
-Stattdessen im Chat antworten
-Ich habe die Darstellung für Desktop und Mobile vereinheitlicht, indem das Layout flexibler gemacht wurde und sich beide Versionen nun gleich verhalten. Die Scroll-Funktionalität wurde verbessert und die Navigation angepasst. Falls du noch Änderungen möchtest, lass es mich wissen! 🚀
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT kann Fehler machen. Überprüfe wichtige Informationen.
-?
-
-
-Hexagon Carousel
-
-
-
-
-
-
-Vorschau erstellen
-
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
 <div class="hss-promo-carousel">
   <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
     {% if section.blocks.size > 0 %}
@@ -495,5 +69,90 @@ Vorschau erstellen
     flex: 0 0 auto;
   }
 
+  .hexagon {
+    width: {{ section.settings.mobile_size }}px;
+    height: {{ section.settings.mobile_size }}px;
+    background-color: {{ section.settings.icon_background }};
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
 
-ChatGPT: Ich habe die Darstellung für Desktop und Mobile vereinheitlicht, indem das Layout flexibler gemacht wurde und sich beide Versionen nun gleich verhalten. Die Scroll-Funktionalität wurde verbessert und die Navigation angepasst. Falls du noch Änderungen möchtest, lass es mich wissen! 🚀
+  .hexagon-img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    clip-path: inherit;
+  }
+
+  .hexagon-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hss-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #ccc;
+    background: #f5f5f5;
+  }
+
+  .hss-promo-title-wrapper {
+    margin-top: 10px;
+  }
+
+  .hss-promo-title {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.2;
+    font-size: {{ section.settings.fontsize }}px;
+    max-width: 100%;
+    max-height: 3.6em;
+    overflow: hidden;
+    hyphens: auto;
+    color: {{ section.settings.title_text_color }} !important;
+  }
+
+  .slider-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 10px;
+  }
+
+  .prev, .next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+</style>
+
+<script>
+  document.querySelector('.next').addEventListener('click', function() {
+    document.querySelector('.hss-promo-carousel-holder').scrollBy({ left: 200, behavior: 'smooth' });
+  });
+
+  document.querySelector('.prev').addEventListener('click', function() {
+    document.querySelector('.hss-promo-carousel-holder').scrollBy({ left: -200, behavior: 'smooth' });
+  });
+</script>
