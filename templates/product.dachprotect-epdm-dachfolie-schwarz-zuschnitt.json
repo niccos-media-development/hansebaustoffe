@@ -174,15 +174,6 @@
             "expanded": false
           }
         },
-        "expandable_Ygcxbt": {
-          "type": "expandable",
-          "settings": {
-            "title": "Verarbeitungshinweise",
-            "icon": "",
-            "text": "<p>{{ product.metafields.custom.verarbeitungshinweise | metafield_tag }}</p>",
-            "expanded": false
-          }
-        },
         "expandable_JPyXYy": {
           "type": "expandable",
           "settings": {
@@ -232,7 +223,6 @@
         "description",
         "expandable_zp8gRN",
         "expandable_97KCAE",
-        "expandable_Ygcxbt",
         "expandable_JPyXYy",
         "custom_liquid_LwGkN3",
         "custom_liquid_rKx8H4"
