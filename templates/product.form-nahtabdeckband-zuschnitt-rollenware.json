@@ -152,6 +152,16 @@
             "expanded": false
           }
         },
+        "custom_liquid_j3yBVT": {
+          "type": "custom_liquid",
+          "settings": {
+            "title": "Verarbeitungsvideos",
+            "icon": "",
+            "custom_liquid": "<div style=\"text-align: center; margin-top: 20px;\">\n  <a href=\"https://www.hanse-syntec.de/pages/verarbeitungsvideos\" \n     target=\"_blank\" \n     style=\"color: #F39100; font-weight: bold; text-decoration: none; font-size: 18px;\">\n       Zu den Verarbeitungsvideos\n  </a>\n</div>",
+            "position": "left",
+            "expanded": false
+          }
+        },
         "expandable_JPyXYy": {
           "type": "expandable",
           "settings": {
@@ -186,6 +196,7 @@
         "description",
         "expandable_zp8gRN",
         "expandable_97KCAE",
+        "custom_liquid_j3yBVT",
         "expandable_JPyXYy",
         "videometa_QeDUQB"
       ],
