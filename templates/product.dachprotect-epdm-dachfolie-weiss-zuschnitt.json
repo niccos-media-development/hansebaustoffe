@@ -189,7 +189,7 @@
           "settings": {
             "title": "Verarbeitungsvideos",
             "icon": "",
-            "custom_liquid": "<div style=\"position:relative;padding-bottom:56.25%;height:0;overflow:hidden;\">\n  <iframe src=\"https://www.youtube.com/embed/EUEwDxz4lTU\"\n          frameborder=\"0\" allowfullscreen\n          style=\"position:absolute;top:0;left:0;width:100%;height:100%;\">\n  </iframe>\n</div>\n\n<div style=\"margin-top: 20px; text-align: center;\">\n  <a href=\"https://www.hanse-syntec.de/pages/verarbeitungsvideos\" \n     target=\"_blank\" \n     style=\"color: #F39100; font-weight: bold; text-decoration: none; font-size: 18px;\">\n       zu den Verarbeitungsvideos\n  </a>\n</div>",
+            "custom_liquid": "<div style=\"text-align: center; margin-top: 20px;\">\n  <a href=\"https://www.hanse-syntec.de/pages/verarbeitungsvideos\" \n     target=\"_blank\" \n     style=\"color: #F39100; font-weight: bold; text-decoration: none; font-size: 18px;\">\n       Zu den Verarbeitungsvideos\n  </a>\n</div>",
             "position": "left",
             "expanded": false
           }
