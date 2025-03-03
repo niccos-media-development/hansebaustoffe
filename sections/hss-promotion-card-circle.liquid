@@ -41,6 +41,7 @@
     margin-top: {{ section.settings.top_margin }}px;
     margin-bottom: {{ section.settings.bottom_margin }}px;
     position: relative;
+    overflow: hidden; /* Verhindert horizontale Balken */
   }
 
   .hss-promo-carousel-holder {
@@ -116,8 +117,8 @@
   }
 
   .hss-promo-title {
-    word-wrap: break-word; /* Umbrüche erlauben */
-    overflow-wrap: break-word; /* Umbrüche erlauben */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
     text-align: center;
     white-space: normal; /* Zeilenumbruch erlauben */
     line-height: 1.2;
@@ -181,7 +182,7 @@
     }
 
     .hss-promo-title-wrapper {
-      margin-top: 5px; /* Verringert den Abstand zwischen dem Titel und dem Hexagon auf mobilen Geräten */
+      margin-top: 3px; /* Noch geringerer Abstand zwischen Titel und Hexagon auf mobilen Geräten */
     }
   }
 </style>
