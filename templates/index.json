@@ -153,6 +153,9 @@
         "category_AqPXDz",
         "category_UXJFP6"
       ],
+      "custom_css": [
+        ".hss-promo-title {color: black !important; }"
+      ],
       "settings": {
         "background_color": "#f3f3f3",
         "icon_background": "#ffffff",
