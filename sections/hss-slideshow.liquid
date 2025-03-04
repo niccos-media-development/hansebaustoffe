@@ -16,31 +16,29 @@
 %}
 
 <style>
-    {% for block in section.blocks %}
-        {% if block.settings.show_on_desktop == false %}
-        @media (min-width: 990px) {
-            #Slide-{{ section.id }}-{{ forloop.index }} {
-                display: none !important;
-            }
+    {% if section.settings.show_on_desktop == false %}
+    @media (min-width: 990px) {
+        #Slideshow-{{ section.id }} {
+            display: none !important;
         }
-        {% endif %}
-        
-        {% if block.settings.show_on_tablet == false %}
-        @media (min-width: 750px) and (max-width: 989px) {
-            #Slide-{{ section.id }}-{{ forloop.index }} {
-                display: none !important;
-            }
+    }
+    {% endif %}
+    
+    {% if section.settings.show_on_tablet == false %}
+    @media (min-width: 750px) and (max-width: 989px) {
+        #Slideshow-{{ section.id }} {
+            display: none !important;
         }
-        {% endif %}
-        
-        {% if block.settings.show_on_mobile == false %}
-        @media (max-width: 749px) {
-            #Slide-{{ section.id }}-{{ forloop.index }} {
-                display: none !important;
-            }
+    }
+    {% endif %}
+    
+    {% if section.settings.show_on_mobile == false %}
+    @media (max-width: 749px) {
+        #Slideshow-{{ section.id }} {
+            display: none !important;
         }
-        {% endif %}
-    {% endfor %}
+    }
+    {% endif %}
 </style>
 
 <div class="color-{{ section.settings.color_scheme }}">
@@ -51,7 +49,7 @@
                     <div class="slideshow-slide color-background-1" id="Slide-{{ section.id }}-{{ forloop.index }}">
                         <div class="slideshow-media">
                             {%- if block.settings.image -%}
-                                <a href="{{ block.settings.link }}" {% if block.settings.link == blank %}style="pointer-events: none;"{% endif %}>
+                                <a href="{{ section.settings.link }}" {% if section.settings.link == blank %}style="pointer-events: none;"{% endif %}>
                                     <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt | escape }}">
                                 </a>
                             {%- endif -%}
@@ -74,6 +72,29 @@
             "id": "full_width",
             "label": "Full Width",
             "default": false
+        },
+        {
+            "type": "url",
+            "id": "link",
+            "label": "Slideshow Link"
+        },
+        {
+            "type": "checkbox",
+            "id": "show_on_desktop",
+            "label": "Show on Desktop",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "show_on_tablet",
+            "label": "Show on Tablet",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "show_on_mobile",
+            "label": "Show on Mobile",
+            "default": true
         }
     ],
     "blocks": [
@@ -85,29 +106,6 @@
                     "type": "image_picker",
                     "id": "image",
                     "label": "Slide Image"
-                },
-                {
-                    "type": "url",
-                    "id": "link",
-                    "label": "Slide Link"
-                },
-                {
-                    "type": "checkbox",
-                    "id": "show_on_desktop",
-                    "label": "Show on Desktop",
-                    "default": true
-                },
-                {
-                    "type": "checkbox",
-                    "id": "show_on_tablet",
-                    "label": "Show on Tablet",
-                    "default": true
-                },
-                {
-                    "type": "checkbox",
-                    "id": "show_on_mobile",
-                    "label": "Show on Mobile",
-                    "default": true
                 }
             ]
         }
