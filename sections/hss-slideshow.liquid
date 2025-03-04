@@ -44,7 +44,7 @@
 <div class="color-{{ section.settings.color_scheme }}">
     <div class="{% if section.settings.full_width %} block-section-fullwidth{% else %} container{% endif %}">
         <div class="{{ block_section_class }}">
-            <div class="slideshow slideshow-size-{{ section.settings.slide_height }}" id="Slideshow-{{ section.id }}">
+            <div class="slideshow slideshow-size-{{ section.settings.slide_height }}" id="Slideshow-{{ section.id }}" data-autoplay="{{ section.settings.auto_rotate }}" data-speed="{{ section.settings.slide_duration }}">
                 {%- for block in section.blocks -%}
                     <div class="slideshow-slide color-background-1" id="Slide-{{ section.id }}-{{ forloop.index }}">
                         <div class="slideshow-media">
@@ -56,6 +56,15 @@
                         </div>
                     </div>
                 {%- endfor -%}
+            </div>
+            <div class="slideshow-controls">
+                <button class="prev-slide">&#10094;</button>
+                <button class="next-slide">&#10095;</button>
+                <div class="slideshow-pagination">
+                    {%- for block in section.blocks -%}
+                        <button class="pagination-dot" data-slide="{{ forloop.index0 }}"></button>
+                    {%- endfor -%}
+                </div>
             </div>
         </div>
     </div>
@@ -72,6 +81,21 @@
             "id": "full_width",
             "label": "Full Width",
             "default": false
+        },
+        {
+            "type": "checkbox",
+            "id": "auto_rotate",
+            "label": "Auto Rotate Slides",
+            "default": true
+        },
+        {
+            "type": "range",
+            "id": "slide_duration",
+            "label": "Slide Duration (seconds)",
+            "min": 3,
+            "max": 10,
+            "step": 1,
+            "default": 5
         },
         {
             "type": "checkbox",
