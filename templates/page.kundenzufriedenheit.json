@@ -262,19 +262,6 @@
     },
     "1741077697278de6e0": {
       "type": "apps",
-      "blocks": {
-        "xo_gallery_xo_gallery_hTytaR": {
-          "type": "shopify://apps/xo-gallery/blocks/xo-gallery/e61dfbaa-1a75-4e4e-bffc-324f17325251",
-          "settings": {
-            "type": "gallery",
-            "id": 1,
-            "mid": ""
-          }
-        }
-      },
-      "block_order": [
-        "xo_gallery_xo_gallery_hTytaR"
-      ],
       "settings": {
         "full_width": false
       }
