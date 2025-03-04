@@ -15,15 +15,24 @@
 
 <style>
     {% if section.settings.show_on_desktop == false %}
-    @media (min-width: 990px) { #Slideshow-{{ section.id }} { display: none !important; } }
+    @media (min-width: 990px) { 
+        #Slideshow-{{ section.id }}, 
+        #Slideshow-{{ section.id }} .slideshow-controls { display: none !important; } 
+    }
     {% endif %}
     
     {% if section.settings.show_on_tablet == false %}
-    @media (min-width: 750px) and (max-width: 989px) { #Slideshow-{{ section.id }} { display: none !important; } }
+    @media (min-width: 750px) and (max-width: 989px) { 
+        #Slideshow-{{ section.id }}, 
+        #Slideshow-{{ section.id }} .slideshow-controls { display: none !important; } 
+    }
     {% endif %}
     
     {% if section.settings.show_on_mobile == false %}
-    @media (max-width: 749px) { #Slideshow-{{ section.id }} { display: none !important; } }
+    @media (max-width: 749px) { 
+        #Slideshow-{{ section.id }}, 
+        #Slideshow-{{ section.id }} .slideshow-controls { display: none !important; } 
+    }
     {% endif %}
 </style>
 
