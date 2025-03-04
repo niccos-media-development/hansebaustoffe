@@ -911,7 +911,7 @@
         "slide_DLWEzd"
       ],
       "custom_css": [
-        "@media screen and (max-width: 768px) {.block-section-fullwidth {display: none !important; }}"
+        "@media screen and (max-width: 1024px) {.element {display: none; }}"
       ],
       "settings": {
         "full_width": false,
