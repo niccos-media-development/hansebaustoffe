@@ -842,6 +842,7 @@
         "slide_khn9Va",
         "slide_DLWEzd"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 768px) {.slideshow-media {display: none !important; }}"
       ],
@@ -943,6 +944,7 @@
         "slide_Hx8CJg",
         "slide_dYfAKg"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "slide_height": "medium",
@@ -1235,8 +1237,8 @@
     "media_with_text_aM36B3",
     "slideshow_UD8Rfe",
     "rich_text_9jrzTb",
-    "slideshow_rYycYY",
     "hss_slideshow_z8Kc8d",
+    "slideshow_rYycYY",
     "slideshow_aANEWG",
     "niccos_testimonials_F3WRTd",
     "rich_text_LaKbak",
