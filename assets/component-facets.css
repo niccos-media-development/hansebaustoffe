@@ -62,7 +62,6 @@ collapsible-expandable + .js-filter .facet {
   background: none;
   box-shadow: none;
   color: rgb(var(--color-foreground-alt));
-  text-transform: uppercase;
   height: auto;
   width: 100%;
   font-size: calc(var(--font-heading-scale) * 1.5rem);
