@@ -794,41 +794,25 @@
         "slide_NtyirU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
-            "link": "",
-            "show_on_desktop": false,
-            "show_on_tablet": true,
-            "show_on_mobile": true
+            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg"
           }
         },
         "slide_BBiyV7": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
-            "link": "",
-            "show_on_desktop": false,
-            "show_on_tablet": true,
-            "show_on_mobile": true
+            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg"
           }
         },
         "slide_CmmB8k": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_1420x722_040325_1_1.jpg",
-            "link": "",
-            "show_on_desktop": true,
-            "show_on_tablet": false,
-            "show_on_mobile": false
+            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_1420x722_040325_1_1.jpg"
           }
         },
         "slide_Qq3Xzf": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2023-1_1420x722_040325_1_1.jpg",
-            "link": "",
-            "show_on_desktop": true,
-            "show_on_tablet": false,
-            "show_on_mobile": false
+            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2023-1_1420x722_040325_1_1.jpg"
           }
         }
       },
@@ -839,7 +823,11 @@
         "slide_Qq3Xzf"
       ],
       "settings": {
-        "full_width": false
+        "full_width": false,
+        "link": "",
+        "show_on_desktop": true,
+        "show_on_tablet": false,
+        "show_on_mobile": false
       }
     },
     "slideshow_rYycYY": {
