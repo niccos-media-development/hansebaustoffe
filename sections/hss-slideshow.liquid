@@ -51,7 +51,9 @@
                     <div class="slideshow-slide color-background-1" id="Slide-{{ section.id }}-{{ forloop.index }}">
                         <div class="slideshow-media">
                             {%- if block.settings.image -%}
-                                <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt | escape }}">
+                                <a href="{{ block.settings.link }}" {% if block.settings.link == blank %}style="pointer-events: none;"{% endif %}>
+                                    <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt | escape }}">
+                                </a>
                             {%- endif -%}
                         </div>
                     </div>
@@ -83,6 +85,11 @@
                     "type": "image_picker",
                     "id": "image",
                     "label": "Slide Image"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Slide Link"
                 },
                 {
                     "type": "checkbox",
