@@ -842,7 +842,9 @@
         "slide_khn9Va",
         "slide_DLWEzd"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media (max-width: 480px) {/* Gilt für Smartphones */ .slideshow-media {display: none; }}"
+      ],
       "settings": {
         "full_width": false,
         "slide_height": "two-thirds",
