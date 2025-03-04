@@ -9,6 +9,16 @@
  */
 {
   "sections": {
+    "custom_liquid_9V8ah7": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "Your title",
+        "subtitle": "",
+        "full_width": false,
+        "liquid": "Write or copy/paste Liquid code",
+        "color_scheme": "background-1"
+      }
+    },
     "video_background_qdmtMq": {
       "type": "video-background",
       "custom_css": [
@@ -22,7 +32,7 @@
         "overlay_background": "",
         "heading": "",
         "heading_size": "sm",
-        "text": "<p>EPDM Folie</p>",
+        "text": "",
         "text_size": "md",
         "button_label": "",
         "button_type_link": false,
@@ -1250,6 +1260,7 @@
     }
   },
   "order": [
+    "custom_liquid_9V8ah7",
     "video_background_qdmtMq",
     "video_background_fkUUFW",
     "hss_promotion_card_circle_xeximi",
