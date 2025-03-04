@@ -910,9 +910,7 @@
         "slide_khn9Va",
         "slide_DLWEzd"
       ],
-      "custom_css": [
-        "@media screen and (max-width: 1024px) {slideshow-navigation {display: none !important; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": false,
         "slide_height": "two-thirds",
@@ -979,9 +977,7 @@
         "slide_xUBRTe",
         "slide_UVUcKN"
       ],
-      "custom_css": [
-        "@media screen and (min-width: 1025px) {.element {display: none; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "slide_height": "full",
