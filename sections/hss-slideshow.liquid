@@ -14,7 +14,26 @@
 %}
 
 <style>
-    /* Verhindert unnötigen Platz unter der Slideshow */
+    /* Einstellungen für Desktop, Tablet und Mobile */
+    {% if section.settings.show_on_desktop == false %}
+    @media (min-width: 990px) { 
+        #Slideshow-{{ section.id }} { display: none !important; } 
+    }
+    {% endif %}
+    
+    {% if section.settings.show_on_tablet == false %}
+    @media (min-width: 750px) and (max-width: 989px) { 
+        #Slideshow-{{ section.id }} { display: none !important; } 
+    }
+    {% endif %}
+    
+    {% if section.settings.show_on_mobile == false %}
+    @media (max-width: 749px) { 
+        #Slideshow-{{ section.id }} { display: none !important; } 
+    }
+    {% endif %}
+
+    /* Verhindert überflüssigen Abstand unter der Slideshow */
     .slideshow-container {
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
@@ -29,14 +48,14 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: auto; /* Höhe anpassen, damit Bilder sichtbar sind */
-        min-height: 100px; /* Mindesthöhe setzen, falls kein Bild vorhanden */
+        height: auto;
+        min-height: 100px;
         margin-bottom: 0 !important;
         opacity: 1;
         transition: opacity 0.8s ease-in-out;
     }
 
-    /* Slideshow-Bild richtig anzeigen */
+    /* Bilder korrekt einbinden */
     .slideshow-media {
         display: flex;
         justify-content: center;
@@ -51,7 +70,7 @@
         margin-bottom: 0 !important;
     }
 
-    /* Pagination-Dots zentrieren */
+    /* Pagination-Dots Styling */
     .slideshow-pagination {
         display: flex;
         justify-content: center;
@@ -202,24 +221,24 @@
                 { "value": "slide", "label": "Dia" }
             ],
             "default": "fade"
-        }
-    ],
-    "blocks": [
+        },
         {
-            "type": "slide",
-            "name": "Slide",
-            "settings": [
-                {
-                    "type": "image_picker",
-                    "id": "image",
-                    "label": "Slide Image"
-                },
-                {
-                    "type": "url",
-                    "id": "link",
-                    "label": "Slide Link"
-                }
-            ]
+            "type": "checkbox",
+            "id": "show_on_desktop",
+            "label": "Auf Desktop anzeigen",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "show_on_tablet",
+            "label": "Auf Tablet anzeigen",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "show_on_mobile",
+            "label": "Auf Mobile anzeigen",
+            "default": true
         }
     ]
 }
