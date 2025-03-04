@@ -923,6 +923,72 @@
         "spacing_bottom": 20
       }
     },
+    "slideshow_aANEWG": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Hx8CJg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
+            "overlay_background": "",
+            "heading": "",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "slide_dYfAKg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
+            "overlay_background": "",
+            "heading": "",
+            "heading_size": "md",
+            "subheading": "",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Hx8CJg",
+        "slide_dYfAKg"
+      ],
+      "settings": {
+        "full_width": false,
+        "slide_height": "two-thirds",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "animation_type": "slide",
+        "accessibility_info": "",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
     "niccos_testimonials_F3WRTd": {
       "type": "niccos-testimonials",
       "blocks": {
@@ -1206,6 +1272,7 @@
     "slideshow_UD8Rfe",
     "rich_text_9jrzTb",
     "slideshow_rYycYY",
+    "slideshow_aANEWG",
     "niccos_testimonials_F3WRTd",
     "rich_text_LaKbak",
     "niccos_collapsible_grid_qxT3wC",
