@@ -980,7 +980,7 @@
         "slide_UVUcKN"
       ],
       "custom_css": [
-        "@media screen and (min-width: 769px) {.block-section-fullwidth {display: none !important; }}"
+        "@media screen and (min-width: 1025px) {.element {display: none; }}"
       ],
       "settings": {
         "full_width": true,
