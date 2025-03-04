@@ -1,11 +1,11 @@
 {%- if section.blocks.size > 1 -%}
-	{{ 'flickity.css' | asset_url | stylesheet_tag }}
+    {{ 'flickity.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
 {{ 'section-slideshow.css' | asset_url | stylesheet_tag }}
 
 {%- if section.blocks.size > 1 -%}
-	<script src="{{ 'flickity.pkgd.js' | asset_url }}" defer="defer"></script>
-	<script src="{{ 'slideshow.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'flickity.pkgd.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'slideshow.js' | asset_url }}" defer="defer"></script>
 {% endif %}
 
 {% liquid
@@ -58,8 +58,7 @@
                 {%- endfor -%}
             </div>
             <div class="slideshow-controls">
-                <button class="prev-slide" onclick="prevSlide()">&#10094;</button>
-                <button class="next-slide" onclick="nextSlide()">&#10095;</button>
+                <!-- Buttons removed, no prev/next buttons -->
                 <div class="slideshow-pagination">
                     {%- for block in section.blocks -%}
                         <button class="pagination-dot" onclick="goToSlide({{ forloop.index0 }})"></button>
@@ -81,16 +80,6 @@
         currentIndex = index;
     }
 
-    function nextSlide() {
-        let nextIndex = (currentIndex + 1) % totalSlides;
-        showSlide(nextIndex);
-    }
-
-    function prevSlide() {
-        let prevIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-        showSlide(prevIndex);
-    }
-
     function goToSlide(index) {
         showSlide(index);
     }
@@ -102,81 +91,3 @@
         }
     });
 </script>
-
-{% schema %}
-{
-    "name": "HSS Slideshow",
-    "tag": "section",
-    "class": "section", 
-    "settings": [
-        {
-            "type": "checkbox",
-            "id": "full_width",
-            "label": "Full Width",
-            "default": false
-        },
-        {
-            "type": "checkbox",
-            "id": "auto_rotate",
-            "label": "Auto Rotate Slides",
-            "default": true
-        },
-        {
-            "type": "range",
-            "id": "slide_duration",
-            "label": "Slide Duration (seconds)",
-            "min": 3,
-            "max": 10,
-            "step": 1,
-            "default": 5
-        },
-        {
-            "type": "checkbox",
-            "id": "show_on_desktop",
-            "label": "Show on Desktop",
-            "default": true
-        },
-        {
-            "type": "checkbox",
-            "id": "show_on_tablet",
-            "label": "Show on Tablet",
-            "default": true
-        },
-        {
-            "type": "checkbox",
-            "id": "show_on_mobile",
-            "label": "Show on Mobile",
-            "default": true
-        }
-    ],
-    "blocks": [
-        {
-            "type": "slide",
-            "name": "Slide",
-            "settings": [
-                {
-                    "type": "image_picker",
-                    "id": "image",
-                    "label": "Slide Image"
-                },
-                {
-                    "type": "url",
-                    "id": "link",
-                    "label": "Slide Link"
-                }
-            ]
-        }
-    ],
-    "presets": [
-        {
-            "name": "HSS Slideshow",
-            "category": "Custom Content",
-            "blocks": [
-                {
-                    "type": "slide"
-                }
-            ]
-        }
-    ]
-}
-{% endschema %}
