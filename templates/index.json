@@ -798,12 +798,6 @@
             "link": ""
           }
         },
-        "slide_BbgrqT": {
-          "type": "slide",
-          "settings": {
-            "link": ""
-          }
-        },
         "slide_Qq3Xzf": {
           "type": "slide",
           "settings": {
@@ -814,7 +808,6 @@
       },
       "block_order": [
         "slide_CmmB8k",
-        "slide_BbgrqT",
         "slide_Qq3Xzf"
       ],
       "settings": {
