@@ -843,7 +843,7 @@
         "slide_DLWEzd"
       ],
       "custom_css": [
-        "@media (max-width: 480px) {/* Gilt für Smartphones */ .slideshow-media {display: none; }}"
+        "@media (max-width: 768px) {.slideshow-media {display: none !important; }}"
       ],
       "settings": {
         "full_width": false,
