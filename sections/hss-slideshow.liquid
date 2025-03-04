@@ -14,19 +14,7 @@
 %}
 
 <style>
-    {% if section.settings.show_on_desktop == false %}
-    @media (min-width: 990px) { #Slideshow-{{ section.id }} { display: none !important; } }
-    {% endif %}
-    
-    {% if section.settings.show_on_tablet == false %}
-    @media (min-width: 750px) and (max-width: 989px) { #Slideshow-{{ section.id }} { display: none !important; } }
-    {% endif %}
-    
-    {% if section.settings.show_on_mobile == false %}
-    @media (max-width: 749px) { #Slideshow-{{ section.id }} { display: none !important; } }
-    {% endif %}
-
-    /* Slideshow Container Fix */
+    /* Verhindert unnötigen Platz unter der Slideshow */
     .slideshow-container {
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
@@ -35,16 +23,20 @@
         align-items: center;
     }
 
-    /* Slideshow Slides Fix */
+    /* Slideshow-Slides fixen */
     .slideshow-slide {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
+        height: auto; /* Höhe anpassen, damit Bilder sichtbar sind */
+        min-height: 100px; /* Mindesthöhe setzen, falls kein Bild vorhanden */
         margin-bottom: 0 !important;
+        opacity: 1;
+        transition: opacity 0.8s ease-in-out;
     }
 
-    /* Entfernt unnötigen Platz unter Bildern */
+    /* Slideshow-Bild richtig anzeigen */
     .slideshow-media {
         display: flex;
         justify-content: center;
@@ -59,13 +51,13 @@
         margin-bottom: 0 !important;
     }
 
-    /* Pagination Styling */
+    /* Pagination-Dots zentrieren */
     .slideshow-pagination {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-top: 5px; /* Abstand zur Slideshow minimieren */
+        margin-top: 5px;
         margin-bottom: 0 !important;
     }
 
@@ -103,12 +95,14 @@
                     <div class="slideshow-slide color-background-1 {% if forloop.first %}active{% endif %}" 
                         id="Slide-{{ section.id }}-{{ forloop.index }}">
                         <div class="slideshow-media">
-                            {%- if block.settings.image -%}
+                            {%- if block.settings.image != blank -%}
                                 <a href="{{ block.settings.link | default: '#' }}" 
                                     {% if block.settings.link == blank %}style="pointer-events: none;"{% endif %}>
                                     <img src="{{ block.settings.image | image_url }}" 
                                          alt="{{ block.settings.image.alt | escape }}">
                                 </a>
+                            {%- else -%}
+                                <p style="text-align: center; color: #777;">Kein Bild ausgewählt</p>
                             {%- endif -%}
                         </div>
                     </div>
@@ -208,24 +202,24 @@
                 { "value": "slide", "label": "Dia" }
             ],
             "default": "fade"
-        },
+        }
+    ],
+    "blocks": [
         {
-            "type": "checkbox",
-            "id": "show_on_desktop",
-            "label": "Show on Desktop",
-            "default": true
-        },
-        {
-            "type": "checkbox",
-            "id": "show_on_tablet",
-            "label": "Show on Tablet",
-            "default": true
-        },
-        {
-            "type": "checkbox",
-            "id": "show_on_mobile",
-            "label": "Show on Mobile",
-            "default": true
+            "type": "slide",
+            "name": "Slide",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Slide Image"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Slide Link"
+                }
+            ]
         }
     ]
 }
