@@ -26,35 +26,34 @@
     @media (max-width: 749px) { #Slideshow-{{ section.id }} { display: none !important; } }
     {% endif %}
 
-    .slideshow-slide {
-        position: absolute;
-        opacity: 0;
-        transition: opacity 0.8s ease-in-out;
-        width: 100%;
-        height: 100%;
-    }
-
-    .slideshow-slide.active {
-        opacity: 1;
-        position: relative;
-    }
-
-    {% if section.settings.animation_type == "slide" %}
-    .slideshow-container {
+    /* Slideshow Pagination Styling */
+    .slideshow-pagination {
         display: flex;
-        overflow: hidden;
-        position: relative;
-    }
-    
-    .slideshow-slide {
-        transition: transform 0.8s ease-in-out;
-        transform: translateX(100%);
+        justify-content: center;
+        align-items: center;
+        gap: 10px; /* Abstand zwischen den Punkten */
+        margin-top: 15px; /* Abstand zur Slideshow */
     }
 
-    .slideshow-slide.active {
-        transform: translateX(0);
+    .pagination-dot {
+        width: 12px;
+        height: 12px;
+        background-color: #bbb; /* Standardfarbe */
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
     }
-    {% endif %}
+
+    .pagination-dot:hover {
+        background-color: #888; /* Farbe beim Hover */
+        transform: scale(1.2);
+    }
+
+    .pagination-dot.active {
+        background-color: #333; /* Aktiver Punkt */
+        transform: scale(1.4);
+    }
 </style>
 
 <div class="color-{{ section.settings.color_scheme }}">
