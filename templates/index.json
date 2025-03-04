@@ -857,6 +857,26 @@
         "spacing_bottom": 20
       }
     },
+    "hss_slideshow_z8Kc8d": {
+      "type": "hss-slideshow",
+      "blocks": {
+        "slide_NtyirU": {
+          "type": "slide",
+          "settings": {
+            "link": "",
+            "show_on_desktop": true,
+            "show_on_tablet": true,
+            "show_on_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_NtyirU"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
     "slideshow_aANEWG": {
       "type": "slideshow",
       "blocks": {
@@ -1204,6 +1224,7 @@
     "slideshow_UD8Rfe",
     "rich_text_9jrzTb",
     "slideshow_rYycYY",
+    "hss_slideshow_z8Kc8d",
     "slideshow_aANEWG",
     "niccos_testimonials_F3WRTd",
     "rich_text_LaKbak",
