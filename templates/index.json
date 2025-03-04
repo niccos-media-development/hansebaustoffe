@@ -910,79 +910,10 @@
         "slide_khn9Va",
         "slide_DLWEzd"
       ],
-      "custom_css": [
-        "@media (max-width: 768px) {.container .medien-element {display: none !important; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": false,
         "slide_height": "two-thirds",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "animation_type": "fade",
-        "accessibility_info": "",
-        "color_scheme": "background-1",
-        "spacing_top": 20,
-        "spacing_bottom": 20
-      }
-    },
-    "slideshow_i4c9Jf": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_xUBRTe": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
-            "overlay_background": "",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#ffffff",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "shopify://pages/systemubersicht",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "slide_UVUcKN": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
-            "overlay_background": "",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#ffffff",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "shopify://pages/kundenzufriedenheit",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "slide_xUBRTe",
-        "slide_UVUcKN"
-      ],
-      "custom_css": [],
-      "settings": {
-        "full_width": true,
-        "slide_height": "adapt_image",
         "auto_rotate": true,
         "change_slides_speed": 5,
         "animation_type": "fade",
@@ -1275,7 +1206,6 @@
     "slideshow_UD8Rfe",
     "rich_text_9jrzTb",
     "slideshow_rYycYY",
-    "slideshow_i4c9Jf",
     "niccos_testimonials_F3WRTd",
     "rich_text_LaKbak",
     "niccos_collapsible_grid_qxT3wC",
