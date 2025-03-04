@@ -857,6 +857,16 @@
         "spacing_bottom": 20
       }
     },
+    "custom_liquid_n6QzNA": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "full_width": false,
+        "liquid": "<div class=\"swiper\">\n    <div class=\"swiper-wrapper\">\n        <!-- Slide 1 -->\n        <div class=\"swiper-slide\">\n            <a href=\"https://deine-link1.com\">\n                <img \n                    src=\"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/HSS_Shop25_Banner_Start_Anwender_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg?v=1740643930\" \n                    alt=\"Mobile Bild 1\" class=\"mobile-image\">\n                <img \n                    src=\"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_1420x722_040325_1_1.jpg?v=1741082071\" \n                    alt=\"Desktop Bild 1\" class=\"desktop-image\">\n            </a>\n        </div>\n\n        <!-- Slide 2 -->\n        <div class=\"swiper-slide\">\n            <a href=\"https://deine-link2.com\">\n                <img \n                    src=\"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg?v=1740643914\" \n                    alt=\"Mobile Bild 2\" class=\"mobile-image\">\n                <img \n                    src=\"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/HSS_Shop25_Banner_Start_Anwender_Deutsch_2023-1_1420x722_040325_1_1.jpg?v=1741082086\" \n                    alt=\"Desktop Bild 2\" class=\"desktop-image\">\n            </a>\n        </div>\n    </div>\n\n    <!-- Navigation Buttons -->\n    <div class=\"swiper-button-next\"></div>\n    <div class=\"swiper-button-prev\"></div>\n    <div class=\"swiper-pagination\"></div>\n</div>\n\n<!-- Swiper.js Stylesheet -->\n{{ 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' | stylesheet_tag }}\n\n<style>\n    .swiper {\n        width: 90%;\n        max-width: 1420px;\n    }\n\n    .swiper-slide img {\n        width: 100%;\n        height: auto;\n        display: block;\n    }\n\n    /* Mobile Bilder anzeigen */\n    .mobile-image {\n        display: none;\n    }\n\n    /* Desktop-Bilder anzeigen */\n    .desktop-image {\n        display: block;\n    }\n\n    /* Mobile Media Query */\n    @media (max-width: 768px) {\n        .mobile-image {\n            display: block;\n        }\n\n        .desktop-image {\n            display: none;\n        }\n    }\n</style>\n\n<!-- Swiper.js Script -->\n<script src=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js\"></script>\n<script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n        const swiper = new Swiper(\".swiper\", {\n            loop: true,\n            autoplay: {\n                delay: 3000,\n                disableOnInteraction: false\n            },\n            navigation: {\n                nextEl: \".swiper-button-next\",\n                prevEl: \".swiper-button-prev\"\n            },\n            pagination: {\n                el: \".swiper-pagination\",\n                clickable: true\n            }\n        });\n    });\n</script>",
+        "color_scheme": "background-1"
+      }
+    },
     "slideshow_aANEWG": {
       "type": "slideshow",
       "blocks": {
@@ -1204,6 +1214,7 @@
     "slideshow_UD8Rfe",
     "rich_text_9jrzTb",
     "slideshow_rYycYY",
+    "custom_liquid_n6QzNA",
     "slideshow_aANEWG",
     "niccos_testimonials_F3WRTd",
     "rich_text_LaKbak",
