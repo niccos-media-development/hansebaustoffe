@@ -15,23 +15,44 @@
 
 <style>
     {% if section.settings.show_on_desktop == false %}
-    @media (min-width: 990px) { 
-        #Slideshow-{{ section.id }}, 
-        #Slideshow-{{ section.id }} .slideshow-controls { display: none !important; } 
-    }
+    @media (min-width: 990px) { #Slideshow-{{ section.id }} { display: none !important; } }
     {% endif %}
     
     {% if section.settings.show_on_tablet == false %}
-    @media (min-width: 750px) and (max-width: 989px) { 
-        #Slideshow-{{ section.id }}, 
-        #Slideshow-{{ section.id }} .slideshow-controls { display: none !important; } 
-    }
+    @media (min-width: 750px) and (max-width: 989px) { #Slideshow-{{ section.id }} { display: none !important; } }
     {% endif %}
     
     {% if section.settings.show_on_mobile == false %}
-    @media (max-width: 749px) { 
-        #Slideshow-{{ section.id }}, 
-        #Slideshow-{{ section.id }} .slideshow-controls { display: none !important; } 
+    @media (max-width: 749px) { #Slideshow-{{ section.id }} { display: none !important; } }
+    {% endif %}
+
+    .slideshow-slide {
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.8s ease-in-out;
+        width: 100%;
+        height: 100%;
+    }
+
+    .slideshow-slide.active {
+        opacity: 1;
+        position: relative;
+    }
+
+    {% if section.settings.animation_type == "slide" %}
+    .slideshow-container {
+        display: flex;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .slideshow-slide {
+        transition: transform 0.8s ease-in-out;
+        transform: translateX(100%);
+    }
+
+    .slideshow-slide.active {
+        transform: translateX(0);
     }
     {% endif %}
 </style>
@@ -39,13 +60,15 @@
 <div class="color-{{ section.settings.color_scheme }}">
     <div class="{% if section.settings.full_width %}block-section-fullwidth{% else %}container{% endif %}">
         <div class="{{ block_section_class }}">
-            <div class="slideshow slideshow-size-{{ section.settings.slide_height }}" 
+            <div class="slideshow-container" 
                 id="Slideshow-{{ section.id }}" 
                 data-autoplay="{{ section.settings.auto_rotate }}" 
-                data-speed="{{ section.settings.slide_duration }}">
+                data-speed="{{ section.settings.slide_duration }}"
+                data-animation="{{ section.settings.animation_type }}">
                 
                 {%- for block in section.blocks -%}
-                    <div class="slideshow-slide color-background-1" id="Slide-{{ section.id }}-{{ forloop.index }}">
+                    <div class="slideshow-slide color-background-1 {% if forloop.first %}active{% endif %}" 
+                        id="Slide-{{ section.id }}-{{ forloop.index }}">
                         <div class="slideshow-media">
                             {%- if block.settings.image -%}
                                 <a href="{{ block.settings.link | default: '#' }}" 
@@ -60,14 +83,10 @@
             </div>
 
             {%- if section.blocks.size > 1 -%}
-            <div class="slideshow-controls">
-                <button class="prev-slide">&#10094;</button>
-                <button class="next-slide">&#10095;</button>
-                <div class="slideshow-pagination">
-                    {%- for block in section.blocks -%}
-                        <button class="pagination-dot" data-index="{{ forloop.index0 }}"></button>
-                    {%- endfor -%}
-                </div>
+            <div class="slideshow-pagination">
+                {%- for block in section.blocks -%}
+                    <button class="pagination-dot" data-index="{{ forloop.index0 }}"></button>
+                {%- endfor -%}
             </div>
             {%- endif -%}
         </div>
@@ -81,30 +100,27 @@
         
         const slides = slideshow.querySelectorAll(".slideshow-slide");
         const dots = slideshow.querySelectorAll(".pagination-dot");
-        const prevButton = slideshow.querySelector(".prev-slide");
-        const nextButton = slideshow.querySelector(".next-slide");
 
         let currentIndex = 0;
         const totalSlides = slides.length;
         const autoplay = slideshow.dataset.autoplay === "true";
         const speed = parseInt(slideshow.dataset.speed) * 1000;
+        const animationType = slideshow.dataset.animation; // "slide" oder "fade"
         let autoplayInterval;
 
         function showSlide(index) {
-            slides.forEach(slide => slide.style.display = "none");
-            dots.forEach(dot => dot.classList.remove("active"));
+            slides.forEach((slide, i) => {
+                slide.classList.remove("active");
 
-            slides[index].style.display = "block";
+                if (animationType === "slide") {
+                    slide.style.transform = `translateX(${(i - index) * 100}%)`;
+                }
+            });
+
+            slides[index].classList.add("active");
+            dots.forEach(dot => dot.classList.remove("active"));
             dots[index]?.classList.add("active");
             currentIndex = index;
-        }
-
-        function nextSlide() {
-            showSlide((currentIndex + 1) % totalSlides);
-        }
-
-        function prevSlide() {
-            showSlide((currentIndex - 1 + totalSlides) % totalSlides);
         }
 
         function goToSlide(index) {
@@ -112,11 +128,11 @@
         }
 
         if (autoplay) {
-            autoplayInterval = setInterval(nextSlide, speed);
+            autoplayInterval = setInterval(() => {
+                showSlide((currentIndex + 1) % totalSlides);
+            }, speed);
         }
 
-        prevButton?.addEventListener("click", prevSlide);
-        nextButton?.addEventListener("click", nextSlide);
         dots.forEach(dot => dot.addEventListener("click", () => goToSlide(parseInt(dot.dataset.index))));
 
         showSlide(currentIndex);
@@ -149,6 +165,16 @@
             "max": 10,
             "step": 1,
             "default": 5
+        },
+        {
+            "type": "select",
+            "id": "animation_type",
+            "label": "Art der Animation",
+            "options": [
+                { "value": "fade", "label": "Überblendung" },
+                { "value": "slide", "label": "Dia" }
+            ],
+            "default": "fade"
         },
         {
             "type": "checkbox",
