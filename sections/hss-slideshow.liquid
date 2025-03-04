@@ -1,11 +1,11 @@
 {%- if section.blocks.size > 1 -%}
-	{{ 'flickity.css' | asset_url | stylesheet_tag }}
+    {{ 'flickity.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
 {{ 'section-slideshow.css' | asset_url | stylesheet_tag }}
 
 {%- if section.blocks.size > 1 -%}
-	<script src="{{ 'flickity.pkgd.js' | asset_url }}" defer="defer"></script>
-	<script src="{{ 'slideshow.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'flickity.pkgd.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'slideshow.js' | asset_url }}" defer="defer"></script>
 {% endif %}
 
 {% liquid
@@ -16,18 +16,20 @@
 %}
 
 <style>
+    .slideshow-slide {
+        display: block;
+    }
+
     {% for block in section.blocks %}
         {% if block.settings.show_on_desktop == false %}
-        @media (min-width: 990px) {
-            #Slide-{{ section.id }}-{{ forloop.index }} {
-                display: none !important;
-            }
+        .slideshow-slide#Slide-{{ section.id }}-{{ forloop.index }} {
+            display: none !important;
         }
         {% endif %}
         
         {% if block.settings.show_on_tablet == false %}
         @media (min-width: 750px) and (max-width: 989px) {
-            #Slide-{{ section.id }}-{{ forloop.index }} {
+            .slideshow-slide#Slide-{{ section.id }}-{{ forloop.index }} {
                 display: none !important;
             }
         }
@@ -35,7 +37,7 @@
         
         {% if block.settings.show_on_mobile == false %}
         @media (max-width: 749px) {
-            #Slide-{{ section.id }}-{{ forloop.index }} {
+            .slideshow-slide#Slide-{{ section.id }}-{{ forloop.index }} {
                 display: none !important;
             }
         }
