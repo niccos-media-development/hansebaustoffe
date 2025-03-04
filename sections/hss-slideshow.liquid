@@ -58,17 +58,50 @@
                 {%- endfor -%}
             </div>
             <div class="slideshow-controls">
-                <button class="prev-slide">&#10094;</button>
-                <button class="next-slide">&#10095;</button>
+                <button class="prev-slide" onclick="prevSlide()">&#10094;</button>
+                <button class="next-slide" onclick="nextSlide()">&#10095;</button>
                 <div class="slideshow-pagination">
                     {%- for block in section.blocks -%}
-                        <button class="pagination-dot" data-slide="{{ forloop.index0 }}"></button>
+                        <button class="pagination-dot" onclick="goToSlide({{ forloop.index0 }})"></button>
                     {%- endfor -%}
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll(".slideshow-slide");
+    const totalSlides = slides.length;
+
+    function showSlide(index) {
+        slides.forEach(slide => slide.style.display = "none");
+        slides[index].style.display = "block";
+        currentIndex = index;
+    }
+
+    function nextSlide() {
+        let nextIndex = (currentIndex + 1) % totalSlides;
+        showSlide(nextIndex);
+    }
+
+    function prevSlide() {
+        let prevIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        showSlide(prevIndex);
+    }
+
+    function goToSlide(index) {
+        showSlide(index);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        showSlide(currentIndex);
+        if (document.getElementById("Slideshow-{{ section.id }}").dataset.autoplay === "true") {
+            setInterval(nextSlide, document.getElementById("Slideshow-{{ section.id }}").dataset.speed * 1000);
+        }
+    });
+</script>
 
 {% schema %}
 {
