@@ -26,19 +26,35 @@
     @media (max-width: 749px) { #Slideshow-{{ section.id }} { display: none !important; } }
     {% endif %}
 
-    /* Slideshow Pagination Styling */
+    /* Fix für zu viel Platz unter dem Bild */
+    .slideshow-container {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .slideshow-media img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .slideshow-slide {
+        min-height: auto !important;
+    }
+
+    /* Pagination zentrieren & kleineren Abstand */
     .slideshow-pagination {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10px; /* Abstand zwischen den Punkten */
-        margin-top: 15px; /* Abstand zur Slideshow */
+        gap: 10px;
+        margin-top: 5px; /* Abstand zur Slideshow minimieren */
     }
 
     .pagination-dot {
         width: 12px;
         height: 12px;
-        background-color: #bbb; /* Standardfarbe */
+        background-color: #bbb;
         border-radius: 50%;
         border: none;
         cursor: pointer;
@@ -46,12 +62,12 @@
     }
 
     .pagination-dot:hover {
-        background-color: #888; /* Farbe beim Hover */
+        background-color: #888;
         transform: scale(1.2);
     }
 
     .pagination-dot.active {
-        background-color: #333; /* Aktiver Punkt */
+        background-color: #333;
         transform: scale(1.4);
     }
 </style>
