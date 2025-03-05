@@ -4851,7 +4851,15 @@ h3.sidebar_contact_title {
     border-radius: 6px;
 }
 
+product-card .card-footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
+product-card .card-footer .price {
+  flex : 1;
+}
 
 @media (min-width : 750px) {
   .desktop--hidden {
