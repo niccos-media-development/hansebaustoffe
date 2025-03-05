@@ -34,7 +34,7 @@ if (!customElements.get('product-form')) {
             formData = new FormData(this.form);
             let variantSearchCollectionHandle = formData.get("variant-search-collection");
             if(variantSearchCollectionHandle) {
-              let [dicke, breite, launge] = [ "Dicke", "Breite", "Länge" ].map(d => document.getElementById('LineItemProperty-' + d)?.value).map(n => n ? Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")) : null)
+              let [dicke, breite, launge] = [ "Materialstärke", "Breite", "Länge" ].map(d => document.getElementById('LineItemProperty-' + d)?.value).map(n => n ? Number(n.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")) : null)
               let sku,
                   dicke_fmt = Math.floor(dicke * 10),
                   breite_fmt = Math.floor(breite * 100).toString().padStart(3, '0').slice(0,3),
