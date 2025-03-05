@@ -106,8 +106,8 @@
         "regular_price": "Normaler Preis",
         "sale_price": "Ausverkaufspreis",
         "unit_price": "Preis pro Einheit",
-        "meter_base_price_html": "Inhalt: <span data-current-quadratmeter></span> Meter (<span data-current-base-price></span>* / 1 Meter)",
-        "quadratmeter_base_price_html": "Inhalt: <span data-current-quadratmeter></span> Quadratmeter (<span data-current-base-price></span>* / 1 Quadratmeter)"
+        "meter_base_price_html": "Inhalt: {{ measurement }} Meter ({{ price }}* / 1 Meter)",
+        "quadratmeter_base_price_html": "Inhalt: {{ measurement }} Quadratmeter ({{ price }}* / 1 Quadratmeter)"
       },
       "quantity": {
         "label": "Anzahl",
