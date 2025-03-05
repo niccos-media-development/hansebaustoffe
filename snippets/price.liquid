@@ -99,7 +99,7 @@
 		{% endif %}
     {% if show_base_price == true %}
       {% if product.metafields.custom.configurable_product_type.value == "form-nahtabdeckband" %}
-      <p style="font-size: 1.2rem; margin: 0;">{{ 'products.product.price.meter_base_price_html' | t }}</p>
+      <p style="font-size: 1.2rem; margin: 0;">{{ 'products.product.price.meter_base_price_html' | t: price: '<span data-current-base-price></span>', measurement: '<span data-current-quadratmeter></span>' }}</p>
       {% else %}
       <p style="font-size: 1.2rem; margin: 0;">{{ 'products.product.price.quadratmeter_base_price_html' | t }}</p>
       {% endif %}
