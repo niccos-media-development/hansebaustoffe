@@ -51,11 +51,10 @@
   .hss-slideshow {
     position: relative;
     overflow: hidden;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1200px; /* Standardbreite */
+    margin: 0 auto; /* Zentriert */
     {% if section.settings.full_width %} 
-      max-width: 100vw;
+      max-width: 100vw; /* Volle Breite nur wenn aktiv */
     {% endif %}
   }
 
