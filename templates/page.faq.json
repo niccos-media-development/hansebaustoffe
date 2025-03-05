@@ -132,7 +132,7 @@
         "expandable_UJKzQb": {
           "type": "expandable",
           "settings": {
-            "heading": "Kann ich meine Bestellugn stornieren?",
+            "heading": "Kann ich meine Bestellung stornieren?",
             "icon": "arrow-right",
             "text": "<p>✅ <strong>Ja, Stornierungen sind möglich – solange der Auftrag noch nicht bearbeitet wurde.</strong></p><p>⚠️ <strong>Wichtig:</strong> Da die Bearbeitung oft sehr schnell erfolgt, ist eine Stornierung in vielen Fällen nur innerhalb kürzester Zeit machbar.</p><p>📌 <strong>So stornieren Sie Ihre Bestellung:</strong><br/>📧 <strong>Per E-Mail</strong><br/>📝 <strong>Über das Kontaktformular</strong><br/>📞 <strong>Telefonisch direkt bei uns</strong></p><p>💡 <strong>Tipp:</strong> Melden Sie sich <strong>so schnell wie möglich</strong>, wenn Sie Ihre Bestellung stornieren möchten! 🚀</p>",
             "expanded": false
