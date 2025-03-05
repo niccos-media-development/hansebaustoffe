@@ -915,11 +915,11 @@
         "@media (min-width: 750px) {.flickity-enabled {display: none !important; }}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "slide_height": "full",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "animation_type": "slide",
+        "animation_type": "fade",
         "accessibility_info": "",
         "color_scheme": "background-1",
         "spacing_top": 60,
