@@ -811,7 +811,7 @@
         "slide_e6fDW3"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "display_device": "desktop"
       }
     },
