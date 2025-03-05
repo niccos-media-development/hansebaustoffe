@@ -788,58 +788,68 @@
         "spacing_bottom": 20
       }
     },
-    "hss_slideshow_M4LVfU": {
-      "type": "hss-slideshow",
+    "slideshow_9twV8e": {
+      "type": "slideshow",
       "blocks": {
-        "slide_eLWRMk": {
+        "slide_7N3CCh": {
           "type": "slide",
           "settings": {
-            "slide_image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_1420x722_040325_1_1.jpg",
-            "slide_link": "shopify://collections/dachprotect-epdm-dachfolie"
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Image slide",
+            "heading_size": "md",
+            "subheading": "<p>Tell your brand's story through images</p>",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "Button label",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
           }
         },
-        "slide_e6fDW3": {
+        "slide_6wXbWe": {
           "type": "slide",
           "settings": {
-            "slide_image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2023-1_1420x722_040325_1_1.jpg",
-            "slide_link": "shopify://pages/kundenzufriedenheit"
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Image slide",
+            "heading_size": "md",
+            "subheading": "<p>Tell your brand's story through images</p>",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "content_width": 60,
+            "button_label": "Button label",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "link": "",
+            "secondary_button_label": "",
+            "secondary_button_type_link": false,
+            "secondary_button_color_scheme": "button-secondary",
+            "secondary_link": "",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
           }
         }
       },
       "block_order": [
-        "slide_eLWRMk",
-        "slide_e6fDW3"
-      ],
-      "settings": {
-        "full_width": true,
-        "display_device": "desktop"
-      }
-    },
-    "hss_slideshow_LaP84w": {
-      "type": "hss-slideshow",
-      "blocks": {
-        "slide_Candme": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
-            "slide_link": ""
-          }
-        },
-        "slide_JMdiPB": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
-            "slide_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_Candme",
-        "slide_JMdiPB"
+        "slide_7N3CCh",
+        "slide_6wXbWe"
       ],
       "settings": {
         "full_width": false,
-        "display_device": "mobile"
+        "slide_height": "adapt_image",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "animation_type": "slide",
+        "accessibility_info": "",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
       }
     },
     "niccos_testimonials_F3WRTd": {
@@ -1122,8 +1132,7 @@
     "media_with_text_aM36B3",
     "slideshow_UD8Rfe",
     "rich_text_9jrzTb",
-    "hss_slideshow_M4LVfU",
-    "hss_slideshow_LaP84w",
+    "slideshow_9twV8e",
     "niccos_testimonials_F3WRTd",
     "rich_text_LaKbak",
     "niccos_collapsible_grid_qxT3wC",
