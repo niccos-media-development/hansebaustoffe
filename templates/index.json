@@ -788,62 +788,22 @@
         "spacing_bottom": 20
       }
     },
-    "hss_slideshow_z8Kc8d": {
+    "hss_slideshow_M4LVfU": {
       "type": "hss-slideshow",
       "blocks": {
-        "slide_CmmB8k": {
+        "slide_eLWRMk": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_1420x722_040325_1_1.jpg",
-            "link": ""
-          }
-        },
-        "slide_Qq3Xzf": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2023-1_1420x722_040325_1_1.jpg",
-            "link": ""
+            "slide_image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_1420x722_040325_1_1.jpg",
+            "slide_link": ""
           }
         }
       },
       "block_order": [
-        "slide_CmmB8k",
-        "slide_Qq3Xzf"
+        "slide_eLWRMk"
       ],
       "settings": {
-        "full_width": false,
-        "show_on_desktop": true,
-        "show_on_tablet": false,
-        "show_on_mobile": false
-      }
-    },
-    "hss_slideshow_fAPbdb": {
-      "type": "hss-slideshow",
-      "blocks": {
-        "slide_FBz3FF": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
-            "link": ""
-          }
-        },
-        "slide_MTL8PV": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_FBz3FF",
-        "slide_MTL8PV"
-      ],
-      "settings": {
-        "full_width": false,
-        "show_on_desktop": false,
-        "show_on_tablet": true,
-        "show_on_mobile": true
+        "display_device": "desktop"
       }
     },
     "niccos_testimonials_F3WRTd": {
@@ -1126,8 +1086,7 @@
     "media_with_text_aM36B3",
     "slideshow_UD8Rfe",
     "rich_text_9jrzTb",
-    "hss_slideshow_z8Kc8d",
-    "hss_slideshow_fAPbdb",
+    "hss_slideshow_M4LVfU",
     "niccos_testimonials_F3WRTd",
     "rich_text_LaKbak",
     "niccos_collapsible_grid_qxT3wC",
