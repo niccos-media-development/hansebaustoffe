@@ -10,21 +10,6 @@
     },
     {
       "type": "select",
-      "id": "section_height",
-      "label": "Seitenhöhe",
-      "options": [
-        { "value": "auto", "label": "An das erste Bild anpassen" },
-        { "value": "small", "label": "Klein" },
-        { "value": "medium", "label": "Mittel" },
-        { "value": "large", "label": "Groß" },
-        { "value": "full", "label": "Volle Bildschirmhöhe" },
-        { "value": "three-quarters", "label": "Drei Viertel der Bildschirmhöhe" },
-        { "value": "two-thirds", "label": "Zwei Drittel der Bildschirmhöhe" }
-      ],
-      "default": "auto"
-    },
-    {
-      "type": "select",
       "id": "display_device",
       "label": "Auf welchem Gerät anzeigen?",
       "options": [
@@ -77,23 +62,30 @@
   .hss-slideshow .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    align-items: center;
-    height: 100%;
   }
 
   .hss-slideshow .slide {
     min-width: 100%;
     flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    position: relative;
   }
 
   .hss-slideshow img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    display: block;
+  }
+
+  /* Geräteabhängige Sichtbarkeit */
+  .only-desktop { display: none; }
+  .only-mobile { display: none; }
+
+  @media (min-width: 768px) {
+    .only-desktop { display: block; }
+  }
+
+  @media (max-width: 767px) {
+    .only-mobile { display: block; }
   }
 
   /* Navigationspunkte */
@@ -116,43 +108,6 @@
   .hss-slideshow .dot.active {
     background-color: #333;
   }
-
-  /* Pfeile für Desktop */
-  @media (min-width: 768px) {
-    .hss-slideshow .arrow {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      background: rgba(255, 255, 255, 0.7);
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      transition: background 0.3s;
-      z-index: 10;
-    }
-
-    .hss-slideshow .arrow:hover {
-      background: rgba(255, 255, 255, 1);
-    }
-
-    .hss-slideshow .arrow-left {
-      left: 10px;
-    }
-
-    .hss-slideshow .arrow-right {
-      right: 10px;
-    }
-
-    .hss-slideshow .arrow svg {
-      width: 20px;
-      height: 20px;
-      fill: #333;
-    }
-  }
 {% endstyle %}
 
 <div 
@@ -160,14 +115,6 @@
   {% if section.settings.display_device == 'desktop' %} only-desktop {% endif %}
   {% if section.settings.display_device == 'mobile' %} only-mobile {% endif %}"
 >
-  <!-- Pfeile (nur auf Desktop) -->
-  <div class="arrow arrow-left">
-    <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
-  </div>
-  <div class="arrow arrow-right">
-    <svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
-  </div>
-
   <div class="slides">
     {% for block in section.blocks %}
       <div class="slide{% if forloop.first %} active{% endif %}">
@@ -194,13 +141,9 @@
   document.addEventListener("DOMContentLoaded", function() {
     let slides = document.querySelectorAll(".hss-slideshow .slide");
     let dots = document.querySelectorAll(".hss-slideshow .dot");
-    let prevArrow = document.querySelector(".arrow-left");
-    let nextArrow = document.querySelector(".arrow-right");
     let index = 0;
 
     function showSlide(n) {
-      if (n < 0) { n = slides.length - 1; }
-      if (n >= slides.length) { n = 0; }
       slides.forEach((slide, i) => {
         slide.style.transform = `translateX(-${n * 100}%)`;
         dots[i].classList.toggle("active", i === n);
@@ -213,14 +156,6 @@
         let slideIndex = parseInt(this.getAttribute("data-index"));
         showSlide(slideIndex);
       });
-    });
-
-    prevArrow.addEventListener("click", function() {
-      showSlide(index - 1);
-    });
-
-    nextArrow.addEventListener("click", function() {
-      showSlide(index + 1);
     });
   });
 {% endjavascript %}
