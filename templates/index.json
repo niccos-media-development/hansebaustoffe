@@ -828,7 +828,7 @@
             "button_label": "",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
-            "link": "",
+            "link": "shopify://pages/kundenzufriedenheit",
             "secondary_button_label": "",
             "secondary_button_type_link": false,
             "secondary_button_color_scheme": "button-secondary",
@@ -840,7 +840,7 @@
         "slide_U3KBLx": {
           "type": "slide",
           "settings": {
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
             "heading": "Image slide",
             "heading_size": "md",
             "subheading": "<p>Tell your brand's story through images</p>",
