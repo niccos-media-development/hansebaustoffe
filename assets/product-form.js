@@ -62,8 +62,11 @@ if (!customElements.get('product-form')) {
                 formData.append('sections_url', window.location.pathname);
                 if(data.length > 0) {
                   let variant = JSON.parse(data);
-                  if(variant.available === true)
+                  if(variant.available === true) {
                     formData.set("id", variant.id);
+                    formData.set("properties[_base_price_list]", data.base_price_list);
+                    formData.set("properties[_configurable_product_type]", data.configurable_product_type);
+                  }
                 }
                 config.body = formData;
     
