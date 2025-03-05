@@ -815,6 +815,33 @@
         "display_device": "desktop"
       }
     },
+    "hss_slideshow_LaP84w": {
+      "type": "hss-slideshow",
+      "blocks": {
+        "slide_Candme": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
+            "slide_link": ""
+          }
+        },
+        "slide_JMdiPB": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2025-1_480x650_mobile_250225_1_1.jpg",
+            "slide_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_Candme",
+        "slide_JMdiPB"
+      ],
+      "settings": {
+        "full_width": false,
+        "display_device": "mobile"
+      }
+    },
     "niccos_testimonials_F3WRTd": {
       "type": "niccos-testimonials",
       "blocks": {
@@ -1096,6 +1123,7 @@
     "slideshow_UD8Rfe",
     "rich_text_9jrzTb",
     "hss_slideshow_M4LVfU",
+    "hss_slideshow_LaP84w",
     "niccos_testimonials_F3WRTd",
     "rich_text_LaKbak",
     "niccos_collapsible_grid_qxT3wC",
