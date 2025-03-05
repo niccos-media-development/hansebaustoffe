@@ -74,8 +74,8 @@
         "line_item_property_4DeBWA": {
           "type": "line_item_property",
           "settings": {
-            "label": "Dicke",
-            "key": "Dicke",
+            "label": "Materialstärke",
+            "key": "Materialstärke",
             "option_list": "1,2 mm|1,5 mm"
           }
         },
