@@ -34,143 +34,213 @@
 	<div class="block-section">
 		<div class="product product-page {% if product.media.size == 0 %}product-no-media{% endif %}">
 			{% if product.media.size > 0 %}
-				<div class="product-media-gallery-wrap">
-					<a class="skip-link visually-hidden visually-hidden-focusable" href="#Product-{{ section.id }}">{{ 'accessibility.link_messages.skip_to_product_info' | t }}</a>
-					<media-gallery id="MediaGallery-{{ section.id }}" role="region" class="product-media-gallery" aria-label="{{ 'products.product.media.gallery_viewer' | t }}" hide-variants="{{ section.settings.hide_variants }}">
-						<div class="product-media-wrapper">
-							{% if product.media %}
-								{%- assign featured_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
+        <div class="hs-product-gallery-container">
+          <div class="product-media-gallery-wrap">
+            <a class="skip-link visually-hidden visually-hidden-focusable" href="#Product-{{ section.id }}">{{ 'accessibility.link_messages.skip_to_product_info' | t }}</a>
+            <media-gallery id="MediaGallery-{{ section.id }}" role="region" class="product-media-gallery" aria-label="{{ 'products.product.media.gallery_viewer' | t }}" hide-variants="{{ section.settings.hide_variants }}">
+              <div class="product-media-wrapper">
+                {% if product.media %}
+                  {%- assign featured_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
 
-								<div class="product-media-main-wrapper" data-aos="zoom-in">
-									{%- assign media_position = 1 -%}
-									<div class="product-media-main product-media is-active" data-media-id="{{ featured_media.id }}">
-										{% render 'product-gallery-media',
-											media: featured_media,
-											position: media_position,
-											media_width: 800,
-											lazyload: false,
-											modal_id: section.id,
-											image_zoom_type: section.settings.image_zoom_type
-										%}
-									</div>
+                  <div class="product-media-main-wrapper" data-aos="zoom-in">
+                    {%- assign media_position = 1 -%}
+                    <div class="product-media-main product-media is-active" data-media-id="{{ featured_media.id }}">
+                      {% render 'product-gallery-media',
+                        media: featured_media,
+                        position: media_position,
+                        media_width: 800,
+                        lazyload: false,
+                        modal_id: section.id,
+                        image_zoom_type: section.settings.image_zoom_type
+                      %}
+                    </div>
 
-									{%- for media in product.media -%}
-										{%- if media.id != featured_media.id -%}
-											{%- liquid
-												assign media_position = media_position | default: 1 | plus: 1
-												assign variant_image = false
-												if section.settings.hide_variants and variant_images contains media.src
-													assign variant_image = true
-												endif
-											-%}
+                    {%- for media in product.media -%}
+                      {%- if media.id != featured_media.id -%}
+                        {%- liquid
+                          assign media_position = media_position | default: 1 | plus: 1
+                          assign variant_image = false
+                          if section.settings.hide_variants and variant_images contains media.src
+                            assign variant_image = true
+                          endif
+                        -%}
 
-											{% unless variant_image %}
-												<div class="product-media-main product-media" data-media-id="{{ media.id }}">
-													{% render 'product-gallery-media',
-														media: media,
-														position: media_position,
-														media_width: 800,
-														lazyload: true,
-														modal_id: section.id,
-														image_zoom_type: section.settings.image_zoom_type
-													%}
-												</div>
-											{% endunless %}
-										{%- endif -%}
-									{%- endfor -%}
-								</div>
+                        {% unless variant_image %}
+                          <div class="product-media-main product-media" data-media-id="{{ media.id }}">
+                            {% render 'product-gallery-media',
+                              media: media,
+                              position: media_position,
+                              media_width: 800,
+                              lazyload: true,
+                              modal_id: section.id,
+                              image_zoom_type: section.settings.image_zoom_type
+                            %}
+                          </div>
+                        {% endunless %}
+                      {%- endif -%}
+                    {%- endfor -%}
+                  </div>
 
-								{%- assign media_position = 1 -%}
-								<div class="product-media-scroll-wrap">
-									<div class="product-media-scroller">
-										<div class="product-media-thumbnails">
-                      <div data-aos="fade-up" class="product-media-thumbnail product-media is-active
-													{% if section.settings.hide_variants and variant_images contains featured_media.src %} product-media-thumbnail-variant{% endif %}"
-												data-media-id="{{ featured_media.id }}">
-												{% render 'product-gallery-media-thumbnail',
-													media: featured_media, position: media_position, media_width: 400, lazyload: false
-												%}
-											</div>
+                  {%- assign media_position = 1 -%}
+                  <div class="product-media-scroll-wrap">
+                    <div class="product-media-scroller">
+                      <div class="product-media-thumbnails">
+                        <div data-aos="fade-up" class="product-media-thumbnail product-media is-active
+                            {% if section.settings.hide_variants and variant_images contains featured_media.src %} product-media-thumbnail-variant{% endif %}"
+                          data-media-id="{{ featured_media.id }}">
+                          {% render 'product-gallery-media-thumbnail',
+                            media: featured_media, position: media_position, media_width: 400, lazyload: false
+                          %}
+                        </div>
 
-											{% for media in product.media %}
-												{%- if media.id != featured_media.id -%}
-													{%- assign media_position = media_position | default: 1 | plus: 1 -%}
-                          <div data-aos="fade-up" data-aos-delay="{{ 100 | times: forloop.index }}" class="product-media-thumbnail product-media
-															{% if section.settings.hide_variants and variant_images contains media.src %} product-media-thumbnail-variant{% endif %}"
-														data-media-id="{{ media.id }}">
-														{% render 'product-gallery-media-thumbnail',
-															media: media, position: media_position, media_width: 400, lazyload: true
-														%}
-													</div>
-												{% endif %}
-											{% endfor %}
-										</div>
-									</div>
+                        {% for media in product.media %}
+                          {%- if media.id != featured_media.id -%}
+                            {%- assign media_position = media_position | default: 1 | plus: 1 -%}
+                            <div data-aos="fade-up" data-aos-delay="{{ 100 | times: forloop.index }}" class="product-media-thumbnail product-media
+                                {% if section.settings.hide_variants and variant_images contains media.src %} product-media-thumbnail-variant{% endif %}"
+                              data-media-id="{{ media.id }}">
+                              {% render 'product-gallery-media-thumbnail',
+                                media: media, position: media_position, media_width: 400, lazyload: true
+                              %}
+                            </div>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    </div>
 
-									{% if section.settings.thumbnail_navigation %}
-										<product-thumbnail-navigation for="MediaGallery-{{ section.id }}" class="hidden">
-											<div class="pill-nav pill-nav-slider media-pill-nav-slider">
-												<button class="pill-nav-item pill-nav-item-prev pill-nav-item-disabled focus-none js-prev color-background-1" aria-disabled="true">
-													<span class="visually-hidden">{{ 'sections.slideshow.previous_slide' | t }}</span>
-													{% render 'angle', direction: 'up' %}
-												</button>
-												<button class="pill-nav-item pill-nav-item-next js-next color-background-1" aria-disabled="false">
-													<span class="visually-hidden">{{ 'sections.slideshow.next_slide' | t }}</span>
-													{% render 'angle', direction: 'down' %}
-												</button>
-											</div>
-										</product-thumbnail-navigation>
-									{% endif %}
-								</div>
-							{% endif %}
-						</div>
-					</media-gallery>
+                    {% if section.settings.thumbnail_navigation %}
+                      <product-thumbnail-navigation for="MediaGallery-{{ section.id }}" class="hidden">
+                        <div class="pill-nav pill-nav-slider media-pill-nav-slider">
+                          <button class="pill-nav-item pill-nav-item-prev pill-nav-item-disabled focus-none js-prev color-background-1" aria-disabled="true">
+                            <span class="visually-hidden">{{ 'sections.slideshow.previous_slide' | t }}</span>
+                            {% render 'angle', direction: 'up' %}
+                          </button>
+                          <button class="pill-nav-item pill-nav-item-next js-next color-background-1" aria-disabled="false">
+                            <span class="visually-hidden">{{ 'sections.slideshow.next_slide' | t }}</span>
+                            {% render 'angle', direction: 'down' %}
+                          </button>
+                        </div>
+                      </product-thumbnail-navigation>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </div>
+            </media-gallery>
 
-					{% if section.settings.image_zoom_type != 'none' %}
-						<product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
-							<div
-								class="product-media-modal-dialog"
-								role="dialog"
-								aria-modal="true"
-								aria-label="{{ 'products.product.media.gallery' | t }}"
-								tabindex="-1"
-							>
-								<button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal-toggle" aria-label="{{ 'accessibility.close' | t }}">
-									{% render 'icon-cross' %}
-								</button>
-								<div class="product-media-modal-content" role="document" aria-label="{{ 'products.product.media.gallery' | t }}" tabindex="0">
-									{%- liquid
-										if product.selected_or_first_available_variant.featured_media != null
-											assign media = product.selected_or_first_available_variant.featured_media
-											render 'product-gallery-media-modal', media: media, variant_image: section.settings.hide_variants
-										endif
-									-%}
+            {% if section.settings.image_zoom_type != 'none' %}
+              <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
+                <div
+                  class="product-media-modal-dialog"
+                  role="dialog"
+                  aria-modal="true"
+                  aria-label="{{ 'products.product.media.gallery' | t }}"
+                  tabindex="-1"
+                >
+                  <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal-toggle" aria-label="{{ 'accessibility.close' | t }}">
+                    {% render 'icon-cross' %}
+                  </button>
+                  <div class="product-media-modal-content" role="document" aria-label="{{ 'products.product.media.gallery' | t }}" tabindex="0">
+                    {%- liquid
+                      if product.selected_or_first_available_variant.featured_media != null
+                        assign media = product.selected_or_first_available_variant.featured_media
+                        render 'product-gallery-media-modal', media: media, variant_image: section.settings.hide_variants
+                      endif
+                    -%}
 
-									{%- for media in product.media -%}
-										{%- liquid
-											assign variant_image = false
-											if section.settings.hide_variants and variant_images contains media.src
-												assign variant_image = true
-											endif
+                    {%- for media in product.media -%}
+                      {%- liquid
+                        assign variant_image = false
+                        if section.settings.hide_variants and variant_images contains media.src
+                          assign variant_image = true
+                        endif
 
-											unless media.id == product.selected_or_first_available_variant.featured_media.id or variant_image
-												render 'product-gallery-media-modal', media: media, variant_image: variant_image
-											endunless
-										-%}
-									{%- endfor -%}
-								</div>
-							</div>
-						</product-modal>
-					{% endif %}
+                        unless media.id == product.selected_or_first_available_variant.featured_media.id or variant_image
+                          render 'product-gallery-media-modal', media: media, variant_image: variant_image
+                        endunless
+                      -%}
+                    {%- endfor -%}
+                  </div>
+                </div>
+              </product-modal>
+            {% endif %}
 
-					{% if section.settings.image_disclaimer != blank %}
-						<div class="product-media-gallery-message">
-							<div class="rte">
-								{{ section.settings.image_disclaimer }}
-							</div>
-						</div>
-					{% endif %}
-				</div>
+            {% if section.settings.image_disclaimer != blank %}
+              <div class="product-media-gallery-message">
+                <div class="rte">
+                  {{ section.settings.image_disclaimer }}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+          <div class="product-info-description main_new mobile--hidden">
+            <div class="product-info-description-content">
+              {% for block in section.blocks %}
+                {% case block.type %}
+                  {%- when 'custom_liquid' -%}
+                    {% liquid
+                      if block.settings.position != "left"
+                        continue
+                      endif
+                    %}
+                    {% capture liquid_output %}{{ block.settings.custom_liquid }}{% endcapture %}
+                    {% if liquid_output != blank %}
+                      {% if block.settings.title != blank or block.settings.icon != blank %}
+                        {% render 'niccos-collapse', 
+                          content: block.settings.custom_liquid,
+                          block: block,
+                          attributes: block.shopify_attributes
+                        %}
+                      {% else %}
+                        <div class="facet facet-standalone" {{ block.shopify_attributes }}>
+                          <div class="facet-content rte">
+                            {{ block.settings.custom_liquid }}
+                          </div>
+                        </div>
+                      {% endif %}
+                    {% endif %}
+    
+                  {% when 'description' %}
+                    {% if product.description != blank %}
+                      {% render 'niccos-collapse', 
+                        content: product.description,
+                        block: block
+                      %}
+                    {% endif %}
+    
+                  {% when 'reviews' %}
+                    {% render 'niccos-collapse', 
+                      content: 'product-review-widget',
+                      block: block,
+                      id: 'product-reviews',
+                      class: 'product-reviews',
+                      is_widget: true
+                    %}
+    
+                    {% when 'download' %}
+      
+                      {% render 'niccos-meta1', 
+              
+                        block: block
+                      %}
+                    {% when 'videometa' %}
+      
+                      {% render 'niccos-meta2', 
+              
+                        block: block
+                      %}                    
+    
+                  {% when 'expandable' %}
+                    {% if block.settings.text != blank %}
+                      {% render 'niccos-collapse', 
+                        content: block.settings.text,
+                        block: block
+                      %}
+                    {% endif %}
+                {% endcase %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
 			{% endif %}
 
 			<div class="product-info-wrap-content">
@@ -599,7 +669,7 @@
 				</div>
 			</div>
 
-			<div class="product-info-description main_new">
+			<div class="product-info-description main_new desktop--hidden">
 				<div class="product-info-description-content">
 					{% for block in section.blocks %}
 						{% case block.type %}
