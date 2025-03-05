@@ -229,11 +229,12 @@
       ],
       "custom_css": [
         ".product-form-input + .product-form-input {padding-top: 0 !important;}",
-        "form {display: flex; align-items: center; gap: 20px;}"
+        "form {display: flex; align-items: center; gap: 20px;}",
+        "@media (min-width: 990px) {.list-payment {margin-top: 1rem; }}"
       ],
       "settings": {
         "hide_variants": false,
-        "thumbnail_navigation": false,
+        "thumbnail_navigation": true,
         "image_zoom_type": "lightbox",
         "image_disclaimer": "<p> </p>"
       }
