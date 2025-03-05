@@ -8,7 +8,7 @@
       {%- assign base_price_list = collection.metafields.custom.pseudo_variants_relevant_product.metafields.custom.base_price_list | json %}
       {%- assign configurable_product_type = collection.metafields.custom.pseudo_variants_relevant_product.metafields.custom.configurable_product_type | json %}
       {%- assign quote = "}" %}
-      {{- variant | json | remove_last: quote | append: ', "base_price_list":' | append: base_price_list | append: ', "configurable_product_type": ' | append: configurable_product_type | append: quote -}}
+      {{- variant | json | remove_last: quote | append: ',"base_price_list":' | append: base_price_list | append: ',"configurable_product_type":' | append: configurable_product_type | append: quote -}}
       {%- break -%}
     {%- endif -%}
   {%- endfor -%}
