@@ -10,42 +10,6 @@
     },
     {
       "type": "select",
-      "id": "section_height",
-      "label": "Seitenhöhe",
-      "options": [
-        { "value": "auto", "label": "An das erste Bild anpassen" },
-        { "value": "fixed", "label": "Feste Höhe (500px)" }
-      ],
-      "default": "auto"
-    },
-    {
-      "type": "checkbox",
-      "id": "auto_rotate",
-      "label": "Folien rotieren automatisch",
-      "default": true
-    },
-    {
-      "type": "range",
-      "id": "slide_interval",
-      "label": "Folien wechseln alle",
-      "min": 1,
-      "max": 10,
-      "step": 1,
-      "unit": "s",
-      "default": 5
-    },
-    {
-      "type": "radio",
-      "id": "animation_type",
-      "label": "Art der Animation",
-      "options": [
-        { "value": "slide", "label": "Dia" },
-        { "value": "fade", "label": "Überblendung" }
-      ],
-      "default": "slide"
-    },
-    {
-      "type": "select",
       "id": "display_device",
       "label": "Auf welchem Gerät anzeigen?",
       "options": [
@@ -88,7 +52,6 @@
     position: relative; 
     overflow: hidden; 
     {% if section.settings.full_width %} width: 100vw; {% endif %}
-    {% if section.settings.section_height == "fixed" %} height: 500px; {% endif %}
   }
   
   .hss-slideshow .slides { 
@@ -100,10 +63,6 @@
     min-width: 100%; 
     flex-shrink: 0; 
     position: relative;
-    {% if section.settings.animation_type == "fade" %} 
-      opacity: 0; 
-      transition: opacity 0.8s ease-in-out; 
-    {% endif %}
   }
   
   .hss-slideshow img { width: 100%; height: auto; display: block; }
@@ -122,9 +81,25 @@
     .only-mobile { display: block; }
   }
 
-  /* Animation für Überblendung */
-  .hss-slideshow .slide.active {
-    {% if section.settings.animation_type == "fade" %} opacity: 1; {% endif %}
+  /* --- Navigation (Punkte unter der Slideshow) --- */
+  .slideshow-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .slideshow-pagination button {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border: none;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .slideshow-pagination button.active {
+    background-color: #333;
   }
 {% endstyle %}
 
@@ -146,33 +121,38 @@
       </div>
     {% endfor %}
   </div>
+
+  <!-- Navigation (Pagination) -->
+  <div class="slideshow-pagination">
+    {% for block in section.blocks %}
+      <button data-slide="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></button>
+    {% endfor %}
+  </div>
 </div>
 
 {% javascript %}
   document.addEventListener("DOMContentLoaded", function() {
     let slides = document.querySelectorAll(".hss-slideshow .slide");
-    let index = 0;
-    let intervalTime = {{ section.settings.slide_interval }} * 1000;
-    let autoRotate = {{ section.settings.auto_rotate | json }};
+    let paginationButtons = document.querySelectorAll(".slideshow-pagination button");
+    let currentIndex = 0;
 
-    function showNextSlide() {
-      slides[index].classList.remove("active");
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.transform = `translateX(-${index * 100}%)`;
+      });
 
-      if ("{{ section.settings.animation_type }}" === "slide") {
-        slides[index].style.transform = "translateX(-100%)";
-      }
+      paginationButtons.forEach((button, i) => {
+        button.classList.toggle("active", i === index);
+      });
 
-      index = (index + 1) % slides.length;
-
-      slides[index].classList.add("active");
-
-      if ("{{ section.settings.animation_type }}" === "slide") {
-        slides[index].style.transform = "translateX(0)";
-      }
+      currentIndex = index;
     }
 
-    if (autoRotate) {
-      setInterval(showNextSlide, intervalTime);
-    }
+    paginationButtons.forEach(button => {
+      button.addEventListener("click", function() {
+        let index = parseInt(this.getAttribute("data-slide"));
+        showSlide(index);
+      });
+    });
   });
 {% endjavascript %}
