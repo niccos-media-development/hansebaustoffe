@@ -173,7 +173,7 @@
     {% sections 'header-group' %}
 
     {% comment %} overflow-x: hidden !important; <--- to fix AOS horizontal overflow issue {% endcomment %}
-    <main id="MainContent" class="main" role="main" tabindex="-1" style="overflow-x: hidden !important;">
+    <main id="MainContent" class="main" role="main" tabindex="-1" style="">
       {% if settings.breadcrumbs_enabled %}
         {% render 'breadcrumb' %}
       {% endif %}
