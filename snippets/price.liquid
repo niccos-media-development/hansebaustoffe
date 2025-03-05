@@ -30,6 +30,10 @@
 		assign money_price = 'products.product.price.from_price_html' | t: price: money_price
 	endif
 
+    if target == product and target.metafields.custom.configurable_product_type.value != blank
+      assign money_price = 'products.product.price.from_price_html' | t: price: money_price
+    endif
+
 	assign is_pre_order = false
 	if product.template_suffix == 'pre-order'
 		assign is_pre_order = true
