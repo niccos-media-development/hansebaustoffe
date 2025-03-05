@@ -4855,6 +4855,7 @@ product-card .card-footer {
     display: flex;
     flex-direction: column;
     height: 100%;
+    margin-top : 0;
 }
 
 product-card .card-footer .price {
