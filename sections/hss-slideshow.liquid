@@ -3,6 +3,48 @@
   "name": "HSS Slideshow",
   "settings": [
     {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Abschnitt in voller Breite anzeigen",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "section_height",
+      "label": "Seitenhöhe",
+      "options": [
+        { "value": "auto", "label": "An das erste Bild anpassen" },
+        { "value": "fixed", "label": "Feste Höhe (500px)" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_rotate",
+      "label": "Folien rotieren automatisch",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "slide_interval",
+      "label": "Folien wechseln alle",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "default": 5
+    },
+    {
+      "type": "radio",
+      "id": "animation_type",
+      "label": "Art der Animation",
+      "options": [
+        { "value": "slide", "label": "Dia" },
+        { "value": "fade", "label": "Überblendung" }
+      ],
+      "default": "slide"
+    },
+    {
       "type": "select",
       "id": "display_device",
       "label": "Auf welchem Gerät anzeigen?",
@@ -42,11 +84,48 @@
 {% endschema %}
 
 {% style %}
-  .hss-slideshow { position: relative; overflow: hidden; }
-  .hss-slideshow .slides { display: flex; transition: transform 0.5s ease-in-out; }
-  .hss-slideshow .slide { min-width: 100%; flex-shrink: 0; position: relative; }
+  .hss-slideshow { 
+    position: relative; 
+    overflow: hidden; 
+    {% if section.settings.full_width %} width: 100vw; {% endif %}
+    {% if section.settings.section_height == "fixed" %} height: 500px; {% endif %}
+  }
+  
+  .hss-slideshow .slides { 
+    display: flex; 
+    transition: transform 0.5s ease-in-out; 
+  }
+  
+  .hss-slideshow .slide { 
+    min-width: 100%; 
+    flex-shrink: 0; 
+    position: relative;
+    {% if section.settings.animation_type == "fade" %} 
+      opacity: 0; 
+      transition: opacity 0.8s ease-in-out; 
+    {% endif %}
+  }
+  
   .hss-slideshow img { width: 100%; height: auto; display: block; }
-  .hss-slideshow .hidden { display: none; }
+
+  /* Standardmäßig verstecken */
+  .only-desktop { display: none; }
+  .only-mobile { display: none; }
+
+  /* Desktop-Version sichtbar machen */
+  @media (min-width: 768px) {
+    .only-desktop { display: block; }
+  }
+
+  /* Mobile-Version sichtbar machen */
+  @media (max-width: 767px) {
+    .only-mobile { display: block; }
+  }
+
+  /* Animation für Überblendung */
+  .hss-slideshow .slide.active {
+    {% if section.settings.animation_type == "fade" %} opacity: 1; {% endif %}
+  }
 {% endstyle %}
 
 <div 
@@ -56,7 +135,7 @@
 >
   <div class="slides">
     {% for block in section.blocks %}
-      <div class="slide">
+      <div class="slide{% if forloop.first %} active{% endif %}">
         {% if block.settings.slide_link != blank %}
           <a href="{{ block.settings.slide_link }}">
             <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Slideshow Image">
@@ -73,13 +152,27 @@
   document.addEventListener("DOMContentLoaded", function() {
     let slides = document.querySelectorAll(".hss-slideshow .slide");
     let index = 0;
+    let intervalTime = {{ section.settings.slide_interval }} * 1000;
+    let autoRotate = {{ section.settings.auto_rotate | json }};
 
     function showNextSlide() {
       slides[index].classList.remove("active");
+
+      if ("{{ section.settings.animation_type }}" === "slide") {
+        slides[index].style.transform = "translateX(-100%)";
+      }
+
       index = (index + 1) % slides.length;
+
       slides[index].classList.add("active");
+
+      if ("{{ section.settings.animation_type }}" === "slide") {
+        slides[index].style.transform = "translateX(0)";
+      }
     }
 
-    setInterval(showNextSlide, 5000); // Wechsle das Bild alle 5 Sekunden
+    if (autoRotate) {
+      setInterval(showNextSlide, intervalTime);
+    }
   });
 {% endjavascript %}
