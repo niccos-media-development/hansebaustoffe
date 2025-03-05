@@ -797,10 +797,18 @@
             "slide_image": "shopify://shop_images/HSS_Shop25_Banner_Start_Daecher_Deutsch_2025-1_1420x722_040325_1_1.jpg",
             "slide_link": ""
           }
+        },
+        "slide_e6fDW3": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify://shop_images/HSS_Shop25_Banner_Start_Anwender_Deutsch_2023-1_1420x722_040325_1_1.jpg",
+            "slide_link": ""
+          }
         }
       },
       "block_order": [
-        "slide_eLWRMk"
+        "slide_eLWRMk",
+        "slide_e6fDW3"
       ],
       "settings": {
         "display_device": "desktop"
