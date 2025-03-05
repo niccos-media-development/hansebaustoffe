@@ -4864,6 +4864,16 @@ product-card .card-footer .product-actions {
   align-items : flex-end;
 }
 
+product-card .card-footer .product-form {
+    flex: 1;
+    align-items: flex-end;
+    display: flex;
+}
+
+product-card .card-footer .product-form form {
+  width : 100%;
+}
+
 product-card .card-footer .product-actions .product-actions-add-to-cart {
     width : 100%;
 }
