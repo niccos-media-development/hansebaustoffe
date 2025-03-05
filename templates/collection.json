@@ -50,7 +50,7 @@
         "filters_bar_color_scheme": "background-1",
         "show_vendor": false,
         "show_stock": true,
-        "show_rating": false,
+        "show_rating": true,
         "side_menu_title": "Kategorie",
         "side_menu": "",
         "cust_section_show": true,
