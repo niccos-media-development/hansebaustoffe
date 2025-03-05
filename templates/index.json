@@ -799,13 +799,13 @@
             "heading": "",
             "heading_size": "md",
             "subheading": "",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "box_align": "bottom-left",
             "content_width": 60,
             "button_label": "",
             "button_type_link": false,
             "button_color_scheme": "button-primary",
-            "link": "",
+            "link": "shopify://collections/dachprotect-epdm-dachfolie",
             "secondary_button_label": "",
             "secondary_button_type_link": false,
             "secondary_button_color_scheme": "button-secondary",
@@ -822,7 +822,7 @@
             "heading": "",
             "heading_size": "md",
             "subheading": "",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "box_align": "bottom-left",
             "content_width": 60,
             "button_label": "",
@@ -832,7 +832,7 @@
             "secondary_button_label": "",
             "secondary_button_type_link": false,
             "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
+            "secondary_link": "shopify://pages/kundenzufriedenheit",
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
@@ -842,19 +842,17 @@
         "slide_7N3CCh",
         "slide_6wXbWe"
       ],
-      "custom_css": [
-        "@media only screen and (max-width: 768px) {.slideshow-media {display: none; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": false,
         "slide_height": "adapt_image",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "animation_type": "slide",
+        "animation_type": "fade",
         "accessibility_info": "",
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     },
     "niccos_testimonials_F3WRTd": {
