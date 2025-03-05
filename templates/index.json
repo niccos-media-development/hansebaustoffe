@@ -868,7 +868,7 @@
             "heading": "",
             "heading_size": "md",
             "subheading": "",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "box_align": "bottom-left",
             "content_width": 60,
             "button_label": "",
@@ -891,7 +891,7 @@
             "heading": "",
             "heading_size": "md",
             "subheading": "",
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "box_align": "bottom-left",
             "content_width": 60,
             "button_label": "",
@@ -912,7 +912,7 @@
         "slide_dT3rYx"
       ],
       "custom_css": [
-        "@media (min-width: 750px) {.flickity-enabled {display: none !important; }"
+        "@media (min-width: 750px) {.flickity-enabled {display: none !important; } }"
       ],
       "settings": {
         "full_width": true,
