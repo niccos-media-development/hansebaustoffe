@@ -10,6 +10,17 @@
 	{{ 'flickity.css' | asset_url | stylesheet_tag }}
 {% endif %}
 
+
+<style>
+  .carousel-slider product-card .card-footer {
+    height : auto;
+  }
+
+  .carousel-slider product-card .card-info {
+    flex : 1;
+  }
+</style>
+
 <link rel="stylesheet" href="{{ 'component-reviews.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'component-reviews.css' | asset_url | stylesheet_tag }}</noscript>
