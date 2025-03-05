@@ -20,6 +20,25 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+<!-- ZRE: 
+
+{% assign original_string = "HelloWorld" %}
+{% assign string_length = original_string | size %}
+{% assign mangled_string = "" %}
+{% assign index_map = "" %}
+
+{% for i in (0..string_length-1) %}
+  {% assign random_index = i | plus: (string_length | minus: i) %}
+  {% assign char = original_string | slice: random_index, 1 %}
+  {% assign mangled_string = mangled_string | append: char %}
+  {% assign index_map = index_map | append: random_index | append: "," %}
+{% endfor %}
+
+Mangled String: {{ mangled_string }}
+Index Map: {{ index_map }}
+
+
+-->
     <meta charset="utf-8">
 
     <title>
