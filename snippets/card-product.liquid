@@ -138,7 +138,7 @@
 					%}
 				</div>
 
-				{% render 'price', product: card_product, discount_badge: false %}
+				{% render 'price', product: card_product, discount_badge: false, from: 'card-product' %}
 
 				{%- if show_add_to_cart -%}
 					{% render 'card-product-add-to-cart', product: card_product, event_context: event_context %}
