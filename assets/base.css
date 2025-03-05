@@ -3502,8 +3502,10 @@ predictive-search:not([loading]) .predictive-search-status-loading {
   margin-left: 0;
 }
 
-.navigation-menu li:hover > .navigation-sub-menu,
-.navigation-menu li:focus-within > .navigation-sub-menu {
+/* .navigation-menu li:hover > .navigation-sub-menu,
+.navigation-menu li:focus-within > .navigation-sub-menu */
+.navigation-menu .navigation-item.has-sub-menu:has(.navigation-item.has-sub-menu.open) > .navigation-sub-menu,
+.navigation-menu li.open > .navigation-sub-menu {
   transition-delay: 0s, 0s, 0s;
   visibility: visible;
   opacity: 1;
@@ -4856,10 +4858,10 @@ h3.sidebar_contact_title {
     display: none!important;
   }
 
-  /* .hs-product-gallery-container {
+  .hs-product-gallery-container {
     position: sticky;
     top: 20px;
-  } */
+  }
 }
 
 @media (max-width : 749px) {

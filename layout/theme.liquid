@@ -196,7 +196,11 @@
     {%- endif -%}
 
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
+    <script
+      src="{{ 'custom.js' | asset_url }}"
+      defer="defer"
+    ></script>
+    
     <script>
       window.scrollTo(0, window.scrollY)
       document.body.style.setProperty('overflow-x', 'hidden !important;');
