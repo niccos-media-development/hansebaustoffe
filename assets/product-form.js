@@ -64,8 +64,8 @@ if (!customElements.get('product-form')) {
                   let variant = JSON.parse(data);
                   if(variant.available === true) {
                     formData.set("id", variant.id);
-                    formData.set("properties[_base_price_list]", data.base_price_list);
-                    formData.set("properties[_configurable_product_type]", data.configurable_product_type);
+                    formData.set("properties[_base_price_list]", variant.base_price_list);
+                    formData.set("properties[_configurable_product_type]", variant.configurable_product_type);
                   }
                 }
                 config.body = formData;
