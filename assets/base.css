@@ -4861,7 +4861,7 @@ product-card .card-footer {
 product-card .card-footer .product-actions {
   flex : 1;
   display : flex;
-  align-items : center;
+  align-items : flex-end;
 }
 
 product-card .card-footer .product-actions .product-actions-add-to-cart {
