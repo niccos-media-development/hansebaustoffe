@@ -347,7 +347,7 @@
 											{% if block.settings.show_sku %}
 												{% if product.selected_or_first_available_variant.sku != blank %}
 													<span class="product-info-meta-item product-info-meta-item-code">
-														{{ 'products.product.sku' | t }}: <span id="ProductSku-{{ section.id }}" {%- if product.metafields.custom.variant_search_collection.value != blank %} data-current-sku{% endif %}>{{ product.selected_or_first_available_variant.sku }}</span>
+														{{ 'products.product.sku' | t }}: <span id="ProductSku-{{ section.id }}" {%- if product.metafields.custom.configurable_product_type.value != blank %} data-current-sku{% endif %}>{{ product.selected_or_first_available_variant.sku }}</span>
 													</span>
 
                                 
@@ -429,7 +429,7 @@
                       data-aos="fade-right"
                     class="{% unless product.has_only_default_variant %}no-js-hidden{% endunless %} {% if product.selected_or_first_available_variant == nil %}visually-hidden{% endif %}" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
 
-                    {% if product.metafields.custom.variant_search_collection.value != blank %}
+                    {% if product.metafields.custom.configurable_product_type.value != blank %}
                       {%- assign show_base_price = true -%}
                     {% endif %}
 
@@ -479,8 +479,8 @@
 										</div>
 
 										{% form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form', data-stock-threshold: settings.only_x_left, data-event-context: 'MainProductPage' %}
-											{% if product.metafields.custom.variant_search_collection.value != blank %}
-                                              <input type="hidden" name="variant-search-collection" value="{{ product.metafields.custom.variant_search_collection.value.handle }}" />
+											{% if product.metafields.custom.configurable_product_type.value != blank %}
+                                              <input type="hidden" name="variant-search-collection" value="{{ product.metafields.custom.configurable_product_type.value }}" />
                                             {% endif %}
                                                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}"
 												{% if product.selected_or_first_available_variant.available == false
@@ -569,7 +569,7 @@
 									</product-form>
 								{% endunless %}
 
-                                {% if false and product.metafields.custom.variant_search_collection.value != blank %}
+                                {% if false and product.metafields.custom.configurable_product_type.value != blank %}
                                   <p style="font-size: 1.5rem; margin: 0; margin-top: 1rem; margin-bottom: 1rem;"><span style="font-weight: 800;">Produktnummer:</span> <span data-current-sku></span></p>
                                 {% endif %}
                               {% endcapture %}
@@ -743,7 +743,7 @@
 	</div>
 </div>
 
-{% if product.metafields.custom.variant_search_collection.value != blank %}
+{% if product.metafields.custom.configurable_product_type.value != blank %}
   <script>
     const form = document;
     const originalAddEventListener = form.addEventListener;
@@ -784,7 +784,7 @@
         return [Number(measurement.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")), Number(price.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", "."))]
       })
 
-      {% case product.metafields.custom.variant_search_collection.value.handle %}
+      {% case product.metafields.custom.configurable_product_type.value %}
         {% when 'dachfolie-schwarz' -%}
           sku = `D${dicke_fmt}-${breite_fmt}-${launge_fmt}`;
           basePrices.forEach(([measurement, price]) => {
@@ -812,11 +812,11 @@
       {%- endcase %}
 
       
-      let price = Math.round(basePrice * {% if product.metafields.custom.variant_search_collection.value.handle != "form-nahtabdeckband" %} p_breite *{% endif %} p_launge * 1000) / 1000;
+      let price = Math.round(basePrice * {% if product.metafields.custom.configurable_product_type.value != "form-nahtabdeckband" %} p_breite *{% endif %} p_launge * 1000) / 1000;
 
       document.querySelector('[data-price]').innerText = formatter.format(price);
       document.querySelector('[data-current-base-price]').innerText = formatter.format(basePrice);
-      document.querySelector('[data-current-quadratmeter]').innerText = {% if product.metafields.custom.variant_search_collection.value.handle == "form-nahtabdeckband" %}Number((p_launge).toFixed(2)).toString();{% else %}Number((p_breite * p_launge).toFixed(2)).toString();{% endif %}
+      document.querySelector('[data-current-quadratmeter]').innerText = {% if product.metafields.custom.configurable_product_type.value == "form-nahtabdeckband" %}Number((p_launge).toFixed(2)).toString();{% else %}Number((p_breite * p_launge).toFixed(2)).toString();{% endif %}
       document.querySelector('[data-current-sku]').innerText = sku;
     }
     
