@@ -840,6 +840,9 @@
         "slide_7N3CCh",
         "slide_6wXbWe"
       ],
+      "custom_css": [
+        "@media (max-width: 1024px) {.slideshow-media {display: none; }}"
+      ],
       "settings": {
         "full_width": false,
         "slide_height": "adapt_image",
