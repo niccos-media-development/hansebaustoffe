@@ -234,7 +234,7 @@
       ],
       "settings": {
         "hide_variants": false,
-        "thumbnail_navigation": true,
+        "thumbnail_navigation": false,
         "image_zoom_type": "lightbox",
         "image_disclaimer": "<p> </p>"
       }
