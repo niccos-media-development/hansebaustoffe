@@ -99,9 +99,9 @@
 		{% endif %}
     {% if show_base_price == true %}
       {% if product.metafields.custom.configurable_product_type.value == "form-nahtabdeckband" %}
-      <p style="font-size: 1.2rem; margin: 0;">Inhalt: <span data-current-quadratmeter>1.5</span> Meter (<span data-current-base-price>14,50 €</span>* / 1 Meter)</p>
+      <p style="font-size: 1.2rem; margin: 0;">{{ 'products.product.price.meter_base_price' }}</p>
       {% else %}
-      <p style="font-size: 1.2rem; margin: 0;">Inhalt: <span data-current-quadratmeter>1.5</span> Quadratmeter (<span data-current-base-price>14,50 €</span>* / 1 Quadratmeter)</p>
+      <p style="font-size: 1.2rem; margin: 0;">{{ 'products.product.price.quadratmeter_base_price' }}</p>
       {% endif %}
     {% endif %}
 	</div>
