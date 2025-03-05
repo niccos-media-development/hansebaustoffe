@@ -105,7 +105,9 @@
         "from_price_html": "<span class=\"sup\">From<\/span> {{ price }}",
         "regular_price": "Regular price",
         "sale_price": "Sale price",
-        "unit_price": "Unit price"
+        "unit_price": "Unit price",
+        "meter_base_price_html": "Inhalt: <span data-current-quadratmeter></span> Meter (<span data-current-base-price></span>* / 1 Meter)",
+        "quadratmeter_base_price_html": "Inhalt: <span data-current-quadratmeter></span> Quadratmeter (<span data-current-base-price></span>* / 1 Quadratmeter)"
       },
       "quantity": {
         "label": "Quantity",
