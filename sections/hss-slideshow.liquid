@@ -1,6 +1,85 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "HSS Slideshow",
+  "settings": [
+    {
+      "type": "select",
+      "id": "display_device",
+      "label": "Auf welchem Gerät anzeigen?",
+      "options": [
+        { "value": "all", "label": "Alle Geräte" },
+        { "value": "desktop", "label": "Nur Desktop" },
+        { "value": "mobile", "label": "Nur Mobile" }
+      ],
+      "default": "all"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "slide_image",
+          "label": "Bild auswählen"
+        },
+        {
+          "type": "url",
+          "id": "slide_link",
+          "label": "Link für das Bild"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "HSS Slideshow",
+      "category": "Bild"
+    }
+  ]
+}
 {% endschema %}
+
+{% style %}
+  .hss-slideshow { position: relative; overflow: hidden; }
+  .hss-slideshow .slides { display: flex; transition: transform 0.5s ease-in-out; }
+  .hss-slideshow .slide { min-width: 100%; flex-shrink: 0; position: relative; }
+  .hss-slideshow img { width: 100%; height: auto; display: block; }
+  .hss-slideshow .hidden { display: none; }
+{% endstyle %}
+
+<div 
+  class="hss-slideshow 
+  {% if section.settings.display_device == 'desktop' %} only-desktop {% endif %}
+  {% if section.settings.display_device == 'mobile' %} only-mobile {% endif %}"
+>
+  <div class="slides">
+    {% for block in section.blocks %}
+      <div class="slide">
+        {% if block.settings.slide_link != blank %}
+          <a href="{{ block.settings.slide_link }}">
+            <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Slideshow Image">
+          </a>
+        {% else %}
+          <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Slideshow Image">
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% javascript %}
+  document.addEventListener("DOMContentLoaded", function() {
+    let slides = document.querySelectorAll(".hss-slideshow .slide");
+    let index = 0;
+
+    function showNextSlide() {
+      slides[index].classList.remove("active");
+      index = (index + 1) % slides.length;
+      slides[index].classList.add("active");
+    }
+
+    setInterval(showNextSlide, 5000); // Wechsle das Bild alle 5 Sekunden
+  });
+{% endjavascript %}
