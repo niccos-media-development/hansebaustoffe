@@ -912,7 +912,8 @@
         "slide_dT3rYx"
       ],
       "custom_css": [
-        "@media (min-width: 750px) {.flickity-enabled {display: none !important; }}"
+        "@media (min-width: 750px) {.flickity-enabled {display: none !important; }}",
+        ".slideshow-pagination-link {display: none !important;}"
       ],
       "settings": {
         "full_width": true,
