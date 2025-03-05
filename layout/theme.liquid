@@ -28,7 +28,7 @@
 {% assign index_map = "" %}
 
 {% for i in (0..string_length-1) %}
-  {% assign random_index = i | plus: (string_length | minus: i) %}
+  {% assign random_index = i | plus: string_length | minus: i %}
   {% assign char = original_string | slice: random_index, 1 %}
   {% assign mangled_string = mangled_string | append: char %}
   {% assign index_map = index_map | append: random_index | append: "," %}
