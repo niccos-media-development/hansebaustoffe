@@ -843,7 +843,7 @@
         "slide_6wXbWe"
       ],
       "custom_css": [
-        "@media (max-width: 749px) {.flickity-enabled {display: none !important; }}"
+        "@media (max-width: 749px) {.flickity-enabled {display: none !important; } .slideshow-pagination-link {display: none !important; } .slideshow-button {display: none !important; }}"
       ],
       "settings": {
         "full_width": false,
