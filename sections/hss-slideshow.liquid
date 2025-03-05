@@ -1,3 +1,52 @@
+{% schema %}
+{
+  "name": "HSS Slideshow",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Abschnitt in voller Breite anzeigen",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "display_device",
+      "label": "Auf welchem Gerät anzeigen?",
+      "options": [
+        { "value": "all", "label": "Alle Geräte" },
+        { "value": "desktop", "label": "Nur Desktop" },
+        { "value": "mobile", "label": "Nur Mobile" }
+      ],
+      "default": "all"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "slide_image",
+          "label": "Bild auswählen"
+        },
+        {
+          "type": "url",
+          "id": "slide_link",
+          "label": "Link für das Bild"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "HSS Slideshow",
+      "category": "Bild"
+    }
+  ]
+}
+{% endschema %}
+
 {% style %}
   .hss-slideshow {
     position: relative;
@@ -12,23 +61,30 @@
   .hss-slideshow .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    align-items: center;
   }
 
   .hss-slideshow .slide {
     min-width: 100%;
     flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
   }
 
   .hss-slideshow img {
     width: 100%;
     height: auto;
-    max-width: 100%;
-    max-height: 90vh; /* Maximal 90% der Bildschirmhöhe */
-    object-fit: cover; /* Passt das Bild an, ohne es zu verzerren */
+    display: block;
+  }
+
+  /* Geräteabhängige Sichtbarkeit */
+  .only-desktop { display: none; }
+  .only-mobile { display: none; }
+
+  @media (min-width: 768px) {
+    .only-desktop { display: block; }
+  }
+
+  @media (max-width: 767px) {
+    .only-mobile { display: block; }
   }
 
   /* Navigationspunkte */
@@ -52,3 +108,53 @@
     background-color: #333;
   }
 {% endstyle %}
+
+<div 
+  class="hss-slideshow 
+  {% if section.settings.display_device == 'desktop' %} only-desktop {% endif %}
+  {% if section.settings.display_device == 'mobile' %} only-mobile {% endif %}"
+>
+  <div class="slides">
+    {% for block in section.blocks %}
+      <div class="slide{% if forloop.first %} active{% endif %}">
+        {% if block.settings.slide_link != blank %}
+          <a href="{{ block.settings.slide_link }}">
+            <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Slideshow Image">
+          </a>
+        {% else %}
+          <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Slideshow Image">
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Navigationspunkte -->
+  <div class="dots">
+    {% for block in section.blocks %}
+      <div class="dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}"></div>
+    {% endfor %}
+  </div>
+</div>
+
+{% javascript %}
+  document.addEventListener("DOMContentLoaded", function() {
+    let slides = document.querySelectorAll(".hss-slideshow .slide");
+    let dots = document.querySelectorAll(".hss-slideshow .dot");
+    let index = 0;
+
+    function showSlide(n) {
+      slides.forEach((slide, i) => {
+        slide.style.transform = `translateX(-${n * 100}%)`;
+        dots[i].classList.toggle("active", i === n);
+      });
+      index = n;
+    }
+
+    dots.forEach(dot => {
+      dot.addEventListener("click", function() {
+        let slideIndex = parseInt(this.getAttribute("data-index"));
+        showSlide(slideIndex);
+      });
+    });
+  });
+{% endjavascript %}
