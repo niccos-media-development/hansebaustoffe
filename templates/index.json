@@ -811,11 +811,7 @@
         "slide_e6fDW3"
       ],
       "settings": {
-        "full_width": false,
-        "section_height": "auto",
-        "auto_rotate": true,
-        "slide_interval": 5,
-        "animation_type": "fade",
+        "full_width": true,
         "display_device": "desktop"
       }
     },
