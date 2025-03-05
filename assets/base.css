@@ -4848,3 +4848,27 @@ h3.sidebar_contact_title {
 .media-with-text-content,.media-with-text-grid .grid-itmes img {
     border-radius: 6px;
 }
+
+
+
+@media (min-width : 750px) {
+  .desktop--hidden {
+    display: none!important;
+  }
+
+  /* .hs-product-gallery-container {
+    position: sticky;
+    top: 20px;
+  } */
+}
+
+@media (max-width : 749px) {
+  .head-slot.head-slot-end .head-slot-nav-link svg {
+    width : 47px;
+    height : 47px;
+  }
+
+  .mobile--hidden {
+    display: none!important;
+  }
+}
