@@ -776,7 +776,7 @@
           breite_fmt = Math.floor(p_breite * 100).toString().padStart(3, '0').slice(0,3),
           launge_fmt = Math.floor(p_launge * 10).toString().padStart(3, '0').slice(0,3);
 
-      {% assign base_prices = product.metafields.base_price_list | newline_to_br | split: "<br />" %}
+      {% assign base_prices = product.metafields.custom.base_price_list | newline_to_br | split: "<br />" %}
       let basePrice, basePrices = {{ base_prices | json }};
       basePrices = basePrices.map(basePrice => {
         basePrice = basePrice.replace('\n', '');
