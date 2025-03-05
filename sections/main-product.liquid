@@ -776,28 +776,39 @@
           breite_fmt = Math.floor(p_breite * 100).toString().padStart(3, '0').slice(0,3),
           launge_fmt = Math.floor(p_launge * 10).toString().padStart(3, '0').slice(0,3);
 
+      {% assign base_prices = product.metafields.custom.variant_search_collection.value.metafields.custom.base_price_list | newline_to_br | split: "<br />" %}
+      let basePrice, basePrices = {{ base_prices | json }};
+      basePrices = basePrices.map(basePrice => {
+        basePrice = basePrice.replace('\n', '');
+        let [ measurement, price ] = basePrice.split(' / ');
+        return [Number(measurement.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")), Number(price.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", "."))]
+      })
+
       {% case product.metafields.custom.variant_search_collection.value.handle %}
         {% when 'dachfolie-schwarz' -%}
-          let basePrice = p_dicke == 1.5 ? 18.5 : 14.5;
           sku = `D${dicke_fmt}-${breite_fmt}-${launge_fmt}`;
+          basePrices.forEach(([measurement, price]) => {
+            if(p_dicke === measurement)
+              basePrice = price
+          })
         {% when 'dachfolie-weiss' -%}
-          let basePrice = 24.9; {% comment %}1,5 mm{% endcomment %}
           sku = `DWS-${breite_fmt}-${launge_fmt}`;
+          basePrices.forEach(([measurement, price]) => {
+            if(p_dicke === measurement)
+              basePrice = price
+          })
         {% when 'abdichtungsplane' -%}
-          let basePrice = p_dicke == 1.5 ? 18.5 : 14.5;
           sku = `B${dicke_fmt}-${breite_fmt}-${launge_fmt}`;
+          basePrices.forEach(([measurement, price]) => {
+            if(p_dicke === measurement)
+              basePrice = price
+          })
         {% when 'form-nahtabdeckband' %}
-          let basePrice;
-          switch(p_breite) {
-            case 15: basePrice = 19.9; break;
-            case 23: basePrice = 24.9; break;
-            case 30: basePrice = 29.9; break;
-            case 46: basePrice = 43.9; break;
-            default:
-              console.error('Invalid value for breite', p_breite);
-              break;
-          }
           sku = `FAB-S${breite_fmt}-${Math.floor(p_launge * 100).toString().padStart(3, '0').slice(0,3)}`;
+          basePrices.forEach(([measurement, price]) => {
+            if(p_breite === measurement)
+              basePrice = price
+          })
       {%- endcase %}
 
       
