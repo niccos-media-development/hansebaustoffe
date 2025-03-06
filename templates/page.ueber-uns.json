@@ -9,6 +9,82 @@
  */
 {
   "sections": {
+    "collection_list_ACwPVx": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_TBTfkj": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title_font_size": "--font-h2-size",
+            "title_font_size_mobile": "--font-h3-size",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "button_text": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "collection_JecyTj": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title_font_size": "--font-h2-size",
+            "title_font_size_mobile": "--font-h3-size",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "button_text": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        },
+        "collection_8GUhJ6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title_font_size": "--font-h2-size",
+            "title_font_size_mobile": "--font-h3-size",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            "button_text": "",
+            "button_type_link": false,
+            "button_color_scheme": "button-primary",
+            "text_color": "#fff",
+            "box_align": "bottom-left",
+            "mobile_heading_size": "md",
+            "mobile_box_align": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "collection_TBTfkj",
+        "collection_JecyTj",
+        "collection_8GUhJ6"
+      ],
+      "settings": {
+        "heading": "Collection list",
+        "subheading": "",
+        "link_title": "All collections",
+        "link_url": "shopify://collections",
+        "card_ratio": "auto",
+        "show_title": true,
+        "show_description": true,
+        "show_button": true,
+        "card_clickable_desktop": false,
+        "layout": "grid",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "section_padding_desktop": 60,
+        "section_padding_mobile": 40,
+        "background_color": "#ffffff"
+      }
+    },
     "media_with_text_Wr4TMi": {
       "type": "media-with-text",
       "blocks": {
@@ -499,6 +575,7 @@
     }
   },
   "order": [
+    "collection_list_ACwPVx",
     "media_with_text_Wr4TMi",
     "media_with_text_DffqMG",
     "main",
