@@ -292,21 +292,14 @@
             "link": ""
           }
         },
-        "image_banner_rTicKU": {
+        "image_banner_cW3iPx": {
           "type": "image_banner",
           "settings": {
             "description": "",
             "link": ""
           }
         },
-        "image_banner_qWppFJ": {
-          "type": "image_banner",
-          "settings": {
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_wttY7J": {
+        "image_banner_GHYeEr": {
           "type": "image_banner",
           "settings": {
             "description": "",
@@ -316,9 +309,8 @@
       },
       "block_order": [
         "image_banner_QHqJbY",
-        "image_banner_rTicKU",
-        "image_banner_qWppFJ",
-        "image_banner_wttY7J"
+        "image_banner_cW3iPx",
+        "image_banner_GHYeEr"
       ],
       "custom_css": [
         "@media screen and (min-width: 769px) {.block-section {display: block !important; }}",
@@ -329,7 +321,7 @@
         "subheading": "",
         "link_title": "",
         "link_url": "",
-        "layout": "grid",
+        "layout": "slider",
         "columns": 2,
         "stack_on_mobile": false,
         "color_scheme": "accent-3",
