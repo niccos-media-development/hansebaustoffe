@@ -292,16 +292,10 @@
             "link": ""
           }
         },
-        "image_banner_cW3iPx": {
+        "image_banner_zQpeUw": {
           "type": "image_banner",
           "settings": {
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_GHYeEr": {
-          "type": "image_banner",
-          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_weiss_1920x1000_1.jpg",
             "description": "",
             "link": ""
           }
@@ -309,8 +303,7 @@
       },
       "block_order": [
         "image_banner_QHqJbY",
-        "image_banner_cW3iPx",
-        "image_banner_GHYeEr"
+        "image_banner_zQpeUw"
       ],
       "custom_css": [
         "@media screen and (min-width: 769px) {.block-section {display: block !important; }}",
