@@ -231,6 +231,110 @@
         "image_disclaimer": "<p> </p>"
       }
     },
+    "rich_text_DnRUzE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_grqm3M": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kundenprojekte",
+            "heading_size": "md"
+          }
+        }
+      },
+      "block_order": [
+        "heading_grqm3M"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 769px) {.block-section {display: block !important; }}",
+        "@media screen and (max-width: 768px) {.block-section {display: none !important; }}"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "accent-3",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
+    "image_banners_njVRJj": {
+      "type": "image-banners",
+      "blocks": {
+        "image_banner_c8DhFK": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Abdichtungsfolie_1920x1000_5.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_MziRBq": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Abdichtungsfolie_1920x1000_2.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_a4Fb4N": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Abdichtungsfolie_1920x1000_1.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_i4nJge": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Abdichtungsfolie_1920x1000_3.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_Y9xb8w": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Abdichtungsfolie_1920x1000_4.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_z6TbUw": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Abdichtungsfolie_1920x1000_6.jpg",
+            "description": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_banner_c8DhFK",
+        "image_banner_MziRBq",
+        "image_banner_a4Fb4N",
+        "image_banner_i4nJge",
+        "image_banner_Y9xb8w",
+        "image_banner_z6TbUw"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 769px) {.block-section {display: block !important; }}",
+        "@media screen and (max-width: 768px) {.block-section {display: none !important; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "layout": "slider",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "accent-3",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
     "featured_collection_k8t9RF": {
       "type": "featured-collection",
       "settings": {
@@ -328,6 +432,8 @@
   },
   "order": [
     "main",
+    "rich_text_DnRUzE",
+    "image_banners_njVRJj",
     "featured_collection_k8t9RF",
     "recommendations",
     "1738918765e0980779",
