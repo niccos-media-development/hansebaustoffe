@@ -77,7 +77,7 @@
 	<template>
 		<div class="video-wrapper">
 			{%- if video_url.type == 'youtube' -%}
-				<iframe src="https://www.youtube.com/embed/{{ video_url.id }}?enablejsapi=1&autoplay=1&controls=0&modestbranding=1" class="js-youtube" controls=0 allow="autoplay; encrypted-media" allowfullscreen title="{{ description | escape }}"></iframe>
+				<iframe src="https://www.youtube.com/embed/{{ video_url.id }}?enablejsapi=1&autoplay=1&modestbranding=1&autohide=1&showinfo=0&controls=0" class="js-youtube" controls=0 allow="autoplay; encrypted-media" allowfullscreen title="{{ description | escape }}"></iframe>
 			{%- else -%}
 				<iframe src="https://player.vimeo.com/video/{{ video_url.id }}?autoplay=1" class="js-vimeo" allow="autoplay; encrypted-media" allowfullscreen title="{{ description | escape }}"></iframe>
 			{%- endif -%}
