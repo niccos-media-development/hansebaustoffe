@@ -53,6 +53,20 @@
             "color_scheme": "none"
           }
         },
+        "text_wEfL8M": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.vorteil_1.value }}",
+            "icon": "",
+            "text_2": "{{ product.metafields.custom.vorteil_2.value }}",
+            "icon_2": "",
+            "text_3": "{{ product.metafields.custom.vorteil_3.value }}",
+            "icon_3": "",
+            "text_4": "{{ product.metafields.custom.vorteil_4.value }}",
+            "icon_4": "",
+            "color_scheme": "none"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -202,6 +216,7 @@
         "title",
         "judge_me_reviews_preview_badge_kwdyzY",
         "subtitle",
+        "text_wEfL8M",
         "price",
         "line_item_property_4DeBWA",
         "line_item_property_nJ3gzi",
