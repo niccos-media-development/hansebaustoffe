@@ -22,8 +22,6 @@
 	endif
 %}
 
-{% assign video_url = video_url | append: '?controls=0' %}
-
 <noscript>
 	<div class="video-media media-with-aspect"
 		{% if cover_image != blank %} style="padding-bottom: {{ 1 | divided_by: cover_image.aspect_ratio | times: 100 }}%;"{% endif %}
