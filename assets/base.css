@@ -4858,6 +4858,10 @@ product-card .card-footer {
     margin-top : 0;
 }
 
+product-card .card-info {
+    height : 100%;
+}
+
 product-card .card-footer .product-actions {
   flex : 1;
   display : flex;
