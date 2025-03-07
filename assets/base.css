@@ -4866,7 +4866,7 @@ product-card .card-info .price {
     min-height : 55px;
 }
 
-product-card:has(.price-regular ),
+product-card:has(.price-regular ) .card-info,
 product-recommendations  .card-info {
     height : auto;
 }
