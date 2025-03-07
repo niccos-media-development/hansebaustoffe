@@ -350,36 +350,89 @@
         "spacing_bottom": 20
       }
     },
-    "featured_collection_k8t9RF": {
-      "type": "featured-collection",
+    "product_lists_UkR9GE": {
+      "type": "product-lists",
+      "blocks": {
+        "product_list_BmVGhm": {
+          "type": "product_list",
+          "settings": {
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Nahtbaender_Formteile.jpg",
+            "overlay_background": "",
+            "heading": "Nahtprodukte",
+            "description": "",
+            "link": "",
+            "products": [
+              "epdm-aktivierung-epdm-aktivierung-im-set",
+              "form-nahtabdeckband-zuschnitt-rollenware",
+              "nahtband-schwarz-zuschnitt-rollenware"
+            ]
+          }
+        },
+        "product_list_ja6pWi": {
+          "type": "product_list",
+          "settings": {
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Klebstoffe.jpg",
+            "overlay_background": "",
+            "heading": "Flächenkleber",
+            "description": "",
+            "link": "",
+            "products": [
+              "baudicht-epdm-flachenkleber-bluetek",
+              "baudicht-epdm-flachenkleber-spraybond"
+            ]
+          }
+        },
+        "product_list_VTEcWE": {
+          "type": "product_list",
+          "settings": {
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Anschlusskleber.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Anschlusskleber",
+            "description": "",
+            "link": "",
+            "products": [
+              "baudicht-epdm-anschlusskleber-flex-290-ml-kartusche",
+              "baudicht-epdm-anschlusskleber-flex-600ml-schlauchbeutel",
+              "doppelseitiges-dichtband-anschlussband-5-meter"
+            ]
+          }
+        },
+        "product_list_7U8bkq": {
+          "type": "product_list",
+          "settings": {
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Verarbeitungswerkzeuge.jpg",
+            "overlay_background": "",
+            "heading": "Verarbeitungswerkzeuge",
+            "description": "",
+            "link": "",
+            "products": [
+              "silikon-kombi-andruckrolle-eckenroller-profi",
+              "schere-26cm",
+              "silikon-andruckrolle-40mm-breit-gelb",
+              "nylon-eckenroller"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "product_list_BmVGhm",
+        "product_list_ja6pWi",
+        "product_list_VTEcWE",
+        "product_list_7U8bkq"
+      ],
+      "custom_css": [
+        ".card-badge.top.left {display: none !important;}"
+      ],
       "settings": {
-        "collection": "",
-        "products_to_show": 3,
-        "products": "{{ product.metafields.next_cart.complementary_products.value }}",
-        "hide_placeholders": false,
-        "heading": "Zubehör",
+        "heading": "Product lists",
         "subheading": "",
-        "show_vendor": true,
-        "show_stock": true,
-        "show_rating": false,
-        "show_collection": false,
-        "collection_overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-        "collection_title": "",
-        "collection_description": "",
-        "collection_text_color": "#ffffff",
-        "collection_button_text": "",
-        "collection_box_align": "bottom-left",
-        "layout": "grid",
-        "columns": "4",
+        "link_title": "",
+        "link_url": "",
+        "columns": "3",
         "stack_on_mobile": false,
+        "color_scheme": "background-1",
         "spacing_top": 60,
-        "spacing_bottom": 60,
-        "navigation_text": "",
-        "title_font_size": "--font-h2-size",
-        "title_font_size_mobile": "--font-h3-size",
-        "section_background": "#ffffff",
-        "mobile_spacing_top": 40,
-        "mobile_spacing_bottom": 40
+        "spacing_bottom": 60
       }
     },
     "recommendations": {
@@ -449,7 +502,7 @@
     "main",
     "rich_text_DnRUzE",
     "image_banners_njVRJj",
-    "featured_collection_k8t9RF",
+    "product_lists_UkR9GE",
     "recommendations",
     "1738918765e0980779",
     "1734509477da49f758"
