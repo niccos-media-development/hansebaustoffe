@@ -819,6 +819,9 @@
               basePrice = price
           })
         {% when 'form-nahtabdeckband' %}
+          if(p_breite !== 15) document.querySelector('select[name="properties[Länge]"] > option[value^="30,50 m"]').setAttribute('disabled', 'disabled');
+          if(document.querySelector('select[name="properties[Länge]"] > option:checked').value.startsWith("30,50 m")) document.querySelector('select[name="properties[Breite]"] > option[value^="15 cm"]').setAttribute('disabled', 'disabled')
+          if(p_breite !== 15) document.querySelector('select > option[value^="30,50 m"]').setAttribute('disabled', 'disabled');
           sku = `FAB-S${breite_fmt}-${Math.floor(p_launge * 100).toString().padStart(3, '0').slice(0,3)}`;
           basePrices.forEach(([measurement, price]) => {
             if(p_breite === measurement)
