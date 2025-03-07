@@ -51,6 +51,7 @@ if (!customElements.get('product-form')) {
                   sku = `B${dicke_fmt}-${breite_fmt}-${launge_fmt}`;
                   break;
                 case 'form-nahtabdeckband':
+                  breite_fmt = Math.floor(breite * 100).toString().padStart(3, '0').slice(0,2)
                   sku = `FAB-S${breite_fmt}-${Math.floor(launge * 100).toString().padStart(3, '0').slice(0,3)}`;
                   break;
               }
