@@ -158,7 +158,12 @@
   font-weight: 400;
   color: rgb(var(--color-foreground-alt));
   margin: 0;
-  height: 44px; /* Niccos */
+}
+
+@media(min-width: 750px) {
+  .card-heading {
+    height: 44px; /* Niccos */
+  }
 }
 
 .card-heading a {
