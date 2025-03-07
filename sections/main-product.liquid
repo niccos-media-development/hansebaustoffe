@@ -843,6 +843,7 @@
           }
 
           sku = `FAB-S${breite_fmt}-${Math.floor(p_launge * 100).toString().padStart(3, '0').slice(0,3)}`;
+          debugger;
           basePrices.forEach(([measurement, price]) => {
             if(p_breite === measurement)
               basePrice = price
