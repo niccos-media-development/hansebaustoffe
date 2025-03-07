@@ -819,13 +819,21 @@
               basePrice = price
           })
         {% when 'form-nahtabdeckband' %}
-          document.querySelectorAll('select[name="properties[Breite]"] > option:not([value^="15 cm"])').forEach(elem => elem.removeAttribute('disabled'))
-          document.querySelector('select[name="properties[Länge]"] > option[value^="30,50 m"]').removeAttribute('disabled');
+          document.querySelectorAll('select[name="properties[Breite]"] > option').forEach(elem => elem.removeAttribute('disabled'))
+          document.querySelectorAll('select[name="properties[Länge]"] > option').forEach(elem => elem.removeAttribute('disabled'))
+          let exclusions = ["15,50 m","16,00 m","16,50 m","17,00 m","17,50 m","18,00 m","18,50 m","19,00 m","19,50 m","20,00 m","20,50 m","21,00 m","21,50 m","22,00 m","22,50 m","23,00 m","23,50 m","24,00 m","24,50 m","25,00 m","25,50 m","26,00 m","26,50 m","27,00 m","30,50 m"].map(exclusion => Number(exclusion.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")));
+          
           if(p_breite !== 15) {
-            document.querySelector('select[name="properties[Länge]"] > option[value^="30,50 m"]').setAttribute('disabled', 'disabled');
+            document.querySelectorAll('select[name="properties[Länge]"] > option').forEach(option => {
+              let optionValue = Number(option.value.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", "."));
+              
+              if(exclusions.indexOf(optionValue) !== -1) {
+                option.setAttribute('disabled', 'disabled');
+              }
+            })
           }
 
-          if(document.querySelector('select[name="properties[Länge]"] > option:checked').value.startsWith("30,50 m")) {
+          if(exclusions.indexOf(p_launge) !== -1) {
             document.querySelectorAll('select[name="properties[Breite]"] > option:not([value^="15 cm"])').forEach(elem => elem.setAttribute('disabled', 'disabled'))
           }
 
