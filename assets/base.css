@@ -4858,9 +4858,7 @@ product-card .card-footer {
     margin-top : 0;
 }
 
-product-card .card-info {
-    height : 100%;
-}
+/* product-card .card-info { height : 100%; } */
 
 product-card .card-footer .price {
     min-height : 55px;
