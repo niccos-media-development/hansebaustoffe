@@ -2,6 +2,10 @@ span[data-price] {
   font-size: calc(var(--font-product-price-scale)* 2rem) !important;
 }
 
+.collection .grid-carousel.product-grid product-card .card-heading.typography-body {
+  min-height: 44px;
+}
+
 .line-item-property {
   padding-top: 20px;
   padding-bottom: 20px;
