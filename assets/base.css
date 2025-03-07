@@ -4862,6 +4862,11 @@ product-card .card-info {
     height : 100%;
 }
 
+product-card .card-info .price {
+    min-height : 55px;
+}
+
+product-card:has(.price-regular ),
 product-recommendations  .card-info {
     height : auto;
 }
