@@ -4862,6 +4862,10 @@ product-card .card-info {
     height : 100%;
 }
 
+product-recommendations  .card-info {
+    height : auto;
+}
+
 product-card .card-footer .product-actions {
   flex : 1;
   display : flex;
