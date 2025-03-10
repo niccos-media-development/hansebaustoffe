@@ -111,7 +111,7 @@
         "background-color": "#333333",
         "desktop-size": 120,
         "desktop-distance": 20,
-        "mobile-size": 80,
+        "mobile-size": 100,
         "mobile-distance": 10,
         "schriftfarbe": "#ffffff",
         "highlight-color": "#c4258d"
