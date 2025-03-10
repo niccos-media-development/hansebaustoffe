@@ -109,14 +109,10 @@
       "custom_css": [],
       "settings": {
         "background-color": "#333333",
-        "max-show-range": "2400",
-        "abgerundete_ecken": 100,
         "desktop-size": 120,
         "desktop-distance": 20,
-        "mobile-size": 20,
-        "mobile-distance": 2,
-        "schriftart": "sans-serif",
-        "fontsize": 12,
+        "mobile-size": 80,
+        "mobile-distance": 10,
         "schriftfarbe": "#ffffff",
         "highlight-color": "#c4258d"
       }
