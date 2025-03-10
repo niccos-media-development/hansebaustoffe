@@ -2,7 +2,7 @@
   <div class="lb-swiper-stories-holder">
     {% for block in section.blocks %}
       <a href="{{ block.settings.url }}" class="lb-swiper-item">
-        <div class="lb-swiper-img-wrapper {% if block.settings.highlight %}lb-swiper-highlight{% endif %}">
+        <div class="lb-swiper-box {% if block.settings.highlight %}lb-swiper-highlight{% endif %}">
           <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
         </div>
         <span class="lb-swiper-title">{{ block.settings.heading }}</span>
@@ -52,27 +52,28 @@
     font-family: {{ section.settings.schriftart.family }}, {{ schriftart.fallback_families }};
   }
 
-  .lb-swiper-img-wrapper {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+  .lb-swiper-box {
+    width: 120px; /* Breite der Box */
+    height: 120px; /* Höhe der Box */
+    border-radius: 0px; /* Keine Abrundung -> Rechteck */
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
     position: relative;
+    border: 2px solid {{ section.settings.highlight-color }}; /* Rahmen */
   }
 
-  .lb-swiper-img-wrapper img {
+  .lb-swiper-box img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* Kein Beschnitt */
   }
 
   /* 🔹 Silbentrennung & Textoptimierung */
   .lb-swiper-title {
-    max-width: 100px;
+    max-width: 120px;
     text-align: center;
     font-size: 14px;
     white-space: normal;
@@ -80,18 +81,6 @@
     overflow-wrap: break-word;
     line-height: 1.2;
     hyphens: auto;
-  }
-
-  .lb-swiper-highlight:after {
-    content: "";
-    border: 2px solid {{ section.settings.highlight-color }};
-    border-radius: 50%;
-    z-index: 2;
-    width: 110%;
-    height: 110%;
-    position: absolute;
-    top: -5%;
-    left: -5%;
   }
 
   /* 🔹 MOBILE OPTIMIERUNG */
@@ -103,17 +92,17 @@
     }
 
     .lb-swiper-item {
-      max-width: 80px;
+      max-width: 90px;
       margin-right: {{ section.settings.mobile-distance }}px;
     }
 
-    .lb-swiper-img-wrapper {
-      width: 80px;
-      height: 80px;
+    .lb-swiper-box {
+      width: 90px;
+      height: 90px;
     }
 
     .lb-swiper-title {
-      max-width: 80px;
+      max-width: 90px;
       font-size: 12px;
     }
   }
@@ -141,10 +130,10 @@
       "min": 50,
       "max": 150,
       "step": 1,
-      "default": 100,
+      "default": 120,
       "label": {
-        "en": "Desktop Size in px",
-        "de": "Desktop Größe in px"
+        "en": "Desktop Box Size",
+        "de": "Desktop Box Größe"
       }
     },
     {
@@ -165,10 +154,10 @@
       "min": 50,
       "max": 100,
       "step": 1,
-      "default": 80,
+      "default": 90,
       "label": {
-        "en": "Mobile Size in px",
-        "de": "Mobile Größe in px"
+        "en": "Mobile Box Size",
+        "de": "Mobile Box Größe"
       }
     },
     {
