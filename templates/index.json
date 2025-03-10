@@ -94,70 +94,6 @@
             "url": "shopify://collections/wandanschluss",
             "highlight": false
           }
-        },
-        "category_tDNCtE": {
-          "type": "category",
-          "settings": {
-            "heading": "Link Name",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_QhwWM8": {
-          "type": "category",
-          "settings": {
-            "heading": "Link Name",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_X6H3MC": {
-          "type": "category",
-          "settings": {
-            "heading": "Link Name",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_YeYEEH": {
-          "type": "category",
-          "settings": {
-            "heading": "Link Name",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_4AmUzW": {
-          "type": "category",
-          "settings": {
-            "heading": "Link Name",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_9Kk367": {
-          "type": "category",
-          "settings": {
-            "heading": "Link Name",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_VQcLHB": {
-          "type": "category",
-          "settings": {
-            "heading": "Link Name",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "category_gLyQGH": {
-          "type": "category",
-          "settings": {
-            "heading": "Link Name",
-            "url": "",
-            "highlight": false
-          }
         }
       },
       "block_order": [
@@ -168,15 +104,7 @@
         "category_meBp43",
         "category_gE8Rbk",
         "category_AqPXDz",
-        "category_UXJFP6",
-        "category_tDNCtE",
-        "category_QhwWM8",
-        "category_X6H3MC",
-        "category_YeYEEH",
-        "category_4AmUzW",
-        "category_9Kk367",
-        "category_VQcLHB",
-        "category_gLyQGH"
+        "category_UXJFP6"
       ],
       "custom_css": [],
       "settings": {
