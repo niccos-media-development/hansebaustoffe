@@ -5,7 +5,7 @@
         <div {% if block.settings.highlight == true %}class="lb-swiper-highlight"{% endif %}>
           <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
         </div>
-        {{ block.settings.heading }}
+        <span>{{ block.settings.heading }}</span>
       </a>
     {% endfor %}
   </div>
@@ -58,13 +58,6 @@
     text-decoration: none !important;
   }
 
-  @media only screen and (max-width: 600px) {
-    .lb-swiper-stories a {
-      max-width: {{ section.settings.mobile-size }}% !important;
-      margin-right: {{ section.settings.mobile-distance }}% !important;
-    }
-  }
-
   .lb-swiper-stories a div {
     display: block !important;
     width: 100% !important;
@@ -90,6 +83,32 @@
     top: -5% !important;
     left: -5% !important;
   }
+
+  /* 🚀 Mobile Optimierung */
+  @media only screen and (max-width: 600px) {
+    .lb-swiper-stories a {
+      max-width: 30% !important; /* 3 Elemente pro Reihe */
+      margin-right: 2% !important; /* Abstand zwischen den Elementen */
+    }
+
+    .lb-swiper-stories a div {
+      width: 100% !important;
+      margin-bottom: 8px !important; /* Mehr Abstand zwischen Bild & Text */
+    }
+
+    .lb-swiper-stories a div img {
+      border-radius: 50% !important; /* Bilder rund für Story-Look */
+    }
+
+    .lb-swiper-stories a span {
+      display: block !important;
+      font-size: 12px !important; /* Kleinere Schriftgröße */
+      white-space: normal !important;
+      word-wrap: break-word !important;
+      text-align: center !important;
+      line-height: 1.2 !important;
+    }
+  }
 </style>
 
 {% schema %}
@@ -99,13 +118,6 @@
     "de": "Lb Geschichten-Swiper"
   },
   "settings": [
-    {
-      "type": "header",
-      "content": {
-        "en": "Section Settings",
-        "de": "Abschnittseinstellungen"
-      }
-    },
     {
       "type": "color",
       "id": "background-color",
@@ -125,13 +137,6 @@
       }
     },
     {
-      "type": "header",
-      "content": {
-        "en": "Link Settings",
-        "de": "Link-Einstellungen"
-      }
-    },
-    {
       "type": "range",
       "id": "abgerundete_ecken",
       "min": 0,
@@ -141,93 +146,6 @@
       "label": {
         "en": "Image Roundness",
         "de": "Bilder Abrundung"
-      }
-    },
-    {
-      "type": "range",
-      "id": "desktop-size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 92,
-      "label": {
-        "en": "Desktop Size in px",
-        "de": "Desktop Größe in px"
-      }
-    },
-    {
-      "type": "range",
-      "id": "desktop-distance",
-      "min": 0,
-      "max": 60,
-      "step": 1,
-      "default": 9,
-      "label": {
-        "en": "Desktop distance right in px",
-        "de": "Desktop Abstand nach Rechts in px"
-      }
-    },
-    {
-      "type": "range",
-      "id": "mobile-size",
-      "min": 13,
-      "max": 36,
-      "step": 1,
-      "default": 20,
-      "label": {
-        "en": "Mobile Size in %",
-        "de": "Mobile Größe in %"
-      }
-    },
-    {
-      "type": "range",
-      "id": "mobile-distance",
-      "min": 0,
-      "max": 10,
-      "step": 1,
-      "default": 2,
-      "label": {
-        "en": "Mobile distance right in %",
-        "de": "Mobiler Abstand nach Rechts in %"
-      }
-    },
-    {
-      "type": "font_picker",
-      "id": "schriftart",
-      "default": "sans-serif",
-      "label": {
-        "en": "Font",
-        "de": "Schriftart"
-      }
-    },
-    {
-      "type": "range",
-      "id": "fontsize",
-      "min": 6,
-      "max": 24,
-      "step": 1,
-      "default": 12,
-      "label": {
-        "en": "Font Size",
-        "de": "Schriftgröße"
-      }
-    },
-    {
-      "type": "color",
-      "id": "schriftfarbe",
-      "default": "#000",
-      "label": {
-        "en": "Font Color",
-        "de": "Schriftfarbe"
-      }
-    },
-    {
-      "type": "color",
-      "id": "highlight-color",
-      "default": "#c4258d",
-      "label": {
-        "en": "Image Border Color",
-        "de": "Bildumrandung Farbe"
       }
     }
   ],
