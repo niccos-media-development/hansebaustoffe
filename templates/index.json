@@ -110,7 +110,7 @@
       "settings": {
         "background-color": "#333333",
         "desktop-size": 120,
-        "desktop-distance": 20,
+        "desktop-distance": 5,
         "mobile-size": 100,
         "mobile-distance": 10,
         "schriftfarbe": "#ffffff",
