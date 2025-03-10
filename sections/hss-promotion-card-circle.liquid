@@ -2,24 +2,26 @@
   <div class="hss-promo-carousel-holder" id="carousel-{{ section.id }}">
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
-        <a href="{{ block.settings.url }}" class="hss-promo-item-wrapper">
+        <div class="hss-promo-item-wrapper">
           <div class="hss-promo-item">
             <div class="hss-promo-image">
-              <div class="hexagon">
-                {% if block.settings.image %}
-                  <div class="hexagon-img-wrapper">
-                    <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
-                  </div>
-                {% else %}
-                  <div class="hss-placeholder">+</div>
-                {% endif %}
-              </div>
+              <a href="{{ block.settings.url }}" class="hss-promo-item-link">
+                <div class="hexagon">
+                  {% if block.settings.image %}
+                    <div class="hexagon-img-wrapper">
+                      <img class="hexagon-img" src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+                    </div>
+                  {% else %}
+                    <div class="hss-placeholder">+</div>
+                  {% endif %}
+                </div>
+              </a>
             </div>
             <div class="hss-promo-title-wrapper">
               <span class="hss-promo-title">{{ block.settings.heading }}</span>
             </div>
           </div>
-        </a>
+        </div>
       {% endfor %}
     {% else %}
       <p class="hss-no-content">⚠️ Keine Kategorien hinzugefügt. Bitte im Shopify-Editor Blöcke hinzufügen.</p>
@@ -69,6 +71,7 @@
     text-decoration: none;
     display: block;
     flex: 0 0 auto;
+    position: relative;
   }
 
   .hss-promo-image {
@@ -78,6 +81,7 @@
     height: {{ section.settings.desktop_size }}px;
     width: {{ section.settings.desktop_size }}px;
     margin: 0 auto;
+    position: relative;
   }
 
   .hexagon {
@@ -89,6 +93,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    position: relative;
   }
 
   .hexagon-img-wrapper {
@@ -138,6 +143,16 @@
     font-size: 18px;
     color: red;
     font-weight: bold;
+  }
+
+  .hss-promo-item-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: block;
   }
 
   .slider-nav {
@@ -205,72 +220,6 @@
       "id": "background_color",
       "default": "#f2f2f2",
       "label": "Hintergrundfarbe"
-    },
-    {
-      "type": "color",
-      "id": "icon_background",
-      "default": "#ffffff",
-      "label": "Hintergrundfarbe der Hexagons"
-    },
-    {
-      "type": "color",
-      "id": "title_text_color",
-      "default": "#000000",
-      "label": "Farbe des Titeltextes"
-    },
-    {
-      "type": "range",
-      "id": "desktop_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 92,
-      "label": "Größe der Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_size",
-      "min": 50,
-      "max": 150,
-      "step": 1,
-      "default": 80,
-      "label": "Größe der Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "desktop_distance",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand zwischen Hexagons (Desktop, px)"
-    },
-    {
-      "type": "range",
-      "id": "mobile_distance",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "default": 10,
-      "label": "Abstand zwischen Hexagons (Mobile, px)"
-    },
-    {
-      "type": "range",
-      "id": "top_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand oben zu anderen Abschnitten"
-    },
-    {
-      "type": "range",
-      "id": "bottom_margin",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 20,
-      "label": "Abstand unten zu anderen Abschnitten"
     }
   ],
   "blocks": [
@@ -294,16 +243,6 @@
           "id": "url",
           "label": "Link"
         }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "HSS Hexagon Cards",
-      "blocks": [
-        { "type": "category" },
-        { "type": "category" },
-        { "type": "category" }
       ]
     }
   ]
