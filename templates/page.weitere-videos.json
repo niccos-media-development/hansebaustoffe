@@ -9,48 +9,6 @@
  */
 {
   "sections": {
-    "slideshow_Em6iQA": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_xHU7ng": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_HSS_DP_BD_AF_1920x350px.jpg",
-            "overlay_background": "",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#ffffff",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "slide_xHU7ng"
-      ],
-      "settings": {
-        "full_width": true,
-        "slide_height": "small",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "animation_type": "slide",
-        "accessibility_info": "",
-        "color_scheme": "background-1",
-        "spacing_top": 0,
-        "spacing_bottom": 0
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -426,7 +384,6 @@
     }
   },
   "order": [
-    "slideshow_Em6iQA",
     "main",
     "rich_text_B3TDfx",
     "media_with_text_wKpCVF",
