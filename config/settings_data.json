@@ -9,16 +9,16 @@
  */
 {
   "current": {
-    "colors_text": "#676767",
+    "colors_text": "#0a0a0a",
     "colors_text_alt": "#232323",
     "colors_lines": "#dadada",
     "colors_background_1": "#ffffff",
     "colors_background_2": "#000000",
     "colors_accent_1_text": "#ffffff",
     "colors_accent_1": "#ffaa32",
-    "colors_accent_2_text": "#333333",
+    "colors_accent_2_text": "#0a0a0a",
     "colors_accent_2": "#ffffff",
-    "colors_accent_3_text": "#000000",
+    "colors_accent_3_text": "#0a0a0a",
     "colors_accent_3": "#f3f3f3",
     "colors_primary_button_text": "#FFFFFF",
     "colors_primary_button_background": "#ffaa32",
