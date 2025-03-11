@@ -110,7 +110,7 @@
       "settings": {
         "background-color": "#333333",
         "desktop-size": 120,
-        "desktop-distance": 2,
+        "desktop-distance": 10,
         "mobile-size": 100,
         "mobile-distance": 10,
         "border-radius": 20,
