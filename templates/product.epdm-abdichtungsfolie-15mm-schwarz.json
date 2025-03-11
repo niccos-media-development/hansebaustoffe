@@ -365,6 +365,20 @@
     "product_lists_UkR9GE": {
       "type": "product-lists",
       "blocks": {
+        "product_list_ja6pWi": {
+          "type": "product_list",
+          "settings": {
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Klebstoffe.jpg",
+            "overlay_background": "",
+            "heading": "Flächenkleber",
+            "description": "",
+            "link": "",
+            "products": [
+              "baudicht-epdm-flachenkleber-bluetek",
+              "baudicht-epdm-flachenkleber-spraybond"
+            ]
+          }
+        },
         "product_list_BmVGhm": {
           "type": "product_list",
           "settings": {
@@ -377,20 +391,6 @@
               "epdm-aktivierung-epdm-aktivierung-im-set",
               "form-nahtabdeckband-zuschnitt-rollenware",
               "nahtband-schwarz-zuschnitt-rollenware"
-            ]
-          }
-        },
-        "product_list_ja6pWi": {
-          "type": "product_list",
-          "settings": {
-            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Klebstoffe.jpg",
-            "overlay_background": "",
-            "heading": "Flächenkleber",
-            "description": "",
-            "link": "",
-            "products": [
-              "baudicht-epdm-flachenkleber-bluetek",
-              "baudicht-epdm-flachenkleber-spraybond"
             ]
           }
         },
@@ -427,8 +427,8 @@
         }
       },
       "block_order": [
-        "product_list_BmVGhm",
         "product_list_ja6pWi",
+        "product_list_BmVGhm",
         "product_list_VTEcWE",
         "product_list_7U8bkq"
       ],
@@ -515,8 +515,8 @@
     "rich_text_DnRUzE",
     "image_banners_njVRJj",
     "product_lists_UkR9GE",
-    "recommendations",
     "1738918765e0980779",
+    "recommendations",
     "1734509477da49f758"
   ]
 }
