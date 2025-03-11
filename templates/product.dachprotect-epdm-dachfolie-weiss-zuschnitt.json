@@ -337,21 +337,6 @@
     "product_lists_zFNVaQ": {
       "type": "product-lists",
       "blocks": {
-        "product_list_8jMqfi": {
-          "type": "product_list",
-          "settings": {
-            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Nahtbaender_Formteile.jpg",
-            "overlay_background": "",
-            "heading": "Nahtprodukte",
-            "description": "",
-            "link": "",
-            "products": [
-              "epdm-aktivierung-epdm-aktivierung-im-set",
-              "form-nahtabdeckband-weiss-zuschnitt-rollenware",
-              "nahtband-weiss-zuschnitt-rollenware"
-            ]
-          }
-        },
         "product_list_Vzq4E4": {
           "type": "product_list",
           "settings": {
@@ -364,6 +349,37 @@
               "dachprotect-epdm-flachenkleber-bluetek",
               "dachprotect-epdm-kontaktkleber-spraybond",
               "epdm-flachenkleber-speedcat-600ml-schlauchbeutel"
+            ]
+          }
+        },
+        "product_list_fyJhiV": {
+          "type": "product_list",
+          "settings": {
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Garantie_Gullys.jpg",
+            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
+            "heading": "Garantie-Gullys",
+            "description": "",
+            "link": "",
+            "products": [
+              "epdm-garantie-gully-garantie-gully-sets",
+              "epdm-garantie-seitenablauf-garantie-seitenablauf-set",
+              "epdm-garantie-seitennotablauf-garantie-seitennotablauf-set",
+              "garantie-notuberlauf-garantie-notuberlauf-set"
+            ]
+          }
+        },
+        "product_list_8jMqfi": {
+          "type": "product_list",
+          "settings": {
+            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Nahtbaender_Formteile.jpg",
+            "overlay_background": "",
+            "heading": "Nahtprodukte",
+            "description": "",
+            "link": "",
+            "products": [
+              "epdm-aktivierung-epdm-aktivierung-im-set",
+              "form-nahtabdeckband-weiss-zuschnitt-rollenware",
+              "nahtband-weiss-zuschnitt-rollenware"
             ]
           }
         },
@@ -412,31 +428,15 @@
               "dachrandprofil-cube-anthrazit-ral-7016-1-meter"
             ]
           }
-        },
-        "product_list_fyJhiV": {
-          "type": "product_list",
-          "settings": {
-            "image": "shopify://shop_images/Kategoriebanner_1400x250px_Garantie_Gullys.jpg",
-            "overlay_background": "linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 100%)",
-            "heading": "Garantie-Gullys",
-            "description": "",
-            "link": "",
-            "products": [
-              "epdm-garantie-gully-garantie-gully-sets",
-              "epdm-garantie-seitenablauf-garantie-seitenablauf-set",
-              "epdm-garantie-seitennotablauf-garantie-seitennotablauf-set",
-              "garantie-notuberlauf-garantie-notuberlauf-set"
-            ]
-          }
         }
       },
       "block_order": [
-        "product_list_8jMqfi",
         "product_list_Vzq4E4",
+        "product_list_fyJhiV",
+        "product_list_8jMqfi",
         "product_list_Hdtjdj",
         "product_list_nYkjct",
-        "product_list_YpFj9e",
-        "product_list_fyJhiV"
+        "product_list_YpFj9e"
       ],
       "custom_css": [
         ".card-badge.top.left {display: none !important;}"
