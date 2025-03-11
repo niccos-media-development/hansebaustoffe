@@ -109,13 +109,13 @@
           "settings": {
             "show_quantity": true,
             "show_add_to_cart": true,
-            "show_buy_now": false,
+            "show_buy_now": true,
             "show_gift_card_recipient": false,
             "cart_image": "shopify://shop_images/Icon.png",
             "add_to_cart_text": "In den Warenkorb",
-            "pre_order_text": "Pre-order",
-            "backorder_text": "Backorder",
-            "sold_out_text": "Sold out"
+            "pre_order_text": "Vorbestellen",
+            "backorder_text": "Rückstand",
+            "sold_out_text": "Ausverkauft"
           }
         },
         "custom_liquid_ct67fJ": {
