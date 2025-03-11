@@ -113,8 +113,10 @@
         "desktop-distance": 2,
         "mobile-size": 100,
         "mobile-distance": 10,
+        "border-radius": 20,
+        "mobile-border-radius": 10,
         "schriftfarbe": "#ffffff",
-        "highlight-color": "#ffffff"
+        "highlight-color": "rgba(0,0,0,0)"
       }
     },
     "niccos_promotional_cards_WnDXcV": {
