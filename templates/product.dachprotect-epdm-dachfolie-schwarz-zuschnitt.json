@@ -133,7 +133,7 @@
           "settings": {
             "title": "",
             "icon": "",
-            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0614/3967/2470/files/PaymentIconspayment3_Stk._blau_hinterlegt.avif?v=1718173240\" class=\"lb-payment-icons\">‍\n\n<style>\n.lb-payment-icons {\n    margin: 0px 0px 0px 0px!important; /* Abstand bleibt unverändert */\n    display: block!important;\n    width: auto!important;\n    max-width: 200px; /* Passe die Größe nach Bedarf an */\n    image-rendering: crisp-edges;\n    image-rendering: -webkit-optimize-contrast;\n}\n</style>",
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0614/3967/2470/files/PaymentIconspayment3_Stk._blau_hinterlegt.avif?v=1718173240\" class=\"lb-payment-icons\">\n\n<style>\n.lb-payment-icons {\n    margin: 0px!important; /* Keine unnötigen Abstände */\n    display: block!important;\n    width: 80%!important; /* Skaliert das Bild auf 80% des Containers */\n    max-width: 400px; /* Maximale Größe für bessere Qualität */\n    height: auto!important; /* Seitenverhältnis beibehalten */\n    image-rendering: crisp-edges;\n    image-rendering: -webkit-optimize-contrast;\n}\n</style>",
             "position": "right",
             "expanded": false
           }
