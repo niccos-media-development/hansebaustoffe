@@ -140,6 +140,7 @@
         },
         "payment_image_D6FURY": {
           "type": "payment_image",
+          "disabled": true,
           "settings": {
             "payment_image": "shopify://shop_images/Frame_15_1_aa2a8bc9-ec91-4e41-b9b7-7b7b317a626e.svg",
             "image_size": "large"
