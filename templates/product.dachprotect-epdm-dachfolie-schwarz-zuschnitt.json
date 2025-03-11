@@ -687,7 +687,7 @@
         "show": true,
         "title": "Kunden interessiert auch",
         "count": "4",
-        "show_vendor": true,
+        "show_vendor": false,
         "show_stock": true,
         "show_rating": true,
         "color_scheme": "background-1",
