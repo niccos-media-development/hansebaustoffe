@@ -128,6 +128,16 @@
             "sold_out_text": "Ausverkauft"
           }
         },
+        "custom_liquid_wbYAGB": {
+          "type": "custom_liquid",
+          "settings": {
+            "title": "",
+            "icon": "",
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0614/3967/2470/files/PaymentIconspayment3_Stk._blau_hinterlegt.avif?v=1718173240\" class=\"lb-payment-icons\">‍\n<style>\n.lb-payment-icons {\nmargin: 0px 0px 0px 0px!important; /* Änderung Oben, Rechts, Unten, Links */\ndisplay: block!important;\nwidth: 100%!important;\n}\n</style>",
+            "position": "right",
+            "expanded": false
+          }
+        },
         "payment_image_D6FURY": {
           "type": "payment_image",
           "settings": {
@@ -217,6 +227,7 @@
         "variants",
         "custom_liquid_ct67fJ",
         "buy_buttons",
+        "custom_liquid_wbYAGB",
         "payment_image_D6FURY",
         "availability",
         "extra_93b64f",
