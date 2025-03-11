@@ -36,7 +36,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/200-WB1-020_BlueTek_Gruppe_Produktbild_1000x1000px_1.jpg",
-            "heading": "Kleb- & Dichtstoffe",
+            "heading": "Kleb- & <br>Dichtstoffe",
             "url": "shopify://collections/kleb-dichtstoffe",
             "highlight": false
           }
@@ -45,7 +45,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/300-PRI-12S_HSS_Aktivierung_Gruppe_1000x1000px_1.jpg",
-            "heading": "EPDM Zubehör",
+            "heading": "EPDM<br> Zubehör",
             "url": "shopify://collections/epdm-zubehor",
             "highlight": false
           }
@@ -54,7 +54,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/400-200-XXX_Garantie-Gullys_SET_1000x1000px_1.jpg",
-            "heading": "Garantie-Gullys",
+            "heading": "Garantie-<br>Gullys",
             "url": "shopify://collections/garantie-gullys",
             "highlight": false
           }
@@ -63,7 +63,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/400-ADW-110_Wohnraum_Strangentluefter_DN110-125_doppelwandig_Produktbild_1000x1000px_2.jpg",
-            "heading": "Be- & Entlüftung",
+            "heading": "Be- & <br>Entlüftung",
             "url": "shopify://collections/be-entluftung",
             "highlight": false
           }
@@ -72,7 +72,7 @@
           "type": "category",
           "settings": {
             "image": "shopify://shop_images/400-AKD-060_Kabeldurchfuehrung_Produktbild_1000x1000px_1.jpg",
-            "heading": "Kabeldurchführung",
+            "heading": "Kabel-<br>durchführung",
             "url": "shopify://collections/kabeldurchfuhrungen",
             "highlight": false
           }
