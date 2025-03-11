@@ -691,8 +691,8 @@
         "show_stock": true,
         "show_rating": true,
         "color_scheme": "background-1",
-        "spacing_top": 60,
-        "spacing_bottom": 60
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     },
     "1734509477da49f758": {
