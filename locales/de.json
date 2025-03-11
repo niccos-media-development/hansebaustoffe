@@ -514,6 +514,11 @@
       },
       "shipping": {
         "shipping_method_title": "Bitte wählen Sie die Versandart aus (DHL/Spedition oder Werksabholung)"
+      },
+      "payment": {
+        "purchase_order_number": {
+          "label": "Kommission/Bestellnummer"
+        }
       }
     },
     "filters": {
