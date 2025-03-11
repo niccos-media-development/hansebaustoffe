@@ -313,10 +313,42 @@
     "image_banners_GjHqUN": {
       "type": "image-banners",
       "blocks": {
+        "image_banner_pMFM7M": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_25.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
         "image_banner_KMWRzm": {
           "type": "image_banner",
           "settings": {
             "image": "shopify://shop_images/DJI_0019_17.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_JgVNHH": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_17_fa043894-1f0d-4108-94b1-1c68531ec33c.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_DLfWyp": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Thomas_1_106e8ab5-11ae-4e5e-b331-2db8cdfd0cf4.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_cQcx46": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_61_aaf4a124-19e5-49cf-a110-bc125eca7022.jpg",
             "description": "",
             "link": ""
           }
@@ -329,22 +361,6 @@
             "link": ""
           }
         },
-        "image_banner_DLfWyp": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/IMG_1442_9c5d0df4-b337-48ac-a07f-b96c2c9173d4.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_JgVNHH": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/12.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
         "image_banner_VF8d3m": {
           "type": "image_banner",
           "settings": {
@@ -352,14 +368,25 @@
             "description": "",
             "link": ""
           }
+        },
+        "image_banner_THAqT7": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_2.jpg",
+            "description": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
+        "image_banner_pMFM7M",
         "image_banner_KMWRzm",
-        "image_banner_pUAFVx",
-        "image_banner_DLfWyp",
         "image_banner_JgVNHH",
-        "image_banner_VF8d3m"
+        "image_banner_DLfWyp",
+        "image_banner_cQcx46",
+        "image_banner_pUAFVx",
+        "image_banner_VF8d3m",
+        "image_banner_THAqT7"
       ],
       "custom_css": [
         "@media screen and (min-width: 769px) {.block-section {display: block !important; }}",
