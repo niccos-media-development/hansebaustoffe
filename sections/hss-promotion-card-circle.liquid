@@ -55,7 +55,7 @@
   .lb-swiper-box {
     width: 120px; /* Breite der Box */
     height: 120px; /* Höhe der Box */
-    border-radius: 0px; /* Keine Abrundung -> Rechteck */
+    border-radius: {{ section.settings.border-radius }}px; /* Dynamische Rundung */
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -99,6 +99,7 @@
     .lb-swiper-box {
       width: 90px;
       height: 90px;
+      border-radius: {{ section.settings.mobile-border-radius }}px; /* Mobile Rundung */
     }
 
     .lb-swiper-title {
@@ -170,6 +171,30 @@
       "label": {
         "en": "Mobile Abstand in px",
         "de": "Mobile Abstand in px"
+      }
+    },
+    {
+      "type": "range",
+      "id": "border-radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 10,
+      "label": {
+        "en": "Border Radius",
+        "de": "Eckenradius"
+      }
+    },
+    {
+      "type": "range",
+      "id": "mobile-border-radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 10,
+      "label": {
+        "en": "Mobile Border Radius",
+        "de": "Mobile Eckenradius"
       }
     },
     {
