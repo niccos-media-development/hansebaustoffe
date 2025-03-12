@@ -9,11 +9,34 @@
  */
 {
   "sections": {
+    "rich_text_jA94tJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_K67mcH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Was ist EPDM?",
+            "heading_size": "xxl"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K67mcH"
+      ],
+      "settings": {
+        "narrow": true,
+        "overlay_background": "",
+        "alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
     "main": {
       "type": "main-page",
       "custom_css": [],
       "settings": {
-        "hide_heading": false
+        "hide_heading": true
       }
     },
     "image_banners_VaU7Dq": {
@@ -130,6 +153,7 @@
     }
   },
   "order": [
+    "rich_text_jA94tJ",
     "main",
     "image_banners_VaU7Dq",
     "17417803241f16be00",
