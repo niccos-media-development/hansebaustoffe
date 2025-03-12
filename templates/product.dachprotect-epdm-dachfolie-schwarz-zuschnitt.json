@@ -587,143 +587,132 @@
         "spacing_bottom": 20
       }
     },
-    "slideshow_teDMAe": {
-      "type": "slideshow",
+    "image_banners_JKTUbG": {
+      "type": "image-banners",
       "blocks": {
-        "slide_dRR7JY": {
-          "type": "slide",
+        "image_banner_74bjjH": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_25.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_LBipfB": {
+          "type": "image_banner",
           "settings": {
             "image": "shopify://shop_images/DJI_0019_17.jpg",
-            "overlay_background": "",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#ffffff",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
+            "description": "",
+            "link": ""
           }
         },
-        "slide_6ARUgp": {
-          "type": "slide",
+        "image_banner_pDgVwY": {
+          "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/IMG_1469.jpg",
-            "overlay_background": "",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#ffffff",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_17_fa043894-1f0d-4108-94b1-1c68531ec33c.jpg",
+            "description": "",
+            "link": ""
           }
         },
-        "slide_Yzi7T4": {
-          "type": "slide",
+        "image_banner_wj4TMh": {
+          "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/12.jpg",
-            "overlay_background": "",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#ffffff",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
+            "image": "shopify://shop_images/Thomas_1_106e8ab5-11ae-4e5e-b331-2db8cdfd0cf4.jpg",
+            "description": "",
+            "link": ""
           }
         },
-        "slide_DnFwXf": {
-          "type": "slide",
+        "image_banner_n9UmHD": {
+          "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/IMG_1442.jpg",
-            "overlay_background": "",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#000000",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_61_aaf4a124-19e5-49cf-a110-bc125eca7022.jpg",
+            "description": "",
+            "link": ""
           }
         },
-        "slide_J7DEcE": {
-          "type": "slide",
+        "image_banner_bmXgm6": {
+          "type": "image_banner",
           "settings": {
-            "image": "shopify://shop_images/Wolde_4_5dfd8606-d952-4b03-bd94-7070df736c29.jpg",
-            "overlay_background": "",
-            "heading": "",
-            "heading_size": "md",
-            "subheading": "",
-            "text_color": "#ffffff",
-            "box_align": "bottom-left",
-            "content_width": 60,
-            "button_label": "",
-            "button_type_link": false,
-            "button_color_scheme": "button-primary",
-            "link": "",
-            "secondary_button_label": "",
-            "secondary_button_type_link": false,
-            "secondary_button_color_scheme": "button-secondary",
-            "secondary_link": "",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_48.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_J88QLm": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Wolde_4.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_qGecaK": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_2.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_TXg7AB": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Image_2.webp",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_fMLFAH": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/20220505_191659.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_efDaqM": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_6_Marktplatz.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_KwHXL4": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_16.jpg",
+            "description": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "slide_dRR7JY",
-        "slide_6ARUgp",
-        "slide_Yzi7T4",
-        "slide_DnFwXf",
-        "slide_J7DEcE"
+        "image_banner_74bjjH",
+        "image_banner_LBipfB",
+        "image_banner_pDgVwY",
+        "image_banner_wj4TMh",
+        "image_banner_n9UmHD",
+        "image_banner_bmXgm6",
+        "image_banner_J88QLm",
+        "image_banner_qGecaK",
+        "image_banner_TXg7AB",
+        "image_banner_fMLFAH",
+        "image_banner_efDaqM",
+        "image_banner_KwHXL4"
       ],
       "custom_css": [
         "@media screen and (max-width: 768px) {.block-section {display: block !important; }}",
         "@media screen and (min-width: 769px) {.block-section {display: none !important; }}"
       ],
       "settings": {
-        "full_width": true,
-        "slide_height": "adapt_image",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "animation_type": "fade",
-        "accessibility_info": "Bilder von Kundenprojekte",
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "layout": "slider",
+        "columns": 2,
+        "stack_on_mobile": false,
         "color_scheme": "accent-3",
         "spacing_top": 20,
         "spacing_bottom": 20
@@ -799,7 +788,7 @@
     "image_banners_GjHqUN",
     "product_lists_D7wK8m",
     "rich_text_9YFT4E",
-    "slideshow_teDMAe",
+    "image_banners_JKTUbG",
     "1738918765e0980779",
     "recommendations",
     "1734509477da49f758"
