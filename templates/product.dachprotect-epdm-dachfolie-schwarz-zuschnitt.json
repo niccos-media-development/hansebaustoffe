@@ -586,10 +586,10 @@
     "slideshow_teDMAe": {
       "type": "slideshow",
       "blocks": {
-        "slide_J7DEcE": {
+        "slide_6ARUgp": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Image_2_cdfebbfc-3342-4bf2-b243-fb35bae598ac.webp",
+            "image": "shopify://shop_images/DJI_0019_17.jpg",
             "overlay_background": "",
             "heading": "",
             "heading_size": "md",
@@ -628,15 +628,14 @@
             "secondary_button_type_link": false,
             "secondary_button_color_scheme": "button-secondary",
             "secondary_link": "",
-            "mobile_image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_25.jpg",
             "mobile_heading_size": "md",
             "mobile_box_align": "bottom-left"
           }
         },
-        "slide_6ARUgp": {
+        "slide_J7DEcE": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/DJI_0019_17.jpg",
+            "image": "shopify://shop_images/Image_2_cdfebbfc-3342-4bf2-b243-fb35bae598ac.webp",
             "overlay_background": "",
             "heading": "",
             "heading_size": "md",
@@ -704,9 +703,9 @@
         }
       },
       "block_order": [
-        "slide_J7DEcE",
-        "slide_dRR7JY",
         "slide_6ARUgp",
+        "slide_dRR7JY",
+        "slide_J7DEcE",
         "slide_Yzi7T4",
         "slide_DnFwXf"
       ],
