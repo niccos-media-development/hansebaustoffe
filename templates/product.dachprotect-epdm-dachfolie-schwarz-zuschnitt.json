@@ -360,54 +360,6 @@
             "description": "",
             "link": ""
           }
-        },
-        "image_banner_VF8d3m": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/Wolde_4.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_THAqT7": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_2.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_QiEkQb": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/Image_2.webp",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_RcCTbj": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/20220505_191659.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_JAHHcA": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_6_Marktplatz.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_KCCTYQ": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_16.jpg",
-            "description": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -416,13 +368,7 @@
         "image_banner_JgVNHH",
         "image_banner_DLfWyp",
         "image_banner_cQcx46",
-        "image_banner_pUAFVx",
-        "image_banner_VF8d3m",
-        "image_banner_THAqT7",
-        "image_banner_QiEkQb",
-        "image_banner_RcCTbj",
-        "image_banner_JAHHcA",
-        "image_banner_KCCTYQ"
+        "image_banner_pUAFVx"
       ],
       "custom_css": [
         "@media screen and (min-width: 769px) {.block-section {display: block !important; }}",
