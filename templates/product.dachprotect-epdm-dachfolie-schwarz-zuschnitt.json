@@ -709,7 +709,10 @@
         "slide_Yzi7T4",
         "slide_J7DEcE"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (min-width: 769px) {.block-section {display: none !important; }}",
+        "@media screen and (max-width: 768px) {.block-section {display: block !important; }}"
+      ],
       "settings": {
         "full_width": true,
         "slide_height": "three-quarters",
