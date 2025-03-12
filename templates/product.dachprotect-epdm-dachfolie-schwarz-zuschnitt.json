@@ -434,7 +434,7 @@
         "link_title": "",
         "link_url": "",
         "layout": "slider",
-        "columns": 2,
+        "columns": 3,
         "stack_on_mobile": false,
         "color_scheme": "accent-3",
         "spacing_top": 20,
@@ -709,12 +709,9 @@
         "slide_Yzi7T4",
         "slide_J7DEcE"
       ],
-      "custom_css": [
-        "@media screen and (min-width: 769px) {.block-section {display: none !important; }}",
-        "@media screen and (max-width: 768px) {.block-section {display: block !important; }}"
-      ],
+      "custom_css": [],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "slide_height": "three-quarters",
         "auto_rotate": true,
         "change_slides_speed": 5,
