@@ -560,33 +560,6 @@
         "spacing_bottom": 20
       }
     },
-    "rich_text_9YFT4E": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_pmaiiR": {
-          "type": "heading",
-          "settings": {
-            "heading": "Kundenprojekte",
-            "heading_size": "md"
-          }
-        }
-      },
-      "block_order": [
-        "heading_pmaiiR"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 768px) {.block-section {display: block !important; }}",
-        "@media screen and (min-width: 769px) {.block-section {display: none !important; }}"
-      ],
-      "settings": {
-        "narrow": true,
-        "overlay_background": "",
-        "alignment": "center",
-        "color_scheme": "accent-3",
-        "spacing_top": 20,
-        "spacing_bottom": 20
-      }
-    },
     "rich_text_Lqai7f": {
       "type": "rich-text",
       "blocks": {
@@ -610,144 +583,13 @@
         "spacing_bottom": 20
       }
     },
-    "image_banners_NqHKUW": {
-      "type": "image-banners",
-      "blocks": {
-        "image_banner_8EtEaU": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_25.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_CbqYP8": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/DJI_0019_17.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_N7xWQW": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_17_fa043894-1f0d-4108-94b1-1c68531ec33c.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_JyjYGt": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/Thomas_1_106e8ab5-11ae-4e5e-b331-2db8cdfd0cf4.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_TTBcCX": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_61_aaf4a124-19e5-49cf-a110-bc125eca7022.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_iPCdrG": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_48.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_eqp6Rb": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/Wolde_4.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_TCn7rV": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_2.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_fcWChT": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/Image_2.webp",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_gE7gMm": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/20220505_191659.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_FiTYhc": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/EPDM_Dachfolie_Schwarz_Artikelbild_6_Marktplatz.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
-        "image_banner_4PKeLV": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_16.jpg",
-            "description": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_banner_8EtEaU",
-        "image_banner_CbqYP8",
-        "image_banner_N7xWQW",
-        "image_banner_JyjYGt",
-        "image_banner_TTBcCX",
-        "image_banner_iPCdrG",
-        "image_banner_eqp6Rb",
-        "image_banner_TCn7rV",
-        "image_banner_fcWChT",
-        "image_banner_gE7gMm",
-        "image_banner_FiTYhc",
-        "image_banner_4PKeLV"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 768px) {.block-section {display: block !important; }}",
-        "@media screen and (min-width: 769px) {.block-section {display: none !important; }}"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "link_title": "",
-        "link_url": "",
-        "layout": "slider",
-        "columns": 2,
-        "stack_on_mobile": false,
-        "color_scheme": "accent-3",
-        "spacing_top": 20,
-        "spacing_bottom": 20
-      }
-    },
     "slideshow_teDMAe": {
       "type": "slideshow",
       "blocks": {
         "slide_dRR7JY": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/DJI_0019_17.jpg",
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_25.jpg",
             "overlay_background": "",
             "heading": "",
             "heading_size": "md",
@@ -770,7 +612,7 @@
         "slide_6ARUgp": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/IMG_1469.jpg",
+            "image": "shopify://shop_images/DJI_0019_17.jpg",
             "overlay_background": "",
             "heading": "",
             "heading_size": "md",
@@ -793,7 +635,7 @@
         "slide_Yzi7T4": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/12.jpg",
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_17_fa043894-1f0d-4108-94b1-1c68531ec33c.jpg",
             "overlay_background": "",
             "heading": "",
             "heading_size": "md",
@@ -816,7 +658,7 @@
         "slide_DnFwXf": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/IMG_1442.jpg",
+            "image": "shopify://shop_images/Thomas_1_106e8ab5-11ae-4e5e-b331-2db8cdfd0cf4.jpg",
             "overlay_background": "",
             "heading": "",
             "heading_size": "md",
@@ -839,7 +681,7 @@
         "slide_J7DEcE": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Wolde_4_5dfd8606-d952-4b03-bd94-7070df736c29.jpg",
+            "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_61_aaf4a124-19e5-49cf-a110-bc125eca7022.jpg",
             "overlay_background": "",
             "heading": "",
             "heading_size": "md",
@@ -948,8 +790,6 @@
     "rich_text_fR6cKA",
     "image_banners_GjHqUN",
     "product_lists_D7wK8m",
-    "rich_text_9YFT4E",
-    "image_banners_NqHKUW",
     "rich_text_Lqai7f",
     "slideshow_teDMAe",
     "1738918765e0980779",
