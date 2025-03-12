@@ -130,50 +130,6 @@
         "mobile_spacing_bottom": 40
       }
     },
-    "media_with_text_zYgdEt": {
-      "type": "media-with-text",
-      "blocks": {
-        "heading_t9wnyw": {
-          "type": "heading",
-          "settings": {
-            "heading": "Mitarbeiter für Beratungshotline & Vertrieb (m/w/d)",
-            "heading_font_size": "--font-h2-size",
-            "heading_font_size_mobile": "--font-h3-size"
-          }
-        },
-        "text_xmq3ky": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Vollzeit / ab 15.02.2025 / unbefristet / Bad Oldesloe</strong></p><p><a href=\"https://www.arbeitsagentur.de/jobsuche/suche?kundennummer=cJlHUMsoVwMHMCiIibSK5Vh6DLtCy2JFOogdQB86ICg%3D__del__Hanse%20Baustoffe%20Handelsges.%20mbH%20%26%20Co.%20KG&angebotsart=1&id=10001-1001059521-S\" target=\"_blank\" title=\"https://www.arbeitsagentur.de/jobsuche/suche?kundennummer=cJlHUMsoVwMHMCiIibSK5Vh6DLtCy2JFOogdQB86ICg%3D__del__Hanse%20Baustoffe%20Handelsges.%20mbH%20%26%20Co.%20KG&angebotsart=1&id=10001-1001059521-S\"><strong>Zur Stellenbeschreibung</strong></a></p>",
-            "text_font_size": "--font-body-scale",
-            "text_font_size_mobile": "--font-body-scale"
-          }
-        }
-      },
-      "block_order": [
-        "heading_t9wnyw",
-        "text_xmq3ky"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Stellenanzeigen_Beratung_800x800_16ef0776-eac8-4e83-aec6-908e3f4dda60.jpg",
-        "video_url": "",
-        "layout": "media_first",
-        "desktop_content_alignment": "left",
-        "spacing_top": 20,
-        "spacing_bottom": 20,
-        "blocks_gap": 32,
-        "content_padding": 0,
-        "text_background": "rgba(0,0,0,0)",
-        "vertical_alignment": "center",
-        "heading_font_size": "--font-h2-size",
-        "heading_font_size_mobile": "--font-h3-size",
-        "content_font_size": "--font-body2-size",
-        "content_font_size_mobile": "--font-body1-size",
-        "section_background": "#ffffff",
-        "mobile_spacing_top": 40,
-        "mobile_spacing_bottom": 40
-      }
-    },
     "rich_text_mAEPHB": {
       "type": "rich-text",
       "blocks": {
@@ -295,7 +251,6 @@
     "rich_text_KxHh89",
     "media_with_text_b6wEaX",
     "media_with_text_t4a3Rd",
-    "media_with_text_zYgdEt",
     "rich_text_mAEPHB",
     "slideshow_P8knDA",
     "rich_text_d9eff3"
