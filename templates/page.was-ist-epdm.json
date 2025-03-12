@@ -16,6 +16,112 @@
         "hide_heading": false
       }
     },
+    "image_banners_VaU7Dq": {
+      "type": "image-banners",
+      "blocks": {
+        "image_banner_fg36Ka": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_013_1300x1000_23_1_f3320ffd-dd95-4883-98df-395536e3d443.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_xi3cRp": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_014_1300x1000_23_1_69a3a1dd-8365-4738-8659-38f505d47a48.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_UqXKG9": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_015_1300x1000_23_1_88f9fa23-cab8-44df-aa9d-8f89a1a6a98e.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_VKERbh": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_027_1300x1000_23_1_bf4ceef9-59e8-4596-9b31-0e29abf45561.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_JGx7Pa": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_008_1300x1000_23_1_721d8f6b-ee8d-42ec-80b6-5fae1eab3619.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_ECwdGQ": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_006_1300x1000_23_1_dc7c2f6e-5a71-4629-be32-fc3a78ff7cb2.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_rLkM9U": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_005_1300x1000_23_1_944360a7-0df4-4772-9245-d4857eac680b.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_c4iJfz": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_004_1300x1000_23_1_4b0a3938-67e0-4ce6-9860-715373c6d7fe.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_eGEtKR": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_003_1300x1000_23_1_147fc4e4-e6c9-4217-8c3b-c402cf203a76.jpg",
+            "description": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_banner_fg36Ka",
+        "image_banner_xi3cRp",
+        "image_banner_UqXKG9",
+        "image_banner_VKERbh",
+        "image_banner_JGx7Pa",
+        "image_banner_ECwdGQ",
+        "image_banner_rLkM9U",
+        "image_banner_c4iJfz",
+        "image_banner_eGEtKR"
+      ],
+      "settings": {
+        "heading": "Unsere zufriedenen Kunden",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "layout": "slider",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
+    "17417803241f16be00": {
+      "type": "apps",
+      "settings": {
+        "full_width": false
+      }
+    },
     "173945177119dc2136": {
       "type": "apps",
       "settings": {
@@ -25,6 +131,8 @@
   },
   "order": [
     "main",
+    "image_banners_VaU7Dq",
+    "17417803241f16be00",
     "173945177119dc2136"
   ]
 }
