@@ -712,7 +712,7 @@
       "custom_css": [],
       "settings": {
         "full_width": true,
-        "slide_height": "large",
+        "slide_height": "full",
         "auto_rotate": true,
         "change_slides_speed": 5,
         "animation_type": "fade",
