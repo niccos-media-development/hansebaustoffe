@@ -517,8 +517,7 @@
       },
       "payment": {
         "purchase_order_number": {
-          "label": "Kommission/Bestellnummer",
-          "title": "Kommission/Bestellnummer"
+          "label": "Kommission/Bestellnummer"
         }
       }
     },
