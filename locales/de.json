@@ -528,5 +528,12 @@
         }
       }
     }
+  },
+  "customer_accounts": {
+    "B2B": {
+      "purchase_order_number": {
+        "modal_po_number_input_label": "Bestellnummer/Kommission"
+      }
+    }
   }
 }
