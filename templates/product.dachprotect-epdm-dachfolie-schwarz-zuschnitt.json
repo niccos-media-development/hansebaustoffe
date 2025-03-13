@@ -604,7 +604,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 769px) {.block-section {display: none !important; }}",
-        "@media screen and (max-width: 768px) {.block-section {display: block !important; }"
+        "@media screen and (max-width: 768px) {.block-section {display: block !important; }}",
+        ".slides {display: flex; width: 400%; animation: slide 12s infinite; }"
       ],
       "settings": {
         "heading": "",
