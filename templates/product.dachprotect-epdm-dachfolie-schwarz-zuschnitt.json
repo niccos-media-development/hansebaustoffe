@@ -533,18 +533,10 @@
             "heading": "Kundenprojekte",
             "heading_size": "md"
           }
-        },
-        "text_HgnebB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>(Nach links Swipen)</p>",
-            "text_size": "md"
-          }
         }
       },
       "block_order": [
-        "heading_fyJHnA",
-        "text_HgnebB"
+        "heading_fyJHnA"
       ],
       "custom_css": [
         "@media screen and (min-width: 769px) {.block-section {display: none !important; }}",
