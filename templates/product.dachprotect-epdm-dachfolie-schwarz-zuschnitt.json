@@ -693,6 +693,74 @@
         "spacing_bottom": 20
       }
     },
+    "image_banners_J8h8Fk": {
+      "type": "image-banners",
+      "blocks": {
+        "image_banner_Wpfyme": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_12.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_Wz7bQh": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_9.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_pBkTWf": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_10.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_GrftrH": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_13.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_dVb8wL": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_11.jpg",
+            "description": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_banner_Wpfyme",
+        "image_banner_Wz7bQh",
+        "image_banner_pBkTWf",
+        "image_banner_GrftrH",
+        "image_banner_dVb8wL"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 769px) {.block-section {display: none !important; }}",
+        "@media screen and (max-width: 768px) {.block-section {display: block !important; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "link_title": "",
+        "link_url": "",
+        "layout": "grid",
+        "columns": 3,
+        "stack_on_mobile": false,
+        "color_scheme": "background-1",
+        "spacing_top": 60,
+        "spacing_bottom": 60
+      }
+    },
     "1738918765e0980779": {
       "type": "apps",
       "blocks": {
@@ -764,6 +832,7 @@
     "product_lists_D7wK8m",
     "rich_text_Lqai7f",
     "slideshow_teDMAe",
+    "image_banners_J8h8Fk",
     "1738918765e0980779",
     "recommendations",
     "1734509477da49f758"
