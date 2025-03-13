@@ -313,6 +313,30 @@
     "image_banners_GjHqUN": {
       "type": "image-banners",
       "blocks": {
+        "image_banner_XEghVA": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_12.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_yhDTbY": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_13.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
+        "image_banner_w6wDKA": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_10.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
         "image_banner_KMWRzm": {
           "type": "image_banner",
           "settings": {
@@ -329,6 +353,14 @@
             "link": ""
           }
         },
+        "image_banner_nizXrn": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_11.jpg",
+            "description": "",
+            "link": ""
+          }
+        },
         "image_banner_cQcx46": {
           "type": "image_banner",
           "settings": {
@@ -336,12 +368,25 @@
             "description": "",
             "link": ""
           }
+        },
+        "image_banner_eQnT89": {
+          "type": "image_banner",
+          "settings": {
+            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_9.jpg",
+            "description": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
+        "image_banner_XEghVA",
+        "image_banner_yhDTbY",
+        "image_banner_w6wDKA",
         "image_banner_KMWRzm",
         "image_banner_JgVNHH",
-        "image_banner_cQcx46"
+        "image_banner_nizXrn",
+        "image_banner_cQcx46",
+        "image_banner_eQnT89"
       ],
       "custom_css": [
         "@media screen and (min-width: 769px) {.block-section {display: block !important; }}",
