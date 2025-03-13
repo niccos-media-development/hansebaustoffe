@@ -398,7 +398,7 @@
         "link_title": "",
         "link_url": "",
         "layout": "slider",
-        "columns": 2,
+        "columns": 1,
         "stack_on_mobile": false,
         "color_scheme": "accent-3",
         "spacing_top": 20,
