@@ -376,7 +376,7 @@
         "heading": "Dachdurchführung",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -417,7 +417,7 @@
         "heading": "Dachrandprofile",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -468,7 +468,7 @@
         "heading": "Sonstige Produktdatenblätter",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -519,7 +519,7 @@
         "heading": "Sonstiges",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
