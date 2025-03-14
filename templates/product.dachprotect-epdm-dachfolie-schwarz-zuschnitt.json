@@ -121,6 +121,7 @@
             "show_add_to_cart": true,
             "show_buy_now": false,
             "show_gift_card_recipient": false,
+            "cart_image": "shopify://shop_images/Icon.png",
             "add_to_cart_text": "In den Warenkorb",
             "pre_order_text": "Vorbestellen",
             "backorder_text": "Rückstand",
