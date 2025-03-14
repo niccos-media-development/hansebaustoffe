@@ -746,7 +746,7 @@
             "secondary_button_color_scheme": "button-secondary",
             "secondary_link": "",
             "mobile_heading_size": "md",
-            "mobile_box_align": "top-center"
+            "mobile_box_align": "middle-center"
           }
         }
       },
