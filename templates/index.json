@@ -735,7 +735,7 @@
             "heading_size": "md",
             "subheading": "",
             "text_color": "#ffffff",
-            "box_align": "top-left",
+            "box_align": "middle-center",
             "content_width": 80,
             "button_label": "Zu den EPDM Folien",
             "button_type_link": false,
