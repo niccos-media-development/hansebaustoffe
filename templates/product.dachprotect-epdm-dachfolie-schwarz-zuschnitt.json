@@ -353,14 +353,6 @@
             "link": ""
           }
         },
-        "image_banner_nizXrn": {
-          "type": "image_banner",
-          "settings": {
-            "image": "shopify://shop_images/Referenzen_EPDM_Dachfolie_1920x1000_11.jpg",
-            "description": "",
-            "link": ""
-          }
-        },
         "image_banner_cQcx46": {
           "type": "image_banner",
           "settings": {
@@ -384,7 +376,6 @@
         "image_banner_w6wDKA",
         "image_banner_KMWRzm",
         "image_banner_JgVNHH",
-        "image_banner_nizXrn",
         "image_banner_cQcx46",
         "image_banner_eQnT89"
       ],
