@@ -796,6 +796,16 @@
         "spacing_bottom": 20
       }
     },
+    "custom_liquid_wLTXYg": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "Your title",
+        "subtitle": "",
+        "full_width": false,
+        "liquid": "<h2>Premium EPDM Folie als Dachabdichtung</h2>\n<p>Unsere <strong>DACHPROTECT EPDM Dachfolie</strong> steht für <strong>höchste Qualität</strong>, außergewöhnliche Langlebigkeit und zufriedene Kunden. Sowohl professionelle Verarbeiter als auch Endkunden schätzen seit Jahren die <strong>einfache Handhabung</strong> und die <strong>zuverlässige Performance</strong> unseres Produktes. Dank ihrer <strong>hervorragenden Materialeigenschaften</strong> lässt sich unsere EPDM Dachfolie mühelos verarbeiten und bietet eine <strong>dauerhafte Abdichtungslösung</strong> für Carports, Garagen, Gartenhäuser, Lagerhallen u.v.m. Mit einer <strong>Lebensdauer von über 50 Jahren</strong> und einer <strong>20-jährigen Materialgarantie</strong> erhalten Sie bei uns ein Produkt, auf das Sie langfristig vertrauen können und das für den Anwendungsbereich auch über <strong>alle notwendigen Zulassungen</strong> verfügt.</p>",
+        "color_scheme": "background-1"
+      }
+    },
     "slideshow_9twV8e": {
       "type": "slideshow",
       "blocks": {
@@ -1214,6 +1224,7 @@
     "media_with_text_aM36B3",
     "slideshow_UD8Rfe",
     "rich_text_9jrzTb",
+    "custom_liquid_wLTXYg",
     "slideshow_9twV8e",
     "slideshow_FjBR4m",
     "niccos_testimonials_F3WRTd",
