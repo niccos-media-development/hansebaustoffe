@@ -30,14 +30,10 @@
             "show_sku": true,
             "show_barcode": false,
             "barcode_label": "Barcode",
-            "show_rating": false,
+            "show_rating": true,
             "hide_empty_star_rating": false,
             "show_custom_badges": false
           }
-        },
-        "judge_me_reviews_preview_badge_kwdyzY": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
         },
         "subtitle": {
           "type": "text",
@@ -225,7 +221,6 @@
       "block_order": [
         "custom_liquid_RtYkJh",
         "title",
-        "judge_me_reviews_preview_badge_kwdyzY",
         "subtitle",
         "text_wEfL8M",
         "price",
