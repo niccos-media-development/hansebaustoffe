@@ -25,14 +25,14 @@
           "type": "announcement",
           "settings": {
             "icon": "shopify://shop_images/Group_2.png",
-            "text": "ÜBER 50.000 ZUFRIEDENE KUNDEN"
+            "text": "+50.000 Zufriedene Kunden"
           }
         },
         "announcement_yHbPEw": {
           "type": "announcement",
           "settings": {
             "icon": "shopify://shop_images/Icon_29ae7d9e-e502-47f4-b0b1-221c6e630246.png",
-            "text": "VERSANDBEREIT IN 48H"
+            "text": "Versand innerhalb von 48 Stunden"
           }
         }
       },
