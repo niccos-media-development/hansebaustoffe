@@ -337,6 +337,11 @@
         "expandable_iWybbU",
         "expandable_P8BBVD"
       ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500; }"
+      ],
       "settings": {
         "narrow": true,
         "heading": "",
