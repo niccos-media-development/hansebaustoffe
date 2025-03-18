@@ -227,14 +227,6 @@
           "type": "feature",
           "settings": {
             "icon": "check",
-            "title": "DACHPROTECT bietet immer 100%",
-            "text": "<p>100% UV-<em>Resistens</em></p><p>100% Ozon-Beständigkeit</p><p>100% Wasserfestigkeit</p><p></p>"
-          }
-        },
-        "feature_pcDHJN": {
-          "type": "feature",
-          "settings": {
-            "icon": "check",
             "title": "Eine Lebensdauer von über 50 Jahren",
             "text": "<p>Profitiere Sie von der Langlebigkeit unserer Abdichtungslösung. Einmal verarbeiten und das ganze Leben Ruhe.</p>"
           }
@@ -243,8 +235,7 @@
       "block_order": [
         "feature_agU4gT",
         "feature_JdW7b7",
-        "feature_87ChLq",
-        "feature_pcDHJN"
+        "feature_87ChLq"
       ],
       "settings": {
         "inline": false,
