@@ -468,7 +468,7 @@
             "icon": "check",
             "image": "shopify://shop_images/Group_21.svg",
             "title": "Versandbereit",
-            "text": "<p>innerhalb 48 Stunden</p>"
+            "text": "<p>innerhalb von 48 Stunden</p>"
           }
         }
       },
