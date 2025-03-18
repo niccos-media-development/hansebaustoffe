@@ -524,7 +524,7 @@
         "collection_text_color": "#ffffff",
         "collection_button_text": "",
         "collection_box_align": "top-right",
-        "layout": "grid",
+        "layout": "slider",
         "columns": "4",
         "stack_on_mobile": false,
         "spacing_top": 40,
