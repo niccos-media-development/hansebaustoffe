@@ -243,7 +243,7 @@
         "auto_rotate": false,
         "icon_size": "small",
         "color_scheme": "background-2",
-        "background_color": "#ffaa32",
+        "background_color": "#333333",
         "text_color": "#ffaa32",
         "spacing_top": 26,
         "spacing_top_mobile": 40,
