@@ -513,7 +513,7 @@
         ],
         "hide_placeholders": true,
         "heading": "Bestselling Produkte.",
-        "subheading": "Diese Produkte sind besonders beliebt.",
+        "subheading": "",
         "show_vendor": false,
         "show_stock": true,
         "show_rating": true,
