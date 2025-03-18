@@ -369,7 +369,7 @@
 
 											{% if block.settings.show_sku %}
 												{% if product.selected_or_first_available_variant.sku != blank %}
-													<span class="product-info-meta-item product-info-meta-item-code" style="line-height: auto;">
+													<span class="product-info-meta-item product-info-meta-item-code" style="line-height: normal;">
 														{{ 'products.product.sku' | t }}: <span id="ProductSku-{{ section.id }}" {%- if product.metafields.custom.configurable_product_type.value != blank %} data-current-sku{% endif %}>{{ product.selected_or_first_available_variant.sku }}</span>
 													</span>
 
