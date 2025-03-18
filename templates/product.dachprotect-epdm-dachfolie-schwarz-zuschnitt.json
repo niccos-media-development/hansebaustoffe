@@ -60,6 +60,16 @@
             "color_scheme": "accent-3"
           }
         },
+        "custom_liquid_87nTTC": {
+          "type": "custom_liquid",
+          "settings": {
+            "title": "",
+            "icon": "",
+            "custom_liquid": "<div class=\"support-box\">\n    <p><strong>❓ Sie benötigen Unterstützung?</strong></p>\n    <p>Lassen Sie sich jetzt kostenlos das passende Material von einem unserer Service-Mitarbeiter zusammenstellen.</p>\n    <div class=\"support-actions\">\n        <a href=\"tel:+491234567890\" class=\"support-button call-button\">📞 Jetzt anrufen</a>\n        <a href=\"/pages/kontaktformular\" class=\"support-button form-button\">📩 Anfrage senden</a>\n    </div>\n</div>\n\n<style>\n    .support-box {\n        background-color: #f8f9fa;\n        border: 1px solid #ddd;\n        border-radius: 8px;\n        padding: 12px;\n        text-align: center;\n        margin-top: 20px;\n        font-size: 14px;\n        color: #333;\n    }\n    .support-actions {\n        margin-top: 10px;\n    }\n    .support-button {\n        display: inline-block;\n        padding: 8px 12px;\n        font-size: 14px;\n        font-weight: 500;\n        text-decoration: none;\n        border-radius: 5px;\n        margin: 5px;\n    }\n    .call-button {\n        background-color: #28a745;\n        color: white;\n    }\n    .form-button {\n        background-color: #007bff;\n        color: white;\n    }\n    .support-button:hover {\n        opacity: 0.85;\n    }\n</style>",
+            "position": "right",
+            "expanded": false
+          }
+        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -227,6 +237,7 @@
         "custom_liquid_hnDmWw",
         "title",
         "text_dUTqkb",
+        "custom_liquid_87nTTC",
         "subtitle",
         "price",
         "line_item_property_4DeBWA",
