@@ -260,7 +260,7 @@
       ],
       "settings": {
         "hide_variants": false,
-        "thumbnail_navigation": false,
+        "thumbnail_navigation": true,
         "image_zoom_type": "lightbox",
         "image_disclaimer": "<p> </p>"
       }
