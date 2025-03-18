@@ -812,7 +812,7 @@
           let exclusions = ["6,85 m","8,40 m"].map(exclusion => Number(exclusion.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")));
 
           debugger;
-          if(p_dicke !== 15) {
+          if(p_dicke !== 1.5) {
             document.querySelectorAll('select[name="properties[Breite]"] > option').forEach(option => {
               let optionValue = Number(option.value.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", "."));
               
