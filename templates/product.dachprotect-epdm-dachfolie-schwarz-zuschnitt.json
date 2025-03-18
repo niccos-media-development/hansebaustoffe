@@ -301,57 +301,6 @@
         "mobile_spacing_bottom": 40
       }
     },
-    "expandable_hgVx4H": {
-      "type": "expandable",
-      "blocks": {
-        "expandable_qzMMAV": {
-          "type": "expandable",
-          "settings": {
-            "heading": "Wie verklebe ich EPDM auf dem Untergrund",
-            "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
-            "expanded": false
-          }
-        },
-        "expandable_iWybbU": {
-          "type": "expandable",
-          "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "gift-wrap",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
-            "expanded": false
-          }
-        },
-        "expandable_P8BBVD": {
-          "type": "expandable",
-          "settings": {
-            "heading": "Enter a descriptive title for this block",
-            "icon": "globe",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
-            "expanded": false
-          }
-        }
-      },
-      "block_order": [
-        "expandable_qzMMAV",
-        "expandable_iWybbU",
-        "expandable_P8BBVD"
-      ],
-      "custom_css": [
-        "* {color: #000000;}",
-        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
-        "a:hover,span:hover {color: #ffa500; }"
-      ],
-      "settings": {
-        "narrow": true,
-        "heading": "",
-        "subheading": "",
-        "heading_alignment": "left",
-        "color_scheme": "background-1",
-        "spacing_top": 20,
-        "spacing_bottom": 20
-      }
-    },
     "rich_text_fR6cKA": {
       "type": "rich-text",
       "blocks": {
@@ -745,7 +694,6 @@
   "order": [
     "main",
     "featured_collection_k8t9RF",
-    "expandable_hgVx4H",
     "rich_text_fR6cKA",
     "image_banners_GjHqUN",
     "product_lists_D7wK8m",
