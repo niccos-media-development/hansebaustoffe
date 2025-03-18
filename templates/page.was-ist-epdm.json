@@ -219,7 +219,7 @@
           "type": "feature",
           "settings": {
             "icon": "check",
-            "title": "Jahrelange Expertise ihrer Berater",
+            "title": "Beste Beratung",
             "text": "<p>Bei uns beraten Sie praxiserfahrene Mitarbeiter, die DACHPROTECT EPDM nicht nur in der Theorie verlegen können.</p>"
           }
         },
@@ -227,8 +227,8 @@
           "type": "feature",
           "settings": {
             "icon": "check",
-            "title": "Feature",
-            "text": "<p>Pair text with an icon to focus on your store's features.</p>"
+            "title": "Wir bieten 100%",
+            "text": "<p>100% UV-<em>Resistens</em></p><p>100% Ozon-Beständigkeit</p><p>100% Wasserfestigkeit</p><p></p>"
           }
         },
         "feature_pcDHJN": {
