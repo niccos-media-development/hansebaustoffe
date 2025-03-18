@@ -143,7 +143,7 @@
       "settings": {
         "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_2_11a4bed9-949b-4d76-b168-5ec6b5a69af6.jpg",
         "video_url": "",
-        "layout": "media_first",
+        "layout": "text_first",
         "desktop_content_alignment": "left",
         "spacing_top": 6,
         "spacing_bottom": 6,
@@ -195,7 +195,7 @@
       "settings": {
         "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_033_1300x1000_23_1.jpg",
         "video_url": "",
-        "layout": "text_first",
+        "layout": "media_first",
         "desktop_content_alignment": "left",
         "spacing_top": 6,
         "spacing_bottom": 26,
@@ -265,16 +265,80 @@
         "icon_size_mobile": 20
       }
     },
-    "17417803241f16be00": {
-      "type": "apps",
+    "expandable_LjzVrn": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_bxWUQD": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie verklebe ich EPDM auf dem Untergrund?",
+            "icon": "",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_877Een": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie stelle ich eine Naht her?",
+            "icon": "",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_rXyNdG": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie baue ich eine Entwässerung ein?",
+            "icon": "",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_FFUieR": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie mache ich einen Wandanschluss oder Hochzug?",
+            "icon": "",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_3yRXjR": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie bilde ich Randbereiche aus?",
+            "icon": "",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_WGHexg": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Warum ich auf Bitumen verzichten sollte?",
+            "icon": "",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_bxWUQD",
+        "expandable_877Een",
+        "expandable_rXyNdG",
+        "expandable_FFUieR",
+        "expandable_3yRXjR",
+        "expandable_WGHexg"
+      ],
       "settings": {
-        "full_width": false
-      }
-    },
-    "173945177119dc2136": {
-      "type": "apps",
-      "settings": {
-        "full_width": false
+        "narrow": true,
+        "heading": "Gut zu wissen",
+        "subheading": "Erfahren Sie alles, was sie zu der Verarbeitung wissen müssen",
+        "heading_alignment": "center",
+        "color_scheme": "background-1",
+        "spacing_top": 26,
+        "spacing_bottom": 26
       }
     }
   },
@@ -284,7 +348,6 @@
     "media_with_text_r3WRVr",
     "media_with_text_GVKHYg",
     "features_GpA3jx",
-    "17417803241f16be00",
-    "173945177119dc2136"
+    "expandable_LjzVrn"
   ]
 }
