@@ -178,11 +178,19 @@
             "text_font_size": "--font-body-scale-small",
             "text_font_size_mobile": "--font-body-scale"
           }
+        },
+        "button_X6b79f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Produkt",
+            "button_link": "shopify://products/variants-for-epdm-dachfolie-schwarz-part-4-101"
+          }
         }
       },
       "block_order": [
         "heading_xVY6pm",
-        "text_KGXic4"
+        "text_KGXic4",
+        "button_X6b79f"
       ],
       "settings": {
         "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_033_1300x1000_23_1.jpg",
