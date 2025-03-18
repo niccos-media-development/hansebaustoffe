@@ -182,7 +182,7 @@
         "text_xd3agN": {
           "type": "text",
           "settings": {
-            "text": "<h3>Vorteile von DACHPROTECT</h3><ul><li><strong>Lebensdauer von über 50 Jahren </strong></li><li><strong>20 Jahre Materialgarantie</strong></li><li><strong>Nahtfreie Verarbeitung  von bis zu 465m² </strong></li><li><strong>100% UV-beständig, 100% Ozon-beständig, 100% wasserdicht </strong></li><li><strong>Kompetente Beratung </strong></li><li><strong>ökologisch unbedenklich  (Recyclebar)</strong></li></ul>",
+            "text": "<h2>Vorteile von DACHPROTECT</h2><ul><li><strong>Lebensdauer von über 50 Jahren </strong></li><li><strong>20 Jahre Materialgarantie</strong></li><li><strong>Nahtfreie Verarbeitung  von bis zu 465m² </strong></li><li><strong>100% UV-beständig, 100% Ozon-beständig, 100% wasserdicht </strong></li><li><strong>Kompetente Beratung </strong></li><li><strong>ökologisch unbedenklich  (Recyclebar)</strong></li></ul>",
             "text_font_size": "--font-body-scale",
             "text_font_size_mobile": "--font-body-scale"
           }
