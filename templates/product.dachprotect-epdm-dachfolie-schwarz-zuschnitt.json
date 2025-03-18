@@ -647,7 +647,7 @@
       "type": "product-recommendations",
       "settings": {
         "show": true,
-        "title": "Kunden interessiert auch",
+        "title": "Weitere Produkte",
         "count": "4",
         "show_vendor": false,
         "show_stock": true,
