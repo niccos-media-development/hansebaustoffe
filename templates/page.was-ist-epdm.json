@@ -190,7 +190,7 @@
         "layout": "media_first",
         "desktop_content_alignment": "left",
         "spacing_top": 6,
-        "spacing_bottom": 6,
+        "spacing_bottom": 26,
         "blocks_gap": 32,
         "content_padding": 0,
         "text_background": "#ffffff",
