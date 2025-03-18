@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "hide_heading": false
@@ -344,10 +345,10 @@
   },
   "order": [
     "main",
-    "image_banners_VaU7Dq",
     "media_with_text_r3WRVr",
     "media_with_text_GVKHYg",
     "features_GpA3jx",
-    "expandable_LjzVrn"
+    "expandable_LjzVrn",
+    "image_banners_VaU7Dq"
   ]
 }
