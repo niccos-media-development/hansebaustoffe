@@ -3585,7 +3585,7 @@ predictive-search:not([loading]) .predictive-search-status-loading {
 /* Main navigation menu styling */
 
 .navigation-main > .navigation-item {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */ /* Niccos */
   padding: 0 1.35rem;
   height: 5rem;
 }
