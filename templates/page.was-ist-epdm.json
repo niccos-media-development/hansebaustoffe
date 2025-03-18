@@ -141,7 +141,7 @@
         "text_RGbaLA"
       ],
       "settings": {
-        "image": "shopify://shop_images/D12-090-010_Vorteilsgrafik_EPDM_Dachfolie_1000x1000_6397992f-09c7-4da4-9790-9e8f61d66c4e.jpg",
+        "image": "shopify://shop_images/D12-090-010_EPDM_Anwendung_1000x1000_23_2_11a4bed9-949b-4d76-b168-5ec6b5a69af6.jpg",
         "video_url": "",
         "layout": "text_first",
         "desktop_content_alignment": "left",
@@ -150,7 +150,7 @@
         "blocks_gap": 32,
         "content_padding": 0,
         "text_background": "#ffffff",
-        "vertical_alignment": "center",
+        "vertical_alignment": "start",
         "heading_font_size": "--font-h2-size",
         "heading_font_size_mobile": "--font-h3-size",
         "content_font_size": "--font-body2-size",
