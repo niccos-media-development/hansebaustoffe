@@ -499,9 +499,7 @@
     },
     "featured-collection-2": {
       "type": "featured-collection",
-      "custom_css": [
-        ".grid-carousel {animation: none !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "collection": "",
         "products_to_show": 4,
@@ -526,7 +524,7 @@
         "collection_text_color": "#ffffff",
         "collection_button_text": "",
         "collection_box_align": "top-right",
-        "layout": "slider",
+        "layout": "grid",
         "columns": "4",
         "stack_on_mobile": false,
         "spacing_top": 40,
