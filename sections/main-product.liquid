@@ -806,6 +806,25 @@
 
       {% case product.metafields.custom.configurable_product_type.value %}
         {% when 'dachfolie-schwarz' -%}
+          document.querySelectorAll('select[name="properties[Breite]"] > option').forEach(elem => elem.removeAttribute('disabled'))
+          document.querySelectorAll('select[name="properties[Materialstärke]"] > option').forEach(elem => elem.removeAttribute('disabled'))
+
+          let exclusions = ["6,85 m","8,40 m"].map(exclusion => Number(exclusion.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", ".")));
+
+          if(p_dicke !== 15) {
+            document.querySelectorAll('select[name="properties[Breite]"] > option').forEach(option => {
+              let optionValue = Number(option.value.match(/^[0-9,.]+/)?.[0]?.replaceAll(",", "."));
+              
+              if(exclusions.indexOf(optionValue) !== -1) {
+                option.setAttribute('disabled', 'disabled');
+              }
+            })
+          }
+
+          if(exclusions.indexOf(p_breite) !== -1) {
+            document.querySelectorAll('select[name="properties[Materialstärke]"] > option:not([value^="1,5 mm"])').forEach(elem => elem.setAttribute('disabled', 'disabled'))
+          }
+
           sku = `D${dicke_fmt}-${breite_fmt}-${launge_fmt}`;
           basePrices.forEach(([measurement, price]) => {
             if(p_dicke === measurement)
