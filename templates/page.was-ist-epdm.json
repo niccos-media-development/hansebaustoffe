@@ -150,7 +150,7 @@
         "blocks_gap": 32,
         "content_padding": 0,
         "text_background": "#ffffff",
-        "vertical_alignment": "start",
+        "vertical_alignment": "center",
         "heading_font_size": "--font-h2-size",
         "heading_font_size_mobile": "--font-h3-size",
         "content_font_size": "--font-body2-size",
