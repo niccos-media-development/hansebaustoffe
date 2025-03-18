@@ -116,6 +116,57 @@
         "spacing_bottom": 26
       }
     },
+    "media_with_text_r3WRVr": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_KYw4QX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Was ist EPDM?",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_RGbaLA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>EPDM steht für <strong>Ethylen-Propylen-Dien-Monomer</strong> und ist ein synthetischer Kautschuk, der für seine hohe Widerstandsfähigkeit und Elastizität bekannt ist. Ursprünglich in der Industrie für langlebige Dichtungen und Schläuche entwickelt, wird EPDM heute vor allem zur Abdichtung von Dächern, Teichen und Fassaden eingesetzt. </p><p>Die größten Vorteile dieses Materials liegen in seiner <strong>außergewöhnlichen Haltbarkeit</strong> und in der <strong>unschlagbaren Lebensdauer von 50 Jahren.</strong> EPDM bleibt selbst unter extremen Witterungsbedingungen flexibel und widerstandsfähig – egal ob Hitze, Frost, Hagel, UV-Strahlung oder Ozon. Im Gegensatz zu anderen Abdichtungsmaterialien wie Bitumen reißt oder versprödet EPDM nicht und kann sich durch seine <strong>hohe Dehnbarkeit von über 300 %</strong> perfekt an Bewegungen des Gebäudes anpassen. Zudem ist das Material <strong>umweltfreundlich</strong> , da es ohne Weichmacher oder Chlor auskommt und recycelbar ist.</p><h1></h1>",
+            "text_font_size": "--font-body-scale",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        },
+        "button_9fawxU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_KYw4QX",
+        "text_RGbaLA",
+        "button_9fawxU"
+      ],
+      "settings": {
+        "video_url": "",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "rgba(0,0,0,0)",
+        "vertical_alignment": "center",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
     "17417803241f16be00": {
       "type": "apps",
       "settings": {
@@ -132,6 +183,7 @@
   "order": [
     "main",
     "image_banners_VaU7Dq",
+    "media_with_text_r3WRVr",
     "17417803241f16be00",
     "173945177119dc2136"
   ]
