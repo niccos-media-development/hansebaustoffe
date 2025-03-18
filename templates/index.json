@@ -554,7 +554,7 @@
             "text_color": "#ffffff",
             "box_align": "bottom-left",
             "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
+            "mobile_box_align": "bottom-center"
           }
         },
         "collection-1": {
@@ -571,7 +571,7 @@
             "text_color": "#ffffff",
             "box_align": "bottom-left",
             "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
+            "mobile_box_align": "bottom-center"
           }
         },
         "collection-2": {
@@ -588,7 +588,7 @@
             "text_color": "#ffffff",
             "box_align": "bottom-left",
             "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
+            "mobile_box_align": "bottom-center"
           }
         }
       },
