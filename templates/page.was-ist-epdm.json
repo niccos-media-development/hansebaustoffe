@@ -174,8 +174,8 @@
         "text_KGXic4": {
           "type": "text",
           "settings": {
-            "text": "<p>Mit einer EPDM Dachfolie von DACHPROTECT setzen Sie auf ein Abdichtungssystem, dem viele Menschen seit Jahrzehnten vertrauen. Im Gegensatz zu vielen anderen Abdichtungssystemen besitzt die EPDM Dachfolie von DACHPROTECT aufgrund ihrer speziellen Materialeigenschaften eine Lebensdauer von über 50 Jahren. EPDM Folien von DACHPROTECT sind wartungsfrei, UV- und Ozonbeständig und behalten Ihre hohe Dehnfähigkeit von über 350% über Ihre gesamte Lebensdauer nahezu bei.<br/><br/>In der Regel muss die Folie bei einer fachgerechten Verarbeitung nur einmal im Leben während der Installation der Dachabdichtung montiert werden. Dieses macht die DACHPROTECT EPDM Dachfolie zu einer kosteneffizienten Lösung, da sie nicht ersetzt oder repariert werden muss. Zudem besitzen DACHPROTECT EPDM Folien eine Vielzahl an Zulassungen für den deutschen Markt. </p>",
-            "text_font_size": "--font-body-scale",
+            "text": "<p>Mit einer EPDM Dachfolie von DACHPROTECT setzen Sie auf ein Abdichtungssystem, dem viele Menschen <strong>seit Jahrzehnten vertrauen</strong>. Im Gegensatz zu vielen anderen Abdichtungssystemen besitzt die EPDM Dachfolie von DACHPROTECT aufgrund ihrer speziellen Materialeigenschaften eine <strong>Lebensdauer von über 50 Jahren</strong>. EPDM Folien von DACHPROTECT sind <strong>wartungsfrei, UV- und Ozonbeständig</strong> und behalten Ihre <strong>hohe Dehnfähigkeit von über 350%</strong> über Ihre gesamte Lebensdauer nahezu bei.<br/><br/>In der Regel muss die Folie bei einer fachgerechten <strong>Verarbeitung nur einmal im Leben</strong> während der Installation der Dachabdichtung montiert werden. Dieses macht die DACHPROTECT EPDM Dachfolie zu einer <strong>kosteneffizienten Lösung</strong>, da sie nicht ersetzt oder repariert werden muss. Zudem besitzen DACHPROTECT EPDM Folien eine Vielzahl an Zulassungen für den deutschen Markt. </p>",
+            "text_font_size": "--font-body-scale-small",
             "text_font_size_mobile": "--font-body-scale"
           }
         }
@@ -204,6 +204,68 @@
         "mobile_spacing_bottom": 40
       }
     },
+    "features_GpA3jx": {
+      "type": "features",
+      "blocks": {
+        "feature_agU4gT": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "Feature",
+            "text": "<p>Pair text with an icon to focus on your store's features.</p>"
+          }
+        },
+        "feature_JdW7b7": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "Feature",
+            "text": "<p>Pair text with an icon to focus on your store's features.</p>"
+          }
+        },
+        "feature_87ChLq": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "Feature",
+            "text": "<p>Pair text with an icon to focus on your store's features.</p>"
+          }
+        },
+        "feature_pcDHJN": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "Feature",
+            "text": "<p>Pair text with an icon to focus on your store's features.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_agU4gT",
+        "feature_JdW7b7",
+        "feature_87ChLq",
+        "feature_pcDHJN"
+      ],
+      "settings": {
+        "inline": false,
+        "stack_on_mobile": true,
+        "auto_rotate": false,
+        "icon_size": "large",
+        "color_scheme": "background-2",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "spacing_top": 60,
+        "spacing_top_mobile": 40,
+        "spacing_bottom": 60,
+        "spacing_bottom_mobile": 40,
+        "heading_font_size": "--font-h3-size",
+        "heading_font_size_mobile": "--font-h4-size",
+        "text_font_size": "--font-body2-size",
+        "text_font_size_mobile": "--font-body3-size",
+        "icon_size_desktop": 24,
+        "icon_size_mobile": 20
+      }
+    },
     "17417803241f16be00": {
       "type": "apps",
       "settings": {
@@ -222,6 +284,7 @@
     "image_banners_VaU7Dq",
     "media_with_text_r3WRVr",
     "media_with_text_GVKHYg",
+    "features_GpA3jx",
     "17417803241f16be00",
     "173945177119dc2136"
   ]
