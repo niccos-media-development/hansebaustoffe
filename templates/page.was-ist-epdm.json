@@ -243,7 +243,7 @@
         "auto_rotate": false,
         "icon_size": "small",
         "color_scheme": "background-2",
-        "background_color": "#333333",
+        "background_color": "#f3f3f3",
         "text_color": "#ffaa32",
         "spacing_top": 26,
         "spacing_top_mobile": 40,
@@ -263,88 +263,6 @@
         "full_width": false
       }
     },
-    "niccos_promotional_cards_DtXtrL": {
-      "type": "niccos-promotional-cards",
-      "blocks": {
-        "promotion_bmQEUJ": {
-          "type": "promotion",
-          "settings": {
-            "background_image_position": "top-left",
-            "background_color": "#ffffff",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "20 Jahre Materialgarantie",
-            "link": "",
-            "heading_size": "md",
-            "description": "<p>Wir sind von der Qualität unserer EPDM Dachfolie überzeugt! Profitieren Sie von der DACHPROTECT Materialgarantie.</p>",
-            "text_color": "#ffffff",
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "promotion_MLYeTj": {
-          "type": "promotion",
-          "settings": {
-            "background_image_position": "top-right",
-            "background_color": "#ffffff",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "Praxis",
-            "link": "",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display promotional content in your store.</p>",
-            "text_color": "#fff",
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        },
-        "promotion_Jj97bj": {
-          "type": "promotion",
-          "settings": {
-            "background_image_position": "top-right",
-            "background_color": "#287DFF",
-            "overlay_background": "",
-            "background_image_offset_x": 0,
-            "background_image_offset_y": 0,
-            "title": "Promotion title",
-            "link": "",
-            "heading_size": "md",
-            "description": "<p>Pair text with image backdrops to display promotional content in your store.</p>",
-            "text_color": "#fff",
-            "button_color_scheme": "button-primary",
-            "box_align": "bottom-left",
-            "mobile_heading_size": "md",
-            "mobile_box_align": "bottom-left"
-          }
-        }
-      },
-      "block_order": [
-        "promotion_bmQEUJ",
-        "promotion_MLYeTj",
-        "promotion_Jj97bj"
-      ],
-      "settings": {
-        "image_heights": 30,
-        "heading": "Ihre Vorteile",
-        "subheading": "",
-        "link_title": "",
-        "link_url": "",
-        "columns": 3,
-        "stack_on_mobile": false,
-        "card_clickable_desktop": false,
-        "box_radius": 10,
-        "heading_outline_color": "#333333",
-        "color_scheme": "accent-3",
-        "spacing_top": 10,
-        "spacing_bottom": 10
-      }
-    },
     "173945177119dc2136": {
       "type": "apps",
       "settings": {
@@ -359,7 +277,6 @@
     "media_with_text_GVKHYg",
     "features_GpA3jx",
     "17417803241f16be00",
-    "niccos_promotional_cards_DtXtrL",
     "173945177119dc2136"
   ]
 }
