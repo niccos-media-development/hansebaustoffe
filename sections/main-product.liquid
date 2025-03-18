@@ -337,7 +337,7 @@
 
                   <h1 
                      data-aos="fade-down" data-aos-duration="500"
-                    class="product-info-heading h2">
+                    class="product-info-heading h2" style="margin-bottom: 0;">
 										{{ product.title | escape }}
 									</h1>
 
@@ -350,7 +350,7 @@
 
 									{% if block.settings.show_stock or block.settings.show_sku or block.settings.show_barcode or block.settings.show_rating %}
                     <div 
-                      data-aos="fade-right"
+                      data-aos="fade-right" style="display: block;"
                       id="ProductInfoMeta-{{ section.id }}" class="product-info-meta {{ product_info_meta_stretch_class }} {% if product.selected_or_first_available_variant == nil %}visually-hidden{% endif %}">
 											{% unless settings.catalog_enabled %}
 												{% if block.settings.show_stock %}
@@ -360,9 +360,16 @@
 												{% endif %}
 											{% endunless %}
 
+
+											{% if block.settings.show_rating %}
+												<div style="margin-bottom: 1rem;" class="product-info-meta-item last {% if block.settings.hide_empty_star_rating %}product-rating-hide-empty{% endif %}">
+													{% render 'product-rating-widget', product: product %}
+												</div>
+											{% endif %}
+
 											{% if block.settings.show_sku %}
 												{% if product.selected_or_first_available_variant.sku != blank %}
-													<span class="product-info-meta-item product-info-meta-item-code">
+													<span class="product-info-meta-item product-info-meta-item-code" style="line-height: auto;">
 														{{ 'products.product.sku' | t }}: <span id="ProductSku-{{ section.id }}" {%- if product.metafields.custom.configurable_product_type.value != blank %} data-current-sku{% endif %}>{{ product.selected_or_first_available_variant.sku }}</span>
 													</span>
 
@@ -381,11 +388,6 @@
 												{% endif %}
 											{% endif %}
 
-											{% if block.settings.show_rating %}
-												<div class="product-info-meta-item last {% if block.settings.hide_empty_star_rating %}product-rating-hide-empty{% endif %}">
-													{% render 'product-rating-widget', product: product %}
-												</div>
-											{% endif %}
 										</div>
 									{% endif %}
 								</div>
