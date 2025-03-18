@@ -60,6 +60,16 @@
             "color_scheme": "accent-3"
           }
         },
+        "custom_liquid_87nTTC": {
+          "type": "custom_liquid",
+          "settings": {
+            "title": "",
+            "icon": "",
+            "custom_liquid": "<div class=\"support-box\">\n    <div class=\"support-content\">\n        <div class=\"support-text-content\">\n            <p class=\"support-title\">❓ Sie benötigen Unterstützung?</p>\n            <p class=\"support-text\">\n                Lassen Sie sich jetzt kostenlos das passende Material von einem unserer Service-Mitarbeiter zusammenstellen.\n            </p>\n            <div class=\"support-actions\">\n                <a href=\"tel:+4945318882292\" class=\"support-button call-button\">📞 Jetzt anrufen</a>\n                <a href=\"#\" class=\"support-button form-button\" onclick=\"openPopup(event)\">📝 Formular ausfüllen</a>\n            </div>\n        </div>\n        <img id=\"support-image\" src=\"\" alt=\"Servicetechniker\" class=\"support-image\">\n    </div>\n</div>\n\n<div id=\"form-popup\" class=\"popup-overlay\" style=\"display: none;\">\n    <div class=\"popup-content\">\n        <span class=\"close-button\" onclick=\"closePopup()\">&times;</span>\n        <div class=\"globo-form-container\">\n            <div class=\"globo-formbuilder\" data-id=\"ODEyODk=\" id=\"globo-form\"></div>\n        </div>\n    </div>\n</div>\n\n<script>\n    function openPopup(event) {\n        event.preventDefault();\n        document.getElementById(\"form-popup\").style.display = \"flex\";\n        initializeGloboForm();\n    }\n\n    function closePopup() {\n        document.getElementById(\"form-popup\").style.display = \"none\";\n    }\n\n    function initializeGloboForm() {\n        if (typeof GloboFormBuilder !== \"undefined\" && GloboFormBuilder.init) {\n            GloboFormBuilder.init();\n        }\n    }\n\n    // Schließen des Popups durch Klicken außerhalb des Inhalts\n    document.addEventListener(\"click\", function (event) {\n        const popup = document.getElementById(\"form-popup\");\n        const content = document.querySelector(\".popup-content\");\n        if (event.target === popup) {\n            popup.style.display = \"none\";\n        }\n    });\n\n    // Array mit URLs der aktiven Servicetechniker-Bilder (ohne Matthias)\n    const images = [\n        \"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/HSS_Mitarbeiter_Kacheln_2024_1_Andre.png?v=1742288913\",\n        \"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/HSS_Mitarbeiter_Kacheln_2024_1_Jannis.png?v=1742288940\",\n        \"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/HSS_Mitarbeiter_Kacheln_2024_1_Sina.png?v=1742288983\"\n    ];\n\n    // Zufälliges Bild beim Laden der Seite auswählen\n    document.getElementById(\"support-image\").src = images[Math.floor(Math.random() * images.length)];\n</script>\n\n<style>\n    .popup-overlay {\n        position: fixed;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        background: rgba(0, 0, 0, 0.5);\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        z-index: 1000;\n    }\n    .popup-content {\n        background: white;\n        padding: 20px;\n        border-radius: 8px;\n        position: relative;\n        width: 90%;\n        max-width: 600px;\n        max-height: 90vh;\n        overflow-y: auto;\n    }\n    .close-button {\n        position: absolute;\n        top: 10px;\n        right: 15px;\n        font-size: 24px;\n        cursor: pointer;\n    }\n    .globo-form-container {\n        max-width: 100%;\n    }\n    .support-box {\n        background: #fff;\n        border-radius: 8px;\n        padding: 12px;\n        text-align: left;\n        margin: 8px 0;\n        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);\n        border: 1px solid #FFAA32;\n    }\n    .support-content {\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        gap: 12px;\n        flex-wrap: wrap;\n    }\n    .support-image {\n        width: 120px;\n        height: 120px;\n        border-radius: 50%;\n        object-fit: cover;\n    }\n    .support-text-content {\n        flex: 1;\n    }\n    .support-title {\n        font-size: 16px;\n        font-weight: bold;\n        color: #333333;\n        margin-bottom: 5px;\n    }\n    .support-text {\n        font-size: 14px;\n        color: #555;\n        margin-bottom: 10px;\n    }\n    .support-actions {\n        display: flex;\n        justify-content: start;\n        gap: 8px;\n    }\n    .support-button {\n        display: inline-block;\n        padding: 8px 14px;\n        font-size: 14px;\n        font-weight: 500;\n        text-decoration: none;\n        border-radius: 5px;\n        transition: all 0.2s ease;\n        white-space: nowrap;\n        border: 1px solid;\n    }\n    .call-button {\n        background-color: #FFAA32;\n        color: #333333;\n        border-color: #FFAA32;\n    }\n    .form-button {\n        background-color: #007BFF;\n        color: white;\n        border-color: #007BFF;\n    }\n    .support-button:hover {\n        opacity: 0.9;\n        transform: scale(1.03);\n    }\n    @media (max-width: 600px) {\n        .support-content {\n            flex-direction: column-reverse;\n            text-align: center;\n        }\n        .support-actions {\n            justify-content: center;\n        }\n        .support-image {\n            margin-bottom: 10px;\n        }\n        .popup-content {\n            width: 95%;\n            max-height: 90vh;\n        }\n    }\n</style>",
+            "position": "right",
+            "expanded": false
+          }
+        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -153,16 +163,6 @@
             "image_size": "large"
           }
         },
-        "custom_liquid_87nTTC": {
-          "type": "custom_liquid",
-          "settings": {
-            "title": "",
-            "icon": "",
-            "custom_liquid": "<div class=\"support-box\">\n    <div class=\"support-content\">\n        <div class=\"support-text-content\">\n            <p class=\"support-title\">❓ Sie benötigen Unterstützung?</p>\n            <p class=\"support-text\">\n                Lassen Sie sich jetzt kostenlos das passende Material von einem unserer Service-Mitarbeiter zusammenstellen.\n            </p>\n            <div class=\"support-actions\">\n                <a href=\"tel:+4945318882292\" class=\"support-button call-button\">📞 Jetzt anrufen</a>\n                <a href=\"mailto:info@hanse-baustoffe.de\" class=\"support-button email-button\">📩 E-Mail schreiben</a>\n            </div>\n        </div>\n        <img id=\"support-image\" src=\"\" alt=\"Servicetechniker\" class=\"support-image\">\n    </div>\n</div>\n\n<script>\n    // Array mit URLs der aktiven Servicetechniker-Bilder (ohne Matthias)\n    const images = [\n        \"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/HSS_Mitarbeiter_Kacheln_2024_1_Andre.png?v=1742288913\",\n        \"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/HSS_Mitarbeiter_Kacheln_2024_1_Jannis.png?v=1742288940\",\n        \"https://cdn.shopify.com/s/files/1/0872/5594/1462/files/HSS_Mitarbeiter_Kacheln_2024_1_Sina.png?v=1742288983\"\n    ];\n\n    // Zufälliges Bild beim Laden der Seite auswählen\n    document.getElementById(\"support-image\").src = images[Math.floor(Math.random() * images.length)];\n</script>\n\n<style>\n    .support-box {\n        background: #fff;\n        border-radius: 8px;\n        padding: 12px;\n        text-align: left;\n        margin: 8px 0;\n        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);\n        border: 1px solid #FFAA32;\n    }\n    .support-content {\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        gap: 12px;\n        flex-wrap: wrap;\n    }\n    .support-image {\n        width: 120px;\n        height: 120px;\n        border-radius: 50%;\n        object-fit: cover;\n    }\n    .support-text-content {\n        flex: 1;\n    }\n    .support-title {\n        font-size: 16px;\n        font-weight: bold;\n        color: #333333;\n        margin-bottom: 5px;\n    }\n    .support-text {\n        font-size: 14px;\n        color: #555;\n        margin-bottom: 10px;\n    }\n    .support-actions {\n        display: flex;\n        justify-content: start;\n        gap: 8px;\n    }\n    .support-button {\n        display: inline-block;\n        padding: 8px 14px;\n        font-size: 14px;\n        font-weight: 500;\n        text-decoration: none;\n        border-radius: 5px;\n        transition: all 0.2s ease;\n        white-space: nowrap;\n        border: 1px solid;\n    }\n    .call-button {\n        background-color: #FFAA32;\n        color: #333333;\n        border-color: #FFAA32;\n    }\n    .email-button {\n        background-color: #333333;\n        color: white;\n        border-color: #333333;\n    }\n    .support-button:hover {\n        opacity: 0.9;\n        transform: scale(1.03);\n    }\n    @media (max-width: 600px) {\n        .support-content {\n            flex-direction: column-reverse;\n            text-align: center;\n        }\n        .support-actions {\n            justify-content: center;\n        }\n        .support-image {\n            margin-bottom: 10px;\n        }\n    }\n</style>",
-            "position": "right",
-            "expanded": false
-          }
-        },
         "availability": {
           "type": "availability",
           "settings": {}
@@ -237,6 +237,7 @@
         "custom_liquid_hnDmWw",
         "title",
         "text_dUTqkb",
+        "custom_liquid_87nTTC",
         "subtitle",
         "price",
         "line_item_property_4DeBWA",
@@ -247,7 +248,6 @@
         "buy_buttons",
         "custom_liquid_wbYAGB",
         "payment_image_D6FURY",
-        "custom_liquid_87nTTC",
         "availability",
         "extra_93b64f",
         "description",
@@ -264,7 +264,7 @@
       ],
       "settings": {
         "hide_variants": false,
-        "thumbnail_navigation": true,
+        "thumbnail_navigation": false,
         "image_zoom_type": "lightbox",
         "image_disclaimer": "<p> </p>"
       }
@@ -299,6 +299,52 @@
         "section_background": "#ffffff",
         "mobile_spacing_top": 40,
         "mobile_spacing_bottom": 40
+      }
+    },
+    "expandable_hgVx4H": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_qzMMAV": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Wie verklebe ich EPDM auf dem Untergrund",
+            "icon": "arrow-right",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_iWybbU": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_P8BBVD": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_qzMMAV",
+        "expandable_iWybbU",
+        "expandable_P8BBVD"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
+        "spacing_top": 20,
+        "spacing_bottom": 20
       }
     },
     "rich_text_fR6cKA": {
@@ -522,7 +568,7 @@
         ".card-badge.top.left {display: none !important;}"
       ],
       "settings": {
-        "heading": "Systemzubehör",
+        "heading": "Passendes Systemzubehör",
         "subheading": "",
         "link_title": "",
         "link_url": "",
@@ -694,6 +740,7 @@
   "order": [
     "main",
     "featured_collection_k8t9RF",
+    "expandable_hgVx4H",
     "rich_text_fR6cKA",
     "image_banners_GjHqUN",
     "product_lists_D7wK8m",
