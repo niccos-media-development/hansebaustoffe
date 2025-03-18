@@ -265,7 +265,7 @@
       "settings": {
         "hide_variants": false,
         "thumbnail_navigation": false,
-        "image_zoom_type": "lightbox",
+        "image_zoom_type": "none",
         "image_disclaimer": "<p> </p>"
       }
     },
