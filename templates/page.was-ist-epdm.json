@@ -119,9 +119,10 @@
         "feature_agU4gT": {
           "type": "feature",
           "settings": {
-            "icon": "check",
+            "icon": "",
+            "image": "shopify://shop_images/HSS_Mitarbeiter_Kacheln_2024_1_Liza.png",
             "title": "20 Jahre Materialgarantie",
-            "text": "<p>Wir sind von der Qualität unserer EPDM Dachfolie überzeugt! Profitieren Sie von der DACHPROTECT Materialgarantie.</p>"
+            "text": "<p>Wir sind von der Qualität unserer EPDM Dachfolie überzeugt! Profitieren Sie von der <strong>DACHPROTECT Materialgarantie.</strong></p>"
           }
         },
         "feature_JdW7b7": {
@@ -129,15 +130,15 @@
           "settings": {
             "icon": "check",
             "title": "Beste Beratung",
-            "text": "<p>Bei uns beraten Sie praxiserfahrene Mitarbeiter, die DACHPROTECT EPDM nicht nur in der Theorie verlegen können.</p>"
+            "text": "<p>Bei uns beraten Sie <strong>praxiserfahrene </strong>Mitarbeiter, die DACHPROTECT EPDM nicht nur in der Theorie verlegen können.</p>"
           }
         },
         "feature_87ChLq": {
           "type": "feature",
           "settings": {
             "icon": "check",
-            "title": "Eine Lebensdauer von über 50 Jahren",
-            "text": "<p>Profitiere Sie von der Langlebigkeit unserer Abdichtungslösung. Einmal verarbeiten und das ganze Leben Ruhe.</p>"
+            "title": "bis zu 465m² Nahtfreie Verarbeitung",
+            "text": "<p>Wir konfektionieren und liefern die EPDM Dachfolie nach Ihren Bedürfnissen. Wählen Sie aus mehr als <strong>9.400 möglichen Maßen!</strong></p>"
           }
         }
       },
