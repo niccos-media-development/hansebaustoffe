@@ -182,7 +182,7 @@ Index Map: {{ index_map }}
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" media="only screen and (min-width: 769px)">
   </head>
 
-<div id="customerPopup" class="popup">
+  <div id="customerPopup" class="popup">
     <div class="popup-content">
         <img src="https://cdn.shopify.com/s/files/1/0872/5594/1462/files/Logo_1.png?v=1735641498" alt="Hanse Syntec Systems Logo" style="max-width: 200px;">
         <h2>Herzlich Willkommen!</h2>
@@ -195,7 +195,7 @@ Index Map: {{ index_map }}
     </div>
 </div>
 
-<div id="popupIcon" class="popup-icon" style="display: none;">
+<div id="popupIcon" class="popup-icon">
     <img src="https://cdn.shopify.com/s/files/1/0872/5594/1462/files/Kundengruppe_Icon_500x500px_weiss.png?v=1742396144" alt="Handwerker-Symbol" style="width: 40px; height: 40px; border-radius: 50%; overflow: hidden;">
 </div>
 
@@ -243,7 +243,7 @@ Index Map: {{ index_map }}
         bottom: 20px;
         right: 20px;
         cursor: pointer;
-        z-index: 999;
+        z-index: 9999;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -257,9 +257,13 @@ Index Map: {{ index_map }}
         const privateCustomerBtn = document.getElementById("privateCustomer");
         const businessCustomerBtn = document.getElementById("businessCustomer");
 
+        // Sicherstellen, dass das Icon auf allen Seiten sichtbar bleibt
+        popupIcon.style.display = "block";
+
         // Prüfen, ob das Pop-up bereits geschlossen wurde
         if (!sessionStorage.getItem("popupClosed")) {
             popup.style.display = "block";
+            popupIcon.style.display = "none";
         }
 
         privateCustomerBtn.addEventListener("click", function () {
