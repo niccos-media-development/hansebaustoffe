@@ -17,6 +17,59 @@
         "hide_heading": false
       }
     },
+    "features_GpA3jx": {
+      "type": "features",
+      "blocks": {
+        "feature_agU4gT": {
+          "type": "feature",
+          "settings": {
+            "icon": "",
+            "title": "20 Jahre Materialgarantie",
+            "text": "<p>Wir sind von der Qualität unserer EPDM Dachfolie überzeugt! Profitieren Sie von der <strong>DACHPROTECT Materialgarantie.</strong></p>"
+          }
+        },
+        "feature_JdW7b7": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "Beste Beratung",
+            "text": "<p>Bei uns beraten Sie <strong>praxiserfahrene Mitarbeiter</strong>, die DACHPROTECT EPDM nicht nur in der Theorie verlegen können.</p>"
+          }
+        },
+        "feature_87ChLq": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "bis zu 465m² Nahtfreie Verarbeitung",
+            "text": "<p>Wir konfektionieren und liefern die EPDM Dachfolie nach Ihren Bedürfnissen. Wählen Sie aus mehr als <strong>9.400 möglichen Maßen!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_agU4gT",
+        "feature_JdW7b7",
+        "feature_87ChLq"
+      ],
+      "settings": {
+        "inline": false,
+        "stack_on_mobile": true,
+        "auto_rotate": false,
+        "icon_size": "small",
+        "color_scheme": "background-2",
+        "background_color": "#f3f3f3",
+        "text_color": "#ffaa32",
+        "spacing_top": 26,
+        "spacing_top_mobile": 40,
+        "spacing_bottom": 26,
+        "spacing_bottom_mobile": 40,
+        "heading_font_size": "--font-h4-size",
+        "heading_font_size_mobile": "--font-h4-size",
+        "text_font_size": "--font-body3-size",
+        "text_font_size_mobile": "--font-body3-size",
+        "icon_size_desktop": 24,
+        "icon_size_mobile": 20
+      }
+    },
     "media_with_text_r3WRVr": {
       "type": "media-with-text",
       "blocks": {
@@ -111,59 +164,6 @@
         "section_background": "#ffffff",
         "mobile_spacing_top": 40,
         "mobile_spacing_bottom": 40
-      }
-    },
-    "features_GpA3jx": {
-      "type": "features",
-      "blocks": {
-        "feature_agU4gT": {
-          "type": "feature",
-          "settings": {
-            "icon": "",
-            "title": "20 Jahre Materialgarantie",
-            "text": "<p>Wir sind von der Qualität unserer EPDM Dachfolie überzeugt! Profitieren Sie von der <strong>DACHPROTECT Materialgarantie.</strong></p>"
-          }
-        },
-        "feature_JdW7b7": {
-          "type": "feature",
-          "settings": {
-            "icon": "check",
-            "title": "Beste Beratung",
-            "text": "<p>Bei uns beraten Sie <strong>praxiserfahrene Mitarbeiter</strong>, die DACHPROTECT EPDM nicht nur in der Theorie verlegen können.</p>"
-          }
-        },
-        "feature_87ChLq": {
-          "type": "feature",
-          "settings": {
-            "icon": "check",
-            "title": "bis zu 465m² Nahtfreie Verarbeitung",
-            "text": "<p>Wir konfektionieren und liefern die EPDM Dachfolie nach Ihren Bedürfnissen. Wählen Sie aus mehr als <strong>9.400 möglichen Maßen!</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "feature_agU4gT",
-        "feature_JdW7b7",
-        "feature_87ChLq"
-      ],
-      "settings": {
-        "inline": false,
-        "stack_on_mobile": true,
-        "auto_rotate": false,
-        "icon_size": "small",
-        "color_scheme": "background-2",
-        "background_color": "#f3f3f3",
-        "text_color": "#ffaa32",
-        "spacing_top": 26,
-        "spacing_top_mobile": 40,
-        "spacing_bottom": 26,
-        "spacing_bottom_mobile": 40,
-        "heading_font_size": "--font-h4-size",
-        "heading_font_size_mobile": "--font-h4-size",
-        "text_font_size": "--font-body3-size",
-        "text_font_size_mobile": "--font-body3-size",
-        "icon_size_desktop": 24,
-        "icon_size_mobile": 20
       }
     },
     "expandable_LjzVrn": {
@@ -345,9 +345,9 @@
   },
   "order": [
     "main",
+    "features_GpA3jx",
     "media_with_text_r3WRVr",
     "media_with_text_GVKHYg",
-    "features_GpA3jx",
     "expandable_LjzVrn",
     "image_banners_VaU7Dq"
   ]
