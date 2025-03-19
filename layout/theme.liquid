@@ -181,6 +181,105 @@ Index Map: {{ index_map }}
 
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" media="only screen and (min-width: 769px)">
   </head>
+<div id="customerPopup" class="popup">
+    <div class="popup-content">
+        <img src="https://cdn.shopify.com/s/files/1/0872/5594/1462/files/Logo_1.png?v=1735641498" alt="Hanse Syntec Systems Logo" style="max-width: 200px;">
+        <h2>Herzlich Willkommen!</h2>
+        <p>
+            Sind Sie Privatkunde oder gewerblicher Verarbeiter/Händler?<br> Wählen Sie Ihre Kundengruppe, um zum richtigen Shop zu gelangen. 
+            <br><br>Noch nicht registriert?<br> Informieren Sie sich im Privatkundenshop und stellen Sie dort eine Gewerbekunden-Anfrage.
+        </p>
+        <button id="privateCustomer">Privatkunde</button>
+        <button id="businessCustomer">Verarbeiter / Händler</button>
+    </div>
+</div>
+
+<div id="popupIcon" class="popup-icon" style="display: none;">
+    <img src="https://cdn.shopify.com/s/files/1/0872/5594/1462/files/Kundengruppe_Icon_500x500px.png?v=1742394229" alt="Handwerker-Symbol" style="width: 40px; height: 40px; border-radius: 50%; overflow: hidden;">
+</div>
+
+<style>
+    .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #1a1a1a;
+        color: white;
+        padding: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        display: none;
+        text-align: center;
+        border-radius: 8px;
+    }
+
+    .popup-content h2 {
+        color: #FFA500;
+    }
+
+    .popup-content p {
+        color: white;
+    }
+
+    .popup-content button {
+        background: #FFA500;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .popup-content button:hover {
+        background: #ff8c00;
+    }
+
+    .popup-icon {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #FFA500;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const popup = document.getElementById("customerPopup");
+        const popupIcon = document.getElementById("popupIcon");
+        const privateCustomerBtn = document.getElementById("privateCustomer");
+        const businessCustomerBtn = document.getElementById("businessCustomer");
+
+        // Prüfen, ob das Pop-up bereits geschlossen wurde
+        if (!sessionStorage.getItem("popupClosed")) {
+            popup.style.display = "block";
+        }
+
+        privateCustomerBtn.addEventListener("click", function () {
+            popup.style.display = "none";
+            sessionStorage.setItem("popupClosed", "true");
+            popupIcon.style.display = "block";
+        });
+
+        businessCustomerBtn.addEventListener("click", function () {
+            window.location.href = "https://b2b.hanse-syntec.de/";
+        });
+
+        popupIcon.addEventListener("click", function () {
+            popup.style.display = "block";
+            popupIcon.style.display = "none";
+        });
+    });
+</script>
 
   <body class="template-{{ template.name }} setting-buttons-{{ settings.buttons_style }} settings-remove-ribbons-{{ settings.remove_card_ribbon }}">
     <a
