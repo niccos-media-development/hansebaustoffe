@@ -182,7 +182,7 @@ Index Map: {{ index_map }}
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" media="only screen and (min-width: 769px)">
   </head>
 
- <div id="customerPopup" class="popup">
+<div id="customerPopup" class="popup">
     <div class="popup-content">
         <img src="https://cdn.shopify.com/s/files/1/0872/5594/1462/files/Logo_1.png?v=1735641498" alt="Hanse Syntec Systems Logo" style="max-width: 200px;">
         <h2>Herzlich Willkommen!</h2>
@@ -195,7 +195,7 @@ Index Map: {{ index_map }}
     </div>
 </div>
 
-<div id="popupIcon" class="popup-icon">
+<div id="popupIcon" class="popup-icon" style="display: none;">
     <img src="https://cdn.shopify.com/s/files/1/0872/5594/1462/files/Kundengruppe_Icon_500x500px.png?v=1742394229" alt="Handwerker-Symbol" style="width: 40px; height: 40px; border-radius: 50%; overflow: hidden;">
 </div>
 
@@ -213,12 +213,6 @@ Index Map: {{ index_map }}
         display: none;
         text-align: center;
         border-radius: 8px;
-        max-width: 400px;
-        width: 90%;
-    }
-
-    .popup-content {
-        padding: 20px;
     }
 
     .popup-content h2 {
@@ -248,8 +242,6 @@ Index Map: {{ index_map }}
         position: fixed;
         bottom: 20px;
         right: 20px;
-        padding: 10px;
-        border-radius: 50%;
         cursor: pointer;
         z-index: 999;
         display: flex;
