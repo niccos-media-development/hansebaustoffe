@@ -61,6 +61,58 @@
         "mobile_spacing_bottom": 40
       }
     },
+    "media_with_text_GVKHYg": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_xVY6pm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Warum DACHPROTECT?",
+            "heading_font_size": "--font-h2-size",
+            "heading_font_size_mobile": "--font-h3-size"
+          }
+        },
+        "text_KGXic4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wer eine zuverlässige, wartungsfreie und langlebige Abdichtungslösung sucht, setzt auf <strong>DACHPROTECT EPDM Dachfolie</strong>. Mit einer <strong>Lebensdauer von über 50 Jahren</strong> bietet sie einen entscheidenden Vorteil gegenüber herkömmlichen Materialien wie z.B. Bitumen. Sie ist extrem widerstandsfähig gegen UV-Strahlung, Ozon und Witterungseinflüsse – ohne zu verspröden oder an Elastizität zu verlieren.</p><p>Über <strong>50.000 zufriedene Kunden</strong> vertrauen bereits auf DACHPROTECT – ein Beweis für die Qualität und Langlebigkeit unserer Produkte. Die hohe Beständigkeit der Folie wurde nicht nur durch jahrzehntelange Praxiserfahrungen, sondern auch durch eine unabhängige <strong>Studie des SKZ Würzburg</strong> bestätigt. Einmal fachgerecht verlegt, bleibt das Dach zuverlässig dicht – ganz ohne aufwendige Wartung oder teure Reparaturen.</p><p>Ob für <strong>Carports, Garagen, Gartenhäuser oder gewerbliche Bauten</strong> – DACHPROTECT steht für eine sichere, nachhaltige und wirtschaftliche Lösung, die höchsten Anforderungen gerecht wird.</p>",
+            "text_font_size": "--font-body-scale-small",
+            "text_font_size_mobile": "--font-body-scale"
+          }
+        },
+        "button_X6b79f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Produkt",
+            "button_link": "shopify://products/variants-for-epdm-dachfolie-schwarz-part-4-101"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xVY6pm",
+        "text_KGXic4",
+        "button_X6b79f"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_033_1300x1000_23_1.jpg",
+        "video_url": "",
+        "layout": "media_first",
+        "desktop_content_alignment": "left",
+        "spacing_top": 6,
+        "spacing_bottom": 26,
+        "blocks_gap": 32,
+        "content_padding": 0,
+        "text_background": "#ffffff",
+        "vertical_alignment": "start",
+        "heading_font_size": "--font-h2-size",
+        "heading_font_size_mobile": "--font-h3-size",
+        "content_font_size": "--font-body2-size",
+        "content_font_size_mobile": "--font-body1-size",
+        "section_background": "#ffffff",
+        "mobile_spacing_top": 40,
+        "mobile_spacing_bottom": 40
+      }
+    },
     "features_GpA3jx": {
       "type": "features",
       "blocks": {
@@ -112,58 +164,6 @@
         "text_font_size_mobile": "--font-body3-size",
         "icon_size_desktop": 24,
         "icon_size_mobile": 20
-      }
-    },
-    "media_with_text_GVKHYg": {
-      "type": "media-with-text",
-      "blocks": {
-        "heading_xVY6pm": {
-          "type": "heading",
-          "settings": {
-            "heading": "Warum DACHPROTECT?",
-            "heading_font_size": "--font-h2-size",
-            "heading_font_size_mobile": "--font-h3-size"
-          }
-        },
-        "text_KGXic4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wer eine zuverlässige, wartungsfreie und langlebige Abdichtungslösung sucht, setzt auf <strong>DACHPROTECT EPDM Dachfolie</strong>. Mit einer <strong>Lebensdauer von über 50 Jahren</strong> bietet sie einen entscheidenden Vorteil gegenüber herkömmlichen Materialien wie z.B. Bitumen. Sie ist extrem widerstandsfähig gegen UV-Strahlung, Ozon und Witterungseinflüsse – ohne zu verspröden oder an Elastizität zu verlieren.</p><p>Über <strong>50.000 zufriedene Kunden</strong> vertrauen bereits auf DACHPROTECT – ein Beweis für die Qualität und Langlebigkeit unserer Produkte. Die hohe Beständigkeit der Folie wurde nicht nur durch jahrzehntelange Praxiserfahrungen, sondern auch durch eine unabhängige <strong>Studie des SKZ Würzburg</strong> bestätigt. Einmal fachgerecht verlegt, bleibt das Dach zuverlässig dicht – ganz ohne aufwendige Wartung oder teure Reparaturen.</p><p>Ob für <strong>Carports, Garagen, Gartenhäuser oder gewerbliche Bauten</strong> – DACHPROTECT steht für eine sichere, nachhaltige und wirtschaftliche Lösung, die höchsten Anforderungen gerecht wird.</p>",
-            "text_font_size": "--font-body-scale-small",
-            "text_font_size_mobile": "--font-body-scale"
-          }
-        },
-        "button_X6b79f": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zum Produkt",
-            "button_link": "shopify://products/variants-for-epdm-dachfolie-schwarz-part-4-101"
-          }
-        }
-      },
-      "block_order": [
-        "heading_xVY6pm",
-        "text_KGXic4",
-        "button_X6b79f"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/DP_ZufriedeneMitarbeiter_033_1300x1000_23_1.jpg",
-        "video_url": "",
-        "layout": "media_first",
-        "desktop_content_alignment": "left",
-        "spacing_top": 6,
-        "spacing_bottom": 26,
-        "blocks_gap": 32,
-        "content_padding": 0,
-        "text_background": "#ffffff",
-        "vertical_alignment": "start",
-        "heading_font_size": "--font-h2-size",
-        "heading_font_size_mobile": "--font-h3-size",
-        "content_font_size": "--font-body2-size",
-        "content_font_size_mobile": "--font-body1-size",
-        "section_background": "#ffffff",
-        "mobile_spacing_top": 40,
-        "mobile_spacing_bottom": 40
       }
     },
     "expandable_LjzVrn": {
@@ -346,8 +346,8 @@
   "order": [
     "main",
     "media_with_text_r3WRVr",
-    "features_GpA3jx",
     "media_with_text_GVKHYg",
+    "features_GpA3jx",
     "expandable_LjzVrn",
     "image_banners_VaU7Dq"
   ]
