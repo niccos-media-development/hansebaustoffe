@@ -29,6 +29,7 @@
     "color_badge_limitedstock": "#bd6b1b",
     "color_badge_outofstock": "#922C2C",
     "color_badge_backorder": "#337239",
+    "custom_font": "wix-madefor-text",
     "typography_headings": "barlow_n4",
     "typography_headings_size": 100,
     "typography_h1_font": "barlow_n8",
