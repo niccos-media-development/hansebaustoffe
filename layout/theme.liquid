@@ -258,11 +258,9 @@ Index Map: {{ index_map }}
         const privateCustomerBtn = document.getElementById("privateCustomer");
         const businessCustomerBtn = document.getElementById("businessCustomer");
 
-        // Sicherstellen, dass das Icon auf allen Seiten sichtbar bleibt
-        popupIcon.style.display = "block";
+                popupIcon.style.display = "block";
 
-        // Prüfen, ob das Pop-up bereits geschlossen wurde
-        if (!sessionStorage.getItem("popupClosed")) {
+                if (!sessionStorage.getItem("popupClosed")) {
             popup.style.display = "block";
             popupIcon.style.display = "none";
         }
@@ -283,7 +281,6 @@ Index Map: {{ index_map }}
         });
     });
 </script>
-
 
   <body class="template-{{ template.name }} setting-buttons-{{ settings.buttons_style }} settings-remove-ribbons-{{ settings.remove_card_ribbon }}">
     <a
