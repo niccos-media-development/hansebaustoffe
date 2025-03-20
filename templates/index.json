@@ -499,9 +499,7 @@
     },
     "featured-collection-2": {
       "type": "featured-collection",
-      "custom_css": [
-        ".carousel-slider {animation: none !important; transition: none !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "collection": "",
         "products_to_show": 4,
