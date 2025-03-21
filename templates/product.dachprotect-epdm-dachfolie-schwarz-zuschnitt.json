@@ -412,7 +412,7 @@
           "settings": {
             "heading": "Welche Maße benötige ich für mein Projekt?",
             "icon": "arrow-right",
-            "text": "<p>Für ein einfaches Carport, eine Garage oder eine Gartenhütte empfehlen wir die Länge und Breite 20cm länger zu wählen.</p>",
+            "text": "<p>Bei der Auswahl der passenden EPDM Folie ist es wichtig zu wissen, dass <strong>Länge und Breite vertauscht werden können</strong>. Die <strong>Breiten</strong> sind in festen Maßen erhältlich, während sich die <strong>Länge flexibel in 0,10-m-Schritten bis zu 30,5 m</strong> konfigurieren lässt.</p><p><strong>So gehst du am besten vor:</strong></p><p><strong>Wähle zuerst die passende Breite</strong>, die deiner Dachfläche möglichst nahekommt.</p><p>Danach kannst du die benötigte Länge individuell auswählen.</p><p><strong>Tipp zur Planung:</strong><br/><br/>Ermittle die <strong>Nettodachfläche</strong> (ohne Überstände) und rechne zur Sicherheit <strong>jeweils 20 cm Zugabe in Länge und Breite</strong> ein. Diese Zugabe reicht in der Regel für einfache Konstruktionen wie Carports oder Gartenhäuser vollkommen aus.</p><p><strong>Wichtig bei hohen Attikas:</strong><br/><br/>Wenn dein Dach eine <strong>Attika</strong> (aufstehender Randabschluss) hat, muss deren <strong>Höhe zusätzlich mit eingerechnet</strong> werden – sowohl an der Länge als auch an der Breite. Plane hier pro Seite die entsprechende Höhe plus eventuell einen kleinen Puffer ein.</p><p><strong>Formel für einfache Dächer:</strong><br/><br/><strong>Bestellmaß = Nettolänge + 0,20 m</strong><br/><br/><strong>Bestellbreite = Nettobreite + 0,20 m</strong></p>",
             "expanded": false
           }
         },
@@ -420,7 +420,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Enter a descriptive title for this block",
-            "icon": "gift-wrap",
+            "icon": "arrow-right",
             "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
             "expanded": false
           }
@@ -429,7 +429,7 @@
           "type": "expandable",
           "settings": {
             "heading": "Enter a descriptive title for this block",
-            "icon": "globe",
+            "icon": "arrow-right",
             "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
             "expanded": false
           }
