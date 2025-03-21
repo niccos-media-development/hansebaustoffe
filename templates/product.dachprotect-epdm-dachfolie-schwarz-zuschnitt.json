@@ -154,14 +154,6 @@
             "expanded": false
           }
         },
-        "payment_image_D6FURY": {
-          "type": "payment_image",
-          "disabled": true,
-          "settings": {
-            "payment_image": "shopify://shop_images/Frame_15_1_aa2a8bc9-ec91-4e41-b9b7-7b7b317a626e.svg",
-            "image_size": "large"
-          }
-        },
         "availability": {
           "type": "availability",
           "settings": {}
@@ -246,7 +238,6 @@
         "buy_buttons",
         "custom_liquid_wbYAGB",
         "custom_liquid_87nTTC",
-        "payment_image_D6FURY",
         "availability",
         "extra_93b64f",
         "description",
@@ -409,6 +400,52 @@
         "columns": 2,
         "stack_on_mobile": false,
         "color_scheme": "accent-3",
+        "spacing_top": 20,
+        "spacing_bottom": 20
+      }
+    },
+    "expandable_qRbtbw": {
+      "type": "expandable",
+      "blocks": {
+        "expandable_kMWq3f": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Welche Maße benötige ich für mein Projekt?",
+            "icon": "arrow-right",
+            "text": "<p>Für ein einfaches Carport, eine Garage oder eine Gartenhütte empfehlen wir die Länge und Breite 20cm länger zu wählen.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_xbmKag": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "gift-wrap",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        },
+        "expandable_xqnqxq": {
+          "type": "expandable",
+          "settings": {
+            "heading": "Enter a descriptive title for this block",
+            "icon": "globe",
+            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "expanded": false
+          }
+        }
+      },
+      "block_order": [
+        "expandable_kMWq3f",
+        "expandable_xbmKag",
+        "expandable_xqnqxq"
+      ],
+      "settings": {
+        "narrow": true,
+        "heading": "Tipps & Tricks für die Konfiguration",
+        "subheading": "",
+        "heading_alignment": "left",
+        "color_scheme": "background-1",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
@@ -695,6 +732,7 @@
     "featured_collection_k8t9RF",
     "rich_text_fR6cKA",
     "image_banners_GjHqUN",
+    "expandable_qRbtbw",
     "product_lists_D7wK8m",
     "rich_text_Lqai7f",
     "image_banners_J8h8Fk",
