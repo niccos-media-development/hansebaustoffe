@@ -440,12 +440,17 @@
         "expandable_xbmKag",
         "expandable_xqnqxq"
       ],
+      "custom_css": [
+        "* {color: #000000;}",
+        "h1,h2,h3,h4,h5,h6 {color: #000000;}",
+        "a:hover,span:hover {color: #ffa500;}"
+      ],
       "settings": {
         "narrow": true,
         "heading": "Tipps & Tricks für die Konfiguration",
         "subheading": "",
         "heading_alignment": "left",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "spacing_top": 20,
         "spacing_bottom": 20
       }
