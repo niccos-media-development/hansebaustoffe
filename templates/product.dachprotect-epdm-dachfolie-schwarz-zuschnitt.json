@@ -419,16 +419,16 @@
         "expandable_xbmKag": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Welchen Klebstoff für die Flächenverklebung?",
             "icon": "arrow-right",
-            "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
+            "text": "",
             "expanded": false
           }
         },
         "expandable_xqnqxq": {
           "type": "expandable",
           "settings": {
-            "heading": "Enter a descriptive title for this block",
+            "heading": "Welchen Klebstoff für Randbereiche und Hochzüge?",
             "icon": "arrow-right",
             "text": "<p>Use this area to provide additional textual information about this expandable block.</p>",
             "expanded": false
